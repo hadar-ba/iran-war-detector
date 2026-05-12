@@ -55,18 +55,23 @@ Quantitative similarity analysis between current 21-day news periods and histori
 
 Similarity to any `PRE_*` period > **70%** → prominent warning in report. Provisional; revisit after Stage 7 calibration.
 
+## Launch set (6 periods)
+
+PRE_APR24, PRE_OCT24, PRE_JUN25, PRE_FEB26, POST_FEB26, QUIET_JAN26.
+Remaining 5 periods (POST_APR24, POST_OCT24, POST_JUN25, QUIET_FEB25, QUIET_SEP25) added later.
+
 ## Implementation stages
 
 | Stage | Description | Status |
 |-------|-------------|--------|
 | 0 | Infrastructure setup | ✅ Done |
-| 1 | GDELT coverage sanity check | Pending |
-| 2 | Volume timelines | Pending |
+| 1 | GDELT coverage sanity check | ✅ Done (6-period launch set) |
+| 2 | Volume timelines | ⏭ Skipped (generated as part of analysis output) |
 | 3 | `gdelt_client.py` | Pending |
 | 4 | `period_extractor.py` | Pending |
-| 5 | Compute all reference vectors | Pending |
+| 5 | Compute reference vectors (6 periods) | Pending |
 | 6 | `similarity_engine.py` | Pending |
-| 7 | Calibration | Pending |
+| 7 | Calibration | ⏭ Skipped (use spec weights) |
 | 8 | GitHub Actions workflow | Pending |
 | 9 | First real run | Pending |
 
