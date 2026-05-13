@@ -1,0 +1,23 @@
+{
+  "period_id": "PRE_OCT24",
+  "start": "20240910000000",
+  "end": "20240930235959",
+  "extracted_at": "2026-05-13T07:18:31.370873+00:00",
+  "volume_total": 19.4934,
+  "volume_mean_daily": 0.9283,
+  "volume_peak": 2.8118,
+  "days_active": 21,
+  "articles_en": 250,
+  "articles_he": 250,
+  "articles_fa": 250,
+  "confluence_score": 1.0,
+  "unique_domains_en": 159,
+  "unique_domains_he": 159,
+  "unique_domains_fa": 159,
+  "unique_domains_total": 159,
+  "tone_mean": -4.5236,
+  "tone_min": -5.5712,
+  "tone_max": -3.5969,
+  "silent_signals": null,
+  "errors": []
+}
