@@ -17,6 +17,8 @@ UI_HISTORY    = os.path.join(UI_DATA_DIR, "history.json")
 WARN_THRESHOLD   = 0.70
 YELLOW_THRESHOLD = 0.50
 HISTORY_MAX      = 60
+# volume, tone, artlist/en, artlist/he, artlist/fa
+_GDELT_CALLS_PER_WINDOW = 5
 
 # Verbose labels for the internal markdown report
 PERIOD_LABELS = {
@@ -98,6 +100,12 @@ def _best_match(similarities: list[dict]) -> tuple[str | None, float]:
         return None, 0.0
     best = max(similarities, key=lambda s: s["composite_score"])
     return best["reference_id"], best["composite_score"]
+
+
+def _is_corrupted(current: dict) -> bool:
+    """True if more than half the GDELT calls for this window returned 429."""
+    n_429 = sum(1 for e in current.get("errors", []) if "429" in str(e))
+    return n_429 > _GDELT_CALLS_PER_WINDOW / 2
 
 
 def _fmt_signal(sig: dict) -> dict | None:
@@ -215,6 +223,13 @@ def write_ui_json(
     current_21: dict, similarities_21: list[dict],
     signals: list[dict],
 ) -> None:
+    # Refuse to overwrite good data with an all-429 run
+    if _is_corrupted(current_7):
+        n = sum(1 for e in current_7.get("errors", []) if "429" in str(e))
+        print(f"[SKIP] {n}/{_GDELT_CALLS_PER_WINDOW} 7d GDELT calls rate-limited — "
+              f"not overwriting dashboard JSON.", flush=True)
+        return
+
     os.makedirs(UI_DATA_DIR, exist_ok=True)
     now = datetime.now(timezone.utc)
 
@@ -285,7 +300,8 @@ def write_ui_json(
 # ---------------------------------------------------------------------------
 
 def save_run(current_21: dict, similarities_21: list[dict],
-             current_7: dict, similarities_7: list[dict]) -> str:
+             current_7: dict, similarities_7: list[dict],
+             signals: list[dict] | None = None) -> str:
     os.makedirs(RESULTS_DIR, exist_ok=True)
     now   = datetime.now(timezone.utc)
     fname = now.strftime("%Y-%m-%d_%H") + ".json"
@@ -294,6 +310,7 @@ def save_run(current_21: dict, similarities_21: list[dict],
         "run_at": now.isoformat(),
         "window_21d": {"current": current_21, "similarities": similarities_21},
         "window_7d":  {"current": current_7,  "similarities": similarities_7},
+        "signals":    signals or [],
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)

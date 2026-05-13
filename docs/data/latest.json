@@ -1,13 +1,13 @@
 {
-  "timestamp_utc": "2026-05-13T10:52:48.483527+00:00",
-  "status": "green",
-  "score_short": 46,
-  "score_long": 74,
-  "score_jump": -37,
-  "headline_he": "החדשות השבוע מתנהגות כמו בתקופה רגועה",
-  "headline_en": "News this week looks like a calm period",
-  "context_he": "החדשות מתנהגות כרגיל. אין עלייה חריגה בנושאים שבדרך כלל מאותתים על הסלמה.",
-  "context_en": "News is behaving normally. No unusual spikes in topics that typically signal escalation.",
+  "timestamp_utc": "2026-05-13T09:02:56.619133+00:00",
+  "status": "red",
+  "score_short": 83,
+  "score_long": 94,
+  "score_jump": 21,
+  "headline_he": "החדשות השבוע מתחילות להידמות לתקופה שלפני 'שאגת הארי'",
+  "headline_en": "News this week is starting to resemble the period before Operation Lion's Roar",
+  "context_he": "השבוע, כתבות על הצהרות חמינאי קפצו ל-50 — פי 17 מהרמה הרגילה. הדמיון הכולל לתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) עומד על 83%.",
+  "context_en": "This week, coverage of Khamenei statements jumped to 50 articles — 17× above the usual level. Overall similarity to the period before Operation Lion's Roar (February 2026) stands at 83%.",
   "trend_14d": [
     {
       "date": "2026-05-13",
