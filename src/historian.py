@@ -5,7 +5,7 @@ docs/data/latest.json + docs/data/history.json for the public dashboard.
 
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 _REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RESULTS_DIR   = os.path.join(_REPO_ROOT, "data", "results")
@@ -316,18 +316,24 @@ def write_data_json(
     score_21 = round(max_pre_21 * 100)
     status   = _status(max_pre_7)
 
-    # Delta from the previous run (second-to-last entry; last entry is the one
-    # just written by write_ui_json, which reflects the current score)
+    # Load history.json once — used for delta, 7-day avg, and trend
+    hist_runs: list = []
     prev_score = None
+    avg_7day = None
     if os.path.exists(UI_HISTORY):
         try:
-            hist = json.loads(open(UI_HISTORY, encoding="utf-8").read())
-            runs = hist.get("runs", [])
-            if len(runs) >= 2:
-                prev_score = runs[-2].get("headline_score_7day")
+            hist_data = json.loads(open(UI_HISTORY, encoding="utf-8").read())
+            hist_runs = hist_data.get("runs", [])
+            # Delta: second-to-last entry (last = current run just written by write_ui_json)
+            if len(hist_runs) >= 2:
+                prev_score = hist_runs[-2].get("headline_score_7day")
+            # 7-day average: all runs within the last 7 days
+            cutoff = (now - timedelta(days=7)).isoformat()[:19]
+            recent = [r for r in hist_runs if r.get("timestamp_utc", "") >= cutoff]
+            if recent:
+                avg_7day = round(sum(r["headline_score_7day"] for r in recent) / len(recent))
         except Exception:
             pass
-    delta = (score_7 - prev_score) if prev_score is not None else None
 
     # Signals
     signals_out = []
@@ -398,14 +404,7 @@ def write_data_json(
         if len(today_events) >= 3:
             break
 
-    # Trend from history.json — use full timestamp so JS can show time when same-day
-    hist_runs: list = []
-    if os.path.exists(UI_HISTORY):
-        try:
-            hist_data = json.loads(open(UI_HISTORY, encoding="utf-8").read())
-            hist_runs = hist_data.get("runs", [])
-        except Exception:
-            pass
+    # Trend from history.json (already loaded above)
     week_trend  = [{"ts": r["timestamp_utc"], "score": r["headline_score_7day"]}
                    for r in hist_runs[-14:]]
     month_trend = [{"ts": r["timestamp_utc"], "score": r["headline_score_7day"]}
@@ -445,8 +444,8 @@ def write_data_json(
         "short_term": {
             "score":            score_7,
             "status_he":        _STATUS_HE.get(status, "מתוח"),
-            "delta_yesterday":  delta,
-            "yesterday_score":  prev_score,
+            "avg_7day":         avg_7day,
+            "delta_vs_avg":     (score_7 - avg_7day) if avg_7day is not None else None,
         },
         "archive_comparison": {
             "score":            score_21,

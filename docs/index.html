@@ -154,7 +154,7 @@
 
     <div class="metric-primary">
       <div class="metric-primary-body">
-        <div class="metric-label">דמיון לתקופות טרום-עימות · 7 ימים אחרונים</div>
+        <div class="metric-label">ציון עכשווי · לעומת ממוצע 7 הימים האחרונים</div>
         <div class="metric-value-row">
           <span class="metric-number" id="score-short"></span>
           <span class="metric-status" id="status-short"></span>
@@ -252,12 +252,14 @@
     var st = d.short_term || {};
     setText('score-short', st.score != null ? st.score + '%' : '—');
     setText('status-short', st.status_he || '');
-    if (st.delta_yesterday != null) {
-      var up = st.delta_yesterday > 0;
+    if (st.avg_7day != null) {
+      var diff = st.score - st.avg_7day;
+      var up = diff > 0;
+      var absD = Math.abs(diff);
+      var label = diff > 5 ? 'גבוה' : diff < -5 ? 'נמוך' : 'דומה';
       document.getElementById('delta-short').innerHTML =
         '<i class="ti ti-trending-' + (up ? 'up' : 'down') + '"></i>' +
-        '<span>' + esc(st.score) + '% ' + (up ? '↑' : '↓') +
-        ' מ-' + esc(st.yesterday_score) + '% אתמול</span>';
+        '<span>' + label + ' מממוצע 7 הימים האחרונים (' + esc(st.avg_7day) + '%) ב‏' + absD + ' נקודות</span>';
     }
 
     var ac = d.archive_comparison || {};
@@ -406,8 +408,8 @@
     }
 
     function render(view) {
-      if (view === 'week')       renderLine(trend.week  || [], 'ריצות ' + (trend.week||[]).length + ' בשבוע האחרון · ציר הזמן בשעות ישראל');
-      else if (view === 'month') renderLine(trend.month || [], 'ריצות ' + (trend.month||[]).length + ' בחודש האחרון · ציר הזמן בשעות ישראל');
+      if (view === 'week')       renderLine(trend.week  || [], (trend.week||[]).length + ' ריצות בשבוע האחרון · ציר הזמן בשעות ישראל');
+      else if (view === 'month') renderLine(trend.month || [], (trend.month||[]).length + ' ריצות בחודש האחרון · ציר הזמן בשעות ישראל');
       else                       renderBars(trend.comparison_bars || []);
     }
 
