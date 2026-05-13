@@ -1,32 +1,333 @@
 {
-  "timestamp_utc": "2026-05-13T09:02:56.619133+00:00",
-  "status": "red",
-  "score_short": 83,
-  "score_long": 94,
-  "score_jump": 21,
-  "headline_he": "החדשות השבוע מתחילות להידמות לתקופה שלפני 'שאגת הארי'",
-  "headline_en": "News this week is starting to resemble the period before Operation Lion's Roar",
-  "context_he": "השבוע, כתבות על הצהרות חמינאי קפצו ל-50 — פי 17 מהרמה הרגילה. הדמיון הכולל לתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) עומד על 83%.",
-  "context_en": "This week, coverage of Khamenei statements jumped to 50 articles — 17× above the usual level. Overall similarity to the period before Operation Lion's Roar (February 2026) stands at 83%.",
-  "trend_14d": [
-    {
-      "date": "2026-05-13",
-      "score": 62
-    },
-    {
-      "date": "2026-05-13",
-      "score": 83
-    }
-  ],
+  "timestamp_utc": "2026-05-13T08:35:38.173330+00:00",
+  "status": "yellow",
+  "headline_score_7day": 62,
+  "headline_score_21day": 95,
+  "score_jump": null,
+  "closest_pre_period_7day": "PRE_FEB26",
+  "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
+  "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
+  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
+  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). 4 monitored signal(s) are elevated. The 21-day picture is similar at 95% similarity to the period before Iran's October 2024 missile barrage.",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). 4 סיגנל/ים מנוטרים מוגברים. התמונה ל-21 יום דומה עם 95% דמיון להתקופה שלפני מטח הטילים האיראני (אוקטובר 2024).",
   "signals": [
     {
+      "id": "diplomatic_breakdown",
+      "intensity": "high",
+      "name_en": "Diplomatic breakdown signals",
+      "name_he": "סיגנלי קריסה דיפלומטית",
+      "description_en": "Reports of stalled negotiations, ultimatums, or diplomatic breakdowns",
+      "description_he": "דיווחים על קריסת משא ומתן, אולטימטומים, או פריצת יחסים דיפלומטיים",
+      "count_current": 50,
+      "count_baseline_avg": 4,
+      "error": null,
+      "example_urls": [
+        "https://aa.com.tr/en/world/iran-sends-pakistan-its-response-to-us-proposal-on-ending-war/3933099",
+        "https://news.ifeng.com/c/8t2vMbp5noZ",
+        "https://www.rawstory.com/iran-war-2676873399/"
+      ]
+    },
+    {
       "id": "supreme_leader",
-      "intensity": "red",
-      "name_he": "הצהרות חמינאי",
-      "name_en": "Khamenei statements",
-      "count_this_week": 50,
-      "baseline_avg": 3
+      "intensity": "high",
+      "name_en": "Iranian leadership statements",
+      "name_he": "הצהרות ההנהגה האיראנית",
+      "description_en": "Statements by Iran's Supreme Leader referencing Israel",
+      "description_he": "הצהרות המנהיג העליון של איראן המתייחסות לישראל",
+      "count_current": 50,
+      "count_baseline_avg": 3,
+      "error": null,
+      "example_urls": [
+        "https://www.haberts.com/benzine-zam-lpgye-indirim-geldi",
+        "https://www.digi24.ro/stiri/externe/mapamond/presedintele-iranului-sustine-ca-s-a-intalnit-cu-mojtaba-khamenei-ce-l-a-impresionat-cel-mai-mult-in-cadrul-intrevederii-3760223",
+        "https://www.yeniakit.com.tr/haber/pezeskiyan-kamuoyu-onune-cikmayan-mucteba-hamaney-ile-gorustugunu-acikladi-2000311.html"
+      ]
+    },
+    {
+      "id": "trump_china",
+      "intensity": "high",
+      "name_en": "US-China diplomatic activity",
+      "name_he": "פעילות דיפלומטית של ארה\"ב-סין",
+      "description_en": "Trump/US-China diplomatic moves related to the Iran-Israel dynamic",
+      "description_he": "מהלכים דיפלומטיים של טראמפ/ארה\"ב-סין בהקשר ישראל-איראן",
+      "count_current": 50,
+      "count_baseline_avg": 2,
+      "error": null,
+      "example_urls": [
+        "https://military.china.com/news/13004177/20260508/49479232.html",
+        "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1224155-0/",
+        "https://news.ifeng.com/c/8szVuY6ACnb"
+      ]
+    },
+    {
+      "id": "military_strike",
+      "intensity": "high",
+      "name_en": "Military action indicators",
+      "name_he": "מדדי פעילות צבאית",
+      "description_en": "Reports of strikes, missile activity, or military escalation",
+      "description_he": "דיווחים על תקיפות, פעילות טילים, או הסלמה צבאית",
+      "count_current": 50,
+      "count_baseline_avg": 6,
+      "error": null,
+      "example_urls": [
+        "https://aninews.in/news/world/middle-east/uae-carried-out-covert-strikes-on-iran-during-west-asia-conflict-reports-wsj20260512131738/",
+        "https://www.thejournal.ie/israeli-strikes-lebanon-kill-at-least-17-7035788-May2026/",
+        "https://nypost.com/2026/05/12/world-news/saudi-arabia-launched-covert-attacks-on-iran-as-war-expands-sources-say/"
+      ]
     }
   ],
-  "data_partial": true
+  "comparison_table_7day": [
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.625,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.625,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.4712,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 1.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.4583,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.3046,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    }
+  ],
+  "comparison_table_21day": [
+    {
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.9468,
+      "is_pre_round": true,
+      "warn": true,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 1.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.9308,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.7917,
+      "is_pre_round": true,
+      "warn": true,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 1.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.296,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 0.0,
+        "source_diversity": 0.9487,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.173,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.7879,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.0417,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    }
+  ],
+  "current_metrics": {
+    "window_7d": {
+      "volume_total": 228.1907,
+      "volume_mean_daily": 1.3664,
+      "volume_peak": 2.7634,
+      "days_active": 167,
+      "articles_en": 0,
+      "articles_he": 0,
+      "articles_fa": 250,
+      "confluence_score": 0.0,
+      "unique_domains_total": 159,
+      "tone_mean": null
+    },
+    "window_21d": {
+      "volume_total": 32.5002,
+      "volume_mean_daily": 1.5476,
+      "volume_peak": 1.9837,
+      "days_active": 21,
+      "articles_en": 250,
+      "articles_he": 250,
+      "articles_fa": 250,
+      "confluence_score": 1.0,
+      "unique_domains_total": 148,
+      "tone_mean": null
+    }
+  },
+  "data_quality_notes": [
+    "Some features missing due to API rate limits (3 errors in 7d, 1 in 21d). Scores are provisional."
+  ]
 }

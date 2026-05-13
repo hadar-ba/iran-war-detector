@@ -63,7 +63,7 @@ def main():
         print(f"  [7d] {s['reference_id']:15s} {s['composite_score']:.1%}  ({s['reference_type']}){tag}", flush=True)
 
     # Persist
-    result_path = save_run(current_21, sims_21, current_7, sims_7, signals)
+    result_path = save_run(current_21, sims_21, current_7, sims_7)
     render_report(current_21, sims_21, current_7, sims_7)
     write_ui_json(current_7, sims_7, current_21, sims_21, signals)
 

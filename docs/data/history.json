@@ -5,12 +5,6 @@
       "headline_score_7day": 62,
       "headline_score_21day": 95,
       "status": "yellow"
-    },
-    {
-      "timestamp_utc": "2026-05-13T09:02:56.625247+00:00",
-      "score_short": 83,
-      "score_long": 94,
-      "status": "red"
     }
   ]
 }

@@ -16,11 +16,8 @@ UI_HISTORY    = os.path.join(UI_DATA_DIR, "history.json")
 
 WARN_THRESHOLD   = 0.70
 YELLOW_THRESHOLD = 0.50
-HISTORY_MAX      = 60
-# volume, tone, artlist/en, artlist/he, artlist/fa
-_GDELT_CALLS_PER_WINDOW = 5
+HISTORY_MAX      = 60   # keep last 60 runs (~30 days at 2×/day)
 
-# Verbose labels for the internal markdown report
 PERIOD_LABELS = {
     "PRE_APR24":  {"en": "the period before Iran's first direct attack on Israel (April 2024)",
                    "he": "התקופה שלפני המתקפה הישירה הראשונה של איראן על ישראל (אפריל 2024)"},
@@ -45,32 +42,6 @@ PERIOD_LABELS = {
     "QUIET_JAN26":{"en": "a relatively quiet period (January 2026)",
                    "he": "תקופה יחסית שקטה (ינואר 2026)"},
 }
-
-# Short names used in the one-sentence headline
-PERIOD_NAMES_SHORT = {
-    "PRE_APR24": {"he": "הסבב הראשון",       "en": "the first round"},
-    "PRE_OCT24": {"he": "סבב אוקטובר 2024",  "en": "the October 2024 round"},
-    "PRE_JUN25": {"he": "סבב יוני 2025",     "en": "the June 2025 round"},
-    "PRE_FEB26": {"he": "'שאגת הארי'",        "en": "Operation Lion's Roar"},
-}
-
-# Full names used in context paragraph
-PERIOD_NAMES_FULL = {
-    "PRE_APR24": {"he": "הסבב הראשון (אפריל 2024)",          "en": "the first round (April 2024)"},
-    "PRE_OCT24": {"he": "סבב אוקטובר 2024",                  "en": "the October 2024 round"},
-    "PRE_JUN25": {"he": "סבב יוני 2025",                     "en": "the June 2025 round"},
-    "PRE_FEB26": {"he": "מבצע 'שאגת הארי' (פברואר 2026)",    "en": "Operation Lion's Roar (February 2026)"},
-}
-
-# Clean, editorial-ready signal names (no jargon, sounds like Israeli news)
-SIGNAL_DISPLAY = {
-    "diplomatic_breakdown": {"he": "קריסת משא ומתן דיפלומטי", "en": "Diplomatic breakdown"},
-    "supreme_leader":       {"he": "הצהרות חמינאי",            "en": "Khamenei statements"},
-    "trump_china":          {"he": 'צעדים דיפלומטיים של ארה"ב', "en": "US diplomatic moves"},
-    "military_strike":      {"he": "פעילות צבאית באזור",        "en": "Military activity"},
-}
-
-_INTENSITY_COLOR = {"high": "red", "elevated": "yellow", "baseline": "green"}
 
 
 # ---------------------------------------------------------------------------
@@ -102,116 +73,75 @@ def _best_match(similarities: list[dict]) -> tuple[str | None, float]:
     return best["reference_id"], best["composite_score"]
 
 
-def _is_corrupted(current: dict) -> bool:
-    """True if more than half the GDELT calls for this window returned 429."""
-    n_429 = sum(1 for e in current.get("errors", []) if "429" in str(e))
-    return n_429 > _GDELT_CALLS_PER_WINDOW / 2
-
-
-def _fmt_signal(sig: dict) -> dict | None:
-    """Convert raw signal from signals.py to MVP dashboard format.
-    Returns None if count is 0/None or intensity is unknown."""
-    count = sig.get("count_current")
-    if count is None or count == 0:
-        return None
-    color = _INTENSITY_COLOR.get(sig.get("intensity", ""))
-    if not color:
-        return None
-    display = SIGNAL_DISPLAY.get(sig["id"], {})
-    return {
-        "id":             sig["id"],
-        "intensity":      color,
-        "name_he":        display.get("he") or sig.get("name_he", sig["id"]),
-        "name_en":        display.get("en") or sig.get("name_en", sig["id"]),
-        "count_this_week": count,
-        "baseline_avg":   sig.get("count_baseline_avg", 1),
-    }
-
-
 # ---------------------------------------------------------------------------
-# Narrative generation — editorial-style, no jargon
+# Narrative generation (template-based, no LLM)
 # ---------------------------------------------------------------------------
 
 def generate_narratives(
     status: str,
-    max_pre_7: float,
-    max_pre_21: float,
+    max_pre_7: float, max_pre_21: float,
     closest_pre_7: str | None,
-    signals_ui: list[dict],
+    closest_21: str | None,
+    spike: float,
+    signals: list[dict],
 ) -> dict:
     pct7  = round(max_pre_7  * 100)
     pct21 = round(max_pre_21 * 100)
+    label7_en = _period_label(closest_pre_7, "en") if closest_pre_7 else "any reference period"
+    label7_he = _period_label(closest_pre_7, "he") if closest_pre_7 else "אף תקופת ייחוס"
+    label21_en = _period_label(closest_21,   "en") if closest_21 else "a reference period"
+    label21_he = _period_label(closest_21,   "he") if closest_21 else "תקופת ייחוס"
 
-    short_he = PERIOD_NAMES_SHORT.get(closest_pre_7, {}).get("he", "")
-    short_en = PERIOD_NAMES_SHORT.get(closest_pre_7, {}).get("en", "")
-    full_he  = PERIOD_NAMES_FULL.get(closest_pre_7,  {}).get("he", "")
-    full_en  = PERIOD_NAMES_FULL.get(closest_pre_7,  {}).get("en", "")
+    high_sigs   = [s for s in signals if s["intensity"] == "high"]
+    elev_sigs   = [s for s in signals if s["intensity"] == "elevated"]
+    known_sigs  = [s for s in signals if s["intensity"] in ("high", "elevated", "baseline")]
+    spike_note_en = (f" The 7-day reading is {round(spike*100)} points above the 21-day baseline,"
+                     " suggesting a recent and rapid development."
+                     if spike > 0.10 else "")
+    spike_note_he = (f" הקריאה ל-7 ימים גבוהה ב-{round(spike*100)} נקודות מהבסיס ל-21 יום,"
+                     " מה שמצביע על התפתחות מהירה ועדכנית."
+                     if spike > 0.10 else "")
 
-    # ── One-sentence headline ─────────────────────────────────────────────────
-    if status == "red":
-        headline_he = (f"החדשות השבוע מתחילות להידמות לתקופה שלפני {short_he}"
-                       if short_he else f"החדשות השבוע דומות ב-{pct7}% לתקופות טרום-עימות")
-        headline_en = (f"News this week is starting to resemble the period before {short_en}"
-                       if short_en else f"News this week is {pct7}% similar to pre-conflict periods")
-    elif status == "yellow":
-        headline_he = "החדשות השבוע שונות מהשגרה, אבל לא ברמה של תקופה לפני סבב"
-        headline_en = "News this week is unusual, but not at pre-round levels"
-    else:
-        headline_he = "החדשות השבוע מתנהגות כמו בתקופה רגועה"
-        headline_en = "News this week looks like a calm period"
-
-    # ── Context paragraph (2–3 sentences, plain language) ────────────────────
-    red_sigs  = [s for s in signals_ui if s["intensity"] == "red"]
-    top_sig   = red_sigs[0] if red_sigs else (signals_ui[0] if signals_ui else None)
-
-    if status == "red":
-        if top_sig:
-            count   = top_sig["count_this_week"]
-            base    = max(1, top_sig.get("baseline_avg") or 1)
-            mult    = max(2, round(count / base))
-            name_he = top_sig["name_he"]
-            name_en = top_sig["name_en"]
-            target_he = full_he or "תקופות טרום-עימות"
-            target_en = full_en or "pre-conflict periods"
-            ctx_he = (f"השבוע, כתבות על {name_he} קפצו ל-{count} — "
-                      f"פי {mult} מהרמה הרגילה. "
-                      f"הדמיון הכולל לתקופה שלפני {target_he} עומד על {pct7}%.")
-            ctx_en = (f"This week, coverage of {name_en} jumped to {count} articles — "
-                      f"{mult}× above the usual level. "
-                      f"Overall similarity to the period before {target_en} stands at {pct7}%.")
-        else:
-            target_he = full_he or "תקופות טרום-עימות"
-            target_en = full_en or "pre-conflict periods"
-            ctx_he = (f"דפוסי הכיסוי התקשורתי ב-7 הימים האחרונים דומים מאוד "
-                      f"לתקופה שלפני {target_he} ({pct7}%). "
-                      f"גם ב-21 הימים האחרונים המגמה גבוהה ({pct21}%).")
-            ctx_en = (f"News coverage patterns over the last 7 days closely resemble "
-                      f"those before {target_en} ({pct7}%). "
-                      f"The 21-day picture is also elevated ({pct21}%).")
+    if status == "green":
+        sum_en = "News patterns are within the normal range — no elevated signals detected."
+        sum_he = "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים."
+        ctx_en = (f"In the last 7 days, news volume and tone resemble {label7_en or 'a quiet period'} "
+                  f"({pct7}% similarity). The 21-day picture is consistent: {pct21}% similarity to "
+                  f"{label21_en}. All monitored signals are at or near baseline.")
+        ctx_he = (f"ב-7 הימים האחרונים, נפח החדשות והטון דומים ל{label7_he or 'תקופה שקטה'} "
+                  f"({pct7}% דמיון). התמונה ל-21 יום עקבית: {pct21}% דמיון ל{label21_he}. "
+                  f"כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.")
 
     elif status == "yellow":
-        if top_sig:
-            name_he = top_sig["name_he"]
-            name_en = top_sig["name_en"]
-            ctx_he = (f"השבוע חל שינוי — כתבות על {name_he} מראות עלייה. "
-                      f"עדיין לא ברמת טרום-סבב, אבל כדאי לעקוב. "
-                      f"רמת הדמיון הנוכחית: {pct7}%.")
-            ctx_en = (f"This week shows a change — coverage of {name_en} is elevated. "
-                      f"Not yet at pre-round levels, but worth watching. "
-                      f"Current level: {pct7}%.")
-        else:
-            ctx_he = (f"השבוע החדשות שונות מהרגיל. "
-                      f"הדמיון לתקופות טרום-עימות עומד על {pct7}% — "
-                      f"גבוה מהרגיל, אבל מתחת לסף האזהרה של 70%.")
-            ctx_en = (f"This week's news is diverging from normal. "
-                      f"Similarity to pre-conflict periods is at {pct7}% — "
-                      f"above average, but below the 70% warning threshold.")
-    else:
-        ctx_he = "החדשות מתנהגות כרגיל. אין עלייה חריגה בנושאים שבדרך כלל מאותתים על הסלמה."
-        ctx_en = "News is behaving normally. No unusual spikes in topics that typically signal escalation."
+        sig_note_en = (f" {len(high_sigs + elev_sigs)} monitored signal(s) are elevated." if (high_sigs or elev_sigs) else "")
+        sig_note_he = (f" {len(high_sigs + elev_sigs)} סיגנל/ים מנוטרים מוגברים." if (high_sigs or elev_sigs) else "")
+        sum_en = f"Short-term patterns show borderline similarity to pre-conflict periods ({pct7}%)."
+        sum_he = f"דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות ({pct7}%)."
+        ctx_en = (f"In the last 7 days, news patterns are starting to resemble {label7_en} "
+                  f"({pct7}% similarity).{sig_note_en}{spike_note_en} "
+                  f"The 21-day picture is {'similar' if pct21 >= 50 else 'calmer'} at {pct21}% similarity to {label21_en}.")
+        ctx_he = (f"ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות ל{label7_he} "
+                  f"({pct7}% דמיון).{sig_note_he}{spike_note_he} "
+                  f"התמונה ל-21 יום {'דומה' if pct21 >= 50 else 'רגועה יותר'} עם {pct21}% דמיון ל{label21_he}.")
 
-    return {"headline_he": headline_he, "headline_en": headline_en,
-            "context_he":  ctx_he,      "context_en":  ctx_en}
+    else:  # red
+        sig_note_en = (f" {len(high_sigs)} signal(s) are at high intensity, {len(elev_sigs)} elevated." if known_sigs else "")
+        sig_note_he = (f" {len(high_sigs)} סיגנל/ים עם עוצמה גבוהה, {len(elev_sigs)} מוגברים." if known_sigs else "")
+        sum_en = (f"Short-term news patterns closely resemble {label7_en} "
+                  f"({pct7}% similarity). This exceeds the warning threshold.")
+        sum_he = (f"דפוסי החדשות לטווח קצר דומים מאוד ל{label7_he} "
+                  f"({pct7}% דמיון). זה חורג מסף האזהרה.")
+        ctx_en = (f"In the last 7 days, news coverage patterns closely match those observed before "
+                  f"{label7_en}.{sig_note_en}{spike_note_en} "
+                  f"The 21-day picture shows {pct21}% similarity to {label21_en} — "
+                  f"{'the elevated level has been building' if pct21 >= 50 else 'the recent spike is new and sharp'}.")
+        ctx_he = (f"ב-7 הימים האחרונים, דפוסי הכיסוי התקשורתי דומים מאוד לאלו שנצפו לפני "
+                  f"{label7_he}.{sig_note_he}{spike_note_he} "
+                  f"התמונה ל-21 יום מראה {pct21}% דמיון ל{label21_he} — "
+                  f"{'ההסלמה בנויה לאורך זמן' if pct21 >= 50 else 'הספייק האחרון חדש וחד'}.")
+
+    return {"summary_en": sum_en, "summary_he": sum_he,
+            "context_en": ctx_en, "context_he": ctx_he}
 
 
 # ---------------------------------------------------------------------------
@@ -223,85 +153,102 @@ def write_ui_json(
     current_21: dict, similarities_21: list[dict],
     signals: list[dict],
 ) -> None:
-    # Refuse to overwrite good data with an all-429 run
-    if _is_corrupted(current_7):
-        n = sum(1 for e in current_7.get("errors", []) if "429" in str(e))
-        print(f"[SKIP] {n}/{_GDELT_CALLS_PER_WINDOW} 7d GDELT calls rate-limited — "
-              f"not overwriting dashboard JSON.", flush=True)
-        return
-
     os.makedirs(UI_DATA_DIR, exist_ok=True)
     now = datetime.now(timezone.utc)
 
     closest_pre_7, max_pre_7   = _best_pre(similarities_7)
-    _,             max_pre_21  = _best_pre(similarities_21)
+    closest_pre_21, max_pre_21 = _best_pre(similarities_21)
+    closest_21, _              = _best_match(similarities_21)
+    spike  = max_pre_7 - max_pre_21
     status = _status(max_pre_7)
 
-    signals_ui = [s for s in (_fmt_signal(sig) for sig in signals) if s is not None]
+    narratives = generate_narratives(
+        status, max_pre_7, max_pre_21,
+        closest_pre_7, closest_21, spike, signals
+    )
 
-    narratives = generate_narratives(status, max_pre_7, max_pre_21, closest_pre_7, signals_ui)
-
-    # Load existing history for prev score + trend
-    hist_runs = []
+    # Read previous score for jump detection
+    prev_score = None
     if os.path.exists(UI_HISTORY):
         try:
-            hist_runs = json.loads(open(UI_HISTORY, encoding="utf-8").read()).get("runs", [])
+            hist = json.loads(open(UI_HISTORY, encoding="utf-8").read())
+            runs = hist.get("runs", [])
+            if runs:
+                prev_score = runs[-1].get("headline_score_7day")
         except Exception:
             pass
 
     score_7_pct  = round(max_pre_7  * 100)
     score_21_pct = round(max_pre_21 * 100)
-
-    # Backward-compat: old entries used headline_score_7day
-    prev = hist_runs[-1] if hist_runs else {}
-    prev_score = prev.get("score_short") if prev.get("score_short") is not None \
-                 else prev.get("headline_score_7day")
     jump = (score_7_pct - prev_score) if prev_score is not None else None
-
-    # Trend — last 14 entries, handle both old and new key names
-    trend_14d = []
-    for r in hist_runs[-14:]:
-        s = r.get("score_short") if r.get("score_short") is not None else r.get("headline_score_7day")
-        if s is not None:
-            trend_14d.append({"date": r["timestamp_utc"][:10], "score": s})
 
     latest = {
         "timestamp_utc": now.isoformat(),
-        "status":        status,
-        "score_short":   score_7_pct,
-        "score_long":    score_21_pct,
-        "score_jump":    jump,
-        "headline_he":   narratives["headline_he"],
-        "headline_en":   narratives["headline_en"],
-        "context_he":    narratives["context_he"],
-        "context_en":    narratives["context_en"],
-        "trend_14d":     trend_14d,
-        "signals":       signals_ui,
-        "data_partial":  bool(current_7.get("errors") or current_21.get("errors")),
+        "status": status,
+        "headline_score_7day":  score_7_pct,
+        "headline_score_21day": score_21_pct,
+        "score_jump": jump,
+        "closest_pre_period_7day": closest_pre_7,
+        "closest_pre_period_label_en": _period_label(closest_pre_7, "en"),
+        "closest_pre_period_label_he": _period_label(closest_pre_7, "he"),
+        "summary_en": narratives["summary_en"],
+        "summary_he": narratives["summary_he"],
+        "context_en": narratives["context_en"],
+        "context_he": narratives["context_he"],
+        "signals": signals,
+        "comparison_table_7day":  similarities_7,
+        "comparison_table_21day": similarities_21,
+        "current_metrics": {
+            "window_7d": {k: current_7.get(k) for k in (
+                "volume_total","volume_mean_daily","volume_peak","days_active",
+                "articles_en","articles_he","articles_fa","confluence_score",
+                "unique_domains_total","tone_mean")},
+            "window_21d": {k: current_21.get(k) for k in (
+                "volume_total","volume_mean_daily","volume_peak","days_active",
+                "articles_en","articles_he","articles_fa","confluence_score",
+                "unique_domains_total","tone_mean")},
+        },
+        "data_quality_notes": _quality_notes(current_7, current_21),
     }
     with open(UI_LATEST, "w", encoding="utf-8") as f:
         json.dump(latest, f, indent=2, ensure_ascii=False)
 
-    # Append to history
-    hist_runs.append({
+    # --- history.json ---
+    history_entry = {
         "timestamp_utc": now.isoformat(),
-        "score_short":   score_7_pct,
-        "score_long":    score_21_pct,
-        "status":        status,
-    })
-    if len(hist_runs) > HISTORY_MAX:
-        hist_runs = hist_runs[-HISTORY_MAX:]
+        "headline_score_7day":  score_7_pct,
+        "headline_score_21day": score_21_pct,
+        "status": status,
+    }
+    hist_data = {"runs": []}
+    if os.path.exists(UI_HISTORY):
+        try:
+            hist_data = json.loads(open(UI_HISTORY, encoding="utf-8").read())
+        except Exception:
+            pass
+    runs = hist_data.get("runs", [])
+    runs.append(history_entry)
+    if len(runs) > HISTORY_MAX:
+        runs = runs[-HISTORY_MAX:]
     with open(UI_HISTORY, "w", encoding="utf-8") as f:
-        json.dump({"runs": hist_runs}, f, indent=2, ensure_ascii=False)
+        json.dump({"runs": runs}, f, indent=2, ensure_ascii=False)
+
+
+def _quality_notes(current_7: dict, current_21: dict) -> list[str]:
+    notes = []
+    errs7  = current_7.get("errors",  [])
+    errs21 = current_21.get("errors", [])
+    if errs7 or errs21:
+        notes.append(f"Some features missing due to API rate limits ({len(errs7)} errors in 7d, {len(errs21)} in 21d). Scores are provisional.")
+    return notes
 
 
 # ---------------------------------------------------------------------------
-# save_run and render_report — unchanged
+# save_run and render_report (existing pipeline, unchanged shape)
 # ---------------------------------------------------------------------------
 
 def save_run(current_21: dict, similarities_21: list[dict],
-             current_7: dict, similarities_7: list[dict],
-             signals: list[dict] | None = None) -> str:
+             current_7: dict, similarities_7: list[dict]) -> str:
     os.makedirs(RESULTS_DIR, exist_ok=True)
     now   = datetime.now(timezone.utc)
     fname = now.strftime("%Y-%m-%d_%H") + ".json"
@@ -310,7 +257,6 @@ def save_run(current_21: dict, similarities_21: list[dict],
         "run_at": now.isoformat(),
         "window_21d": {"current": current_21, "similarities": similarities_21},
         "window_7d":  {"current": current_7,  "similarities": similarities_7},
-        "signals":    signals or [],
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
@@ -324,8 +270,8 @@ def render_report(current_21: dict, similarities_21: list[dict],
 
     max_pre_21 = max((s["composite_score"] for s in similarities_21 if s.get("is_pre_round")), default=0)
     max_pre_7  = max((s["composite_score"] for s in similarities_7  if s.get("is_pre_round")), default=0)
-    spike      = max_pre_7 - max_pre_21
-    any_warn   = any(s.get("warn") for s in similarities_21 + similarities_7)
+    spike  = max_pre_7 - max_pre_21
+    any_warn = any(s.get("warn") for s in similarities_21 + similarities_7)
 
     start21 = current_21.get("start", "")[:8]
     end21   = current_21.get("end",   "")[:8]
@@ -335,12 +281,13 @@ def render_report(current_21: dict, similarities_21: list[dict],
         "# Iran-Israel Conflict Pattern Detector",
         f"\n**Run:** {now_str}  |  **21-day:** {start21}–{end21}  |  **7-day:** {start7}–{end21}\n",
     ]
+
     if any_warn:
         lines.append("## Warning — High Similarity to Pre-Conflict Pattern\n")
     elif spike > 0.10:
         lines.append(f"## Short-Window Spike (+{round(spike*100)}%)\n")
     else:
-        lines.append("## Status: Normal\n")
+        lines.append(f"## Status: Normal\n")
 
     lines.append(f"21-day max pre: **{round(max_pre_21*100)}%** | 7-day max pre: **{round(max_pre_7*100)}%** | threshold: {round(WARN_THRESHOLD*100)}%\n")
 
