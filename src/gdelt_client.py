@@ -23,7 +23,7 @@ GDELT_BASE = "https://api.gdeltproject.org/api/v2/doc/doc"
 BASE_QUERY = "Iran AND Israel"
 LANGUAGES = ["english", "hebrew", "persian"]
 
-RATE_SLEEP = 7          # seconds between requests
+RATE_SLEEP = 15         # seconds between requests (conservative to avoid 429)
 CACHE_TTL_CURRENT = 6 * 3600   # 6 hours for current-period queries
 CACHE_TTL_REFERENCE = None      # never expire for reference period queries
 
@@ -69,7 +69,7 @@ def _cache_save(params: dict, data: dict) -> None:
 # Raw HTTP request with retry
 # ---------------------------------------------------------------------------
 
-def _gdelt_request(params: dict, retries: int = 4) -> tuple[dict | None, str | None]:
+def _gdelt_request(params: dict, retries: int = 2) -> tuple[dict | None, str | None]:
     """GET with 429-aware exponential backoff. Returns (data, error)."""
     for attempt in range(retries):
         try:

@@ -22,9 +22,7 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REF_DIR = os.path.join(REPO_ROOT, "data", "reference")
 
 LAUNCH_PERIODS = {
-    "PRE_APR24":  ("20240323000000", "20240412235959"),
-    "PRE_OCT24":  ("20240910000000", "20240930235959"),
-    "PRE_JUN25":  ("20250523000000", "20250612235959"),
+    # Minimum viable set for launch — other periods added incrementally
     "PRE_FEB26":  ("20260207000000", "20260227235959"),
     "POST_FEB26": ("20260415000000", "20260505235959"),
     "QUIET_JAN26":("20260101000000", "20260121235959"),

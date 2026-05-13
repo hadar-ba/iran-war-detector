@@ -55,10 +55,11 @@ Quantitative similarity analysis between current 21-day news periods and histori
 
 Similarity to any `PRE_*` period > **70%** → prominent warning in report. Provisional; revisit after Stage 7 calibration.
 
-## Launch set (6 periods)
+## Launch set (3 periods — minimum viable)
 
-PRE_APR24, PRE_OCT24, PRE_JUN25, PRE_FEB26, POST_FEB26, QUIET_JAN26.
-Remaining 5 periods (POST_APR24, POST_OCT24, POST_JUN25, QUIET_FEB25, QUIET_SEP25) added later.
+PRE_FEB26, POST_FEB26, QUIET_JAN26.
+PRE_APR24, PRE_OCT24, PRE_JUN25 added next (one per day, rate-limit permitting).
+Remaining 5 (POST_APR24, POST_OCT24, POST_JUN25, QUIET_FEB25, QUIET_SEP25) after that.
 
 ## Implementation stages
 
