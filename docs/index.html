@@ -88,9 +88,12 @@
     display: flex; align-items: flex-start; gap: 14px;
   }
   .signal-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
-  .signal-dot.warning { background: #D85A30; }
-  .signal-dot.success { background: #1D9E75; }
-  .signal-dot.neutral { background: #888780; }
+  .signal-dot.color-0 { background: #E8622A; }
+  .signal-dot.color-1 { background: #CC3333; }
+  .signal-dot.color-2 { background: #3B7DD8; }
+  .signal-dot.color-3 { background: #7C3AED; }
+  .signal-dot.color-4 { background: #1D9E75; }
+  .signal-dot.color-5 { background: #E8A838; }
   .signal-body { flex: 1; min-width: 0; }
   .signal-name { font-size: 14px; font-weight: 500; line-height: 1.4; margin-bottom: 4px; }
   .signal-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 6px; }
@@ -166,7 +169,7 @@
 
     <div class="metric-primary">
       <div class="metric-primary-body">
-        <div class="metric-label">טווח קצר · 7 ימים</div>
+        <div class="metric-label">דמיון לתקופות טרום-עימות · 7 ימים אחרונים</div>
         <div class="metric-value-row">
           <span class="metric-number" id="score-short"></span>
           <span class="metric-status" id="status-short"></span>
@@ -176,7 +179,7 @@
     </div>
 
     <div class="metric-secondary">
-      <div class="metric-label">השוואה לתקופות טרום-עימות · ארכיון</div>
+      <div class="metric-label">דמיון לתקופות טרום-עימות · ממוצע 21 יום</div>
       <div class="metric-value-row">
         <span class="metric-number" id="score-archive"></span>
         <span class="metric-status" id="status-archive"></span>
@@ -304,8 +307,9 @@
       el.innerHTML = '<p style="color:var(--text-tertiary);font-size:14px">אין סיגנלים פעילים כרגע.</p>';
       return;
     }
-    el.innerHTML = signals.map(function (s) {
-      var dot = s.direction === 'success' ? 'success' : s.direction === 'neutral' ? 'neutral' : 'warning';
+    var SIGNAL_COLORS = ['color-0','color-1','color-2','color-3','color-4','color-5'];
+    el.innerHTML = signals.map(function (s, i) {
+      var dot = SIGNAL_COLORS[i % SIGNAL_COLORS.length];
       var parts = [];
       if (s.article_count_week != null) parts.push(s.article_count_week + ' כתבות השבוע');
       if (s.ratio_wow != null)          parts.push('פי ' + s.ratio_wow + ' מהשבוע הקודם');

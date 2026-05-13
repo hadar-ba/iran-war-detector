@@ -1,17 +1,16 @@
 {
-  "updated_at": "2026-05-13T14:59:09.525637+00:00",
+  "updated_at": "2026-05-13T15:34:16.756913+00:00",
   "short_term": {
-    "score": 62,
-    "status_he": "מתוח",
-    "delta_yesterday": 0,
-    "yesterday_score": 62
+    "score": 46,
+    "status_he": "שקט",
+    "delta_yesterday": -37,
+    "yesterday_score": 83
   },
   "archive_comparison": {
-    "score": 95,
+    "score": 74,
     "status_he": "דמיון גבוה",
     "reference_events": [
-      "אוקטובר 2024",
-      "אפריל 2024"
+      "פברואר 2026"
     ]
   },
   "signals": [
@@ -56,24 +55,82 @@
       "intensity": "high"
     }
   ],
-  "today_events": [],
+  "today_events": [
+    {
+      "time": "",
+      "description_he": "סיגנלי קריסה דיפלומטית",
+      "article_count": 1,
+      "url": "https://aa.com.tr/en/world/iran-sends-pakistan-its-response-to-us-proposal-on-ending-war/3933099",
+      "domain": "aa.com.tr"
+    },
+    {
+      "time": "",
+      "description_he": "הצהרות ההנהגה האיראנית",
+      "article_count": 1,
+      "url": "https://www.haberts.com/benzine-zam-lpgye-indirim-geldi",
+      "domain": "haberts.com"
+    },
+    {
+      "time": "",
+      "description_he": "פעילות דיפלומטית של ארה\"ב-סין",
+      "article_count": 1,
+      "url": "https://military.china.com/news/13004177/20260508/49479232.html",
+      "domain": "military.china.com"
+    }
+  ],
   "trend": {
     "week": [
       {
         "date": "2026-05-13",
+        "score": 74
+      },
+      {
+        "date": "2026-05-13",
         "score": 62
+      },
+      {
+        "date": "2026-05-13",
+        "score": 83
+      },
+      {
+        "date": "2026-05-13",
+        "score": 46
       }
     ],
     "month": [
       {
         "date": "2026-05-13",
+        "score": 74
+      },
+      {
+        "date": "2026-05-13",
         "score": 62
+      },
+      {
+        "date": "2026-05-13",
+        "score": 83
+      },
+      {
+        "date": "2026-05-13",
+        "score": 46
       }
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
+    "list": [
+      "aa.com.tr",
+      "aninews.in",
+      "digi24.ro",
+      "haberts.com",
+      "kipa.co.il",
+      "military.china.com",
+      "news.ifeng.com",
+      "nypost.com",
+      "rawstory.com",
+      "thejournal.ie",
+      "yeniakit.com.tr"
+    ],
+    "total_count": 11,
     "articles_72h": 200
   }
 }

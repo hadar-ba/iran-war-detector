@@ -287,14 +287,15 @@ def write_data_json(
     score_21 = round(max_pre_21 * 100)
     status   = _status(max_pre_7)
 
-    # Delta from most recent history entry
+    # Delta from the previous run (second-to-last entry; last entry is the one
+    # just written by write_ui_json, which reflects the current score)
     prev_score = None
     if os.path.exists(UI_HISTORY):
         try:
             hist = json.loads(open(UI_HISTORY, encoding="utf-8").read())
             runs = hist.get("runs", [])
-            if runs:
-                prev_score = runs[-1].get("headline_score_7day")
+            if len(runs) >= 2:
+                prev_score = runs[-2].get("headline_score_7day")
         except Exception:
             pass
     delta = (score_7 - prev_score) if prev_score is not None else None
@@ -317,17 +318,41 @@ def write_data_json(
         })
 
     # Today events: top 3 most-recent articles, one per signal
+    # Primary: use full article list (populated by new signals.py)
+    # Fallback: use example_urls (3 sample URLs always present)
+    from urllib.parse import urlparse as _urlparse
+
+    def _url_domain(url: str) -> str:
+        try:
+            return _urlparse(url).netloc.lower().removeprefix("www.")
+        except Exception:
+            return ""
+
     all_articles = []
     for s in signals:
-        for a in s.get("articles", []):
-            if a.get("title"):
-                all_articles.append({
-                    "signal_id": s["id"],
-                    "title":     a.get("title", ""),
-                    "url":       a.get("url", ""),
-                    "domain":    a.get("domain", ""),
-                    "seendate":  a.get("seendate", ""),
-                })
+        articles = s.get("articles", [])
+        if articles:
+            for a in articles:
+                if a.get("title"):
+                    all_articles.append({
+                        "signal_id": s["id"],
+                        "title":     a.get("title", ""),
+                        "url":       a.get("url", ""),
+                        "domain":    a.get("domain", "") or _url_domain(a.get("url", "")),
+                        "seendate":  a.get("seendate", ""),
+                    })
+        else:
+            # Fallback: one entry per signal using first example_url
+            for url in s.get("example_urls", [])[:1]:
+                if url:
+                    all_articles.append({
+                        "signal_id": s["id"],
+                        "title":     s.get("name_he", ""),
+                        "url":       url,
+                        "domain":    _url_domain(url),
+                        "seendate":  "",
+                    })
+
     all_articles.sort(key=lambda a: a.get("seendate", ""), reverse=True)
     seen_sigs: set = set()
     today_events: list = []
@@ -367,16 +392,20 @@ def write_data_json(
     if not ref_events:
         ref_events = list(_ARCHIVE_REF_LABELS.values())[:3]
 
-    # Sources from signal articles
+    # Sources from signal articles; fallback to example_urls
     domains: set = set()
     total_articles = 0
     for s in signals:
         for a in s.get("articles", []):
-            d = a.get("domain", "")
+            d = a.get("domain", "") or _url_domain(a.get("url", ""))
+            if d:
+                domains.add(d)
+        for url in s.get("example_urls", []):
+            d = _url_domain(url)
             if d:
                 domains.add(d)
         total_articles += (s.get("count_current") or 0)
-    source_labels = [_DOMAIN_DISPLAY.get(d, d) for d in sorted(domains)][:15]
+    source_labels = [_DOMAIN_DISPLAY.get(d, d) for d in sorted(domains) if d][:15]
 
     payload = {
         "updated_at": now.isoformat(),
