@@ -27,15 +27,17 @@ jobs:
       - name: Run analysis
         env:
           PYTHONUTF8: "1"
-        run: python src/main.py
-        # Exit code 2 means a warning was triggered; treat as success for CI
-        # (the warning is surfaced in reports/latest.md)
-        continue-on-error: false
+        run: |
+          python src/main.py
+          EXIT=$?
+          # Exit code 2 = warning triggered (high similarity); still a successful run
+          if [ $EXIT -eq 2 ]; then exit 0; fi
+          exit $EXIT
 
       - name: Commit report and results
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add reports/latest.md data/results/
+          git add reports/latest.md data/results/ docs/data/
           git diff --cached --quiet || git commit -m "chore: analysis run $(date -u +%Y-%m-%d\ %H:%M\ UTC)"
           git push
