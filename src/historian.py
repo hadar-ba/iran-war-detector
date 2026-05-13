@@ -261,6 +261,35 @@ _DOMAIN_DISPLAY = {
 }
 
 
+_REF_LABELS_SHORT = {
+    "PRE_APR24":   "טרום אפר' 2024",
+    "PRE_OCT24":   "טרום אוק' 2024",
+    "PRE_JUN25":   "טרום יוני 2025",
+    "PRE_FEB26":   "טרום פבר' 2026",
+    "POST_APR24":  "אחרי אפר' 2024",
+    "POST_OCT24":  "אחרי אוק' 2024",
+    "POST_JUN25":  "אחרי יוני 2025",
+    "POST_FEB26":  "אחרי פבר' 2026",
+    "QUIET_FEB25": "שקט פבר' 2025",
+    "QUIET_SEP25": "שקט ספט' 2025",
+    "QUIET_JAN26": "שקט ינו' 2026",
+}
+
+
+def _comparison_bars(similarities_21: list[dict]) -> list[dict]:
+    """Return reference-period bars for the historical comparison chart, sorted by score desc."""
+    bars = []
+    for s in similarities_21:
+        label = _REF_LABELS_SHORT.get(s["reference_id"], s["reference_id"])
+        bars.append({
+            "label":          label,
+            "score":          round(s["composite_score"] * 100),
+            "is_pre_conflict": s.get("is_pre_round", False),
+        })
+    bars.sort(key=lambda b: b["score"], reverse=True)
+    return bars
+
+
 def _parse_time_he(seendate: str) -> str:
     """Extract HH:MM from GDELT seendate (YYYYMMDDHHMMSS or YYYYMMDDTHHMMSSZ)."""
     try:
@@ -369,7 +398,7 @@ def write_data_json(
         if len(today_events) >= 3:
             break
 
-    # Trend from history.json
+    # Trend from history.json — use full timestamp so JS can show time when same-day
     hist_runs: list = []
     if os.path.exists(UI_HISTORY):
         try:
@@ -377,9 +406,9 @@ def write_data_json(
             hist_runs = hist_data.get("runs", [])
         except Exception:
             pass
-    week_trend  = [{"date": r["timestamp_utc"][:10], "score": r["headline_score_7day"]}
+    week_trend  = [{"ts": r["timestamp_utc"], "score": r["headline_score_7day"]}
                    for r in hist_runs[-14:]]
-    month_trend = [{"date": r["timestamp_utc"][:10], "score": r["headline_score_7day"]}
+    month_trend = [{"ts": r["timestamp_utc"], "score": r["headline_score_7day"]}
                    for r in hist_runs[-60:]]
 
     # Archive reference labels
@@ -392,9 +421,8 @@ def write_data_json(
     if not ref_events:
         ref_events = list(_ARCHIVE_REF_LABELS.values())[:3]
 
-    # Sources from signal articles; fallback to example_urls
+    # Sources: extract domains from full article list, falling back to example_urls
     domains: set = set()
-    total_articles = 0
     for s in signals:
         for a in s.get("articles", []):
             d = a.get("domain", "") or _url_domain(a.get("url", ""))
@@ -404,8 +432,13 @@ def write_data_json(
             d = _url_domain(url)
             if d:
                 domains.add(d)
-        total_articles += (s.get("count_current") or 0)
     source_labels = [_DOMAIN_DISPLAY.get(d, d) for d in sorted(domains) if d][:15]
+    # Article count: use period-extractor totals if available (more reliable than sum of signal caps)
+    total_articles = (
+        (current_7.get("articles_en") or 0)
+        + (current_7.get("articles_he") or 0)
+        + (current_7.get("articles_fa") or 0)
+    ) or None  # None = don't show if all zeros (stale data)
 
     payload = {
         "updated_at": now.isoformat(),
@@ -420,11 +453,11 @@ def write_data_json(
             "status_he":        _ARCHIVE_STATUS_HE.get(_status(max_pre_21), "דמיון גבולי"),
             "reference_events": ref_events,
         },
-        "signals":      signals_out,
-        "today_events": today_events,
+        "signals": signals_out,
         "trend": {
             "week":  week_trend,
             "month": month_trend,
+            "comparison_bars": _comparison_bars(similarities_21),
         },
         "sources": {
             "list":         source_labels,

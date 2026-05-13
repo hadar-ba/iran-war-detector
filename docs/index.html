@@ -99,21 +99,6 @@
   .signal-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 6px; }
   .signal-count { font-size: 12px; color: var(--text-tertiary); }
 
-  /* Events grid */
-  .events-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 32px; }
-  @media (max-width: 640px) { .events-grid { grid-template-columns: 1fr; } }
-  .event-card {
-    background: var(--bg-card); border: 0.5px solid var(--border);
-    border-radius: var(--radius-md); padding: 18px;
-    display: flex; flex-direction: column; gap: 10px;
-    text-decoration: none; color: inherit;
-    transition: box-shadow 0.15s;
-  }
-  .event-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-  .event-card-time { font-size: 11px; color: var(--text-tertiary); font-variant-numeric: tabular-nums; letter-spacing: 0.5px; font-weight: 500; }
-  .event-card-title { font-size: 14px; font-weight: 500; line-height: 1.4; color: var(--text-primary); flex: 1; }
-  .event-card-meta { font-size: 12px; color: var(--text-secondary); padding-top: 8px; border-top: 0.5px solid var(--border); }
-
   /* Chart */
   .chart-card { background: var(--bg-card); border: 0.5px solid var(--border); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 32px; }
   .chart-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 10px; }
@@ -190,15 +175,13 @@
     <h2 class="section-heading">סיגנלים פעילים</h2>
     <div class="signals-list" id="signals-list"></div>
 
-    <h2 class="section-heading">מה השתנה היום</h2>
-    <div class="events-grid" id="events-grid"></div>
-
     <div class="chart-card">
       <div class="chart-header">
         <div class="chart-title">מגמת ההסתברות</div>
         <div class="toggle-group" id="chart-toggles">
           <button data-view="week" class="active">שבוע אחרון</button>
           <button data-view="month">חודש אחרון</button>
+          <button data-view="historical">השוואה היסטורית</button>
         </div>
       </div>
       <div class="chart-wrap"><canvas id="trend-chart"></canvas></div>
@@ -286,7 +269,6 @@
       ' לתקופות טרום-עימות שתועדו בארכיון' + (refs ? ' (' + refs + ')' : '') + '.');
 
     renderSignals(d.signals || []);
-    renderEvents(d.today_events || []);
     initChart(d.trend || {});
 
     var src = d.sources || {};
@@ -324,53 +306,38 @@
     }).join('');
   }
 
-  function renderEvents(events) {
-    var el = document.getElementById('events-grid');
-    if (!el) return;
-    if (!events.length) {
-      el.innerHTML = '<p style="color:var(--text-tertiary);font-size:14px;grid-column:1/-1">אין אירועים זמינים כרגע.</p>';
-      return;
-    }
-    el.innerHTML = events.map(function (e) {
-      var tag  = e.url ? 'a href="' + esc(e.url) + '" target="_blank" rel="noopener"' : 'div';
-      var ctag = e.url ? 'a' : 'div';
-      return '<' + tag + ' class="event-card">' +
-        (e.time ? '<div class="event-card-time">' + esc(e.time) + '</div>' : '') +
-        '<div class="event-card-title">' + esc(e.description_he) + '</div>' +
-        (e.domain ? '<div class="event-card-meta">' + esc(e.domain) + '</div>' : '') +
-      '</' + ctag + '>';
-    }).join('');
-  }
-
   function initChart(trend) {
     var ctx = document.getElementById('trend-chart');
     if (!ctx) return;
     var chart = null;
 
-    function render(view) {
-      var runs = trend[view] || [];
-      var labels = runs.map(function (r) {
-        try { return new Date(r.date).toLocaleDateString('he-IL', { month: 'short', day: 'numeric' }); }
-        catch (_) { return r.date; }
-      });
-      var data = runs.map(function (r) { return r.score; });
+    // Format timestamp: show HH:MM when same calendar day, else DD/MM
+    function fmtTs(ts) {
+      try {
+        var d = new Date(ts);
+        var now = new Date();
+        var sameDay = d.toDateString() === now.toDateString();
+        if (sameDay) {
+          return d.toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Jerusalem' });
+        }
+        return d.toLocaleDateString('he-IL', { month: 'numeric', day: 'numeric', timeZone: 'Asia/Jerusalem' });
+      } catch (_) { return ts; }
+    }
 
+    function renderLine(runs, caption) {
+      var labels = runs.map(function (r) { return fmtTs(r.ts); });
+      var data   = runs.map(function (r) { return r.score; });
       if (chart) { chart.destroy(); chart = null; }
-
-      if (!data.length) {
-        setText('chart-caption', 'נתוני מגמה יופיעו לאחר מספר ריצות.');
-        return;
-      }
-
+      if (!data.length) { setText('chart-caption', 'נתוני מגמה יופיעו לאחר מספר ריצות.'); return; }
       chart = new Chart(ctx, {
         type: 'line',
         data: {
           labels: labels,
           datasets: [{
-            label: 'הסתברות', data: data,
+            label: 'דמיון', data: data,
             borderColor: '#BA7517', backgroundColor: 'rgba(186,117,23,0.1)',
             borderWidth: 2.5, tension: 0.3, fill: true,
-            pointRadius: 3, pointBackgroundColor: '#BA7517', pointHoverRadius: 5,
+            pointRadius: 4, pointBackgroundColor: '#BA7517', pointHoverRadius: 6,
           }],
         },
         options: {
@@ -393,7 +360,55 @@
           },
         },
       });
-      setText('chart-caption', (view === 'week' ? 'מגמת שבוע' : 'מגמת חודש') + ' · ' + data.length + ' נקודות נתונים.');
+      setText('chart-caption', caption);
+    }
+
+    function renderBars(bars) {
+      if (chart) { chart.destroy(); chart = null; }
+      if (!bars || !bars.length) { setText('chart-caption', 'אין נתוני השוואה.'); return; }
+      var labels = bars.map(function (b) { return b.label; });
+      var data   = bars.map(function (b) { return b.score; });
+      var colors = bars.map(function (b) {
+        return b.is_pre_conflict ? 'rgba(186,117,23,0.75)' : 'rgba(136,135,128,0.45)';
+      });
+      chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'דמיון',
+            data: data,
+            backgroundColor: colors,
+            borderRadius: 5,
+          }],
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false, indexAxis: 'y',
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              rtl: true,
+              titleFont: { family: 'Heebo' }, bodyFont: { family: 'Heebo' },
+              callbacks: { label: function (c) { return Math.round(c.parsed.x) + '%'; } },
+            },
+          },
+          scales: {
+            x: {
+              min: 0, max: 100,
+              ticks: { callback: function (v) { return v + '%'; }, font: { size: 11, family: 'Heebo' }, color: '#888780' },
+              grid: { color: 'rgba(0,0,0,0.05)' },
+            },
+            y: { ticks: { font: { size: 11, family: 'Heebo' }, color: '#888780' }, grid: { display: false } },
+          },
+        },
+      });
+      setText('chart-caption', 'דמיון המצב הנוכחי (21 יום) לכל תקופת ייחוס. כתום = טרום-עימות, אפור = תקופת שקט / לאחר עימות.');
+    }
+
+    function render(view) {
+      if (view === 'week')       renderLine(trend.week  || [], 'ריצות ' + (trend.week||[]).length + ' בשבוע האחרון · ציר הזמן בשעות ישראל');
+      else if (view === 'month') renderLine(trend.month || [], 'ריצות ' + (trend.month||[]).length + ' בחודש האחרון · ציר הזמן בשעות ישראל');
+      else                       renderBars(trend.comparison_bars || []);
     }
 
     render('week');
