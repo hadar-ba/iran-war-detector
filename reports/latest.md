@@ -1,38 +1,52 @@
 # Iran-Israel Conflict Pattern Detector
 
-**Run:** 2026-05-13 07:41 UTC
-**Analysis window:** 20260422 – 20260513 (21 days)
+**Run:** 2026-05-13 07:55 UTC  |  **21-day window:** 20260422–20260513  |  **7-day window:** 20260506–20260513
 
-## ✅ Status: Normal
+## ⚠️ WARNING — HIGH SIMILARITY TO PRE-CONFLICT PATTERN
 
-Max similarity to any pre-round period: **45.8%** (threshold: 70%)
+[7d] Similarity to **PRE_FEB26**: **74.3%** (threshold 70%)
 
-## Similarity to Reference Periods
+## Similarity Scores
+
+### 21-Day Window
 
 | Reference | Type | Score | Volume | Confluence | Lang Balance | Diversity | Tone |
 |-----------|------|-------|--------|------------|--------------|-----------|------|
-| POST_FEB26 | post-ceasefire | **92.4%** | 79.2% | 100.0% | 100.0% | 100.0% | 50.0% |
+| POST_FEB26 | post-ceasefire | **92.4%** | 79.4% | 100.0% | 100.0% | 100.0% | 50.0% |
 | QUIET_JAN26 | quiet | **79.2%** | 0.0% | 100.0% | 100.0% | 100.0% | 50.0% |
 | PRE_FEB26 | pre-round | **45.8%** | 0.0% | 100.0% | 0.0% | 0.0% | 50.0% |
 | PRE_OCT24 | pre-round | **20.8%** | 100.0% | 0.0% | 0.0% | 0.0% | 50.0% |
 | PRE_APR24 | pre-round | **4.2%** | 0.0% | 0.0% | 0.0% | 0.0% | 50.0% |
 
+### 7-Day Window
+
+| Reference | Type | Score | Volume | Confluence | Lang Balance | Diversity | Tone |
+|-----------|------|-------|--------|------------|--------------|-----------|------|
+| PRE_FEB26 🚨 | pre-round | **74.3%** | 0.0% | 100.0% | 70.7% | 100.0% | 50.0% |
+| POST_FEB26 | post-ceasefire | **62.5%** | 100.0% | 100.0% | 0.0% | 0.0% | 50.0% |
+| PRE_OCT24 | pre-round | **51.0%** | 100.0% | 0.0% | 81.7% | 99.4% | 50.0% |
+| QUIET_JAN26 | quiet | **45.8%** | 0.0% | 100.0% | 0.0% | 0.0% | 50.0% |
+| PRE_APR24 | pre-round | **34.4%** | 0.0% | 0.0% | 81.7% | 100.0% | 50.0% |
+
 ## Current Period Metrics
 
-- **Volume intensity total:** 32.6748
-- **Days active:** 21 / 21
-- **Articles sampled:** EN=0  HE=0  FA=0
-- **Cross-language confluence:** 0.0%
-- **Unique domains (union):** 0
-- **Mean tone:** None
-- **Silent signals:** not available
+### 21-Day
 
-### Data collection errors
-- tone: 429 rate-limited
-- artlist/english: 429 rate-limited
-- artlist/hebrew: 429 rate-limited
-- artlist/persian: 429 rate-limited
+- **Volume total:** 32.7394  |  **Mean/day:** 1.559  |  **Peak:** 1.9837
+- **Days active:** 21
+- **Articles:** EN=0  HE=0  FA=0
+- **Confluence:** 0.0%  |  **Unique domains:** 0
+- **Mean tone:** None
+- **Errors:** tone: 429 rate-limited, artlist/english: 429 rate-limited, artlist/hebrew: 429 rate-limited, artlist/persian: 429 rate-limited
+
+### 7-Day
+
+- **Volume total:** 226.9046  |  **Mean/day:** 1.3669  |  **Peak:** 2.7634
+- **Days active:** 166
+- **Articles:** EN=250  HE=250  FA=0
+- **Confluence:** 0.0%  |  **Unique domains:** 158
+- **Mean tone:** None
+- **Errors:** tone: 429 rate-limited, artlist/persian: 429 rate-limited
 
 ---
-*This report is generated automatically. Similarity score ≠ prediction.*
-*Reference: 4 pre-round + 1 post-ceasefire + 1 quiet period.*
+*Similarity score ≠ prediction. Reference: partial vectors (fill in when rate limits clear).*

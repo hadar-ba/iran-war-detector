@@ -224,13 +224,13 @@ def get_article_count(start: str, end: str, lang: str,
     return len(articles), err
 
 
-def get_current_window() -> tuple[str, str]:
+def get_current_window(days: int = 21) -> tuple[str, str]:
     """
-    Return (startdatetime, enddatetime) for the current 21-day analysis window
+    Return (startdatetime, enddatetime) for an analysis window of `days` length
     ending at the current UTC time (YYYYMMDDHHMMSS format).
     """
-    now = datetime.now(timezone.utc)
     from datetime import timedelta
-    start = now - timedelta(days=21)
+    now = datetime.now(timezone.utc)
+    start = now - timedelta(days=days)
     fmt = "%Y%m%d%H%M%S"
     return start.strftime(fmt), now.strftime(fmt)
