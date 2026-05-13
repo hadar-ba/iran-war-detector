@@ -234,6 +234,180 @@ def write_ui_json(
         json.dump({"runs": runs}, f, indent=2, ensure_ascii=False)
 
 
+_SIGNAL_DIRECTION = {
+    "diplomatic_breakdown": "warning",
+    "supreme_leader":       "warning",
+    "trump_china":          "warning",
+    "military_strike":      "warning",
+}
+
+_ARCHIVE_REF_LABELS = {
+    "PRE_APR24": "אפריל 2024",
+    "PRE_OCT24": "אוקטובר 2024",
+    "PRE_JUN25": "יוני 2025",
+    "PRE_FEB26": "פברואר 2026",
+}
+
+_STATUS_HE = {"red": "מחריף", "yellow": "מתוח", "green": "שקט"}
+_ARCHIVE_STATUS_HE = {"red": "דמיון גבוה", "yellow": "דמיון גבולי", "green": "דמיון נמוך"}
+
+_DOMAIN_DISPLAY = {
+    "ynetnews.com": "Ynet", "haaretz.com": "הארץ", "n12.co.il": "N12",
+    "walla.co.il": "וואלה", "mako.co.il": "מאקו", "timesofisrael.com": "ToI",
+    "jpost.com": "J.Post", "reuters.com": "Reuters", "nytimes.com": "NYT",
+    "bbc.com": "BBC", "bbc.co.uk": "BBC", "aljazeera.com": "Al Jazeera",
+    "aljazeera.net": "Al Jazeera", "tehrantimes.com": "Tehran Times",
+    "ft.com": "FT", "apnews.com": "AP", "theguardian.com": "Guardian",
+}
+
+
+def _parse_time_he(seendate: str) -> str:
+    """Extract HH:MM from GDELT seendate (YYYYMMDDHHMMSS or YYYYMMDDTHHMMSSZ)."""
+    try:
+        clean = seendate.replace("T", "").replace("Z", "")
+        if len(clean) >= 12:
+            return clean[8:10] + ":" + clean[10:12]
+    except Exception:
+        pass
+    return ""
+
+
+def write_data_json(
+    current_7: dict, similarities_7: list[dict],
+    current_21: dict, similarities_21: list[dict],
+    signals: list[dict],
+) -> None:
+    """Write docs/data/data.json — the feed consumed by the new dashboard (index.html)."""
+    os.makedirs(UI_DATA_DIR, exist_ok=True)
+    now = datetime.now(timezone.utc)
+
+    _, max_pre_7  = _best_pre(similarities_7)
+    _, max_pre_21 = _best_pre(similarities_21)
+    score_7  = round(max_pre_7  * 100)
+    score_21 = round(max_pre_21 * 100)
+    status   = _status(max_pre_7)
+
+    # Delta from most recent history entry
+    prev_score = None
+    if os.path.exists(UI_HISTORY):
+        try:
+            hist = json.loads(open(UI_HISTORY, encoding="utf-8").read())
+            runs = hist.get("runs", [])
+            if runs:
+                prev_score = runs[-1].get("headline_score_7day")
+        except Exception:
+            pass
+    delta = (score_7 - prev_score) if prev_score is not None else None
+
+    # Signals
+    signals_out = []
+    for s in signals:
+        count = s.get("count_current")
+        ratio_wow = s.get("ratio_wow")
+        ratio_mom = s.get("ratio_mom")
+        signals_out.append({
+            "id":              s["id"],
+            "name_he":         s.get("name_he", ""),
+            "description_he":  s.get("description_he", ""),
+            "direction":       _SIGNAL_DIRECTION.get(s["id"], "warning"),
+            "article_count_week": count,
+            "ratio_wow":       ratio_wow,
+            "ratio_mom":       ratio_mom,
+            "intensity":       s.get("intensity", "unknown"),
+        })
+
+    # Today events: top 3 most-recent articles, one per signal
+    all_articles = []
+    for s in signals:
+        for a in s.get("articles", []):
+            if a.get("title"):
+                all_articles.append({
+                    "signal_id": s["id"],
+                    "title":     a.get("title", ""),
+                    "url":       a.get("url", ""),
+                    "domain":    a.get("domain", ""),
+                    "seendate":  a.get("seendate", ""),
+                })
+    all_articles.sort(key=lambda a: a.get("seendate", ""), reverse=True)
+    seen_sigs: set = set()
+    today_events: list = []
+    for a in all_articles:
+        if a["signal_id"] not in seen_sigs:
+            today_events.append({
+                "time":           _parse_time_he(a["seendate"]),
+                "description_he": a["title"],
+                "article_count":  1,
+                "url":            a["url"],
+                "domain":         a["domain"],
+            })
+            seen_sigs.add(a["signal_id"])
+        if len(today_events) >= 3:
+            break
+
+    # Trend from history.json
+    hist_runs: list = []
+    if os.path.exists(UI_HISTORY):
+        try:
+            hist_data = json.loads(open(UI_HISTORY, encoding="utf-8").read())
+            hist_runs = hist_data.get("runs", [])
+        except Exception:
+            pass
+    week_trend  = [{"date": r["timestamp_utc"][:10], "score": r["headline_score_7day"]}
+                   for r in hist_runs[-14:]]
+    month_trend = [{"date": r["timestamp_utc"][:10], "score": r["headline_score_7day"]}
+                   for r in hist_runs[-60:]]
+
+    # Archive reference labels
+    ref_events = [
+        _ARCHIVE_REF_LABELS[s["reference_id"]]
+        for s in similarities_21
+        if s.get("is_pre_round") and s["reference_id"] in _ARCHIVE_REF_LABELS
+        and s["composite_score"] >= 0.50
+    ]
+    if not ref_events:
+        ref_events = list(_ARCHIVE_REF_LABELS.values())[:3]
+
+    # Sources from signal articles
+    domains: set = set()
+    total_articles = 0
+    for s in signals:
+        for a in s.get("articles", []):
+            d = a.get("domain", "")
+            if d:
+                domains.add(d)
+        total_articles += (s.get("count_current") or 0)
+    source_labels = [_DOMAIN_DISPLAY.get(d, d) for d in sorted(domains)][:15]
+
+    payload = {
+        "updated_at": now.isoformat(),
+        "short_term": {
+            "score":            score_7,
+            "status_he":        _STATUS_HE.get(status, "מתוח"),
+            "delta_yesterday":  delta,
+            "yesterday_score":  prev_score,
+        },
+        "archive_comparison": {
+            "score":            score_21,
+            "status_he":        _ARCHIVE_STATUS_HE.get(_status(max_pre_21), "דמיון גבולי"),
+            "reference_events": ref_events,
+        },
+        "signals":      signals_out,
+        "today_events": today_events,
+        "trend": {
+            "week":  week_trend,
+            "month": month_trend,
+        },
+        "sources": {
+            "list":         source_labels,
+            "total_count":  len(domains),
+            "articles_72h": total_articles,
+        },
+    }
+    out_path = os.path.join(UI_DATA_DIR, "data.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+
 def _quality_notes(current_7: dict, current_21: dict) -> list[str]:
     notes = []
     errs7  = current_7.get("errors",  [])

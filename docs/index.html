@@ -1,128 +1,407 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>מדד אזהרה למלחמה עם איראן</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>הסתברות להתקפה איראנית על ישראל</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/[email protected]/dist/tabler-icons.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg-page: #FAFAF7;
+    --bg-card: #FFFFFF;
+    --bg-secondary: #F1EFE8;
+    --bg-tertiary: #E8E6DE;
+    --text-primary: #1A1A1A;
+    --text-secondary: #5F5E5A;
+    --text-tertiary: #888780;
+    --border: rgba(0, 0, 0, 0.08);
+    --warning-bg: #FAEEDA;
+    --warning-text: #854F0B;
+    --success-bg: #E1F5EE;
+    --success-text: #085041;
+    --neutral-text: #5F5E5A;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    background: var(--bg-page);
+    color: var(--text-primary);
+    font-family: 'Heebo', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+
+  /* Loading */
+  #loading { text-align: center; padding: 80px 20px; color: var(--text-tertiary); font-size: 14px; }
+  .loading-spinner {
+    width: 28px; height: 28px;
+    border: 2px solid var(--bg-tertiary); border-top-color: #BA7517;
+    border-radius: 50%; animation: spin 0.7s linear infinite;
+    margin: 0 auto 12px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Header */
+  .page-header { margin-bottom: 28px; }
+  .eyebrow { font-size: 11px; color: var(--text-tertiary); letter-spacing: 0.8px; text-transform: uppercase; margin-bottom: 8px; font-weight: 500; }
+  .updated { font-size: 12px; color: var(--text-tertiary); display: flex; align-items: center; gap: 6px; }
+
+  /* Primary metric */
+  .metric-primary {
+    background: var(--bg-secondary); border-radius: var(--radius-lg);
+    padding: 36px 32px; margin-bottom: 16px;
+    display: flex; align-items: center; gap: 28px; flex-wrap: wrap;
+  }
+  .metric-primary-body { flex: 1; min-width: 200px; }
+  .metric-primary .metric-label { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; font-weight: 500; }
+  .metric-primary .metric-value-row { display: flex; align-items: baseline; gap: 16px; margin-bottom: 10px; flex-wrap: wrap; }
+  .metric-primary .metric-number { font-size: 64px; font-weight: 700; line-height: 1; letter-spacing: -1px; }
+  .metric-primary .metric-status { font-size: 26px; font-weight: 500; color: var(--warning-text); }
+  .metric-primary .metric-delta { font-size: 14px; color: var(--warning-text); display: flex; align-items: center; gap: 4px; }
+
+  /* Secondary metric */
+  .metric-secondary {
+    background: var(--bg-secondary); border-radius: var(--radius-lg);
+    padding: 20px 24px; margin-bottom: 32px;
+  }
+  .metric-secondary .metric-label { font-size: 12px; color: var(--text-tertiary); margin-bottom: 6px; font-weight: 500; }
+  .metric-secondary .metric-value-row { display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+  .metric-secondary .metric-number { font-size: 28px; font-weight: 500; line-height: 1; color: var(--text-secondary); }
+  .metric-secondary .metric-status { font-size: 14px; font-weight: 500; color: var(--neutral-text); }
+  .metric-secondary .metric-desc { font-size: 12px; color: var(--text-tertiary); line-height: 1.6; }
+
+  /* Section heading */
+  h2.section-heading { font-size: 14px; font-weight: 500; margin: 48px 0 16px; color: var(--text-primary); }
+
+  /* Signals */
+  .signals-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+  .signal-row {
+    background: var(--bg-card); border: 0.5px solid var(--border);
+    border-radius: var(--radius-md); padding: 16px 18px;
+    display: flex; align-items: flex-start; gap: 14px;
+  }
+  .signal-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
+  .signal-dot.warning { background: #D85A30; }
+  .signal-dot.success { background: #1D9E75; }
+  .signal-dot.neutral { background: #888780; }
+  .signal-body { flex: 1; min-width: 0; }
+  .signal-name { font-size: 14px; font-weight: 500; line-height: 1.4; margin-bottom: 4px; }
+  .signal-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 6px; }
+  .signal-count { font-size: 12px; color: var(--text-tertiary); }
+
+  /* Events grid */
+  .events-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 32px; }
+  @media (max-width: 640px) { .events-grid { grid-template-columns: 1fr; } }
+  .event-card {
+    background: var(--bg-card); border: 0.5px solid var(--border);
+    border-radius: var(--radius-md); padding: 18px;
+    display: flex; flex-direction: column; gap: 10px;
+    text-decoration: none; color: inherit;
+    transition: box-shadow 0.15s;
+  }
+  .event-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .event-card-time { font-size: 11px; color: var(--text-tertiary); font-variant-numeric: tabular-nums; letter-spacing: 0.5px; font-weight: 500; }
+  .event-card-title { font-size: 14px; font-weight: 500; line-height: 1.4; color: var(--text-primary); flex: 1; }
+  .event-card-meta { font-size: 12px; color: var(--text-secondary); padding-top: 8px; border-top: 0.5px solid var(--border); }
+
+  /* Chart */
+  .chart-card { background: var(--bg-card); border: 0.5px solid var(--border); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 32px; }
+  .chart-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 10px; }
+  .chart-title { font-size: 14px; font-weight: 500; }
+  .toggle-group { display: flex; gap: 4px; background: var(--bg-secondary); padding: 3px; border-radius: var(--radius-md); }
+  .toggle-group button {
+    font-size: 12px; padding: 6px 12px; border: none; border-radius: 6px;
+    cursor: pointer; background: transparent; color: var(--text-secondary);
+    font-family: inherit; transition: all 0.15s ease;
+  }
+  .toggle-group button.active { background: var(--bg-card); color: var(--text-primary); font-weight: 500; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+  .chart-wrap { position: relative; height: 260px; }
+  .chart-caption { font-size: 12px; color: var(--text-secondary); margin-top: 12px; line-height: 1.6; }
+
+  /* Cards */
+  .card { background: var(--bg-card); border: 0.5px solid var(--border); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 32px; }
+  .card-title { font-size: 13px; font-weight: 500; margin-bottom: 10px; }
+
+  /* Sources */
+  .sources-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .chip { font-size: 11px; background: var(--bg-secondary); padding: 4px 10px; border-radius: var(--radius-md); color: var(--text-secondary); }
+  .sources-total { font-size: 12px; color: var(--text-tertiary); }
+
+  /* Methodology */
+  .methodology-text { font-size: 13px; color: var(--text-secondary); line-height: 1.7; }
+
+  /* Disclaimer */
+  .disclaimer {
+    background: var(--bg-tertiary); border-radius: var(--radius-md);
+    padding: 12px 14px; font-size: 11px; color: var(--text-tertiary);
+    line-height: 1.7; display: flex; gap: 8px; align-items: flex-start;
+  }
+  .disclaimer i { font-size: 13px; padding-top: 2px; flex-shrink: 0; }
+</style>
 </head>
 <body>
+<div class="container">
 
-  <div id="stale-banner" class="stale-banner" hidden></div>
+  <div id="loading">
+    <div class="loading-spinner"></div>
+    טוען נתונים...
+  </div>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="header-titles">
-        <h1 id="site-title"></h1>
-        <p id="site-subtitle" class="site-subtitle"></p>
+  <div id="content" style="display:none">
+
+    <header class="page-header">
+      <div class="eyebrow">הסתברות להתקפה איראנית על ישראל</div>
+      <div class="updated">
+        <i class="ti ti-clock"></i>
+        <span id="updated-at"></span>
       </div>
-      <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language"></button>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <div id="loading" class="loading-state">
-      <div class="loading-spinner"></div>
-      <p id="loading-text" class="loading-text"></p>
-      <p id="loading-sub" class="loading-sub"></p>
-    </div>
-
-    <div id="main-content" hidden>
-
-      <!-- Section A: Headline status -->
-      <section id="section-headline" class="section-headline card">
-        <div class="headline-meta">
-          <span id="last-updated-label" class="meta-label"></span>
-          <span id="last-updated-value" class="meta-value"></span>
+    <div class="metric-primary">
+      <div class="metric-primary-body">
+        <div class="metric-label">טווח קצר · 7 ימים</div>
+        <div class="metric-value-row">
+          <span class="metric-number" id="score-short"></span>
+          <span class="metric-status" id="status-short"></span>
         </div>
-        <div class="traffic-light-row">
-          <div id="traffic-light" class="traffic-light"></div>
-          <div class="headline-scores">
-            <div class="headline-main-score">
-              <span id="status-label" class="status-label"></span>
-              <span id="headline-score-7d" class="headline-score-number"></span>
-            </div>
-            <div id="score-jump-badge" class="score-jump-badge" hidden></div>
-            <div class="headline-score-desc">
-              <span id="headline-label-7d" class="score-desc"></span>
-            </div>
-            <div class="headline-21d-row">
-              <span id="headline-score-21d" class="score-21d-number"></span>
-              <span id="headline-label-21d" class="score-21d-desc"></span>
-            </div>
-          </div>
-        </div>
-        <p id="summary-text" class="summary-text"></p>
-        <p id="closest-period" class="closest-period-label"></p>
-      </section>
-
-      <!-- Section B: Context — why this status -->
-      <section id="section-context" class="card section-context">
-        <h2 id="context-heading" class="section-heading"></h2>
-        <p id="context-text" class="context-text"></p>
-        <div id="partial-note" class="partial-note" hidden></div>
-      </section>
-
-      <!-- Section C: Active signals -->
-      <section id="section-signals" class="card">
-        <h2 id="signals-heading" class="section-heading"></h2>
-        <div id="signals-list" class="signals-list"></div>
-      </section>
-
-      <!-- Section D: Trend over time -->
-      <section id="section-trend" class="card">
-        <h2 id="trend-heading" class="section-heading"></h2>
-        <div class="chart-container">
-          <canvas id="trend-chart" aria-label="Similarity trend chart"></canvas>
-          <p id="trend-no-history" class="trend-placeholder" hidden></p>
-        </div>
-      </section>
-
-      <!-- Section E: Detailed comparison (collapsible) -->
-      <details id="section-details" class="card collapsible">
-        <summary class="collapsible-summary">
-          <span id="details-heading" class="section-heading"></span>
-          <span id="details-hint" class="collapsible-hint"></span>
-          <span class="chevron">&#9660;</span>
-        </summary>
-        <div id="details-content" class="details-content"></div>
-      </details>
-
-      <!-- Section F: Methodology (collapsible) -->
-      <details id="section-methodology" class="card collapsible">
-        <summary class="collapsible-summary">
-          <span id="methodology-heading" class="section-heading"></span>
-          <span class="chevron">&#9660;</span>
-        </summary>
-        <div id="methodology-content" class="methodology-content"></div>
-      </details>
-
-      <!-- Section G: Sources (collapsible) -->
-      <details id="section-sources" class="card collapsible">
-        <summary class="collapsible-summary">
-          <span id="sources-heading" class="section-heading"></span>
-          <span class="chevron">&#9660;</span>
-        </summary>
-        <div id="sources-content" class="sources-content"></div>
-      </details>
-
-    </div><!-- /main-content -->
-  </main>
-
-  <!-- Section H: Footer -->
-  <footer id="section-footer" class="site-footer">
-    <div class="footer-inner">
-      <span id="footer-gdelt" class="footer-item"></span>
-      <a id="footer-repo" href="https://github.com/hadar-ba/iran-war-detector" target="_blank" rel="noopener" class="footer-link"></a>
-      <span id="footer-disclaimer" class="footer-item footer-disclaimer-text"></span>
+        <div class="metric-delta" id="delta-short"></div>
+      </div>
     </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-  <script src="i18n.js"></script>
-  <script src="app.js"></script>
+    <div class="metric-secondary">
+      <div class="metric-label">השוואה לתקופות טרום-עימות · ארכיון</div>
+      <div class="metric-value-row">
+        <span class="metric-number" id="score-archive"></span>
+        <span class="metric-status" id="status-archive"></span>
+      </div>
+      <div class="metric-desc" id="desc-archive"></div>
+    </div>
+
+    <h2 class="section-heading">סיגנלים פעילים</h2>
+    <div class="signals-list" id="signals-list"></div>
+
+    <h2 class="section-heading">מה השתנה היום</h2>
+    <div class="events-grid" id="events-grid"></div>
+
+    <div class="chart-card">
+      <div class="chart-header">
+        <div class="chart-title">מגמת ההסתברות</div>
+        <div class="toggle-group" id="chart-toggles">
+          <button data-view="week" class="active">שבוע אחרון</button>
+          <button data-view="month">חודש אחרון</button>
+        </div>
+      </div>
+      <div class="chart-wrap"><canvas id="trend-chart"></canvas></div>
+      <div class="chart-caption" id="chart-caption"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">מקורות הכתבות</div>
+      <div class="sources-chips" id="sources-chips"></div>
+      <div class="sources-total" id="sources-total"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">מתודולוגיה</div>
+      <div class="methodology-text">
+        המדד מבוסס על השוואת דפוסי כתיבה עיתונאית לתקופות שקדמו לעימותים מתועדים (אפריל 2024, אוקטובר 2024, פברואר 2026). המערכת שואלת את מסד הנתונים של GDELT (gdeltproject.org) פעמיים ביום, מחשבת ציון דמיון בין הדפוס הנוכחי לדפוסים ההיסטוריים, ומציגה אותו כ"הסתברות". זו לא תחזית — זו מדידת דמיון בלבד.
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <i class="ti ti-info-circle"></i>
+      <span>זה אינו מוצר מודיעין רשמי, אינו תחזית, ואינו קשור לאיזה גוף ממשלתי או צבאי. אין להסתמך עליו בלבד לשום החלטה אישית, עסקית או בטיחותית.</span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function setText(id, val) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = val == null ? '' : String(val);
+  }
+
+  function formatDate(iso) {
+    try {
+      return new Date(iso).toLocaleString('he-IL', {
+        day: 'numeric', month: 'long', year: 'numeric',
+        hour: '2-digit', minute: '2-digit',
+        timeZone: 'Asia/Jerusalem',
+      });
+    } catch (_) { return iso || ''; }
+  }
+
+  fetch('./data/data.json')
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(populate)
+    .catch(function () {
+      document.getElementById('loading').innerHTML =
+        '<i class="ti ti-alert-circle" style="font-size:20px;margin-bottom:8px;display:block"></i>' +
+        'לא ניתן לטעון נתונים. נסה שוב מאוחר יותר.';
+    });
+
+  function populate(d) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('content').style.display = '';
+
+    setText('updated-at', 'עדכון אחרון: ' + formatDate(d.updated_at));
+
+    var st = d.short_term || {};
+    setText('score-short', st.score != null ? st.score + '%' : '—');
+    setText('status-short', st.status_he || '');
+    if (st.delta_yesterday != null) {
+      var up = st.delta_yesterday > 0;
+      document.getElementById('delta-short').innerHTML =
+        '<i class="ti ti-trending-' + (up ? 'up' : 'down') + '"></i>' +
+        '<span>' + esc(st.score) + '% ' + (up ? '↑' : '↓') +
+        ' מ-' + esc(st.yesterday_score) + '% אתמול</span>';
+    }
+
+    var ac = d.archive_comparison || {};
+    setText('score-archive', ac.score != null ? ac.score + '%' : '—');
+    setText('status-archive', ac.status_he || '');
+    var refs = (ac.reference_events || []).join(', ');
+    setText('desc-archive',
+      'דפוסי הטווח הקצר מראים ' + (ac.status_he || 'דמיון') +
+      ' לתקופות טרום-עימות שתועדו בארכיון' + (refs ? ' (' + refs + ')' : '') + '.');
+
+    renderSignals(d.signals || []);
+    renderEvents(d.today_events || []);
+    initChart(d.trend || {});
+
+    var src = d.sources || {};
+    var chipsEl = document.getElementById('sources-chips');
+    if (chipsEl) {
+      chipsEl.innerHTML = (src.list || [])
+        .map(function (s) { return '<span class="chip">' + esc(s) + '</span>'; }).join('');
+    }
+    setText('sources-total',
+      'סה"כ ' + (src.total_count || 0) + ' מקורות · ' +
+      (src.articles_72h || 0) + ' כתבות ב-72 השעות האחרונות');
+  }
+
+  function renderSignals(signals) {
+    var el = document.getElementById('signals-list');
+    if (!el) return;
+    if (!signals.length) {
+      el.innerHTML = '<p style="color:var(--text-tertiary);font-size:14px">אין סיגנלים פעילים כרגע.</p>';
+      return;
+    }
+    el.innerHTML = signals.map(function (s) {
+      var dot = s.direction === 'success' ? 'success' : s.direction === 'neutral' ? 'neutral' : 'warning';
+      var parts = [];
+      if (s.article_count_week != null) parts.push(s.article_count_week + ' כתבות השבוע');
+      if (s.ratio_wow != null)          parts.push('פי ' + s.ratio_wow + ' מהשבוע הקודם');
+      if (s.ratio_mom != null)          parts.push('פי ' + s.ratio_mom + ' מהחודש הקודם');
+      return '<div class="signal-row">' +
+        '<span class="signal-dot ' + dot + '"></span>' +
+        '<div class="signal-body">' +
+          '<div class="signal-name">' + esc(s.name_he) + '</div>' +
+          '<div class="signal-desc">' + esc(s.description_he) + '</div>' +
+          (parts.length ? '<div class="signal-count">' + esc(parts.join(' · ')) + '</div>' : '') +
+        '</div></div>';
+    }).join('');
+  }
+
+  function renderEvents(events) {
+    var el = document.getElementById('events-grid');
+    if (!el) return;
+    if (!events.length) {
+      el.innerHTML = '<p style="color:var(--text-tertiary);font-size:14px;grid-column:1/-1">אין אירועים זמינים כרגע.</p>';
+      return;
+    }
+    el.innerHTML = events.map(function (e) {
+      var tag  = e.url ? 'a href="' + esc(e.url) + '" target="_blank" rel="noopener"' : 'div';
+      var ctag = e.url ? 'a' : 'div';
+      return '<' + tag + ' class="event-card">' +
+        (e.time ? '<div class="event-card-time">' + esc(e.time) + '</div>' : '') +
+        '<div class="event-card-title">' + esc(e.description_he) + '</div>' +
+        (e.domain ? '<div class="event-card-meta">' + esc(e.domain) + '</div>' : '') +
+      '</' + ctag + '>';
+    }).join('');
+  }
+
+  function initChart(trend) {
+    var ctx = document.getElementById('trend-chart');
+    if (!ctx) return;
+    var chart = null;
+
+    function render(view) {
+      var runs = trend[view] || [];
+      var labels = runs.map(function (r) {
+        try { return new Date(r.date).toLocaleDateString('he-IL', { month: 'short', day: 'numeric' }); }
+        catch (_) { return r.date; }
+      });
+      var data = runs.map(function (r) { return r.score; });
+
+      if (chart) { chart.destroy(); chart = null; }
+
+      if (!data.length) {
+        setText('chart-caption', 'נתוני מגמה יופיעו לאחר מספר ריצות.');
+        return;
+      }
+
+      chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'הסתברות', data: data,
+            borderColor: '#BA7517', backgroundColor: 'rgba(186,117,23,0.1)',
+            borderWidth: 2.5, tension: 0.3, fill: true,
+            pointRadius: 3, pointBackgroundColor: '#BA7517', pointHoverRadius: 5,
+          }],
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              rtl: true,
+              titleFont: { family: 'Heebo' }, bodyFont: { family: 'Heebo' },
+              callbacks: { label: function (c) { return Math.round(c.parsed.y) + '%'; } },
+            },
+          },
+          scales: {
+            y: {
+              min: 0, max: 100,
+              ticks: { callback: function (v) { return v + '%'; }, font: { size: 11, family: 'Heebo' }, color: '#888780' },
+              grid: { color: 'rgba(0,0,0,0.05)' },
+            },
+            x: { ticks: { font: { size: 11, family: 'Heebo' }, color: '#888780' }, grid: { display: false } },
+          },
+        },
+      });
+      setText('chart-caption', (view === 'week' ? 'מגמת שבוע' : 'מגמת חודש') + ' · ' + data.length + ' נקודות נתונים.');
+    }
+
+    render('week');
+    document.querySelectorAll('#chart-toggles button').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('#chart-toggles button').forEach(function (b) { b.classList.toggle('active', b === btn); });
+        render(btn.dataset.view);
+      });
+    });
+  }
+
+})();
+</script>
 </body>
 </html>

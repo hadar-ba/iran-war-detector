@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-05-13T14:59:09.525637+00:00",
+  "short_term": {
+    "score": 62,
+    "status_he": "מתוח",
+    "delta_yesterday": 0,
+    "yesterday_score": 62
+  },
+  "archive_comparison": {
+    "score": 95,
+    "status_he": "דמיון גבוה",
+    "reference_events": [
+      "אוקטובר 2024",
+      "אפריל 2024"
+    ]
+  },
+  "signals": [
+    {
+      "id": "diplomatic_breakdown",
+      "name_he": "סיגנלי קריסה דיפלומטית",
+      "description_he": "דיווחים על קריסת משא ומתן, אולטימטומים, או פריצת יחסים דיפלומטיים",
+      "direction": "warning",
+      "article_count_week": 50,
+      "ratio_wow": null,
+      "ratio_mom": null,
+      "intensity": "high"
+    },
+    {
+      "id": "supreme_leader",
+      "name_he": "הצהרות ההנהגה האיראנית",
+      "description_he": "הצהרות המנהיג העליון של איראן המתייחסות לישראל",
+      "direction": "warning",
+      "article_count_week": 50,
+      "ratio_wow": null,
+      "ratio_mom": null,
+      "intensity": "high"
+    },
+    {
+      "id": "trump_china",
+      "name_he": "פעילות דיפלומטית של ארה\"ב-סין",
+      "description_he": "מהלכים דיפלומטיים של טראמפ/ארה\"ב-סין בהקשר ישראל-איראן",
+      "direction": "warning",
+      "article_count_week": 50,
+      "ratio_wow": null,
+      "ratio_mom": null,
+      "intensity": "high"
+    },
+    {
+      "id": "military_strike",
+      "name_he": "מדדי פעילות צבאית",
+      "description_he": "דיווחים על תקיפות, פעילות טילים, או הסלמה צבאית",
+      "direction": "warning",
+      "article_count_week": 50,
+      "ratio_wow": null,
+      "ratio_mom": null,
+      "intensity": "high"
+    }
+  ],
+  "today_events": [],
+  "trend": {
+    "week": [
+      {
+        "date": "2026-05-13",
+        "score": 62
+      }
+    ],
+    "month": [
+      {
+        "date": "2026-05-13",
+        "score": 62
+      }
+    ]
+  },
+  "sources": {
+    "list": [],
+    "total_count": 0,
+    "articles_72h": 200
+  }
+}

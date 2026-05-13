@@ -9,7 +9,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from gdelt_client import get_current_window
-from historian import render_report, save_run, write_ui_json
+from historian import render_report, save_run, write_ui_json, write_data_json
 from period_extractor import extract_period
 from signals import detect_signals
 from similarity_engine import load_reference_vectors, rank_similarities
@@ -66,6 +66,7 @@ def main():
     result_path = save_run(current_21, sims_21, current_7, sims_7)
     render_report(current_21, sims_21, current_7, sims_7)
     write_ui_json(current_7, sims_7, current_21, sims_21, signals)
+    write_data_json(current_7, sims_7, current_21, sims_21, signals)
 
     print(f"\nResults: {result_path}", flush=True)
     print(f"UI JSON: docs/data/latest.json + docs/data/history.json", flush=True)
