@@ -2,26 +2,24 @@
   "period_id": "POST_FEB26",
   "start": "20260415000000",
   "end": "20260505235959",
-  "extracted_at": "2026-05-13T07:35:36.322160+00:00",
+  "extracted_at": "2026-05-13T08:47:23.947081+00:00",
   "volume_total": 41.2486,
   "volume_mean_daily": 1.9642,
   "volume_peak": 3.0564,
   "days_active": 21,
   "articles_en": 0,
-  "articles_he": 0,
-  "articles_fa": 0,
+  "articles_he": 250,
+  "articles_fa": 250,
   "confluence_score": 0.0,
   "unique_domains_en": 0,
-  "unique_domains_he": 0,
-  "unique_domains_fa": 0,
-  "unique_domains_total": 0,
+  "unique_domains_he": 146,
+  "unique_domains_fa": 146,
+  "unique_domains_total": 146,
   "tone_mean": -3.231,
   "tone_min": -3.828,
   "tone_max": -2.2942,
   "silent_signals": null,
   "errors": [
-    "artlist/english: 429 rate-limited",
-    "artlist/hebrew: 429 rate-limited",
-    "artlist/persian: 429 rate-limited"
+    "artlist/english: 429 rate-limited"
   ]
 }
