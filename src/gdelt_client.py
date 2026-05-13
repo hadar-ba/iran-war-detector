@@ -70,15 +70,13 @@ def _cache_save(params: dict, data: dict) -> None:
 # ---------------------------------------------------------------------------
 
 def _gdelt_request(params: dict, retries: int = 2) -> tuple[dict | None, str | None]:
-    """GET with 429-aware exponential backoff. Returns (data, error)."""
+    """GET with fail-fast on 429 (no backoff sleep). Returns (data, error)."""
     for attempt in range(retries):
         try:
             r = requests.get(GDELT_BASE, params=params, timeout=30)
             if r.status_code == 429:
-                wait = 60 * (attempt + 1)
-                print(f"    [429] rate-limited, waiting {wait}s (attempt {attempt+1}/{retries})", flush=True)
-                time.sleep(wait)
-                continue
+                print(f"    [429] rate-limited — skipping (attempt {attempt+1}/{retries})", flush=True)
+                return None, "429 rate-limited"
             r.raise_for_status()
             text = r.text.strip()
             if not text or not text.startswith("{"):
