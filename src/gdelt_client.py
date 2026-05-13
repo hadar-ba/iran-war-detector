@@ -224,6 +224,67 @@ def get_article_count(start: str, end: str, lang: str,
     return len(articles), err
 
 
+def get_signal_timeline_count(query: str, start: str, end: str) -> tuple[list, str | None]:
+    """
+    Fetch timelinecount for a custom signal query. Returns (entries, error).
+    entries: [{"date": "20260501T000000Z", "value": <int count per day>}, ...]
+    Unlike timelinevol, timelinecount returns actual article counts per day bucket.
+    """
+    params = {
+        "query": query,
+        "mode": "timelinecount",
+        "format": "json",
+        "startdatetime": start,
+        "enddatetime": end,
+    }
+    cached = _cache_load(params, ttl_seconds=CACHE_TTL_CURRENT)
+    if cached is not None:
+        return cached, None
+
+    data, err = _gdelt_request(params)
+    time.sleep(RATE_SLEEP)
+    if data is None:
+        return [], err
+    try:
+        tl = data.get("timeline", [])
+        entries = tl[0]["data"] if tl and tl[0].get("data") else []
+        _cache_save(params, entries)
+        return entries, None
+    except Exception as e:
+        return [], f"parse error: {e}"
+
+
+def get_signal_artlist_custom(query: str, start: str, end: str,
+                               max_records: int = 250) -> tuple[list, str | None]:
+    """
+    Fetch up to max_records English articles for a custom signal query.
+    Returns (articles, error). GDELT hard cap is 250.
+    """
+    params = {
+        "query": query,
+        "mode": "artlist",
+        "format": "json",
+        "startdatetime": start,
+        "enddatetime": end,
+        "sourcelang": "english",
+        "maxrecords": str(max_records),
+    }
+    cached = _cache_load(params, ttl_seconds=CACHE_TTL_CURRENT)
+    if cached is not None:
+        return cached, None
+
+    data, err = _gdelt_request(params)
+    time.sleep(RATE_SLEEP)
+    if data is None:
+        return [], err
+    try:
+        articles = data.get("articles", [])
+        _cache_save(params, articles)
+        return articles, None
+    except Exception as e:
+        return [], f"parse error: {e}"
+
+
 def get_current_window(days: int = 21) -> tuple[str, str]:
     """
     Return (startdatetime, enddatetime) for an analysis window of `days` length

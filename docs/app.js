@@ -251,15 +251,21 @@ function renderSignals(d) {
     const name = lang === 'he' ? sig.name_he : sig.name_en;
     const desc = lang === 'he' ? sig.description_he : sig.description_en;
     const count = sig.count_current;
-    const baseline = sig.count_baseline_avg;
 
-    let countText;
+    // Build the count + ratio line
+    let metaParts = [];
     if (count == null) {
-      countText = t('signal_count_na');
+      metaParts.push(t('signal_count_na'));
     } else {
-      countText = fmt(t('signal_count'), { n: count })
-        + ' · ' + fmt(t('signal_vs'), { b: baseline });
+      metaParts.push(fmt(t('signal_count'), { n: count }));
     }
+    if (sig.ratio_wow != null) {
+      metaParts.push(fmt(t('signal_wow'), { r: sig.ratio_wow }));
+    }
+    if (sig.ratio_mom != null) {
+      metaParts.push(fmt(t('signal_mom'), { r: sig.ratio_mom }));
+    }
+    const countText = metaParts.join(' · ');
 
     const card = document.createElement('div');
     card.className = 'signal-card';

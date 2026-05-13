@@ -25,6 +25,9 @@ const I18N = {
     signal_count:       "{n} articles this week",
     signal_count_na:    "Count unavailable",
     signal_vs:          "baseline avg: {b}/week",
+    signal_wow:         "{r}× vs last week",
+    signal_mom:         "~{r}× vs last month",
+    signal_prev_week:   "{n} last week",
 
     section_trend:      "Trend over time",
     trend_7d:           "7-day similarity",
@@ -90,6 +93,9 @@ const I18N = {
     signal_count:       "{n} כתבות השבוע",
     signal_count_na:    "ספירה לא זמינה",
     signal_vs:          "נורמלי בסיס: {b}/שבוע",
+    signal_wow:         "פי {r} מהשבוע הקודם",
+    signal_mom:         "פי {r} מהחודש הקודם",
+    signal_prev_week:   "{n} שבוע קודם",
 
     section_trend:      "מגמה לאורך זמן",
     trend_7d:           "דמיון 7-יומי",
