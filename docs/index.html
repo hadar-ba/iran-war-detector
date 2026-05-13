@@ -3,73 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>מדד אזהרה: איראן–ישראל</title>
+  <title>מדד אזהרה למלחמה עם איראן</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <div id="stale-banner" class="stale-banner" hidden></div>
+
   <header class="site-header">
-    <span class="site-name" id="site-name"></span>
-    <button class="lang-btn" id="lang-toggle"></button>
+    <div class="header-inner">
+      <div class="header-titles">
+        <h1 id="site-title"></h1>
+        <p id="site-subtitle" class="site-subtitle"></p>
+      </div>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language"></button>
+    </div>
   </header>
 
   <main>
-    <div id="loading" class="loading-screen">
-      <div class="spinner"></div>
+    <div id="loading" class="loading-state">
+      <div class="loading-spinner"></div>
+      <p id="loading-text" class="loading-text"></p>
+      <p id="loading-sub" class="loading-sub"></p>
     </div>
 
-    <div id="content" hidden>
+    <div id="main-content" hidden>
 
-      <!-- Gauge (hero section) -->
-      <section class="gauge-section">
-        <p class="status-label" id="status-label"></p>
-        <div class="gauge-circle" id="gauge-circle"></div>
-        <p class="status-word" id="status-word"></p>
-        <p class="score-number" id="score-number"></p>
-        <p class="headline-sentence" id="headline-sentence"></p>
-        <p class="updated-at" id="updated-at"></p>
+      <!-- Section A: Headline status -->
+      <section id="section-headline" class="section-headline card">
+        <div class="headline-meta">
+          <span id="last-updated-label" class="meta-label"></span>
+          <span id="last-updated-value" class="meta-value"></span>
+        </div>
+        <div class="traffic-light-row">
+          <div id="traffic-light" class="traffic-light"></div>
+          <div class="headline-scores">
+            <div class="headline-main-score">
+              <span id="status-label" class="status-label"></span>
+              <span id="headline-score-7d" class="headline-score-number"></span>
+            </div>
+            <div id="score-jump-badge" class="score-jump-badge" hidden></div>
+            <div class="headline-score-desc">
+              <span id="headline-label-7d" class="score-desc"></span>
+            </div>
+            <div class="headline-21d-row">
+              <span id="headline-score-21d" class="score-21d-number"></span>
+              <span id="headline-label-21d" class="score-21d-desc"></span>
+            </div>
+          </div>
+        </div>
+        <p id="summary-text" class="summary-text"></p>
+        <p id="closest-period" class="closest-period-label"></p>
       </section>
 
-      <!-- Trend strip -->
-      <section class="trend-section">
-        <p class="trend-caption" id="trend-caption"></p>
-        <div class="chart-wrap">
-          <canvas id="trend-chart"></canvas>
-          <p id="no-chart" class="no-chart" hidden></p>
+      <!-- Section B: Context — why this status -->
+      <section id="section-context" class="card section-context">
+        <h2 id="context-heading" class="section-heading"></h2>
+        <p id="context-text" class="context-text"></p>
+        <div id="partial-note" class="partial-note" hidden></div>
+      </section>
+
+      <!-- Section C: Active signals -->
+      <section id="section-signals" class="card">
+        <h2 id="signals-heading" class="section-heading"></h2>
+        <div id="signals-list" class="signals-list"></div>
+      </section>
+
+      <!-- Section D: Trend over time -->
+      <section id="section-trend" class="card">
+        <h2 id="trend-heading" class="section-heading"></h2>
+        <div class="chart-container">
+          <canvas id="trend-chart" aria-label="Similarity trend chart"></canvas>
+          <p id="trend-no-history" class="trend-placeholder" hidden></p>
         </div>
       </section>
 
-      <!-- Signals -->
-      <section class="signals-section" id="signals-section">
-        <div id="signals-list"></div>
-      </section>
-
-      <!-- Context paragraph -->
-      <section class="context-section">
-        <p class="context-text" id="context-text"></p>
-      </section>
-
-      <!-- How it works -->
-      <details class="expandable">
-        <summary id="how-summary"></summary>
-        <div class="expandable-body" id="how-body"></div>
+      <!-- Section E: Detailed comparison (collapsible) -->
+      <details id="section-details" class="card collapsible">
+        <summary class="collapsible-summary">
+          <span id="details-heading" class="section-heading"></span>
+          <span id="details-hint" class="collapsible-hint"></span>
+          <span class="chevron">&#9660;</span>
+        </summary>
+        <div id="details-content" class="details-content"></div>
       </details>
 
-      <!-- Sources -->
-      <details class="expandable">
-        <summary id="sources-summary"></summary>
-        <div class="expandable-body" id="sources-body"></div>
+      <!-- Section F: Methodology (collapsible) -->
+      <details id="section-methodology" class="card collapsible">
+        <summary class="collapsible-summary">
+          <span id="methodology-heading" class="section-heading"></span>
+          <span class="chevron">&#9660;</span>
+        </summary>
+        <div id="methodology-content" class="methodology-content"></div>
       </details>
 
-    </div>
+      <!-- Section G: Sources (collapsible) -->
+      <details id="section-sources" class="card collapsible">
+        <summary class="collapsible-summary">
+          <span id="sources-heading" class="section-heading"></span>
+          <span class="chevron">&#9660;</span>
+        </summary>
+        <div id="sources-content" class="sources-content"></div>
+      </details>
+
+    </div><!-- /main-content -->
   </main>
 
-  <footer class="site-footer">
-    <a class="footer-link" id="github-link" href="https://github.com/hadar-ba/iran-war-detector" target="_blank" rel="noopener"></a>
-    <span class="footer-disclaimer" id="footer-disclaimer"></span>
+  <!-- Section H: Footer -->
+  <footer id="section-footer" class="site-footer">
+    <div class="footer-inner">
+      <span id="footer-gdelt" class="footer-item"></span>
+      <a id="footer-repo" href="https://github.com/hadar-ba/iran-war-detector" target="_blank" rel="noopener" class="footer-link"></a>
+      <span id="footer-disclaimer" class="footer-item footer-disclaimer-text"></span>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="i18n.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
