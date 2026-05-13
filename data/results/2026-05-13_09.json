@@ -1,0 +1,283 @@
+{
+  "run_at": "2026-05-13T09:02:56.619133+00:00",
+  "window_21d": {
+    "current": {
+      "period_id": "CURRENT_21D",
+      "start": "20260422085333",
+      "end": "20260513085333",
+      "extracted_at": "2026-05-13T08:53:33.758264+00:00",
+      "volume_total": 32.5763,
+      "volume_mean_daily": 1.5513,
+      "volume_peak": 1.9837,
+      "days_active": 21,
+      "articles_en": 0,
+      "articles_he": 250,
+      "articles_fa": 0,
+      "confluence_score": 0.0,
+      "unique_domains_en": 0,
+      "unique_domains_he": 148,
+      "unique_domains_fa": 0,
+      "unique_domains_total": 148,
+      "tone_mean": -3.2462,
+      "tone_min": -3.828,
+      "tone_max": -2.6131,
+      "silent_signals": null,
+      "errors": [
+        "artlist/english: 429 rate-limited",
+        "artlist/persian: 429 rate-limited"
+      ]
+    },
+    "similarities": [
+      {
+        "reference_id": "PRE_FEB26",
+        "reference_type": "pre-round",
+        "composite_score": 0.9397,
+        "is_pre_round": true,
+        "warn": true,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.7071,
+          "raw_volume": 1.0,
+          "source_diversity": 0.9487,
+          "tone": 0.9645
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "POST_FEB26",
+        "reference_type": "post-ceasefire",
+        "composite_score": 0.9161,
+        "is_pre_round": false,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.7071,
+          "raw_volume": 0.7898,
+          "source_diversity": 1.0,
+          "tone": 0.9992
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "QUIET_JAN26",
+        "reference_type": "quiet",
+        "composite_score": 0.8271,
+        "is_pre_round": false,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 1.0,
+          "source_diversity": 1.0,
+          "tone": 0.9256
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "PRE_OCT24",
+        "reference_type": "pre-round",
+        "composite_score": 0.496,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 0.0,
+          "cross_lang_correlation": 0.5774,
+          "raw_volume": 1.0,
+          "source_diversity": 0.9308,
+          "tone": 0.9361
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "PRE_APR24",
+        "reference_type": "pre-round",
+        "composite_score": 0.3046,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 0.0,
+          "cross_lang_correlation": 0.5774,
+          "raw_volume": 0.0,
+          "source_diversity": 1.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      }
+    ]
+  },
+  "window_7d": {
+    "current": {
+      "period_id": "CURRENT_7D",
+      "start": "20260506085801",
+      "end": "20260513085801",
+      "extracted_at": "2026-05-13T08:58:01.384502+00:00",
+      "volume_total": 228.1907,
+      "volume_mean_daily": 1.3664,
+      "volume_peak": 2.7634,
+      "days_active": 167,
+      "articles_en": 250,
+      "articles_he": 0,
+      "articles_fa": 0,
+      "confluence_score": 0.0,
+      "unique_domains_en": 159,
+      "unique_domains_he": 0,
+      "unique_domains_fa": 0,
+      "unique_domains_total": 159,
+      "tone_mean": -3.1373,
+      "tone_min": -4.3,
+      "tone_max": -0.064,
+      "silent_signals": null,
+      "errors": [
+        "artlist/hebrew: 429 rate-limited",
+        "artlist/persian: 429 rate-limited"
+      ]
+    },
+    "similarities": [
+      {
+        "reference_id": "QUIET_JAN26",
+        "reference_type": "quiet",
+        "composite_score": 0.9445,
+        "is_pre_round": false,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.7071,
+          "raw_volume": 1.0,
+          "source_diversity": 1.0,
+          "tone": 0.9201
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "POST_FEB26",
+        "reference_type": "post-ceasefire",
+        "composite_score": 0.8329,
+        "is_pre_round": false,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 1.0,
+          "source_diversity": 1.0,
+          "tone": 0.9953
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "PRE_FEB26",
+        "reference_type": "pre-round",
+        "composite_score": 0.8308,
+        "is_pre_round": true,
+        "warn": true,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 1.0,
+          "source_diversity": 1.0,
+          "tone": 0.97
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "PRE_OCT24",
+        "reference_type": "pre-round",
+        "composite_score": 0.5071,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 0.0,
+          "cross_lang_correlation": 0.5774,
+          "raw_volume": 1.0,
+          "source_diversity": 1.0,
+          "tone": 0.9307
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "PRE_APR24",
+        "reference_type": "pre-round",
+        "composite_score": 0.3046,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 0.0,
+          "cross_lang_correlation": 0.5774,
+          "raw_volume": 0.0,
+          "source_diversity": 1.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      }
+    ]
+  }
+}
