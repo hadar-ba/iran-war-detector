@@ -1,149 +1,1588 @@
 {
-  "timestamp_utc": "2026-05-13T08:35:38.173330+00:00",
-  "status": "yellow",
-  "headline_score_7day": 62,
-  "headline_score_21day": 95,
-  "score_jump": null,
+  "timestamp_utc": "2026-05-17T02:55:58.267283+00:00",
+  "status": "green",
+  "headline_score_7day": 46,
+  "headline_score_21day": 62,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). 4 monitored signal(s) are elevated. The 21-day picture is similar at 95% similarity to the period before Iran's October 2024 missile barrage.",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). 4 סיגנל/ים מנוטרים מוגברים. התמונה ל-21 יום דומה עם 95% דמיון להתקופה שלפני מטח הטילים האיראני (אוקטובר 2024).",
+  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
+  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 62% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 62% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
-      "intensity": "high",
+      "intensity": "unknown",
       "name_en": "Diplomatic breakdown signals",
-      "name_he": "סיגנלי קריסה דיפלומטית",
+      "name_he": "קריסת משא ומתן דיפלומטי",
       "description_en": "Reports of stalled negotiations, ultimatums, or diplomatic breakdowns",
       "description_he": "דיווחים על קריסת משא ומתן, אולטימטומים, או פריצת יחסים דיפלומטיים",
-      "count_current": 50,
-      "count_baseline_avg": 4,
-      "error": null,
-      "example_urls": [
-        "https://aa.com.tr/en/world/iran-sends-pakistan-its-response-to-us-proposal-on-ending-war/3933099",
-        "https://news.ifeng.com/c/8t2vMbp5noZ",
-        "https://www.rawstory.com/iran-war-2676873399/"
-      ]
+      "count_current": null,
+      "count_prev_week": null,
+      "count_baseline_avg": null,
+      "ratio_wow": null,
+      "ratio_mom": null,
+      "error": "429 rate-limited",
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "supreme_leader",
-      "intensity": "high",
+      "intensity": "unknown",
       "name_en": "Iranian leadership statements",
       "name_he": "הצהרות ההנהגה האיראנית",
       "description_en": "Statements by Iran's Supreme Leader referencing Israel",
       "description_he": "הצהרות המנהיג העליון של איראן המתייחסות לישראל",
-      "count_current": 50,
-      "count_baseline_avg": 3,
-      "error": null,
-      "example_urls": [
-        "https://www.haberts.com/benzine-zam-lpgye-indirim-geldi",
-        "https://www.digi24.ro/stiri/externe/mapamond/presedintele-iranului-sustine-ca-s-a-intalnit-cu-mojtaba-khamenei-ce-l-a-impresionat-cel-mai-mult-in-cadrul-intrevederii-3760223",
-        "https://www.yeniakit.com.tr/haber/pezeskiyan-kamuoyu-onune-cikmayan-mucteba-hamaney-ile-gorustugunu-acikladi-2000311.html"
-      ]
+      "count_current": null,
+      "count_prev_week": null,
+      "count_baseline_avg": null,
+      "ratio_wow": null,
+      "ratio_mom": null,
+      "error": "429 rate-limited",
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "trump_china",
-      "intensity": "high",
+      "intensity": "unknown",
       "name_en": "US-China diplomatic activity",
-      "name_he": "פעילות דיפלומטית של ארה\"ב-סין",
+      "name_he": "פעילות דיפלומטית ארה\"ב-סין",
       "description_en": "Trump/US-China diplomatic moves related to the Iran-Israel dynamic",
       "description_he": "מהלכים דיפלומטיים של טראמפ/ארה\"ב-סין בהקשר ישראל-איראן",
-      "count_current": 50,
-      "count_baseline_avg": 2,
-      "error": null,
-      "example_urls": [
-        "https://military.china.com/news/13004177/20260508/49479232.html",
-        "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1224155-0/",
-        "https://news.ifeng.com/c/8szVuY6ACnb"
-      ]
+      "count_current": null,
+      "count_prev_week": null,
+      "count_baseline_avg": null,
+      "ratio_wow": null,
+      "ratio_mom": null,
+      "error": "429 rate-limited",
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "military_strike",
-      "intensity": "high",
+      "intensity": "unknown",
       "name_en": "Military action indicators",
       "name_he": "מדדי פעילות צבאית",
       "description_en": "Reports of strikes, missile activity, or military escalation",
       "description_he": "דיווחים על תקיפות, פעילות טילים, או הסלמה צבאית",
-      "count_current": 50,
-      "count_baseline_avg": 6,
-      "error": null,
+      "count_current": null,
+      "count_prev_week": null,
+      "count_baseline_avg": null,
+      "ratio_wow": null,
+      "ratio_mom": null,
+      "error": "429 rate-limited",
       "example_urls": [
         "https://aninews.in/news/world/middle-east/uae-carried-out-covert-strikes-on-iran-during-west-asia-conflict-reports-wsj20260512131738/",
-        "https://www.thejournal.ie/israeli-strikes-lebanon-kill-at-least-17-7035788-May2026/",
+        "https://www.haberturk.com/iddia-suudi-arabistan-iran-a-hava-saldirisi-gerceklestirdi-3884306",
         "https://nypost.com/2026/05/12/world-news/saudi-arabia-launched-covert-attacks-on-iran-as-war-expands-sources-say/"
+      ],
+      "articles": [
+        {
+          "url": "https://aninews.in/news/world/middle-east/uae-carried-out-covert-strikes-on-iran-during-west-asia-conflict-reports-wsj20260512131738/",
+          "title": "UAE carried out covert strikes on Iran during West Asia conflict , reports WSJ",
+          "domain": "aninews.in",
+          "seendate": "20260512T081500Z"
+        },
+        {
+          "url": "https://www.haberturk.com/iddia-suudi-arabistan-iran-a-hava-saldirisi-gerceklestirdi-3884306",
+          "title": "İddia : Suudi Arabistan İrana hava saldırısı gerçekleştirdi",
+          "domain": "haberturk.com",
+          "seendate": "20260513T111500Z"
+        },
+        {
+          "url": "https://nypost.com/2026/05/12/world-news/saudi-arabia-launched-covert-attacks-on-iran-as-war-expands-sources-say/",
+          "title": "Saudi Arabia launched covert attacks on Iran as war expands , sources say",
+          "domain": "nypost.com",
+          "seendate": "20260512T221500Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/76221",
+          "title": "UAE Failed to Convince Gulf States to Strike Iran – Bloomberg",
+          "domain": "kyivpost.com",
+          "seendate": "20260515T150000Z"
+        },
+        {
+          "url": "https://www.thejournal.ie/israeli-strikes-lebanon-kill-at-least-17-7035788-May2026/",
+          "title": "Israeli strikes on Lebanon kill at least 17 people amid ceasefire",
+          "domain": "thejournal.ie",
+          "seendate": "20260510T091500Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10738282",
+          "title": "이란 외무 , UAE에  이스라엘과 동맹 … 침략의 능동적 파트너  ",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20260514T113000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-launched-secret-retaliatory-airstrikes-on-iran-during-regional-war-report/articleshow/131054413.cms",
+          "title": "Saudi Arabia Airstrikes : Saudi Arabia launched secret retaliatory airstrikes on Iran during regional war : Report",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260513T050000Z"
+        },
+        {
+          "url": "https://www.rp.pl/konflikty-zbrojne/art44361721-reuters-ujawnia-arabia-saudyjska-tez-atakowala-iran",
+          "title": "Arabia Saudyjska przeprowadzała ataki na Iran , ale nie informowała o tym publicznie",
+          "domain": "rp.pl",
+          "seendate": "20260513T060000Z"
+        },
+        {
+          "url": "http://www.iraqsun.com/news/279045585/uae-carried-out-covert-strikes-on-iran-during-west-asia-conflict-reports-wsj",
+          "title": "UAE carried out covert strikes on Iran during West Asia conflict , reports WSJ",
+          "domain": "iraqsun.com",
+          "seendate": "20260512T123000Z"
+        },
+        {
+          "url": "http://www.arabherald.com/news/279045585/uae-carried-out-covert-strikes-on-iran-during-west-asia-conflict-reports-wsj",
+          "title": "UAE carried out covert strikes on Iran during West Asia conflict , reports WSJ",
+          "domain": "arabherald.com",
+          "seendate": "20260512T100000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/geopolitical/saudi-arabia-secretly-launched-attacks-iran-heigh-epic-fury",
+          "title": "Saudi Arabia Secretly Launched Attacks On Iran At Height Of Epic Fury",
+          "domain": "zerohedge.com",
+          "seendate": "20260512T223000Z"
+        },
+        {
+          "url": "https://www.ntdtv.com/b5/2026/05/14/a104096408.html",
+          "title": "沙特阿拉伯報復遇襲 首度曝光多次軍事打擊伊朗",
+          "domain": "ntdtv.com",
+          "seendate": "20260514T083000Z"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/aopl/202605120022.aspx",
+          "title": "華爾街日報 ： 阿聯祕密空襲伊朗 由受襲方轉交戰方 | 國際",
+          "domain": "cna.com.tw",
+          "seendate": "20260512T041500Z"
+        },
+        {
+          "url": "https://www.cna.com.tw:443/news/aopl/202605120022.aspx",
+          "title": "華爾街日報 ： 阿聯祕密空襲伊朗 由受襲方轉交戰方 | 國際",
+          "domain": "cna.com.tw",
+          "seendate": "20260512T024500Z"
+        },
+        {
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8560273",
+          "title": "KBS 뉴스",
+          "domain": "news.kbs.co.kr",
+          "seendate": "20260513T143000Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/438/mystikes-epitheseis-tis-saoudikis-aravias-sto-iran--antipoina-sta-pligmata-apo-tin-techerani.htm",
+          "title": "Μυστικές επιθέσεις της Σαουδικής Αραβίας στο Ιράν – Αντίποινα στα πλήγματα από την Τεχεράνη",
+          "domain": "inewsgr.com",
+          "seendate": "20260512T191500Z"
+        },
+        {
+          "url": "https://www.gamereactor.eu/saudi-arabia-launched-unpublicized-attacks-on-iran-during-the-war-first-time-attacking-the-country-1718183/",
+          "title": "Saudi Arabia launched unpublicized attacks on Iran during the war , first time attacking the country - ",
+          "domain": "gamereactor.eu",
+          "seendate": "20260513T101500Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/geopolitical/uae-secretly-carried-out-attacks-iran-making-it-active-combatant",
+          "title": "UAE Secretly Carried Out Attacks On Iran , Making It An Active Combatant",
+          "domain": "zerohedge.com",
+          "seendate": "20260512T124500Z"
+        },
+        {
+          "url": "http://www.koreatimes.com/article/20260514/1613442",
+          "title": "美당국도  사우디 · UAE , 이란 보복공격 … 직접 교전국 전환 우려",
+          "domain": "koreatimes.com",
+          "seendate": "20260515T053000Z"
+        },
+        {
+          "url": "https://segye.com:443/newsView/20260515511528",
+          "title": "사우디 · UAE , 방어 대신 대이란 보복 공격 … 중동 전쟁 판도 바뀌나",
+          "domain": "segye.com",
+          "seendate": "20260515T090000Z"
+        },
+        {
+          "url": "https://blueprint.ng/uae-secretly-joined-israeli-us-strikes-on-iran-report/",
+          "title": "UAE secretly joined Israeli - US strikes on Iran - Report  - Blueprint Newspapers Limited",
+          "domain": "blueprint.ng",
+          "seendate": "20260514T073000Z"
+        },
+        {
+          "url": "https://www.newsweek.com/the-significance-of-uae-saudi-arabia-offensive-attacks-in-iran-war-11943661",
+          "title": "The Significance of UAE , Saudi Arabia Offensive Attacks in Iran War",
+          "domain": "newsweek.com",
+          "seendate": "20260513T020000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/us-israel-iran-war/us-intelligence-shows-iran-retains-significant-missile-capabilities-nyt/3935641",
+          "title": "US intelligence shows Iran retains significant missile capabilities : NYT",
+          "domain": "aa.com.tr",
+          "seendate": "20260512T230000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/articles/israeli-drone-strikes-near-beirut-154216891.html",
+          "title": "Israeli drone strikes near Beirut kill 4 and southern airstrikes kill at least 13",
+          "domain": "yahoo.com",
+          "seendate": "20260510T151500Z"
+        },
+        {
+          "url": "https://www.dailysabah.com/world/mid-east/iran-retains-significant-missile-capacity-contrary-to-trump-claims",
+          "title": "Iran  retains significant missile capacity  contrary to Trump claims",
+          "domain": "dailysabah.com",
+          "seendate": "20260513T114500Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260510-presstv03.htm",
+          "title": "Israel barbaric aggression martyrs 39 in Lebanon in single day of ceasefire violations",
+          "domain": "globalsecurity.org",
+          "seendate": "20260511T111500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/was-gulf-really-silent-as-iran-hit-oil-hubs-and-airports-how-saudi-arabia-and-uae-took-the-fight-to-tehran-behind-closed-doors-article-13918007.html",
+          "title": "Was Gulf really silent as Iran hit oil hubs and airports ? How Saudi Arabia and UAE took the fight to Tehran behind closed doors",
+          "domain": "moneycontrol.com",
+          "seendate": "20260513T134500Z"
+        },
+        {
+          "url": "http://www.timesfreepress.com/news/2026/may/10/israeli-drone-strikes-near-beirut-kill-4-and-southern-airstrikes-kill-at-least-13/",
+          "title": "Israeli drone strikes near Beirut kill 4 and southern airstrikes kill at least 13",
+          "domain": "timesfreepress.com",
+          "seendate": "20260510T133000Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/05/israel-260512-presstv01.htm",
+          "title": "US envoy admits Israel secretly sent Iron Dome to UAE during war on Iran",
+          "domain": "globalsecurity.org",
+          "seendate": "20260513T133000Z"
+        },
+        {
+          "url": "https://www.thejakartapost.com/world/2026/05/16/israel-lebanon-say-extending-ceasefire-despite-new-strikes.html",
+          "title": "Israel , Lebanon say extending ceasefire despite new strikes - Middle East and Africa",
+          "domain": "thejakartapost.com",
+          "seendate": "20260516T064500Z"
+        },
+        {
+          "url": "https://www.albayan.ae/news/middle-east/iran/1289045",
+          "title": "هل بات استئناف حرب إيران وشيكاً ؟ ",
+          "domain": "albayan.ae",
+          "seendate": "20260516T214500Z"
+        },
+        {
+          "url": "https://dunyanews.tv/en/World/951247-saudi-arabia-launched-covert-attacks-on-iran-as-regional-war-widened-",
+          "title": "Saudi Arabia launched covert attacks on Iran as regional war widened , sources say",
+          "domain": "dunyanews.tv",
+          "seendate": "20260513T054500Z"
+        },
+        {
+          "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/saudi-arabia-launched-covert-attacks-iran-regional-war-widened-sources-say-4174566",
+          "title": "Saudi Arabia launched covert attacks on Iran as regional war widened , sources say",
+          "domain": "thedailystar.net",
+          "seendate": "20260513T073000Z"
+        },
+        {
+          "url": "https://yalibnan.com/2026/05/10/deadly-israeli-strikes-erode-cease-fire-in-lebanon/",
+          "title": "Deadly Israeli strikes erode cease - fire in Lebanon – Ya Libnan",
+          "domain": "yalibnan.com",
+          "seendate": "20260510T161500Z"
+        },
+        {
+          "url": "https://www.foreignpolicyjournal.com/2026/05/11/iran-uses-karoline-leavitt-baby-announcement-to-raise-minab-school-strike-in-pointed-message/",
+          "title": "Iran Uses Karoline Leavitt Baby Announcement to Raise Minab School Strike in Pointed Message",
+          "domain": "foreignpolicyjournal.com",
+          "seendate": "20260511T201500Z"
+        },
+        {
+          "url": "https://www.marketscreener.com/quote/index/ISRAEL-TA-35-TRG-39464295/news/Seven-killed-in-Gaza-as-Israel-says-it-targets-Hamas-leader-9454664/",
+          "title": "Seven killed in Gaza as Israel says it targets Hamas leader",
+          "domain": "marketscreener.com",
+          "seendate": "20260515T194500Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202605130854573832",
+          "title": "갈수록 번지는 이란전쟁 , UAE · 사우디 · 쿠웨이트까지 교전",
+          "domain": "fnnews.com",
+          "seendate": "20260513T030000Z"
+        },
+        {
+          "url": "https://www.thehindubusinessline.com/news/world/saudi-arabia-reportedly-carried-out-secret-strikes-on-iran-during-west-asia-war/article70972399.ece",
+          "title": "Saudi Arabia reportedly launched covert strikes on Iran during West Asia conflict",
+          "domain": "thehindubusinessline.com",
+          "seendate": "20260513T030000Z"
+        },
+        {
+          "url": "https://www.chennaionline.com/news/israel-and-lebanon-extend-ceasefire-despite-new-strikes/",
+          "title": "Israel and Lebanon Extend Ceasefire Despite New Strikes – Chennaionline",
+          "domain": "chennaionline.com",
+          "seendate": "20260516T071500Z"
+        },
+        {
+          "url": "https://athens-times.com/israel-prepares-for-new-conflict-with-iran-amid-stalled-u-s-talks/",
+          "title": "Israel Prepares for New Iran Conflict",
+          "domain": "athens-times.com",
+          "seendate": "20260515T210000Z"
+        },
+        {
+          "url": "https://portal.sina.com.hk/news-intl/sina/2026/05/16/1767172/%E5%A4%96%E5%AA%92%EF%BC%9A%E9%98%BF%E8%81%AF%E9%85%8B%E6%9B%BE%E8%A9%A6%E5%9C%96%E8%81%AF%E5%90%88%E9%84%B0%E5%9C%8B%E6%89%93%E6%93%8A%E4%BC%8A%E6%9C%97%E9%81%AD%E6%8B%92/",
+          "title": "外媒 ： 阿聯酋曾試圖聯合鄰國打擊伊朗遭拒",
+          "domain": "portal.sina.com.hk",
+          "seendate": "20260516T100000Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10737385",
+          "title": "왜 이란은 유독 UAE만 때릴까 ?… 휴전 파기시 보복 1순위 [ 디브리핑 ] ",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20260513T113000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-05-14-uae-joined-us-israel-strikes-iran-report.html",
+          "title": "UAE Joined U . S . and Israel in Carrying Out Military Strikes on Iran , Report Says – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260514T121500Z"
+        },
+        {
+          "url": "https://www.carolinacoastonline.com/national/article_7fc79e1a-3836-427b-a9ba-87d6c4c99e1b.html",
+          "title": "Israeli drone strikes near Beirut kill 4 and southern airstrikes kill at least 13",
+          "domain": "carolinacoastonline.com",
+          "seendate": "20260510T131500Z"
+        },
+        {
+          "url": "https://www.tgrthaber.com/dunya/korfezde-golge-savaslari-bir-baska-ulke-de-irana-saldirdi-iddiasi-3335136",
+          "title": "Körfezde gölge savaşları :  Bir başka ülke de İrana saldırdı  iddiası",
+          "domain": "tgrthaber.com",
+          "seendate": "20260513T073000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/article-895961",
+          "title": "Saudi Arabia attacked Iran during recent regional escalations",
+          "domain": "jpost.com",
+          "seendate": "20260512T213000Z"
+        },
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/05/12/exclusive-saudi-arabia-launched-covert-attacks-on-iran-as-regional-war-widened-sources",
+          "title": "Exclusive - Saudi Arabia launched covert attacks on Iran as regional war widened - sources",
+          "domain": "internazionale.it",
+          "seendate": "20260513T111500Z"
+        },
+        {
+          "url": "https://www.jpost.com/defense-and-tech/article-895822",
+          "title": "Why Iran ballistic missiles pose a greater threat than the nuclear issue",
+          "domain": "jpost.com",
+          "seendate": "20260511T180000Z"
+        },
+        {
+          "url": "https://www.cbc.ca/news/world/hamas-chief-gaza-israel-9.7202240",
+          "title": "Israel military says Hamas commander killed in airstrike on Gaza",
+          "domain": "cbc.ca",
+          "seendate": "20260516T131500Z"
+        },
+        {
+          "url": "https://www.bworldonline.com/world/2026/05/13/749289/saudi-arabia-launched-covert-attacks-on-iran-as-regional-war-widened-sources-say/",
+          "title": "Saudi Arabia launched covert attacks on Iran as regional war widened , sources say",
+          "domain": "bworldonline.com",
+          "seendate": "20260513T054500Z"
+        },
+        {
+          "url": "https://www.elwatannews.com/news/details/8283408",
+          "title": " « يديعوت أحرونوت »: خياران أمام الرئيس الأمريكي للتعامل مع إيران",
+          "domain": "elwatannews.com",
+          "seendate": "20260513T041500Z"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/world/article-saudi-arabia-attacks-iran-war/",
+          "title": "Saudi Arabia launched covert retaliatory attacks on Iran in March , sources say",
+          "domain": "theglobeandmail.com",
+          "seendate": "20260512T201500Z"
+        },
+        {
+          "url": "https://www.koreaherald.com/article/10736882",
+          "title": "Saudi Arabia  launched  covert attacks on Iran as regional war widened , sources say",
+          "domain": "koreaherald.com",
+          "seendate": "20260513T021500Z"
+        },
+        {
+          "url": "https://www.ettoday.net/news/20260512/3164266.htm",
+          "title": "華爾街 ： 阿聯酋4月初曾空襲伊朗煉油廠 秘密持續進行打擊 | ETtoday國際新聞",
+          "domain": "ettoday.net",
+          "seendate": "20260512T004500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/newsblogs/us-iran-war-live-updates-israel-donald-trump-khamenei-middle-east-strait-of-hormuz-oil-gas-prices-india/liveblog/131081442.cms",
+          "title": "US Iran War Live Updates : Hezbollah launches 17 attacks on Israeli forces in South Lebanon",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260514T041500Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-05-13/4389703.html",
+          "title": "重磅 ！ 以色列已在阿联酋部署  铁穹  防空系统及相关操作人员 ， 拦截伊朗导弹",
+          "domain": "nbd.com.cn",
+          "seendate": "20260512T163000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/saudi-arabia-carried-out-covert-retaliatory-airstrikes-on-iran-report-article-13917233.html",
+          "title": "Saudi Arabia carried out covert retaliatory airstrikes on Iran : Report",
+          "domain": "moneycontrol.com",
+          "seendate": "20260513T034500Z"
+        },
+        {
+          "url": "https://www.latintimes.com/saudi-arabia-floats-non-aggression-pact-iran-after-regional-war-597403",
+          "title": "Saudi Arabia Floats Non - Aggression Pact With Iran After Regional War",
+          "domain": "latintimes.com",
+          "seendate": "20260515T153000Z"
+        },
+        {
+          "url": "https://www.theyeshivaworld.com/news/israel-news/2548374/revealed-saudi-arabia-launched-unpublicized-airstrikes-on-iran-in-retaliation-for-mission-and-drone-attacks.html",
+          "title": "REVEALED : Saudi Arabia Launched Unpublicized Airstrikes On Iran In Retaliation For Mission And Drone Attacks",
+          "domain": "theyeshivaworld.com",
+          "seendate": "20260513T004500Z"
+        },
+        {
+          "url": "https://www.wsws.org/en/articles/2026/05/11/kxdm-m11.html",
+          "title": "Trump calls Iranian response to negotiations  unacceptable , as Israel continues Lebanon bloodbath",
+          "domain": "wsws.org",
+          "seendate": "20260511T043000Z"
+        },
+        {
+          "url": "https://www.theage.com.au/world/middle-east/israel-s-military-says-hamas-armed-chief-killed-in-airstrike-on-gaza-20260516-p5zxrn.html",
+          "title": "Israel military says Hamas armed chief killed in airstrike on Gaza",
+          "domain": "theage.com.au",
+          "seendate": "20260516T121500Z"
+        },
+        {
+          "url": "https://athina984.gr/2026/05/13/reuters-mystika-pligmata-kata-toy-iran-kai-apo-ti-saoydiki-aravia/",
+          "title": "Reuters : Μυστικά πλήγματα κατά του Ιράν και από τη Σαουδική Αραβία",
+          "domain": "athina984.gr",
+          "seendate": "20260513T084500Z"
+        },
+        {
+          "url": "https://www.watoday.com.au/world/middle-east/israel-s-military-says-hamas-armed-chief-killed-in-airstrike-on-gaza-20260516-p5zxrn.html",
+          "title": "Israel military says Hamas armed chief killed in airstrike on Gaza",
+          "domain": "watoday.com.au",
+          "seendate": "20260516T130000Z"
+        },
+        {
+          "url": "https://www.brisbanetimes.com.au/world/middle-east/israel-s-military-says-hamas-armed-chief-killed-in-airstrike-on-gaza-20260516-p5zxrn.html",
+          "title": "Israel military says Hamas armed chief killed in airstrike on Gaza",
+          "domain": "brisbanetimes.com.au",
+          "seendate": "20260516T123000Z"
+        },
+        {
+          "url": "https://www.moroccoworldnews.com/2026/05/301480/israel-kills-hamas-military-chief-izz-al-din-al-haddad/",
+          "title": "Israel Kills Hamas Military Chief Izz al - Din al - Haddad",
+          "domain": "moroccoworldnews.com",
+          "seendate": "20260516T151500Z"
+        },
+        {
+          "url": "https://www.algemeiner.com/2026/05/12/saudi-arabia-launched-covert-attacks-iran-regional-war-widened-sources-say/",
+          "title": "Saudi Arabia Launched Covert Attacks on Iran as Regional War Widened , Sources Say",
+          "domain": "algemeiner.com",
+          "seendate": "20260512T231500Z"
+        },
+        {
+          "url": "https://www.trend.az/iran/4184626.html",
+          "title": "Iranian air defense forces shoot down drone",
+          "domain": "trend.az",
+          "seendate": "20260511T001500Z"
+        },
+        {
+          "url": "https://investinglive.com:443/commodities/uae-carried-out-covert-strikes-on-iran-as-gulf-war-escalated-wsj-report-says-20260511/",
+          "title": "UAE carried out covert strikes on Iran as Gulf war escalated , WSJ report says",
+          "domain": "investinglive.com",
+          "seendate": "20260511T214500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/israel-lebanon-say-extending-ceasefire-despite-new-strikes/articleshow/131130272.cms",
+          "title": "Israel , Lebanon say extending ceasefire despite new strikes",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260516T020000Z"
+        },
+        {
+          "url": "https://www.thedailystar.net/news/world/middle-east/news/israel-lebanon-say-extending-ceasefire-despite-new-strikes-4176896",
+          "title": "Israel , Lebanon say extending ceasefire despite new strikes",
+          "domain": "thedailystar.net",
+          "seendate": "20260516T031500Z"
+        },
+        {
+          "url": "https://english.aawsat.com/arab-world/5273742-lebanon-israel-say-extending-ceasefire-despite-new-strikes",
+          "title": "Lebanon , Israel Say Extending Ceasefire Despite New Strikes",
+          "domain": "english.aawsat.com",
+          "seendate": "20260516T054500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/93/Reuters-i-saoudiki-aravia-exapelyse-epitheseis-kata-tou-iran-ton-martio-os-antipoina.htm",
+          "title": "Reuters : Η Σαουδική Αραβία εξαπέλυσε επιθέσεις κατά του Ιράν τον Μάρτιο ως αντίποινα",
+          "domain": "inewsgr.com",
+          "seendate": "20260513T051500Z"
+        },
+        {
+          "url": "https://www.thenewslens.com/article/267568",
+          "title": "阿聯祕密空襲伊朗 ！ 從受襲方轉為交戰國 ， 川普抨擊德黑蘭回應 「 愚蠢 」 停火已瀕瓦解 - TNL The News Lens 關鍵評論網",
+          "domain": "thenewslens.com",
+          "seendate": "20260512T023000Z"
+        },
+        {
+          "url": "https://www.dostor.org/5553696",
+          "title": "خبير : تصعيد إيران مع واشنطن وتل أبيب يعكس انتقالًا لمرحلة « إعادة هندسة الردع » ",
+          "domain": "dostor.org",
+          "seendate": "20260513T200000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/an-aggressor-iran-tells-uae-to-accept-responsibility-as-tensions-flare-at-brics-meeting-in-new-delhi/articleshow/131099744.cms",
+          "title": "  An aggressor : Iran tells UAE to  accept responsibility  as tensions flare at Brics meeting in New Delhi",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260514T191500Z"
+        },
+        {
+          "url": "https://www.rbc.ua/rus/news/ssha-ta-izrayil-mozhut-ponoviti-udari-iranu-1778886534.html",
+          "title": "Трамп розглядає відновлення ударів по Ірану - Пентагон підготував план",
+          "domain": "rbc.ua",
+          "seendate": "20260516T010000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-05-12-lebanese-health-ministry-accuses-israel-targeting-medics.html",
+          "title": "Lebanese Health Ministry Accuses Israel of Targeting Medics in Airstrikes – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260512T171500Z"
+        },
+        {
+          "url": "https://www.bssnews.net/international/387407",
+          "title": "Israel , Lebanon say extending ceasefire despite new strikes",
+          "domain": "bssnews.net",
+          "seendate": "20260516T031500Z"
+        },
+        {
+          "url": "https://24tv.ua/geopolitics/viyna-ssha-iranom-yaki-varianti-prodovzhennya-konfliktu-rozglyadaye_n3069112",
+          "title": "Війна США з Іраном - які варіанти продовження конфлікту розглядає Трамп",
+          "domain": "24tv.ua",
+          "seendate": "20260516T120000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8t7Abthur5e",
+          "title": "以方透露内塔尼亚胡曾秘访阿联酋 ， 伊朗回应",
+          "domain": "news.ifeng.com",
+          "seendate": "20260514T014500Z"
+        },
+        {
+          "url": "https://www.koreaherald.com/article/10737917",
+          "title": "Saudi warplanes struck militias in Iraq during war , sources say",
+          "domain": "koreaherald.com",
+          "seendate": "20260514T050000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/427050",
+          "title": "NYT : Chinese companies weighing provision of weapons to Iran",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260514T063000Z"
+        },
+        {
+          "url": "https://hotair.com/ed-morrissey/2026/05/15/carla-sands-interview-n3814989",
+          "title": "  Ceasefire  Updates : Israel Hits Top Hamas Commander ; Iran Escalating Executions",
+          "domain": "hotair.com",
+          "seendate": "20260516T003000Z"
+        },
+        {
+          "url": "https://www.channelstv.com/2026/05/15/israel-lebanon-extend-ceasefire-despite-fresh-strikes/",
+          "title": "Israel , Lebanon Extend Ceasefire Despite Fresh Strikes",
+          "domain": "channelstv.com",
+          "seendate": "20260515T230000Z"
+        },
+        {
+          "url": "https://www.etnews.com/20260513000026",
+          "title": "이란에 보복 공습한 사우디 , 영토 첫 직접 타격 … 중동 화약고 터지나",
+          "domain": "etnews.com",
+          "seendate": "20260513T023000Z"
+        },
+        {
+          "url": "https://en.dailypakistan.com.pk/12-May-2026/uae-actively-took-part-in-israel-us-strikes-on-iran-during-regional-conflict-wsj-claims",
+          "title": "UAE actively took part in Israel – US strikes on Iran during regional conflict , WSJ claims",
+          "domain": "en.dailypakistan.com.pk",
+          "seendate": "20260512T123000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2607687/israel-sent-iron-dome-batteries-personnel-to-uae-official",
+          "title": "Israel sent Iron Dome batteries , personnel to UAE : US ambassador to Israel",
+          "domain": "tribune.com.pk",
+          "seendate": "20260512T150000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/r184ngwyzl",
+          "title": "Trump weighs limited Iran strike or temporary deal to reopen Hormuz , officials say",
+          "domain": "ynetnews.com",
+          "seendate": "20260513T001500Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/uae-made-failed-attempt-get-saudi-arabia-qatar-jointly-attack-iran-report",
+          "title": "UAE made failed attempt to get Saudi Arabia , Qatar to jointly attack Iran : Report",
+          "domain": "middleeasteye.net",
+          "seendate": "20260515T174500Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10736544",
+          "title": "  사우디 , 중동전쟁 중 이란에 첫 보복 공습  ",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20260512T213000Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202605130334505492",
+          "title": "  사우디 , 중동전쟁 중 이란에 보복 공습 … 첫 직접 군사행동  ",
+          "domain": "fnnews.com",
+          "seendate": "20260512T214500Z"
+        },
+        {
+          "url": "https://www.albiladpress.com/news/2026/6421/arab-and-world/998186.html",
+          "title": "جريدة البلاد | تقييم استخباراتي : إيران استعادت معظم قدراتها الصاروخية",
+          "domain": "albiladpress.com",
+          "seendate": "20260513T090000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/us-intel-contradicts-trump-s-decimated-military-narrative-says-iran-restored-most-missile-sites-article-13917666.html",
+          "title": "US intel contradicts Trump  decimated  military  narrative , says Iran restored most missile sites",
+          "domain": "moneycontrol.com",
+          "seendate": "20260513T064500Z"
+        },
+        {
+          "url": "https://www.tayyar.org/News/Mena/723234/_guid=723234",
+          "title": "tayyar . org - طبول الحرب تقرع من جديد ... استعدادات لاحتمال عودة المواجهات ! ",
+          "domain": "tayyar.org",
+          "seendate": "20260516T120000Z"
+        },
+        {
+          "url": "https://www.odt.co.nz/news/world/head-hamas-military-wing-killed-israeli-strike",
+          "title": "Head of Hamas military wing killed in Israeli strike",
+          "domain": "odt.co.nz",
+          "seendate": "20260516T211500Z"
+        },
+        {
+          "url": "https://www.newsit.gr/kosmos/reuters-i-saoudiki-aravia-eksapelyse-epitheseis-kata-tou-iran-ton-martio-os-antipoina/4674546/",
+          "title": "Reuters : Η Σαουδική Αραβία εξαπέλυσε επιθέσεις κατά του Ιράν τον Μάρτιο ως αντίποινα",
+          "domain": "newsit.gr",
+          "seendate": "20260513T060000Z"
+        },
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/05/16/israel-kills-hamas-armed-wing-leader-haddad-in-gaza-strike",
+          "title": "Israel kills Hamas armed wing leader Haddad in Gaza strike",
+          "domain": "internazionale.it",
+          "seendate": "20260516T221500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/israil-irana-karsi-gizli-bir-us-kurdu-711631",
+          "title": "İsrail , İrana karşı gizli bir üs kurdu",
+          "domain": "birgun.net",
+          "seendate": "20260511T033000Z"
+        },
+        {
+          "url": "https://kitabat.com/news/%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%B9%D9%84%D9%89-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%87%D8%A7%D9%83%D8%A7%D8%A8%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%A5%D8%B1%D8%B3%D8%A7/",
+          "title": "خلال الحرب على إيران .. هاكابي يكشف إرسال إسرائيل بطارية من  القبة الحديدية  إلى الإمارات – كتابات",
+          "domain": "kitabat.com",
+          "seendate": "20260512T123000Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/iran-news/article-896093",
+          "title": "Saudi jets bomb militia positions in Iraq , sources reveal",
+          "domain": "jpost.com",
+          "seendate": "20260513T174500Z"
+        },
+        {
+          "url": "https://www.khaama.com/iran-warns-countries-enforcing-us-sanctions-may-face-strait-of-hormuz-shipping-disruptions/",
+          "title": "Iran Warns Countries Enforcing US Sanctions May Face Strait Of Hormuz Shipping Disruptions",
+          "domain": "khaama.com",
+          "seendate": "20260510T101500Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/article-896274",
+          "title": "How will role of Gulf states in Iran war change ? ",
+          "domain": "jpost.com",
+          "seendate": "20260514T183000Z"
+        },
+        {
+          "url": "https://www.albawaba.com/news/they-won%E2%80%99t-see-it-coming-trump-eyes-dark-1627767",
+          "title": "  They Wont See It Coming : Trump Eyes  Dark Eagle  strikes on Iran",
+          "domain": "albawaba.com",
+          "seendate": "20260516T151500Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3772020",
+          "title": "阿联酋参战 ？ 报道称已秘密袭击伊朗 、 4月曾击中波斯湾内岛上一炼油厂",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260511T213000Z"
+        },
+        {
+          "url": "https://www.trend.az/iran/politics/4184706.html",
+          "title": "Iran reaffirms its rights amid stalled negotiations with U . S . ",
+          "domain": "trend.az",
+          "seendate": "20260511T083000Z"
+        },
+        {
+          "url": "https://www.durangoherald.com/articles/israeli-drone-strikes-hit-highway-south-of-beirut-killing-8-including-2-children/",
+          "title": "Israeli drone strikes hit highway south of Beirut , killing 8 , including 2 children",
+          "domain": "durangoherald.com",
+          "seendate": "20260513T123000Z"
+        },
+        {
+          "url": "https://www.gp.se/nyheter/varlden/usa-vapenvilan-i-libanon-forlangs.cdbf552c-4d7d-55ce-918e-b86a70f05da2",
+          "title": "USA : Vapenvilan i Libanon förlängs",
+          "domain": "gp.se",
+          "seendate": "20260515T201500Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/ohio-class-submarine-nuclear-missiles-spain-b2974593.html",
+          "title": "US sub that can launch nuclear missiles announces location in rare reveal",
+          "domain": "independent.co.uk",
+          "seendate": "20260512T010000Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202605131051098615",
+          "title": "  이란 군사력 끝났다  던 트럼프 … 美당국은  대부분 살아남았다  ",
+          "domain": "fnnews.com",
+          "seendate": "20260513T030000Z"
+        },
+        {
+          "url": "https://news.am/en/news/1035210",
+          "title": "Main developments in Middle East as of Thursday morning",
+          "domain": "news.am",
+          "seendate": "20260514T093000Z"
+        },
+        {
+          "url": "https://www.newsx.com/world/uae-iran-attack-secret-military-strikes-inside-lavan-island-refineris-desalination-plants-used-mirage-2000-9-jets-dubai-abu-dhabi-news-217512/",
+          "title": "UAE Entered US - Iran War ? All About Gulf Nation Secret Military Strikes",
+          "domain": "newsx.com",
+          "seendate": "20260512T081500Z"
+        },
+        {
+          "url": "https://www.dw.com/en/iran-war-ceasefire-tested-by-ship-fire-drone-attack/live-77102104",
+          "title": "Iran war : Ceasefire tested by ship fire , drone attack",
+          "domain": "dw.com",
+          "seendate": "20260510T110000Z"
+        },
+        {
+          "url": "https://adevarul.ro/securitate-si-aparare/iranul-a-amenintat-fatis-franta-si-marea-britanie-2529980.html",
+          "title": "Iranul a amenințat fățiș Franța și Marea Britanie . General NATO : „ Vulnerabilitatea României diferă de cea a Bulgariei  ",
+          "domain": "adevarul.ro",
+          "seendate": "20260515T234500Z"
+        },
+        {
+          "url": "https://www.kurv.com/israeli-drone-strikes-near-beirut-kill-4-and-southern-airstrikes-kill-at-least-13/",
+          "title": "Israeli Drone Strikes Near Beirut Kill 4 And Southern Airstrikes Kill At Least 13 – 710am KURV",
+          "domain": "kurv.com",
+          "seendate": "20260510T044500Z"
+        },
+        {
+          "url": "https://www.presstv.ir/Detail/2026/05/12/768486/In-first-official-confirmation,-US-envoy-says-Israel-secretly-sent-Iron-Dome-to-UAE-during-Iran-war",
+          "title": "US envoy admits Israel secretly sent Iron Dome to UAE during war on Iran",
+          "domain": "presstv.ir",
+          "seendate": "20260512T121500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-05-11/live-updates-895743",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260511T051500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-05-13/live-updates-895982",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260513T051500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-05-14/live-updates-896134",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260514T054500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-05-16/live-updates-896346",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260516T033000Z"
+        },
+        {
+          "url": "https://newtalk.tw/news/view/2026-05-13/1034827",
+          "title": "川普力推伊朗協議 以色列憂制裁鬆綁助伊回血 | 國際",
+          "domain": "newtalk.tw",
+          "seendate": "20260513T050000Z"
+        },
+        {
+          "url": "https://www.newsit.gr/kosmos/to-israil-proetoimazetai-gia-neo-polemo-me-to-iran-perimenoume-tin-teliki-apofasi-tramp/4677155/",
+          "title": "Το Ισραήλ προετοιμάζεται για νέο πόλεμο με το Ιράν : « Περιμένουμε την τελική απόφαση Τραμπ » ",
+          "domain": "newsit.gr",
+          "seendate": "20260515T200000Z"
+        },
+        {
+          "url": "https://www.mk.ru/politics/2026/05/10/iran-predupredil-suda-storonnikov-sankciy-ssha-stolknutsya-s-problemami.html",
+          "title": "Иран предупредил : суда сторонников санкций США столкнутся с проблемами",
+          "domain": "mk.ru",
+          "seendate": "20260510T091500Z"
+        },
+        {
+          "url": "https://www.tradingsat.com/actualites/informations-societes/marche-israel-tue-le-chef-de-la-branche-armee-du-hamas-dans-une-frappe-sur-gaza-1162947.html",
+          "title": "Marché : Israël tue le chef de la branche armée du Hamas dans une frappe sur Gaza",
+          "domain": "tradingsat.com",
+          "seendate": "20260516T194500Z"
+        },
+        {
+          "url": "https://www.bhaskar.com/g/international/news/iran-supreme-leader-son-netanyahu-claims-hidden-power-struggle-137908420.html",
+          "title": "Iran Leaders Son Hidden | Netanyahu Claims Power Struggle",
+          "domain": "bhaskar.com",
+          "seendate": "20260511T104500Z"
+        },
+        {
+          "url": "https://www.presstv.ir/Detail/2026/05/13/768571/US-lost-39-aircraft-during-40-days-of-war-against-Iran--Congressman",
+          "title": "US lost 39 aircraft during 40 days of war against Iran : Congressman",
+          "domain": "presstv.ir",
+          "seendate": "20260513T224500Z"
+        },
+        {
+          "url": "https://www.ntvbd.com/world/news-1736893",
+          "title": "গোপনে ইরানে হামলা চালিয়েছিল সৌদি আরবও",
+          "domain": "ntvbd.com",
+          "seendate": "20260513T034500Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202605140833412454",
+          "title": "UAE , 이스라엘 총리와 비밀 회동 부인 ... 이란  공모자 책임져야  ",
+          "domain": "fnnews.com",
+          "seendate": "20260514T021500Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/blogs/voices/has-the-iran-war-reached-a-stalemate/",
+          "title": "Has the Iran war reached a stalemate ? ",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260511T180000Z"
+        },
+        {
+          "url": "https://heraldk.com/2026/05/13/%ec%99%9c-%ec%9d%b4%eb%9e%80%ec%9d%80-%ec%9c%a0%eb%8f%85-uae%eb%a7%8c-%eb%95%8c%eb%a6%b4%ea%b9%8c%e2%80%a6%ed%9c%b4%ec%a0%84-%ed%8c%8c%ea%b8%b0%ec%8b%9c-%eb%b3%b4%eb%b3%b5-1%ec%88%9c%ec%9c%84/",
+          "title": "왜 이란은 유독 UAE만 때릴까 ?… 휴전 파기시 보복 1순위 [ 디브리핑 ] ",
+          "domain": "heraldk.com",
+          "seendate": "20260513T200000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/middle-east/canada-denounces-attack-on-commercial-vessel-in-qatar-s-territorial-waters/3933359",
+          "title": "Canada denounces attack on commercial vessel in Qatar territorial waters",
+          "domain": "aa.com.tr",
+          "seendate": "20260511T111500Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-05-15-iran-resilience-costing-america-war.html",
+          "title": "Iran resilience is costing America more than the war itself – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260515T220000Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/israeli-strikes-wound-dozens-in-lebanon-as-talks-in-us-enter-second-day/article70984675.ece",
+          "title": "Israeli strikes wound dozens in Lebanon as talks in U . S . enter second day",
+          "domain": "thehindu.com",
+          "seendate": "20260515T181500Z"
+        },
+        {
+          "url": "https://www.stiripesurse.ro/razboiul-ascuns-din-orientul-mijlociu-arabia-saudita-a-bombardat-iranul-in-secret-reuters_3885576",
+          "title": "Războiul ascuns din Orientul Mijlociu : Arabia Saudită a bombardat Iranul în secret ( Reuters ) ",
+          "domain": "stiripesurse.ro",
+          "seendate": "20260513T014500Z"
+        },
+        {
+          "url": "https://ar.webmanagercenter.com/2026/05/16/422052/%D9%81%D9%8A-%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D8%BA%D9%8A%D8%B1-%D9%85%D8%B9%D9%84%D9%86%D8%A9-%D9%88%D8%B2%D9%8A%D8%B1-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7/",
+          "title": "في زيارة  غير معلنة .. وزير داخلية باكستان يتحول إلى طهران .. وهذه التفاصيل .. ",
+          "domain": "ar.webmanagercenter.com",
+          "seendate": "20260516T181500Z"
+        },
+        {
+          "url": "https://kaieteurnewsonline.com/2026/05/10/lebanon-says-israeli-strikes-killed-39/",
+          "title": "Lebanon says Israeli strikes killed 39",
+          "domain": "kaieteurnewsonline.com",
+          "seendate": "20260510T070000Z"
+        },
+        {
+          "url": "https://www.channelnewsasia.com/world/saudi-arabia-uae-covert-attacks-iran-war-6117286",
+          "title": "Saudi Arabia , UAE launched covert attacks on Iran as regional war widened : Reports",
+          "domain": "channelnewsasia.com",
+          "seendate": "20260513T040000Z"
+        },
+        {
+          "url": "https://www.haaretz.com/israel-news/israel-security/2026-05-10/ty-article/israel-reportedly-set-up-secret-military-outpost-in-iraq-to-aid-in-iran-strikes/0000019e-1065-db10-a3bf-f067a1710000",
+          "title": "Israel Reportedly Set Up Secret Military Outpost in Iraq to Aid in Iran Strikes",
+          "domain": "haaretz.com",
+          "seendate": "20260510T094500Z"
+        },
+        {
+          "url": "https://argumenti.ru/world/2026/05/997561",
+          "title": "Пауза перед бурей или тупик эскалации : к чему готовятся США у берегов Ирана",
+          "domain": "argumenti.ru",
+          "seendate": "20260516T120000Z"
+        },
+        {
+          "url": "https://kathmandupost.com/world/2026/05/13/saudi-arabia-launched-covert-attacks-on-iran-as-regional-war-widened-sources-say",
+          "title": "Saudi Arabia launched covert attacks on Iran as regional war widened , sources say",
+          "domain": "kathmandupost.com",
+          "seendate": "20260513T064500Z"
+        },
+        {
+          "url": "https://news.am/en/news/1035542",
+          "title": "Main developments in Middle East as of Friday morning",
+          "domain": "news.am",
+          "seendate": "20260515T094500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=13052026&id=db709f1f-411c-46d5-aa2b-fb1c384fb83a",
+          "title": "سي إن إن : تل أبيب قلقة من إبرام ترامب صفقة سيئة مع إيران تترك أهداف الحرب دون تحقيق",
+          "domain": "shorouknews.com",
+          "seendate": "20260513T031500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/875290/israilina-mme-ta-inomena-aravika-emirata-arnoyntai-tin-episkepsi-netanyahu-logo-fovon-gia-to-iran",
+          "title": "Ισραηλινά ΜΜΕ : Τα Ηνωμένα Αραβικά Εμιράτα αρνούνται την επίσκεψη Netanyahu λόγω φόβων για το Ιράν",
+          "domain": "bankingnews.gr",
+          "seendate": "20260515T094500Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/05/15/trump-us-iran-nuclear-araghchi",
+          "title": "ترامب يرفض  أي نشاط نووي  لإيران .. وعراقجي يتمسك بالدبلوماسية ويكشف شروط المرور عبر هرمز",
+          "domain": "arabic.euronews.com",
+          "seendate": "20260515T190000Z"
+        },
+        {
+          "url": "https://www.ntdtv.com/b5/2026/05/12/a104095489.html",
+          "title": "阿聯酋曾秘密發動空襲 癱瘓伊朗煉油廠 | 拉凡島 | 中東戰爭",
+          "domain": "ntdtv.com",
+          "seendate": "20260512T031500Z"
+        },
+        {
+          "url": "https://www.trend.az/business/4184867.html",
+          "title": "Iran highlights intensive activity of Bilasuvar customs checkpoint during war",
+          "domain": "trend.az",
+          "seendate": "20260512T073000Z"
+        },
+        {
+          "url": "https://www.dw.com/en/iran-war-ceasefire-tested-by-ship-fire-drone-attacks/live-77102104",
+          "title": "Iran war : Ceasefire tested by ship fire , drone attacks",
+          "domain": "dw.com",
+          "seendate": "20260510T131500Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5654075",
+          "title": "ترامب : إيران ستتوقف نهائيا عن تخصيب اليورانيوم وتتخلى عن السلاح النووي",
+          "domain": "vetogate.com",
+          "seendate": "20260512T191500Z"
+        },
+        {
+          "url": "https://www.naftemporiki.gr/kosmos/2109211/wsj-ta-inomena-aravika-emirata-diexigagan-kryfa-epicheiriseis-kata-toy-iran-ton-aprilio/",
+          "title": "WSJ : Τα Ηνωμένα Αραβικά Εμιράτα διεξήγαγαν κρυφά επιχειρήσεις κατά του Ιράν τον Απρίλιο",
+          "domain": "naftemporiki.gr",
+          "seendate": "20260512T044500Z"
+        },
+        {
+          "url": "https://yalibnan.com/2026/05/10/us-iran-war-live-trump-says-iran-will-not-be-laughing-anymore-accuses-it-of-playing-games/",
+          "title": "US Iran War Live : Trump says Iran  will not be laughing anymore , accuses it of playing games – Ya Libnan",
+          "domain": "yalibnan.com",
+          "seendate": "20260510T204500Z"
+        },
+        {
+          "url": "https://www.tdg.ch/direct-moyen-orient-le-monde-puise-dans-ses-reserves-de-petrole-a-vitesse-record-345431426738",
+          "title": "DIRECT . Moyen - Orient : le monde puise dans ses réserves de pétrole à une vitesse record",
+          "domain": "tdg.ch",
+          "seendate": "20260513T110000Z"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2026-05-16/hamas-military-leader-killed-israeli-air-strikes-gaza/106688480",
+          "title": "Top Hamas military leader killed in Israeli air strikes on Friday , Hamas official confirms",
+          "domain": "abc.net.au",
+          "seendate": "20260516T133000Z"
+        },
+        {
+          "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=bc16b92b-392d-4927-8a2d-78aabd8e81be",
+          "title": "Flera döda i Libanon | Expressen",
+          "domain": "expressen.se",
+          "seendate": "20260516T033000Z"
+        },
+        {
+          "url": "https://www.sozcu.com.tr/savasin-belgeleri-ortaya-cikti-arap-ulkeleri-gizlice-savasa-katilmis-p319582",
+          "title": "Savaşın gizli belgeleri ortaya çıktı : 3 ülke Türkiyenin komşusuna bomba yağdırmış",
+          "domain": "sozcu.com.tr",
+          "seendate": "20260514T121500Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/05/12/hezbollah-leader-urges-lebanon-to-quit-direct-israel-talks",
+          "title": "Hezbollah leader urges Lebanon to quit direct Israel talks – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260512T144500Z"
+        },
+        {
+          "url": "https://www.albiladpress.com/news/2026/6424/arab-and-world/998874.html",
+          "title": "جريدة البلاد | وزير الداخلية الإيراني يجري مباحثات مفصلة مع نظيره الباكستاني بشأن سبل استئناف محادثات السلام مع واشنطن",
+          "domain": "albiladpress.com",
+          "seendate": "20260516T153000Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/middle-east/work-to-be-done-netanyahu-demands-removal-of-irans-uranium-stockpile-warns-conflict-not-over20260510223248/",
+          "title": "  Work to be done : Netanyahu demands removal of Iran uranium stockpile , warns conflict  not over  ",
+          "domain": "aninews.in",
+          "seendate": "20260510T181500Z"
+        },
+        {
+          "url": "https://www.midilibre.fr/2026/05/16/il-etait-surnomme-le-fantome-lun-des-derniers-architectes-des-attaques-du-7-octobre-elimine-par-israel-13374354.php",
+          "title": "Il était surnommé le  fantôme    : lun des derniers architectes des attaques du 7 - Octobre éliminé par Israël",
+          "domain": "midilibre.fr",
+          "seendate": "20260516T151500Z"
+        },
+        {
+          "url": "https://www.zonebourse.com/cours/indice/ISRAEL-TA-35-TRG-39464295/actualite/Israel-dit-avoir-tue-le-chef-de-la-branche-armee-du-Hamas-9456301/",
+          "title": "Israël dit avoir tué le chef de la branche armée du Hamas",
+          "domain": "zonebourse.com",
+          "seendate": "20260516T140000Z"
+        },
+        {
+          "url": "https://www.wnp.pl/bezpieczenstwo/to-moze-byc-przelom-na-bliskim-wschodzie-jest-propozycja-paktu-o-nieagresji,1062349.html",
+          "title": "To może być przełom na Bliskim Wschodzie . Jest propozycja paktu o nieagresji",
+          "domain": "wnp.pl",
+          "seendate": "20260514T194500Z"
+        },
+        {
+          "url": "https://navbharattimes.indiatimes.com/world/uae/saudi-arabia-covert-attack-on-iran-after-tehran-launched-missile-and-drone-attack-amid-regional-war/articleshow/131053154.cms",
+          "title": "Saudi Iran Attack : सऊदी अरब का ईरान के खिलाफ सीक्रेट हमला , तेहरान को दिया था  जैसे को तैसा  वाला जवाब , खुलासा",
+          "domain": "navbharattimes.indiatimes.com",
+          "seendate": "20260513T034500Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/skpggysygg",
+          "title": "Report : US and Israel preparing for renewed strikes on Iran within days",
+          "domain": "ynetnews.com",
+          "seendate": "20260516T101500Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-05-11/4386024.html",
+          "title": "内塔尼亚胡与特朗普通话 ！ 以总参谋长 ： 已多线作战近3年 ， 士兵正承受重大伤亡 、 战斗创伤和持续疲劳 ， 正规军与预备役承受的压力已难以为继",
+          "domain": "nbd.com.cn",
+          "seendate": "20260511T001500Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260511/49485521.html",
+          "title": "内塔尼亚胡与特朗普通电话 讨论伊朗问题 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260511T030000Z"
+        },
+        {
+          "url": "https://www.epochtimes.com/gb/26/5/13/n14763385.htm",
+          "title": "消息 ： 沙特与阿联酋转守为攻 反击伊朗空袭 | 沙特阿拉伯 | 报复性打击 | 威慑",
+          "domain": "epochtimes.com",
+          "seendate": "20260513T061500Z"
+        },
+        {
+          "url": "https://elaph.com/Web/News/2026/05/1596299.html",
+          "title": "  قراصنة إيران  يستهدفون هواتف الإسرائيليين برسائل تهديد :  سترون الشمس في الليل  ",
+          "domain": "elaph.com",
+          "seendate": "20260512T164500Z"
+        },
+        {
+          "url": "https://www.dailylocal.com/2026/05/13/lebanon-israel-vehicle-drone-strikes/",
+          "title": "Israeli drone strikes on vehicles in Lebanon kill 12 people , including 2 children",
+          "domain": "dailylocal.com",
+          "seendate": "20260513T171500Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/skxtf0011yfe",
+          "title": "Report : Iran regained operational access to about 70 % of missile launchers",
+          "domain": "ynetnews.com",
+          "seendate": "20260513T050000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/world/iran-says-smart-management-plan-for-strait-of-hormuz-finalized-in-parliament-commission/3936245",
+          "title": "Iran says  smart management  plan for Strait of Hormuz finalized in parliament commission",
+          "domain": "aa.com.tr",
+          "seendate": "20260513T153000Z"
+        },
+        {
+          "url": "https://www.lifo.gr/now/world/o-israilinos-stratos-anakoinose-pos-o-epikefalis-tis-hamas-skotothike-se-aeroporiki",
+          "title": "Ο ισραηλινός στρατός ανακοίνωσε πως ο επικεφαλής της Χαμάς σκοτώθηκε σε αεροπορική επιδρομή",
+          "domain": "lifo.gr",
+          "seendate": "20260516T153000Z"
+        },
+        {
+          "url": "https://www.almasryalyoum.com/news/details/4269993",
+          "title": "إيران في رسالة للعالم : الحرب مع أمريكا وإسرائيل صراع أخلاقي لمستقبل البشرية وستحدد معنى « الخير » و « الشر » للأجيال القادمة",
+          "domain": "almasryalyoum.com",
+          "seendate": "20260514T133000Z"
+        },
+        {
+          "url": "https://www.ntdtv.com/b5/2026/05/15/a104097152.html",
+          "title": "伊朗聲稱停核20年 川普 ： 可信度不足 | 美伊戰爭 | 川普 伊朗核武 | 哈爾克島石油",
+          "domain": "ntdtv.com",
+          "seendate": "20260516T010000Z"
+        },
+        {
+          "url": "https://www.prabhasakshi.com/international/hezbollah-launches-all-out-attack-on-israel--17-operations-in-one-day",
+          "title": "hezbollah launches all out attack on israel 17 operations in one day - Prabhasakshi latest news in hindi",
+          "domain": "prabhasakshi.com",
+          "seendate": "20260514T133000Z"
+        },
+        {
+          "url": "https://www.aol.co.uk/articles/iraqi-shepherd-stumbled-across-secret-103403968.html",
+          "title": "Iraqi shepherd stumbled across secret Israeli military base",
+          "domain": "aol.co.uk",
+          "seendate": "20260510T110000Z"
+        },
+        {
+          "url": "https://www.yenimesaj.com.tr/misir-ucaklari-ve-korfezdeki-sahte-bayrak-tuzagi-H1606191.htm",
+          "title": "Mýsr uçaklarý ve Körfezdeki  sahte bayrak  tuza",
+          "domain": "yenimesaj.com.tr",
+          "seendate": "20260510T233000Z"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/policy/defense/4569135/iran-capabilities-degraded-still-threat-strait-of-hormuz/",
+          "title": "Iran capabilities  significantly degraded  but still a threat to Strait of Hormuz",
+          "domain": "washingtonexaminer.com",
+          "seendate": "20260514T204500Z"
+        },
+        {
+          "url": "https://www.punjabkesari.com/world-news/rashtrapati-sheikh-mohammad-bin-zayed-se-mulaqaat-karne-gupchup-uae-pahunche-benjamin-netanyahu/",
+          "title": "गुपचुप यूएई पहुंचे बेंजामिन नेतन्याहू , राष्ट्रपति शेख मोहम्मद बिन जायद से की मुलाकात",
+          "domain": "punjabkesari.com",
+          "seendate": "20260513T213000Z"
+        },
+        {
+          "url": "https://www.aftonbladet.se/nyheter/a/Rr77qd/aftonbladet-direkt?pinnedEntry=1464752",
+          "title": "Sex personer dödade i Libanon",
+          "domain": "aftonbladet.se",
+          "seendate": "20260516T041500Z"
+        },
+        {
+          "url": "https://thefederalist.com/2026/05/13/the-iran-war-is-piling-up-a-list-of-surprises/",
+          "title": "The Iran War Is Piling Up A List Of Surprises",
+          "domain": "thefederalist.com",
+          "seendate": "20260513T123000Z"
+        },
+        {
+          "url": "https://www.skaikritis.gr/reuters-kai-i-saoudiki-aravia-exapelyse-mystikes-epitheseis-enantion-tou-iran/",
+          "title": "Reuters : Και η Σαουδική Αραβία εξαπέλυσε μυστικές επιθέσεις εναντίον του Ιράν",
+          "domain": "skaikritis.gr",
+          "seendate": "20260512T231500Z"
+        },
+        {
+          "url": "https://www.902.gr/eidisi/kosmos/420534/se-etoimotita-iran-gia-endehomeni-nea-epithesi-ton-ipa-eno-apokalyptetai-i",
+          "title": "Σε « ετοιμότητα » το Ιράν για ενδεχόμενη νέα επίθεση των ΗΠΑ , ενώ αποκαλύπτεται η ενεργή πολεμική εμπλοκή χωρών του Κόλπου",
+          "domain": "902.gr",
+          "seendate": "20260513T230000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/uae-s-mirage-2000-9-jets-secretly-struck-iran-s-lavan-refinery-during-war-report-article-13916100.html",
+          "title": "UAE Mirage 2000 - 9 jets secretly struck Iran Lavan refinery during war : Report",
+          "domain": "moneycontrol.com",
+          "seendate": "20260512T070000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/lebanon-urges-us-to-pressure-israel-as-death-toll-rises-in-south-lebanon-article-13915533.html",
+          "title": "Lebanon urges US to pressure Israel as death toll rises in south Lebanon",
+          "domain": "moneycontrol.com",
+          "seendate": "20260511T144500Z"
+        },
+        {
+          "url": "https://www.tradingsat.com/actualites/informations-societes/marche-israel-dit-avoir-tue-le-chef-de-la-branche-armee-du-hamas-1162947.html",
+          "title": "Marché : Israël dit avoir tué le chef de la branche armée du Hamas",
+          "domain": "tradingsat.com",
+          "seendate": "20260516T144500Z"
+        },
+        {
+          "url": "https://netinternethaber.com/yeni-cephe-aciliyor-mu-israil-yemenden-gelecek-saldiriyi-bekliyor/",
+          "title": "Yeni Cephe Açılıyor mu ? İsrail , Yemenden Gelecek Saldırıyı Bekliyor",
+          "domain": "netinternethaber.com",
+          "seendate": "20260514T170000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/middle-east/uae-says-it-successfully-engaged-2-drones-from-iran-amid-regional-escalation/3933023",
+          "title": "UAE says it  successfully engaged  2 drones from Iran amid regional escalation",
+          "domain": "aa.com.tr",
+          "seendate": "20260510T161500Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/us-confirms-israel-sent-air-defence-systems-uae",
+          "title": "US confirms Israel sent Iron Dome batteries to UAE",
+          "domain": "middleeasteye.net",
+          "seendate": "20260512T203000Z"
+        },
+        {
+          "url": "https://truthout.org/articles/irans-missile-arsenal-still-intact-sources-say-contradicting-trumps-claims/",
+          "title": "Iran Missile Arsenal Still Intact , Reports Say , Contradicting Trump Claims",
+          "domain": "truthout.org",
+          "seendate": "20260514T001500Z"
+        },
+        {
+          "url": "https://mb.com.ph/2026/05/13/israeli-drone-strikes-hit-highway-south-of-beirut-killing-8-including-2-children",
+          "title": "Manila Bulletin - Israeli drone strikes hit highway south of Beirut , killing 8 , including 2 children",
+          "domain": "mb.com.ph",
+          "seendate": "20260513T113000Z"
+        },
+        {
+          "url": "https://www.almontasaf.net/news141294.html",
+          "title": "واشنطن وتل أبيب تدرسان تصعيداً عسكرياً ضد إيران وسط فشل المفاوضات",
+          "domain": "almontasaf.net",
+          "seendate": "20260516T134500Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10736846",
+          "title": "美당국  호르무즈 미사일 대부분 복구 … 트럼프 주장과 배치",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20260513T020000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/874439/trump-bombshell-chaos-erupts-the-truce-with-iran-has-collapsed-by-99-massive-explosion-from-unknown-weapon-rocked-fars",
+          "title": "Trump bombshell , chaos erupts : ",
+          "domain": "bankingnews.gr",
+          "seendate": "20260511T201500Z"
+        },
+        {
+          "url": "https://www.news247.gr/kosmos/mesi-anatoli-to-israil-proetoimazetai-gia-pithani-epanenarxi-tou-polemou-sto-iran/",
+          "title": "Μέση Ανατολή : Το Ισραήλ προετοιμάζεται για πιθανή επανέναρξη του πολέμου στο Ιράν",
+          "domain": "news247.gr",
+          "seendate": "20260515T201500Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/05/13/israeli-drone-strikes-hit-highway-south-of-beirut-killing-8-including-2-children",
+          "title": "Israeli drone strikes hit highway south of Beirut , killing 8 , including 2 children – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260513T110000Z"
+        },
+        {
+          "url": "https://udn.com/news/story/124061/9499099",
+          "title": "路透爆中東戰事內幕 ： 沙國曾空襲伊朗 ！ 打完後私下談降溫 | 中東戰火連綿 | 全球",
+          "domain": "udn.com",
+          "seendate": "20260513T003000Z"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03440726645448592&mediaCodeNo=257",
+          "title": "사우디 , 이란 본토 비밀 타격 … 숨겨진 전선  드러났다",
+          "domain": "edaily.co.kr",
+          "seendate": "20260513T013000Z"
+        },
+        {
+          "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/10/direct-guerre-au-moyen-orient-liran-menace-dune-lourde-riposte-contre-les-etats-unis-apres-lattaque-de-ses-petroliers-GYIBGYMKSNHYZLA3L2ELZBA54E/",
+          "title": "DIRECT - Guerre au Moyen - Orient : lIran menace dune  lourde riposte  contre les États - Unis après lattaque de ses pétroliers",
+          "domain": "lalibre.be",
+          "seendate": "20260510T081500Z"
+        },
+        {
+          "url": "https://www.capital.gr/diethni/3990566/live-blog-to-iran-apeilei-me-antipoina-meta-tis-amerikanikes-epitheseis-kata-ton-tanker-tou/",
+          "title": "Live Blog - Το Ιράν απειλεί με αντίποινα μετά τις αμερικανικές επιθέσεις ... ",
+          "domain": "capital.gr",
+          "seendate": "20260510T081500Z"
+        },
+        {
+          "url": "https://glavcom.ua/world/world-politics/velika-britanija-ta-frantsija-provedut-zustrich-shchodo-misiji-z-suprovodu-suden-cherez-ormuzku-protoku-1118893.html",
+          "title": "Велика Британія та Франція проведуть зустріч щодо місії з супроводу суден через Ормузьку протоку",
+          "domain": "glavcom.ua",
+          "seendate": "20260511T010000Z"
+        },
+        {
+          "url": "https://dailycaller.com/2026/05/11/trump-beijing-xi-jinping-iran-taiwan-drones/",
+          "title": "Trump Heads To Beijing As America Empire Faces Biggest Test In Years",
+          "domain": "dailycaller.com",
+          "seendate": "20260511T233000Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260512-presstv07.htm",
+          "title": "Overnight Israeli strike kills six civilians in southern Lebanon",
+          "domain": "globalsecurity.org",
+          "seendate": "20260513T133000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/874749/cia-shock-70-of-iran-s-missiles-remain-intact-while-us-runs-low-irgc-trump-you-failed-we-have-5-conditions-forget-hormuz",
+          "title": "CIA shock : 70 % of Iran missiles remain intact while US runs low – IRGC : Trump you failed , we have 5 conditions , forget Hormuz",
+          "domain": "bankingnews.gr",
+          "seendate": "20260513T090000Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/columns/view.aspx?cdate=15052026&id=795d87b5-7a31-4834-978b-1bf701f9d8cc",
+          "title": "من طهران إلى أنقرة .. كيف أعادت حرب 2026 رسم الشرق الأوسط ؟ - معتمر أمين",
+          "domain": "shorouknews.com",
+          "seendate": "20260515T154500Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/israels-netanyahu-visited-uae-during-war-iran",
+          "title": "Israel Netanyahu visited UAE during war on Iran",
+          "domain": "middleeasteye.net",
+          "seendate": "20260513T194500Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5652243",
+          "title": "تقارير إيرانية : الشرق الأوسط الجديد سيحمل بصمة ونفوذا متصاعدا لطهران .. والحرب فرضت قواعد اشتباك جديدة تعترف ضمنيا بمحور المقاومة كحقيقة إقليمية",
+          "domain": "vetogate.com",
+          "seendate": "20260510T083000Z"
+        },
+        {
+          "url": "https://www.blisty.cz/art/133353-tajny-utok-spojenych-arabskych-emiratu-na-iran-hrozi-vtazenim-statu-perskeho-zalivu-do-valky.html",
+          "title": "Tajný útok Spojených arabských emirátů na Írán hrozí vtažením států Perského zálivu do války | 13 . 5 . 2026",
+          "domain": "blisty.cz",
+          "seendate": "20260513T033000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2607336/uae-says-it-successfully-engaged-2-drones-from-iran-amid-regional-escalation",
+          "title": "UAE says it  successfully engaged  2 drones from Iran amid regional escalation",
+          "domain": "tribune.com.pk",
+          "seendate": "20260510T200000Z"
+        },
+        {
+          "url": "https://www.greanvillepost.com/2026/05/10/the-us-war-machine-underwhelms-part-1-in-a-series/",
+          "title": "The US War Machine Underwhelms",
+          "domain": "greanvillepost.com",
+          "seendate": "20260510T180000Z"
+        },
+        {
+          "url": "https://www.theamericanconservative.com/ceasefire-day-34-netanyahu-says-war-with-iran-not-over/",
+          "title": "Ceasefire Day 34 : Netanyahu Says War with Iran  Not Over  - The American Conservative",
+          "domain": "theamericanconservative.com",
+          "seendate": "20260511T190000Z"
+        },
+        {
+          "url": "http://forex.cnfol.com/jingjiyaowen/20260513/32220100.shtml",
+          "title": "伊朗战争突传重磅 ！ 路透独家 : 沙特对伊朗发动了多次秘密攻击 释放什么信号 ？_ 汇市观察 _ 外汇 _ 中金在线",
+          "domain": "forex.cnfol.com",
+          "seendate": "20260513T064500Z"
+        },
+        {
+          "url": "https://www.thehindubusinessline.com/news/world/us-intel-shows-majority-of-irans-missile-network-intact-going-against-trumps-claims-that-it-had-been-decimated/article70972513.ece",
+          "title": "US intel shows majority of Iran missile network intact , going against Trump claims that it had been  decimated  ",
+          "domain": "thehindubusinessline.com",
+          "seendate": "20260513T073000Z"
+        },
+        {
+          "url": "https://www.thetimes-tribune.com/2026/05/14/iran-war-uae-ship/",
+          "title": "Ship is reported seized off the coast of UAE , is heading toward Iran",
+          "domain": "thetimes-tribune.com",
+          "seendate": "20260514T120000Z"
+        },
+        {
+          "url": "https://timesofoman.com/article/171741-us-intel-shows-majority-of-irans-missile-network-intact-despite-trumps-decimated-claims",
+          "title": "US intel shows majority of Iran missile network intact despite Trump ",
+          "domain": "timesofoman.com",
+          "seendate": "20260513T051500Z"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2026-05-16/lebanon-israel-agree-to-extend-ceasefire-by-45-days/106687558",
+          "title": "Israel and Lebanon agree to extend ceasefire by 45 days despite new strikes",
+          "domain": "abc.net.au",
+          "seendate": "20260515T221500Z"
+        },
+        {
+          "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/5/11/2986599",
+          "title": "الصحف الإيرانية تُبرز الاستعداد للحرب وتتوعد الأعداء",
+          "domain": "masrawy.com",
+          "seendate": "20260511T210000Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/iranian-press-review-unexploded-us-tomahawks-used-develop-missile-technology",
+          "title": "Iranian press review : Unexploded US Tomahawks used to develop missile technology",
+          "domain": "middleeasteye.net",
+          "seendate": "20260512T143000Z"
+        },
+        {
+          "url": "https://arynews.tv/israel-strikes-south-lebanon-day-after-ceasefire-extension",
+          "title": "Israel strikes south Lebanon day after ceasefire extension",
+          "domain": "arynews.tv",
+          "seendate": "20260516T130000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8t71WmETNU6",
+          "title": "土耳其首次公开洲际导弹 ， 剑指何方 ？ ",
+          "domain": "news.ifeng.com",
+          "seendate": "20260514T000000Z"
+        },
+        {
+          "url": "https://www.yeniakit.com.tr/haber/abd-israil-hattinda-iran-alarmi-trumpin-masasindaki-iki-askeri-senaryo-2001834.html",
+          "title": "ABD - İsrail hattında İran alarmı : Trump  ın masasındaki iki askeri senaryo",
+          "domain": "yeniakit.com.tr",
+          "seendate": "20260515T084500Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/articles/israel-strikes-south-lebanon-day-124409553.html",
+          "title": "Israel strikes south Lebanon day after ceasefire extension",
+          "domain": "yahoo.com",
+          "seendate": "20260516T131500Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/news/2026/5/13/%D8%B3%D9%86%D9%83%D9%88%D9%86-%D8%B3%D8%B9%D8%AF%D8%A7%D8%A1-%D8%A5%D8%B0%D8%A7-%D9%84%D9%85-%D9%8A%D8%AA%D9%88%D8%B5%D9%84-%D8%A5%D9%84%D9%89-%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%87%D9%84",
+          "title": "  سنكون سعداء إذا لم يُتوصل إلى اتفاق .. هل تنجح إسرائيل في جر ترمب لضرب إيران ؟ ",
+          "domain": "aljazeera.net",
+          "seendate": "20260513T033000Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/news/2026/5/13/%D8%B1%D9%87%D8%A7%D9%86-%D8%B4%D9%81%D9%88%D8%B9%D9%88%D8%AA-%D9%83%D9%8A%D9%81-%D8%AA%D8%AE%D8%B7%D8%B7-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%84%D9%84%D8%AD%D8%B3%D9%85-%D9%81%D9%8A",
+          "title": "رهان  شفوعوت .. كيف تخطط إسرائيل للحسم في جنوب لبنان ؟ ",
+          "domain": "aljazeera.net",
+          "seendate": "20260513T223000Z"
+        },
+        {
+          "url": "https://www.chinesepress.com/archives/153510",
+          "title": "知情人士透露 ： 阿聯酋秘密打擊伊朗 ！- 华侨网",
+          "domain": "chinesepress.com",
+          "seendate": "20260512T190000Z"
+        },
+        {
+          "url": "https://vestikavkaza.ru/articles/ssa-protiv-irana-2026-adernaa-programma-tramp-i-kitaj-cto-dalse.html",
+          "title": "США против Ирана 2026 : ядерная программа , Трамп и Китай , что дальше ? ",
+          "domain": "vestikavkaza.ru",
+          "seendate": "20260513T003000Z"
+        },
+        {
+          "url": "https://www.etoday.co.kr/news/view/2583646",
+          "title": "트럼프  해방 프로젝트 재개 검토 … 이란과 휴전 다시 위기 [ 종합 ] ",
+          "domain": "etoday.co.kr",
+          "seendate": "20260512T061500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2608445/irans-foreign-minister-warns-us-of-rising-economic-costs-from-war-of-choice",
+          "title": "Iran foreign minister warns US of rising economic costs from  war of choice  ",
+          "domain": "tribune.com.pk",
+          "seendate": "20260516T094500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/05/israel-strikes-south-lebanon-day-after-ceasefire-extension",
+          "title": "Israel strikes south Lebanon day after ceasefire extension",
+          "domain": "al-monitor.com",
+          "seendate": "20260516T171500Z"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/us-iran-war-intelligence-trump-operation-epic-fury-strait-of-hormuz-10688009/",
+          "title": "Trump claimed Iran was  decimated ; US intel reveals Tehran still holds major firepower | World News",
+          "domain": "indianexpress.com",
+          "seendate": "20260513T183000Z"
+        },
+        {
+          "url": "https://www.nile.eg/%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83-%D8%AA%D8%A7%D9%8A%D9%85%D8%B2-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D8%AF%D8%AA-%D9%85%D8%B9%D8%B8%D9%85-%D9%82%D8%AF%D8%B1%D8%A7",
+          "title": "قناة النيل للأخبار | نيويورك تايمز : إيران استعادت معظم قدراتها الصاروخية",
+          "domain": "nile.eg",
+          "seendate": "20260513T063000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-05-15-saudi-arabia-proposes-non-aggression-pact-iran.html",
+          "title": "Saudi Arabia Proposes Non - Aggression Pact With Iran , Regional States Based on Cold War Model – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260515T183000Z"
+        },
+        {
+          "url": "https://www.dw.com/en/middle-east-updates-big-crowds-at-nakba-day-rally-in-london/live-77179563",
+          "title": "Middle East updates : Big crowds at Nakba Day rally in London",
+          "domain": "dw.com",
+          "seendate": "20260516T161500Z"
+        },
+        {
+          "url": "https://www.linternaute.com/actualite/monde/9970081-guerre-en-iran-et-au-liban-nouveaux-bombardements-sur-teheran-trump-s-impatiente/",
+          "title": "Guerre en Iran et au Liban  : nouveaux bombardements sur Téhéran  ? Trump simpatiente",
+          "domain": "linternaute.com",
+          "seendate": "20260515T081500Z"
+        },
+        {
+          "url": "https://www.haber7.com/dunya/haber/3626942-netanyahu-savas-bitmedi-orta-doguyu-yeniden-sekillendirecegiz",
+          "title": "Netanyahu : Savaş bitmedi !  Orta Doğuyu yeniden şekillendireceğiz ! ",
+          "domain": "haber7.com",
+          "seendate": "20260511T101500Z"
+        },
+        {
+          "url": "https://www.bd-pratidin.com/international-news/2026/05/15/1251458",
+          "title": "৬ হাজার প্রাণ কেড়েও থামছে না ইরান - ইসরায়েল যুদ্ধ |",
+          "domain": "bd-pratidin.com",
+          "seendate": "20260515T193000Z"
+        },
+        {
+          "url": "https://24tv.ua/geopolitics/konflikt-blizkomu-shodi-shho-vidbuvayetsya-mizh-hezbolloyu-izrayilem_n3065269",
+          "title": "Конфлікт на Близькому Сході - що відбувається між Хезболлою та Ізраїлем",
+          "domain": "24tv.ua",
+          "seendate": "20260510T170000Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strait-of-hormuz-ceasefire-b2973713.html",
+          "title": "Iran - US war latest : Tehran vows to tighten grip on Strait of Hormuz",
+          "domain": "independent.co.uk",
+          "seendate": "20260510T090000Z"
+        },
+        {
+          "url": "https://www.sott.net/article/506334-How-is-Iran-dismantling-the-empire-behind-Israel",
+          "title": "How is Iran dismantling the empire behind Israel",
+          "domain": "sott.net",
+          "seendate": "20260515T234500Z"
+        },
+        {
+          "url": "https://elaph.com/Web/News/2026/05/1596640.html",
+          "title": "زيارة سرية لوزير داخلية باكستان إلى طهران .. هل بدأت ترتيبات ما قبل الحرب ؟ ",
+          "domain": "elaph.com",
+          "seendate": "20260516T163000Z"
+        },
+        {
+          "url": "https://www.khaama.com/israel-built-secret-military-base-in-iraq-during-iran-war-wsj-reports/",
+          "title": "Israel Built Secret Military Base In Iraq During Iran War , WSJ Reports",
+          "domain": "khaama.com",
+          "seendate": "20260510T111500Z"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/aopl/202605140110.aspx",
+          "title": "華郵 ： 美情報稱北京藉伊朗戰爭搶占戰略先機 | 國際",
+          "domain": "cna.com.tw",
+          "seendate": "20260514T071500Z"
+        },
+        {
+          "url": "http://www.jpost.com/israel-news/article-895916",
+          "title": "Israelis receive recruitment , threatening text messages from Iran",
+          "domain": "jpost.com",
+          "seendate": "20260512T140000Z"
+        },
+        {
+          "url": "http://www.econotimes.com/US-Hosts-Israel-Lebanon-Talks-as-Ceasefire-Deadline-Nears-1741783",
+          "title": "US Hosts Israel - Lebanon Talks as Ceasefire Deadline Nears",
+          "domain": "econotimes.com",
+          "seendate": "20260515T041500Z"
+        },
+        {
+          "url": "https://athens-times.com/reuters-saudi-arabia-launched-retaliatory-strikes-on-iran-in-march/",
+          "title": "Saudi Arabia Struck Iran in March : Reuters",
+          "domain": "athens-times.com",
+          "seendate": "20260513T073000Z"
+        },
+        {
+          "url": "https://divyamarathi.bhaskar.com/international/news/iran-leaders-son-hidden-netanyahu-claims-power-struggle-137908714.html",
+          "title": "Iran Leaders Son Hidden | Netanyahu Claims Power Struggle",
+          "domain": "divyamarathi.bhaskar.com",
+          "seendate": "20260511T121500Z"
+        },
+        {
+          "url": "https://www.stripes.com/theaters/middle_east/2026-05-14/centcom-commander-iran-significantly-degraded-21672774.html",
+          "title": "Iran significantly degraded but retains some capabilities , CENTCOM commander says",
+          "domain": "stripes.com",
+          "seendate": "20260514T234500Z"
+        },
+        {
+          "url": "https://www.ettoday.net/news/20260513/3164962.htm",
+          "title": "不滿被動挨打 ！ 沙烏地 「 秘密參戰 」 轟炸伊朗本土 | ETtoday國際新聞",
+          "domain": "ettoday.net",
+          "seendate": "20260513T021500Z"
+        },
+        {
+          "url": "https://www.khaama.com/cargo-ship-hit-by-projectile-off-qatar-coast-uk-maritime-agency-says/",
+          "title": "Cargo Ship Hit By Projectile Off Qatar Coast , united kingdom Maritime Agency Says",
+          "domain": "khaama.com",
+          "seendate": "20260510T101500Z"
+        },
+        {
+          "url": "https://www.afrique-asie.fr/trump-dans-une-impasse-sans-issue-en-vue-dans-sa-guerre-contre-liran/",
+          "title": "Trump dans une impasse sans issue en vue dans sa guerre contre lIran",
+          "domain": "afrique-asie.fr",
+          "seendate": "20260515T113000Z"
+        },
+        {
+          "url": "https://www.huffingtonpost.co.uk/entry/marco-rubio-donald-trump-iran_uk_6a02fa85e4b0b1a48de90859",
+          "title": "Rubio Reveals Trumps Iran War Goal Is To Revert To Status Quo",
+          "domain": "huffingtonpost.co.uk",
+          "seendate": "20260512T114500Z"
+        },
+        {
+          "url": "https://www.star.com.tr/dunya/trumptan-irana-uranyum-tehdidi-yaklasani-havaya-ucururuz-haber-2015074/",
+          "title": "Trumptan Ýrana uranyum tehdidi : Yaklaþaný havaya uçururuz",
+          "domain": "star.com.tr",
+          "seendate": "20260510T181500Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/05/13/israeli-concern-over-trump-moving-toward-a-bad-deal-to-end-the-war-on-iran",
+          "title": "مخاوف من  انقلاب أمريكي .. صفقة ترامب المحتملة مع إيران تفجّر القلق داخل إسرائيل",
+          "domain": "arabic.euronews.com",
+          "seendate": "20260513T081500Z"
+        }
       ]
     }
   ],
   "comparison_table_7day": [
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.625,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_OCT24",
-      "reference_type": "pre-round",
-      "composite_score": 0.4712,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
-        "raw_volume": 1.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
@@ -167,17 +1606,17 @@
       }
     },
     {
-      "reference_id": "PRE_APR24",
+      "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.3046,
+      "composite_score": 0.4583,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -187,21 +1626,19 @@
         "source_diversity": 0.1667,
         "tone": 0.0833
       }
-    }
-  ],
-  "comparison_table_21day": [
+    },
     {
-      "reference_id": "PRE_OCT24",
-      "reference_type": "pre-round",
-      "composite_score": 0.9468,
-      "is_pre_round": true,
-      "warn": true,
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4583,
+      "is_pre_round": false,
+      "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 1.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.9308,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -215,13 +1652,81 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.7917,
+      "composite_score": 0.2083,
       "is_pre_round": true,
-      "warn": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.0417,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    }
+  ],
+  "comparison_table_21day": [
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.7429,
+      "is_pre_round": false,
+      "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 1.0,
+        "cross_lang_correlation": 0.7071,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.625,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 1.0,
         "tone": 0.5
@@ -237,7 +1742,51 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.296,
+      "composite_score": 0.6154,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.9423,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.4712,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 1.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.292,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -245,51 +1794,7 @@
         "confluence": 0.0,
         "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.9487,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.173,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.7879,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.0417,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 0.9245,
         "tone": 0.5
       },
       "weights_applied": {
@@ -303,31 +1808,31 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 228.1907,
-      "volume_mean_daily": 1.3664,
-      "volume_peak": 2.7634,
-      "days_active": 167,
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
       "articles_en": 0,
       "articles_he": 0,
-      "articles_fa": 250,
+      "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 159,
+      "unique_domains_total": 0,
       "tone_mean": null
     },
     "window_21d": {
-      "volume_total": 32.5002,
-      "volume_mean_daily": 1.5476,
-      "volume_peak": 1.9837,
-      "days_active": 21,
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
       "articles_en": 250,
-      "articles_he": 250,
-      "articles_fa": 250,
-      "confluence_score": 1.0,
-      "unique_domains_total": 148,
+      "articles_he": 0,
+      "articles_fa": 0,
+      "confluence_score": 0.0,
+      "unique_domains_total": 147,
       "tone_mean": null
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (3 errors in 7d, 1 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }

@@ -1,59 +1,58 @@
 {
-  "updated_at": "2026-05-13T10:52:48.480527+00:00",
+  "updated_at": "2026-05-17T02:55:58.269844+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
-    "avg_7day": 66,
-    "delta_vs_avg": -20
+    "avg_7day": 62,
+    "delta_vs_avg": -16
   },
   "archive_comparison": {
-    "score": 74,
-    "status_he": "דמיון גבוה",
+    "score": 62,
+    "status_he": "דמיון גבולי",
     "reference_events": [
-      "אוקטובר 2024",
-      "אפריל 2024"
+      "פברואר 2026"
     ]
   },
   "signals": [
     {
       "id": "diplomatic_breakdown",
-      "name_he": "סיגנלי קריסה דיפלומטית",
+      "name_he": "קריסת משא ומתן דיפלומטי",
       "description_he": "דיווחים על קריסת משא ומתן, אולטימטומים, או פריצת יחסים דיפלומטיים",
       "direction": "warning",
-      "article_count_week": 50,
+      "article_count_week": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "intensity": "high"
+      "intensity": "unknown"
     },
     {
       "id": "supreme_leader",
       "name_he": "הצהרות ההנהגה האיראנית",
       "description_he": "הצהרות המנהיג העליון של איראן המתייחסות לישראל",
       "direction": "warning",
-      "article_count_week": 50,
+      "article_count_week": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "intensity": "high"
+      "intensity": "unknown"
     },
     {
       "id": "trump_china",
-      "name_he": "פעילות דיפלומטית של ארה\"ב-סין",
+      "name_he": "פעילות דיפלומטית ארה\"ב-סין",
       "description_he": "מהלכים דיפלומטיים של טראמפ/ארה\"ב-סין בהקשר ישראל-איראן",
       "direction": "warning",
-      "article_count_week": 50,
+      "article_count_week": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "intensity": "high"
+      "intensity": "unknown"
     },
     {
       "id": "military_strike",
       "name_he": "מדדי פעילות צבאית",
       "description_he": "דיווחים על תקיפות, פעילות טילים, או הסלמה צבאית",
       "direction": "warning",
-      "article_count_week": 50,
+      "article_count_week": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "intensity": "high"
+      "intensity": "unknown"
     }
   ],
   "trend": {
@@ -73,6 +72,10 @@
       {
         "ts": "2026-05-13T10:52:48.480527+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-05-17T02:55:58.267283+00:00",
+        "score": 46
       }
     ],
     "month": [
@@ -91,51 +94,59 @@
       {
         "ts": "2026-05-13T10:52:48.480527+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-05-17T02:55:58.267283+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
-        "label": "טרום אוק' 2024",
-        "score": 95,
+        "label": "שקט ינו' 2026",
+        "score": 74,
+        "is_pre_conflict": false
+      },
+      {
+        "label": "אחרי פבר' 2026",
+        "score": 62,
+        "is_pre_conflict": false
+      },
+      {
+        "label": "טרום פבר' 2026",
+        "score": 62,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 79,
+        "score": 47,
         "is_pre_conflict": true
       },
       {
-        "label": "טרום פבר' 2026",
-        "score": 30,
+        "label": "טרום אוק' 2024",
+        "score": 29,
         "is_pre_conflict": true
-      },
-      {
-        "label": "אחרי פבר' 2026",
-        "score": 17,
-        "is_pre_conflict": false
-      },
-      {
-        "label": "שקט ינו' 2026",
-        "score": 4,
-        "is_pre_conflict": false
       }
     ]
   },
   "sources": {
     "list": [
+      "24tv.ua",
+      "902.gr",
       "aa.com.tr",
-      "aninews.in",
-      "digi24.ro",
-      "haberts.com",
-      "kipa.co.il",
-      "military.china.com",
-      "news.ifeng.com",
-      "nypost.com",
-      "rawstory.com",
-      "thejournal.ie",
-      "yeniakit.com.tr"
+      "abc.net.au",
+      "adevarul.ro",
+      "afrique-asie.fr",
+      "aftonbladet.se",
+      "al-monitor.com",
+      "albawaba.com",
+      "albayan.ae",
+      "albiladpress.com",
+      "algemeiner.com",
+      "Al Jazeera",
+      "almasryalyoum.com",
+      "almontasaf.net"
     ],
-    "total_count": 11,
-    "articles_72h": 250
+    "total_count": 175,
+    "articles_72h": null
   }
 }
