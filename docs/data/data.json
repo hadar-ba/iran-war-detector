@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-05-20T15:06:46.276137+00:00",
+  "updated_at": "2026-05-26T15:27:20.469034+00:00",
   "short_term": {
-    "score": 61,
-    "status_he": "מתוח",
+    "score": 46,
+    "status_he": "שקט",
     "avg_7day": 54,
-    "delta_vs_avg": 7
+    "delta_vs_avg": -8
   },
   "archive_comparison": {
     "score": 46,
@@ -82,6 +82,10 @@
       {
         "ts": "2026-05-20T15:06:46.270140+00:00",
         "score": 61
+      },
+      {
+        "ts": "2026-05-26T15:27:20.466421+00:00",
+        "score": 46
       }
     ],
     "month": [
@@ -108,6 +112,10 @@
       {
         "ts": "2026-05-20T15:06:46.270140+00:00",
         "score": 61
+      },
+      {
+        "ts": "2026-05-26T15:27:20.466421+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -140,23 +148,23 @@
   },
   "sources": {
     "list": [
-      "1061fmtalk.iheart.com",
-      "1150wima.iheart.com",
-      "1190kex.iheart.com",
-      "13wham.com",
-      "1450wkip.iheart.com",
+      "10tv.com",
+      "13newsnow.com",
       "163.com",
-      "24sata.hr",
-      "24tv.ua",
-      "55krc.iheart.com",
-      "590kqnt.iheart.com",
-      "600wrec.iheart.com",
-      "710wor.iheart.com",
-      "790waeb.iheart.com",
-      "902.gr",
-      "943wsc.iheart.com"
+      "5.ua",
+      "aa.com.tr",
+      "abc6onyourside.com",
+      "addiyar.com",
+      "adn.com",
+      "adnkronos.com",
+      "agenzianova.com",
+      "aksam.com.tr",
+      "al-monitor.com",
+      "albawaba.com",
+      "algemeiner.com",
+      "Al Jazeera"
     ],
-    "total_count": 427,
-    "articles_72h": 250
+    "total_count": 181,
+    "articles_72h": null
   }
 }
