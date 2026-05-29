@@ -1,18 +1,16 @@
 {
-  "updated_at": "2026-05-26T15:27:20.469034+00:00",
+  "updated_at": "2026-05-29T03:06:40.014990+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
-    "avg_7day": 54,
-    "delta_vs_avg": -8
+    "avg_7day": 46,
+    "delta_vs_avg": 0
   },
   "archive_comparison": {
-    "score": 46,
-    "status_he": "דמיון נמוך",
+    "score": 65,
+    "status_he": "דמיון גבולי",
     "reference_events": [
-      "אפריל 2024",
-      "אוקטובר 2024",
-      "יוני 2025"
+      "פברואר 2026"
     ]
   },
   "signals": [
@@ -86,6 +84,10 @@
       {
         "ts": "2026-05-26T15:27:20.466421+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-05-29T03:06:40.008803+00:00",
+        "score": 46
       }
     ],
     "month": [
@@ -116,55 +118,59 @@
       {
         "ts": "2026-05-26T15:27:20.466421+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-05-29T03:06:40.008803+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
-        "score": 46,
+        "score": 77,
+        "is_pre_conflict": false
+      },
+      {
+        "label": "אחרי פבר' 2026",
+        "score": 66,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 46,
+        "score": 65,
         "is_pre_conflict": true
       },
       {
-        "label": "אחרי פבר' 2026",
-        "score": 46,
-        "is_pre_conflict": false
-      },
-      {
         "label": "טרום אפר' 2024",
-        "score": 21,
+        "score": 47,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 4,
+        "score": 32,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
     "list": [
+      "1019bigwaax.iheart.com",
+      "1061fmtalk.iheart.com",
       "10tv.com",
+      "1190talkradio.iheart.com",
+      "11alive.com",
+      "12newsnow.com",
+      "1360kktx.iheart.com",
       "13newsnow.com",
+      "13wmaz.com",
+      "1440wgig.iheart.com",
+      "1450wkip.iheart.com",
       "163.com",
-      "5.ua",
-      "aa.com.tr",
-      "abc6onyourside.com",
-      "addiyar.com",
-      "adn.com",
-      "adnkronos.com",
-      "agenzianova.com",
-      "aksam.com.tr",
-      "al-monitor.com",
-      "albawaba.com",
-      "algemeiner.com",
-      "Al Jazeera"
+      "2news.com",
+      "444.hu",
+      "570wkbn.iheart.com"
     ],
-    "total_count": 181,
+    "total_count": 473,
     "articles_72h": null
   }
 }
