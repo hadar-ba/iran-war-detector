@@ -1,16 +1,18 @@
 {
-  "updated_at": "2026-05-29T03:06:40.014990+00:00",
+  "updated_at": "2026-05-31T13:46:19.675022+00:00",
   "short_term": {
-    "score": 46,
+    "score": 50,
     "status_he": "שקט",
-    "avg_7day": 46,
-    "delta_vs_avg": 0
+    "avg_7day": 47,
+    "delta_vs_avg": 3
   },
   "archive_comparison": {
-    "score": 65,
-    "status_he": "דמיון גבולי",
+    "score": 50,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -88,6 +90,10 @@
       {
         "ts": "2026-05-29T03:06:40.008803+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-05-31T13:46:19.674073+00:00",
+        "score": 50
       }
     ],
     "month": [
@@ -122,55 +128,43 @@
       {
         "ts": "2026-05-29T03:06:40.008803+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-05-31T13:46:19.674073+00:00",
+        "score": 50
       }
     ],
     "comparison_bars": [
       {
-        "label": "שקט ינו' 2026",
-        "score": 77,
-        "is_pre_conflict": false
-      },
-      {
-        "label": "אחרי פבר' 2026",
-        "score": 66,
-        "is_pre_conflict": false
-      },
-      {
         "label": "טרום פבר' 2026",
-        "score": 65,
+        "score": 50,
         "is_pre_conflict": true
       },
       {
+        "label": "אחרי פבר' 2026",
+        "score": 50,
+        "is_pre_conflict": false
+      },
+      {
+        "label": "שקט ינו' 2026",
+        "score": 49,
+        "is_pre_conflict": false
+      },
+      {
         "label": "טרום אפר' 2024",
-        "score": 47,
+        "score": 21,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 32,
+        "score": 8,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "1019bigwaax.iheart.com",
-      "1061fmtalk.iheart.com",
-      "10tv.com",
-      "1190talkradio.iheart.com",
-      "11alive.com",
-      "12newsnow.com",
-      "1360kktx.iheart.com",
-      "13newsnow.com",
-      "13wmaz.com",
-      "1440wgig.iheart.com",
-      "1450wkip.iheart.com",
-      "163.com",
-      "2news.com",
-      "444.hu",
-      "570wkbn.iheart.com"
-    ],
-    "total_count": 473,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
