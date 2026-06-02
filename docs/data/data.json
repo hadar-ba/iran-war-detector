@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T03:47:15.393905+00:00",
+  "updated_at": "2026-06-02T16:25:19.451813+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
@@ -7,7 +7,7 @@
     "delta_vs_avg": -2
   },
   "archive_comparison": {
-    "score": 62,
+    "score": 61,
     "status_he": "דמיון גבולי",
     "reference_events": [
       "פברואר 2026"
@@ -100,6 +100,10 @@
       {
         "ts": "2026-06-02T03:47:15.393220+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-02T16:25:19.450893+00:00",
+        "score": 46
       }
     ],
     "month": [
@@ -146,32 +150,36 @@
       {
         "ts": "2026-06-02T03:47:15.393220+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-02T16:25:19.450893+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
+        "score": 74,
+        "is_pre_conflict": false
+      },
+      {
+        "label": "אחרי פבר' 2026",
         "score": 62,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 62,
-        "is_pre_conflict": true
-      },
-      {
-        "label": "אחרי פבר' 2026",
-        "score": 57,
-        "is_pre_conflict": false
-      },
-      {
-        "label": "טרום אוק' 2024",
-        "score": 21,
+        "score": 61,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 4,
+        "score": 47,
+        "is_pre_conflict": true
+      },
+      {
+        "label": "טרום אוק' 2024",
+        "score": 29,
         "is_pre_conflict": true
       }
     ]
