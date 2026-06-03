@@ -71,6 +71,12 @@
       "headline_score_7day": 46,
       "headline_score_21day": 61,
       "status": "green"
+    },
+    {
+      "timestamp_utc": "2026-06-03T03:56:36.000311+00:00",
+      "headline_score_7day": 46,
+      "headline_score_21day": 50,
+      "status": "green"
     }
   ]
 }
