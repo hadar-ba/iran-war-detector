@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T03:56:36.004782+00:00",
+  "updated_at": "2026-06-03T16:50:34.581196+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
@@ -7,12 +7,11 @@
     "delta_vs_avg": -1
   },
   "archive_comparison": {
-    "score": 50,
-    "status_he": "דמיון נמוך",
+    "score": 69,
+    "status_he": "דמיון גבולי",
     "reference_events": [
-      "אפריל 2024",
-      "אוקטובר 2024",
-      "יוני 2025"
+      "פברואר 2026",
+      "אפריל 2024"
     ]
   },
   "signals": [
@@ -110,6 +109,10 @@
       {
         "ts": "2026-06-03T03:56:36.000311+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-03T16:50:34.580292+00:00",
+        "score": 46
       }
     ],
     "month": [
@@ -164,55 +167,43 @@
       {
         "ts": "2026-06-03T03:56:36.000311+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-03T16:50:34.580292+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
+        "label": "שקט ינו' 2026",
+        "score": 79,
+        "is_pre_conflict": false
+      },
+      {
         "label": "אחרי פבר' 2026",
-        "score": 50,
+        "score": 70,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 50,
+        "score": 69,
         "is_pre_conflict": true
       },
       {
-        "label": "שקט ינו' 2026",
-        "score": 49,
-        "is_pre_conflict": false
-      },
-      {
         "label": "טרום אפר' 2024",
-        "score": 21,
+        "score": 51,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 8,
+        "score": 32,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "1061fmtalk.iheart.com",
-      "1150wima.iheart.com",
-      "1360kktx.iheart.com",
-      "1430kasi.iheart.com",
-      "1450wkip.iheart.com",
-      "163.com",
-      "444.hu",
-      "570wkbn.iheart.com",
-      "600wrec.iheart.com",
-      "720thevoice.iheart.com",
-      "790waeb.iheart.com",
-      "800wvhu.iheart.com",
-      "81.cn",
-      "943wsc.iheart.com",
-      "945wpti.iheart.com"
-    ],
-    "total_count": 306,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
