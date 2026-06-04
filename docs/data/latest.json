@@ -1,9 +1,9 @@
 {
-  "timestamp_utc": "2026-06-04T03:50:36.742935+00:00",
+  "timestamp_utc": "2026-06-04T15:00:40.250473+00:00",
   "status": "yellow",
   "headline_score_7day": 62,
   "headline_score_21day": 46,
-  "score_jump": 16,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
@@ -24,7 +24,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     },
@@ -303,10 +303,10 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 222.4827,
-      "volume_mean_daily": 1.3403,
+      "volume_total": 225.0954,
+      "volume_mean_daily": 1.381,
       "volume_peak": 2.883,
-      "days_active": 166,
+      "days_active": 163,
       "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,

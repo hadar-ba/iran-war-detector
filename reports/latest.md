@@ -1,6 +1,6 @@
 # Iran-Israel Conflict Pattern Detector
 
-**Run:** 2026-06-04 03:50 UTC  |  **21-day:** 20260514–20260604  |  **7-day:** 20260528–20260604
+**Run:** 2026-06-04 15:00 UTC  |  **21-day:** 20260514–20260604  |  **7-day:** 20260528–20260604
 
 ## Short-Window Spike (+17%)
 
