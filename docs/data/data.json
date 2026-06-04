@@ -1,17 +1,18 @@
 {
-  "updated_at": "2026-06-03T16:50:34.581196+00:00",
+  "updated_at": "2026-06-04T03:50:36.743849+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 47,
-    "delta_vs_avg": -1
+    "score": 62,
+    "status_he": "מתוח",
+    "avg_7day": 49,
+    "delta_vs_avg": 13
   },
   "archive_comparison": {
-    "score": 69,
-    "status_he": "דמיון גבולי",
+    "score": 46,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026",
-      "אפריל 2024"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -58,10 +59,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-05-13T07:55:23.675916+00:00",
-        "score": 74
-      },
       {
         "ts": "2026-05-13T08:35:38.170317+00:00",
         "score": 62
@@ -113,6 +110,10 @@
       {
         "ts": "2026-06-03T16:50:34.580292+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-04T03:50:36.742935+00:00",
+        "score": 62
       }
     ],
     "month": [
@@ -171,32 +172,36 @@
       {
         "ts": "2026-06-03T16:50:34.580292+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-04T03:50:36.742935+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
-        "score": 79,
-        "is_pre_conflict": false
-      },
-      {
-        "label": "אחרי פבר' 2026",
-        "score": 70,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 69,
+        "score": 46,
         "is_pre_conflict": true
       },
       {
+        "label": "אחרי פבר' 2026",
+        "score": 46,
+        "is_pre_conflict": false
+      },
+      {
         "label": "טרום אפר' 2024",
-        "score": 51,
+        "score": 21,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 32,
+        "score": 4,
         "is_pre_conflict": true
       }
     ]
