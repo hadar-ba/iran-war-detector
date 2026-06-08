@@ -1,16 +1,18 @@
 {
-  "updated_at": "2026-06-05T14:52:08.860737+00:00",
+  "updated_at": "2026-06-08T03:48:47.039266+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 50,
-    "delta_vs_avg": -4
+    "score": 61,
+    "status_he": "מתוח",
+    "avg_7day": 51,
+    "delta_vs_avg": 10
   },
   "archive_comparison": {
-    "score": 62,
-    "status_he": "דמיון גבולי",
+    "score": 46,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -57,10 +59,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-05-17T02:55:58.267283+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-05-20T15:06:46.270140+00:00",
         "score": 61
@@ -112,6 +110,10 @@
       {
         "ts": "2026-06-05T14:52:08.859812+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-08T03:48:47.038238+00:00",
+        "score": 61
       }
     ],
     "month": [
@@ -186,31 +188,35 @@
       {
         "ts": "2026-06-05T14:52:08.859812+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-08T03:48:47.038238+00:00",
+        "score": 61
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
-        "score": 62,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 62,
+        "score": 46,
         "is_pre_conflict": true
       },
       {
         "label": "אחרי פבר' 2026",
-        "score": 57,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
-        "label": "טרום אוק' 2024",
+        "label": "טרום אפר' 2024",
         "score": 21,
         "is_pre_conflict": true
       },
       {
-        "label": "טרום אפר' 2024",
+        "label": "טרום אוק' 2024",
         "score": 4,
         "is_pre_conflict": true
       }
@@ -219,6 +225,6 @@
   "sources": {
     "list": [],
     "total_count": 0,
-    "articles_72h": null
+    "articles_72h": 250
   }
 }
