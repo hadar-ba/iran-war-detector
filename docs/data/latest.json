@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-06-08T03:48:47.038238+00:00",
+  "timestamp_utc": "2026-06-11T03:48:37.210346+00:00",
   "status": "yellow",
-  "headline_score_7day": 61,
-  "headline_score_21day": 46,
-  "score_jump": 15,
+  "headline_score_7day": 62,
+  "headline_score_21day": 62,
+  "score_jump": 1,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (61%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (61%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (61% similarity). The 7-day reading is 15 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to a relatively quiet period (January 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (61% דמיון). הקריאה ל-7 ימים גבוהה ב-15 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון לתקופה יחסית שקטה (ינואר 2026).",
+  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
+  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 21-day picture is similar at 62% similarity to a relatively quiet period (January 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). התמונה ל-21 יום דומה עם 62% דמיון לתקופה יחסית שקטה (ינואר 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -41,8 +41,1513 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.haberler.com/dunya/hamaney-abd-ve-israil-hibrit-savas-yurutuyor-19910595-haberi/",
+        "https://www.bankier.pl/wiadomosc/Chamenei-oskarza-z-ukrycia-USA-i-Izrael-o-zlowieszczy-spisek-9146313.html",
+        "https://www.ensonhaber.com/hamaney-abd-ve-israil-hibrit-savasla-yoneldi-h1539555"
+      ],
+      "articles": [
+        {
+          "url": "https://www.haberler.com/dunya/hamaney-abd-ve-israil-hibrit-savas-yurutuyor-19910595-haberi/",
+          "title": "Hamaney : ABD ve İsrail hibrit savaşa yöneldi",
+          "domain": "haberler.com",
+          "seendate": "20260604T114500Z"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/Chamenei-oskarza-z-ukrycia-USA-i-Izrael-o-zlowieszczy-spisek-9146313.html",
+          "title": "Chamenei oskarża z ukrycia united states i Izrael o „ złowieszczy spisek  ",
+          "domain": "bankier.pl",
+          "seendate": "20260604T174500Z"
+        },
+        {
+          "url": "https://www.ensonhaber.com/hamaney-abd-ve-israil-hibrit-savasla-yoneldi-h1539555",
+          "title": "Hamaney : ABD ve İsrail , hibrit savaşa yöneldi",
+          "domain": "ensonhaber.com",
+          "seendate": "20260604T100000Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/hamaney-abd-israil-hibrit-savasla-halkin-direncini-kirmayi-hedefliyor-19909939-haberi/",
+          "title": "İran liderinden ,  düşman halkın direncini zayıflatmayı hedefleyen kapsamlı bir hibrit savaşa yöneldi  açıklaması",
+          "domain": "haberler.com",
+          "seendate": "20260604T100000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/profound-humiliation-and-a-sinister-plot-khameneis-message-as-ceasefire-talks-with-us-israel-wobble/articleshow/131504251.cms",
+          "title": "  Profound humiliation  and a  sinister plot : Khamenei message as ceasefire talks with US - Israel wobble",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260604T133000Z"
+        },
+        {
+          "url": "https://www.stiripesurse.ro/liderul-suprem-al-iranului-revendica-victoria-in-confruntarea-cu-sua-si-israelul-inamicul-rauvoitor-a-fost-invins_3892012",
+          "title": "Liderul suprem al Iranului revendică victoria în confruntarea cu SUA și Israelul : „ Inamicul răuvoitor  a fost învins",
+          "domain": "stiripesurse.ro",
+          "seendate": "20260604T113000Z"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/Amerykanski-plan-pokojowy-w-gruzach-Hezbollah-odrzuca-rozejm-i-grzmi-o-ponizeniu-9146365.html",
+          "title": "Amerykański plan pokojowy w gruzach . Hezbollah odrzuca rozejm i grzmi o  poniżeniu  ",
+          "domain": "bankier.pl",
+          "seendate": "20260604T174500Z"
+        },
+        {
+          "url": "https://tr.euronews.com/2026/06/04/iran-dini-liderinden-abdye-mesaj-kotu-niyetli-dusmana-kararli-darbe-indirildi",
+          "title": "İran dini liderinden ABDye mesaj : Kötü niyetli düşmana ağır darbe indirildi",
+          "domain": "tr.euronews.com",
+          "seendate": "20260604T134500Z"
+        },
+        {
+          "url": "https://www.sabah.com.tr/dunya/hamaneyden-savasa-iliskin-aciklama-abd-ve-israil-hibrit-savasa-yoneldi-7596609",
+          "title": "Hamaneyden savaşa ilişkin açıklama : ABD ve İsrail hibrit savaşa yöneldi",
+          "domain": "sabah.com.tr",
+          "seendate": "20260604T124500Z"
+        },
+        {
+          "url": "https://www.maariv.co.il/news/opinions/article-1330693",
+          "title": "אמציה ברעם : חיסול חמינאי הוביל להשתלטות משמרות המהפכה הקיצוניים",
+          "domain": "maariv.co.il",
+          "seendate": "20260609T094500Z"
+        },
+        {
+          "url": "https://www.haber7.com/dunya/haber/3633022-hamaneyden-sert-cikis-hedefte-ic-cephe-var",
+          "title": "Hamaneyden sert çıkış :  Hedefte iç cephe var ! ",
+          "domain": "haber7.com",
+          "seendate": "20260604T134500Z"
+        },
+        {
+          "url": "https://www.haber7.com/dunya/haber/3633022-hamaneyden-dusman-hibrit-savasa-yoneldi-aciklamasi",
+          "title": "Hamaneyden  düşman hibrit savaşa yöneldi  açıklaması",
+          "domain": "haber7.com",
+          "seendate": "20260604T114500Z"
+        },
+        {
+          "url": "https://www.haberturk.com/dusman-kapsamli-bir-hibrit-savasa-yoneldi-3889374",
+          "title": "  Düşman kapsamlı bir hibrit savaşa yöneldi  ",
+          "domain": "haberturk.com",
+          "seendate": "20260604T181500Z"
+        },
+        {
+          "url": "https://www.trthaber.com/haber/dunya/hamaneyden-dusman-hibrit-savasa-yoneldi-aciklamasi-947148.html",
+          "title": "Hamaneyden  düşman hibrit savaşa yöneldi  açıklaması",
+          "domain": "trthaber.com",
+          "seendate": "20260604T124500Z"
+        },
+        {
+          "url": "https://www.dostor.org/5589414",
+          "title": "  إيران انترناشونال : انقطاع الاتصال مع مجتبى خامنئي منذ أمس",
+          "domain": "dostor.org",
+          "seendate": "20260608T123000Z"
+        },
+        {
+          "url": "https://akhbarelyom.com/news/newdetails/4831830/1/%D9%85%D8%AC%D8%AA%D8%A8%D9%89-%D8%AE%D8%A7%D9%85%D9%86%D8%A6%D9%8A-%D8%A3%D9%8A%D8%A7%D9%85-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A8%D8%A7%D8%AA%D8%AA-%D9%85%D8%B9%D8%AF%D9%88%D8%AF%D8%A9",
+          "title": "مجتبى خامنئي : أيام إسرائيل باتت معدودة",
+          "domain": "akhbarelyom.com",
+          "seendate": "20260608T044500Z"
+        },
+        {
+          "url": "https://www.konhaber.com/dunya/hamaney_den_dusman_hibrit_savasa_yoneldi_aciklamasi-2001114h",
+          "title": "Hamaneyden  düşman hibrit savaşa yöneldi  açıklaması",
+          "domain": "konhaber.com",
+          "seendate": "20260604T111500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=04062026&id=0f8ef6f1-dc26-4b5f-a8b4-2074a128f941",
+          "title": "خامنئي : إسرائيل لا تقبل بوجود إيران مستقلة متقدمة - بوابة الشروق",
+          "domain": "shorouknews.com",
+          "seendate": "20260604T124500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/r1vidxwwme",
+          "title": "העיניים לבית הלבן : הדריכות בישראל - ו  שיחת הצעקות  בין המתווך לגנרל האיראני",
+          "domain": "ynet.co.il",
+          "seendate": "20260610T203000Z"
+        },
+        {
+          "url": "https://www.memurlar.net/haber/1169090/hamaney-den-dusman-hibrit-savasa-yoneldi-aciklamasi.html",
+          "title": "Hamaneyden  Dman Hibrit Savaþa Yöneldi  Aklamas",
+          "domain": "memurlar.net",
+          "seendate": "20260604T130000Z"
+        },
+        {
+          "url": "https://pmnewsnigeria.com/2026/06/04/khamenei-accuses-us-israel-of-plot-to-divide-iran/",
+          "title": "Khamenei accuses US , Israel of plot to divide Iran",
+          "domain": "pmnewsnigeria.com",
+          "seendate": "20260604T111500Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/06/04/irans-supreme-leader-says-adversaries-are-using-hybrid-warfare",
+          "title": "Iran supreme leader says foes using hybrid warfare",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260604T120000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087351472-iran-supreme-leader-says-cia-conspiracies-thwarted",
+          "title": "Iran Supreme Leader says CIA conspiracies thwarted",
+          "domain": "samaa.tv",
+          "seendate": "20260604T121500Z"
+        },
+        {
+          "url": "https://www.theyeshivaworld.com/news/israel-news/2559388/missing-supreme-leader-reports-claim-communications-with-irans-ayatollah-mojtaba-khamenei-have-been-lost.html",
+          "title": "MISSING SUPREME LEADER ? Reports Claim Communications With Iran Ayatollah Mojtaba Khamenei Have Been Lost – The Yeshiva World",
+          "domain": "theyeshivaworld.com",
+          "seendate": "20260608T181500Z"
+        },
+        {
+          "url": "https://www.libertatea.ro/stiri/100-de-zile-de-razboi-intre-sua-si-iran-principale-cauze-ale-esecului-militar-al-lui-donald-trump-5771809",
+          "title": "100 De Zile De Război între SUA și Iran : Principalele Cauze Ale Eșecului Militar Al Lui Donald Trump",
+          "domain": "libertatea.ro",
+          "seendate": "20260610T024500Z"
+        },
+        {
+          "url": "https://www.newsx.com/world/iran-us-war-did-iran-really-deliver-decisive-blow-to-us-israel-mojtaba-khamenei-reappears-claims-victory-against-malicious-enemy-230314/",
+          "title": "Did Iran Really Deliver  Decisive Blow  To US - Israel ? Mojtaba Khamenei Reappears , Claims Victory Against  Malicious Enemy  ",
+          "domain": "newsx.com",
+          "seendate": "20260604T153000Z"
+        },
+        {
+          "url": "https://www.foxnews.com/world/iran-admits-extraordinary-new-detail-khamenei-strike-trump-offered-way-expert",
+          "title": "Iran FM Araghchi reveals new details of strike that killed Khamenei",
+          "domain": "foxnews.com",
+          "seendate": "20260607T221500Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-06-08-trump-iran-top-leader-involved-peace-talks.html",
+          "title": "Trump Says Iran Top Leader Involved in Peace Talks , Injured in February Airstrike – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260609T001500Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.in/trump-says-he-wants-meet-irans-new-supreme-leader-mojtaba-khamenei-nation-prepares-funeral-902650",
+          "title": "Trump says he wants to meet Iran new supreme leader Mojtaba Khamenei as nation prepares funeral procession for slain Ayatollah Ali Khamenei",
+          "domain": "ibtimes.co.in",
+          "seendate": "20260604T174500Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/middle-east/iran-s-supreme-leader-calls-for-national-unity-to-thwart-enemys-plots-/3956378",
+          "title": "Iran supreme leader calls for national unity  to thwart enemy plots  ",
+          "domain": "aa.com.tr",
+          "seendate": "20260604T111500Z"
+        },
+        {
+          "url": "https://www.haberler.com/dunya/hamaney-siyonist-rejimin-nefesi-sayili-gunu-kaldi-19923059-haberi/",
+          "title": "Hamaney : Siyonist rejimin nefesinin sayılı günü kaldı",
+          "domain": "haberler.com",
+          "seendate": "20260608T063000Z"
+        },
+        {
+          "url": "https://www.yenimesaj.com.tr/iran-lideri-hamaneyden-kritik-uyari-H1608217.htm",
+          "title": "Ýran lideri Hamaneyden kritik uyarý",
+          "domain": "yenimesaj.com.tr",
+          "seendate": "20260604T220000Z"
+        },
+        {
+          "url": "https://theshillongtimes.com/2026/06/06/trump-must-break-negotiation-deadlock-says-iranian-supreme-leaders-advisor/",
+          "title": "Trump must break negotiation deadlock , says Iranian Supreme Leader advisor",
+          "domain": "theshillongtimes.com",
+          "seendate": "20260606T103000Z"
+        },
+        {
+          "url": "https://www.wnp.pl/rynki/usa-trump-otwarty-na-spotkanie-z-przywodca-iranu-modztaba-chameneim,1069040.html",
+          "title": "USA : Trump otwarty na spotkanie z przywódcą Iranu Modżtabą Chameneim",
+          "domain": "wnp.pl",
+          "seendate": "20260604T224500Z"
+        },
+        {
+          "url": "https://www.star.com.tr/dunya/trumptan-dikkat-ceken-hamaney-mesaji-tanismaktan-onur-duyarim-haber-2020226/",
+          "title": "Trumptan dikkat çeken Hamaney mesajý ...  Tanmaktan onur duyarým  ",
+          "domain": "star.com.tr",
+          "seendate": "20260604T221500Z"
+        },
+        {
+          "url": "https://www.elkhabar.com/monde/%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%84%D9%85%D8%B1%D8%B4%D8%AF-%D9%85%D8%AC%D8%AA%D8%A8%D9%8A-%D8%AE%D8%A7%D9%85%D8%A6%D9%86%D9%8A-271967",
+          "title": "تصريح جديد للمرشد مجتبي خامئني - العالم : الخبر",
+          "domain": "elkhabar.com",
+          "seendate": "20260604T100000Z"
+        },
+        {
+          "url": "https://assabeel.net/74230",
+          "title": "خامنئي :  إسرائيل  ليست دولة بل مجرد قاعدة عسكرية للغرب",
+          "domain": "assabeel.net",
+          "seendate": "20260604T100000Z"
+        },
+        {
+          "url": "https://www.breitbart.com/middle-east/2026/06/04/iran-insists-ceasefire-talks-ongoing-denies-bombing-kuwait/",
+          "title": "Iran Insists Ceasefire Talks Ongoing , Denies Bombing Kuwait",
+          "domain": "breitbart.com",
+          "seendate": "20260605T030000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/s1g8krwzgx",
+          "title": "Israel watches US - Iran escalation , prepares for possible flare - up",
+          "domain": "ynetnews.com",
+          "seendate": "20260610T204500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=08062026&id=764ed1fa-8fe8-44b7-b16b-f0b4046096ed",
+          "title": "مجتبى خامنئي : النظام الصهيوني المتزعزع لم يتبق له سوى أيام معدودة",
+          "domain": "shorouknews.com",
+          "seendate": "20260608T083000Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/irans-invisible-leader-is-mojtaba-khamenei-really-in-charge-1.500563625",
+          "title": "Iran Invisible Supreme Leader : Is Mojtaba Khamenei Secretly Running Post - War Iran ? ",
+          "domain": "gulfnews.com",
+          "seendate": "20260604T193000Z"
+        },
+        {
+          "url": "https://www.hkcna.hk/docDetail.jsp?id=101338240&channel=2810",
+          "title": "伊朗外長 ： 結束中東戰事談判未取得實質性進展 | 國際",
+          "domain": "hkcna.hk",
+          "seendate": "20260605T044500Z"
+        },
+        {
+          "url": "https://www.haberler.com/haberler/iranin-dini-lideri-hamaneyden-israil-mesaji-19922645-haberi/",
+          "title": "İran  ın dini lideri Hamaneyden İsrail mesajı : Siyonist rejimin nefesi tükendi",
+          "domain": "haberler.com",
+          "seendate": "20260607T210000Z"
+        },
+        {
+          "url": "https://www.almanar.com.lb/article/917552/",
+          "title": "إيران متمسكة بموقفها وتؤكد استمرار المواجهة مع  نظام الهيمنة  – قناة المنار",
+          "domain": "almanar.com.lb",
+          "seendate": "20260604T094500Z"
+        },
+        {
+          "url": "https://www.bd-pratidin.com/international-news/2026/06/04/1258337",
+          "title": "যুদ্ধের মধ্যে জাতীয় ঐক্যের ডাক দিলেন ইরানের সর্বোচ্চ নেতা |",
+          "domain": "bd-pratidin.com",
+          "seendate": "20260604T111500Z"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/Trump-chce-spotkac-sie-z-przywodca-Iranu-Stawia-jednak-twardy-warunek-9146437.html",
+          "title": "Trump chciałby się spotkać z przywódcą Iranu ?  Chyba nie jestem ulubioną osobą  ",
+          "domain": "bankier.pl",
+          "seendate": "20260605T061500Z"
+        },
+        {
+          "url": "https://www.express.co.uk/news/world/2213395/iran-supreme-leader-statement-us-war",
+          "title": "Iran Supreme Leader takes chilling swipe at US - still not seen in public during war | World | News",
+          "domain": "express.co.uk",
+          "seendate": "20260604T134500Z"
+        },
+        {
+          "url": "https://www.albawaba.com/news/khameneis-influence-takes-center-stage-1629282",
+          "title": "Khamenei influence takes center stage in ongoing US - Iran negotiations",
+          "domain": "albawaba.com",
+          "seendate": "20260605T100000Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/arab-news/khamenei-burial-mystery-iran",
+          "title": "התעלומה סביב קבורת חמינאי : מאה ימים ללא הלוויה",
+          "domain": "kikar.co.il",
+          "seendate": "20260607T170000Z"
+        },
+        {
+          "url": "https://morungexpress.com/trump-must-break-negotiation-deadlock-says-iranian-supreme-leaders-advisor",
+          "title": "Trump must break negotiation deadlock , says Iranian Supreme Leader advisor",
+          "domain": "morungexpress.com",
+          "seendate": "20260606T121500Z"
+        },
+        {
+          "url": "https://www.pb.pl/trump-nie-wyklucza-spotkania-z-przywodca-iranu-1262467",
+          "title": "Trump nie wyklucza spotkania z przywódcą Iranu",
+          "domain": "pb.pl",
+          "seendate": "20260605T061500Z"
+        },
+        {
+          "url": "https://www.rferl.org/a/trump-iran-peace-negotiations-supreme-leader/33772840.html",
+          "title": "Trump Says US Will Win  Militarily Or On Paper , Could Meet Iran Supreme Leader If There Deal",
+          "domain": "rferl.org",
+          "seendate": "20260604T230000Z"
+        },
+        {
+          "url": "https://www.standardmedia.co.ke/world/article/2001549535/iran-leader-says-dealt-enemies-decisive-blow-in-mideast-war",
+          "title": "Iran leader says dealt enemies  decisive blow  in Middle East war",
+          "domain": "standardmedia.co.ke",
+          "seendate": "20260605T033000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/s1gmlzvzge",
+          "title": "ישראל דחתה את  מבחן המשוואות , ומעדיפה הפסקת אש ומצור על איראן",
+          "domain": "ynet.co.il",
+          "seendate": "20260608T123000Z"
+        },
+        {
+          "url": "https://hirado.hu/kulfold/cikk/2026/06/08/donald-trump-onmersekletet-kert-izraeltol-az-irani-raketatamadasra-adott-valaszban",
+          "title": "Donald Trump önmérsékletet kért Izraeltől az iráni rakétatámadásra adott válaszban",
+          "domain": "hirado.hu",
+          "seendate": "20260608T061500Z"
+        },
+        {
+          "url": "https://www.turkiyegazetesi.com.tr/dunya/abd-baskani-trumptan-dikkat-ceken-cikis-hamaney-ile-gorusebilirim-1794963",
+          "title": "ABD Başkanı Trumptan dikkat çeken çıkış : Hamaney ile görüşebilirim",
+          "domain": "turkiyegazetesi.com.tr",
+          "seendate": "20260604T221500Z"
+        },
+        {
+          "url": "https://www.bursadabugun.com/haber/hamaney-den-israil-e-sert-mesaj-sallantidaki-siyonist-rejimin-nefesi-sayili-gun-1927032.html",
+          "title": "Hamaneyden İsraile sert mesaj :  Sallantıdaki siyonist rejimin nefesi sayılı gün  ",
+          "domain": "bursadabugun.com",
+          "seendate": "20260608T004500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/iran-dismisses-idea-of-trump-meeting-supreme-leader-mojtaba-khamenei-article-13942389.html",
+          "title": "Iran dismisses idea of Trump meeting supreme leader Mojtaba Khamenei",
+          "domain": "moneycontrol.com",
+          "seendate": "20260605T140000Z"
+        },
+        {
+          "url": "https://www.geo.tv/latest/667668-naqvi-delivers-special-message-to-khamenei-as-pakistan-continues-us-iran-mediation",
+          "title": "Naqvi delivers  special message  to Khamenei as Pakistan continues US - Iran mediation",
+          "domain": "geo.tv",
+          "seendate": "20260607T173000Z"
+        },
+        {
+          "url": "https://pjmedia.com/vodkapundit/2026/06/08/score-two-more-big-wins-for-israel-vs-iran-maybe-n4953720",
+          "title": "Score Two More Big Wins for Israel Vs . Iran ... Maybe",
+          "domain": "pjmedia.com",
+          "seendate": "20260608T193000Z"
+        },
+        {
+          "url": "https://kitabat.com/news/%D8%A7%D8%B3%D8%AA%D8%B7%D8%B9%D9%86%D8%A7-%D8%A5%D8%B7%D8%A7%D8%AD%D8%A9-%D9%85%D9%83%D8%A7%D8%A6%D8%AF-%D8%A7%D9%84%D8%B9%D8%AF%D9%88-%D9%85%D8%AC%D8%AA%D8%A8%D9%89-%D8%AE%D8%A7%D9%85%D9%86/",
+          "title": "  استطعنا إطاحة مكائد العدو  .. مجتبى خامنئي يؤكد عدم التراجع عن مواقف بلاده من  إسرائيل  – كتابات",
+          "domain": "kitabat.com",
+          "seendate": "20260604T114500Z"
+        },
+        {
+          "url": "https://www.ntv.com.tr/dunya/trumptan-hamaney-aciklamasi-tanismaktan-onur-duyarim-1727238",
+          "title": "Trumptan Hamaney açıklaması .  Tanışmaktan onur duyarım  ",
+          "domain": "ntv.com.tr",
+          "seendate": "20260605T021500Z"
+        },
+        {
+          "url": "https://www.channelnewsasia.com/world/mojtaba-khamenei-says-dealt-enemies-decisive-blow-iran-us-war-6162156",
+          "title": "Iran leader says dealt enemies  decisive blow  in Mideast war",
+          "domain": "channelnewsasia.com",
+          "seendate": "20260604T120000Z"
+        },
+        {
+          "url": "https://www.stiripesurse.ro/trump-da-un-raspuns-uimitor-intrebat-fiind-daca-ar-accepta-o-intrevedere-cu-mojtaba-khamenei_3892247",
+          "title": "Vine dușmanul Americii la Washington ? Trump dă un răspuns uimitor întrebat fiind dacă ar accepta o întrevedere cu Mojtaba Khamenei",
+          "domain": "stiripesurse.ro",
+          "seendate": "20260605T023000Z"
+        },
+        {
+          "url": "https://www.bloomberght.com/trump-anlasma-yapmak-icin-iran-lideri-hamaney-ile-gorusmeye-acik-oldugunu-soyledi-3779134",
+          "title": "Trump , anlaşma yapmak için İran lideri Hamaney ile görüşmeye açık olduğunu söyledi",
+          "domain": "bloomberght.com",
+          "seendate": "20260605T051500Z"
+        },
+        {
+          "url": "https://english.aawsat.com/world/5280653-iran%E2%80%99s-new-supreme-leader-taking-reins-power",
+          "title": "Is Iran New Supreme Leader Taking up the Reins of Power ? ",
+          "domain": "english.aawsat.com",
+          "seendate": "20260605T074500Z"
+        },
+        {
+          "url": "https://www.stern.de/news/modschtaba-chamenei--usa-und-israel-wollen-iranische-nation--spalten--37492788.html",
+          "title": "Modschtaba Chamenei : united states und Israel wollen iranische Nation „ spalten  ",
+          "domain": "stern.de",
+          "seendate": "20260604T111500Z"
+        },
+        {
+          "url": "https://www.dailystar.co.uk/news/latest-news/trump-says-hed-honoured-meet-37250807",
+          "title": "Trump says hed be  honoured  to meet Iran new supreme leader",
+          "domain": "dailystar.co.uk",
+          "seendate": "20260605T011500Z"
+        },
+        {
+          "url": "https://www.haberler.com/politika/iran-dini-lideri-hamaney-den-dusmana-sert-mesaj-19909856-haberi/",
+          "title": "Hamaney :  Düşman , askeri düzeyde ağır darbeler aldığı için ciddi bir itibar kaybı yaşamaktadır  ",
+          "domain": "haberler.com",
+          "seendate": "20260604T094500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/06/irans-new-supreme-leader-taking-reins-power",
+          "title": "Is Iran new supreme leader taking up the reins of power ? ",
+          "domain": "al-monitor.com",
+          "seendate": "20260604T161500Z"
+        },
+        {
+          "url": "https://www.clevelandjewishnews.com/jns/mojtaba-khamenei-accuses-us-and-israel-of-waging-hybrid-war/article_1009836b-fd01-55d5-9c62-d806bb049eda.html",
+          "title": "Mojtaba Khamenei accuses US and Israel of waging  hybrid war  ",
+          "domain": "clevelandjewishnews.com",
+          "seendate": "20260604T153000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/trump-says-us-will-win-iran-standoff-militarily-or-on-paper-open-to-meeting-khamenei-article-13941624.html",
+          "title": "Trump says US will win Iran standoff  militarily or on paper , open to meeting Khamenei",
+          "domain": "moneycontrol.com",
+          "seendate": "20260605T033000Z"
+        },
+        {
+          "url": "https://www.atv.hu/kulfold/20260608/iran-izrael-trump-haboru-beke/",
+          "title": "Irán ismét megtámadta Izraelt , Trump váratlanul reagált , félbeszakadt az interjú",
+          "domain": "atv.hu",
+          "seendate": "20260608T081500Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/iran-admits-extraordinary-detail-khamenei-215111543.html",
+          "title": "Iran admits extraordinary new detail in Khamenei strike , Trump offered  way out : expert",
+          "domain": "yahoo.com",
+          "seendate": "20260608T010000Z"
+        },
+        {
+          "url": "https://www.haberler.com/dunya/trump-iran-in-yeni-lideriyle-gorusmekten-onur-duyarim-19914025-haberi/",
+          "title": "ABD Başkanı Trump : Hamaney ile Görüşmekten Onur Duyarım",
+          "domain": "haberler.com",
+          "seendate": "20260605T103000Z"
+        },
+        {
+          "url": "https://haqqin.az/newsarchive/385817",
+          "title": "Пезешкиан о политике Моджтабы Хаменеи",
+          "domain": "haqqin.az",
+          "seendate": "20260610T120000Z"
+        },
+        {
+          "url": "https://orf.at/stories/3432346/",
+          "title": "Chamenei - Botschaft : Aufruf zu „ Standhaftigkeit  ",
+          "domain": "orf.at",
+          "seendate": "20260604T110000Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/us-news/hundreds-rally-in-south-beirut-suburbs-in-support-of-iran-allies-101781122011097.html",
+          "title": "Hundreds rally in south Beirut suburbs in support of Iran , allies",
+          "domain": "hindustantimes.com",
+          "seendate": "20260610T210000Z"
+        },
+        {
+          "url": "https://www.arabnews.com/node/2646693/middle-east",
+          "title": "Hundreds rally in south Beirut suburbs in support of Iran , allies",
+          "domain": "arabnews.com",
+          "seendate": "20260610T230000Z"
+        },
+        {
+          "url": "https://diena.lt/naujienos/pasaulis/konfliktai-nelaimes/trumpas-ragina-irana-ir-izraeli-nutraukti-ugni-1760181",
+          "title": "Trumpas ragina Iraną ir Izraelį nutraukti ugnį",
+          "domain": "diena.lt",
+          "seendate": "20260608T123000Z"
+        },
+        {
+          "url": "https://www.aa.com.tr/tr/dunya/trump-iranla-anlasmalari-halinde-uranyumun-imhasi-icin-tahranla-isbirligi-yapacaklarini-savundu/3959225",
+          "title": "Trump , İranla anlaşmaları halinde uranyumun imhası için Tahranla işbirliği yapacaklarını savundu",
+          "domain": "aa.com.tr",
+          "seendate": "20260607T160000Z"
+        },
+        {
+          "url": "https://www.staradvertiser.com/2026/06/04/breaking-news/hezbollah-rejects-lebanon-ceasefire-undermining-trump-peace-push/",
+          "title": "Hezbollah rejects Lebanon ceasefire undermining Trump peace push",
+          "domain": "staradvertiser.com",
+          "seendate": "20260605T043000Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/06/iran-260604-presstv05.htm",
+          "title": "  Humiliated  enemy shifting to hybrid war after military defeat : Ayatollah Khamenei",
+          "domain": "globalsecurity.org",
+          "seendate": "20260605T140000Z"
+        },
+        {
+          "url": "https://www.haberaktuel.com/hamaney-abd-ve-israili-bolmekle-sucladi-3440695",
+          "title": "Hamaney ABD ve İsraili Bölmekle Suçladı",
+          "domain": "haberaktuel.com",
+          "seendate": "20260604T114500Z"
+        },
+        {
+          "url": "https://www.arkansasonline.com/news/2026/jun/04/trump-admits-to-critical-remarks/",
+          "title": "Trump admits to critical remarks | The Arkansas Democrat - Gazette - Arkansa Best News Source",
+          "domain": "arkansasonline.com",
+          "seendate": "20260604T080000Z"
+        },
+        {
+          "url": "https://pnn.ps/news/723882",
+          "title": "خامنئي يقول , الولايات المتحدة وإسرائيل تسعيان لـ  زرع الانقسام  بين الإيرانيين",
+          "domain": "pnn.ps",
+          "seendate": "20260604T141500Z"
+        },
+        {
+          "url": "https://www.news24.com/world/iran-halts-israel-operation-after-first-post-truce-clash-20260608-0827",
+          "title": "Iran halts Israel operation after first post - truce clash",
+          "domain": "news24.com",
+          "seendate": "20260608T160000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/features/5280656-mojtaba-khamenei-iran%E2%80%99s-new-supreme-leader-lurking-shadows",
+          "title": "Mojtaba Khamenei : Iran New Supreme Leader Lurking in the Shadows",
+          "domain": "english.aawsat.com",
+          "seendate": "20260605T074500Z"
+        },
+        {
+          "url": "https://www.hespress.com/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%85%D9%86%D9%81%D8%AA%D8%AD-%D8%B9%D9%84%D9%89-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%85%D8%B9-%D8%AE%D8%A7%D9%85%D9%86%D8%A6%D9%8A-1758305.html",
+          "title": "ترامب منفتح على محادثات مع خامنئي",
+          "domain": "hespress.com",
+          "seendate": "20260607T164500Z"
+        },
+        {
+          "url": "https://dailypost.ng/2026/06/04/war-us-have-suffered-heavy-blows-irans-supreme-leader-khamenei/",
+          "title": "War : US have suffered heavy blows - Iran Supreme Leader , Khamenei",
+          "domain": "dailypost.ng",
+          "seendate": "20260604T154500Z"
+        },
+        {
+          "url": "https://www.canberratimes.com.au/story/9286054/hezbollah-rejects-lebanon-truce-dims-iran-peace-hopes/",
+          "title": "Hezbollah rejects Lebanon truce , dims Iran peace hopes",
+          "domain": "canberratimes.com.au",
+          "seendate": "20260604T181500Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/israel-news/mossad-iran-kurdish-rebels-weapons",
+          "title": "המוסד והכורדים באיראן : העברת נשק מחמאס וחיזבאללה",
+          "domain": "kikar.co.il",
+          "seendate": "20260604T144500Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5669241",
+          "title": "الاتفاق الأمريكي الإيراني الوشيك",
+          "domain": "vetogate.com",
+          "seendate": "20260606T124500Z"
+        },
+        {
+          "url": "https://www.sbs.com.au/news/article/hezbollah-rejects-israeli-ceasefire-deal-in-lebanon-clouding-prospects-for-iran-conflict-resolution/ulbrnhy75",
+          "title": "Hezbollah rejects Israeli ceasefire deal in Lebanon , clouding prospects for Iran conflict resolution",
+          "domain": "sbs.com.au",
+          "seendate": "20260605T040000Z"
+        },
+        {
+          "url": "https://www.express.co.uk/news/world/2213582/trump-honoured-meeting-iran-ayatollah",
+          "title": "Trump  would be honoured  to meet Iran Ayatollah -  has good reputation  ",
+          "domain": "express.co.uk",
+          "seendate": "20260604T233000Z"
+        },
+        {
+          "url": "https://www.haber7.com/dunya/haber/3633157-trumptan-mucteba-hamaneye-tanismaktan-onur-duyarim",
+          "title": "Trumptan Mücteba Hamaneye : Tanışmaktan onur duyarım",
+          "domain": "haber7.com",
+          "seendate": "20260605T050000Z"
+        },
+        {
+          "url": "https://www.dunya.com/dunya/trumptan-iran-mesaji-hamaney-ile-gorusmekten-onur-duyarim-haberi-827418",
+          "title": "Trumptan İran mesajı : Hamaney ile görüşmekten onur duyarım",
+          "domain": "dunya.com",
+          "seendate": "20260605T051500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-04/live-updates-898327",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260604T041500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-05/live-updates-898461",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260605T033000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-06/live-updates-898514",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260606T054500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/lebanon-ceasefire-raises-hopes-of-progress-for-iran-deal/articleshow/131504064.cms",
+          "title": "Lebanon ceasefire raises hopes of progress for Iran deal",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260604T111500Z"
+        },
+        {
+          "url": "https://www.sozcu.com.tr/trump-tan-hamaney-aciklamasi-p325332",
+          "title": "Trumptan dikkat çeken Hamaney açıklaması",
+          "domain": "sozcu.com.tr",
+          "seendate": "20260604T233000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087351661-trump-urges-israel-not-to-retaliate-iran-strikes",
+          "title": "Trump urges Israel not to retaliate Iran strikes",
+          "domain": "samaa.tv",
+          "seendate": "20260608T123000Z"
+        },
+        {
+          "url": "https://www.heute.at/s/ober-mullah-spottet-ueber-trump-und-netanjahu-120204471",
+          "title": "  Schwere Niederlage  – Ober - Mullah spottet über Trump und Netanjahu",
+          "domain": "heute.at",
+          "seendate": "20260604T121500Z"
+        },
+        {
+          "url": "https://www.khaama.com/trump-says-mojtaba-khamenei-gives-final-approval-in-u-s-iran-talks/",
+          "title": "Trump says Mojtaba Khamenei gives final approval in U . S .- Iran talks",
+          "domain": "khaama.com",
+          "seendate": "20260604T070000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/rkbnbuvzzg",
+          "title": "כך האייתוללות הורגות את איראן",
+          "domain": "ynet.co.il",
+          "seendate": "20260608T151500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/there-s-a-good-probability-trump-says-he-may-know-where-young-mojtaba-khamenei-is-calls-him-more-rational-article-13943170.html",
+          "title": "  There a good probability : Trump says he may know where  young  Mojtaba Khamenei is , calls him  more rational  ",
+          "domain": "moneycontrol.com",
+          "seendate": "20260607T164500Z"
+        },
+        {
+          "url": "https://www.bloomberg.com:443/news/articles/2026-06-05/us-iran-stalemate-drags-on-as-conflict-approaches-100-day-mark",
+          "title": "US - Iran Standoff Persists as Conflict Nears 100 Days With No Truce in Sight",
+          "domain": "bloomberg.com",
+          "seendate": "20260605T230000Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=08062026&id=e164b0fb-6b70-4af8-8e36-186fcd695d1f",
+          "title": "إيران إنترناشيونال : انقطاع اتصالات مجتبى خامنئي مع مسئولي النظام منذ الليلة الماضية",
+          "domain": "shorouknews.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/live-in-the-real-world-iranian-fm-reacts-to-trumps-willingness-to-meet-supreme-leader-mojtaba-khamenei-101780719792557.html",
+          "title": "  Live in the real world : Iranian FM reacts to Trump willingness to meet Supreme Leader Mojtaba Khamenei",
+          "domain": "hindustantimes.com",
+          "seendate": "20260606T051500Z"
+        },
+        {
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/06/08/trump-tells-iran-israel-to-stop-shooting-after-first-clash-since-truce",
+          "title": "Trump tells Iran , Israel to stop  shooting  after first clash since truce",
+          "domain": "freemalaysiatoday.com",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://www.wnp.pl/rynki/iran-sily-powietrzne-izraela-uzyly-pociskow-balistycznych-do-ataku-na-iranskie-cele,1069756.html",
+          "title": "Iran : Siły powietrzne Izraela użyły pocisków balistycznych do ataku na irańskie cele",
+          "domain": "wnp.pl",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://www.echo-news.co.uk/news/national/26173285.israel-says-iran-launched-missiles-first-bombardment-since-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in first bombardment since ceasefire",
+          "domain": "echo-news.co.uk",
+          "seendate": "20260607T210000Z"
+        },
+        {
+          "url": "https://www.thetelegraphandargus.co.uk/news/national/26173285.israel-says-iran-launched-missiles-first-bombardment-since-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in first bombardment since ceasefire",
+          "domain": "thetelegraphandargus.co.uk",
+          "seendate": "20260607T213000Z"
+        },
+        {
+          "url": "https://www.lancashiretelegraph.co.uk/news/national/26173285.israel-says-iran-launched-missiles-first-bombardment-since-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in first bombardment since ceasefire",
+          "domain": "lancashiretelegraph.co.uk",
+          "seendate": "20260607T210000Z"
+        },
+        {
+          "url": "https://www.abendblatt.de/politik/article412179307/schwer-verletzt-und-abgetaucht-der-mann-an-irans-spitze-bleibt-verborgen.html",
+          "title": "Iran : Modschtaba Chamenei – der unsichtbare Mann an der Spitze",
+          "domain": "abendblatt.de",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://www.morgenpost.de/politik/article412179307/schwer-verletzt-und-abgetaucht-der-mann-an-irans-spitze-bleibt-verborgen.html",
+          "title": "Iran : Modschtaba Chamenei – der unsichtbare Mann an der Spitze",
+          "domain": "morgenpost.de",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/articles/lebanon-ceasefire-raises-hopes-progess-095304018.html",
+          "title": "Lebanon ceasefire raises hopes of progress for Iran deal",
+          "domain": "yahoo.com",
+          "seendate": "20260604T103000Z"
+        },
+        {
+          "url": "https://www.evrensel.net/haber/5986976/trump-anlasma-yapmak-icin-iran-lideri-mucteba-hamaney-ile-gorusmeye-acik-oldugunu-soyledi",
+          "title": "Trump , anlaşma yapmak için İran lideri Mücteba Hamaney ile görüşmeye açık olduğunu söyledi",
+          "domain": "evrensel.net",
+          "seendate": "20260604T223000Z"
+        },
+        {
+          "url": "https://www.businesstimes.com.sg/international/israel-lebanon-ceasefire-raises-hopes-progress-deal-between-us-and-iran",
+          "title": "Israel - Lebanon ceasefire raises hopes of progress for deal between US and Iran",
+          "domain": "businesstimes.com.sg",
+          "seendate": "20260604T130000Z"
+        },
+        {
+          "url": "https://www.channelstv.com/2026/06/08/iran-israel-exchange-fire-in-first-clash-since-truce/",
+          "title": "Iran , Israel Exchange Fire In First Clash Since Truce",
+          "domain": "channelstv.com",
+          "seendate": "20260608T121500Z"
+        },
+        {
+          "url": "https://www.ntvbd.com/world/news-1748401",
+          "title": "মোজতবা খামেনি কি ক্ষমতার লাগাম হাতে তুলে নিচ্ছেন ? ",
+          "domain": "ntvbd.com",
+          "seendate": "20260604T201500Z"
+        },
+        {
+          "url": "https://hotnews.ro/liderii-din-liban-mesaj-catre-iran-e-tara-noastra-incetati-sa-o-mai-folositi-ca-mijloc-de-presiune-pentru-negocierile-voastre-2265766",
+          "title": "Liderii din Liban , mesaj către Iran : E țara noastră , încetați să o mai folosiți ca mijloc de presiune pentru negocierile voastre",
+          "domain": "hotnews.ro",
+          "seendate": "20260605T194500Z"
+        },
+        {
+          "url": "https://www.tayyar.org/News/Mena/727026/_guid=727026",
+          "title": "tayyar . org - أول اعتراف رسمي بخطورة إصابة مجتبى خامنئي في الحرب ! ",
+          "domain": "tayyar.org",
+          "seendate": "20260608T053000Z"
+        },
+        {
+          "url": "https://hotnews.ro/iranul-raspunde-libanului-salvati-va-tara-de-adevaratul-dusman-israelul-2266470",
+          "title": "Iranul răspunde Libanului : „ Salvaţi - vă țara de adevăratul duşman , Israelul  ",
+          "domain": "hotnews.ro",
+          "seendate": "20260606T170000Z"
+        },
+        {
+          "url": "https://www.hespress.com/%D8%A7%D9%84%D8%BA%D9%85%D9%88%D8%B6-%D9%8A%D9%84%D9%81-%D8%B5%D8%AD%D8%A9-%D9%85%D8%AC%D8%AA%D8%A8%D9%89-%D8%AE%D8%A7%D9%85%D9%86%D8%A6%D9%8A-%D9%88%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3-1757164.html",
+          "title": "الغموض يلف صحة مجتبى خامنئي وإدارة السلطة في الجمهورية الإيرانية",
+          "domain": "hespress.com",
+          "seendate": "20260605T001500Z"
+        },
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/05/lebanon-ceasefire-raises-hopes-of-progress-for-iran-deal",
+          "title": "Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war",
+          "domain": "internazionale.it",
+          "seendate": "20260605T061500Z"
+        },
+        {
+          "url": "https://www.swindonadvertiser.co.uk/news/national/26173285.israel-says-iran-launched-missiles-first-bombardment-since-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in first bombardment since ceasefire",
+          "domain": "swindonadvertiser.co.uk",
+          "seendate": "20260607T213000Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/iran-news/article-898695",
+          "title": "Renewed fire , and no one left to sign : the war Israel cannot end",
+          "domain": "jpost.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/article-898695",
+          "title": "Renewed fire , and no one left to sign : the war Israel cannot end",
+          "domain": "jpost.com",
+          "seendate": "20260608T090000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/06/07/pakistans-interior-minister-is-in-tehran-as-the-us-downs-more-iranian-drones-over-hormuz",
+          "title": "Pakistan interior minister is in Tehran as the US downs more Iranian drones over Hormuz – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260607T114500Z"
+        },
+        {
+          "url": "https://www.livemint.com/news/world/us-iran-news-live-updates-ceasefire-donald-trump-israel-lebanon-strait-of-hormuz-kuwait-uae-netanyahu-11780619372540.html",
+          "title": "US - Iran News LIVE Updates : Trump rejects Iran uranium raid to avoid  Jimmy Carter  moment ; Israel & Hezbollah trade fire",
+          "domain": "livemint.com",
+          "seendate": "20260605T040000Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/world-news/trump-total-victory-iran-two-weeks",
+          "title": "טראמפ מבשר : ניצחון מוחלט על איראן תוך שבועיים",
+          "domain": "kikar.co.il",
+          "seendate": "20260609T060000Z"
+        },
+        {
+          "url": "https://en.dailypakistan.com.pk/04-Jun-2026/trump-says-us-iran-peace-deal-near-as-israel-lebanon-ceasefire-reached",
+          "title": "Trump says US - Iran peace deal near as Israel - Lebanon ceasefire reached",
+          "domain": "en.dailypakistan.com.pk",
+          "seendate": "20260604T061500Z"
+        },
+        {
+          "url": "https://www.bournemouthecho.co.uk/news/national/26173285.israel-says-iran-launched-missiles-first-bombardment-since-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in first bombardment since ceasefire",
+          "domain": "bournemouthecho.co.uk",
+          "seendate": "20260608T044500Z"
+        },
+        {
+          "url": "https://www.thenorthernecho.co.uk/news/national/26173285.israel-says-iran-launched-missiles-first-bombardment-since-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in first bombardment since ceasefire",
+          "domain": "thenorthernecho.co.uk",
+          "seendate": "20260607T224500Z"
+        },
+        {
+          "url": "https://www.durangoherald.com/articles/pakistans-interior-minister-is-in-tehran-as-the-us-downs-more-iranian-drones-over-hormuz/",
+          "title": "Pakistan interior minister is in Tehran as the US downs more Iranian drones over Hormuz",
+          "domain": "durangoherald.com",
+          "seendate": "20260607T121500Z"
+        },
+        {
+          "url": "https://alwasat.ly/news/bbc/cx21000nynno",
+          "title": "خامنئي يحذّر والكونغرس يضغط على ترامب : هل يرسم الداخل مسار حرب إيران ؟ ",
+          "domain": "alwasat.ly",
+          "seendate": "20260604T161500Z"
+        },
+        {
+          "url": "https://www.dailysabah.com/world/mid-east/trump-peace-push-stalls-as-hezbollah-rejects-truce-israel-holds-firm",
+          "title": "Trump peace push stalls as Hezbollah rejects truce , Israel holds firm",
+          "domain": "dailysabah.com",
+          "seendate": "20260605T090000Z"
+        },
+        {
+          "url": "https://www.srugim.co.il/1306346-%D7%A0%D7%A9%D7%99%D7%90-%D7%90%D7%99%D7%A8%D7%90%D7%9F-%D7%9E%D7%90%D7%A9%D7%99%D7%9D-%D7%9E%D7%A4%D7%9C%D7%92%D7%99%D7%9D-%D7%90%D7%95%D7%AA%D7%A0%D7%95-%D7%9E%D7%91%D7%A4%D7%A0%D7%99%D7%9D",
+          "title": "נשיא איראן מאשים :  מפלגים אותנו מבפנים , נאלץ לפעול  ",
+          "domain": "srugim.co.il",
+          "seendate": "20260607T213000Z"
+        },
+        {
+          "url": "https://www.pilotonline.com/2026/06/10/us-strikes-iran-helicopter-crash/",
+          "title": "US strikes Iran after blaming Tehran for helicopter crash",
+          "domain": "pilotonline.com",
+          "seendate": "20260610T133000Z"
+        },
+        {
+          "url": "https://www.eadt.co.uk/news/national/26173285.israel-says-iran-launched-missiles-first-bombardment-since-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in first bombardment since ceasefire",
+          "domain": "eadt.co.uk",
+          "seendate": "20260608T034500Z"
+        },
+        {
+          "url": "https://www.stiripesurse.ro/iranul-si-israelul-anunta-o-pauza-in-atacuri_3893314",
+          "title": "Iranul și Israelul anunță o pauză în atacuri",
+          "domain": "stiripesurse.ro",
+          "seendate": "20260609T071500Z"
+        },
+        {
+          "url": "https://wmrn.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "wmrn.iheart.com",
+          "seendate": "20260610T133000Z"
+        },
+        {
+          "url": "https://ktok.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio 1000 KTOK",
+          "domain": "ktok.iheart.com",
+          "seendate": "20260610T133000Z"
+        },
+        {
+          "url": "https://powertalk1460.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | PowerTalk 1460 AM & 101 . 1 FM",
+          "domain": "powertalk1460.iheart.com",
+          "seendate": "20260610T133000Z"
+        },
+        {
+          "url": "https://1150wima.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "1150wima.iheart.com",
+          "seendate": "20260610T133000Z"
+        },
+        {
+          "url": "https://wlap.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio 630 WLAP",
+          "domain": "wlap.iheart.com",
+          "seendate": "20260610T131500Z"
+        },
+        {
+          "url": "https://720thevoice.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "720thevoice.iheart.com",
+          "seendate": "20260610T131500Z"
+        },
+        {
+          "url": "https://wwnc.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | News Radio 570 WWNC",
+          "domain": "wwnc.iheart.com",
+          "seendate": "20260610T124500Z"
+        },
+        {
+          "url": "https://650keni.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "650keni.iheart.com",
+          "seendate": "20260610T130000Z"
+        },
+        {
+          "url": "https://wtag.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "wtag.iheart.com",
+          "seendate": "20260610T130000Z"
+        },
+        {
+          "url": "https://1190kex.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | News Radio 1190 KEX",
+          "domain": "1190kex.iheart.com",
+          "seendate": "20260610T130000Z"
+        },
+        {
+          "url": "https://wflanews.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio WFLA",
+          "domain": "wflanews.iheart.com",
+          "seendate": "20260610T123000Z"
+        },
+        {
+          "url": "https://wgiram.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | News Radio 610",
+          "domain": "wgiram.iheart.com",
+          "seendate": "20260610T123000Z"
+        },
+        {
+          "url": "https://newsradio1049.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio 104 . 9 WBUV",
+          "domain": "newsradio1049.iheart.com",
+          "seendate": "20260610T130000Z"
+        },
+        {
+          "url": "https://newsradio910wltp.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio 910 WLTP",
+          "domain": "newsradio910wltp.iheart.com",
+          "seendate": "20260610T130000Z"
+        },
+        {
+          "url": "https://wvoc.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "wvoc.iheart.com",
+          "seendate": "20260610T124500Z"
+        },
+        {
+          "url": "https://1430kasi.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "1430kasi.iheart.com",
+          "seendate": "20260610T124500Z"
+        },
+        {
+          "url": "https://700wlw.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "700wlw.iheart.com",
+          "seendate": "20260610T144500Z"
+        },
+        {
+          "url": "https://wbhpam.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "wbhpam.iheart.com",
+          "seendate": "20260610T144500Z"
+        },
+        {
+          "url": "https://55krc.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "55krc.iheart.com",
+          "seendate": "20260610T170000Z"
+        },
+        {
+          "url": "https://talk1200boston.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "talk1200boston.iheart.com",
+          "seendate": "20260610T170000Z"
+        },
+        {
+          "url": "https://wercfm.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | News Radio 105 . 5 WERC",
+          "domain": "wercfm.iheart.com",
+          "seendate": "20260610T170000Z"
+        },
+        {
+          "url": "https://patriotla.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | The Patriot KEIB AM 1150",
+          "domain": "patriotla.iheart.com",
+          "seendate": "20260610T144500Z"
+        },
+        {
+          "url": "https://jetradio1400.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | Jet Radio 1400",
+          "domain": "jetradio1400.iheart.com",
+          "seendate": "20260610T131500Z"
+        },
+        {
+          "url": "https://newsradio967.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | News Radio 96 . 7",
+          "domain": "newsradio967.iheart.com",
+          "seendate": "20260610T170000Z"
+        },
+        {
+          "url": "https://newsradiowkcy.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio WKCY",
+          "domain": "newsradiowkcy.iheart.com",
+          "seendate": "20260610T170000Z"
+        },
+        {
+          "url": "https://powertalk1360.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | PowerTalk 1360 KFIV",
+          "domain": "powertalk1360.iheart.com",
+          "seendate": "20260610T124500Z"
+        },
+        {
+          "url": "https://newstalk1090.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | News Talk 1090 WKBZ - AM",
+          "domain": "newstalk1090.iheart.com",
+          "seendate": "20260610T131500Z"
+        },
+        {
+          "url": "https://1061fmtalk.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "1061fmtalk.iheart.com",
+          "seendate": "20260610T154500Z"
+        },
+        {
+          "url": "https://koacolorado.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | KOA 850 AM & 94 . 1 FM",
+          "domain": "koacolorado.iheart.com",
+          "seendate": "20260610T161500Z"
+        },
+        {
+          "url": "https://wmmbam.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "wmmbam.iheart.com",
+          "seendate": "20260610T161500Z"
+        },
+        {
+          "url": "https://590kqnt.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "590kqnt.iheart.com",
+          "seendate": "20260610T153000Z"
+        },
+        {
+          "url": "https://1440wgig.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "1440wgig.iheart.com",
+          "seendate": "20260610T153000Z"
+        },
+        {
+          "url": "https://1360kktx.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio 1360 KKTX",
+          "domain": "1360kktx.iheart.com",
+          "seendate": "20260610T164500Z"
+        },
+        {
+          "url": "https://wiod.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio WIOD",
+          "domain": "wiod.iheart.com",
+          "seendate": "20260610T131500Z"
+        },
+        {
+          "url": "https://newstalk1130.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | News / Talk 1130 WISN",
+          "domain": "newstalk1130.iheart.com",
+          "seendate": "20260610T133000Z"
+        },
+        {
+          "url": "https://kfab.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio 1110 KFAB",
+          "domain": "kfab.iheart.com",
+          "seendate": "20260610T150000Z"
+        },
+        {
+          "url": "https://whp580.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  ",
+          "domain": "whp580.iheart.com",
+          "seendate": "20260610T131500Z"
+        },
+        {
+          "url": "https://woodradio.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | Newsradio WOOD 1300 and 106 . 9 FM",
+          "domain": "woodradio.iheart.com",
+          "seendate": "20260610T134500Z"
+        },
+        {
+          "url": "https://wspd.iheart.com/content/2026-06-10-trump-says-iran-will-pay-the-price/",
+          "title": "Trump Says Iran Will  Pay The Price  | NewsRadio 1370 AM & 92 . 9 FM WSPD",
+          "domain": "wspd.iheart.com",
+          "seendate": "20260610T144500Z"
+        },
+        {
+          "url": "https://www.albawaba.com/news/explosions-heard-over-jerusalem-israel-1629476",
+          "title": "Explosions heard over Jerusalem as Israel strikes Iran",
+          "domain": "albawaba.com",
+          "seendate": "20260608T090000Z"
+        },
+        {
+          "url": "https://www.bostonherald.com/2026/06/10/us-strikes-iran-helicopter-crash/",
+          "title": "US strikes Iran after blaming Tehran for helicopter crash",
+          "domain": "bostonherald.com",
+          "seendate": "20260610T113000Z"
+        },
+        {
+          "url": "https://www.citizensvoice.com/2026/06/10/us-strikes-iran-helicopter-crash/",
+          "title": "US strikes Iran after blaming Tehran for helicopter crash",
+          "domain": "citizensvoice.com",
+          "seendate": "20260610T124500Z"
+        },
+        {
+          "url": "https://hotnews.ro/consilierul-militar-al-lui-khamenei-conditie-pentru-sua-daca-trump-vrea-un-acord-acesta-este-testul-2266108",
+          "title": "Consilierul militar al lui Khamenei , condiție pentru SUA : „ Dacă Trump vrea un acord , acesta este testul  ",
+          "domain": "hotnews.ro",
+          "seendate": "20260606T084500Z"
+        },
+        {
+          "url": "https://www.sun-sentinel.com/2026/06/10/us-strikes-iran-helicopter-crash/",
+          "title": "US strikes Iran after blaming Tehran for helicopter crash",
+          "domain": "sun-sentinel.com",
+          "seendate": "20260610T154500Z"
+        },
+        {
+          "url": "https://www.pressdemocrat.com/2026/06/10/us-strikes-iran-helicopter-crash/",
+          "title": "US strikes Iran after blaming Tehran for helicopter crash",
+          "domain": "pressdemocrat.com",
+          "seendate": "20260610T114500Z"
+        },
+        {
+          "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/brent-petrolun-varili-95-dolardan-islem-goruyor-7599885",
+          "title": "Brent petrolün varili 95 dolardan işlem görüyor",
+          "domain": "uzmanpara.milliyet.com.tr",
+          "seendate": "20260605T084500Z"
+        },
+        {
+          "url": "https://www.trthaber.com/haber/dunya/brent-petrolun-varili-9520-dolardan-islem-goruyor-947237.html",
+          "title": "Brent petrolün varili 95 , 20 dolardan işlem görüyor",
+          "domain": "trthaber.com",
+          "seendate": "20260605T084500Z"
+        },
+        {
+          "url": "https://www.pilotonline.com/2026/06/07/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in the first such bombardment during fragile ceasefire",
+          "domain": "pilotonline.com",
+          "seendate": "20260607T200000Z"
+        },
+        {
+          "url": "https://www.reviewjournal.com/news/nation-and-world/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire-3834766/",
+          "title": "Israel says Iran launched missiles at it in the first such bombardment during fragile ceasefire",
+          "domain": "reviewjournal.com",
+          "seendate": "20260607T210000Z"
+        },
+        {
+          "url": "https://www.wxii12.com/article/trump-netanyahu-iran-lebanon-ceasefire-strikes/71491514",
+          "title": "Trump - Netanyahu tension grows as Iran talks stall",
+          "domain": "wxii12.com",
+          "seendate": "20260604T120000Z"
+        },
+        {
+          "url": "https://www.npr.org/2026/06/07/g-s1-126816/israel-iran-missile-ceasefire",
+          "title": "Israeli says it was targeted by Iranian missile despite ceasefire : NPR",
+          "domain": "npr.org",
+          "seendate": "20260607T213000Z"
+        },
+        {
+          "url": "https://www.straitstimes.com/world/middle-east/israel-iran-trade-fire-for-first-time-since-april-ceasefire",
+          "title": "Iran , Israel call off strikes after Trump tells them to  stop shooting  ",
+          "domain": "straitstimes.com",
+          "seendate": "20260608T183000Z"
+        },
+        {
+          "url": "https://www.wtae.com/article/trump-netanyahu-iran-lebanon-ceasefire-strikes/71491514",
+          "title": "Trump - Netanyahu tension grows as Iran talks stall",
+          "domain": "wtae.com",
+          "seendate": "20260604T150000Z"
+        },
+        {
+          "url": "https://www.manilatimes.net/2026/06/05/world/americas-emea/israel-strikes-lebanon-after-truce-announcement/2358993",
+          "title": "Israel strikes Lebanon after truce announcement",
+          "domain": "manilatimes.net",
+          "seendate": "20260604T163000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/arab-world/5281033-araghchi-urges-lebanon-president-save-country-real-foe",
+          "title": "Araghchi Urges Lebanon President to Save Country From  Real Foe  ",
+          "domain": "english.aawsat.com",
+          "seendate": "20260606T154500Z"
+        },
+        {
+          "url": "http://europe.chinadaily.com.cn/a/202606/06/WS6a236b09a310d6866eb4cbe8.html",
+          "title": "Tensions persist amid diplomacy",
+          "domain": "europe.chinadaily.com.cn",
+          "seendate": "20260606T021500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-08/live-updates-898667",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260608T050000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-09/live-updates-898794",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260609T073000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-10/live-updates-898912",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260610T024500Z"
+        },
+        {
+          "url": "https://www.rawstory.com/scott-bessent-2676999868/",
+          "title": "Treasury Secretary Scott Bessent confronted over Iran war during hearing",
+          "domain": "rawstory.com",
+          "seendate": "20260605T023000Z"
+        },
+        {
+          "url": "https://www.bournemouthecho.co.uk/news/national/26173285.israel-strikes-beiruts-southern-suburbs-days-us-supported-ceasefire-deal/",
+          "title": "Israel strikes Beirut southern suburbs days after US - supported ceasefire deal",
+          "domain": "bournemouthecho.co.uk",
+          "seendate": "20260607T190000Z"
+        },
+        {
+          "url": "https://www.breakingnews.ie/world/israel-says-iran-launched-missiles-at-it-in-first-bombardment-since-ceasefire-1910413.html",
+          "title": "Israel says Iran launched missiles at it in first bombardment since ceasefire",
+          "domain": "breakingnews.ie",
+          "seendate": "20260607T213000Z"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/news/world/4595133/ayatollah-iran-defeated-us-trump-rubio-active/",
+          "title": "Ayatollah says Iran has  defeated  US as Trump , Rubio affirm he is  involved  ",
+          "domain": "washingtonexaminer.com",
+          "seendate": "20260604T180000Z"
+        },
+        {
+          "url": "https://www.digi24.ro/stiri/externe/apelul-premierului-libanez-catre-iran-aveti-mila-nu-ne-mai-tratati-ca-mijloc-de-presiune-in-negocierile-cu-sua-3802827",
+          "title": "Apelul premierului libanez către Iran : „ Aveți milă ! Nu ne mai tratați ca mijloc de presiune în negocierile cu SUA  ",
+          "domain": "digi24.ro",
+          "seendate": "20260605T214500Z"
+        },
+        {
+          "url": "https://www.thetelegraphandargus.co.uk/news/national/26173285.israel-strikes-beiruts-southern-suburbs-days-us-supported-ceasefire-deal/",
+          "title": "Israel strikes Beirut southern suburbs days after US - supported ceasefire deal",
+          "domain": "thetelegraphandargus.co.uk",
+          "seendate": "20260607T171500Z"
+        },
+        {
+          "url": "https://www.theargus.co.uk/news/national/26173285.israel-strikes-beiruts-southern-suburbs-days-us-supported-ceasefire-deal/",
+          "title": "Israel strikes Beirut southern suburbs days after US - supported ceasefire deal",
+          "domain": "theargus.co.uk",
+          "seendate": "20260607T200000Z"
+        },
+        {
+          "url": "https://www.haberler.com/ekonomi/brent-petrol-95-dolarin-uzerinde-orta-dogu-gerilimi-fiyatlari-destekliyor-19913238-haberi/",
+          "title": "Brent petrolün varili 95 , 20 dolardan işlem görüyor",
+          "domain": "haberler.com",
+          "seendate": "20260605T071500Z"
+        },
+        {
+          "url": "https://www.echo-news.co.uk/news/national/26173285.israel-strikes-beiruts-southern-suburbs-days-us-supported-ceasefire-deal/",
+          "title": "Israel strikes Beirut southern suburbs days after US - supported ceasefire deal",
+          "domain": "echo-news.co.uk",
+          "seendate": "20260607T171500Z"
+        },
+        {
+          "url": "https://kaieteurnewsonline.com/2026/06/04/trump-acknowledges-calling-netanyahu-crazy-and-says-israel-is-complicating-peace-talks-with-iran/",
+          "title": "Trump acknowledges calling Netanyahu  crazy  and says Israel is complicating peace talks with Iran",
+          "domain": "kaieteurnewsonline.com",
+          "seendate": "20260604T070000Z"
+        },
+        {
+          "url": "https://www.wlwt.com/article/trump-netanyahu-iran-lebanon-ceasefire-strikes/71491514",
+          "title": "Trump - Netanyahu tension grows as Iran talks stall",
+          "domain": "wlwt.com",
+          "seendate": "20260604T141500Z"
+        },
+        {
+          "url": "https://www.smh.com.au/world/middle-east/israel-says-iran-launched-missiles-at-it-in-first-such-attack-since-april-ceasefire-20260608-p604og.html",
+          "title": "Iran - Israel conflict : Missiles launched at northern Israel following strikes on Beirut",
+          "domain": "smh.com.au",
+          "seendate": "20260607T201500Z"
+        },
+        {
+          "url": "https://www.theage.com.au/world/middle-east/israel-says-iran-launched-missiles-at-it-in-first-such-attack-since-april-ceasefire-20260608-p604og.html",
+          "title": "Iran - Israel conflict : Missiles launched at northern Israel following strikes on Beirut",
+          "domain": "theage.com.au",
+          "seendate": "20260607T201500Z"
+        },
+        {
+          "url": "https://www.lancashiretelegraph.co.uk/news/national/26173285.israel-strikes-beiruts-southern-suburbs-days-us-supported-ceasefire-deal/",
+          "title": "Israel strikes Beirut southern suburbs days after US - supported ceasefire deal",
+          "domain": "lancashiretelegraph.co.uk",
+          "seendate": "20260607T164500Z"
+        },
+        {
+          "url": "https://www.hispantv.com/noticias/politica/644998/iranies-conmemoran-aniversario-imam-jomeini",
+          "title": "Iraníes conmemoran 37 . º aniversario del fallecimiento del Imam Jomeini",
+          "domain": "hispantv.com",
+          "seendate": "20260604T111500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/hezbollah-rejection-clouds-lebanon-ceasefire-and-prospects-for-ending-iran-war/articleshow/131521230.cms",
+          "title": "Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260605T053000Z"
+        },
+        {
+          "url": "https://www.dailypress.com/2026/06/10/us-strikes-iran-helicopter-crash/",
+          "title": "US strikes Iran after blaming Tehran for helicopter crash",
+          "domain": "dailypress.com",
+          "seendate": "20260610T144500Z"
+        },
+        {
+          "url": "https://www.dailypress.com/2026/06/07/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in the first such bombardment during fragile ceasefire",
+          "domain": "dailypress.com",
+          "seendate": "20260607T200000Z"
+        },
+        {
+          "url": "https://akhbarelyom.com/news/newdetails/4830386/1/%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%B1%D9%81%D8%B6-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D9%84%D9%84%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%8A%D9%87%D8%AF%D8%AF-%D8%AC%D9%87%D9%88%D8%AF-%D8%A5%D9%86%D9%87",
+          "title": "لبنان : رفض حزب الله للاتفاق يهدد جهود إنهاء الحرب مع إيران",
+          "domain": "akhbarelyom.com",
+          "seendate": "20260604T191500Z"
+        },
+        {
+          "url": "https://www.salisburyjournal.co.uk/news/national/26172942.pakistani-minister-tehran-fresh-bid-restart-iran-us-talks/",
+          "title": "Pakistani minister in Tehran in fresh bid to restart Iran - US talks",
+          "domain": "salisburyjournal.co.uk",
+          "seendate": "20260607T150000Z"
+        },
+        {
+          "url": "https://www.fox13now.com/us-news/iran-war/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire",
+          "title": "Israel says Iran launched missiles at it for the first time since ceasefire",
+          "domain": "fox13now.com",
+          "seendate": "20260607T213000Z"
+        },
+        {
+          "url": "https://www.aol.co.uk/news/iran-launches-missiles-israel-first-211529868.html",
+          "title": "Iran launches missiles at Israel in first bombardment since fragile ceasefire",
+          "domain": "aol.co.uk",
+          "seendate": "20260607T220000Z"
+        },
+        {
+          "url": "https://www.ipswichstar.co.uk/news/national/26173285.israel-strikes-beiruts-southern-suburbs-days-us-supported-ceasefire-deal/",
+          "title": "Israel strikes Beirut southern suburbs days after US - supported ceasefire deal",
+          "domain": "ipswichstar.co.uk",
+          "seendate": "20260607T164500Z"
+        },
+        {
+          "url": "https://www.kmbc.com/article/trump-netanyahu-iran-lebanon-ceasefire-strikes/71491514",
+          "title": "Trump - Netanyahu tension grows as Iran talks stall",
+          "domain": "kmbc.com",
+          "seendate": "20260604T144500Z"
+        },
+        {
+          "url": "https://wtop.com/world/2026/06/israel-strikes-just-south-of-beirut-ahead-of-second-day-of-critical-ceasefire-talks/",
+          "title": "Trump acknowledges calling Netanyahu  crazy  and says Israel is complicating peace talks with Iran",
+          "domain": "wtop.com",
+          "seendate": "20260604T040000Z"
+        },
+        {
+          "url": "https://www.wtvr.com/us-news/iran-war/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire",
+          "title": "Israel says Iran launched missiles at it for the first time since ceasefire",
+          "domain": "wtvr.com",
+          "seendate": "20260608T004500Z"
+        },
+        {
+          "url": "https://haber.mynet.com/iran-ile-israil-arasinda-yeni-savas-sayili-gunleri-kaldi-diyerek-duyurdu-110107296998",
+          "title": "İran ile İsrail arasında yeni savaş ! Tahrandan patlama sesleri :  Sayılı günleri kaldı  diyerek duyurdu",
+          "domain": "haber.mynet.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "https://www.houstonpublicmedia.org/npr/2026/06/07/g-s1-126816/israel-says-iran-launched-a-missile-at-it-in-a-first-during-fragile-ceasefire/",
+          "title": "Israel says Iran launched a missile at it , in a first during fragile ceasefire",
+          "domain": "houstonpublicmedia.org",
+          "seendate": "20260608T010000Z"
+        },
+        {
+          "url": "https://arynews.tv/iran-says-frozen-funds-key-to-progress-in-us-talks",
+          "title": "Iran says frozen funds key to progress in US talks",
+          "domain": "arynews.tv",
+          "seendate": "20260606T110000Z"
+        },
+        {
+          "url": "https://www.albiladpress.com/news/2026/6444/arab-and-world/1002558.html",
+          "title": "جريدة البلاد | بسبب عدم ظهوره .. مجتبى خامنئي مطلوب في شوارع إيران",
+          "domain": "albiladpress.com",
+          "seendate": "20260605T204500Z"
+        },
+        {
+          "url": "https://abc7chicago.com/post/israel-says-iran-launched-missiles-first-bombardment-during-fragile-ceasefire-took-effect-april/19252829/",
+          "title": "Israel says Iran launched missiles at it in the first such bombardment since fragile ceasefire took effect in April",
+          "domain": "abc7chicago.com",
+          "seendate": "20260607T201500Z"
+        },
+        {
+          "url": "https://arynews.tv/lebanon-israel-ceasefire-deal-raises-new-hopes-for-us-iran-talks",
+          "title": "Lebanon - Israel ceasefire deal raises new hopes for US - Iran talks",
+          "domain": "arynews.tv",
+          "seendate": "20260604T151500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/yokra14795438",
+          "title": "אידיאולוגיה של חורבן",
+          "domain": "ynet.co.il",
+          "seendate": "20260609T024500Z"
+        },
+        {
+          "url": "https://panow.com/2026/06/03/israel-lebanon-agree-to-renew-fragile-ceasefire-and-create-lebanese-security-zones/",
+          "title": "Trump acknowledges calling Netanyahu  crazy  and says Israel is complicating peace talks with Iran",
+          "domain": "panow.com",
+          "seendate": "20260604T041500Z"
+        },
+        {
+          "url": "https://www.ibtimes.com/iran-fires-missiles-israel-largest-escalation-since-april-ceasefire-3803799",
+          "title": "Iran Fires Missiles At Israel In Largest Escalation Since April Ceasefire",
+          "domain": "ibtimes.com",
+          "seendate": "20260607T203000Z"
+        },
+        {
+          "url": "https://sarabic.ae/20260604/%d9%85%d8%ac%d8%aa%d8%a8%d9%89-%d8%ae%d8%a7%d9%85%d9%86%d8%a6%d9%8a-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d9%84%d9%86-%d8%aa%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%b6%d8%ba%d9%88%d8%b7-1114040931.html",
+          "title": "مجتبى خامنئي : إيران لن تتراجع أمام الضغوط",
+          "domain": "sarabic.ae",
+          "seendate": "20260604T100000Z"
+        },
+        {
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/06/06/iran-says-frozen-funds-key-to-progress-in-us-talks",
+          "title": "Iran says frozen funds key to progress in US talks",
+          "domain": "freemalaysiatoday.com",
+          "seendate": "20260606T124500Z"
+        },
+        {
+          "url": "https://ktrh.iheart.com/featured/houston-texas-news/content/2026-06-06-us-forces-shoot-down-iranian-attack-over-the-strait-of-hormuz/",
+          "title": "US Forces Shoot Down Iranian Attack Over the Strait of Hormuz | NewsRadio 740 KTRH",
+          "domain": "ktrh.iheart.com",
+          "seendate": "20260606T153000Z"
+        },
+        {
+          "url": "https://www.milliyet.com.tr/dunya/live-son-dakika-savas-yeniden-basladi-tansiyon-yukseliyor-irandan-israile-fuze-yagmuru-tel-avivden-flas-aciklama-buyuk-saldiri-duzenledik-7601335",
+          "title": "ABD - İsrail - İran savaşı bitti derken yeni saldırılar başladı ! İrandan İsraile füze yağmuru ... ",
+          "domain": "milliyet.com.tr",
+          "seendate": "20260608T081500Z"
+        },
+        {
+          "url": "https://www.wcpo.com/us-news/iran-war/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire",
+          "title": "Israel says Iran launched missiles at it for the first time since ceasefire",
+          "domain": "wcpo.com",
+          "seendate": "20260607T210000Z"
+        },
+        {
+          "url": "https://www.ipswichstar.co.uk/news/national/26172942.pakistani-minister-tehran-fresh-bid-restart-iran-us-talks/",
+          "title": "Pakistani minister in Tehran in fresh bid to restart Iran - US talks",
+          "domain": "ipswichstar.co.uk",
+          "seendate": "20260607T114500Z"
+        },
+        {
+          "url": "https://abc7.com/post/israel-says-iran-launched-missiles-first-bombardment-during-fragile-ceasefire-took-effect-april/19252829/",
+          "title": "Israel says Iran launched missiles at it in the first such bombardment since fragile ceasefire took effect in April",
+          "domain": "abc7.com",
+          "seendate": "20260607T213000Z"
+        },
+        {
+          "url": "https://www.kshb.com/us-news/iran-war/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire",
+          "title": "Israel says Iran launched missiles at it for the first time since ceasefire",
+          "domain": "kshb.com",
+          "seendate": "20260607T224500Z"
+        },
+        {
+          "url": "https://www.wtkr.com/us-news/iran-war/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire",
+          "title": "Israel says Iran launched missiles at it for the first time since ceasefire",
+          "domain": "wtkr.com",
+          "seendate": "20260608T004500Z"
+        },
+        {
+          "url": "https://www.theboltonnews.co.uk/news/national/26172942.pakistani-minister-tehran-fresh-bid-restart-iran-us-talks/",
+          "title": "Pakistani minister in Tehran in fresh bid to restart Iran - US talks",
+          "domain": "theboltonnews.co.uk",
+          "seendate": "20260607T143000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087351465-trump-says-iran-deal-close-as-talks-show-progress",
+          "title": "Trump says Iran nuclear deal could come this weekend",
+          "domain": "samaa.tv",
+          "seendate": "20260604T074500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/06/lebanon-ceasefire-raises-hopes-progress-iran-deal",
+          "title": "Lebanon ceasefire raises hopes of progress for Iran deal",
+          "domain": "al-monitor.com",
+          "seendate": "20260604T150000Z"
+        },
+        {
+          "url": "https://news.walla.co.il/item/3844178",
+          "title": "  המשוואה שאיראן וחיזבאללה מנסות לכפות עלינו - לא תקרה  ",
+          "domain": "news.walla.co.il",
+          "seendate": "20260608T164500Z"
+        }
+      ]
     },
     {
       "id": "trump_china",
@@ -73,45 +1578,1528 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://tribune.com.pk/story/2612025/israeli-airstrike-hits-iranian-petrochemical-facility-says-official",
+        "https://www.yahoo.com/news/world/live/iran-war-live-updates-israel-launches-major-strike-hours-after-trump-tells-netanyahu-not-to-retaliate-071953604.html",
+        "https://nypost.com/2026/06/07/world-news/israel-says-iran-launched-missiles-at-it-in-first-attack-since-cease-fire-began-in-april/"
+      ],
+      "articles": [
+        {
+          "url": "https://tribune.com.pk/story/2612025/israeli-airstrike-hits-iranian-petrochemical-facility-says-official",
+          "title": "Israeli airstrike hits Iranian petrochemical facility , says official",
+          "domain": "tribune.com.pk",
+          "seendate": "20260608T090000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/live/iran-war-live-updates-israel-launches-major-strike-hours-after-trump-tells-netanyahu-not-to-retaliate-071953604.html",
+          "title": "Iran war live updates : Israel launches major strike hours after Trump tells Netanyahu not to retaliate",
+          "domain": "yahoo.com",
+          "seendate": "20260608T081500Z"
+        },
+        {
+          "url": "https://nypost.com/2026/06/07/world-news/israel-says-iran-launched-missiles-at-it-in-first-attack-since-cease-fire-began-in-april/",
+          "title": "Israel says Iran launched missiles at it in first attack since cease - fire began in April",
+          "domain": "nypost.com",
+          "seendate": "20260607T201500Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20260608-israeli-prime-minister-vows-much-harsher-response-to-any-future-iranian-attack/",
+          "title": "Israeli prime minister vows  much harsher  response to any future Iranian attack – Middle East Monitor",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20260608T203000Z"
+        },
+        {
+          "url": "https://www.newsx.com/world/israel-strikes-iran-israel-war-news-missile-attack-from-tehran-has-middle-east-war-restarted-airspace-closed-231598/",
+          "title": "Israel Strikes Iran After Missile Attack From Tehran : Has Middle East War Restarted ? ",
+          "domain": "newsx.com",
+          "seendate": "20260608T053000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087351681-israel-halts-iran-strikes-at-trump-s-request-report",
+          "title": "Israel halts Iran strikes at Trump request : Report",
+          "domain": "samaa.tv",
+          "seendate": "20260608T173000Z"
+        },
+        {
+          "url": "https://www.prokerala.com/news/articles/a1772733.html",
+          "title": "Israel intercepts missile from Yemen",
+          "domain": "prokerala.com",
+          "seendate": "20260608T080000Z"
+        },
+        {
+          "url": "https://newpost.gr/eidiseis/mesi-anatoli-klimakosi-meta-tin-israilini-epidromi-sti-viryto-to-iran-apeilei-me-odyniri-apantisi/",
+          "title": "Μέση Ανατολή : Κλιμάκωση μετά την ισραηλινή επιδρομή στη Βηρυτό – Το Ιράν χτυπάει με πυραύλους το Ισράηλ , συναγερμός στη CENTCOM",
+          "domain": "newpost.gr",
+          "seendate": "20260607T224500Z"
+        },
+        {
+          "url": "https://www.newsbomb.gr/kosmos/story/1741103/to-iran-epitithetai-me-pyraylous-sto-israil",
+          "title": "Το Ιράν επιτίθεται με πυραύλους στο Ισραήλ - Σειρήνες ηχούν στα βόρεια της χώρας",
+          "domain": "newsbomb.gr",
+          "seendate": "20260607T200000Z"
+        },
+        {
+          "url": "https://www.bursahakimiyet.com.tr/dunya/cin-den-abd-israil-iran-catismalarinda-diplomatik-cozum-cagrisi-1646165",
+          "title": "inden ABD - İsrail - İran çatışmalarında diplomatik züm çağrısı",
+          "domain": "bursahakimiyet.com.tr",
+          "seendate": "20260609T180000Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/97/katarreoun-oi-isorropies-sti-mesi-anatoli-to-israil-aporriptei-tous-orous-tou-iran-kai-spaei-oristika-tin-ekecheiria.htm",
+          "title": "Καταρρέουν οι ισορροπίες στη Μέση Ανατολή : Το Ισραήλ απορρίπτει τους όρους του Ιράν και σπάει οριστικά την εκεχειρία",
+          "domain": "inewsgr.com",
+          "seendate": "20260608T171500Z"
+        },
+        {
+          "url": "https://english.wafa.ps/Pages/Details/171338",
+          "title": "Israel and Iran exchange strikes as military confrontation resumes",
+          "domain": "english.wafa.ps",
+          "seendate": "20260608T084500Z"
+        },
+        {
+          "url": "https://www.haberler.com/politika/cin-den-orta-dogu-da-tansiyonun-dusurulmesi-cagrisi-19930062-haberi/",
+          "title": "inden ABD - İsrail - İran çatışmalarında diplomatik züm çağrısı",
+          "domain": "haberler.com",
+          "seendate": "20260609T161500Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/article-898676",
+          "title": "Yemen Iran - backed Houthis ban Israeli ships from Red Sea",
+          "domain": "jpost.com",
+          "seendate": "20260608T080000Z"
+        },
+        {
+          "url": "https://english.ahram.org.eg/News/570331.aspx",
+          "title": "Iran launches ballistic missiles at Israel after Beirut strike - Region - World",
+          "domain": "english.ahram.org.eg",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://www.dailynews.com/2026/06/07/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in the first such bombardment during fragile ceasefire",
+          "domain": "dailynews.com",
+          "seendate": "20260608T010000Z"
+        },
+        {
+          "url": "https://www.haaretz.com/israel-news/2026-06-08/ty-article-timeline/third-war-or-just-another-rodeo-how-israel-and-iran-ended-up-here-again/0000019e-a65b-df19-a59e-ff7bb86d0000",
+          "title": "Third War or Just Another Rodeo ? How Israel and Iran Ended Up Here Again - Israel News",
+          "domain": "haaretz.com",
+          "seendate": "20260608T194500Z"
+        },
+        {
+          "url": "https://www.express.co.uk/news/world/2214447/irans-response-beirut-attack-painful-MP-warning",
+          "title": "Iran response to Beirut attack will be  painful , warns Iranian MP",
+          "domain": "express.co.uk",
+          "seendate": "20260607T171500Z"
+        },
+        {
+          "url": "https://www.mersinhaber.com/haber-cin-disisleri-bakanligi-abd-israil-iran-catismalarinda-diplomatik-cozum-onerdi/664486",
+          "title": "in Dışişleri Bakanlığı , ABD - İsrail - İran çatışmalarında diplomatik züm önerdi . ",
+          "domain": "mersinhaber.com",
+          "seendate": "20260609T161500Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/06/iran-260609-presstv06.htm",
+          "title": "June 8 : Iran suspends  Operation Nasr  after  painful response  to Zionist regime over Lebanon aggression",
+          "domain": "globalsecurity.org",
+          "seendate": "20260610T120000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/watch-missiles-rain-across-israels-night-sky-as-iran-launches-fresh-attacks-after-two-months/articleshow/131576305.cms",
+          "title": "Watch : Missiles rain across Israel night sky as Iran launches fresh attacks after two months",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260608T041500Z"
+        },
+        {
+          "url": "https://segye.com:443/newsView/20260608510071",
+          "title": "이스라엘 - 이란 ,  보복에 재보복  공습 계속 … 美는 선긋기",
+          "domain": "segye.com",
+          "seendate": "20260608T063000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/israel-and-iran-must-immediately-stop-shooting-says-trump-as-mideast-boils-again/articleshow/131584545.cms",
+          "title": "Israel and Iran must immediately stop  shooting , says Trump as Mideast boils again",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260608T101500Z"
+        },
+        {
+          "url": "https://www.newsx.com/world/iran-attacks-saudi-arabia-with-missiles-drones-explosions-heard-near-prince-sultan-air-base-alert-231588/",
+          "title": "Iran Attacks Saudi Arabia With Missiles , Drones ? Explosions Heard Near US Base",
+          "domain": "newsx.com",
+          "seendate": "20260608T053000Z"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2026-06-09/iran-and-israel-cease-fighting/106774714",
+          "title": "Iran and Israel cease fighting but warn future attacks will trigger retaliation",
+          "domain": "abc.net.au",
+          "seendate": "20260608T183000Z"
+        },
+        {
+          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003241260&PAGE_CD=N0002&CMPT_CD=M0112",
+          "title": "이스라엘 , 트럼프 무시하고 이란에 보복 공습",
+          "domain": "ohmynews.com",
+          "seendate": "20260608T030000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/syuxgln11fg",
+          "title": "Iran threatens regional energy targets as explosions rock Tehran",
+          "domain": "ynetnews.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/article-898676",
+          "title": "Yemen Iran - backed Houthis ban Israeli ships from Red Sea",
+          "domain": "jpost.com",
+          "seendate": "20260608T090000Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.in/israeli-missiles-hit-iran-retaliatory-strike-first-such-attack-since-april-truce-iran-fires-902741",
+          "title": "Israeli missiles hit Iran in retaliatory strike , first such attack since April truce ; Iran fires missiles at Israel after Beirut attack  crossed all red lines  ",
+          "domain": "ibtimes.co.in",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.in/israeli-missiles-hit-iran-retaliatory-strike-first-since-april-truce-iran-says-beirut-attack-902740",
+          "title": "Israeli missiles hit Iran in retaliatory strike , first such attack since April truce ; Iran fires missiles at Israel after Beirut attack  crossed all red lines  ",
+          "domain": "ibtimes.co.in",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/hkqe5114wge",
+          "title": "Trump :  Israel and Iran must immediately stop shooting  ",
+          "domain": "ynetnews.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/06/lebanon-says-israeli-strikes-south-kill-14-attacks-persist-despite-iranian-threat",
+          "title": "Lebanon says Israeli strikes on south kill 14 as attacks persist despite Iranian threat",
+          "domain": "al-monitor.com",
+          "seendate": "20260608T214500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/trump-claims-israel-iran-looking-to-do-immediate-ceasefire-says-final-peace-talks-underway/articleshow/131586001.cms",
+          "title": "Trump claims Israel , Iran  looking to do immediate ceasefire , says final peace talks underway",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260608T111500Z"
+        },
+        {
+          "url": "https://www.voakorea.com/a/israel-says-it-struck-military-targets-in-central-and-western-iran-in-retaliation-for-iranian-missile-attack-on-israeli-population-centers-/8158483.html",
+          "title": "이스라엘  이란 중부 · 서부 군사 목표물 타격 … 이란 미사일 공격에 대한 보복  ",
+          "domain": "voakorea.com",
+          "seendate": "20260608T070000Z"
+        },
+        {
+          "url": "https://www.la-croix.com/international/guerre-au-moyen-orient-israel-et-l-iran-reprennent-leurs-attaques-reciproques-la-treve-menacee-20260608",
+          "title": "Guerre au Moyen - Orient : Israël et lIran reprennent les hostilités ; lUE dénonce  lescalade ",
+          "domain": "la-croix.com",
+          "seendate": "20260608T084500Z"
+        },
+        {
+          "url": "https://pakobserver.net/oil-prices-climb-above-96-per-barrel-as-me-tensions-intensify/",
+          "title": "Oil prices climb above $96 per barrel as ME tensions intensify",
+          "domain": "pakobserver.net",
+          "seendate": "20260608T063000Z"
+        },
+        {
+          "url": "https://www.khaama.com/israel-launches-strikes-on-tehran-isfahan/",
+          "title": "Israel launches strikes on Tehran , Isfahan",
+          "domain": "khaama.com",
+          "seendate": "20260608T064500Z"
+        },
+        {
+          "url": "https://jowhar.com/iran-warns-israel-after-beirut-attack-signals-possible-retaliatory-strike/",
+          "title": "Iran Warns Israel After Beirut Attack , Signals Possible Retaliatory Strike",
+          "domain": "jowhar.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087351661-trump-urges-israel-not-to-retaliate-iran-strikes",
+          "title": "Trump urges Israel not to retaliate Iran strikes",
+          "domain": "samaa.tv",
+          "seendate": "20260608T123000Z"
+        },
+        {
+          "url": "https://www.albawaba.com/news/irgc-chief-ahmad-vahidi-reportedly-1629545",
+          "title": "IRGC chief Ahmad Vahidi reportedly killed in Israeli strike on Tehran",
+          "domain": "albawaba.com",
+          "seendate": "20260608T154500Z"
+        },
+        {
+          "url": "https://www.timeturk.com/irandan-israile-fuzeli-misilleme-tel-avivde-sirenler-caliyor",
+          "title": "İrandan İsraile füzeli misilleme : Tel Avivde sirenler çalıyor",
+          "domain": "timeturk.com",
+          "seendate": "20260607T224500Z"
+        },
+        {
+          "url": "https://www.thedailybeast.com/trump-humiliated-as-ceasefire-implodes-amid-new-escalation/",
+          "title": "Trump Humiliated as Ceasefire Implodes Amid New Escalation",
+          "domain": "thedailybeast.com",
+          "seendate": "20260608T044500Z"
+        },
+        {
+          "url": "https://www.livemint.com/news/world/iran-attacks-israel-after-beirut-strike-threatening-breakdown-of-april-ceasefire-11780865295583.html",
+          "title": "Iran attacks Israel after Beirut strike , threatening breakdown of April ceasefire",
+          "domain": "livemint.com",
+          "seendate": "20260607T220000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/arab-world/5281757-lebanon-reports-israeli-strikes-hezbollah-claims-attacks-against-troops-south",
+          "title": "Lebanon Reports Israeli Strikes as Hezbollah Claims Attacks Against Troops in South",
+          "domain": "english.aawsat.com",
+          "seendate": "20260608T190000Z"
+        },
+        {
+          "url": "http://www.econotimes.com/Trump-Urges-Restraint-as-Israel-Iran-Tensions-Threaten-Fragile-Peace-Talks-1743713",
+          "title": "Trump Urges Restraint as Israel - Iran Tensions Threaten Fragile Peace Talks",
+          "domain": "econotimes.com",
+          "seendate": "20260608T080000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/6/8/iran-and-israel-bomb-each-other-is-the-ceasefire-over",
+          "title": "Iran and Israel bomb each other : Is the ceasefire over ? ",
+          "domain": "aljazeera.com",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/06/lebanon-reports-israeli-strikes-hezbollah-claims-attacks-against-troops-south",
+          "title": "Lebanon reports Israeli strikes as Hezbollah claims attacks against troops in south",
+          "domain": "al-monitor.com",
+          "seendate": "20260608T160000Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/trump-confirms-israel-iran-ceasefire-1801518",
+          "title": "Trump Says Both Sides Want Ceasefire as Iran Announces End of Military Operation Against Israel",
+          "domain": "ibtimes.co.uk",
+          "seendate": "20260608T191500Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202606081236159027",
+          "title": "이란 - 이스라엘 , 트럼프 만류에도 미사일 난타전 , 휴전 깨졌나 ? ",
+          "domain": "fnnews.com",
+          "seendate": "20260608T064500Z"
+        },
+        {
+          "url": "https://www.wfmj.com/news/consumer/the-latest-israel-and-iran-trade-fire-in-most-serious-confrontation-since-april-truce/article_7031de97-fbc3-5f71-baeb-accae72e4f06.html",
+          "title": "The Latest : Israel and Iran trade fire in most serious confrontation since April truce",
+          "domain": "wfmj.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://www.e15.cz/zahranicni/raketova-odveta-za-bejrut-iran-znovu-otevrel-frontu-proti-izraeli-krehke-primeri-se-hrouti-1433399",
+          "title": "Raketová odveta za Bejrút . Írán znovu otevřel frontu proti Izraeli , křehké příměří se hroutí",
+          "domain": "e15.cz",
+          "seendate": "20260607T211500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2612225/fact-check-recent-iranian-attacks-on-israel-did-not-destroy-2-airbases-5-military-camps",
+          "title": "Fact check : Recent Iranian attacks on Israel did not destroy 2 airbases , 5 military camps",
+          "domain": "tribune.com.pk",
+          "seendate": "20260609T133000Z"
+        },
+        {
+          "url": "https://www.munhwa.com:443/article/11593818",
+          "title": " [ 속보 ] 이스라엘 , 이란 공격에  명령 즉시 강력 타격 … 트럼프  말리는 중  ",
+          "domain": "munhwa.com",
+          "seendate": "20260608T030000Z"
+        },
+        {
+          "url": "https://www.bournemouthecho.co.uk/news/national/26173527.israel-strikes-iran-despite-calls-restraint-uk-us/",
+          "title": "Israel strikes Iran despite calls for restraint from united kingdom and US",
+          "domain": "bournemouthecho.co.uk",
+          "seendate": "20260608T044500Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/articles/latest-israel-launches-airstrikes-central-030613370.html",
+          "title": "The Latest : Israel and Iran trade fire in most serious confrontation since April truce",
+          "domain": "yahoo.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://www.thetelegraphandargus.co.uk/news/national/26173527.israel-strikes-iran-despite-calls-restraint-uk-us/",
+          "title": "Israel strikes Iran despite calls for restraint from united kingdom and US",
+          "domain": "thetelegraphandargus.co.uk",
+          "seendate": "20260608T064500Z"
+        },
+        {
+          "url": "https://www.echo-news.co.uk/news/national/26173527.israel-strikes-iran-despite-calls-restraint-uk-us/",
+          "title": "Israel strikes Iran despite calls for restraint from united kingdom and US",
+          "domain": "echo-news.co.uk",
+          "seendate": "20260608T044500Z"
+        },
+        {
+          "url": "https://www.rodiaki.gr/article/548379/pyraylikh-epithesh-toy-iran-sto-israhl-h-prwth-meta-thn-ekexeiria",
+          "title": "Πυραυλική επίθεση του Ιράν στο Ισραήλ , η πρώτη μετά την εκεχειρία",
+          "domain": "rodiaki.gr",
+          "seendate": "20260608T010000Z"
+        },
+        {
+          "url": "https://www.la-croix.com/international/guerre-au-moyen-orient-plusieurs-militaires-dans-une-frappe-israelienne-20260606",
+          "title": "Guerre au Moyen - Orient  : plusieurs militaires libanais tués dans une frappe israélienne",
+          "domain": "la-croix.com",
+          "seendate": "20260606T120000Z"
+        },
+        {
+          "url": "https://www.ipswichstar.co.uk/news/national/26173527.israel-strikes-iran-despite-calls-restraint-uk-us/",
+          "title": "Israel strikes Iran despite calls for restraint from united kingdom and US",
+          "domain": "ipswichstar.co.uk",
+          "seendate": "20260608T063000Z"
+        },
+        {
+          "url": "http://www.koreatimes.com/article/20260607/1616347",
+          "title": "이란 , 이스라엘 겨냥 미사일 공격 …  베이루트 공습에 보복  ",
+          "domain": "koreatimes.com",
+          "seendate": "20260608T014500Z"
+        },
+        {
+          "url": "https://www.eadt.co.uk/news/national/26173527.israel-strikes-iran-despite-calls-restraint-uk-us/",
+          "title": "Israel strikes Iran despite calls for restraint from united kingdom and US",
+          "domain": "eadt.co.uk",
+          "seendate": "20260608T034500Z"
+        },
+        {
+          "url": "https://www.cp24.com/news/world/2026/06/08/israel-says-it-has-struck-iran-after-taking-missile-fire/",
+          "title": "Iran war news : Israel retaliates after Iran attacks",
+          "domain": "cp24.com",
+          "seendate": "20260608T050000Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/c8462-the-latest-israel-launches-airstrikes-on-central-and-western-iran-after-iranian-missiles-fired/",
+          "title": "The Latest : Israel and Iran trade fire in most serious confrontation since April truce",
+          "domain": "wral.com",
+          "seendate": "20260608T074500Z"
+        },
+        {
+          "url": "https://www.thenorthernecho.co.uk/news/national/26173527.israel-strikes-iran-despite-calls-restraint-uk-us/",
+          "title": "Israel strikes Iran despite calls for restraint from united kingdom and US",
+          "domain": "thenorthernecho.co.uk",
+          "seendate": "20260608T053000Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/middle-east/israel-activates-air-defence-systems-to-intercept-incoming-missile-launched-from-yemen20260608090829/",
+          "title": "Israel activates air defence systems to intercept incoming missile launched from Yemen",
+          "domain": "aninews.in",
+          "seendate": "20260608T043000Z"
+        },
+        {
+          "url": "https://www.dw.com/en/middle-east-updates-israel-and-iran-trade-fresh-strikes/live-77452499",
+          "title": "Middle East updates : Israel and Iran trade fresh strikes",
+          "domain": "dw.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://www.smdailyjournal.com/business/the-latest-israel-and-iran-trade-fire-in-most-serious-confrontation-since-april-truce/article_02de4cee-85d1-53ba-af29-66edb83acdea.html",
+          "title": "The Latest : Israel and Iran trade fire in most serious confrontation since April truce",
+          "domain": "smdailyjournal.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://www.sbs.com.au/news/article/iran-and-israel-pledge-to-rein-in-recent-violence-but-lebanon-is-still-caught-in-the-middle/fx01mi7ri",
+          "title": "Iran and Israel pledge to rein in recent violence , but Lebanon is still caught in the middle",
+          "domain": "sbs.com.au",
+          "seendate": "20260608T220000Z"
+        },
+        {
+          "url": "https://www.bucksfreepress.co.uk/news/national/26173527.israel-strikes-iran-despite-calls-restraint-uk-us/",
+          "title": "Israel strikes Iran despite calls for restraint from united kingdom and US",
+          "domain": "bucksfreepress.co.uk",
+          "seendate": "20260608T031500Z"
+        },
+        {
+          "url": "https://www.etoday.co.kr/news/view/2592210",
+          "title": "이란 아파치 격추에 美 공습 응답 … 중동 정세 살얼음판 [ 종합 ] ",
+          "domain": "etoday.co.kr",
+          "seendate": "20260610T061500Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202606081707008779",
+          "title": "이스라엘군  이란 방공망에 대규모 공습 … 복구한 방어체계 파괴  ",
+          "domain": "fnnews.com",
+          "seendate": "20260608T083000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/6/10/iran-war-day-103-us-strikes-after-helicopter-shot-down-tehran-hits-back",
+          "title": "Iran war day 103 : US strikes after helicopter shot down , Tehran hits back",
+          "domain": "aljazeera.com",
+          "seendate": "20260610T083000Z"
+        },
+        {
+          "url": "https://www.dunya.com/dunya/netanyahu-guvenlik-kabinesini-toplayacak-haberi-827737",
+          "title": "Netanyahu güvenlik kabinesini toplayacak",
+          "domain": "dunya.com",
+          "seendate": "20260608T101500Z"
+        },
+        {
+          "url": "https://www.tdg.ch/direct-moyen-orient-armee-israelienne-dit-avoir-frappe-des-cibles-militaires-en-iran-274190239238",
+          "title": "DIRECT . Moyen - Orient : larmée israélienne dit avoir frappé des « cibles militaires » en Iran",
+          "domain": "tdg.ch",
+          "seendate": "20260608T041500Z"
+        },
+        {
+          "url": "https://www.wsls.com/news/world/2026/06/08/the-latest-israel-launches-airstrikes-on-central-and-western-iran-after-iranian-missiles-fired/",
+          "title": "The Latest : Israel and Iran exchange fire as hostilities escalate",
+          "domain": "wsls.com",
+          "seendate": "20260608T063000Z"
+        },
+        {
+          "url": "https://www.laprovence.com/article/france-monde/10845714036917/guerre-au-moyen-orient-le-liban-annonce-plusieurs-morts-apres-une-frappe-israelienne",
+          "title": "Guerre au Moyen - Orient : le Liban annonce plusieurs morts après une frappe israélienne",
+          "domain": "laprovence.com",
+          "seendate": "20260606T084500Z"
+        },
+        {
+          "url": "https://www.cbc.ca/news/world/livestory/iran-june-7-2026-9.7226762",
+          "title": "Iran tells Israel to heed  warning  strikes over Lebanon attacks",
+          "domain": "cbc.ca",
+          "seendate": "20260608T004500Z"
+        },
+        {
+          "url": "https://www.naftemporiki.gr/kosmos/2120846/pyrayliki-epithesi-toy-iran-kata-toy-israil/",
+          "title": "Τριγμοί στην εκεχειρία μετά τα πλήγματα Ιράν και Ισραήλ",
+          "domain": "naftemporiki.gr",
+          "seendate": "20260607T220000Z"
+        },
+        {
+          "url": "https://www.eveningnews24.co.uk/news/national/26173527.israel-strikes-iran-despite-calls-restraint-uk-us/",
+          "title": "Israel strikes Iran despite calls for restraint from united kingdom and US",
+          "domain": "eveningnews24.co.uk",
+          "seendate": "20260608T053000Z"
+        },
+        {
+          "url": "https://www.newsbomb.gr/kosmos/story/1741170/oi-xoythi-epitithentai-sto-israil-apagoreyoun-tin-israilini-naftilia-stin-erythra-thalassa",
+          "title": "Οι Χούθι επιτίθενται στο Ισραήλ , απαγορεύουν την ισραηλινή ναυτιλία στην Ερυθρά Θάλασσα",
+          "domain": "newsbomb.gr",
+          "seendate": "20260608T084500Z"
+        },
+        {
+          "url": "https://www.24heures.ch/direct-moyen-orient-armee-israelienne-dit-avoir-frappe-des-cibles-militaires-en-iran-274190239238",
+          "title": "DIRECT . Moyen - Orient : larmée israélienne dit avoir frappé des « cibles militaires » en Iran",
+          "domain": "24heures.ch",
+          "seendate": "20260608T034500Z"
+        },
+        {
+          "url": "https://internasional.kompas.com/read/2026/06/08/154616670/iran-salahkan-as-israel-langgar-gencatan-senjata-tegaskan-hak-bela",
+          "title": "Iran Salahkan AS - Israel Langgar Gencatan Senjata , Tegaskan Hak Bela Diri",
+          "domain": "internasional.kompas.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-updates-benjamin-netanyahu-donald-trump-mojtaba-khamenei-ceasefire-strait-of-hormuz-middle-east-strait-of-hormuz-war-news/liveblog/131600070.cms",
+          "title": "US - Israel - Iran War News Live Updates : Iran , Israel pause attacks after latest flare - up ; Trump and Netanyahu appear at odds",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260609T041500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/israil-ve-abd-den-iran-a-fuze-atisini-durdurursaniz-saldirmayiz-19925041-haberi/",
+          "title": "  İsrail ve ABD , füze atmaması halinde karşı saldırı yapılmayacağına dair İran  ı bilgilendirdi  iddiası",
+          "domain": "haberler.com",
+          "seendate": "20260608T123000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/428385",
+          "title": "Strategic mastery : Israel measured response to Iranian aggression",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260609T223000Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/trump-israil-ve-iran-atese-son-vermeli-19924321-haberi/",
+          "title": "Trump : İsrail ve İran ateşe son vermeli",
+          "domain": "haberler.com",
+          "seendate": "20260608T101500Z"
+        },
+        {
+          "url": "https://news.webindia123.com/news/Articles/World/20260608/4459740.html",
+          "title": "Iran IRGC says Israel used air - launched ballistic missiles in latest attacks",
+          "domain": "news.webindia123.com",
+          "seendate": "20260608T043000Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/middle-east/irans-irgc-says-israel-used-air-launched-ballistic-missiles-in-latest-attacks20260608081315/",
+          "title": "Iran IRGC says Israel used air - launched ballistic missiles in latest attacks",
+          "domain": "aninews.in",
+          "seendate": "20260608T043000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/israel-iran-flare-tests-trumps-235106999.html",
+          "title": "Israel and Iran flare - up tests Trump grip and could strengthen Tehran negotiating hand",
+          "domain": "yahoo.com",
+          "seendate": "20260609T004500Z"
+        },
+        {
+          "url": "https://www.skai.gr/news/world/antipoina-tou-israil-sto-iran-meta-to-mparaz-pyraylon",
+          "title": "Αντίποινα του Ισραήλ στο Ιράν μετά το μπαράζ πυραύλων",
+          "domain": "skai.gr",
+          "seendate": "20260608T043000Z"
+        },
+        {
+          "url": "https://www.evrensel.net/haber/5987376/netanyahu-guvenlik-kabinesini-topluyor-israil-iranla-gerilimi-masaya-yatiracak",
+          "title": "Netanyahu güvenlik kabinesini topluyor : İsrail , İranla gerilimi masaya yatıracak",
+          "domain": "evrensel.net",
+          "seendate": "20260608T081500Z"
+        },
+        {
+          "url": "https://www.haberturk.com/israil-ve-iran-in-karsilikli-saldirilarinin-ardindan-netanyahu-guvenlik-kabinesini-toplayacak-3890067",
+          "title": "İsrail ve İran  ın karşılıklı saldırılarının ardından Netanyahu güvenlik kabinesini toplayacak",
+          "domain": "haberturk.com",
+          "seendate": "20260608T070000Z"
+        },
+        {
+          "url": "https://www.livemint.com/news/us-news/you-might-soon-be-left-alone-against-iran-trump-s-warning-to-netanyahu-11780949807318.html",
+          "title": "  You might soon be left alone against Iran : Trump warning to Netanyahu",
+          "domain": "livemint.com",
+          "seendate": "20260608T230000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/israil-de-kritik-zirve-netanyahu-guvenlik-kabinesini-topluyor-716930%20class=nav-link%20target=_blank",
+          "title": "İsrailde kritik zirve : Netanyahu güvenlik kabinesini topluyor",
+          "domain": "birgun.net",
+          "seendate": "20260608T074500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/israil-de-kritik-zirve-netanyahu-guvenlik-kabinesini-topluyor-716930%20target=_blank",
+          "title": "İsrailde kritik zirve : Netanyahu güvenlik kabinesini topluyor",
+          "domain": "birgun.net",
+          "seendate": "20260608T074500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/3-uncu-dalga-catismalar-basladi-iran-in-misillemesinin-ardindan-israil-den-yeni-saldiri-716918%20target=_blank%20class=stretched-link",
+          "title": "3  üncü dalga çatışmalar başladı | İran  ın misillemesinin ardından İsrailden yeni saldırı",
+          "domain": "birgun.net",
+          "seendate": "20260608T050000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/3-uncu-dalga-catismalar-basladi-iran-in-misillemesinin-ardindan-israil-den-yeni-saldiri-716918%20target=_blank",
+          "title": "3  üncü dalga çatışmalar başladı | İran  ın misillemesinin ardından İsrailden yeni saldırı",
+          "domain": "birgun.net",
+          "seendate": "20260608T050000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/3-uncu-dalga-catismalar-basladi-iran-in-misillemesinin-ardindan-israil-den-yeni-saldiri-716918%20class=slide-legend-link%20target=_blank",
+          "title": "3  üncü dalga çatışmalar başladı | İran  ın misillemesinin ardından İsrailden yeni saldırı",
+          "domain": "birgun.net",
+          "seendate": "20260608T050000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/3-uncu-dalga-catismalar-basladi-iran-in-misillemesinin-ardindan-israil-den-yeni-saldiri-716918%20class=slide-link%20target=_blank",
+          "title": "3  üncü dalga çatışmalar başladı | İran  ın misillemesinin ardından İsrailden yeni saldırı",
+          "domain": "birgun.net",
+          "seendate": "20260608T050000Z"
+        },
+        {
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Spike-After-Iran-Launches-Missile-Attack-on-Israel.html",
+          "title": "Oil Prices Spike After Iran and Israel Exchange Missile Attacks",
+          "domain": "oilprice.com",
+          "seendate": "20260608T041500Z"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/israeli-strikes-lebanon-army-officers-killed-aoun-flagrant-violation-hezbollah-washington-ceasefire-10727348/",
+          "title": "Israeli strikes kill 9 in south Lebanon , including 3 army officers , days after Washington ceasefire ; Aoun calls it  flagrant violation of sovereignty  ",
+          "domain": "indianexpress.com",
+          "seendate": "20260606T124500Z"
+        },
+        {
+          "url": "https://www.oxfordmail.co.uk/news/national/26173527.israel-strikes-iran-despite-calls-restraint-uk-us/",
+          "title": "Israel strikes Iran despite calls for restraint from united kingdom and US",
+          "domain": "oxfordmail.co.uk",
+          "seendate": "20260608T034500Z"
+        },
+        {
+          "url": "https://saharareporters.com/2026/06/08/israel-launches-fresh-airstrikes-iran-despite-trumps-appeal-restraint",
+          "title": "Israel Launches Fresh Airstrikes On Iran Despite Trump Appeal For Restraint",
+          "domain": "saharareporters.com",
+          "seendate": "20260608T150000Z"
+        },
+        {
+          "url": "https://www.haber7.com/dunya/haber/3633890-netanyahudan-guvenlik-kabinesine-acil-cagri-yeni-saldiri-noktasi-belirlendi",
+          "title": "Netanyahudan güvenlik kabinesine  acil  çağrı ! Yeni saldırı noktası belirlendi",
+          "domain": "haber7.com",
+          "seendate": "20260608T073000Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/182/stis-floges-xana-i-mesi-anatoli-israilina-pligmata-sto-iran-para-tis-ekkliseis-trab--nees-epitheseis-tis-techeranis.htm",
+          "title": "Στις φλόγες ξανά η Μέση Ανατολή : Ισραηλινά πλήγματα στο Ιράν παρά τις εκκλήσεις Τραμπ – Νέες επιθέσεις της Τεχεράνης",
+          "domain": "inewsgr.com",
+          "seendate": "20260608T050000Z"
+        },
+        {
+          "url": "https://www.albawaba.com/news/yemen-bans-maritime-navigation-israel-1629483",
+          "title": "Yemen bans maritime navigation by Israel in the Red Sea",
+          "domain": "albawaba.com",
+          "seendate": "20260608T090000Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/06/iran-260608-rferl06.htm",
+          "title": "Iran , Israel Exchange Strikes As Trump Urges Them To  Stop Shooting  ",
+          "domain": "globalsecurity.org",
+          "seendate": "20260609T133000Z"
+        },
+        {
+          "url": "https://www.channelstv.com/2026/06/08/iran-israel-exchange-fire-in-first-clash-since-truce/",
+          "title": "Iran , Israel Exchange Fire In First Clash Since Truce",
+          "domain": "channelstv.com",
+          "seendate": "20260608T121500Z"
+        },
+        {
+          "url": "https://www.siasat.com/israeli-strikes-kill-nine-in-lebanon-including-three-troops-3484052/",
+          "title": "Israeli strikes kill nine in Lebanon , including three troops",
+          "domain": "siasat.com",
+          "seendate": "20260606T124500Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/us/no-self-respecting-country-would-tolerate-it-israeli-envoy-to-us-defends-strikes-on-iran20260608102206/",
+          "title": "  No self - respecting country would tolerate it : Israeli envoy to US defends strikes on Iran",
+          "domain": "aninews.in",
+          "seendate": "20260608T061500Z"
+        },
+        {
+          "url": "https://www.ensonhaber.com/netanyahu-irandan-gelen-fuzelerin-ardindan-guvenlik-kabinesini-topluyor-h1540414",
+          "title": "Netanyahu , İrandan gelen füzelerin ardından güvenlik kabinesini topluyor",
+          "domain": "ensonhaber.com",
+          "seendate": "20260608T070000Z"
+        },
+        {
+          "url": "https://www.thetimes-tribune.com/2026/06/08/israel-iran-strikes-war/",
+          "title": "Israel and Iran trade strikes , threatening return of full - scale war",
+          "domain": "thetimes-tribune.com",
+          "seendate": "20260608T134500Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-555",
+          "title": "Morning update",
+          "domain": "middleeasteye.net",
+          "seendate": "20260608T084500Z"
+        },
+        {
+          "url": "https://www.sbsun.com/2026/06/07/israel-says-iran-launched-missiles-at-it-in-the-first-such-bombardment-during-fragile-ceasefire/",
+          "title": "Israel says Iran launched missiles at it in the first such bombardment during fragile ceasefire",
+          "domain": "sbsun.com",
+          "seendate": "20260607T224500Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/428335",
+          "title": "The jets were waiting : How the US intervened to halt Israel attack in Iran",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260608T221500Z"
+        },
+        {
+          "url": "http://www.jpost.com/israel-news/defense-news/article-898666",
+          "title": "IDF confirms strikes targets in western , central Iran",
+          "domain": "jpost.com",
+          "seendate": "20260608T050000Z"
+        },
+        {
+          "url": "https://www.jpost.com/israel-news/defense-news/article-898666",
+          "title": "IDF confirms strikes targets in western , central Iran",
+          "domain": "jpost.com",
+          "seendate": "20260608T034500Z"
+        },
+        {
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1262451.html",
+          "title": "  협상 낙관  트럼프 보란 듯 , 치고받은 이란 - 이스라엘 … 휴전 MOU 암울",
+          "domain": "hani.co.kr",
+          "seendate": "20260608T080000Z"
+        },
+        {
+          "url": "https://www.livemint.com/news/world/iran-threatens-response-after-israeli-airstrike-on-hezbollah-stronghold-in-beiruts-dahieh-11780852126677.html",
+          "title": "Iran threatens response after Israeli airstrike on Hezbollah stronghold in Beirut Dahieh",
+          "domain": "livemint.com",
+          "seendate": "20260607T190000Z"
+        },
+        {
+          "url": "https://radiofreesyria.com/israel-launches-20-airstrikes-in-iran-ignoring-trumps-reported-call-for-restraint/",
+          "title": "Israel Launches 20 Airstrikes in Iran , Ignoring Trump Reported Call for Restraint - Radio Free Syria",
+          "domain": "radiofreesyria.com",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/how-hezbollah-missile-launches-from-lebanon-put-the-israel-iran-ceasefire-under-pressure-article-13944033.html",
+          "title": "How Hezbollah missile launches from Lebanon put the Israel - Iran ceasefire under pressure",
+          "domain": "moneycontrol.com",
+          "seendate": "20260608T150000Z"
+        },
+        {
+          "url": "https://news.az/news/is-a-bigger-middle-east-war-coming-explaining-the-iran-israel-escalation",
+          "title": "Is a bigger Middle East war coming ? Explaining the Iran - Israel escalation",
+          "domain": "news.az",
+          "seendate": "20260609T041500Z"
+        },
+        {
+          "url": "https://www.ceskenoviny.cz/zpravy/izrael-celi-raketovym-utokum-ze-strany-iranu-oznamila-armada/2835773",
+          "title": "Izrael čelí raketovým útokům ze strany Íránu , oznámila armáda",
+          "domain": "ceskenoviny.cz",
+          "seendate": "20260607T201500Z"
+        },
+        {
+          "url": "https://www.newsweek.com/iran-missiles-israel-first-strike-since-ceasefire-12042022",
+          "title": "Iran Launches Missiles at Israel in First Strike Since Ceasefire",
+          "domain": "newsweek.com",
+          "seendate": "20260607T224500Z"
+        },
+        {
+          "url": "https://www.thepeterboroughexaminer.com/business/the-latest-israel-launches-airstrikes-on-central-and-western-iran-after-iranian-missiles-fired/article_386c9570-2be5-5ffb-ac73-da0e55f1481d.html",
+          "title": "The Latest : Israel launches airstrikes on central and western Iran after Iranian missiles fired",
+          "domain": "thepeterboroughexaminer.com",
+          "seendate": "20260608T073000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2611749/us-attacks-iranian-sites-after-iran-launches-drones-in-latest-gulf-flare-up",
+          "title": "US attacks Iranian sites after Iran launches drones , in latest Gulf flare - up",
+          "domain": "tribune.com.pk",
+          "seendate": "20260606T151500Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/iran-missile-attacks-on-israel/article71074231.ece",
+          "title": "Israel says Iran launches missiles at it in first such bombardment since ceasefire in April",
+          "domain": "thehindu.com",
+          "seendate": "20260607T210000Z"
+        },
+        {
+          "url": "https://africanmanager.com/liran-attaque-israel-pour-la-premiere-fois-depuis-la-treve-au-moyen-orient/",
+          "title": "LIran attaque Israël pour la première fois depuis la trêve au Moyen - Orient",
+          "domain": "africanmanager.com",
+          "seendate": "20260608T090000Z"
+        },
+        {
+          "url": "https://www.ceskenoviny.cz/zpravy/izrael-zasahl-v-iranu-petrochemicky-komplex-teheran-vyslal-rakety-na-izrael/2835773",
+          "title": "Izrael zasáhl v Íránu petrochemický komplex , Teherán vyslal rakety na Izrael",
+          "domain": "ceskenoviny.cz",
+          "seendate": "20260608T073000Z"
+        },
+        {
+          "url": "https://www.topontiki.gr/2026/06/06/mesi-anatoli-sinagermos-se-bachrein-ke-kouveit-meta-ta-amerikanika-pligmata-sto-iran-piravlikes-epithesis-ke-fovi-genikevmenis-anaflexis/",
+          "title": "Μέση Ανατολή : Συναγερμός σε Μπαχρέιν και Κουβέιτ μετά τα αμερικανικά πλήγματα στο Ιράν – Πυραυλικές επιθέσεις και φόβοι γενικευμένης ανάφλεξης",
+          "domain": "topontiki.gr",
+          "seendate": "20260606T050000Z"
+        },
+        {
+          "url": "https://www.almasryalyoum.com/news/details/4287867",
+          "title": " « إسرائيل بدأت لعبة خطرة ».. إيران ترد على استهداف منشآتها البتروكيماوية",
+          "domain": "almasryalyoum.com",
+          "seendate": "20260608T103000Z"
+        },
+        {
+          "url": "https://www.ceskenoviny.cz/zpravy/iran-oznamil-zastaveni-utoku-proti-izraeli/2835773",
+          "title": "Írán oznámil zastavení útoků proti Izraeli",
+          "domain": "ceskenoviny.cz",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "http://www.jpost.com/opinion/article-898813",
+          "title": "Netanyahu image falters amid Hezbollah , Iran attacks",
+          "domain": "jpost.com",
+          "seendate": "20260609T114500Z"
+        },
+        {
+          "url": "https://www.lopinion.fr/international/en-reaction-a-une-attaque-iranienne-larmee-israelienne-a-frappe-des-cibles-en-iran",
+          "title": "Israël frappe lIran après des tirs de missiles : pourquoi la trêve semble voler en éclats",
+          "domain": "lopinion.fr",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://www.nzherald.co.nz/world/donald-trump-says-us-must-respond-after-iran-downs-apache-helicopter/RV4B62ZJNNC6NENTASE2HNTX4M/",
+          "title": "Trump vows response after Iran shoots down US helicopter",
+          "domain": "nzherald.co.nz",
+          "seendate": "20260609T193000Z"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01643286645480080&mediaCodeNo=257",
+          "title": "트럼프 만류에 이스라엘 · 이란  상호 공격 중단  ",
+          "domain": "edaily.co.kr",
+          "seendate": "20260608T204500Z"
+        },
+        {
+          "url": "https://www.busan.com/view/busan/view.php?code=2026060818020424370",
+          "title": "월드컵 전 합의 원하는 트럼프 , 이란 · 이스라엘 동시 압박",
+          "domain": "busan.com",
+          "seendate": "20260608T103000Z"
+        },
+        {
+          "url": "https://www.lalibre.be/dernieres-depeches/2026/06/08/israel-bombarde-liran-en-riposte-a-une-attaque-inedite-depuis-la-treve-au-moyen-orient-CA6Z7ONRDRFOBO2PGYOX7XIOZQ/",
+          "title": "Israël bombarde lIran en riposte à une attaque inédite depuis la trêve au Moyen - Orient",
+          "domain": "lalibre.be",
+          "seendate": "20260608T043000Z"
+        },
+        {
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/06/08/israel-bombarde-liran-en-riposte-a-une-attaque-inedite-depuis-la-treve-au-moyen-orient-CA6Z7ONRDRFOBO2PGYOX7XIOZQ/",
+          "title": "Israël bombarde lIran en riposte à une attaque inédite depuis la trêve au Moyen - Orient",
+          "domain": "dhnet.be",
+          "seendate": "20260608T041500Z"
+        },
+        {
+          "url": "https://www.pakistantimes.com/pm-shehbaz-and-trump-urge-restraint-as-israel-iran-tensions-threaten-diplomatic-efforts-12903/",
+          "title": "PM Shehbaz And Trump Urge Restraint As Israel - Iran Tensions Threaten Diplomatic Efforts",
+          "domain": "pakistantimes.com",
+          "seendate": "20260608T191500Z"
+        },
+        {
+          "url": "https://www.ekriti.gr/kosmos/mesi-anatoli-israil-kai-iran-xana-sta-prothyra-genikeymenis-sygkroysis-pligmata-apeiles-kai-parembasi-tramp",
+          "title": "Μέση Ανατολή : Ισραήλ και Ιράν ξανά στα πρόθυρα γενικευμένης σύγκρουσης – Πλήγματα , απειλές και παρέμβαση Τραμπ",
+          "domain": "ekriti.gr",
+          "seendate": "20260608T083000Z"
+        },
+        {
+          "url": "https://lufkindailynews.com/anpa/us/the-latest-israel-and-iran-trade-fire-in-most-serious-confrontation-since-april-truce/article_5fb36f23-1182-5453-a79e-ff3740b7c5d0.html",
+          "title": "The Latest : Israel and Iran trade fire in most serious confrontation since April truce",
+          "domain": "lufkindailynews.com",
+          "seendate": "20260608T111500Z"
+        },
+        {
+          "url": "https://943wsc.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "943wsc.iheart.com",
+          "seendate": "20260608T103000Z"
+        },
+        {
+          "url": "https://wonw1280.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wonw1280.iheart.com",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://wrko.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wrko.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://khow.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "khow.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://800wvhu.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "800wvhu.iheart.com",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://wsyr.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wsyr.iheart.com",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://klvi.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "klvi.iheart.com",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://twincitiesnewstalk.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "twincitiesnewstalk.iheart.com",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://wiba.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wiba.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://945wpti.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "945wpti.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://wilm.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wilm.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://55krc.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "55krc.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://patriotla.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | The Patriot KEIB AM 1150",
+          "domain": "patriotla.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://newstalk1230.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "newstalk1230.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://newsradio540.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "newsradio540.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://790waeb.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "790waeb.iheart.com",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://wrno.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wrno.iheart.com",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://570wkbn.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "570wkbn.iheart.com",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://wvoc.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wvoc.iheart.com",
+          "seendate": "20260608T134500Z"
+        },
+        {
+          "url": "https://wiod.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wiod.iheart.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://newsradiori.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | News Radio 920 AM & 104 . 7 FM",
+          "domain": "newsradiori.iheart.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://wmrn.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wmrn.iheart.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "https://1150wima.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "1150wima.iheart.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "https://wlac.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wlac.iheart.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://wrak.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wrak.iheart.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://wlap.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wlap.iheart.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://wjdx.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wjdx.iheart.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://kfbk.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "kfbk.iheart.com",
+          "seendate": "20260608T123000Z"
+        },
+        {
+          "url": "https://wflaorlando.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | Newsradio WFLA Orlando",
+          "domain": "wflaorlando.iheart.com",
+          "seendate": "20260608T123000Z"
+        },
+        {
+          "url": "https://khvhradio.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "khvhradio.iheart.com",
+          "seendate": "20260608T121500Z"
+        },
+        {
+          "url": "https://wbex.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wbex.iheart.com",
+          "seendate": "20260608T100000Z"
+        },
+        {
+          "url": "https://600wmtradio.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "600wmtradio.iheart.com",
+          "seendate": "20260608T101500Z"
+        },
+        {
+          "url": "https://ktsmradio.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "ktsmradio.iheart.com",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://knrs.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | Talk Radio 105 . 9",
+          "domain": "knrs.iheart.com",
+          "seendate": "20260608T104500Z"
+        },
+        {
+          "url": "https://talkradio1059.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "talkradio1059.iheart.com",
+          "seendate": "20260608T111500Z"
+        },
+        {
+          "url": "https://590kqnt.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "590kqnt.iheart.com",
+          "seendate": "20260608T111500Z"
+        },
+        {
+          "url": "https://newsradio1170.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "newsradio1170.iheart.com",
+          "seendate": "20260608T111500Z"
+        },
+        {
+          "url": "https://newsradio1290wtks.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "newsradio1290wtks.iheart.com",
+          "seendate": "20260608T111500Z"
+        },
+        {
+          "url": "https://wsfcam.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wsfcam.iheart.com",
+          "seendate": "20260608T111500Z"
+        },
+        {
+          "url": "https://newsradio1410.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | News Radio 1410 AM & 100 . 9 FM",
+          "domain": "newsradio1410.iheart.com",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://1440wgig.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "1440wgig.iheart.com",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://700wlw.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "700wlw.iheart.com",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://wtkg.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wtkg.iheart.com",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://95wxtk.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "95wxtk.iheart.com",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://wtam.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "wtam.iheart.com",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://jetradio1400.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "jetradio1400.iheart.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "https://1190kex.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "1190kex.iheart.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "https://wspd.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | NewsRadio 1370 AM & 92 . 9 FM WSPD",
+          "domain": "wspd.iheart.com",
+          "seendate": "20260608T091500Z"
+        },
+        {
+          "url": "https://woodradio.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | Newsradio WOOD 1300 and 106 . 9 FM",
+          "domain": "woodradio.iheart.com",
+          "seendate": "20260608T101500Z"
+        },
+        {
+          "url": "https://ktok.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions",
+          "domain": "ktok.iheart.com",
+          "seendate": "20260608T101500Z"
+        },
+        {
+          "url": "https://newstalk1090.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | News Talk 1090 WKBZ - AM",
+          "domain": "newstalk1090.iheart.com",
+          "seendate": "20260608T094500Z"
+        },
+        {
+          "url": "https://wmeq.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | NewsTalk WMEQ",
+          "domain": "wmeq.iheart.com",
+          "seendate": "20260608T101500Z"
+        },
+        {
+          "url": "https://powertalk1460.iheart.com/content/2026-06-08-israel-and-iran-exchange-strikes-amid-rising-tensions/",
+          "title": "Israel and Iran Exchange Strikes Amid Rising Tensions | PowerTalk 1460 AM & 101 . 1 FM",
+          "domain": "powertalk1460.iheart.com",
+          "seendate": "20260608T101500Z"
+        },
+        {
+          "url": "https://www.newsbeast.gr/world/arthro/13152520/epithesi-me-pyravlous-tou-iran-sto-voreio-israil-energopoiithikan-systimata-aeramynas",
+          "title": "Επίθεση με πυραύλους του Ιράν στο Βόρειο Ισραήλ – Ενεργοποιήθηκαν συστήματα αεράμυνας",
+          "domain": "newsbeast.gr",
+          "seendate": "20260607T200000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/breakingnews/2026/06/07/israel-says-it-has-struck-iran-after-taking-missile-fire",
+          "title": "Israel and Iran appear to pause strikes after trading fire for the first time since April ceasefire – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260608T220000Z"
+        },
+        {
+          "url": "https://www.courrierinternational.com/article/moyen-orient-israel-riposte-a-une-attaque-iranienne-contre-l-avis-de-washington_244898",
+          "title": "Israël riposte à une attaque iranienne contre lavis de Washington",
+          "domain": "courrierinternational.com",
+          "seendate": "20260608T061500Z"
+        },
+        {
+          "url": "https://www.indiatvnews.com/news/world/be-careful-bibi-or-you-ll-be-on-your-own-the-trump-call-that-made-netanyahu-reconsider-iran-strikes-2026-06-09-1044118",
+          "title": "  Be careful , Bibi , or youll be on your own : The Trump call that made Netanyahu reconsider Iran strikes | World",
+          "domain": "indiatvnews.com",
+          "seendate": "20260609T051500Z"
+        },
+        {
+          "url": "https://www.dailyexcelsior.com/iran-launches-missiles-at-israel-in-first-such-escalation-since-april-ceasefire/",
+          "title": "Iran Launches Missiles At Israel In First Such Escalation Since April Ceasefire",
+          "domain": "dailyexcelsior.com",
+          "seendate": "20260608T014500Z"
+        },
+        {
+          "url": "https://www.channelafrica.co.za/channelafrica/news/israel-targets-first-energy-site-inside-iran-since-ceasefire/",
+          "title": "Israel targets first energy site inside Iran since ceasefire – Channel Africa",
+          "domain": "channelafrica.co.za",
+          "seendate": "20260608T103000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087351651-iran-launches-missile-attack-on-israel",
+          "title": "Iran launches missile attack on Israel",
+          "domain": "samaa.tv",
+          "seendate": "20260607T214500Z"
+        },
+        {
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1261918.html",
+          "title": "  휴전 맞아 ? 미 · 이란 , 휴전 두달만에 최대 규모 충돌",
+          "domain": "hani.co.kr",
+          "seendate": "20260604T063000Z"
+        },
+        {
+          "url": "https://www.capitalfm.co.ke/news/2026/06/israel-launches-retaliatory-airstrikes-on-iran-after-missile-attacks/",
+          "title": "Israel Launches Retaliatory Airstrikes on Iran After Missile Attacks",
+          "domain": "capitalfm.co.ke",
+          "seendate": "20260608T084500Z"
+        },
+        {
+          "url": "https://www.dostor.org/5589398",
+          "title": "صافرات الإنذار تدوي في إسرائيل .. وطهران تشهد سلسلة انفجارات واستهدافات عسكرية",
+          "domain": "dostor.org",
+          "seendate": "20260608T113000Z"
+        },
+        {
+          "url": "https://www.ceskenoviny.cz/zpravy/-izrael-oznamil-udery-na-iran-media-informuji-o-explozich-v-teheranu/2835773",
+          "title": "Izrael oznámil údery na Írán , média informují o explozích v Teheránu",
+          "domain": "ceskenoviny.cz",
+          "seendate": "20260608T041500Z"
+        },
+        {
+          "url": "https://www.thetoc.gr/diethni/article/klimakosi-xoris-telos-sti-mesi-anatoli-to-iran-dimosieuei-plana-puraulikon-epitheseon-kata-tou-israil-binteo/",
+          "title": "Κλιμάκωση χωρίς τέλος στη Μέση Ανατολή : Το Ιράν δημοσιεύει πλάνα πυραυλικών ... ",
+          "domain": "thetoc.gr",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://www.ktsa.com/the-latest-israel-and-iran-trade-fire-in-most-serious-confrontation-since-april-truce/",
+          "title": "The Latest : Israel and Iran trade fire in most serious confrontation since April truce",
+          "domain": "ktsa.com",
+          "seendate": "20260608T110000Z"
+        },
+        {
+          "url": "https://www.yumasun.com/news/national_news/the-latest-israel-and-iran-trade-fire-in-most-serious-confrontation-since-april-truce/article_82e8d119-a2fe-5ee6-9811-915779c06c47.html",
+          "title": "The Latest : Israel and Iran trade fire in most serious confrontation since April truce",
+          "domain": "yumasun.com",
+          "seendate": "20260608T101500Z"
+        },
+        {
+          "url": "https://segye.com:443/newsView/20260610500144",
+          "title": "이스라엘군 참모총장  이란에 더 가혹한 타격 계획했었다  ",
+          "domain": "segye.com",
+          "seendate": "20260609T171500Z"
+        },
+        {
+          "url": "https://www.trthaber.com/haber/dunya/cnn-abd-irandan-israile-ateslenen-fuzeleri-engellemedi-947565.html",
+          "title": "CNN : ABD , İrandan İsraile ateşlenen füzeleri engellemedi",
+          "domain": "trthaber.com",
+          "seendate": "20260608T221500Z"
+        },
+        {
+          "url": "https://www.chicagotribune.com/2026/06/06/israel-airstrikes-southern-lebanon/",
+          "title": "Israeli airstrikes kill 9 including Lebanese army officers after ceasefire deal",
+          "domain": "chicagotribune.com",
+          "seendate": "20260606T154500Z"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/world/article-israeli-strikes-in-lebanon-kill-9-including-army-officers-days-after/",
+          "title": "Israeli strikes in Lebanon kill 9 , including army officers , days after ceasefire deal announced",
+          "domain": "theglobeandmail.com",
+          "seendate": "20260606T121500Z"
+        },
+        {
+          "url": "https://www.evrensel.net/haber/5987490/cnn-den-iddia-abd-iran-dan-israil-e-ateslenen-fuzeleri-engellemedi",
+          "title": "CNNden iddia : ABD , İrandan İsraile ateşlenen füzeleri engellemedi",
+          "domain": "evrensel.net",
+          "seendate": "20260609T001500Z"
+        },
+        {
+          "url": "https://wnyc.org/npr/nx-s1-5848595",
+          "title": "Israeli airstrikes kill 9 including Lebanese army officers after ceasefire deal",
+          "domain": "wnyc.org",
+          "seendate": "20260606T124500Z"
+        },
+        {
+          "url": "https://www.thestar.com.my/news/world/2026/06/08/israel-iran-must-039immediately-stop-shooting039-says-trump",
+          "title": "Israel , Iran must  immediately stop shooting , says Trump",
+          "domain": "thestar.com.my",
+          "seendate": "20260608T120000Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202606061348441619",
+          "title": "호르무즈 긴장 악순환 … 미국 선박 방어에 이란 보복 시도 ( 종합2보 ) ",
+          "domain": "fnnews.com",
+          "seendate": "20260606T060000Z"
+        },
+        {
+          "url": "https://www.newsbomb.gr/kosmos/story/1741134/o-netaniaxou-agnoise-to-aitima-tou-tramp-to-israil-eksapelyse-epithesi-sto-iran",
+          "title": "Ο Νετανιάχου αγνόησε το αίτημα του Τραμπ – Το Ισραήλ εξαπέλυσε επίθεση στο Ιράν",
+          "domain": "newsbomb.gr",
+          "seendate": "20260608T041500Z"
+        },
+        {
+          "url": "https://www.ensonhaber.com/tahranda-patlama-sesi-duyuldu-h1540494",
+          "title": "Tahranda patlama sesi duyuldu - Ensonhaber",
+          "domain": "ensonhaber.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/live-blog/live-updates-israel-iran-move-toward-de-escalation-after-us-pressure",
+          "title": "Live Updates : Israel , Iran move toward de - escalation after US pressure",
+          "domain": "al-monitor.com",
+          "seendate": "20260608T160000Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/cnn-abd-iran-fuzelerini-engellemedi-19926514-haberi/",
+          "title": "CNN : ABD , İrandan İsraile ateşlenen füzeleri engellemedi",
+          "domain": "haberler.com",
+          "seendate": "20260608T193000Z"
+        },
+        {
+          "url": "https://newpost.gr/eidiseis/polemos-stin-mesi-anatoli-ekrixeis-se-techerani-tampriz-kai-isfachan-paremvasi-tramp-pros-netaniachoy-gia-apofygi-neas-klimakosis/",
+          "title": "Πόλεμος στην Μέση Ανατολή : Εκρήξεις σε Τεχεράνη , Ταμπρίζ και Ισφαχάν – Παρέμβαση Τραμπ προς Νετανιάχου για αποφυγή νέας κλιμάκωσης",
+          "domain": "newpost.gr",
+          "seendate": "20260608T073000Z"
+        },
+        {
+          "url": "https://www.lematin.ch/story/guerre-au-moyen-orient-israel-bombarde-l-iran-en-riposte-a-une-attaque-103578363",
+          "title": "Guerre au Moyen - Orient : Israël bombarde lIran , en riposte à une attaque",
+          "domain": "lematin.ch",
+          "seendate": "20260608T053000Z"
+        },
+        {
+          "url": "https://www.wxii12.com/article/israeli-airstrike-lebanon-kills-troops-after-ceasefire/71511275",
+          "title": "Israeli airstrikes kill 9 , including Lebanese army officers",
+          "domain": "wxii12.com",
+          "seendate": "20260606T113000Z"
+        },
+        {
+          "url": "https://knpr.org/npr/2026-06-06/israeli-airstrikes-kill-9-including-lebanese-army-officers-after-ceasefire-deal",
+          "title": "Israeli airstrikes kill 9 including Lebanese army officers after ceasefire deal",
+          "domain": "knpr.org",
+          "seendate": "20260606T133000Z"
+        },
+        {
+          "url": "https://www.wmur.com/article/israeli-airstrike-lebanon-kills-troops-after-ceasefire/71511275",
+          "title": "Israeli airstrikes kill 9 , including Lebanese army officers",
+          "domain": "wmur.com",
+          "seendate": "20260606T133000Z"
+        },
+        {
+          "url": "https://www.thedailybeast.com/trumps-plea-for-calm-in-iran-war-blown-up-by-fresh-strikes-from-netanyahu/",
+          "title": "Trump Plea for Calm in Iran War Blown Up by Fresh Strikes from Netanyahu",
+          "domain": "thedailybeast.com",
+          "seendate": "20260608T093000Z"
+        },
+        {
+          "url": "https://www.wtae.com/article/israeli-airstrike-lebanon-kills-troops-after-ceasefire/71511275",
+          "title": "Israeli airstrikes kill 9 , including Lebanese army officers",
+          "domain": "wtae.com",
+          "seendate": "20260606T134500Z"
+        },
+        {
+          "url": "https://www.wbaltv.com/article/israeli-airstrike-lebanon-kills-troops-after-ceasefire/71511275",
+          "title": "Israeli airstrikes kill 9 , including Lebanese army officers",
+          "domain": "wbaltv.com",
+          "seendate": "20260606T133000Z"
+        },
+        {
+          "url": "https://www.wesh.com/article/israeli-airstrike-lebanon-kills-troops-after-ceasefire/71511275",
+          "title": "Israeli airstrikes kill 9 , including Lebanese army officers",
+          "domain": "wesh.com",
+          "seendate": "20260606T123000Z"
+        },
+        {
+          "url": "https://www.lykavitos.gr/news/planet/israil-kai-iran-anesteilan-tis-ekaterothen-epitheseis-en-meso-apeilon-gia-nea-klimakosi",
+          "title": "Ισραήλ και Ιράν ανέστειλαν τις εκατέρωθεν επιθέσεις εν μέσω απειλών για νέα κλιμάκωση",
+          "domain": "lykavitos.gr",
+          "seendate": "20260609T061500Z"
+        },
+        {
+          "url": "https://www.niagarafallsreview.ca/business/the-latest-israel-launches-airstrikes-on-central-and-western-iran-after-iranian-missiles-fired/article_7cf34e84-9336-5175-9312-726ef76a72cb.html",
+          "title": "The Latest : Israel and Iran exchange fire as hostilities escalate",
+          "domain": "niagarafallsreview.ca",
+          "seendate": "20260608T063000Z"
+        },
+        {
+          "url": "https://www.konhaber.com/dunya/trump_tan_iran_a_fuzelerinizi_firlattiniz_artik_masaya_donun-2001382h",
+          "title": "Trumptan İrana : Füzelerinizi fırlattınız artık masaya dönün",
+          "domain": "konhaber.com",
+          "seendate": "20260608T014500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/iran-s-operation-nasr-a-45-year-old-wartime-symbol-returns-in-conflict-with-israel-article-13943616.html",
+          "title": "Iran  Operation Nasr : A 45 - year - old wartime symbol returns in conflict with Israel",
+          "domain": "moneycontrol.com",
+          "seendate": "20260608T073000Z"
+        },
+        {
+          "url": "https://www.wlwt.com/article/israeli-airstrike-lebanon-kills-troops-after-ceasefire/71511275",
+          "title": "Israeli airstrikes kill 9 , including Lebanese army officers",
+          "domain": "wlwt.com",
+          "seendate": "20260606T134500Z"
+        },
+        {
+          "url": "https://www.rtl.be/actu/monde/international/en-represailles-aux-attaques-americaines-liran-frappe-nouveau-le-koweit-et/2026-06-06/article/790866",
+          "title": "En représailles aux attaques américaines , lIran frappe à nouveau le Koweït et Bahreïn",
+          "domain": "rtl.be",
+          "seendate": "20260606T121500Z"
+        },
+        {
+          "url": "https://www.cp24.com/news/world/2026/06/06/israeli-airstrikes-kill-9-including-lebanese-army-officers-after-ceasefire-deal/",
+          "title": "Israeli airstrikes kill 9 after ceasefire deal",
+          "domain": "cp24.com",
+          "seendate": "20260606T141500Z"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/06/09/middleeast/iran-strike-israel-retaliation-strategy-analysis-intl",
+          "title": "Iran new leaders are taking risks their predecessors avoided",
+          "domain": "edition.cnn.com",
+          "seendate": "20260610T060000Z"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/06/10/middleeast/iran-strike-israel-retaliation-strategy-analysis-intl",
+          "title": "Iran new leaders are taking risks their predecessors avoided",
+          "domain": "edition.cnn.com",
+          "seendate": "20260610T103000Z"
+        },
+        {
+          "url": "https://us.cnn.com/2026/06/10/middleeast/iran-strike-israel-retaliation-strategy-analysis-intl",
+          "title": "Iran new leaders are taking risks their predecessors avoided",
+          "domain": "us.cnn.com",
+          "seendate": "20260610T103000Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/iran-news/article-898671",
+          "title": "Why Israel had no choice but to respond to Iran missile attack",
+          "domain": "jpost.com",
+          "seendate": "20260608T080000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/article-898671",
+          "title": "Why Israel had no choice but to respond to Iran missile attack",
+          "domain": "jpost.com",
+          "seendate": "20260608T090000Z"
+        },
+        {
+          "url": "https://www.lessentiel.lu/fr/story/guerre-iran-israel-usa-l-armee-israelienne-frappe-des-cibles-militaires-en-iran-103484349",
+          "title": "Larmée israélienne frappe des « cibles militaires » en Iran",
+          "domain": "lessentiel.lu",
+          "seendate": "20260608T030000Z"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=04641206645479752&mediaCodeNo=257",
+          "title": "트럼프 엄포에도 … 치고받은 이스라엘 · 이란 ( 종합 ) ",
+          "domain": "edaily.co.kr",
+          "seendate": "20260608T094500Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/middle-east/israel-detects-new-batch-of-iranian-missiles-fired-towards-it/3959902",
+          "title": "Israel detects new batch of Iranian missiles fired towards it",
+          "domain": "aa.com.tr",
+          "seendate": "20260608T094500Z"
+        },
+        {
+          "url": "https://www.trend.az/world/us/4196200.html",
+          "title": "US strikes Iran air defense system",
+          "domain": "trend.az",
+          "seendate": "20260609T231500Z"
+        },
+        {
+          "url": "https://www.yeniakit.com.tr/haber/israili-kizdiracak-buyuk-itiraf-abd-irandan-israile-ateslenen-fuzeleri-engellemedi-2006477.html",
+          "title": "İsraili kızdıracak büyük itiraf !  ABD , İrandan İsraile ateşlenen füzeleri engellemedi  ",
+          "domain": "yeniakit.com.tr",
+          "seendate": "20260609T030000Z"
+        },
+        {
+          "url": "https://www.kmbc.com/article/israeli-airstrike-lebanon-kills-troops-after-ceasefire/71511275",
+          "title": "Israeli airstrikes kill 9 , including Lebanese army officers",
+          "domain": "kmbc.com",
+          "seendate": "20260606T134500Z"
+        },
+        {
+          "url": "https://www.ceskenoviny.cz/zpravy/iran-i-izrael-oznamily-zastaveni-vzajemnych-utoku-jsou-pripravene-je-obnovit/2835773",
+          "title": "Írán i Izrael oznámily zastavení vzájemných útoků , jsou připravené je obnovit",
+          "domain": "ceskenoviny.cz",
+          "seendate": "20260608T190000Z"
+        }
+      ]
     }
   ],
   "comparison_table_7day": [
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.7429,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.6227,
+      "composite_score": 0.625,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.9863,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -125,15 +3113,15 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.6122,
+      "composite_score": 0.625,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.9231,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -145,17 +3133,17 @@
       }
     },
     {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.4712,
-      "is_pre_round": true,
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.625,
+      "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -168,96 +3156,6 @@
     },
     {
       "reference_id": "PRE_OCT24",
-      "reference_type": "pre-round",
-      "composite_score": 0.2888,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
-        "raw_volume": 0.0,
-        "source_diversity": 0.9057,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    }
-  ],
-  "comparison_table_21day": [
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.4583,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
       "composite_score": 0.2083,
       "is_pre_round": true,
@@ -279,7 +3177,119 @@
       }
     },
     {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.0417,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    }
+  ],
+  "comparison_table_21day": [
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.625,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.625,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.592,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.8023,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.2083,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
       "composite_score": 0.0417,
       "is_pre_round": true,
@@ -303,22 +3313,22 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
-      "articles_en": 250,
+      "volume_total": 313.1867,
+      "volume_mean_daily": 1.9097,
+      "volume_peak": 6.1046,
+      "days_active": 164,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 144,
+      "unique_domains_total": 0,
       "tone_mean": null
     },
     "window_21d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
+      "volume_total": 33.0927,
+      "volume_mean_daily": 1.5758,
+      "volume_peak": 3.4885,
+      "days_active": 21,
       "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
@@ -328,6 +3338,6 @@
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }

@@ -1,18 +1,16 @@
 {
-  "updated_at": "2026-06-08T03:48:47.039266+00:00",
+  "updated_at": "2026-06-11T03:48:37.214207+00:00",
   "short_term": {
-    "score": 61,
+    "score": 62,
     "status_he": "מתוח",
-    "avg_7day": 51,
-    "delta_vs_avg": 10
+    "avg_7day": 56,
+    "delta_vs_avg": 6
   },
   "archive_comparison": {
-    "score": 46,
-    "status_he": "דמיון נמוך",
+    "score": 62,
+    "status_he": "דמיון גבולי",
     "reference_events": [
-      "אפריל 2024",
-      "אוקטובר 2024",
-      "יוני 2025"
+      "פברואר 2026"
     ]
   },
   "signals": [
@@ -59,10 +57,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-05-20T15:06:46.270140+00:00",
-        "score": 61
-      },
       {
         "ts": "2026-05-26T15:27:20.466421+00:00",
         "score": 46
@@ -114,6 +108,10 @@
       {
         "ts": "2026-06-08T03:48:47.038238+00:00",
         "score": 61
+      },
+      {
+        "ts": "2026-06-11T03:48:37.210346+00:00",
+        "score": 62
       }
     ],
     "month": [
@@ -192,39 +190,59 @@
       {
         "ts": "2026-06-08T03:48:47.038238+00:00",
         "score": 61
+      },
+      {
+        "ts": "2026-06-11T03:48:37.210346+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
-        "score": 46,
+        "score": 62,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 46,
+        "score": 62,
         "is_pre_conflict": true
       },
       {
         "label": "אחרי פבר' 2026",
-        "score": 46,
+        "score": 59,
         "is_pre_conflict": false
       },
       {
-        "label": "טרום אפר' 2024",
+        "label": "טרום אוק' 2024",
         "score": 21,
         "is_pre_conflict": true
       },
       {
-        "label": "טרום אוק' 2024",
+        "label": "טרום אפר' 2024",
         "score": 4,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
-    "articles_72h": 250
+    "list": [
+      "1061fmtalk.iheart.com",
+      "1150wima.iheart.com",
+      "1190kex.iheart.com",
+      "1360kktx.iheart.com",
+      "1430kasi.iheart.com",
+      "1440wgig.iheart.com",
+      "24heures.ch",
+      "55krc.iheart.com",
+      "570wkbn.iheart.com",
+      "590kqnt.iheart.com",
+      "600wmtradio.iheart.com",
+      "650keni.iheart.com",
+      "700wlw.iheart.com",
+      "720thevoice.iheart.com",
+      "790waeb.iheart.com"
+    ],
+    "total_count": 335,
+    "articles_72h": null
   }
 }
