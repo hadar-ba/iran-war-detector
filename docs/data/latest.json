@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-06-11T16:02:10.297708+00:00",
+  "timestamp_utc": "2026-06-13T03:35:35.505462+00:00",
   "status": "green",
   "headline_score_7day": 46,
   "headline_score_21day": 46,
-  "score_jump": -16,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "News patterns are within the normal range — no elevated signals detected.",
   "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -40,7 +40,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     },
@@ -79,8 +79,8 @@
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
       "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
@@ -123,8 +123,8 @@
       }
     },
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
       "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
@@ -191,8 +191,8 @@
   ],
   "comparison_table_21day": [
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
       "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
@@ -235,8 +235,8 @@
       }
     },
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
       "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,

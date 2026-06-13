@@ -1,6 +1,6 @@
 # Iran-Israel Conflict Pattern Detector
 
-**Run:** 2026-06-11 16:02 UTC  |  **21-day:** 20260521–20260611  |  **7-day:** 20260604–20260611
+**Run:** 2026-06-13 03:35 UTC  |  **21-day:** 20260523–20260613  |  **7-day:** 20260606–20260613
 
 ## Status: Normal
 
@@ -10,9 +10,9 @@
 
 | Reference | Type | Score |
 |-----------|------|-------|
-| QUIET_JAN26 | quiet | 45.8% |
-| PRE_FEB26 | pre-round | 45.8% |
 | POST_FEB26 | post-ceasefire | 45.8% |
+| PRE_FEB26 | pre-round | 45.8% |
+| QUIET_JAN26 | quiet | 45.8% |
 | PRE_APR24 | pre-round | 20.8% |
 | PRE_OCT24 | pre-round | 4.2% |
 
@@ -20,8 +20,8 @@
 
 | Reference | Type | Score |
 |-----------|------|-------|
-| QUIET_JAN26 | quiet | 45.8% |
-| PRE_FEB26 | pre-round | 45.8% |
 | POST_FEB26 | post-ceasefire | 45.8% |
+| PRE_FEB26 | pre-round | 45.8% |
+| QUIET_JAN26 | quiet | 45.8% |
 | PRE_APR24 | pre-round | 20.8% |
 | PRE_OCT24 | pre-round | 4.2% |
