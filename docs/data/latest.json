@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-06-15T04:06:30.752438+00:00",
-  "status": "yellow",
-  "headline_score_7day": 61,
+  "timestamp_utc": "2026-06-18T03:46:05.063020+00:00",
+  "status": "green",
+  "headline_score_7day": 46,
   "headline_score_21day": 46,
-  "score_jump": 15,
+  "score_jump": -15,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (61%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (61%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (61% similarity). The 7-day reading is 16 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to the post-Lion's Roar period (April–May 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (61% דמיון). הקריאה ל-7 ימים גבוהה ב-16 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026).",
+  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
+  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -24,7 +24,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     },
@@ -41,8 +41,1513 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.rp.pl/konflikty-zbrojne/art44620591-ali-chamenei-zostanie-pochowany-w-mauzoleum-imama-rezy-podano-date",
+        "https://www.risingbd.com/international/news/652834",
+        "https://bianet.org/haber/iran-ali-hamaney-in-cenaze-toreni-takvimini-acikladi-320496"
+      ],
+      "articles": [
+        {
+          "url": "https://www.rp.pl/konflikty-zbrojne/art44620591-ali-chamenei-zostanie-pochowany-w-mauzoleum-imama-rezy-podano-date",
+          "title": "Iran podał datę pogrzebu Alego Chameneiego . Poprzedzą ją ceremonie pogrzebowe",
+          "domain": "rp.pl",
+          "seendate": "20260613T123000Z"
+        },
+        {
+          "url": "https://www.risingbd.com/international/news/652834",
+          "title": "খামেনির জানাজা ৪ জুলাই",
+          "domain": "risingbd.com",
+          "seendate": "20260613T154500Z"
+        },
+        {
+          "url": "https://bianet.org/haber/iran-ali-hamaney-in-cenaze-toreni-takvimini-acikladi-320496",
+          "title": "İran , Ali Hamaneyin cenaze töreni takvimini açıkladı",
+          "domain": "bianet.org",
+          "seendate": "20260613T140000Z"
+        },
+        {
+          "url": "https://www.maariv.co.il/news/politics/article-1332242",
+          "title": "בישראל בטוחים : דונלד טראמפ זיהה את נקודת החולשה המרכזית של איראן",
+          "domain": "maariv.co.il",
+          "seendate": "20260612T214500Z"
+        },
+        {
+          "url": "https://www.haberler.com/politika/hamaney-in-cenaze-toreni-9-temmuz-da-meshed-de-19945047-haberi/",
+          "title": "İran  ın öldürülen dini lideri Ali Hamaney , 9 Temmuzda defnedilecek",
+          "domain": "haberler.com",
+          "seendate": "20260613T124500Z"
+        },
+        {
+          "url": "https://aif.ru/politics/proval-izrailya-pozor-ssha-iran-vyshel-pobeditelem-iz-voyny",
+          "title": "Провал Израиля , позор США : Иран вышел победителем из войны",
+          "domain": "aif.ru",
+          "seendate": "20260614T023000Z"
+        },
+        {
+          "url": "https://life.ru/p/1887163",
+          "title": "Прощание с Али Хаменеи пройдёт 4 – 9 июля , его похоронят в Мешхеде",
+          "domain": "life.ru",
+          "seendate": "20260613T123000Z"
+        },
+        {
+          "url": "https://www.baltimoresun.com/2026/06/15/iran-us-tentative-deal/",
+          "title": "Iran and US reach a tentative deal to end war but challenges remain",
+          "domain": "baltimoresun.com",
+          "seendate": "20260615T124500Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/over-100-days-after-death-iran-declares-6-day-funeral-for-supreme-leader-ali-khamenei-burial-on-july-9/articleshow/131702675.cms",
+          "title": "Over 100 days after death , Iran declares 6 - day funeral for supreme leader Ali Khamenei ; burial on July 9",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260613T120000Z"
+        },
+        {
+          "url": "https://www.prokerala.com/news/articles/a1775170.html",
+          "title": "Funeral for Iran late supreme leader to begin on July 4 in Tehran",
+          "domain": "prokerala.com",
+          "seendate": "20260614T024500Z"
+        },
+        {
+          "url": "https://www.dailypress.com/2026/06/15/iran-us-tentative-deal/",
+          "title": "Iran and US reach a tentative deal to end war but challenges remain",
+          "domain": "dailypress.com",
+          "seendate": "20260615T121500Z"
+        },
+        {
+          "url": "https://www.twincities.com/2026/06/15/iran-us-tentative-deal/",
+          "title": "Iran and US reach a tentative deal to end war but challenges remain",
+          "domain": "twincities.com",
+          "seendate": "20260615T131500Z"
+        },
+        {
+          "url": "https://www.thetimes-tribune.com/2026/06/15/iran-us-tentative-deal/",
+          "title": "Iran and US reach a tentative deal to end war but challenges remain",
+          "domain": "thetimes-tribune.com",
+          "seendate": "20260615T124500Z"
+        },
+        {
+          "url": "https://theshillongtimes.com/2026/06/15/iran-schedules-supreme-leaders-funeral-for-july-4/",
+          "title": "Iran schedules Supreme Leader funeral for July 4",
+          "domain": "theshillongtimes.com",
+          "seendate": "20260614T224500Z"
+        },
+        {
+          "url": "https://www.bournemouthecho.co.uk/news/national/26192165.trump-discuss-demining-efforts-g7-confidence-grows-iran-war-deal/",
+          "title": "Trump to discuss demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "bournemouthecho.co.uk",
+          "seendate": "20260613T164500Z"
+        },
+        {
+          "url": "https://www.oneindia.com/international/why-is-ali-khamenei-being-buried-132-days-after-his-death-iran-announces-july-9-funeral-8117453.html",
+          "title": "Why Is Ali Khamenei Being Buried 132 Days After His Death ? Iran Announces July 9 Funeral",
+          "domain": "oneindia.com",
+          "seendate": "20260614T093000Z"
+        },
+        {
+          "url": "https://www.theargus.co.uk/news/national/26192165.trump-discuss-demining-efforts-g7-confidence-grows-iran-war-deal/",
+          "title": "Trump to discuss demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "theargus.co.uk",
+          "seendate": "20260613T170000Z"
+        },
+        {
+          "url": "https://www.salisburyjournal.co.uk/news/national/26192165.trump-discuss-demining-efforts-g7-confidence-grows-iran-war-deal/",
+          "title": "Trump to discuss demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "salisburyjournal.co.uk",
+          "seendate": "20260613T170000Z"
+        },
+        {
+          "url": "https://www.bostonglobe.com/2026/06/13/world/trump-iran-war-pakistan-deal/",
+          "title": "Iran war : Trump says deal could be signed Sunday",
+          "domain": "bostonglobe.com",
+          "seendate": "20260613T224500Z"
+        },
+        {
+          "url": "https://www.capitalgazette.com/2026/06/15/iran-us-tentative-deal/",
+          "title": "Iran and US reach a tentative deal to end war but challenges remain",
+          "domain": "capitalgazette.com",
+          "seendate": "20260615T113000Z"
+        },
+        {
+          "url": "https://www.thetelegraphandargus.co.uk/news/national/26192379.us-pakistan-say-deal-end-iran-war-closer-ever-tehran-needs-time/",
+          "title": "US and Pakistan say deal to end Iran war closer than ever but Tehran needs time",
+          "domain": "thetelegraphandargus.co.uk",
+          "seendate": "20260613T230000Z"
+        },
+        {
+          "url": "https://www.thenorthernecho.co.uk/news/national/26192165.trump-discuss-demining-efforts-g7-confidence-grows-iran-war-deal/",
+          "title": "Trump to discuss demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "thenorthernecho.co.uk",
+          "seendate": "20260613T173000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/6/13/iran-announces-funeral-burial-dates-for-late-supreme-leader-khamenei",
+          "title": "Iran announces funeral , burial dates for late Supreme Leader Khamenei",
+          "domain": "aljazeera.com",
+          "seendate": "20260613T140000Z"
+        },
+        {
+          "url": "https://www.thenorthernecho.co.uk/news/national/26192379.us-pakistan-say-deal-end-iran-war-closer-ever-tehran-needs-time/",
+          "title": "US and Pakistan say deal to end Iran war closer than ever but Tehran needs time",
+          "domain": "thenorthernecho.co.uk",
+          "seendate": "20260613T224500Z"
+        },
+        {
+          "url": "https://www.express.co.uk/news/world/2217014/funeral-former-irans-supreme-leader",
+          "title": "Funeral of former Iran Supreme Leader Ayatollah Ali Khamenei to be h | World | News",
+          "domain": "express.co.uk",
+          "seendate": "20260613T160000Z"
+        },
+        {
+          "url": "https://www.bostonherald.com/2026/06/15/iran-us-tentative-deal/",
+          "title": "Iran and US reach a tentative deal to end war but challenges remain",
+          "domain": "bostonherald.com",
+          "seendate": "20260615T133000Z"
+        },
+        {
+          "url": "https://abc13.com/post/iran-war-update-today-trump-pakistan-say-deal-could-signed-sunday-tehran-signals-more-time-is-needed/19294554/",
+          "title": "Iran war update , today : Trump and Pakistan say deal could be signed Sunday but Tehran signals more time is needed",
+          "domain": "abc13.com",
+          "seendate": "20260614T161500Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/world/funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-a-deal-to-end/article_cced8e8b-6f26-52d9-811c-3aace2cc3eb8.html",
+          "title": "Funeral for slain Iranian Supreme Leader Khamenei set for July , as a deal to end the war nears",
+          "domain": "thegazette.com",
+          "seendate": "20260613T134500Z"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/2026/06/13/funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-a-deal-to-end-the-war-nears/",
+          "title": "Funeral for slain Iranian Supreme Leader Khamenei set for July , as a deal to end the war nears",
+          "domain": "clickorlando.com",
+          "seendate": "20260613T134500Z"
+        },
+        {
+          "url": "https://www.breakingnews.ie/world/us-and-pakistan-say-deal-to-end-iran-war-closer-than-ever-but-tehran-needs-time-1913319.html",
+          "title": "US and Pakistan say deal to end Iran war closer than ever but Tehran needs time",
+          "domain": "breakingnews.ie",
+          "seendate": "20260614T010000Z"
+        },
+        {
+          "url": "https://avesta.tj/2026/06/15/pohorony-pogibshego-hamenei-projdut-4-9-iyulya/",
+          "title": "Похороны погибшего Хаменеи пройдут 4 - 9 июля - Новости Таджикистана",
+          "domain": "avesta.tj",
+          "seendate": "20260615T054500Z"
+        },
+        {
+          "url": "https://wsvn.com/news/us-world/trump-and-pakistan-say-iran-deal-could-be-signed-sunday-but-tehran-signals-more-time-is-needed/",
+          "title": "Trump and Pakistan say Iran deal could be signed Sunday but Tehran signals more time is needed - WSVN 7News | Miami News , Weather , Sports",
+          "domain": "wsvn.com",
+          "seendate": "20260614T003000Z"
+        },
+        {
+          "url": "https://www.wsls.com/news/2026/06/13/funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-a-deal-to-end-the-war-nears/",
+          "title": "Funeral for slain Iranian Supreme Leader Khamenei set for July , as a deal to end the war nears",
+          "domain": "wsls.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://www.jugantor.com/international/1114023",
+          "title": "মার্কিন - ইসরাইলি হামলায় যেসব শীর্ষ নেতাদের হারাল ইরান",
+          "domain": "jugantor.com",
+          "seendate": "20260615T080000Z"
+        },
+        {
+          "url": "https://www.geo.tv/latest/669071-has-trump-achieved-his-goals-in-the-war-with-iran",
+          "title": "Has Trump achieved his goals in the war with Iran ? ",
+          "domain": "geo.tv",
+          "seendate": "20260617T104500Z"
+        },
+        {
+          "url": "https://www.breakingnews.ie/world/trump-to-discuss-demining-efforts-at-g7-as-confidence-grows-for-iran-war-deal-1913230.html",
+          "title": "Trump to discuss demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "breakingnews.ie",
+          "seendate": "20260613T154500Z"
+        },
+        {
+          "url": "https://wtop.com/world/2026/06/funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-a-deal-to-end-the-war-nears/",
+          "title": "Trump and Pakistan say Iran deal could be signed Sunday but Tehran signals more time is needed",
+          "domain": "wtop.com",
+          "seendate": "20260614T070000Z"
+        },
+        {
+          "url": "https://www.smdailyjournal.com/news/world/funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-a-deal-to-end/article_c2169ebb-eac4-57ba-9637-e793c94bdad3.html",
+          "title": "Funeral for slain Iranian Supreme Leader Khamenei set for July , as a deal to end the war nears",
+          "domain": "smdailyjournal.com",
+          "seendate": "20260613T134500Z"
+        },
+        {
+          "url": "https://www.adn.com/nation-world/2026/06/13/trump-and-pakistan-say-iran-deal-could-be-signed-sunday-but-tehran-signals-more-time-is-needed/",
+          "title": "Trump and Pakistan say Iran deal could be signed Sunday but Tehran signals more time is needed",
+          "domain": "adn.com",
+          "seendate": "20260614T000000Z"
+        },
+        {
+          "url": "https://dunyanews.tv/en/World/957480-the-iranian-leaders-martyred-in-israelius-war",
+          "title": "The Iranian leaders martyred in Israeli - US war",
+          "domain": "dunyanews.tv",
+          "seendate": "20260616T064500Z"
+        },
+        {
+          "url": "https://english.aawsat.com/world/5284160-iranian-leaders-killed-israeli-us-war",
+          "title": "The Iranian Leaders Killed in Israeli - US War",
+          "domain": "english.aawsat.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://www.dha.com.tr/dunya/pezeskiyan-iran-halkinin-direnisi-sayesinde-israil-hedeflerine-ulasamadi-2891296",
+          "title": "Pezeşkiyan : İran halkının direnişi sayesinde İsrail hedeflerine ulaşamadı",
+          "domain": "dha.com.tr",
+          "seendate": "20260614T103000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/articles/ml--iran-us-121311674.html",
+          "title": "Trump and Pakistan say Iran deal could be signed Sunday but Tehran signals more time is needed",
+          "domain": "yahoo.com",
+          "seendate": "20260614T043000Z"
+        },
+        {
+          "url": "https://www.scmp.com/news/world/middle-east/article/3357015/funeral-slain-iranian-supreme-leader-khamenei-set-july",
+          "title": "Funeral for slain Iranian supreme leader Khamenei set for July",
+          "domain": "scmp.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/trump-to-discuss-strait-of-hormuz-demining-efforts-at-g7-as-confidence-grows-for-iran-war-deal-101781387255555.html",
+          "title": "Trump to discuss Strait of Hormuz demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "hindustantimes.com",
+          "seendate": "20260614T003000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/breakingnews/2026/06/13/funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-a-deal-to-end-the-war-nears",
+          "title": "Trump and Pakistan say Iran deal could be signed Sunday but Tehran signals more time is needed – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260614T003000Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/1f4bf-funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-a-deal-to-end-the-war-nears/",
+          "title": "Funeral for Iran supreme leader set for July , while a deal nears to end the war",
+          "domain": "wral.com",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://www.wdrb.com/news/national/pakistan-says-a-deal-to-end-the-iran-war-is-closer-than-ever-as-tehran/article_bb044bd5-3312-5fb1-96e9-8fef33a722c3.html",
+          "title": "Pakistan says a deal to end the Iran war is closer than ever as Tehran shows signs of optimism",
+          "domain": "wdrb.com",
+          "seendate": "20260613T183000Z"
+        },
+        {
+          "url": "https://www.oxfordmail.co.uk/news/national/26192165.trump-discuss-demining-efforts-g7-confidence-grows-iran-war-deal/",
+          "title": "Trump to discuss demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "oxfordmail.co.uk",
+          "seendate": "20260613T163000Z"
+        },
+        {
+          "url": "https://www.stern.de/news/iranisches-staatsfernsehen--ali-chamenei-soll-am-9--juli-beigesetzt-werden-37538976.html",
+          "title": "Iranisches Staatsfernsehen : Ali Chamenei soll am 9 . Juli beigesetzt werden",
+          "domain": "stern.de",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://www.thetelegraphandargus.co.uk/news/national/26191966.iranian-supreme-leaders-funeral-set-july-deal-end-war-approaches/",
+          "title": "Iranian supreme leader funeral set for July as deal to end war approaches",
+          "domain": "thetelegraphandargus.co.uk",
+          "seendate": "20260613T131500Z"
+        },
+        {
+          "url": "https://www.haberler.com/dunya/pezeskiyan-israil-stratejik-hedeflerine-ulasamadi-19947537-haberi/",
+          "title": "Pezeşkiyan : İran halkının direnişi sayesinde İsrail hedeflerine ulaşamadı",
+          "domain": "haberler.com",
+          "seendate": "20260614T103000Z"
+        },
+        {
+          "url": "http://www.idahopress.com/news/world/trump-and-pakistan-say-iran-deal-could-be-signed-sunday-but-tehran-signals-more-time/article_602f98f9-3ba3-513b-b9d7-fd42a1e4ecc2.html",
+          "title": "Trump and Pakistan say Iran deal could be signed Sunday but Tehran signals more time is needed",
+          "domain": "idahopress.com",
+          "seendate": "20260614T000000Z"
+        },
+        {
+          "url": "https://www.lancashiretelegraph.co.uk/news/national/26191966.iranian-supreme-leaders-funeral-set-july-deal-end-war-approaches/",
+          "title": "Iranian supreme leader funeral set for July as deal to end war approaches",
+          "domain": "lancashiretelegraph.co.uk",
+          "seendate": "20260613T140000Z"
+        },
+        {
+          "url": "https://www.eadt.co.uk/news/national/26191966.iranian-supreme-leaders-funeral-set-july-deal-end-war-approaches/",
+          "title": "Iranian supreme leader funeral set for July as deal to end war approaches",
+          "domain": "eadt.co.uk",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://fortune.com/2026/06/13/trump-allies-mine-removal-strait-of-hormuz-g7-summit-iran-war-deal/",
+          "title": "Trump to talk with allies at G7 summit about removing mines from the Strait of Hormuz",
+          "domain": "fortune.com",
+          "seendate": "20260613T184500Z"
+        },
+        {
+          "url": "https://www.smdailyjournal.com/news/world/pakistan-says-a-deal-to-end-the-iran-war-is-closer-than-ever-as-tehran/article_c2169ebb-eac4-57ba-9637-e793c94bdad3.html",
+          "title": "Pakistan says a deal to end the Iran war is closer than ever as Tehran shows signs of optimism",
+          "domain": "smdailyjournal.com",
+          "seendate": "20260613T183000Z"
+        },
+        {
+          "url": "https://www.newsday.com/news/nation/iran-us-leader-funeral-khamenei-war-deal-w29204",
+          "title": "Funeral for slain Iranian Supreme Leader Khamenei set for July , as a deal to end the war nears",
+          "domain": "newsday.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/syux9yu11fe",
+          "title": "דיווח דרמטי באיראן : סיכוי גבוה שנאשר את ההסכם . טראמפ : נחתום בקרוב , אולי בסוף השבוע",
+          "domain": "ynet.co.il",
+          "seendate": "20260611T203000Z"
+        },
+        {
+          "url": "https://www.koreaherald.com:443/article/10771227",
+          "title": "Funeral for Iran late Supreme Leader Khamenei to begin July 4 , burial set for July 9",
+          "domain": "koreaherald.com",
+          "seendate": "20260615T003000Z"
+        },
+        {
+          "url": "https://www.yorkpress.co.uk/news/national/26191966.iranian-supreme-leaders-funeral-set-july-deal-end-war-approaches/",
+          "title": "Iranian supreme leader funeral set for July as deal to end war approaches",
+          "domain": "yorkpress.co.uk",
+          "seendate": "20260613T134500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-deal-to-end-war-nears-article-13948830.html",
+          "title": "Funeral for slain Iranian Supreme Leader Khamenei set for July , as deal to end war nears",
+          "domain": "moneycontrol.com",
+          "seendate": "20260613T143000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/s1grush11fg",
+          "title": "הלחץ האמריקני  לסגור את האירוע , והקו בקבינט :  איראן של טראמפ , לבנון שלנו  ",
+          "domain": "ynet.co.il",
+          "seendate": "20260615T021500Z"
+        },
+        {
+          "url": "https://www.sun-sentinel.com/2026/06/13/trump-to-discuss-strait-of-hormuz-demining-efforts-at-g7-as-confidence-grows-for-iran-war-deal/",
+          "title": "Trump to discuss Strait of Hormuz demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "sun-sentinel.com",
+          "seendate": "20260613T164500Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/the-iranian-leaders-killed-in-israeli-us-war/article71103399.ece",
+          "title": "Recap of Iranian leaders killed during the Israel - US war on Iran",
+          "domain": "thehindu.com",
+          "seendate": "20260615T051500Z"
+        },
+        {
+          "url": "https://www.capitalgazette.com/2026/06/13/pakistan-says-a-deal-to-end-the-iran-war-is-closer-than-ever-as-tehran-shows-signs-of-optimism/",
+          "title": "Pakistan says a deal to end the Iran war is closer than ever as Tehran shows signs of optimism",
+          "domain": "capitalgazette.com",
+          "seendate": "20260613T211500Z"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cvgepl5gdp1o",
+          "title": "Fragile quiet and unanswered questions in Lebanon after US - Iran truce",
+          "domain": "bbc.com",
+          "seendate": "20260616T170000Z"
+        },
+        {
+          "url": "https://www.dhakatimes24.com/2026/06/13/407184",
+          "title": "ইরানের সাবেক সর্বোচ্চ নেতা আলী খামেনির দাফন ৯ জুলাই",
+          "domain": "dhakatimes24.com",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/from-khamenei-to-commanders-irans-leadership-losses-in-us-israeli-strikes-1.500574478",
+          "title": "Key Iranian Leaders Killed in US - Israeli War : From Khamenei to Revolutionary Guard Commanders",
+          "domain": "gulfnews.com",
+          "seendate": "20260615T043000Z"
+        },
+        {
+          "url": "https://isp.netscape.com:443/news/world/story/0001/20260613/1f4bfb01f91029f92787cbc2ec7ad81e",
+          "title": "Trump and Pakistan say Iran deal could be signed Sunday but Tehran signals more time is needed",
+          "domain": "isp.netscape.com",
+          "seendate": "20260614T023000Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10771066",
+          "title": "종전 임박 관측 속 … 폭격 사망  前 이란 최고지도자 내달 장례식",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/06/17/has-trump-achieved-his-goals-in-the-war-with-iran",
+          "title": "Trump Iran war goals only partly achieved",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260617T101500Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/world/trump-and-pakistan-say-iran-deal-could-be-signed-sunday-but-tehran-signals-more-time/article_8d49329a-1d8d-5f9a-9e47-3ce2e149308d.html",
+          "title": "Trump and Pakistan say Iran deal could be signed Sunday but Tehran signals more time is needed",
+          "domain": "dailyadvance.com",
+          "seendate": "20260613T224500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/06/iranian-leaders-killed-israeli-us-war",
+          "title": "The Iranian leaders killed in Israeli - US war",
+          "domain": "al-monitor.com",
+          "seendate": "20260615T054500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2613659/has-trump-achieved-his-goals-in-the-war-with-iran",
+          "title": "Has Trump achieved his goals in the war with Iran ? ",
+          "domain": "tribune.com.pk",
+          "seendate": "20260617T143000Z"
+        },
+        {
+          "url": "https://nypost.com/2026/06/11/us-news/trump-says-irans-leader-has-agreed-to-a-peace-plan-and-islamic-republic-will-not-have-a-nuclear-weapon/",
+          "title": "Trump says Iran leader has agreed to a peace plan and Islamic Republic will not have a nuclear weapon",
+          "domain": "nypost.com",
+          "seendate": "20260611T204500Z"
+        },
+        {
+          "url": "http://www.somdnews.com/ap/world/funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-a-deal-to-end/article_50359b46-6c85-5254-9043-a54fcf294b74.html",
+          "title": "Funeral for slain Iranian Supreme Leader Khamenei set for July , as a deal to end the war nears",
+          "domain": "somdnews.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/us-iran-peace-deal-nuclear-standoff-timeline-10740102/",
+          "title": "As Iran , US reach peace deal , a look at decades - long nuclear standoff",
+          "domain": "indianexpress.com",
+          "seendate": "20260615T093000Z"
+        },
+        {
+          "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/has-trump-achieved-his-goals-the-war-iran-4201021",
+          "title": "Has Trump achieved his goals in the war with Iran ? ",
+          "domain": "thedailystar.net",
+          "seendate": "20260617T063000Z"
+        },
+        {
+          "url": "https://www.outlookindia.com/national/congress-criticises-modi-government-foreign-policy-over-us-iran-peace-deal-and-pakistan-china-ties",
+          "title": "Congress Criticises Modi Government Foreign Policy Over US - Iran Peace Deal And Pakistan - China Ties",
+          "domain": "outlookindia.com",
+          "seendate": "20260615T124500Z"
+        },
+        {
+          "url": "https://www.timeslive.co.za/news/world/2026-06-17-explainer-has-trump-achieved-his-goals-in-the-war-with-iran/",
+          "title": "EXPLAINER | Has Trump achieved his goals in the war with Iran ? ",
+          "domain": "timeslive.co.za",
+          "seendate": "20260617T083000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/has-trump-achieved-his-goals-in-the-war-with-iran/articleshow/131787075.cms",
+          "title": "Has Trump achieved his goals in the war with Iran ? ",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260617T060000Z"
+        },
+        {
+          "url": "https://www.thehindubusinessline.com/news/world/has-trump-achieved-his-goals-in-the-war-with-iran/article71112156.ece",
+          "title": "Has Trump achieved his goals in the war with Iran ? - The HinduBusinessLine",
+          "domain": "thehindubusinessline.com",
+          "seendate": "20260617T060000Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/world-news/iran-us-nuclear-deal-draft-14-points",
+          "title": "מסמך 14 הנקודות : טיוטת ההסכם בין איראן לארה  ב נחשפת",
+          "domain": "kikar.co.il",
+          "seendate": "20260612T093000Z"
+        },
+        {
+          "url": "https://www.newsx.com/world/tehran-dismisses-pak-pms-us-iran-deal-timeline-says-signing-near-but-not-tomorrow-233983/",
+          "title": "Tehran Dismisses Pak PM US - Iran Deal Timeline , Says Signing Near But Not Tomorrow",
+          "domain": "newsx.com",
+          "seendate": "20260613T181500Z"
+        },
+        {
+          "url": "https://www.mauinews.com/wire/?category=5187&ID=395162",
+          "title": "Trump and Pakistan say Iran deal could be signed Sunday but Tehran signals more time is needed | News , Sports , Jobs",
+          "domain": "mauinews.com",
+          "seendate": "20260614T220000Z"
+        },
+        {
+          "url": "https://www.haberler.com/politika/pezeskiyan-iran-in-direnisi-israil-i-ateskese-zorladi-19947338-haberi/",
+          "title": "Pezeşkiyan :  İran halkının direnişi İsrailin hedeflerini boşa çıkardı  ",
+          "domain": "haberler.com",
+          "seendate": "20260614T093000Z"
+        },
+        {
+          "url": "https://www.ntdtv.com/b5/2026/06/12/a104105501.html",
+          "title": "美伊協議傳日內瓦簽署 分析 ： 樂觀訊號 仍存變數 | 美伊和平協議 | 和平備忘綠 | 伊朗外交部長",
+          "domain": "ntdtv.com",
+          "seendate": "20260612T231500Z"
+        },
+        {
+          "url": "https://www.news4jax.com/news/2026/06/13/funeral-for-slain-iranian-supreme-leader-khamenei-set-for-july-as-a-deal-to-end-the-war-nears/",
+          "title": "Trump to discuss Strait of Hormuz demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "news4jax.com",
+          "seendate": "20260613T154500Z"
+        },
+        {
+          "url": "https://www.aksam.com.tr/dunya/abd-iran-barisi-icin-geri-sayim-tahran-hurmuz-derhal-acilacak/haber-1674622",
+          "title": "ABD - Ýran bar için geri sayým ... Tahran : Hürmüz derhal alacak",
+          "domain": "aksam.com.tr",
+          "seendate": "20260614T120000Z"
+        },
+        {
+          "url": "https://www.businesstimes.com.sg/international/global/has-trump-achieved-his-goals-war-iran",
+          "title": "Has Trump achieved his goals in the war with Iran ? ",
+          "domain": "businesstimes.com.sg",
+          "seendate": "20260617T073000Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/article-899147",
+          "title": "UAE , Iran senior security officials meet for first time since start of war",
+          "domain": "jpost.com",
+          "seendate": "20260611T184500Z"
+        },
+        {
+          "url": "https://www.siasat.com/trump-to-discuss-strait-of-hormuz-demining-with-g7-allies-3488550/",
+          "title": "Trump to discuss Strait of Hormuz demining with G7 allies",
+          "domain": "siasat.com",
+          "seendate": "20260613T211500Z"
+        },
+        {
+          "url": "https://naharnet.com/stories/en/320627-hundreds-rally-in-south-beirut-suburbs-in-support-of-iran-allies",
+          "title": "Hundreds rally in south Beirut suburbs in support of Iran , allies",
+          "domain": "naharnet.com",
+          "seendate": "20260611T100000Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/political-news/minister-zohar-response-trump-iran-statement",
+          "title": "השר זוהר :  היינו מוחקים את איראן  - תגובה חריפה לטראמפ",
+          "domain": "kikar.co.il",
+          "seendate": "20260616T113000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/india/blind-devotion-to-israel-congress-takes-a-dig-at-pm-modi-as-us-and-iran-agree-peace-pact/articleshow/131735790.cms",
+          "title": "  Blind devotion to Israel : Congress takes a dig at PM Modi as US and Iran agree peace pact",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260615T073000Z"
+        },
+        {
+          "url": "https://wsfcam.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wsfcam.iheart.com",
+          "seendate": "20260613T120000Z"
+        },
+        {
+          "url": "https://wgiram.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wgiram.iheart.com",
+          "seendate": "20260613T120000Z"
+        },
+        {
+          "url": "https://1450wkip.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | NewsRadio 1450 / 1370 WKIP",
+          "domain": "1450wkip.iheart.com",
+          "seendate": "20260613T120000Z"
+        },
+        {
+          "url": "https://1190talkradio.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "1190talkradio.iheart.com",
+          "seendate": "20260613T120000Z"
+        },
+        {
+          "url": "https://koacolorado.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "koacolorado.iheart.com",
+          "seendate": "20260613T120000Z"
+        },
+        {
+          "url": "https://newstalk1130.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "newstalk1130.iheart.com",
+          "seendate": "20260613T120000Z"
+        },
+        {
+          "url": "https://55krc.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "55krc.iheart.com",
+          "seendate": "20260613T121500Z"
+        },
+        {
+          "url": "https://wlap.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wlap.iheart.com",
+          "seendate": "20260613T121500Z"
+        },
+        {
+          "url": "https://650keni.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "650keni.iheart.com",
+          "seendate": "20260613T121500Z"
+        },
+        {
+          "url": "https://wtag.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wtag.iheart.com",
+          "seendate": "20260613T114500Z"
+        },
+        {
+          "url": "https://khvhradio.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "khvhradio.iheart.com",
+          "seendate": "20260613T114500Z"
+        },
+        {
+          "url": "https://wercfm.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | News Radio 105 . 5 WERC",
+          "domain": "wercfm.iheart.com",
+          "seendate": "20260613T114500Z"
+        },
+        {
+          "url": "https://newstalk1090.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | News Talk 1090 WKBZ - AM",
+          "domain": "newstalk1090.iheart.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://1190kex.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "1190kex.iheart.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://wwnc.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wwnc.iheart.com",
+          "seendate": "20260613T121500Z"
+        },
+        {
+          "url": "https://veropatriot.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "veropatriot.iheart.com",
+          "seendate": "20260613T121500Z"
+        },
+        {
+          "url": "https://wflanews.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wflanews.iheart.com",
+          "seendate": "20260613T121500Z"
+        },
+        {
+          "url": "https://powertalk967.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "powertalk967.iheart.com",
+          "seendate": "20260613T121500Z"
+        },
+        {
+          "url": "https://wrno.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wrno.iheart.com",
+          "seendate": "20260613T140000Z"
+        },
+        {
+          "url": "https://570wkbn.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "570wkbn.iheart.com",
+          "seendate": "20260613T140000Z"
+        },
+        {
+          "url": "https://1019bigwaax.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | News Radio 101 . 9 Big WAAX",
+          "domain": "1019bigwaax.iheart.com",
+          "seendate": "20260613T140000Z"
+        },
+        {
+          "url": "https://newsradiori.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | News Radio 920 AM & 104 . 7 FM",
+          "domain": "newsradiori.iheart.com",
+          "seendate": "20260613T134500Z"
+        },
+        {
+          "url": "https://wbhpam.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wbhpam.iheart.com",
+          "seendate": "20260613T134500Z"
+        },
+        {
+          "url": "https://newstalk1230.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "newstalk1230.iheart.com",
+          "seendate": "20260613T140000Z"
+        },
+        {
+          "url": "https://klvi.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "klvi.iheart.com",
+          "seendate": "20260613T134500Z"
+        },
+        {
+          "url": "https://kogo.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "kogo.iheart.com",
+          "seendate": "20260613T131500Z"
+        },
+        {
+          "url": "https://ktok.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "ktok.iheart.com",
+          "seendate": "20260613T131500Z"
+        },
+        {
+          "url": "https://720thevoice.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "720thevoice.iheart.com",
+          "seendate": "20260613T131500Z"
+        },
+        {
+          "url": "https://newsradio1470.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "newsradio1470.iheart.com",
+          "seendate": "20260613T131500Z"
+        },
+        {
+          "url": "https://wmeq.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | NewsTalk WMEQ",
+          "domain": "wmeq.iheart.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://newsradio910wltp.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "newsradio910wltp.iheart.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://kste.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "kste.iheart.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://newsradio1170.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "newsradio1170.iheart.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://powertalk1460.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | PowerTalk 1460 AM & 101 . 1 FM",
+          "domain": "powertalk1460.iheart.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://wiod.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wiod.iheart.com",
+          "seendate": "20260613T123000Z"
+        },
+        {
+          "url": "https://600kcol.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "600kcol.iheart.com",
+          "seendate": "20260613T123000Z"
+        },
+        {
+          "url": "https://kfyr.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | KFYR 550 AM / 99 . 7 FM",
+          "domain": "kfyr.iheart.com",
+          "seendate": "20260613T123000Z"
+        },
+        {
+          "url": "https://wmrn.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wmrn.iheart.com",
+          "seendate": "20260613T123000Z"
+        },
+        {
+          "url": "https://wvoc.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wvoc.iheart.com",
+          "seendate": "20260613T123000Z"
+        },
+        {
+          "url": "https://wham1180.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wham1180.iheart.com",
+          "seendate": "20260613T114500Z"
+        },
+        {
+          "url": "https://woodradio.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | Newsradio WOOD 1300 and 106 . 9 FM",
+          "domain": "woodradio.iheart.com",
+          "seendate": "20260613T124500Z"
+        },
+        {
+          "url": "https://943wsc.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "943wsc.iheart.com",
+          "seendate": "20260613T124500Z"
+        },
+        {
+          "url": "https://talk1200boston.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "talk1200boston.iheart.com",
+          "seendate": "20260613T114500Z"
+        },
+        {
+          "url": "https://newsradio1049.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "newsradio1049.iheart.com",
+          "seendate": "20260613T114500Z"
+        },
+        {
+          "url": "https://700wlw.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "700wlw.iheart.com",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://wtkg.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wtkg.iheart.com",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://newsradio710.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "newsradio710.iheart.com",
+          "seendate": "20260613T150000Z"
+        },
+        {
+          "url": "https://wonw1280.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wonw1280.iheart.com",
+          "seendate": "20260613T150000Z"
+        },
+        {
+          "url": "https://wjbo.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | WJBO Newsradio 1150 AM & 98 . 7 FM",
+          "domain": "wjbo.iheart.com",
+          "seendate": "20260613T154500Z"
+        },
+        {
+          "url": "https://kfab.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "kfab.iheart.com",
+          "seendate": "20260613T143000Z"
+        },
+        {
+          "url": "https://945wpti.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "945wpti.iheart.com",
+          "seendate": "20260613T143000Z"
+        },
+        {
+          "url": "https://wspd.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced | NewsRadio 1370 AM & 92 . 9 FM WSPD",
+          "domain": "wspd.iheart.com",
+          "seendate": "20260613T140000Z"
+        },
+        {
+          "url": "https://wiba.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "wiba.iheart.com",
+          "seendate": "20260613T140000Z"
+        },
+        {
+          "url": "https://newsradio1290wtks.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "newsradio1290wtks.iheart.com",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://kfbk.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "kfbk.iheart.com",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://790waeb.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "790waeb.iheart.com",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://whnz.iheart.com/content/2026-06-13-funeral-services-for-irans-late-ayatollah-announced/",
+          "title": "Funeral Services For Iran Late Ayatollah Announced",
+          "domain": "whnz.iheart.com",
+          "seendate": "20260613T161500Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/usiran-nuclear-timeline-decades-of-tension-explained-1.500574536",
+          "title": "US – Iran Nuclear Timeline : From Atoms for Peace to War , Ceasefire and Strait of Hormuz Deal Explained",
+          "domain": "gulfnews.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://www.dostor.org/5602989",
+          "title": "مسؤول إيراني يكشف كواليس اختيار مجتبى خامنئي مرشدًا لإيران",
+          "domain": "dostor.org",
+          "seendate": "20260618T020000Z"
+        },
+        {
+          "url": "https://www.lokmat.com/international/date-of-funeral-of-iran-supreme-leader-ali-khamenei-announced-20-million-people-from-around-the-world-will-gather-a-a629/",
+          "title": "इराणचे सर्वोच्च नेते अली खामेनेई यांच्या अंत्यविधीची तारीख जाहीर ; जगातून २ कोटी लोक जमणार",
+          "domain": "lokmat.com",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://www.smdailyjournal.com/news/world/trump-to-discuss-strait-of-hormuz-demining-efforts-at-g7-as-confidence-grows-for-iran/article_c2169ebb-eac4-57ba-9637-e793c94bdad3.html",
+          "title": "Trump to discuss Strait of Hormuz demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "smdailyjournal.com",
+          "seendate": "20260613T160000Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/middle-east/irans-unity-in-12-day-war-forced-enemy-to-seek-ceasefire-iranian-president-pezeshkian20260614130238/",
+          "title": "Iran unity in 12 - day war forced  enemy  to seek ceasefire : Iranian President Pezeshkian",
+          "domain": "aninews.in",
+          "seendate": "20260614T090000Z"
+        },
+        {
+          "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1226023-0/",
+          "title": "שיקום ב - 300 מיליארד דולר : פרטים חדשים מההסכם בין ארה  ב לאיראן",
+          "domain": "kipa.co.il",
+          "seendate": "20260615T101500Z"
+        },
+        {
+          "url": "https://www.nwaonline.com/news/2026/jun/14/trump-says-deal-to-end-war-is-close/",
+          "title": "Trump says deal to end war is close | Northwest Arkansas Democrat - Gazette",
+          "domain": "nwaonline.com",
+          "seendate": "20260614T120000Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/world/trump-to-discuss-strait-of-hormuz-demining-efforts-at-g7-as-confidence-grows-for-iran/article_cced8e8b-6f26-52d9-811c-3aace2cc3eb8.html",
+          "title": "Trump to discuss Strait of Hormuz demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "thegazette.com",
+          "seendate": "20260613T170000Z"
+        },
+        {
+          "url": "https://www.africanews.com/2026/06/13/iran-to-bury-late-supreme-leader-khamenei-on-july-9/",
+          "title": "Iran to bury late Supreme Leader Khamenei on July 9",
+          "domain": "africanews.com",
+          "seendate": "20260613T190000Z"
+        },
+        {
+          "url": "https://abcnews.com/International/wireStory/funeral-slain-iranian-supreme-leader-khamenei-set-july-133841702",
+          "title": "Trump to discuss Strait of Hormuz demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "abcnews.com",
+          "seendate": "20260613T171500Z"
+        },
+        {
+          "url": "https://www.wyff4.com/article/trump-discuss-strait-hormuz-demining-efforts-g7-iran-war/71578335",
+          "title": "Pakistan says deal to end Iran War is closer than ever",
+          "domain": "wyff4.com",
+          "seendate": "20260613T184500Z"
+        },
+        {
+          "url": "https://www.aljarida.com/article/134626",
+          "title": " « الجريدة » تكشف كواليس قرار طهران عدم الرد على غارة الضاحية وإعلان قبول مذكرة التفاهم",
+          "domain": "aljarida.com",
+          "seendate": "20260615T124500Z"
+        },
+        {
+          "url": "https://www.manilatimes.net/2026/06/14/world/trump-to-discuss-hormuz-shipping-security-at-g7-amid-signs-of-breakthrough-with-iran/2364955",
+          "title": "Trump to discuss Hormuz shipping security at G7 amid signs of breakthrough with Iran",
+          "domain": "manilatimes.net",
+          "seendate": "20260613T184500Z"
+        },
+        {
+          "url": "https://theshillongtimes.com/2026/06/16/war-ends-us-iran-agree-to-sign-peace-deal-on-friday/",
+          "title": "WAR ENDS : US , Iran agree to sign peace deal on Friday",
+          "domain": "theshillongtimes.com",
+          "seendate": "20260615T211500Z"
+        },
+        {
+          "url": "https://www.koat.com/article/trump-discuss-strait-hormuz-demining-efforts-g7-iran-war/71578335",
+          "title": "Pakistan says deal to end Iran War is closer than ever",
+          "domain": "koat.com",
+          "seendate": "20260613T224500Z"
+        },
+        {
+          "url": "https://www.wxii12.com/article/trump-discuss-strait-hormuz-demining-efforts-g7-iran-war/71578335",
+          "title": "Pakistan says deal to end Iran War is closer than ever",
+          "domain": "wxii12.com",
+          "seendate": "20260613T201500Z"
+        },
+        {
+          "url": "https://www.wesh.com/article/trump-discuss-strait-hormuz-demining-efforts-g7-iran-war/71578335",
+          "title": "Pakistan says deal to end Iran War is closer than ever",
+          "domain": "wesh.com",
+          "seendate": "20260613T210000Z"
+        },
+        {
+          "url": "https://www.arthosuchak.com/archives/962414/%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%A6%E0%A6%BE%E0%A6%AB%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%86%E0%A6%AF%E0%A6%BC/",
+          "title": "জুলাইয়ে দাফন করা হবে আয়াতুল্লাহ আলি খামেনিকে",
+          "domain": "arthosuchak.com",
+          "seendate": "20260613T201500Z"
+        },
+        {
+          "url": "https://www.kcci.com/article/trump-discuss-strait-hormuz-demining-efforts-g7-iran-war/71578335",
+          "title": "Pakistan says deal to end Iran War is closer than ever",
+          "domain": "kcci.com",
+          "seendate": "20260613T201500Z"
+        },
+        {
+          "url": "https://www.dailynayadiganta.com/international/asia/middle-east/kLR7wbdOwenP",
+          "title": "আলি খামেনির দাফনের সময় জানাল ইরান",
+          "domain": "dailynayadiganta.com",
+          "seendate": "20260613T144500Z"
+        },
+        {
+          "url": "https://www.wnp.pl/bezpieczenstwo/prezydent-usa-zapowiada-podpisanie-memorandum-o-porozumieniu-z-iranem-w-ciagu-najblizszych-godzin,1071738.html",
+          "title": "  Dlaczego Bibi musiał przeprowadzić ten cholerny atak ? Trump ruga izraelskiego premiera i zapowiada rychłe memorandum o porozumie",
+          "domain": "wnp.pl",
+          "seendate": "20260614T234500Z"
+        },
+        {
+          "url": "https://www.kcra.com/article/trump-discuss-strait-hormuz-demining-efforts-g7-iran-war/71578335",
+          "title": "Pakistan says deal to end Iran War is closer than ever",
+          "domain": "kcra.com",
+          "seendate": "20260613T190000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-14/live-updates-899277",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260614T071500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-17/live-updates-899642",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260617T063000Z"
+        },
+        {
+          "url": "https://www.wlwt.com/article/trump-discuss-strait-hormuz-demining-efforts-g7-iran-war/71578335",
+          "title": "Pakistan says deal to end Iran War is closer than ever",
+          "domain": "wlwt.com",
+          "seendate": "20260613T201500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-11/live-updates-899036",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260611T041500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-13/live-updates-899240",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260613T070000Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/c9cf4-a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal-is-reached/",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "wral.com",
+          "seendate": "20260615T054500Z"
+        },
+        {
+          "url": "https://www.local10.com/news/2026/06/13/trump-to-discuss-strait-of-hormuz-demining-efforts-at-g7-as-confidence-grows-for-iran-war-deal/",
+          "title": "Trump to discuss Strait of Hormuz demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "local10.com",
+          "seendate": "20260613T164500Z"
+        },
+        {
+          "url": "https://www.outlookindia.com/international/trump-says-us-iran-reach-peace-deal-strait-of-hormuz-to-open-on-friday-2",
+          "title": "Trump Says US , Iran Reach Peace Deal , Strait of Hormuz To Open On Friday",
+          "domain": "outlookindia.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/iran-ali-hamaney-icin-4-temmuz-da-toren-duzenleyecek-19944856-haberi/",
+          "title": "İran :  Ali Hamaneyin Cenaze Töreni , 4 Temmuzda Başlayacak , Defin 9 Temmuzda Meşhedde  ",
+          "domain": "haberler.com",
+          "seendate": "20260613T120000Z"
+        },
+        {
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/06/12/trump-cancels-strikes-against-iran-planned-for-thursday-evening",
+          "title": "Trump cancels strikes against Iran planned for Thursday evening",
+          "domain": "freemalaysiatoday.com",
+          "seendate": "20260611T213000Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal/article_b8358afd-6432-5957-98cd-944d9d996a2c.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "thegazette.com",
+          "seendate": "20260615T063000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/06/14/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal-is-reached",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260615T053000Z"
+        },
+        {
+          "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1226027-0/",
+          "title": "המסמכים הסודיים נחשפים : מתיחות מפתיעה בין חמאס לאיראן",
+          "domain": "kipa.co.il",
+          "seendate": "20260615T101500Z"
+        },
+        {
+          "url": "https://www.dw.com/en/iran-war-trump-says-deal-with-iran-to-be-signed-on-sunday/live-77535647",
+          "title": "Iran war : Trump says deal with Iran to be signed on Sunday",
+          "domain": "dw.com",
+          "seendate": "20260613T183000Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-funeral-khamenei-date-trump-b2995147.html",
+          "title": "Iran says funeral for Supreme Leader Khamenei will begin on July 4 amid peace deal rumours",
+          "domain": "independent.co.uk",
+          "seendate": "20260613T131500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/rj5sp4pzfl",
+          "title": "4 היעדים של נתניהו שלא באופק , והדיווח באיראן :  ארה  ב קיבלה הנחה ל - 60 יום בהורמוז  ",
+          "domain": "ynet.co.il",
+          "seendate": "20260615T123000Z"
+        },
+        {
+          "url": "https://www.haaretz.co.il/news/dailynews/2026-06-12/ty-article-live/0000019e-b885-d415-a5fe-bfbf80fe0000?liveBlogItemId=1023400210",
+          "title": "חדשות היום , 12 ביוני",
+          "domain": "haaretz.co.il",
+          "seendate": "20260612T200000Z"
+        },
+        {
+          "url": "https://www.haaretz.co.il/news/dailynews/2026-06-12/ty-article-live/0000019e-b885-d415-a5fe-bfbf80fe0000?liveBlogItemId=302525475",
+          "title": "חדשות היום , 12 ביוני",
+          "domain": "haaretz.co.il",
+          "seendate": "20260612T214500Z"
+        },
+        {
+          "url": "https://www.yourlocalguardian.co.uk/news/national/26192379.us-pakistan-say-deal-end-iran-war-closer-ever-tehran-needs-time/",
+          "title": "US and Pakistan say deal to end Iran war closer than ever but Tehran needs time",
+          "domain": "yourlocalguardian.co.uk",
+          "seendate": "20260613T230000Z"
+        },
+        {
+          "url": "https://www.csmonitor.com/World/2026/0613/Trump-to-meet-with-leaders-at-G7-as-confidence-grows-for-Iran-war-deal",
+          "title": "Trump to discuss demining efforts at G7 as confidence grows for Iran war deal",
+          "domain": "csmonitor.com",
+          "seendate": "20260613T171500Z"
+        },
+        {
+          "url": "http://www.jpost.com/opinion/article-899112",
+          "title": "The Knesset Rabello affair reveals Netanyahu enduring blind spot",
+          "domain": "jpost.com",
+          "seendate": "20260614T071500Z"
+        },
+        {
+          "url": "https://www.jpost.com/opinion/article-899112",
+          "title": "The Knesset Rabello affair reveals Netanyahu enduring blind spot",
+          "domain": "jpost.com",
+          "seendate": "20260614T070000Z"
+        },
+        {
+          "url": "https://www.bd-pratidin.com/international-news/2026/06/13/1261652",
+          "title": "আয়াতুল্লাহ খামেনির দাফনের সময় জানাল ইরান | | বাংলাদেশ প্রতিদিন",
+          "domain": "bd-pratidin.com",
+          "seendate": "20260613T121500Z"
+        },
+        {
+          "url": "https://www.ntv.com.tr/dunya/trump-anlastik-dedi-iran-henuz-anlasmadik-1728223",
+          "title": "Trump  Anlaştık  dedi , İran  henüz anlaşmadık  ",
+          "domain": "ntv.com.tr",
+          "seendate": "20260612T031500Z"
+        },
+        {
+          "url": "https://www.wdsu.com/article/trump-discuss-strait-hormuz-demining-efforts-g7-iran-war/71578335",
+          "title": "Pakistan says deal to end Iran War is closer than ever",
+          "domain": "wdsu.com",
+          "seendate": "20260613T210000Z"
+        },
+        {
+          "url": "https://www.wsws.org/en/articles/2026/06/15/pgvd-j15.html",
+          "title": "Trump , Iran announce ceasefire agreement",
+          "domain": "wsws.org",
+          "seendate": "20260615T071500Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal/article_81f97ea3-f4b8-5c74-88a6-454d1ac7c82e.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "idahostatejournal.com",
+          "seendate": "20260615T073000Z"
+        },
+        {
+          "url": "https://www.therecord.com/news/world/middle-east/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal-is-reached/article_eb30b15c-76fb-5315-a43f-f252c7a062b9.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "therecord.com",
+          "seendate": "20260615T090000Z"
+        },
+        {
+          "url": "https://www.haaretz.co.il/news/politics/2026-06-16/ty-article/.premium/0000019e-ccb6-d035-a3df-ddfe84060000",
+          "title": "איראן קבעה את התנאים , טראמפ התיישר וישראל נדחקה ליציע",
+          "domain": "haaretz.co.il",
+          "seendate": "20260616T051500Z"
+        },
+        {
+          "url": "https://www.the-star.co.ke/news/world/2026-06-16-fragile-quiet-in-lebanon-as-us-iran-truce-leaves-unanswered-questions",
+          "title": "Fragile quiet in Lebanon as US - Iran truce leaves unanswered questions",
+          "domain": "the-star.co.ke",
+          "seendate": "20260616T183000Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/06/iran-260611-presstv17.htm",
+          "title": "Iran Armed Forces fully ready to give  painful , regret - inducing  response to any threat : Top commander",
+          "domain": "globalsecurity.org",
+          "seendate": "20260612T101500Z"
+        },
+        {
+          "url": "https://news.mail.ru/society/71256985/",
+          "title": "В Иране пройдут похороны Али Хаменеи : опубликован график траурных мероприятий",
+          "domain": "news.mail.ru",
+          "seendate": "20260614T024500Z"
+        },
+        {
+          "url": "https://alhurra.com/shows/%D8%AF%D9%8A%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%AA",
+          "title": "ديبلومات | الحرة",
+          "domain": "alhurra.com",
+          "seendate": "20260616T124500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/hamaney-in-cenaze-toren-tarihi-belli-oldu-718074",
+          "title": "Hamaneyin cenaze tören tarihi belli oldu",
+          "domain": "birgun.net",
+          "seendate": "20260613T183000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/hamaney-in-cenaze-toren-tarihi-belli-oldu-718074%20target=_blank%20class=stretched-link",
+          "title": "Hamaneyin cenaze tören tarihi belli oldu",
+          "domain": "birgun.net",
+          "seendate": "20260613T183000Z"
+        },
+        {
+          "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1226140-0/",
+          "title": "בחסות השיחות : החשש הכבד בישראל על כוונות איראן",
+          "domain": "kipa.co.il",
+          "seendate": "20260617T054500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=17062026&id=2a5cea0f-b04f-4329-96fd-4b3b67300ca7",
+          "title": "برلماني إيراني ينتقد مذكرة التفاهم مع واشنطن : إسرائيل ستعاود مهاجمتنا مجددا بعد توقيع الاتفاق",
+          "domain": "shorouknews.com",
+          "seendate": "20260617T101500Z"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2026-06-16/donald-trumps-deal-with-iran-analysis-john-lyons/106801618",
+          "title": "US - Iran agreement confirms Trump trend on the art of the deal",
+          "domain": "abc.net.au",
+          "seendate": "20260616T004500Z"
+        },
+        {
+          "url": "https://www.sandiegouniontribune.com/2026/06/14/a-tentative-deal-is-reached-to-end-the-iran-war-and-trump-orders-a-stop-to-the-us-naval-blockade/",
+          "title": "A tentative deal is reached to end the Iran war and Trump orders a stop to the US naval blockade",
+          "domain": "sandiegouniontribune.com",
+          "seendate": "20260615T031500Z"
+        },
+        {
+          "url": "https://www.bostonherald.com/2026/06/14/a-tentative-deal-is-reached-to-end-the-iran-war-and-trump-orders-a-stop-to-the-us-naval-blockade/",
+          "title": "A tentative deal is reached to end the Iran war and Trump orders a stop to the US naval blockade",
+          "domain": "bostonherald.com",
+          "seendate": "20260615T034500Z"
+        },
+        {
+          "url": "https://news.mail.ru/politics/71256836/",
+          "title": "Провал Израиля , позор США : Иран вышел победителем из войны",
+          "domain": "news.mail.ru",
+          "seendate": "20260614T014500Z"
+        },
+        {
+          "url": "https://www.dailymirror.lk/breaking-news/Iran-and-US-close-on-initial-deal-Tehran-says-no-signing-on-Sunday/108-342865",
+          "title": "Iran and US close on initial deal , Tehran says no signing on Sunday - Breaking News",
+          "domain": "dailymirror.lk",
+          "seendate": "20260613T211500Z"
+        },
+        {
+          "url": "https://www.indiatvnews.com/news/world/ayatollah-ali-khamenei-s-funeral-postponed-why-iran-s-slain-supreme-leader-s-burial-has-been-delayed-2026-06-12-1044550",
+          "title": "Ayatollah Ali Khamenei funeral postponed : Why Iran slain Supreme Leader burial has been delayed | World",
+          "domain": "indiatvnews.com",
+          "seendate": "20260612T050000Z"
+        },
+        {
+          "url": "https://www.haberturk.com/dunya/iran-da-oldurulen-eski-lider-ali-hamaney-in-cenaze-toreni-yapilacak-3891394",
+          "title": "İranda öldürülen eski lider Ali Hamaneyin cenaze töreni yapılacak",
+          "domain": "haberturk.com",
+          "seendate": "20260613T121500Z"
+        },
+        {
+          "url": "https://www.ensonhaber.com/ali-hamaney-icin-duzenlenecek-cenaze-toreninin-tarihi-belli-oldu-h1541855",
+          "title": "Ali Hamaneyin cenaze töreni için takvim açıklandı",
+          "domain": "ensonhaber.com",
+          "seendate": "20260613T114500Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/national/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal/article_ffc20a56-d318-50d9-95d2-daa9db7d96cb.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "dailyadvance.com",
+          "seendate": "20260615T061500Z"
+        },
+        {
+          "url": "https://www.stcatharinesstandard.ca/news/world/middle-east/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal-is-reached/article_3003a848-981b-5585-a06b-48330d5726c0.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "stcatharinesstandard.ca",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://www.eremnews.com/news/arab-world/xc81lgx",
+          "title": "مصدر : نقل اليورانيوم الإيراني إلى واشنطن انتصار لإسرائيل",
+          "domain": "eremnews.com",
+          "seendate": "20260613T184500Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/06/iran-260614-presstv07.htm",
+          "title": "Iran armed forces have  finger on the trigger  to strike enemy : Top commander",
+          "domain": "globalsecurity.org",
+          "seendate": "20260615T123000Z"
+        },
+        {
+          "url": "https://www.jugantor.com/international/1113499",
+          "title": "ইরান - যুক্তরাষ্ট্র শান্তি উদ্যোগে ইসরাইল থাকবে না , জানালেন নেতানিয়াহু",
+          "domain": "jugantor.com",
+          "seendate": "20260613T230000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/s1hjart11gx",
+          "title": "Iran says missiles off table in US talks , demands $300 billion in war damages",
+          "domain": "ynetnews.com",
+          "seendate": "20260612T103000Z"
+        },
+        {
+          "url": "http://www.merkur.de/politik/furcht-im-kreml-spricht-baende-kuenstliche-intelligenz-revolutioniert-geheimdienst-arbeit-die-94345142.html",
+          "title": "Putin fürchtet wohl Anschlag : Panik - Reaktion in Moskau spricht Bände",
+          "domain": "merkur.de",
+          "seendate": "20260613T044500Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/428511",
+          "title": "Trump : Khamenei has approved our deal",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260611T213000Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/iran-says-no-final-deal-reached-despite-trump-claims-of-breakthrough-1.500571864",
+          "title": "Iran Denies Final Deal on Middle East War as Trump Claims Breakthrough and Cancels Strikes",
+          "domain": "gulfnews.com",
+          "seendate": "20260612T084500Z"
+        },
+        {
+          "url": "https://english.aawsat.com/world/5284138-tentative-deal-reached-end-iran-war-and-trump-orders-stop-us-naval-blockade",
+          "title": "A Tentative Deal is Reached to End the Iran War and Trump Orders a Stop to the US Naval Blockade",
+          "domain": "english.aawsat.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://www.yenimesaj.com.tr/pezeskiyan-iran-halkinin-direnisi-israilin-hedeflerini-bosa-cikardi-H1609013.htm",
+          "title": "Pezeþkiyan :  Ýran halkýnn direniþi Ýsrailin hedeflerini boþa kardý  ",
+          "domain": "yenimesaj.com.tr",
+          "seendate": "20260614T130000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/bksef4nbgg",
+          "title": "  מלחמת מבוי סתום : התקיפה שעלולה להצית מחדש את האזור",
+          "domain": "ynet.co.il",
+          "seendate": "20260614T164500Z"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/Netanjahu-Dopoki-jestem-premierem-Iran-nie-zdobedzie-broni-atomowej-9150498.html",
+          "title": "Netanjahu : Dopóki jestem premierem , Iran nie zdobędzie broni atomowej",
+          "domain": "bankier.pl",
+          "seendate": "20260612T150000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/vpfvtz2hn",
+          "title": "איראן שיכורת הישרדות : האם תנסה להגיע לפצצה גרעינית",
+          "domain": "ynet.co.il",
+          "seendate": "20260612T011500Z"
+        },
+        {
+          "url": "https://www.thetimes-tribune.com/2026/06/14/a-tentative-deal-is-reached-to-end-the-iran-war-and-trump-orders-a-stop-to-the-us-naval-blockade/",
+          "title": "A tentative deal is reached to end the Iran war and Trump orders a stop to the US naval blockade",
+          "domain": "thetimes-tribune.com",
+          "seendate": "20260615T031500Z"
+        },
+        {
+          "url": "https://fortune.com/2026/06/14/trump-us-iran-ceasefire-deal-us-naval-blockade-end-strait-of-hormuz-reopening/",
+          "title": "Trump says deal reached with Iran and orders end to U . S . naval blockade as Hormuz to reopen",
+          "domain": "fortune.com",
+          "seendate": "20260615T034500Z"
+        },
+        {
+          "url": "https://www.local10.com/news/world/2026/06/14/a-tentative-deal-is-reached-to-end-the-iran-war-and-trump-orders-a-stop-to-the-us-naval-blockade/",
+          "title": "A tentative deal is reached to end the Iran war and Trump orders a stop to the US naval blockade",
+          "domain": "local10.com",
+          "seendate": "20260615T021500Z"
+        },
+        {
+          "url": "https://hu.euronews.com/2026/06/14/izraeli-legicsapasok-erik-bejrutot-mikozben-kozeledik-az-amerikaiirani-megallapodas",
+          "title": "Izraeli légicsapások érték Bejrútot , miközben közeledik az amerikai – iráni megállapodás",
+          "domain": "hu.euronews.com",
+          "seendate": "20260614T190000Z"
+        },
+        {
+          "url": "https://www.orlandosentinel.com/2026/06/14/a-tentative-deal-is-reached-to-end-the-iran-war-and-trump-orders-a-stop-to-the-us-naval-blockade/",
+          "title": "A tentative deal is reached to end the Iran war and Trump orders a stop to the US naval blockade",
+          "domain": "orlandosentinel.com",
+          "seendate": "20260615T054500Z"
+        },
+        {
+          "url": "https://www.dailylocal.com/2026/06/14/a-tentative-deal-is-reached-to-end-the-iran-war-and-trump-orders-a-stop-to-the-us-naval-blockade/",
+          "title": "A tentative deal is reached to end the Iran war and Trump orders a stop to the US naval blockade",
+          "domain": "dailylocal.com",
+          "seendate": "20260615T031500Z"
+        },
+        {
+          "url": "https://www.ahaber.com.tr/yazarlar/internet/osman-imece/2026/06/15/rejimi-degistirmek-icin-baslatilan-savas-rejimle-yapilan-anlasmayla-sonuclandi",
+          "title": "Rejimi değiştirmek için başlatılan savaş , rejimle yapılan anlaşmayla sonuçlandı",
+          "domain": "ahaber.com.tr",
+          "seendate": "20260615T104500Z"
+        },
+        {
+          "url": "https://www.wsfa.com/2026/06/14/pakistans-prime-minister-says-iran-us-have-reached-peace-deal-accord-cover-lebanon/",
+          "title": "Trump says deal reached with Iran and he has authorized that naval blockade leave Strait of Hormuz",
+          "domain": "wsfa.com",
+          "seendate": "20260615T153000Z"
+        },
+        {
+          "url": "https://www.hispantv.com/noticias/defensa/645542/iran-ceder-seguridad-independencia-potencia",
+          "title": "FFAA : Irán jamás cederá su seguridad e independencia a potencia alguna",
+          "domain": "hispantv.com",
+          "seendate": "20260613T210000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/428527",
+          "title": "Report : Iran memorandum includes framework for enriched uranium",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260612T071500Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/world-news/us-strikes-iran-hormuz-tehran-explosions",
+          "title": "ארה  ב תקפה באיראן הלילה : פיצוצים בטהרן ובמצר הורמוז",
+          "domain": "kikar.co.il",
+          "seendate": "20260611T054500Z"
+        },
+        {
+          "url": "http://www.jpost.com/international/article-899204",
+          "title": "Gulf leaders reportedly raced to stop Trump attack on Iran , presented deal",
+          "domain": "jpost.com",
+          "seendate": "20260612T073000Z"
+        },
+        {
+          "url": "https://dailyinqilab.com/international/news/904707",
+          "title": "যুক্তরাষ্ট্রকে  বিন্দুমাত্র বিশ্বাস করা যায় না : ইরান",
+          "domain": "dailyinqilab.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://www.bbc.com/persian/articles/cq61gmg12ljo",
+          "title": "تداوم حملات اسرائیل به جنوب لبنان با وجود خوشبینی به احتمال تفاهم ایران و آمریکا",
+          "domain": "bbc.com",
+          "seendate": "20260613T201500Z"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/Przelom-na-linii-USA-Iran-Trump-zapowiada-podpisanie-porozumienia-w-Europie-9150100.html",
+          "title": "Przełom na linii united states - Iran ? Trump zapowiada podpisanie porozumienia w Europie",
+          "domain": "bankier.pl",
+          "seendate": "20260612T084500Z"
+        },
+        {
+          "url": "https://www.jugantor.com/international/1113508",
+          "title": "খামেনির জানাজা কখন , কোথায় জানাল ইরান",
+          "domain": "jugantor.com",
+          "seendate": "20260614T034500Z"
+        }
+      ]
     },
     {
       "id": "trump_china",
@@ -56,7 +1561,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     },
@@ -73,37 +1578,1520 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.bankingnews.gr/diethni/articles/881781/to-iran-proanaggellei-antipoina-erxetai-isxyri-apantisi-proeidopoiei-iranos-aksiomatoyxos%20title=",
+        "https://www.bankingnews.gr/diethni/articles/881781/to-iran-proanaggellei-antipoina-erxetai-isxyri-apantisi-proeidopoiei-iranos-aksiomatoyxos",
+        "https://timesofindia.indiatimes.com/world/middle-east/iran-halted-planned-missile-attack-on-israel-to-allow-us-iran-agreement-to-proceed-after-beirut-strike-report/articleshow/131748138.cms"
+      ],
+      "articles": [
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/881781/to-iran-proanaggellei-antipoina-erxetai-isxyri-apantisi-proeidopoiei-iranos-aksiomatoyxos%20title=",
+          "title": "Το Ιράν προαναγγέλλει αντίποινα στο Ισραήλ – Έρχεται σκληρή απάντηση προειδοποιεί Ιρανός αξιωματούχος",
+          "domain": "bankingnews.gr",
+          "seendate": "20260614T184500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/881781/to-iran-proanaggellei-antipoina-erxetai-isxyri-apantisi-proeidopoiei-iranos-aksiomatoyxos",
+          "title": "Το Ιράν προαναγγέλλει αντίποινα στο Ισραήλ – Έρχεται σκληρή απάντηση προειδοποιεί Ιρανός αξιωματούχος",
+          "domain": "bankingnews.gr",
+          "seendate": "20260614T184500Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-halted-planned-missile-attack-on-israel-to-allow-us-iran-agreement-to-proceed-after-beirut-strike-report/articleshow/131748138.cms",
+          "title": "Iran halted planned missile attack on Israel to allow US - Iran agreement to proceed after Beirut strike : Report",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260615T153000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-06-15-iran-warns-deal-israel-unrestrained.html",
+          "title": "Iran warns  no point  in U . S . deal if Israel remains unrestrained – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260615T180000Z"
+        },
+        {
+          "url": "http://www.jpost.com/israel-news/article-899423",
+          "title": "Did Iran , Donald Trump , or Israel come out ahead ? Winners , losers of the new deal",
+          "domain": "jpost.com",
+          "seendate": "20260615T080000Z"
+        },
+        {
+          "url": "http://www.china.org.cn/2026-06/15/content_118548488.shtml",
+          "title": "Israel strike in Beirut triggers Iranian warnings of retaliation , casting shadow over emerging US - Iran deal",
+          "domain": "china.org.cn",
+          "seendate": "20260615T034500Z"
+        },
+        {
+          "url": "https://kibrisgazetesi.com/abd-ve-iran-arasinda-topyekun-gerilim-hurmuz-bogazi-kapatildi-usler-vuruldu/",
+          "title": "ABD ve İran arasında topyekun gerilim : Hürmüz Boğazı kapatıldı , üsler vuruldu - Kıbrıs Gazetesi - Kıbrıs Haber , KKTC Son Dakika ve Gündem Haberleri",
+          "domain": "kibrisgazetesi.com",
+          "seendate": "20260611T061500Z"
+        },
+        {
+          "url": "https://azertag.az/en/xeber/israeli_air_force_chief_confirms_broad_strike_on_iran_called_off_at_last_minute-4263487",
+          "title": "Israeli Air Force chief confirms  Broad Strike  on Iran called off at last minute",
+          "domain": "azertag.az",
+          "seendate": "20260616T091500Z"
+        },
+        {
+          "url": "https://azertag.az/en/xeber/4263487",
+          "title": "Israeli Air Force chief confirms  Broad Strike  on Iran called off at last minute",
+          "domain": "azertag.az",
+          "seendate": "20260617T000000Z"
+        },
+        {
+          "url": "https://www.trthaber.com/haber/dunya/abd-ve-iran-arasinda-topyekun-gerilim-hurmuz-bogazi-kapatildi-usler-vuruldu-947821.html",
+          "title": "ABD ve İran arasında topyekun gerilim : Hürmüz Boğazı kapatıldı , üsler vuruldu",
+          "domain": "trthaber.com",
+          "seendate": "20260611T053000Z"
+        },
+        {
+          "url": "https://www.indiatvnews.com/news/world/let-s-not-blow-it-trump-warns-after-israel-hits-beirut-says-iran-peace-deal-is-very-close-latest-updates-2026-06-14-1044828",
+          "title": "  Let not blow it : Trump warns after Israel hits Beirut , says Iran peace deal is  very close  | World",
+          "domain": "indiatvnews.com",
+          "seendate": "20260614T203000Z"
+        },
+        {
+          "url": "https://www.khaama.com/us-launches-new-strikes-on-targets-in-iran/",
+          "title": "US Launches New Strikes on Targets in Iran",
+          "domain": "khaama.com",
+          "seendate": "20260611T070000Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/06/iran-260616-azertac01.htm",
+          "title": "Israeli Air Force chief confirms  Broad Strike  on Iran called off at last minute",
+          "domain": "globalsecurity.org",
+          "seendate": "20260617T170000Z"
+        },
+        {
+          "url": "https://www.kibrispostasi.com/c37-DUNYA/n604611-abd-ve-iran-arasinda-topyekun-gerilim-hurmuz-bogazi-kapatildi-usler-vuruldu",
+          "title": "ABD ve İran arasında topyekun gerilim : Hürmüz Boğazı kapatıldı , üsler",
+          "domain": "kibrispostasi.com",
+          "seendate": "20260611T100000Z"
+        },
+        {
+          "url": "https://www.newsday.com/news/nation/iran-us-war-ceasefire-deal-t16495",
+          "title": "Israeli military strikes Beirut suburbs in the lead - up to anticipated US - Iran deal",
+          "domain": "newsday.com",
+          "seendate": "20260614T123000Z"
+        },
+        {
+          "url": "https://original.antiwar.com/trita-parsi/2026/06/14/with-one-strike-netanyahu-tries-to-kill-two-peace-deals/",
+          "title": "With One Strike , Netanyahu Tries To Kill Two Peace Deals",
+          "domain": "original.antiwar.com",
+          "seendate": "20260615T053000Z"
+        },
+        {
+          "url": "https://www.ocregister.com/2026/06/14/trump-warns-israel-and-iran-not-to-blow-it-after-new-strikes-threaten-emerging-ceasefire-deal/",
+          "title": "Trump warns Israel and Iran not to  blow it  after new strikes threaten emerging ceasefire deal – Orange County Register",
+          "domain": "ocregister.com",
+          "seendate": "20260614T213000Z"
+        },
+        {
+          "url": "https://www.euronews.com/2026/06/12/israeli-air-campaign-intensifies-across-southern-lebanon",
+          "title": "Israeli air campaign intensifies across southern Lebanon",
+          "domain": "euronews.com",
+          "seendate": "20260612T081500Z"
+        },
+        {
+          "url": "https://images.hindustantimes.com/images/app-images/2026/6/Minab-School-Strike-investigation.html",
+          "title": "Investigation : The Minab School Strike",
+          "domain": "images.hindustantimes.com",
+          "seendate": "20260615T090000Z"
+        },
+        {
+          "url": "https://www.straitstimes.com/world/middle-east/israel-counts-the-ways-that-netanyahus-iran-strategy-failed",
+          "title": "Israel counts the ways that Netanyahu Iran strategy failed",
+          "domain": "straitstimes.com",
+          "seendate": "20260616T043000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/articles/iran-leaders-taking-risks-predecessors-063910147.html",
+          "title": "Iran new leaders are taking risks their predecessors avoided",
+          "domain": "yahoo.com",
+          "seendate": "20260612T043000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/r1ytndh11ze",
+          "title": "  Normalizing fire at Israel : Jerusalem bristles as Trump pushes restraint on Hezboll",
+          "domain": "ynetnews.com",
+          "seendate": "20260614T193000Z"
+        },
+        {
+          "url": "http://www.bignewsnetwork.com/news/279117594/timeline-us-iran-israel-tit-for-tat-attacks-spiral-into-worst-escalation-since-april-ceasefire",
+          "title": "Timeline : U . S .- Iran - Israel tit - for - tat attacks spiral into worst escalation since April ceasefire",
+          "domain": "bignewsnetwork.com",
+          "seendate": "20260611T211500Z"
+        },
+        {
+          "url": "https://english.news.cn/20260612/c1057d51f0dd4f828b8b0cb8cd1d6a6c/c.html",
+          "title": "Timeline : U . S .- Iran - Israel tit - for - tat attacks spiral into worst escalation since April ceasefire - Xinhua",
+          "domain": "english.news.cn",
+          "seendate": "20260611T230000Z"
+        },
+        {
+          "url": "https://dunyanews.tv/en/World/957480-the-iranian-leaders-martyred-in-israelius-war",
+          "title": "The Iranian leaders martyred in Israeli - US war",
+          "domain": "dunyanews.tv",
+          "seendate": "20260616T064500Z"
+        },
+        {
+          "url": "https://english.aawsat.com/world/5284160-iranian-leaders-killed-israeli-us-war",
+          "title": "The Iranian Leaders Killed in Israeli - US War",
+          "domain": "english.aawsat.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/06/trump-insists-iran-deal-hours-away-despite-israeli-strike-beirut",
+          "title": "Trump insists Iran deal  hour away , despite Israeli strike on Beirut",
+          "domain": "al-monitor.com",
+          "seendate": "20260614T204500Z"
+        },
+        {
+          "url": "https://www.boursorama.com/actualite-economique/actualites/teheran-dit-ne-pas-avoir-tranche-sur-un-accord-brandi-par-trump-apres-l-annulation-de-frappes-40314db615e8f5fa9c78685d46cbdb9b",
+          "title": "Téhéran dit ne pas avoir tranché sur un accord brandi par Trump après lannulation de frappes - 12 / 06 / 2026 à 07 : 51",
+          "domain": "boursorama.com",
+          "seendate": "20260612T061500Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/the-iranian-leaders-killed-in-israeli-us-war/article71103399.ece",
+          "title": "Recap of Iranian leaders killed during the Israel - US war on Iran",
+          "domain": "thehindu.com",
+          "seendate": "20260615T051500Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/from-khamenei-to-commanders-irans-leadership-losses-in-us-israeli-strikes-1.500574478",
+          "title": "Key Iranian Leaders Killed in US - Israeli War : From Khamenei to Revolutionary Guard Commanders",
+          "domain": "gulfnews.com",
+          "seendate": "20260615T043000Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/06/iranian-leaders-killed-israeli-us-war",
+          "title": "The Iranian leaders killed in Israeli - US war",
+          "domain": "al-monitor.com",
+          "seendate": "20260615T054500Z"
+        },
+        {
+          "url": "https://www.bostonherald.com/2026/06/11/us-strikes-iran-war/",
+          "title": "Iran responds to second day of US strikes by firing at Gulf states",
+          "domain": "bostonherald.com",
+          "seendate": "20260611T124500Z"
+        },
+        {
+          "url": "http://www.jpost.com/opinion/article-898937",
+          "title": "Iran uses delay as a weapon against Israel , the US",
+          "domain": "jpost.com",
+          "seendate": "20260611T170000Z"
+        },
+        {
+          "url": "https://www.themarysue.com/trump-claims-he-is-in-the-final-throes-of-a-regional-peace-deal-then-strikes-iran-over-a-downed-helicopter/",
+          "title": "Trump Claims He Reaching a Peace Deal , Then Strikes Iran",
+          "domain": "themarysue.com",
+          "seendate": "20260616T174500Z"
+        },
+        {
+          "url": "https://www.dailypress.com/2026/06/11/us-strikes-iran-war/",
+          "title": "Iran responds to second day of US strikes by firing at Gulf states",
+          "domain": "dailypress.com",
+          "seendate": "20260611T124500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/06/three-dead-israel-says-strikes-hezbollah-beiruts-southern-suburbs",
+          "title": "Three dead as Israel says strikes Hezbollah in Beirut southern suburbs",
+          "domain": "al-monitor.com",
+          "seendate": "20260614T153000Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/us-iran-reach-peace-deal-signing-set-for-friday-pakistan-says/article71102525.ece",
+          "title": "U . S .- Iran peace deal announced with  permanent  end to military action",
+          "domain": "thehindu.com",
+          "seendate": "20260614T224500Z"
+        },
+        {
+          "url": "https://t24.com.tr/dunya/iran-devrim-muhafizlarindan-beyrut-sonrasi-misilleme-mesaji-ellerimiz-tetikte-dusmanin-kalbine-ates-etmeye-haziriz,1328908",
+          "title": "İran Devrim Muhafızları  ndan  Beyrut  sonrası misilleme mesajı : Ellerimiz tetikte , düşmanın kalbine ateş etmeye hazırız",
+          "domain": "t24.com.tr",
+          "seendate": "20260614T184500Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260611/49541918.html",
+          "title": "伊朗称发射导弹击退一架F - 16战机 警告与反击交织 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260611T040000Z"
+        },
+        {
+          "url": "https://www.rediff.com/news/report/lets-not-blow-it-trump-warns-beirut-strikes-may-jeopardise-iran-peace-deal/20260614.htm",
+          "title": "  Let not blow it : Trump warns Beirut strikes may jeopardise Iran peace deal",
+          "domain": "rediff.com",
+          "seendate": "20260614T210000Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/us/trump-says-israeli-strikes-on-beirut-should-not-have-happened-as-iran-peace-deal-nears20260614211158/",
+          "title": "Trump says Israeli strikes on Beirut  should not have happened  as Iran peace deal nears",
+          "domain": "aninews.in",
+          "seendate": "20260614T164500Z"
+        },
+        {
+          "url": "https://www.camera.org/article/mcclatchy-papers-remove-upi-article-which-falsely-cited-first-iran-attack-on-hezbollahs-behalf/",
+          "title": "McClatchy Papers Remove UPI Article Which Falsely Cited  First  Iran Attack on Hezbollah Behalf",
+          "domain": "camera.org",
+          "seendate": "20260611T211500Z"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/us-iran-war-live-updates-trump-tehran-peace-deal-caesefire-new-strikes-middle-east-strait-of-hormuz-10735703/",
+          "title": "US - Iran War News Live Updates : Trump Tehran Ceasefire Peace Talks Deal , US Iran Attacks , Strait of Hormuz Latest News Updates",
+          "domain": "indianexpress.com",
+          "seendate": "20260612T051500Z"
+        },
+        {
+          "url": "https://www.sb.by/articles/polzuchaya-eskalatsiya.html",
+          "title": "Антон Попов : Воронка насилия на Ближнем Востоке вновь раскручивается",
+          "domain": "sb.by",
+          "seendate": "20260612T073000Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260611/49541995.html",
+          "title": "美伊发生海上冲突 伊朗导弹袭击美军舰 霍尔木兹海峡局势紧张 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260611T040000Z"
+        },
+        {
+          "url": "https://www.echo-news.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "echo-news.co.uk",
+          "seendate": "20260611T173000Z"
+        },
+        {
+          "url": "https://www.the-star.co.ke/news/world/2026-06-12-tehran-says-nothing-finalised-after-trump-claims-deal-to-end-iran-war-near",
+          "title": "Tehran says  nothing  finalised after Trump claims deal to end Iran war near",
+          "domain": "the-star.co.ke",
+          "seendate": "20260612T101500Z"
+        },
+        {
+          "url": "https://www.freepressjournal.in/tech/iran-threatens-elon-musks-companies-in-the-middle-east-declares-starlink-a-military-target",
+          "title": "Iran Threatens Elon Musk Companies In The Middle East , Declares Starlink A Military Target",
+          "domain": "freepressjournal.in",
+          "seendate": "20260612T081500Z"
+        },
+        {
+          "url": "https://www.thenorthernecho.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "thenorthernecho.co.uk",
+          "seendate": "20260611T174500Z"
+        },
+        {
+          "url": "http://en.ce.cn/main/latest/202606/t20260615_3032226.shtml",
+          "title": "Israel strike in Beirut triggers Iranian warnings of retaliation , casting shadow over emerging U . S .- Iran deal -- China Economic Net",
+          "domain": "en.ce.cn",
+          "seendate": "20260615T063000Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260612/49543901.html",
+          "title": "特朗普取消原定今晚打击伊朗行动 中东局势暂时缓和 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260612T031500Z"
+        },
+        {
+          "url": "https://www.boursorama.com/actualite-economique/actualites/l-iran-campe-sur-son-droit-a-l-enrichissement-nucleaire-pour-tout-accord-avec-les-etats-unis-40314db615e8f5fa9c78685d46cbdb9b",
+          "title": "LIran campe sur son droit à lenrichissement nucléaire pour tout accord avec les Etats - Unis - 12 / 06 / 2026 à 14 : 51",
+          "domain": "boursorama.com",
+          "seendate": "20260612T151500Z"
+        },
+        {
+          "url": "https://www.theargus.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "theargus.co.uk",
+          "seendate": "20260616T200000Z"
+        },
+        {
+          "url": "https://www.salisburyjournal.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "salisburyjournal.co.uk",
+          "seendate": "20260615T104500Z"
+        },
+        {
+          "url": "https://www.cp24.com/news/world/2026/06/14/israeli-military-strikes-beirut-suburbs-in-the-lead-up-to-anticipated-us-iran-deal/",
+          "title": "Iran war : Israeli military strikes Beirut suburbs",
+          "domain": "cp24.com",
+          "seendate": "20260614T133000Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/ghalibaf-assails-warmongering-crazy-games-by-israeli-regime-1.500574311",
+          "title": "Ghalibaf assails  warmongering ,  crazy game by Israeli regime",
+          "domain": "gulfnews.com",
+          "seendate": "20260615T031500Z"
+        },
+        {
+          "url": "https://www.theboltonnews.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "theboltonnews.co.uk",
+          "seendate": "20260615T103000Z"
+        },
+        {
+          "url": "https://www.oxfordmail.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "oxfordmail.co.uk",
+          "seendate": "20260611T180000Z"
+        },
+        {
+          "url": "https://www.edp24.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "edp24.co.uk",
+          "seendate": "20260613T020000Z"
+        },
+        {
+          "url": "https://www.sbsun.com/2026/06/14/trump-warns-israel-and-iran-not-to-blow-it-after-new-strikes-threaten-emerging-ceasefire-deal/",
+          "title": "Trump warns Israel and Iran not to  blow it  after new strikes threaten emerging ceasefire deal – San Bernardino Sun",
+          "domain": "sbsun.com",
+          "seendate": "20260614T193000Z"
+        },
+        {
+          "url": "https://www.whittierdailynews.com/2026/06/14/trump-warns-israel-and-iran-not-to-blow-it-after-new-strikes-threaten-emerging-ceasefire-deal/",
+          "title": "Trump warns Israel and Iran not to  blow it  after new strikes threaten emerging ceasefire deal – Whittier Daily News",
+          "domain": "whittierdailynews.com",
+          "seendate": "20260614T193000Z"
+        },
+        {
+          "url": "https://www.bournemouthecho.co.uk/news/national/26184061.trump-threatens-strikes-iran-fires-back-countries-region/",
+          "title": "Trump threatens more strikes on Iran after it fires back at countries in region",
+          "domain": "bournemouthecho.co.uk",
+          "seendate": "20260613T053000Z"
+        },
+        {
+          "url": "https://www.haberturk.com/dunya/trump-in-barisi-netanyahu-nun-savasi-3891694",
+          "title": "Trump  ın barışı , Netanyahunun savaşı : Herkes anlaştı , İsrail hariç",
+          "domain": "haberturk.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://timesofoman.com/article/173049-israel-says-will-not-withdraw-from-south-lebanon",
+          "title": "Israel says will not withdraw from South Lebanon",
+          "domain": "timesofoman.com",
+          "seendate": "20260615T124500Z"
+        },
+        {
+          "url": "https://www.salisburyjournal.co.uk/news/national/26184061.trump-threatens-strikes-iran-fires-back-countries-region/",
+          "title": "Trump threatens more strikes on Iran after it fires back at countries in region",
+          "domain": "salisburyjournal.co.uk",
+          "seendate": "20260613T024500Z"
+        },
+        {
+          "url": "https://www.echo-news.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "echo-news.co.uk",
+          "seendate": "20260612T100000Z"
+        },
+        {
+          "url": "https://www.lancashiretelegraph.co.uk/news/national/26184061.trump-threatens-strikes-iran-fires-back-countries-region/",
+          "title": "Trump threatens more strikes on Iran after it fires back at countries in region",
+          "domain": "lancashiretelegraph.co.uk",
+          "seendate": "20260613T031500Z"
+        },
+        {
+          "url": "https://www.eadt.co.uk/news/national/26184061.trump-threatens-strikes-iran-fires-back-countries-region/",
+          "title": "Trump threatens more strikes on Iran after it fires back at countries in region",
+          "domain": "eadt.co.uk",
+          "seendate": "20260613T041500Z"
+        },
+        {
+          "url": "https://www.philenews.com/oikonomia/forbes/article/1732121/to-iran-klimakoni-eno-i-ikonomia-tou-piezete/",
+          "title": "Το Ιράν κλιμακώνει ενώ η οικονομία του πιέζεται",
+          "domain": "philenews.com",
+          "seendate": "20260611T090000Z"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/us-iran-peace-deal-nuclear-standoff-timeline-10740102/",
+          "title": "As Iran , US reach peace deal , a look at decades - long nuclear standoff",
+          "domain": "indianexpress.com",
+          "seendate": "20260615T093000Z"
+        },
+        {
+          "url": "https://khazanah.republika.co.id/berita/tgpwuk483/iranas-sepakat-berdamai-mui-titik-awal-hentikan-kejahatan-israel",
+          "title": "Iran - AS Sepakat Berdamai , MUI : Titik Awal Hentikan Kejahatan Israel",
+          "domain": "khazanah.republika.co.id",
+          "seendate": "20260616T100000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/us-israel-iran-war/timeline-how-the-us-israel-war-with-iran-unfolded-over-108-days/3967739",
+          "title": "TIMELINE – How the US - Israel war with Iran unfolded over 108 days",
+          "domain": "aa.com.tr",
+          "seendate": "20260615T184500Z"
+        },
+        {
+          "url": "http://www.greekherald.com/news/279123024/un-secretary-general-guterres-condemns-israeli-strikes-on-beirut-urges-restraint-amid-iran-us-peace-efforts",
+          "title": "UN Secretary - General Guterres condemns Israeli strikes on Beirut , urges restraint amid Iran - US peace efforts",
+          "domain": "greekherald.com",
+          "seendate": "20260615T003000Z"
+        },
+        {
+          "url": "http://www.heraldglobe.com/news/279123024/un-secretary-general-guterres-condemns-israeli-strikes-on-beirut-urges-restraint-amid-iran-us-peace-efforts",
+          "title": "UN Secretary - General Guterres condemns Israeli strikes on Beirut , urges restraint amid Iran - US peace efforts",
+          "domain": "heraldglobe.com",
+          "seendate": "20260614T234500Z"
+        },
+        {
+          "url": "https://www.yorkpress.co.uk/news/national/26184061.trump-threatens-strikes-iran-fires-back-countries-region/",
+          "title": "Trump threatens more strikes on Iran after it fires back at countries in region",
+          "domain": "yorkpress.co.uk",
+          "seendate": "20260613T031500Z"
+        },
+        {
+          "url": "https://www.yorkpress.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "yorkpress.co.uk",
+          "seendate": "20260613T001500Z"
+        },
+        {
+          "url": "https://www.24heures.ch/direct-moyen-orient-trump-annonce-quil-va-frapper-liran-tres-fort-ce-soir-809898347522",
+          "title": "DIRECT . Moyen - Orient : Trump annonce quil va frapper lIran « très fort ce soir » ",
+          "domain": "24heures.ch",
+          "seendate": "20260611T163000Z"
+        },
+        {
+          "url": "https://www.lalibre.be/dernieres-depeches/2026/06/14/liban-trois-morts-dans-une-frappe-israelienne-sur-la-banlieue-sud-de-beyrouth-EX5WBUI5NVECVO47KAZTBCNPUM/",
+          "title": "Liban : trois morts dans des frappes israéliennes sur la banlieue sud de Beyrouth",
+          "domain": "lalibre.be",
+          "seendate": "20260615T034500Z"
+        },
+        {
+          "url": "https://www.thenorthernecho.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "thenorthernecho.co.uk",
+          "seendate": "20260613T003000Z"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5472693",
+          "title": "美伊達成初步協議 伊朗戰爭相關大事記 - 國際 - 自由時報電子報",
+          "domain": "news.ltn.com.tw",
+          "seendate": "20260615T073000Z"
+        },
+        {
+          "url": "https://www.rappler.com/world/middle-east/lebanon-fighting-eases-us-iran-deal/",
+          "title": "Lebanon fighting eases after US - Iran deal",
+          "domain": "rappler.com",
+          "seendate": "20260616T041500Z"
+        },
+        {
+          "url": "https://www.bucksfreepress.co.uk/news/national/26184061.trump-threatens-strikes-iran-fires-back-countries-region/",
+          "title": "Trump threatens more strikes on Iran after it fires back at countries in region",
+          "domain": "bucksfreepress.co.uk",
+          "seendate": "20260613T070000Z"
+        },
+        {
+          "url": "https://www.laregione.ch/estero/estero/1931754/teheran-trump-iran-usa-giugno-golfo-tappe-pace-fury-epic",
+          "title": "Dal lancio di  Epic Fury  alla pace vicina , le tappe",
+          "domain": "laregione.ch",
+          "seendate": "20260611T220000Z"
+        },
+        {
+          "url": "https://www.bucksfreepress.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "bucksfreepress.co.uk",
+          "seendate": "20260613T020000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/arab-world/5284633-lebanon-fighting-eases-after-us-iran-deal",
+          "title": "Lebanon Fighting Eases After US - Iran Deal",
+          "domain": "english.aawsat.com",
+          "seendate": "20260616T061500Z"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cj0grpyg4v1t",
+          "title": "  Let not blow it ! Trump says after Tehran warns Israeli strike on Beirut risks US - Iran deal",
+          "domain": "bbc.com",
+          "seendate": "20260614T180000Z"
+        },
+        {
+          "url": "https://www.rawstory.com/trump-israel-2677038520/",
+          "title": "Trump scolds ally as wrench thrown in his peace deal :  Should not have happened  ",
+          "domain": "rawstory.com",
+          "seendate": "20260614T164500Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/06/iran-260611-presstv07.htm",
+          "title": "June 11 : Iran strikes US targets and closes Strait of Hormuz , as Trump backs down again",
+          "domain": "globalsecurity.org",
+          "seendate": "20260612T101500Z"
+        },
+        {
+          "url": "https://www.edp24.co.uk/news/national/26184383.us-launches-air-strikes-iran-trump-threats/",
+          "title": "US launches more air strikes against Iran after Trump threats",
+          "domain": "edp24.co.uk",
+          "seendate": "20260613T183000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/428595",
+          "title": "Senior Iranian leader blocks agreement",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260614T070000Z"
+        },
+        {
+          "url": "https://www.lexpress.fr/monde/proche-moyen-orient/en-direct-donald-trump-met-sa-menace-a-execution-et-frappe-de-nouveau-liran-Z4AT72MVFBDF7EBZ3VZWVUJZRA/",
+          "title": "EN DIRECT . Donald Trump met sa menace à exécution et frappe de nouveau lIran",
+          "domain": "lexpress.fr",
+          "seendate": "20260611T061500Z"
+        },
+        {
+          "url": "https://www.dhnet.be/actu/monde/2026/06/11/direct-guerre-au-moyen-orient-liran-a-nouveau-bombarde-par-les-etats-unis-promet-de-refermer-le-detroit-dormuz-ER6XDDINGBAA3C3PRRYBXM52MQ/",
+          "title": "DIRECT – Guerre au Moyen - Orient : LIran , à nouveau bombardé par les Etats - Unis , promet de refermer le détroit dOrmuz",
+          "domain": "dhnet.be",
+          "seendate": "20260611T050000Z"
+        },
+        {
+          "url": "https://www.theargus.co.uk/news/national/26184383.us-launches-air-strikes-iran-trump-threats/",
+          "title": "US launches more air strikes against Iran after Trump threats",
+          "domain": "theargus.co.uk",
+          "seendate": "20260613T170000Z"
+        },
+        {
+          "url": "https://www.salisburyjournal.co.uk/news/national/26184383.us-launches-air-strikes-iran-trump-threats/",
+          "title": "US launches more air strikes against Iran after Trump threats",
+          "domain": "salisburyjournal.co.uk",
+          "seendate": "20260613T170000Z"
+        },
+        {
+          "url": "https://www.lancashiretelegraph.co.uk/news/national/26184383.us-launches-air-strikes-iran-trump-threats/",
+          "title": "US launches more air strikes against Iran after Trump threats",
+          "domain": "lancashiretelegraph.co.uk",
+          "seendate": "20260611T173000Z"
+        },
+        {
+          "url": "https://www.eadt.co.uk/news/national/26184383.us-launches-air-strikes-iran-trump-threats/",
+          "title": "US launches more air strikes against Iran after Trump threats",
+          "domain": "eadt.co.uk",
+          "seendate": "20260613T183000Z"
+        },
+        {
+          "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/11/direct-guerre-au-moyen-orient-a-nouveau-bombarde-par-les-etats-unis-liran-promet-de-refermer-le-detroit-dormuz-U3QGFBEZ6FHN5JEG25EFBKMZ5Q/",
+          "title": "DIRECT - Guerre au Moyen - Orient : à nouveau bombardé par les Etats - Unis , lIran promet de refermer le détroit dOrmuz",
+          "domain": "lalibre.be",
+          "seendate": "20260611T054500Z"
+        },
+        {
+          "url": "https://www.dorsetecho.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "dorsetecho.co.uk",
+          "seendate": "20260611T174500Z"
+        },
+        {
+          "url": "https://www.nydailynews.com/2026/06/11/us-strikes-iran-war/",
+          "title": "Trump threatens to seize Iranian island vital to oil exports",
+          "domain": "nydailynews.com",
+          "seendate": "20260611T151500Z"
+        },
+        {
+          "url": "https://newtalk.tw/news/view/2026-06-17/1041943",
+          "title": "美國與伊朗即將簽和平協定 川普成功實現他的目標了嗎 ？ | 國際",
+          "domain": "newtalk.tw",
+          "seendate": "20260617T101500Z"
+        },
+        {
+          "url": "https://jowhar.com/us-launches-strikes-on-iran-as-tehran-threatens-retaliation-for-attacks/",
+          "title": "US Launches Strikes on Iran as Tehran Threatens Retaliation for Attacks",
+          "domain": "jowhar.com",
+          "seendate": "20260611T041500Z"
+        },
+        {
+          "url": "https://www.naharnet.com/stories/en/320682-trump-and-iran-announce-peace-deal",
+          "title": "Trump and Iran announce peace deal",
+          "domain": "naharnet.com",
+          "seendate": "20260615T093000Z"
+        },
+        {
+          "url": "https://www.rtl.be/actu/monde/international/nous-sommes-tres-doues-pour-negocier-coups-de-bombes-les-etats-unis-ont-bombarde/2026-06-11/article/791301",
+          "title": " Nous sommes très doués pour négocier à coups de bombes  : les États - Unis ont bombardé lIran durant la nuit , Téhran a riposté et veut refermer le détroit dOrmuz",
+          "domain": "rtl.be",
+          "seendate": "20260611T063000Z"
+        },
+        {
+          "url": "https://www.oxfordmail.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "oxfordmail.co.uk",
+          "seendate": "20260613T020000Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202606111848225089",
+          "title": "다시 불붙는 중동전쟁 … 이란 , 美 공습에 호르무즈 재봉쇄",
+          "domain": "fnnews.com",
+          "seendate": "20260611T121500Z"
+        },
+        {
+          "url": "https://www.news.cn/world/20260616/49e46f072d934cff8d63c71699c4b397/c.html",
+          "title": "观天下丨美伊又面临  60天循环 ？- 新华网",
+          "domain": "news.cn",
+          "seendate": "20260616T103000Z"
+        },
+        {
+          "url": "https://www.clickondetroit.com/news/2026/06/11/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "clickondetroit.com",
+          "seendate": "20260611T034500Z"
+        },
+        {
+          "url": "https://www.boursorama.com/actualite-economique/actualites/le-cessez-le-feu-presque-denue-de-sens-selon-l-iran-apres-de-nouvelles-frappes-americaines-b69eda37a84295a3e077341f57096c66",
+          "title": "Le cessez - le - feu presque  dénué de sens  selon lIran , après de nouvelles frappes américaines - 11 / 06 / 2026 à 11 : 22",
+          "domain": "boursorama.com",
+          "seendate": "20260611T111500Z"
+        },
+        {
+          "url": "https://mynorthwest.com/national/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/4246882",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "mynorthwest.com",
+          "seendate": "20260611T053000Z"
+        },
+        {
+          "url": "https://www.franceguyane.fr/actualite/international/teheran-dit-ne-pas-avoir-tranche-sur-un-accord-brandi-par-trump-apres-lannulation-de-frappes-1082262.php",
+          "title": "Téhéran dit ne pas avoir tranché sur un accord brandi par Trump après lannulation de frappes",
+          "domain": "franceguyane.fr",
+          "seendate": "20260612T091500Z"
+        },
+        {
+          "url": "https://www.wjr.com/2026/06/11/trump-launches-more-strikes-on-iran-following-tuesdays-attack/",
+          "title": "Trump Launches More Strikes on Iran Following Tuesday Attack",
+          "domain": "wjr.com",
+          "seendate": "20260611T163000Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/article_21bdf356-9ac7-5ef1-a91b-65d00fb2d84a.html",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "thegazette.com",
+          "seendate": "20260611T034500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/iran-says-deep-rooted-mistrust-of-us-remains-despite-breakthrough-deal-article-13950152.html",
+          "title": "Iran says  deep - rooted  mistrust of US remains despite breakthrough deal",
+          "domain": "moneycontrol.com",
+          "seendate": "20260615T131500Z"
+        },
+        {
+          "url": "https://www.news-gazette.com/news/nation-world/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/article_b12b449a-3710-5268-8db2-89e5622292f0.html",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "news-gazette.com",
+          "seendate": "20260611T043000Z"
+        },
+        {
+          "url": "https://www.tanea.gr/2026/06/11/world/proeidopoiisi-tramp-tha-xtypisoume-poly-sklira-to-iran-apopse-tha-katalavoume-to-nisi-xargk/",
+          "title": "Προειδοποίηση Τραμπ : « Θα χτυπήσουμε πολύ σκληρά το Ιράν απόψε – Θα καταλάβουμε το νησί Χαργκ » ",
+          "domain": "tanea.gr",
+          "seendate": "20260611T130000Z"
+        },
+        {
+          "url": "https://www.boursorama.com/actualite-economique/actualites/iran-trump-annule-des-frappes-evoquant-la-possible-signature-d-un-accord-imminent-b69eda37a84295a3e077341f57096c66",
+          "title": "Iran : Trump annule des frappes évoquant la possible signature dun accord imminent - 11 / 06 / 2026 à 21 : 13",
+          "domain": "boursorama.com",
+          "seendate": "20260611T211500Z"
+        },
+        {
+          "url": "https://www.newspim.com/news/view/20260615000014",
+          "title": " [ 종합 ] 트럼프  종전 합의 · 호르무즈 개방 … 이란도  합의 도달  확인",
+          "domain": "newspim.com",
+          "seendate": "20260615T003000Z"
+        },
+        {
+          "url": "https://athens-times.com/trump-on-netanyahu-difficult-man-should-be-grateful-to-us/",
+          "title": "Trump Calls Netanyahu  Difficult , Says He Should Be Gratefu",
+          "domain": "athens-times.com",
+          "seendate": "20260615T093000Z"
+        },
+        {
+          "url": "https://www.edp24.co.uk/news/national/26192708.dont-blow-it-trump-warns-israel-iran-strikes-threaten-emerging-deal/",
+          "title": "Dont  blow it , Trump warns Israel and Iran as strikes threaten emerging deal",
+          "domain": "edp24.co.uk",
+          "seendate": "20260614T154500Z"
+        },
+        {
+          "url": "https://www.freepressjournal.in/world/will-not-withdraw-from-lebanon-israel-rejects-us-pressure-after-trumps-iran-deal-idf-to-stay-in-security-zones",
+          "title": "  Will Not Withdraw From Lebanon : Israel Rejects US Pressure After Trump Iran Deal , IDF To Stay In Security Zones",
+          "domain": "freepressjournal.in",
+          "seendate": "20260615T094500Z"
+        },
+        {
+          "url": "https://www.dailyexcelsior.com/fragile-peace-accord/",
+          "title": "Fragile Peace Accord - Daily Excelsior",
+          "domain": "dailyexcelsior.com",
+          "seendate": "20260618T013000Z"
+        },
+        {
+          "url": "https://www.theargus.co.uk/news/national/26192708.dont-blow-it-trump-warns-israel-iran-strikes-threaten-emerging-deal/",
+          "title": "Dont  blow it , Trump warns Israel and Iran as strikes threaten emerging deal",
+          "domain": "theargus.co.uk",
+          "seendate": "20260614T164500Z"
+        },
+        {
+          "url": "https://www.pressdemocrat.com/2026/06/11/us-strikes-iran-war/",
+          "title": "Trump threatens to seize Iranian island vital to oil exports",
+          "domain": "pressdemocrat.com",
+          "seendate": "20260611T190000Z"
+        },
+        {
+          "url": "https://www.chinatimes.com/realtimenews/20260614002108-260408",
+          "title": "美伊協議卡關幕後黑手 ！ 伊朗衛隊強硬派指揮官起底 每次內鬥都贏 - 趨勢",
+          "domain": "chinatimes.com",
+          "seendate": "20260614T093000Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260612/49543199.html",
+          "title": "军机被击落 ， 特朗普狠揍伊朗 中东局势急剧升级 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260612T001500Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/c9cf4-a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal-is-reached/",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "wral.com",
+          "seendate": "20260615T054500Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/usiran-nuclear-timeline-decades-of-tension-explained-1.500574536",
+          "title": "US – Iran Nuclear Timeline : From Atoms for Peace to War , Ceasefire and Strait of Hormuz Deal Explained",
+          "domain": "gulfnews.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://news.antiwar.com/2026/06/16/israeli-air-force-chief-says-major-attack-on-iran-was-called-off-last-week/",
+          "title": "Israeli Air Force Chief Says Major Attack on Iran Was Called Off Last Week",
+          "domain": "news.antiwar.com",
+          "seendate": "20260617T014500Z"
+        },
+        {
+          "url": "https://www.arabnews.com/node/2647442/middle-east",
+          "title": "Israeli drone strikes kill at least 4 in southern Lebanon",
+          "domain": "arabnews.com",
+          "seendate": "20260616T173000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202606143770657093.html",
+          "title": "美伊谈判重大变数 ！ 以色列突然警告 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260614T060000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/sjhusbu11gx",
+          "title": "Trump Iran ceasefire is starting to look like a countdown to war",
+          "domain": "ynetnews.com",
+          "seendate": "20260611T151500Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal/article_b8358afd-6432-5957-98cd-944d9d996a2c.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "thegazette.com",
+          "seendate": "20260615T063000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/06/14/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal-is-reached",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260615T053000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8txOZ5cxD44",
+          "title": "伊朗称将就贝鲁特遭袭报复以色列",
+          "domain": "news.ifeng.com",
+          "seendate": "20260614T133000Z"
+        },
+        {
+          "url": "https://www.in.gr/2026/06/14/world/livanos-sfodres-sygkrouseis-anamesa-stis-israilines-dynameis-kai-ti-xezmpolax-i-aisiodoksia-tramp-den-exei-ftasei-ekei/",
+          "title": "Λίβανος : Σφοδρές συγκρούσεις ανάμεσα στις ισραηλινές δυνάμεις και τη Χεζμπολάχ – Η αισιοδοξία Τραμπ δεν έχει φτάσει εκεί",
+          "domain": "in.gr",
+          "seendate": "20260613T230000Z"
+        },
+        {
+          "url": "https://www.boursorama.com/actualite-economique/actualites/trump-menace-de-frapper-tres-fort-l-iran-qui-le-met-en-garde-contre-un-bourbier-sans-fin-b69eda37a84295a3e077341f57096c66",
+          "title": "Trump menace de frapper  très fort  lIran , qui le met en garde contre un  bourbier sans fin  - 11 / 06 / 2026 à 19 : 00",
+          "domain": "boursorama.com",
+          "seendate": "20260611T184500Z"
+        },
+        {
+          "url": "http://net.hr/danas/svijet/trump-kipti-zbog-izraela-bejrut-pod-vatrom-ovo-nece-ostati-bez-odgovora-f0c82fa1-6824-11f1-936f-9600040c8f8e",
+          "title": "Trump kipti zbog Izraela , Bejrut pod vatrom :  Ovo neće ostati bez odgovora  ",
+          "domain": "net.hr",
+          "seendate": "20260614T220000Z"
+        },
+        {
+          "url": "https://www.albawaba.net/news/window-closing-israel-weighs-final-moves-1630119",
+          "title": "  The window Is closing : Israel weighs final moves in Lebanon",
+          "domain": "albawaba.net",
+          "seendate": "20260614T023000Z"
+        },
+        {
+          "url": "https://www.lexpress.fr/monde/proche-moyen-orient/guerre-en-iran-plus-dune-cinquantaine-de-bases-militaires-iraniennes-endommagees-dapres-la-bbc-35Z6A3AQIFDHHFMCBEXO2EDUKM/",
+          "title": "Guerre en Iran : plus dune cinquantaine de bases militaires iraniennes endommagées , daprès la BBC",
+          "domain": "lexpress.fr",
+          "seendate": "20260614T110000Z"
+        },
+        {
+          "url": "https://www.f5haber.com/dunya/abdnin-4-saatlik-iran-operasyonu-tamamlandi-trumptan-yeni-tehdit-geldi-6931381",
+          "title": "ABDnin 4 saatlik İran operasyonu tamamlandı : Trumptan yeni tehdit geldi",
+          "domain": "f5haber.com",
+          "seendate": "20260611T064500Z"
+        },
+        {
+          "url": "https://www.wjr.com/2026/06/11/trump-walks-back-threat-of-thursday-night-attacks-on-iran/",
+          "title": "Trump Walks Back Threat of Thursday Night Attacks on Iran",
+          "domain": "wjr.com",
+          "seendate": "20260611T204500Z"
+        },
+        {
+          "url": "https://www.greeleytribune.com/2026/06/11/us-strikes-iran-war/",
+          "title": "Iran responds to second day of US strikes by firing at Gulf states",
+          "domain": "greeleytribune.com",
+          "seendate": "20260611T124500Z"
+        },
+        {
+          "url": "https://www.mainlinemedianews.com/2026/06/11/us-strikes-iran-war/",
+          "title": "Iran responds to second day of US strikes by firing at Gulf states",
+          "domain": "mainlinemedianews.com",
+          "seendate": "20260611T124500Z"
+        },
+        {
+          "url": "http://www.koreatimes.com/article/20260614/1617346",
+          "title": " [ 미 · 이란 종전 ] 발표일 아침까지 먹구름 … 반전 거듭한 극적 합의",
+          "domain": "koreatimes.com",
+          "seendate": "20260615T053000Z"
+        },
+        {
+          "url": "https://us.cnn.com/2026/06/15/middleeast/iran-agreement-full-circle-intl",
+          "title": "What was it all for ? US - Iran agreement brings bitter rivals full circle",
+          "domain": "us.cnn.com",
+          "seendate": "20260615T184500Z"
+        },
+        {
+          "url": "https://www.bursahakimiyet.com.tr/dunya/iran-israil-e-misilleme-yapilacagini-acikladi-cevabimiz-yakin-1649648",
+          "title": "İran , İsraile misilleme yapılacağını açıkladı :  Cevabımız yakın  ",
+          "domain": "bursahakimiyet.com.tr",
+          "seendate": "20260614T210000Z"
+        },
+        {
+          "url": "https://www.dorsetecho.co.uk/news/national/26184061.trump-threatens-strikes-iran-fires-back-countries-region/",
+          "title": "Trump threatens more strikes on Iran after it fires back at countries in region",
+          "domain": "dorsetecho.co.uk",
+          "seendate": "20260613T050000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/us-iran-ceasefire-news-donald-trump-us-strikes-on-iran-israel-lebanon-tensions-brent-crude-price-iran-nuclear-program-pakistan-liveblog-13947661.html",
+          "title": "US - Iran news live : Trump says Iran wont build or buy nuclear weapons ; fresh security alerts in Israel",
+          "domain": "moneycontrol.com",
+          "seendate": "20260612T040000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-06-13-uae-iraq-face-to-face-meeting.html",
+          "title": "UAE and Iran hold historic face - to - face meeting amid gulf tensions : A calculated shift in the shadow of war – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260614T000000Z"
+        },
+        {
+          "url": "https://www.dorsetecho.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "dorsetecho.co.uk",
+          "seendate": "20260613T010000Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal/article_81f97ea3-f4b8-5c74-88a6-454d1ac7c82e.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "idahostatejournal.com",
+          "seendate": "20260615T073000Z"
+        },
+        {
+          "url": "https://www.salisburyjournal.co.uk/news/national/26192708.dont-blow-it-trump-warns-israel-iran-strikes-threaten-emerging-deal/",
+          "title": "Dont  blow it , Trump warns Israel and Iran as strikes threaten emerging deal",
+          "domain": "salisburyjournal.co.uk",
+          "seendate": "20260614T203000Z"
+        },
+        {
+          "url": "https://www.voakorea.com/a/president-trump-warns-of-very-hard-strikes-against-iran-as-fighting-flares-061126/8159760.html",
+          "title": "트럼프 대통령 , 교전 재개 속 이란에  매우 강력한  공격 경고",
+          "domain": "voakorea.com",
+          "seendate": "20260611T184500Z"
+        },
+        {
+          "url": "http://www.81.cn/ss_208539/16466785.html",
+          "title": "国际观察丨美伊交火持续 ： 步步升级还是危险徘徊",
+          "domain": "81.cn",
+          "seendate": "20260611T153000Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/politics/2026/6/15/%D8%A8%D9%8A%D9%86-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D9%88%D8%AA%D9%84-%D8%A3%D8%A8%D9%8A%D8%A8-%D9%85%D9%86-%D9%8A%D9%85%D9%84%D9%83",
+          "title": "بين واشنطن وطهران وتل أبيب .. من يملك مفاتيح الاتفاق الأمريكي الإيراني ؟ ",
+          "domain": "aljazeera.net",
+          "seendate": "20260614T220000Z"
+        },
+        {
+          "url": "https://www.cnn.com/2026/06/15/middleeast/iran-agreement-full-circle-intl",
+          "title": "What was it all for ? US - Iran agreement brings bitter rivals full circle",
+          "domain": "cnn.com",
+          "seendate": "20260615T163000Z"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=04739606645481064&mediaCodeNo=257",
+          "title": "  이란 , 지도부 교체 후 전쟁에 대한 두려움 사라졌다  ",
+          "domain": "edaily.co.kr",
+          "seendate": "20260612T084500Z"
+        },
+        {
+          "url": "https://www.lapresse.ca/international/moyen-orient/2026-06-11/conflit-au-moyen-orient/trump-annule-les-frappes-contre-l-iran-et-evoque-un-accord.php",
+          "title": "Conflit au Moyen - Orient | Trump annule les frappes contre lIran et évoque un accord",
+          "domain": "lapresse.ca",
+          "seendate": "20260611T183000Z"
+        },
+        {
+          "url": "https://www.news24.com/world/us-iran-peace-deal-announced-with-permanent-end-to-military-action-20260615-0265",
+          "title": "US - Iran peace deal announced with  permanent  end to military action",
+          "domain": "news24.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/national/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal/article_ffc20a56-d318-50d9-95d2-daa9db7d96cb.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "dailyadvance.com",
+          "seendate": "20260615T061500Z"
+        },
+        {
+          "url": "https://www.ettoday.net/news/20260613/3182686.htm",
+          "title": "停火協議近了 ？ 伊朗外長曝 「 美伊交易內容 」 解除封鎖荷莫茲海峽 | ETtoday國際新聞",
+          "domain": "ettoday.net",
+          "seendate": "20260613T043000Z"
+        },
+        {
+          "url": "https://www.albayan.ae/news/middle-east/1393586",
+          "title": "ترامب عالق بين خطوط إيران وإسرائيل الحمراء .. هل يتوج التفاوض بالاتفاق ؟ ",
+          "domain": "albayan.ae",
+          "seendate": "20260614T184500Z"
+        },
+        {
+          "url": "https://www.gdnonline.com:443/Details/1397853",
+          "title": "World News : Four killed in Lebanon attacks",
+          "domain": "gdnonline.com",
+          "seendate": "20260617T013000Z"
+        },
+        {
+          "url": "https://www.gdnonline.com:443/Details/1397853/Four-killed-in-Lebanon-attacks",
+          "title": "World News : Four killed in Lebanon attacks",
+          "domain": "gdnonline.com",
+          "seendate": "20260617T031500Z"
+        },
+        {
+          "url": "https://www.chinatimes.com/realtimenews/20260611002302-260417",
+          "title": "普丁狂按讚Su - 57戰機要賣印度 俄專家拿F - 35打臉狠吐槽 - 軍事",
+          "domain": "chinatimes.com",
+          "seendate": "20260611T063000Z"
+        },
+        {
+          "url": "https://www.therecord.com/news/world/middle-east/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal-is-reached/article_eb30b15c-76fb-5315-a43f-f252c7a062b9.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "therecord.com",
+          "seendate": "20260615T090000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-06-16-israelis-angry-anxious-new-us-iran-deal.html",
+          "title": "Israelis Express Anger and Anxiety Over New U . S .- Iran Deal – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260616T123000Z"
+        },
+        {
+          "url": "https://www.lanouvellerepublique.fr/a-la-une/guerre-au-moyen-orient-l-iran-a-nouveau-bombarde-par-les-etats-unis-riposte-et-promet-de-refermer-le-detroit-d-ormuz-1781157367",
+          "title": "Guerre au Moyen - Orient : lIran , à nouveau bombardé par les États - Unis , riposte et promet de refermer le détroit dOrmuz",
+          "domain": "lanouvellerepublique.fr",
+          "seendate": "20260611T080000Z"
+        },
+        {
+          "url": "https://www.ntdtv.com/b5/2026/06/14/a104105856.html",
+          "title": "夏洛山 ： 伊朗遭美軍事重創仍強硬 誰支撐它 ？ | 中東局勢 | 美伊博弈 | 中共介入",
+          "domain": "ntdtv.com",
+          "seendate": "20260615T021500Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/articles/latest-iran-us-exchange-fire-031103095.html",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "yahoo.com",
+          "seendate": "20260611T034500Z"
+        },
+        {
+          "url": "https://www.yourlocalguardian.co.uk/news/national/26180825.us-strikes-iran-fires-back-trump-says-will-pay-price-stalled-talks/",
+          "title": "US strikes and Iran fires back as Trump says it will pay price for stalled talks",
+          "domain": "yourlocalguardian.co.uk",
+          "seendate": "20260612T233000Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/26565-the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "wral.com",
+          "seendate": "20260611T053000Z"
+        },
+        {
+          "url": "https://www.lapresse.ca/international/moyen-orient/2026-06-11/conflit-au-moyen-orient/donald-trump-jure-de-frapper-tres-fort-l-iran.php",
+          "title": "Conflit au Moyen - Orient | Donald Trump jure de frapper  très fort  lIran",
+          "domain": "lapresse.ca",
+          "seendate": "20260611T174500Z"
+        },
+        {
+          "url": "https://www.stcatharinesstandard.ca/news/world/middle-east/a-history-of-irans-nuclear-program-and-tensions-with-the-us-as-an-interim-deal-is-reached/article_3003a848-981b-5585-a06b-48330d5726c0.html",
+          "title": "A history of Iran nuclear program and tensions with the US as an interim deal is reached",
+          "domain": "stcatharinesstandard.ca",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/iran-says-fresh-us-strikes-make-ceasefire-practically-meaningless-is-a-wider-war-back-on-the-table-article-13947167.html",
+          "title": "Iran says fresh US strikes make ceasefire  practically meaningles : Is a wider war back on the table ? ",
+          "domain": "moneycontrol.com",
+          "seendate": "20260611T093000Z"
+        },
+        {
+          "url": "https://kashmirlife.net/trump-rebukes-israel-over-beirut-strike-as-us-iran-peace-deal-nears-440114/",
+          "title": "Trump Rebukes Israel Over Beirut Strike as US - Iran Peace Deal Nears",
+          "domain": "kashmirlife.net",
+          "seendate": "20260615T101500Z"
+        },
+        {
+          "url": "https://www.khaskhabar.com/local/delhi-ncr/delhi-news/news-minor-damage-to-key-israeli-airbase-amid-tensions-with-iran-missile-debris-falls-news-hindi-1-820406-KKN.html",
+          "title": "Minor damage to key Israeli airbase amid tensions with Iran ; missile debris falls , Delhi News in Hindi",
+          "domain": "khaskhabar.com",
+          "seendate": "20260611T050000Z"
+        },
+        {
+          "url": "https://www.linternaute.com/actualite/depeches/10687100-teheran-dit-ne-pas-avoir-tranche-sur-un-accord-brandi-par-trump-apres-l-annulation-de-frappes/",
+          "title": "Téhéran dit ne pas avoir tranché sur un accord brandi par Trump après lannulation de frappes",
+          "domain": "linternaute.com",
+          "seendate": "20260612T050000Z"
+        },
+        {
+          "url": "https://www.aktuality.sk/clanok/prrzo6I/izrael-vyzval-obyvatelov-juhu-libanonu-na-evakuaciu-nasledne-spustil-vlnu-utokov/",
+          "title": "Izrael vyzval obyvateľov juhu Libanonu na evakuáciu , následne spustil vlnu útokov",
+          "domain": "aktuality.sk",
+          "seendate": "20260613T120000Z"
+        },
+        {
+          "url": "https://www.dailysabah.com/world/mid-east/israel-renews-beirut-airstrikes-as-us-iran-inch-closer-to-deal",
+          "title": "Israel renews Beirut airstrikes as US - Iran inch closer to deal",
+          "domain": "dailysabah.com",
+          "seendate": "20260614T130000Z"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/2026/06/11/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "clickorlando.com",
+          "seendate": "20260611T044500Z"
+        },
+        {
+          "url": "https://www.wfmz.com/business/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/article_d3e9be26-862d-5ac4-8dea-cafd40445379.html",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "wfmz.com",
+          "seendate": "20260611T044500Z"
+        },
+        {
+          "url": "https://www.lapresse.ca/international/moyen-orient/2026-06-11/conflit-au-moyen-orient/trump-annule-les-frappes-contre-l-iran-et-evoque-un-accord-dementi-par-teheran.php",
+          "title": "Conflit au Moyen - Orient | Trump annule les frappes contre lIran et évoque un accord démenti par Téhéran",
+          "domain": "lapresse.ca",
+          "seendate": "20260611T203000Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-peace-deal-trump-ceasefire-israel-strikes-lebanon-b2994450.html",
+          "title": "A ceasefire in name only : How war in the Middle East is only getting worse",
+          "domain": "independent.co.uk",
+          "seendate": "20260612T150000Z"
+        },
+        {
+          "url": "https://www.ksat.com/news/2026/06/11/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/",
+          "title": "The Latest : Iran and US exchange fire for second day as hostiles escalate in Mideast region",
+          "domain": "ksat.com",
+          "seendate": "20260611T080000Z"
+        },
+        {
+          "url": "https://city.udn.com/2976/7247690?raid=7296308",
+          "title": "中東風雲錄 -- 開欄文 ： 埃及的加薩重建方案 -- Al Jazeera - 時事論壇",
+          "domain": "city.udn.com",
+          "seendate": "20260613T063000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-14/live-updates-899277",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260614T071500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-17/live-updates-899642",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260617T063000Z"
+        },
+        {
+          "url": "https://www.wsls.com/news/2026/06/11/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "wsls.com",
+          "seendate": "20260611T044500Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/ryt1ashwfg",
+          "title": "Trump : Iran deal could be signed within 2 - 3 hours ; I told Netanyahu ,  What the f ** k a",
+          "domain": "ynetnews.com",
+          "seendate": "20260614T193000Z"
+        },
+        {
+          "url": "https://www.epochtimes.com/gb/26/6/13/n14787973.htm",
+          "title": "夏洛山 ： 伊朗遭美军事重创仍强硬 谁支撑它 ？ ",
+          "domain": "epochtimes.com",
+          "seendate": "20260613T130000Z"
+        },
+        {
+          "url": "https://isp.netscape.com:443/news/world/story/0001/20260611/2656530d342f730821fc63e67a342891",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "isp.netscape.com",
+          "seendate": "20260611T041500Z"
+        },
+        {
+          "url": "https://www.rtl.be/actu/monde/international/les-etats-unis-bombardent-liran-teheran-riposte-et-annonce-la-fermeture-totale/2026-06-11/article/791301",
+          "title": "Les États - Unis bombardent lIran , Téhran riposte et annonce la fermeture totale du détroit dOrmuz : un cessez - le - feu  pratiquement dénué de sens  ? ",
+          "domain": "rtl.be",
+          "seendate": "20260611T114500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/abd-irana-yonelik-saldirilarimiz-tamamlandi-19935175-haberi/",
+          "title": "ABD : İrana yönelik saldırılarımız tamamlandı",
+          "domain": "haberler.com",
+          "seendate": "20260611T034500Z"
+        },
+        {
+          "url": "https://www.sudouest.fr/international/guerre-au-moyen-orient-le-point-sur-les-hauts-responsables-iraniens-tues-durant-le-conflit-29494464.php",
+          "title": "Guerre au Moyen - Orient  : le point sur les hauts responsables iraniens tués durant le conflit",
+          "domain": "sudouest.fr",
+          "seendate": "20260615T101500Z"
+        },
+        {
+          "url": "https://meobserver.org/politics/2026/06/15/the-impotence-of-victory-and-the-victory-of-the-impotent/",
+          "title": "The Impotence of Victory and the Victory of the Impotent - The Middle East Observer",
+          "domain": "meobserver.org",
+          "seendate": "20260615T151500Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/article_72ab2172-f73f-58d9-8288-d289f68ce2f8.html",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "idahostatejournal.com",
+          "seendate": "20260611T050000Z"
+        },
+        {
+          "url": "https://www.glasgowtimes.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "glasgowtimes.co.uk",
+          "seendate": "20260611T164500Z"
+        },
+        {
+          "url": "https://www.witneygazette.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "witneygazette.co.uk",
+          "seendate": "20260611T170000Z"
+        },
+        {
+          "url": "https://www.richmondandtwickenhamtimes.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "richmondandtwickenhamtimes.co.uk",
+          "seendate": "20260611T171500Z"
+        },
+        {
+          "url": "https://www.asianimage.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "asianimage.co.uk",
+          "seendate": "20260611T171500Z"
+        },
+        {
+          "url": "https://www.chesterstandard.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "chesterstandard.co.uk",
+          "seendate": "20260611T180000Z"
+        },
+        {
+          "url": "https://www.warringtonguardian.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "warringtonguardian.co.uk",
+          "seendate": "20260611T180000Z"
+        },
+        {
+          "url": "https://www.whtimes.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "whtimes.co.uk",
+          "seendate": "20260611T180000Z"
+        },
+        {
+          "url": "https://www.thewestmorlandgazette.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "thewestmorlandgazette.co.uk",
+          "seendate": "20260611T180000Z"
+        },
+        {
+          "url": "https://www.malverngazette.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "malverngazette.co.uk",
+          "seendate": "20260611T180000Z"
+        },
+        {
+          "url": "https://www.wirralglobe.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "wirralglobe.co.uk",
+          "seendate": "20260611T174500Z"
+        },
+        {
+          "url": "https://www.hillingdontimes.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "hillingdontimes.co.uk",
+          "seendate": "20260611T174500Z"
+        },
+        {
+          "url": "https://www.ledburyreporter.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "ledburyreporter.co.uk",
+          "seendate": "20260611T174500Z"
+        },
+        {
+          "url": "https://www.london-now.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "london-now.co.uk",
+          "seendate": "20260611T174500Z"
+        },
+        {
+          "url": "https://www.sthelensstar.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "sthelensstar.co.uk",
+          "seendate": "20260611T180000Z"
+        },
+        {
+          "url": "https://www.newsshopper.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "newsshopper.co.uk",
+          "seendate": "20260611T180000Z"
+        },
+        {
+          "url": "https://www.halesowennews.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "halesowennews.co.uk",
+          "seendate": "20260611T180000Z"
+        },
+        {
+          "url": "https://www.dumbartonreporter.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "dumbartonreporter.co.uk",
+          "seendate": "20260611T173000Z"
+        },
+        {
+          "url": "https://www.northwichguardian.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "northwichguardian.co.uk",
+          "seendate": "20260611T171500Z"
+        },
+        {
+          "url": "https://www.wharfedaleobserver.co.uk/news/national/26187467.trump-threatens-seize-island-vital-iran-oil-exports-ceasefire-teeters/",
+          "title": "Trump threatens to seize island vital to Iran oil exports , as ceasefire teeters",
+          "domain": "wharfedaleobserver.co.uk",
+          "seendate": "20260611T173000Z"
+        },
+        {
+          "url": "https://www.pravda.ru/news/world/2360707-trump-iran-deal-blockade-lift/",
+          "title": "Ультиматум на грани фола : Вашингтон пошел на резкую смену тактики после начала ударов по Ирану",
+          "domain": "pravda.ru",
+          "seendate": "20260611T233000Z"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/international/1317270/fleghetai-i-mesi-anatoli-nees-epitheseis-ton-hpa-sto-iran-apantise-i-tekherani",
+          "title": "Νέες επιδρομές ΗΠΑ στο Ιράν - Απάντηση Τεχεράνης και κλείσιμο Στενών Ορμούζ",
+          "domain": "sigmalive.com",
+          "seendate": "20260611T054500Z"
+        },
+        {
+          "url": "https://www.livemint.com/news/world/trump-says-no-one-purposefully-targeted-iranian-girls-school-as-us-probe-continues-11781722647751.html",
+          "title": "Trump says no one  purposefully  targeted Iranian girl school as US probe continues",
+          "domain": "livemint.com",
+          "seendate": "20260617T194500Z"
+        },
+        {
+          "url": "https://www.dailysignal.com/2026/06/12/iran-will-fall-within-the-year/",
+          "title": "Iran Will Fall Within the Year : Amit Segal and Josh Hammer",
+          "domain": "dailysignal.com",
+          "seendate": "20260612T233000Z"
+        },
+        {
+          "url": "http://www.idahopress.com/ap_news/us/the-latest-iran-and-us-exchange-fire-for-second-day-as-hostiles-escalate-in-mideast/article_4ba0acab-104b-55e7-a071-39300d7e92c4.html",
+          "title": "The Latest : Iran and US exchange fire for second day as hostiles escalate in Mideast region",
+          "domain": "idahopress.com",
+          "seendate": "20260611T070000Z"
+        },
+        {
+          "url": "https://www.posta.com.tr/dunya/trumptan-israilin-beyrut-saldirisina-yonelik-aciklama-3003531",
+          "title": "Trumptan İsrailin Beyrut saldırısına yönelik açıklama",
+          "domain": "posta.com.tr",
+          "seendate": "20260614T164500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-11/live-updates-899036",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260611T041500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-13/live-updates-899240",
+          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260613T070000Z"
+        },
+        {
+          "url": "https://www.eremnews.com/news/arab-world/9ujzgwn",
+          "title": "بين ضغط ترامب وإصرار نتنياهو .. هل يخرج لبنان من مظلة الاتفاق ؟ ",
+          "domain": "eremnews.com",
+          "seendate": "20260615T133000Z"
+        },
+        {
+          "url": "https://www.philstar.com/headlines/2026/06/16/2535516/us-iran-reach-peace-deal",
+          "title": "US , Iran reach peace deal",
+          "domain": "philstar.com",
+          "seendate": "20260615T163000Z"
+        },
+        {
+          "url": "https://www.linternaute.com/actualite/depeches/10686832-l-iran-a-nouveau-bombarde-par-les-etats-unis-promet-de-refermer-ormuz/",
+          "title": "LIran , à nouveau bombardé par les Etats - Unis , riposte et promet de refermer Ormuz",
+          "domain": "linternaute.com",
+          "seendate": "20260611T050000Z"
+        },
+        {
+          "url": "https://www.boursorama.com/actualite-economique/actualites/l-iran-a-nouveau-bombarde-par-les-etats-unis-riposte-et-promet-de-refermer-ormuz-b69eda37a84295a3e077341f57096c66",
+          "title": "LIran , à nouveau bombardé par les Etats - Unis , riposte et promet de refermer Ormuz - 11 / 06 / 2026 à 05 : 53",
+          "domain": "boursorama.com",
+          "seendate": "20260611T061500Z"
+        },
+        {
+          "url": "https://www.larepubliquedespyrenees.fr:443/societe/afp/l-iran-a-nouveau-bombarde-par-les-etats-unis-riposte-et-promet-de-refermer-ormuz-29437434.php",
+          "title": "LIran , à nouveau bombardé par les Etats - Unis , riposte et promet de refermer Ormuz",
+          "domain": "larepubliquedespyrenees.fr",
+          "seendate": "20260611T054500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/news/opinion/hormuz-to-geneva-how-iran-won-without-winning-and-what-every-market-must-now-reckon-with-13952403.html",
+          "title": "Hormuz to Geneva How Iran won without winning , and what every market must now reckon with",
+          "domain": "moneycontrol.com",
+          "seendate": "20260618T031500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KV53I4G3051492T3.html",
+          "title": "美国为何突然对伊发起  恶毒而暴力  的空袭 ， 伊朗新领导层行为方式发生彻底改变|美军|德黑兰|以色列|社交平台",
+          "domain": "163.com",
+          "seendate": "20260611T073000Z"
+        },
+        {
+          "url": "https://www.cnews.fr/france/2026-06-11/guerre-au-moyen-orient-benjamin-netanyahou-affirme-que-laccord-entre-teheran-et",
+          "title": "En direct - Guerre au Moyen - Orient : Benjamin Netanyahou affirme que laccord entre Téhéran et Washington comprend l  élimination de luranium enrichi iranien",
+          "domain": "cnews.fr",
+          "seendate": "20260611T231500Z"
+        },
+        {
+          "url": "https://www.almowaten.net/2026/06/%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D9%81%D9%88%D9%82-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86-%D9%88%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86-%D9%88%D8%A7%D8%B3/",
+          "title": "اعتراض صواريخ فوق الأردن والبحرين واستنفار في إسرا ... ",
+          "domain": "almowaten.net",
+          "seendate": "20260611T063000Z"
+        },
+        {
+          "url": "https://al-sharq.com/article/15/06/2026/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%86%D8%B3%D9%81-%D8%A3%D8%AC%D9%88%D8%A7%D8%A1-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%A4%D9%84-%D9%81%D9%8A-%D9%84%D8%A8%D9%86%D8%A7%D9%86",
+          "title": "‫ إسرائيل تنسف أجواء التفاؤل في لبنان",
+          "domain": "al-sharq.com",
+          "seendate": "20260615T063000Z"
+        },
+        {
+          "url": "https://n.yam.com/Article/20260611895736",
+          "title": "美飛彈庫存告急 國防高層將會晤川普商討增產",
+          "domain": "n.yam.com",
+          "seendate": "20260611T050000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/arts-and-life/life/faith/2026/06/15/defense-minister-says-israel-wont-withdraw-from-land-seized-in-lebanon-syria-and-gaza",
+          "title": "Defense minister says Israel wont withdraw from land seized in Lebanon , Syria and Gaza – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/national/the-latest-iran-and-us-exchange-fire-as-hostiles-escalate-in-mideast-region/article_19ec6265-ff21-5f34-8c84-a7dedca9b70b.html",
+          "title": "The Latest : Iran and US exchange fire as hostiles escalate in Mideast region",
+          "domain": "dailyadvance.com",
+          "seendate": "20260611T050000Z"
+        },
+        {
+          "url": "https://www.ledauphine.com/defense-guerre-conflit/2026/06/11/nouvelles-frappes-americaines-en-iran-teheran-promet-de-refermer-le-detroit-d-ormuz",
+          "title": "Guerre au Moyen - Orient . Nouvelles frappes américaines en Iran , Téhéran promet de refermer le détroit dOrmuz",
+          "domain": "ledauphine.com",
+          "seendate": "20260611T063000Z"
+        },
+        {
+          "url": "https://www.leprogres.fr/defense-guerre-conflit/2026/06/11/nouvelles-frappes-americaines-en-iran-teheran-promet-de-refermer-le-detroit-d-ormuz",
+          "title": "Guerre au Moyen - Orient . Nouvelles frappes américaines en Iran , Téhéran promet de refermer le détroit dOrmuz",
+          "domain": "leprogres.fr",
+          "seendate": "20260611T054500Z"
+        },
+        {
+          "url": "https://www.yourlocalguardian.co.uk/news/national/26184383.us-launches-air-strikes-iran-trump-threats/",
+          "title": "US launches more air strikes against Iran after Trump threats",
+          "domain": "yourlocalguardian.co.uk",
+          "seendate": "20260612T164500Z"
+        },
+        {
+          "url": "https://www.dna.fr/defense-guerre-conflit/2026/06/11/nouvelles-frappes-americaines-en-iran-teheran-promet-de-refermer-le-detroit-d-ormuz",
+          "title": "Guerre au Moyen - Orient . Nouvelles frappes américaines en Iran , Téhéran promet de refermer le détroit dOrmuz",
+          "domain": "dna.fr",
+          "seendate": "20260611T061500Z"
+        },
+        {
+          "url": "https://www.lejsl.com/defense-guerre-conflit/2026/06/11/nouvelles-frappes-americaines-en-iran-teheran-promet-de-refermer-le-detroit-d-ormuz",
+          "title": "Guerre au Moyen - Orient . Nouvelles frappes américaines en Iran , Téhéran promet de refermer le détroit dOrmuz",
+          "domain": "lejsl.com",
+          "seendate": "20260611T081500Z"
+        },
+        {
+          "url": "https://www.republicain-lorrain.fr/defense-guerre-conflit/2026/06/11/nouvelles-frappes-americaines-en-iran-teheran-promet-de-refermer-le-detroit-d-ormuz",
+          "title": "Guerre au Moyen - Orient . Nouvelles frappes américaines en Iran , Téhéran promet de refermer le détroit dOrmuz",
+          "domain": "republicain-lorrain.fr",
+          "seendate": "20260611T061500Z"
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/world/598225/let-the-oil-flow-us-iran-peace-deal-announced-with-permanent-end-to-military-action",
+          "title": "  Let the oil flow !: US - Iran peace deal announced with  permanent  end to military action",
+          "domain": "rnz.co.nz",
+          "seendate": "20260615T031500Z"
+        },
+        {
+          "url": "https://www.lalsace.fr/defense-guerre-conflit/2026/06/11/nouvelles-frappes-americaines-en-iran-teheran-promet-de-refermer-le-detroit-d-ormuz",
+          "title": "Guerre au Moyen - Orient . Nouvelles frappes américaines en Iran , Téhéran promet de refermer le détroit dOrmuz",
+          "domain": "lalsace.fr",
+          "seendate": "20260611T070000Z"
+        },
+        {
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1263499.html",
+          "title": "미 · 이란 종전 MOU 임박에도 … 이스라엘 , 레바논 베이루트 공격",
+          "domain": "hani.co.kr",
+          "seendate": "20260614T114500Z"
+        },
+        {
+          "url": "https://www.jacarandafm.com/news/news/us-iran-peace-deal-announced/",
+          "title": "US - Iran peace deal announced with  permanent  end to military action",
+          "domain": "jacarandafm.com",
+          "seendate": "20260615T063000Z"
+        },
+        {
+          "url": "https://www.ilgiornale.it/news/politica/nodo-libano-barricate-bibi-non-ci-ritiriamo-hezbollah-attesa-2678302.html",
+          "title": "Il nodo del Libano . Barricate di Bibi :  Non ci ritiriamo . Hezbollah in attesa",
+          "domain": "ilgiornale.it",
+          "seendate": "20260613T103000Z"
+        },
+        {
+          "url": "https://www.lbc.co.uk/article/iran-peace-us-hormuz-5HjdbYD_2/",
+          "title": "Iran peace deal on the horizon as new military action flares near Strait of Hormuz",
+          "domain": "lbc.co.uk",
+          "seendate": "20260613T124500Z"
+        },
+        {
+          "url": "https://www.dostor.org/5595134",
+          "title": "وكالة مهر : البرنامج الصاروخي الإيراني خارج طاولة التفاوض مع واشنطن",
+          "domain": "dostor.org",
+          "seendate": "20260612T101500Z"
+        }
+      ]
     }
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.7429,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -111,7 +3099,7 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -125,7 +3113,7 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.6143,
+      "composite_score": 0.4583,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -133,7 +3121,29 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9359,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.4583,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -147,15 +3157,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.4712,
+      "composite_score": 0.2083,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -169,15 +3179,15 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.2909,
+      "composite_score": 0.0417,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9182,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -307,11 +3317,11 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 250,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 146,
+      "unique_domains_total": 0,
       "tone_mean": null
     },
     "window_21d": {
@@ -328,6 +3338,6 @@
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 5 in 21d). Scores are provisional."
   ]
 }
