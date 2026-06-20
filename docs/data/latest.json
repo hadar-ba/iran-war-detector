@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-06-18T15:24:40.919548+00:00",
+  "timestamp_utc": "2026-06-20T14:03:50.829700+00:00",
   "status": "green",
-  "headline_score_7day": 46,
+  "headline_score_7day": 50,
   "headline_score_21day": 46,
-  "score_jump": 0,
+  "score_jump": 4,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "News patterns are within the normal range — no elevated signals detected.",
   "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (50% similarity). The 21-day picture is consistent: 46% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (50% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -25,8 +25,1513 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.sozcu.com.tr/iran-zaferini-ilan-etti-p328882",
+        "https://www.evrensel.net/haber/5988720/irandan-abd-ile-14-maddelik-mutabakat-sonrasi-ilk-aciklama-savasi-biz-kazandik-abd-ve-israili-yendik",
+        "http://www.jpost.com/opinion/article-899750"
+      ],
+      "articles": [
+        {
+          "url": "https://www.sozcu.com.tr/iran-zaferini-ilan-etti-p328882",
+          "title": "İran zaferini ilan etti",
+          "domain": "sozcu.com.tr",
+          "seendate": "20260617T211500Z"
+        },
+        {
+          "url": "https://www.evrensel.net/haber/5988720/irandan-abd-ile-14-maddelik-mutabakat-sonrasi-ilk-aciklama-savasi-biz-kazandik-abd-ve-israili-yendik",
+          "title": "İrandan ABD ile  14 maddelik mutabakat  sonrası ilk açıklama : Savaşı biz kazandık , ABD ve İsraili yendik",
+          "domain": "evrensel.net",
+          "seendate": "20260617T231500Z"
+        },
+        {
+          "url": "http://www.jpost.com/opinion/article-899750",
+          "title": "The US - Iran deal must not tie Hezbollah fate to Tehran ",
+          "domain": "jpost.com",
+          "seendate": "20260618T040000Z"
+        },
+        {
+          "url": "https://www.jpost.com/opinion/article-899750",
+          "title": "The US - Iran deal must not tie Hezbollah fate to Tehran ",
+          "domain": "jpost.com",
+          "seendate": "20260618T043000Z"
+        },
+        {
+          "url": "https://www.haber7.com/dunya/haber/3636484-atilan-imzalar-sonrasi-irandan-sonrasi-ilk-aciklama",
+          "title": "Atılan imzalar sonrası İrandan sonrası ilk açıklama ! ",
+          "domain": "haber7.com",
+          "seendate": "20260618T071500Z"
+        },
+        {
+          "url": "https://www.haberler.com/dunya/iran-meclis-baskani-abd-ve-siyonist-rejimi-yendik-19960937-haberi/",
+          "title": "İrandan ABD ile  14 maddelik mutabakat  sonrası ilk açıklama",
+          "domain": "haberler.com",
+          "seendate": "20260618T063000Z"
+        },
+        {
+          "url": "https://www.epochtimes.com/gb/26/6/19/n14792500.htm",
+          "title": "美伊签署谅解备忘录 霍尔木兹海峡局势如何 | 川普 | 特朗普 | 革命卫队",
+          "domain": "epochtimes.com",
+          "seendate": "20260619T170000Z"
+        },
+        {
+          "url": "https://www.sohu.com/a/1036368968_260616?edtsign=37D396047D463A6193D4C8A164ED8D3758DCCAA4&edtcode=urgGg3lvqugR8UK+Hjigtw==&scm=thor.283_14-200000.0.0-0-0-0-0.",
+          "title": "何时签署协议 ？ 美伊各执一词 ， 霍尔木兹海峡 、 对伊制裁成焦点",
+          "domain": "sohu.com",
+          "seendate": "20260614T043000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/abd-iran-mutabakatinin-ardindan-tahran-dan-ilk-aciklama-savasin-basindaki-9-hedefe-ulasmalarina-izin-vermedik-718905",
+          "title": "ABD - İran mutabakatının ardından Tahrandan ilk açıklama :  Savaşın başındaki 9 hedefe ulaşmalarına izin vermedik  ",
+          "domain": "birgun.net",
+          "seendate": "20260617T214500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/abd-iran-mutabakatinin-ardindan-tahran-dan-ilk-aciklama-savasin-basindaki-9-hedefe-ulasmalarina-izin-vermedik-718905%20target=_blank%20class=stretched-link",
+          "title": "ABD - İran mutabakatının ardından Tahrandan ilk açıklama :  Savaşın başındaki 9 hedefe ulaşmalarına izin vermedik  ",
+          "domain": "birgun.net",
+          "seendate": "20260617T220000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202606203776927623.html",
+          "title": "局势突变 ！ 国际原油暗盘大幅拉升 ！ 伊朗 ： 正在做两手准备 ！ _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260620T094500Z"
+        },
+        {
+          "url": "https://www.siasat.com/us-iranian-officials-head-to-switzerland-to-resume-talks-3492788/",
+          "title": "US , Iranian officials head to Switzerland to resume talks",
+          "domain": "siasat.com",
+          "seendate": "20260620T084500Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-06-20/doc-inicyrwf4349285.shtml",
+          "title": "美伊会谈宣告取消 _ 新浪科技 _ 新浪网",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260619T204500Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087352244-us-iran-talks-delayed-switzerland-meeting-cancelled",
+          "title": "US - Iran talks delayed ; Switzerland meeting cancelled",
+          "domain": "samaa.tv",
+          "seendate": "20260619T094500Z"
+        },
+        {
+          "url": "https://www.stcn.com/article/detail/3970060.html",
+          "title": "局势突变 ！ 全线跳水 ！ 股市 、 黄金 、 白银 ， 集体杀跌",
+          "domain": "stcn.com",
+          "seendate": "20260619T083000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202606193776883275.html",
+          "title": "美股期货深夜突然拉升 ！ 中东地区传来好消息 媒体称以色列与黎巴嫩真主党达成停火 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260620T020000Z"
+        },
+        {
+          "url": "https://www.epochtimes.com/gb/26/6/20/n14792881.htm",
+          "title": "川普特使和伊朗外长前往瑞士 将举行会谈 | 黎巴嫩停火 | 霍尔木兹海峡 | 阿拉格奇",
+          "domain": "epochtimes.com",
+          "seendate": "20260620T083000Z"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/us-iran-peace-deal-nuclear-standoff-timeline-10740102/",
+          "title": "As Iran , US reach peace deal , a look at decades - long nuclear standoff",
+          "domain": "indianexpress.com",
+          "seendate": "20260615T093000Z"
+        },
+        {
+          "url": "https://news.dayoo.com/world/202606/20/139998_54971912.htm",
+          "title": "伊朗称正讨论伊美谈判新计划 以色列  同意停火  后对黎空袭未停 _ 广州日报大洋网",
+          "domain": "news.dayoo.com",
+          "seendate": "20260620T014500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202606203776905390.html",
+          "title": "伊朗称正讨论伊美谈判新计划 以色列  同意停火  后对黎空袭未停 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260620T020000Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-566",
+          "title": "Morning update",
+          "domain": "middleeasteye.net",
+          "seendate": "20260620T071500Z"
+        },
+        {
+          "url": "https://www.hinews.cn/page?n=2832049&m=1&s=1044",
+          "title": "伊朗称正讨论伊美谈判新计划 以色列  同意停火  后对黎空袭未停 - 南海网",
+          "domain": "hinews.cn",
+          "seendate": "20260620T014500Z"
+        },
+        {
+          "url": "https://www.hinews.cn:443/page?n=2832049&m=1&s=1044",
+          "title": "伊朗称正讨论伊美谈判新计划 以色列  同意停火  后对黎空袭未停 - 南海网",
+          "domain": "hinews.cn",
+          "seendate": "20260620T041500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8u6RljUu3aO",
+          "title": "以色列  同意停火  后 ， 再次发动袭击 _ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260620T000000Z"
+        },
+        {
+          "url": "https://glavcom.ua/world/world-politics/cnn-netanjakhu-prahne-terminovoji-zustrichi-z-trampom-pislja-g7-1125640.html",
+          "title": "CNN : Нетаньяху прагне термінової зустрічі з Трампом після G7",
+          "domain": "glavcom.ua",
+          "seendate": "20260615T023000Z"
+        },
+        {
+          "url": "http://futures.cnfol.com/qishidongtai/20260617/32281931.shtml",
+          "title": "美伊临时协议签字在即 ， 中东离真正和平还有多远 ？_ 期市动态 _ 期货 _ 中金在线",
+          "domain": "futures.cnfol.com",
+          "seendate": "20260617T031500Z"
+        },
+        {
+          "url": "https://www.aktuality.sk/clanok/cIGTOhS/iran-potvrdil-odklad-stretnutia-s-usa-vo-svajciarsku-diplomati-slubuju-rokovania-v-najblizsich-dnoch/",
+          "title": "Irán potvrdil odklad stretnutia s united states vo Švajčiarsku . Diplomati sľubujú rokovania v najbližších dňoch",
+          "domain": "aktuality.sk",
+          "seendate": "20260619T164500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202606193776794184.html",
+          "title": "以军行动让特朗普感到沮丧 ！ 以方 ： 正与美国  艰难谈判  内塔尼亚胡 ： 不会撤军 ！ _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260619T024500Z"
+        },
+        {
+          "url": "http://gold.cnfol.com/caijingyaowen/20260619/32284612.shtml",
+          "title": "美伊重大突发 ！ 美国副总统万斯突然取消瑞士行程 伊朗会谈走向不确定 _ 财经要闻 _ 黄金网 _ 中金在线",
+          "domain": "gold.cnfol.com",
+          "seendate": "20260619T083000Z"
+        },
+        {
+          "url": "https://www.rawstory.com/iran-2677041250/",
+          "title": "Trump is still entangled in the Iranian war as key issue persists : analysis",
+          "domain": "rawstory.com",
+          "seendate": "20260615T174500Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-06-15-iran-warns-deal-israel-unrestrained.html",
+          "title": "Iran warns  no point  in U . S . deal if Israel remains unrestrained – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260615T180000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/us-israel-iran-war/timeline-how-the-us-israel-war-with-iran-unfolded-over-108-days/3967739",
+          "title": "TIMELINE – How the US - Israel war with Iran unfolded over 108 days",
+          "domain": "aa.com.tr",
+          "seendate": "20260615T184500Z"
+        },
+        {
+          "url": "https://www.bjnews.com.cn/detail/1781777922168785.html",
+          "title": "美伊签署谅解备忘录 ， 战争彻底结束了吗 ？ 新京报",
+          "domain": "bjnews.com.cn",
+          "seendate": "20260618T153000Z"
+        },
+        {
+          "url": "https://www.zaobao.com.sg/news/world/story20260617-9222509",
+          "title": "以军空袭黎巴嫩致多人死 G7呼吁停火",
+          "domain": "zaobao.com.sg",
+          "seendate": "20260617T141500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/882562/ghalibaf-apantoysame-stratiotika-eno-diapragmatevomastan-me-ipa-apokalypsi-dosame-telesigrafo-ston-trump-gia-israil",
+          "title": "Ghalibaf : Απαντούσαμε στρατιωτικά ενώ διαπραγματευόμασταν με ΗΠΑ – Αποκάλυψη : Δώσαμε τελεσίγραφο στον Trump για Ισραήλ",
+          "domain": "bankingnews.gr",
+          "seendate": "20260617T213000Z"
+        },
+        {
+          "url": "https://www.aktuality.sk/clanok/NK0wDZE/svajciarsko-potvrdilo-ze-rokovania-usa-a-iranu-sa-neuskutocnia/",
+          "title": "Švajčiarsko potvrdilo , že rokovania united states a Iránu sa neuskutočnia",
+          "domain": "aktuality.sk",
+          "seendate": "20260619T060000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVT20NU70514BE2Q.html",
+          "title": "以色列猛攻 ， 一轮接着一轮",
+          "domain": "163.com",
+          "seendate": "20260620T133000Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/06/20/lebanon-ceasefire-takes-effect-as-switzerland-talks-are-postponed",
+          "title": "Lebanon ceasefire takes effect as talks are delayed",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260619T204500Z"
+        },
+        {
+          "url": "https://www.voachinese.com/a/president-trump-says-us-didn-t-deal-with-iran-out-of-desperation-20260619/8162712.html",
+          "title": "特朗普总统 ： 美国与伊朗达成协议并非  出于绝望  ",
+          "domain": "voachinese.com",
+          "seendate": "20260619T213000Z"
+        },
+        {
+          "url": "https://www.islamicinvitationturkey.com/iran-celebrates-diplomatic-strength-with-battlefield-victory-says-qalibaf/",
+          "title": "Iran Celebrates Diplomatic Strength with Battlefield Victory , Says Qalibaf",
+          "domain": "islamicinvitationturkey.com",
+          "seendate": "20260618T143000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087352313-witkoff-araghchi-head-to-switzerland-for-us-iran-talks",
+          "title": "Witkoff , Araghchi head to Switzerland for US - Iran talks",
+          "domain": "samaa.tv",
+          "seendate": "20260620T063000Z"
+        },
+        {
+          "url": "https://www.oneindia.com/international/trump-envoy-steve-witkoff-heads-to-switzerland-irans-fm-likely-to-vosot-as-us-iran-talks-near-014-8123989.html",
+          "title": "Trump Envoy Steve Witkoff Heads To Switzerland ; Iran FM Likely To Visit As US - Iran Talks Near",
+          "domain": "oneindia.com",
+          "seendate": "20260620T063000Z"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5472693",
+          "title": "美伊達成初步協議 伊朗戰爭相關大事記 - 國際 - 自由時報電子報",
+          "domain": "news.ltn.com.tw",
+          "seendate": "20260615T073000Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/06/15/126679899.html",
+          "title": "不接受美伊协议 以誓言继续驻军黎南 警告伊朗勿动",
+          "domain": "wenxuecity.com",
+          "seendate": "20260615T220000Z"
+        },
+        {
+          "url": "https://www.wcvb.com/article/israel-hezbollah-fighting-us-iran-deal/71643195",
+          "title": "Fighting between Israel and Hezbollah continues",
+          "domain": "wcvb.com",
+          "seendate": "20260620T131500Z"
+        },
+        {
+          "url": "https://www.yicai.com/brief/103231129.html",
+          "title": "伊朗媒体 ： 以色列发动袭击后 ， 美方对伊让步",
+          "domain": "yicai.com",
+          "seendate": "20260615T163000Z"
+        },
+        {
+          "url": "https://www.163.com/news/article/KVGOMK880001899O.html",
+          "title": "消息人士 ： 以色列发动袭击后 美方对伊让步",
+          "domain": "163.com",
+          "seendate": "20260615T174500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202606153771924835.html",
+          "title": "伊朗媒体 ： 以色列发动袭击后 美方对伊让步 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260615T174500Z"
+        },
+        {
+          "url": "https://www.yicai.com/news/103231130.html",
+          "title": "伊朗媒体 ： 以色列发动袭击后 ， 美方对伊让步",
+          "domain": "yicai.com",
+          "seendate": "20260615T163000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202606193776782217.html",
+          "title": "伊朗推迟赴瑞士行程 伊朗最高领袖发声 ： 对谅解备忘录原则上持不同意见 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260619T004500Z"
+        },
+        {
+          "url": "https://www.ewn.co.za/2026/06/18/g7-pushes-for-israel-lebanon-ceasefire-as-hopes-grow-for-lower-oil-prices",
+          "title": "G7 pushes for Israel - Lebanon ceasefire as hopes grow for lower oil prices",
+          "domain": "ewn.co.za",
+          "seendate": "20260618T080000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/how-the-us-iran-deal-was-negotiated-after-weeks-of-strikes-threats-and-secret-diplomacy-2-article-13953086.html",
+          "title": "How the US - Iran deal was negotiated after weeks of strikes , threats and secret diplomacy",
+          "domain": "moneycontrol.com",
+          "seendate": "20260618T094500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/how-the-us-iran-deal-was-negotiated-after-weeks-of-strikes-threats-and-secret-diplomacy-article-13950988.html",
+          "title": "How the US - Iran deal was negotiated after weeks of strikes , threats and secret diplomacy - Moneycontrol . com",
+          "domain": "moneycontrol.com",
+          "seendate": "20260616T094500Z"
+        },
+        {
+          "url": "https://www.teraz.sk/zahranicie/pakistan-hovori-o-podpisani-dohody-ir/970137-clanok.html",
+          "title": "Pakistan hovorí o podpísaní dohody Iránu a united states v nedeľu",
+          "domain": "teraz.sk",
+          "seendate": "20260613T181500Z"
+        },
+        {
+          "url": "https://www.zaobao.com.sg/news/world/story20260616-9214735",
+          "title": "美伊协议不利以色列 ？ 内坦亚胡坚称可自由对付真主党",
+          "domain": "zaobao.com.sg",
+          "seendate": "20260616T114500Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260619/49558211.html",
+          "title": "美称解除对伊海上封锁伊最高领袖发声 60天期限启动 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260619T033000Z"
+        },
+        {
+          "url": "https://cbgc.scol.com.cn/news/7684486",
+          "title": "美伊已签谅解备忘录 ！ 中东和平还有哪些隐患 ？ 丨夜观天下",
+          "domain": "cbgc.scol.com.cn",
+          "seendate": "20260618T124500Z"
+        },
+        {
+          "url": "https://news.sina.com.cn/w/2026-06-14/doc-inickvrr5536363.shtml",
+          "title": "特朗普 ， 生日大礼  到了 ？_ 新浪新闻",
+          "domain": "news.sina.com.cn",
+          "seendate": "20260614T133000Z"
+        },
+        {
+          "url": "https://yle.fi/a/7-10100869",
+          "title": "Nytt eldupphör mellan Israel och Hizbollah – Expert :  Konflikten i Libanon kör in förhandlingarna i en återvändsgränd  | Utrikes",
+          "domain": "yle.fi",
+          "seendate": "20260619T141500Z"
+        },
+        {
+          "url": "https://www.irishtimes.com/world/middle-east/2026/06/16/how-the-us-iran-deal-came-together-amid-threats-strikes-and-frantic-diplomacy/",
+          "title": "How the US - Iran deal came together amid threats , strikes and frantic diplomacy",
+          "domain": "irishtimes.com",
+          "seendate": "20260616T140000Z"
+        },
+        {
+          "url": "http://news.cnfol.com/zhengquanyaowen/20260614/32279028.shtml",
+          "title": "巴基斯坦总理 ： 预计美伊协议将在24小时内敲定 _ 证券要闻 _ 财经 _ 中金在线",
+          "domain": "news.cnfol.com",
+          "seendate": "20260614T010000Z"
+        },
+        {
+          "url": "https://www.khaama.com/switzerland-cancels-planned-friday-us-iran-talks/",
+          "title": "Switzerland Cancels Planned Friday US - Iran Talks",
+          "domain": "khaama.com",
+          "seendate": "20260619T083000Z"
+        },
+        {
+          "url": "https://www.wdsu.com/article/israel-hezbollah-fighting-us-iran-deal/71643195",
+          "title": "Fighting between Israel and Hezbollah continues",
+          "domain": "wdsu.com",
+          "seendate": "20260620T133000Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/the-view-from-india-the-path-to-the-us-iran-framework-agreement/article71104756.ece",
+          "title": "The View from India | The path to the U . S .- Iran framework agreement",
+          "domain": "thehindu.com",
+          "seendate": "20260616T043000Z"
+        },
+        {
+          "url": "https://www.rbc.ua/rus/news/izrayil-ta-hezbolla-domovilisya-peremir-ya-1781877010.html",
+          "title": "Ізраїль та Хезболла домовились про перемир  я 19 червня",
+          "domain": "rbc.ua",
+          "seendate": "20260619T143000Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-563",
+          "title": "Morning update",
+          "domain": "middleeasteye.net",
+          "seendate": "20260617T083000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVMI4Q8R0514R9OJ.html",
+          "title": "担心美伊协议受干扰 ， 不想黎以战火再继续 ， 特朗普激烈指责以色列",
+          "domain": "163.com",
+          "seendate": "20260617T234500Z"
+        },
+        {
+          "url": "https://www.dw.com/zh/%E7%BE%8E%E4%BC%8A%E8%BE%BE%E6%88%90%E5%88%9D%E6%AD%A5%E5%8D%8F%E8%AE%AE-%E5%B0%86%E4%BA%8E%E7%91%9E%E5%A3%AB%E7%AD%BE%E7%BD%B2/a-77551654",
+          "title": "美伊达成初步协议 将于瑞士签署",
+          "domain": "dw.com",
+          "seendate": "20260615T061500Z"
+        },
+        {
+          "url": "https://www.wenweipo.com/a/202606/20/AP6a35e638e4b0b49ad1c00cd1.html",
+          "title": "美伊會談推遲 以與真主黨達成停火 - 國際",
+          "domain": "wenweipo.com",
+          "seendate": "20260620T033000Z"
+        },
+        {
+          "url": "https://www.americanthinker.com/articles/2026/06/love_taps_no_clear_endgame.html",
+          "title": "Love Taps , No Clear Endgame",
+          "domain": "americanthinker.com",
+          "seendate": "20260615T104500Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/06/19/126684197.html",
+          "title": "美伊达初步协议后松绑海上封锁 重启霍尔木兹海峡",
+          "domain": "wenxuecity.com",
+          "seendate": "20260620T040000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/6/19/as-lebanon-tests-us-iran-deal-trump-must-rein-in-netanyahu-analysts-say",
+          "title": "As Lebanon tests US - Iran deal , Trump must rein in Netanyahu , analysts say",
+          "domain": "aljazeera.com",
+          "seendate": "20260619T153000Z"
+        },
+        {
+          "url": "https://www.clevelandjewishnews.com/jns/discussing-trumps-reversal-on-iran/article_b43c9ed6-c356-5ce7-987b-6fd2b657d809.html",
+          "title": "Discussing Trump reversal on Iran",
+          "domain": "clevelandjewishnews.com",
+          "seendate": "20260618T171500Z"
+        },
+        {
+          "url": "https://time.com/article/2026/06/15/america-iran-peace-agreement-prevent-next-war/",
+          "title": "America and Iran Have an Agreement . And 60 Days to Prevent the Next War",
+          "domain": "time.com",
+          "seendate": "20260615T190000Z"
+        },
+        {
+          "url": "https://www.topky.sk/cl/11/9420897/Zasadne-slova-Trumpa--na-ktore-cakal-cely-svet--Hormuzsky-prieliv-sa-moze-otvorit-uz-o-par-hodin-",
+          "title": "USA podpíšu dohodu o mieri s Iránom v nedeľu , oznámil Trump",
+          "domain": "topky.sk",
+          "seendate": "20260613T194500Z"
+        },
+        {
+          "url": "https://index.hu/kulfold/2026/06/19/izrael-iran-hezbollah-egyesult-allamok-tuzszunet-beke-megallapodas-haboru-konfliktus-libanon/",
+          "title": "Index - Külföld - Tűzszünetet kötött Izrael és a libanoni Hezbollah , Izraelben szirénák szólaltak meg , Dél - Libanont pedig 16 - szor támadták",
+          "domain": "index.hu",
+          "seendate": "20260619T153000Z"
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/06/19/medio-oriente-lira-di-teheran-su-israele-salta-linizio-dei-negoziati-a-lucerna_032bd6eb-1d00-4f65-8a2c-ee1f3bdc9c41.html",
+          "title": "Medio Oriente : lira di Teheran su Israele , salta linizio dei negoziati a Lucerna - Notizie",
+          "domain": "ansa.it",
+          "seendate": "20260619T191500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8u3mPcNmFFU",
+          "title": "  抢在特朗普80岁生日格斗赛前 ， 美伊协议如何在最后一刻敲定 _ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260618T100000Z"
+        },
+        {
+          "url": "https://www.oneindia.com/international/why-is-the-israel-hezbollah-conflict-threatening-the-broader-middle-east-peace-deal-8123541.html",
+          "title": "Why Is the Israel - Hezbollah Conflict Threatening the Broader Middle East Peace Deal ? ",
+          "domain": "oneindia.com",
+          "seendate": "20260619T164500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/ifrc-lubnan-ve-iran-da-halk-ateskese-ragmen-saldirilarin-etkileriyle-mucadele-ediyor-19967241-haberi/",
+          "title": "IFRC : Lübnan ve İranda halk , İsrailin saldırılarının uzun vadeli etkileriyle yüzleşiyor",
+          "domain": "haberler.com",
+          "seendate": "20260619T123000Z"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4616827/trump-iran-deal-memorandum-of-understanding/",
+          "title": "The emperor nuke clothes : Trump Iran deal and the naked king",
+          "domain": "washingtonexaminer.com",
+          "seendate": "20260619T201500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202606203776905941.html",
+          "title": "以色列同意停火后再次空袭 ！ 特朗普施压 ！ 莫斯科遭大规模无人机袭击 俄乌谈判或重启 ！ 银价走低 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260620T020000Z"
+        },
+        {
+          "url": "https://dennikn.sk/minuta/5406580/",
+          "title": "Izrael a Hizballáh sa dohodli na prímerí , píše Reuters",
+          "domain": "dennikn.sk",
+          "seendate": "20260619T143000Z"
+        },
+        {
+          "url": "https://www.zaobao.com.sg/news/world/story20260619-9234786",
+          "title": "美伊会谈临时取消后 以色列与真主党同意停火",
+          "domain": "zaobao.com.sg",
+          "seendate": "20260619T153000Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/06/14/126678986.html",
+          "title": "特朗普称霍尔木兹海峡将随美伊协议19日签署而开放",
+          "domain": "wenxuecity.com",
+          "seendate": "20260615T023000Z"
+        },
+        {
+          "url": "https://gazeta.ua/articles/politics/_dahi-zneslo-hto-zlamav-sprobu-realno-zavershiti-vijnu-v-ukrayini-ta-koli-chekati-na-novu-mozhlivist/1253085",
+          "title": "Дахи знесло : хто зламав спробу реально завершити війну в Україні та коли чекати на нову можливість",
+          "domain": "gazeta.ua",
+          "seendate": "20260619T160000Z"
+        },
+        {
+          "url": "https://444.hu/2026/06/19/felbeszakadtak-az-amerikai-irani-targyalasok-svajcban-miutan-izrael-es-a-hezbollah-is-tamadasokat-inditott-libanonban",
+          "title": "Félbeszakadtak az amerikai - iráni tárgyalások Svájcban , miután Izrael és a Hezbollah is támadásokat indított Libanonban",
+          "domain": "444.hu",
+          "seendate": "20260619T123000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVMLM8QI0514R9P4.html",
+          "title": "以色列财长 ： 美伊达成的协议很糟糕",
+          "domain": "163.com",
+          "seendate": "20260618T004500Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/wm/2026-06-20/doc-iniczxrv8736946.shtml",
+          "title": "以色列再次发动袭击 ！ 巴基斯坦突发连环爆炸 ！ 伊朗 ： 正在做两手准备 ！ 原油怎么走",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260620T094500Z"
+        },
+        {
+          "url": "https://stock.jrj.com.cn/2026/06/20171357532699.shtml",
+          "title": "以色列再次发动袭击 ！ 巴基斯坦突发连环爆炸 ！ 伊朗 ： 正在做两手准备 ！ 原油怎么走",
+          "domain": "stock.jrj.com.cn",
+          "seendate": "20260620T121500Z"
+        },
+        {
+          "url": "https://www.tribuneindia.com/news/comment/deal-gives-iran-the-upper-hand/",
+          "title": "Deal gives Iran the upper hand - The Tribune",
+          "domain": "tribuneindia.com",
+          "seendate": "20260616T231500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8u7Gw73YRLt",
+          "title": "美方代表抵达瑞士 ， 伊朗媒体呼吁外长别去 ， 能否谈判悬而未决",
+          "domain": "news.ifeng.com",
+          "seendate": "20260620T130000Z"
+        },
+        {
+          "url": "http://www.chinaqw.com/yw/2026/06-18/407674.shtml",
+          "title": "美伊签署谅解备忘录 ， 一文梳理美以伊战事重要时间线 - 中国侨网",
+          "domain": "chinaqw.com",
+          "seendate": "20260618T020000Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/06/19/ceasefire-signing",
+          "title": "US – Iran Ceasefire Signing Signals New Start",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260619T204500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVSRE98N0512B07B.html",
+          "title": "全线上涨 ， 超6万人爆仓",
+          "domain": "163.com",
+          "seendate": "20260620T123000Z"
+        },
+        {
+          "url": "https://www.greanvillepost.com/total-meltdown-israel-going-nuts-over-the-trump-endorsed-mou/",
+          "title": "TOTAL MELTDOWN : Israel going nuts over the Trump - endorsed MoU – The Greanville Post",
+          "domain": "greanvillepost.com",
+          "seendate": "20260617T191500Z"
+        },
+        {
+          "url": "https://www.khaama.com/trump-rebukes-netanyahu-over-lebanon-says-israel-owes-its-survival-to-his-presidency/",
+          "title": "Trump Rebukes Netanyahu Over Lebanon , Says Israel Owes Its Survival to His Presidency",
+          "domain": "khaama.com",
+          "seendate": "20260617T093000Z"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/06/iran-260615-globaltimes02.htm",
+          "title": "US , Iran send mixed signals on deal after rounds of twists and turns",
+          "domain": "globalsecurity.org",
+          "seendate": "20260615T123000Z"
+        },
+        {
+          "url": "https://www.orientaldaily.com.my/news/international/2026/06/20/827180",
+          "title": "达成停火仍继续轰炸 黎巴嫩南部遭以军空袭5人亡 | 国际",
+          "domain": "orientaldaily.com.my",
+          "seendate": "20260620T084500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVQPSNTT0550A0OW.html",
+          "title": "美伊会谈取消 ， 此前表达强烈不满的以色列被万斯喊话  只有总统特朗普还同情你们  |白宫|伊朗|社交平台|唐纳 · 川普",
+          "domain": "163.com",
+          "seendate": "20260619T153000Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/katar-abd-iran-mutabakati-bolgesel-uzlasinin-ilk-adimi-19954806-haberi/",
+          "title": "Katar : ABD - İran mutabakatı bölgesel uzlaşı için ilk adım",
+          "domain": "haberler.com",
+          "seendate": "20260616T123000Z"
+        },
+        {
+          "url": "https://www.zinfos974.com/iran-etats-unis-un-accord-de-paix-conclu-apres-3-mois-et-demi-de-guerre/",
+          "title": "Iran - États - Unis : un accord de paix conclu après 3 mois et demi de guerre",
+          "domain": "zinfos974.com",
+          "seendate": "20260615T073000Z"
+        },
+        {
+          "url": "https://www.ess.fi/uutissuomalainen/9553712",
+          "title": "Medialähteet : Israel ja Hizbollah sopineet tulitauosta",
+          "domain": "ess.fi",
+          "seendate": "20260619T141500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVHJPMOC05568B6L.html",
+          "title": "拆解美伊  谅解备忘录 ， 特朗普为何  丧权辱国 ？ |伊朗|德黑兰|伊核协议|内塔尼亚胡|唐纳 · 川普",
+          "domain": "163.com",
+          "seendate": "20260616T064500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8u1mZIehP92",
+          "title": "唐驳虎 ： 美伊谈判桌前 ， 真主党为何变成了可交易的筹码 ？ ",
+          "domain": "news.ifeng.com",
+          "seendate": "20260617T051500Z"
+        },
+        {
+          "url": "https://www.nownews.com/news/6847880",
+          "title": "美伊剛停火黎巴嫩還在挨打 ！ 中國宣布人道援助伊朗 、 黎巴嫩 | 國際要聞 | 全球",
+          "domain": "nownews.com",
+          "seendate": "20260618T050000Z"
+        },
+        {
+          "url": "https://www.cnn.com/2026/06/20/middleeast/why-is-there-fighting-in-lebanon-and-does-it-threaten-the-iran-deal",
+          "title": "Why is there fighting in Lebanon and does it threaten the Iran deal ? ",
+          "domain": "cnn.com",
+          "seendate": "20260620T120000Z"
+        },
+        {
+          "url": "https://us.cnn.com/2026/06/20/middleeast/why-is-there-fighting-in-lebanon-and-does-it-threaten-the-iran-deal",
+          "title": "Why is there fighting in Lebanon and does it threaten the Iran deal ? ",
+          "domain": "us.cnn.com",
+          "seendate": "20260620T123000Z"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/06/20/middleeast/why-is-there-fighting-in-lebanon-and-does-it-threaten-the-iran-deal",
+          "title": "Why is there fighting in Lebanon and does it threaten the Iran deal ? ",
+          "domain": "edition.cnn.com",
+          "seendate": "20260620T121500Z"
+        },
+        {
+          "url": "http://forex.cnfol.com/jingjiyaowen/20260616/32280706.shtml",
+          "title": "特朗普刚刚重大表态 ： 美伊协议  已经全部签署 ! 美官员称相关细节两天内披露 _ 汇市观察 _ 外汇 _ 中金在线",
+          "domain": "forex.cnfol.com",
+          "seendate": "20260616T043000Z"
+        },
+        {
+          "url": "https://news.southcn.com/node_bd3d21235a/fdfd2f2256.shtml",
+          "title": "以色列  搅局  后美伊达成和平协议 ， 特朗普称全面开放霍尔木兹海峡 _ 南方网",
+          "domain": "news.southcn.com",
+          "seendate": "20260615T041500Z"
+        },
+        {
+          "url": "https://www.savonsanomat.fi/uutissuomalainen/9553712",
+          "title": "Medialähteet : Israel ja Hizbollah sopineet tulitauosta",
+          "domain": "savonsanomat.fi",
+          "seendate": "20260619T143000Z"
+        },
+        {
+          "url": "https://www.khaama.com/trump-calls-netanyahu-a-warrior-as-u-s-officials-fear-he-could-jeopardize-iran-deal/",
+          "title": "Trump Calls Netanyahu a  Warrior  as U . S . Officials Fear He Could Jeopardize Iran Deal",
+          "domain": "khaama.com",
+          "seendate": "20260620T064500Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-06-16/doc-inicqxfn9433124.shtml",
+          "title": "一文读懂｜美伊达成  谅解  重点问题仍各执一词 _ 新浪科技 _ 新浪网",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260616T090000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/article-899257",
+          "title": "What does a ceasefire really mean in today Middle East conflicts ? ",
+          "domain": "jpost.com",
+          "seendate": "20260613T164500Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/article-899257",
+          "title": "What does a ceasefire really mean in today Middle East conflicts ? ",
+          "domain": "jpost.com",
+          "seendate": "20260613T184500Z"
+        },
+        {
+          "url": "https://www.haberturk.com/dunya/son-dakika-israil-ve-hizbullah-anlasti-3892852",
+          "title": "Son dakika : İsrail ve Hizbullah anlaştı",
+          "domain": "haberturk.com",
+          "seendate": "20260619T134500Z"
+        },
+        {
+          "url": "https://24tv.ua/tramp-hotiv-zupiniti-iran-destabilizuvav-ves-blizkiy-shid_n3088510",
+          "title": "Трамп хотів зупинити Іран , а дестабілізував весь Близький Схід",
+          "domain": "24tv.ua",
+          "seendate": "20260616T114500Z"
+        },
+        {
+          "url": "https://en.dailypakistan.com.pk/13-Jun-2026/what-are-the-possible-points-of-consensus-in-us-iran-peace-deal",
+          "title": "What are the possible points of Consensus in US – Iran Peace Deal ? ",
+          "domain": "en.dailypakistan.com.pk",
+          "seendate": "20260613T170000Z"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/aopl/202606170312.aspx",
+          "title": "G7領袖歡迎美伊協議 要求立即在黎巴嫩停火 | 國際",
+          "domain": "cna.com.tw",
+          "seendate": "20260617T141500Z"
+        },
+        {
+          "url": "https://theconversation.com/us-iran-war-what-the-peace-deal-really-means-285269",
+          "title": "US - Iran war : what the  peace deal  really means",
+          "domain": "theconversation.com",
+          "seendate": "20260615T121500Z"
+        },
+        {
+          "url": "https://dennikn.sk/minuta/5393042/",
+          "title": "Donald Trump tvrdí , že podpis dohody s Iránom je naplánovaný na nedeľu",
+          "domain": "dennikn.sk",
+          "seendate": "20260613T194500Z"
+        },
+        {
+          "url": "https://interaksyon.philstar.com/politics-issues/2026/06/17/315095/us%E2%80%91iran-war-what-the-peace-deal-really-means/",
+          "title": "US ‑ Iran war : What the  peace deal  really means",
+          "domain": "interaksyon.philstar.com",
+          "seendate": "20260617T031500Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/israel-ground-offensive-southern-lebanon-escalates-tensions-1803658",
+          "title": "Israel Launches New Ground Offensive in Southern Lebanon While Hezbollah Claims Heavy Israeli Losses",
+          "domain": "ibtimes.co.uk",
+          "seendate": "20260619T050000Z"
+        },
+        {
+          "url": "https://www.hurriyet.com.tr/dunya/abd-mutabakat-metnini-ilk-kez-kamuoyuyla-paylasti-irandan-aciklama-geldi-abdyi-yendik-43209205",
+          "title": "Trump ile Pezeşkiyan imzaları attı : Anlaşma yürürlükte",
+          "domain": "hurriyet.com.tr",
+          "seendate": "20260617T224500Z"
+        },
+        {
+          "url": "https://www.posta.com.tr/dunya/trump-ile-pezeskiyan-imzalari-atti-anlasma-yururlukte-3004938",
+          "title": "Trump ile Pezeşkiyan imzaları attı : Anlaşma yürürlükte",
+          "domain": "posta.com.tr",
+          "seendate": "20260618T014500Z"
+        },
+        {
+          "url": "https://www.orientaldaily.com.my/news/international/2026/06/20/827178",
+          "title": "美媒 ： 特朗普特使赴瑞士进行美伊谈判 | 国际",
+          "domain": "orientaldaily.com.my",
+          "seendate": "20260620T073000Z"
+        },
+        {
+          "url": "https://www.topky.sk/cl/11/9420847/Trump-sa-zucastni-na-zasadnuti-so-Zelenskym--Rokovania-USA-a-Iranu-o-dohode-sa-blizia-k-podpisu",
+          "title": "Trump sa zúčastní na zasadnutí so Zelenským , bude rokovať aj o Iráne",
+          "domain": "topky.sk",
+          "seendate": "20260613T194500Z"
+        },
+        {
+          "url": "https://blog.wenxuecity.com/myblog/53242/202606/12685.html",
+          "title": "美伊停火 川总感谢习和普 , 你咋想 ？ - 博客",
+          "domain": "blog.wenxuecity.com",
+          "seendate": "20260617T163000Z"
+        },
+        {
+          "url": "http://futures.cnfol.com/qishidongtai/20260617/32281962.shtml",
+          "title": "美伊瑞士签字在即 ， 黎巴嫩或成  协议杀手 ？_ 期市动态 _ 期货 _ 中金在线",
+          "domain": "futures.cnfol.com",
+          "seendate": "20260617T031500Z"
+        },
+        {
+          "url": "https://www.ilpost.it/2026/06/20/cessate-il-fuoco-libano-israele-hezbollah-fragile/",
+          "title": "Il nuovo cessate il fuoco in Libano reggerà ? ",
+          "domain": "ilpost.it",
+          "seendate": "20260620T083000Z"
+        },
+        {
+          "url": "https://visionmp.com/world/israel-hezbollah-agree-to-ceasefire-in-lebanon/",
+          "title": "Israel , Hezbollah Agree to Ceasefire in Lebanon - visionmp . com vision mp - Vision MP – MP Breaking News , Madhya Pradesh News , Live Updates",
+          "domain": "visionmp.com",
+          "seendate": "20260619T153000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVESK91M051482MP.html",
+          "title": "美伊定于本周五在瑞士签署和平协议 ， 伊朗最高国家安全委员会发布紧急声明 ， 特朗普 ： 伊朗承诺不获取核武器 ， 霍尔木兹海峡将重新开放",
+          "domain": "163.com",
+          "seendate": "20260615T003000Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/opinion/qatar-played-its-strongest-cards-help-secure-us-iran-deal",
+          "title": "How Qatar played its strongest cards to help secure US - Iran deal",
+          "domain": "middleeasteye.net",
+          "seendate": "20260618T071500Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3775058",
+          "title": "报道称伊朗因以军持续袭击黎推迟赴瑞士谈判 ， 万斯指责以色列对美国缺乏信任",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260618T231500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVHIK3K80514R9OJ.html",
+          "title": "  试探性  表态 ， 万斯 ： 如伊朗履行协议 ， 可获得阿拉伯国家3000亿美元重建基金支持|美国|核协议草案",
+          "domain": "163.com",
+          "seendate": "20260616T013000Z"
+        },
+        {
+          "url": "https://www.newsx.com/world/iran-us-peace-deal-who-emerged-as-biggest-loser-netanyahu-trump-or-tehran-234711/",
+          "title": "Iran - US Peace Deal : Who Emerged As Biggest Loser - Netanyahu , Trump Or Tehran ? ",
+          "domain": "newsx.com",
+          "seendate": "20260616T130000Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/headline/2026-06-19/doc-inicxyyp4604406.shtml",
+          "title": "今日财经要闻TOP10|2026年6月19日",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260619T120000Z"
+        },
+        {
+          "url": "https://news.ycwb.com/ikimvkmtjn/content_54176135.htm",
+          "title": "美伊达成和平协议 ， 特朗普称全面开放霍尔木兹海峡 ， 国际油价显著下跌",
+          "domain": "news.ycwb.com",
+          "seendate": "20260615T093000Z"
+        },
+        {
+          "url": "https://www.yangtse.com/news/txs/202606/t20260618_363927.html",
+          "title": "热点问答｜美伊谅解备忘录看点扫描",
+          "domain": "yangtse.com",
+          "seendate": "20260618T153000Z"
+        },
+        {
+          "url": "https://hu.euronews.com/2026/06/20/iran-addig-nem-targyal-az-amerikaiakkal-tovabb-amig-libanonban-is-nincs-tuzszunet",
+          "title": "Irán addig nem tárgyal az amerikaiakkal tovább , amíg Libanonban is nincs tűzszünet",
+          "domain": "hu.euronews.com",
+          "seendate": "20260620T133000Z"
+        },
+        {
+          "url": "https://saharareporters.com/2026/06/20/israeli-strikes-kill-least-nine-persons-lebanon-gaza-despite-ceasefire-efforts",
+          "title": "Israeli Strikes Kill At Least Nine Persons In Lebanon , Gaza Despite Ceasefire Efforts",
+          "domain": "saharareporters.com",
+          "seendate": "20260620T100000Z"
+        },
+        {
+          "url": "https://www.unian.ua/world/iran-novini-vidterminuvannya-peregovoriv-shchodo-mirnoji-ugodi-stalo-udarom-dlya-trampa-13417902.html",
+          "title": "Іран новини – відтермінування переговорів щодо мирної угоди стало ударом для Трампа",
+          "domain": "unian.ua",
+          "seendate": "20260620T130000Z"
+        },
+        {
+          "url": "https://www.ekriti.gr/kosmos/nea-symfonia-israil-hezmpolah-gia-katapaysi-toy-pyros-meta-toys-bombardismoys-ston-libano",
+          "title": "Nέα συμφωνία Ισραήλ - Χεζμπολάχ για κατάπαυση του πυρός μετά τους βομβαρδισμούς στον Λίβανο",
+          "domain": "ekriti.gr",
+          "seendate": "20260620T070000Z"
+        },
+        {
+          "url": "https://www.ekriti.gr/kosmos/nea-symfonia-israil-hezmpolah-gia-katapaysi-toy-pyros",
+          "title": "Nέα συμφωνία Ισραήλ - Χεζμπολάχ για κατάπαυση του πυρός",
+          "domain": "ekriti.gr",
+          "seendate": "20260620T120000Z"
+        },
+        {
+          "url": "https://dennikn.sk/minuta/5408040/",
+          "title": "Vo Švajčiarsku prebiehajú rokovania o naplnení dohody medzi united states a Iránom",
+          "domain": "dennikn.sk",
+          "seendate": "20260620T133000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8u3t1IVJhwR",
+          "title": "美伊协议签了和平就来了 ？ 面前还有三道难关",
+          "domain": "news.ifeng.com",
+          "seendate": "20260618T121500Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/calm-down-sometimes-trump-speaks-to-israel-claims-credit-for-lebanon-ceasefire/articleshow/131869450.cms",
+          "title": "  Calm down sometime : Trump speaks to Israel , claims credit for Lebanon ceasefire",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260620T040000Z"
+        },
+        {
+          "url": "https://home.nzcity.co.nz/news/article.aspx?id=448002",
+          "title": "US - Iran war : what the  peace deal  really means - 16 - Jun - 2026",
+          "domain": "home.nzcity.co.nz",
+          "seendate": "20260615T213000Z"
+        },
+        {
+          "url": "https://www.dw.com/zh/%E7%BE%8E%E4%BC%8A%E8%BE%BE%E5%88%9D%E6%AD%A5%E5%8D%8F%E8%AE%AE%E5%90%8E%E6%9D%BE%E7%BB%91%E6%B5%B7%E4%B8%8A%E5%B0%81%E9%94%81-%E9%87%8D%E5%90%AF%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1/a-77621530",
+          "title": "美伊达初步协议后松绑海上封锁 重启霍尔木兹海峡",
+          "domain": "dw.com",
+          "seendate": "20260619T074500Z"
+        },
+        {
+          "url": "https://sana.sy/en/international/2324194/",
+          "title": "Berri says Lebanon committed to ceasefire if Israel fully complies",
+          "domain": "sana.sy",
+          "seendate": "20260619T123000Z"
+        },
+        {
+          "url": "http://forex.cnfol.com/jingjiyaowen/20260619/32284479.shtml",
+          "title": "6月19日财经早餐 ： 美元创一年新高压制黄金 ， 以色列袭击黎巴嫩南部 ， 伊朗推迟赴瑞行程 ， 原油自三个月低点回升 _ 汇市观察 _ 外汇 _ 中金在线",
+          "domain": "forex.cnfol.com",
+          "seendate": "20260619T033000Z"
+        },
+        {
+          "url": "https://www.wcvb.com/article/us-iran-peace-talks-delayed-israel-hezbollah-ceasefire/71640833",
+          "title": "US - Iran peace talks delayed , Israel - Hezbollah ceasefire announced",
+          "domain": "wcvb.com",
+          "seendate": "20260620T033000Z"
+        },
+        {
+          "url": "https://voiceofvienna.org/fresh-israeli-attacks-test-fragile-lebanon-ceasefire/",
+          "title": "Fresh Israeli Attacks Test Fragile Lebanon Ceasefire",
+          "domain": "voiceofvienna.org",
+          "seendate": "20260618T053000Z"
+        },
+        {
+          "url": "https://www.wyff4.com/article/us-iran-peace-talks-delayed-israel-hezbollah-ceasefire/71640833",
+          "title": "US - Iran peace talks delayed , Israel - Hezbollah ceasefire announced",
+          "domain": "wyff4.com",
+          "seendate": "20260620T024500Z"
+        },
+        {
+          "url": "https://www.perthnow.com.au/news/conflict/lebanon-ceasefire-agreed-after-swiss-talks-scrapped-c-22458777",
+          "title": "Lebanon ceasefire agreed after Swiss talks scrapped",
+          "domain": "perthnow.com.au",
+          "seendate": "20260619T164500Z"
+        },
+        {
+          "url": "https://www.wmur.com/article/us-iran-peace-talks-delayed-israel-hezbollah-ceasefire/71640833",
+          "title": "US - Iran peace talks delayed , Israel - Hezbollah ceasefire announced",
+          "domain": "wmur.com",
+          "seendate": "20260620T000000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/arab-world/5286178-lebanese-int%E2%80%99l-contacts-contain-south-lebanon-security-slide",
+          "title": "Lebanese , Intl Contacts Contain South Lebanon Security Slide",
+          "domain": "english.aawsat.com",
+          "seendate": "20260619T183000Z"
+        },
+        {
+          "url": "https://www.fox13now.com/us-news/iran-war/us-iran-talks-delayed-but-israel-hezbollah-ceasefire-could-push-deal-forward",
+          "title": "US - Iran talks delayed , but Israel - Hezbollah ceasefire could push deal forward",
+          "domain": "fox13now.com",
+          "seendate": "20260619T203000Z"
+        },
+        {
+          "url": "https://www.wxyz.com/us-news/iran-war/us-iran-talks-delayed-but-israel-hezbollah-ceasefire-could-push-deal-forward",
+          "title": "US - Iran talks delayed , but Israel - Hezbollah ceasefire could push deal forward",
+          "domain": "wxyz.com",
+          "seendate": "20260619T203000Z"
+        },
+        {
+          "url": "https://www.rtl.be/actu/monde/international/donald-trump-affirme-que-la-signature-dun-accord-est-prevue-ce-dimanche-mais/2026-06-13/article/791549",
+          "title": "Donald Trump affirme que la signature dun accord est  prévue  ce dimanche , mais lIran na  pas encore pris sa décision finale ",
+          "domain": "rtl.be",
+          "seendate": "20260614T140000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVJT3K5I0514R9OJ.html",
+          "title": "多个问题悬而未决 ， 难保不会再次交锋 ， 特朗普 ： 美伊谈判正进入第二阶段",
+          "domain": "163.com",
+          "seendate": "20260616T234500Z"
+        },
+        {
+          "url": "https://kesq.com/news/national-world/cnn-world/2026/06/20/why-is-there-fighting-in-lebanon-and-does-it-threaten-the-iran-deal/",
+          "title": "Why is there fighting in Lebanon and does it threaten the Iran deal ? ",
+          "domain": "kesq.com",
+          "seendate": "20260620T121500Z"
+        },
+        {
+          "url": "https://www.wcpo.com/us-news/iran-war/us-iran-talks-delayed-but-israel-hezbollah-ceasefire-could-push-deal-forward",
+          "title": "US - Iran talks delayed , but Israel - Hezbollah ceasefire could push deal forward",
+          "domain": "wcpo.com",
+          "seendate": "20260619T203000Z"
+        },
+        {
+          "url": "https://www.wkbw.com/us-news/iran-war/us-iran-talks-delayed-but-israel-hezbollah-ceasefire-could-push-deal-forward",
+          "title": "US - Iran talks delayed , but Israel - Hezbollah ceasefire could push deal forward",
+          "domain": "wkbw.com",
+          "seendate": "20260619T213000Z"
+        },
+        {
+          "url": "https://www.news.cn/20260618/48f650aa1c1a47758e61cb172f6b6f84/c.html",
+          "title": "记者观察 | 美伊谅解备忘录的四大关键内容 - 新华网",
+          "domain": "news.cn",
+          "seendate": "20260619T000000Z"
+        },
+        {
+          "url": "https://arynews.tv/lebanon-ceasefire-agreed-us-official-says-after-us-iran-talks-in-switzerland-scrapped",
+          "title": "Lebanon ceasefire agreed , US official says",
+          "domain": "arynews.tv",
+          "seendate": "20260619T153000Z"
+        },
+        {
+          "url": "https://www.news.cn/world/20260618/aa130cf718024402ab458b2e373424fa/c.html",
+          "title": "热点问答丨美伊谅解备忘录看点扫描 - 新华网",
+          "domain": "news.cn",
+          "seendate": "20260618T141500Z"
+        },
+        {
+          "url": "https://www.lalibre.be/dernieres-depeches/2026/06/16/le-detroit-dormuz-completement-ouvert-vendredi-annonce-trump-apres-laccord-avec-liran-C3X6YWC56BBLVKCIZPQXGBPDLM/",
+          "title": "Le détroit dOrmuz  complètement ouvert  vendredi , annonce Trump après laccord avec lIran",
+          "domain": "lalibre.be",
+          "seendate": "20260616T043000Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/headline/2026-06-15/doc-inicnyqr4919834.shtml",
+          "title": "今日财经要闻TOP10|2026年6月15日",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260615T120000Z"
+        },
+        {
+          "url": "https://www.businesstimes.com.sg/international/global/lebanon-ceasefire-agreed-us-official-says-after-us-iran-talks-switzerland-scrapped",
+          "title": "Lebanon ceasefire agreed , US official says after US - Iran talks in Switzerland scrapped",
+          "domain": "businesstimes.com.sg",
+          "seendate": "20260619T141500Z"
+        },
+        {
+          "url": "http://gold.cnfol.com/jinshizhibo/20260619/32284657.shtml",
+          "title": "和谈稳却难救金 ！ 地缘担忧+权益震荡双重惩罚金价 _ 金市直播 _ 黄金网 _ 中金在线",
+          "domain": "gold.cnfol.com",
+          "seendate": "20260619T101500Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3774634",
+          "title": "美伊协议  达成 ！ 特朗普称  霍尔木兹海峡周五免费开放 ， 抨击内塔尼亚胡  失去理智 ， 伊朗称  所获成果远大于承诺  ",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260615T041500Z"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/jd-vance-rebukes-israel-criticism-us-iran-peace-deal-kill-your-way-out-explained-10746946/",
+          "title": "Vance tells Israel it cannot  kill its way  to security",
+          "domain": "indianexpress.com",
+          "seendate": "20260619T003000Z"
+        },
+        {
+          "url": "https://www.katc.com/us-news/iran-war/us-iran-talks-delayed-but-israel-hezbollah-ceasefire-could-push-deal-forward",
+          "title": "US - Iran talks delayed , but Israel - Hezbollah ceasefire could push deal forward",
+          "domain": "katc.com",
+          "seendate": "20260619T211500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVF2QGJ10512DU6N.html",
+          "title": "伊美谅解备忘录14个条款部分内容披露 ； 国际油价显著下跌",
+          "domain": "163.com",
+          "seendate": "20260615T034500Z"
+        },
+        {
+          "url": "https://www.hkcna.hk/docDetail.jsp?id=101346324&channel=2810",
+          "title": "綜述 ： 從開戰到達成初步協議 回顧美伊三個多月關鍵節點 | 國際",
+          "domain": "hkcna.hk",
+          "seendate": "20260615T143000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/KVR7RJHI05198NMR.html",
+          "title": "以黎局势挑动市场神经 ， 欧股一度转涨 ， 布油艰难反弹 ， 美元跌落一年高位",
+          "domain": "163.com",
+          "seendate": "20260620T030000Z"
+        },
+        {
+          "url": "https://portal.sina.com.hk/news-china/sina/2026/06/20/1829056/%E7%BE%8E%E4%BC%8A%E6%9C%83%E8%AB%87%E7%94%9F%E8%AE%8A-%E5%8D%A1%E5%9C%A8%E5%93%AA%E8%A3%A1%EF%BC%9F/",
+          "title": "美伊會談生變 卡在哪裡 ？ ",
+          "domain": "portal.sina.com.hk",
+          "seendate": "20260620T114500Z"
+        },
+        {
+          "url": "https://www.madata.gr/epikairotita/world/970033-diplomatiko-thriler-sthn-elvetia-katarreei-h-ekecheiria-ston-livano-ston-aera-oi-synomilies-hpa-iran.html",
+          "title": "Διπλωματικό θρίλερ στην Ελβετία : Καταρρέει η εκεχειρία στον Λίβανο , στον αέρα οι συνομιλίες ΗΠΑ",
+          "domain": "madata.gr",
+          "seendate": "20260620T133000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087352041-iran-confirms-us-peace-deal-demands-israel-s-withdrawal-from-lebanon",
+          "title": "Iran confirms US peace deal , sets Geneva signing",
+          "domain": "samaa.tv",
+          "seendate": "20260615T104500Z"
+        },
+        {
+          "url": "https://lequotidien.lu/monde/le-detroit-dormuz-completement-ouvert-vendredi/",
+          "title": "Le détroit dOrmuz « complètement ouvert » vendredi",
+          "domain": "lequotidien.lu",
+          "seendate": "20260616T093000Z"
+        },
+        {
+          "url": "https://hu.euronews.com/2026/06/19/izrael-es-a-hezbollah-megujitotta-a-tuzszunetet",
+          "title": "Izrael és a Hezbollah megújította a tűzszünetet",
+          "domain": "hu.euronews.com",
+          "seendate": "20260620T000000Z"
+        },
+        {
+          "url": "https://www.freemalaysiatoday.com/category/highlight/2026/06/17/lebanons-president-says-negotiations-with-israel-independent-of-us-iran-deal",
+          "title": "Lebanon president says negotiations with Israel  independent  of US - Iran deal",
+          "domain": "freemalaysiatoday.com",
+          "seendate": "20260617T160000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/428789",
+          "title": "Aoun insists Lebanon - Israel talks are separate from Iran deal",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260617T193000Z"
+        },
+        {
+          "url": "https://www.bostonglobe.com/2026/06/14/world/qatari-mediators-travel-to-tehran-for-final-touches-on-deal-to-end-war/",
+          "title": "Qatari mediators travel to Tehran for final touches on deal to end war",
+          "domain": "bostonglobe.com",
+          "seendate": "20260614T113000Z"
+        },
+        {
+          "url": "https://www.siasat.com/israeli-strikes-kill-seven-in-lebanon-despite-ceasefire-push-3492989/",
+          "title": "Iran rejects report of Araghchi trip to Switzerland for US talks",
+          "domain": "siasat.com",
+          "seendate": "20260620T130000Z"
+        },
+        {
+          "url": "https://www.saidaonline.com/318247",
+          "title": "هل باع الاتفاق الاميركي - الايراني ورقة لبنان أم فتح باب التسوية ؟ ",
+          "domain": "saidaonline.com",
+          "seendate": "20260618T031500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/97/kaki-symfonia-mia-katastrofi-megali-dysareskeia-sto-israil-gia-tis-exelixeis-sti-mesi-anatoli.htm",
+          "title": " « Κακή συμφωνία , μια καταστροφή »: Μεγάλη δυσαρέσκεια στο Ισραήλ για τις εξελίξεις στη Μέση Ανατολή",
+          "domain": "inewsgr.com",
+          "seendate": "20260615T073000Z"
+        },
+        {
+          "url": "https://www.geo.tv/latest/669066-pakistans-diplomatic-moment",
+          "title": "Pakistan diplomatic moment",
+          "domain": "geo.tv",
+          "seendate": "20260617T060000Z"
+        },
+        {
+          "url": "https://www.is.fi/ulkomaat/art-2000012078858.html",
+          "title": "Tällaisia ongelmia liittyy Iranin ja Yhdysvaltain neuvotteluihin – Libanon on keskeinen kysymys",
+          "domain": "is.fi",
+          "seendate": "20260615T093000Z"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/world/article-israeli-military-strikes-beirut-suburbs-ahead-of-anticipated-us-iran/",
+          "title": "Israeli military strikes Beirut suburbs ahead of anticipated U . S .- Iran deal",
+          "domain": "theglobeandmail.com",
+          "seendate": "20260614T120000Z"
+        },
+        {
+          "url": "https://world.qianlong.com/2026/0618/8685074.shtml",
+          "title": "一页半纸的谅解备忘录 ， 前景如何 ？ ",
+          "domain": "world.qianlong.com",
+          "seendate": "20260618T011500Z"
+        },
+        {
+          "url": "https://www.news24.com/world/lebanon-ceasefire-agreed-after-us-iran-talks-in-switzerland-scrapped-20260619-1014",
+          "title": "Lebanon ceasefire agreed after US - Iran talks in Switzerland scrapped",
+          "domain": "news24.com",
+          "seendate": "20260619T220000Z"
+        },
+        {
+          "url": "https://www.ilpost.it/2026/06/19/israele-hezbollah-cessate-il-fuoco-libano/?homepagePosition=12.1&referrerPost=3610479",
+          "title": "C  è un inatteso cessate il fuoco tra Israele e Hezbollah",
+          "domain": "ilpost.it",
+          "seendate": "20260620T123000Z"
+        },
+        {
+          "url": "https://www.tyzden.sk/svet/136101/udalost-dna-usa-podpisu-dohodu-o-mieri-s-iranom-v-nedelu-oznamil-trump/",
+          "title": "Udalosť dňa : united states podpíšu dohodu o mieri s Iránom v nedeľu , oznámil Trump | Svet | . týždeň",
+          "domain": "tyzden.sk",
+          "seendate": "20260613T194500Z"
+        },
+        {
+          "url": "https://newtalk.tw/news/view/2026-06-16/1041593",
+          "title": "美伊簽署初步停戰協議 ！ 荷姆茲海峽將重啟 川普 ： 協議已簽好了 | 國際",
+          "domain": "newtalk.tw",
+          "seendate": "20260616T044500Z"
+        },
+        {
+          "url": "https://udn.com/news/story/124061/9567376",
+          "title": "美伊終於停火 但海峽與核子問題仍懸念 | 中東戰火連綿 | 全球",
+          "domain": "udn.com",
+          "seendate": "20260615T063000Z"
+        },
+        {
+          "url": "https://www.nbcnews.com/world/iran/israel-continues-lebanon-strikes-fresh-ceasefire-rcna350952",
+          "title": "Israel continues Lebanon strikes despite fresh ceasefire",
+          "domain": "nbcnews.com",
+          "seendate": "20260620T124500Z"
+        },
+        {
+          "url": "https://www.mediaite.com/media/news/breaking-israel-and-hezbollah-agree-to-ceasefire/",
+          "title": "Israel and Hezbollah Agree to Ceasefire",
+          "domain": "mediaite.com",
+          "seendate": "20260619T174500Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/6/19/iran-deputy-fm-says-ready-to-move-forward-in-deal-with-us",
+          "title": "Iran deputy FM says  ready to move forward  in deal with US | Donald Trump News",
+          "domain": "aljazeera.com",
+          "seendate": "20260619T203000Z"
+        },
+        {
+          "url": "https://theshillongtimes.com/2026/06/15/gaza-death-toll-tops-73000-as-israel-strikes-despite-ceasefire/",
+          "title": "Gaza death toll tops 73 , 000 as Israel strikes despite ceasefire",
+          "domain": "theshillongtimes.com",
+          "seendate": "20260614T224500Z"
+        },
+        {
+          "url": "https://www.straitstimes.com/world/middle-east/trump-envoy-iranian-minister-head-to-switzerland-for-talks",
+          "title": "Trump envoy , Iranian minister head to Switzerland for talks",
+          "domain": "straitstimes.com",
+          "seendate": "20260620T043000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/bombs-bargains-and-sanctions-a-timeline-of-irans-nuclear-programme-and-its-decades-long-showdown-with-us/articleshow/131736565.cms",
+          "title": "Iran Nuclear Programme : Bombs , bargains and sanctions : A timeline of Iran nuclear programme and its decades - long showdown with US",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260615T080000Z"
+        },
+        {
+          "url": "https://www.asiaone.com:443/world/trump-envoy-iranian-minister-head-switzerland-talks",
+          "title": "Trump envoy , Iranian minister head to Switzerland for talks",
+          "domain": "asiaone.com",
+          "seendate": "20260620T073000Z"
+        },
+        {
+          "url": "https://podrobnosti.ua/2517100-vtkoff-pohav-do-shvejtsar-dlja-peregovorv-z-ranom.html",
+          "title": "Віткофф поїхав до Швейцарії для переговорів з Іраном",
+          "domain": "podrobnosti.ua",
+          "seendate": "20260620T094500Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/usiran-nuclear-timeline-decades-of-tension-explained-1.500574536",
+          "title": "US – Iran Nuclear Timeline : From Atoms for Peace to War , Ceasefire and Strait of Hormuz Deal Explained",
+          "domain": "gulfnews.com",
+          "seendate": "20260615T074500Z"
+        },
+        {
+          "url": "https://www.deccanchronicle.com/world/americas/us-war-on-iran-timeline-of-key-events-1963673",
+          "title": "US War on Iran : Timeline of Key Events",
+          "domain": "deccanchronicle.com",
+          "seendate": "20260615T070000Z"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5473301",
+          "title": "美伊終戰協議重挫以色列 ！ 納坦雅胡急求見川普 朝野怒轟外交失控 - 國際",
+          "domain": "news.ltn.com.tw",
+          "seendate": "20260615T233000Z"
+        },
+        {
+          "url": "https://www.edp24.co.uk/news/national/26192708.dont-blow-it-trump-warns-israel-iran-strikes-threaten-emerging-deal/",
+          "title": "Dont  blow it , Trump warns Israel and Iran as strikes threaten emerging deal",
+          "domain": "edp24.co.uk",
+          "seendate": "20260614T154500Z"
+        },
+        {
+          "url": "https://www.bbc.com/ukrainian/articles/ckg4q5v191xo",
+          "title": "США й Іран підписали попередню угоду про мир . Що в ній і що може її зірвати",
+          "domain": "bbc.com",
+          "seendate": "20260618T121500Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.in/18-killed-southern-lebanon-cross-border-fighting-israel-continues-despite-ceasefire-903121",
+          "title": "18 killed in southern Lebanon as cross - border fighting with Israel continues despite ceasefire",
+          "domain": "ibtimes.co.in",
+          "seendate": "20260620T121500Z"
+        },
+        {
+          "url": "https://www.ansa.it/europa/notizie/rubriche/altrenews/2026/06/15/germania-bene-intesa-usa-iran-valutare-ampliamento-missione-aspides_60c811d0-9132-4ad5-84d3-e9ec1dfffda0.html",
+          "title": "Germania ,  bene intesa united states - Iran , valutare ampliamento missione Aspide - Altre news",
+          "domain": "ansa.it",
+          "seendate": "20260615T090000Z"
+        },
+        {
+          "url": "https://www.gdnonline.com:443/Details/1398178/Lebanon-ceasefire-agreed",
+          "title": "World News : Lebanon ceasefire agreed",
+          "domain": "gdnonline.com",
+          "seendate": "20260620T030000Z"
+        },
+        {
+          "url": "https://www.benzinga.com/news/politics/26/06/60001037/us-iran-talks-in-switzerland-postponed-as-israel-vows-to-burn-lebanon-jd-vance-cancels-trip-not-simple-or-predictable",
+          "title": "US - Iran Talks In Switzerland Postponed As Israel Vows To  Burn  Lebanon , JD Vance Cancels Trip :  Not Simp",
+          "domain": "benzinga.com",
+          "seendate": "20260619T120000Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/ghalibaf-assails-warmongering-crazy-games-by-israeli-regime-1.500574311",
+          "title": "Ghalibaf assails  warmongering ,  crazy game by Israeli regime",
+          "domain": "gulfnews.com",
+          "seendate": "20260615T031500Z"
+        },
+        {
+          "url": "https://www.albawaba.com/news/five-israeli-soldiers-wounded-drone-1630501",
+          "title": "Five Israeli soldiers wounded in drone strike in Lebanon",
+          "domain": "albawaba.com",
+          "seendate": "20260617T151500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2613250/political-leadership-welcomes-usiran-understanding-praise-diplomacy",
+          "title": "Political leadership welcomes US – Iran understanding , praise diplomacy",
+          "domain": "tribune.com.pk",
+          "seendate": "20260615T084500Z"
+        },
+        {
+          "url": "https://news.sina.com.cn/o/2026-06-19/doc-inicwtfi9960772.shtml",
+          "title": "万斯 ： 60天谈判期限18日起算 将领导美方团队",
+          "domain": "news.sina.com.cn",
+          "seendate": "20260619T000000Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-06-19/doc-inicwxnz4956464.shtml",
+          "title": "万斯 ： 60天谈判期限18日起算 将领导美方团队",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260619T003000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8u4Nw2xieqb",
+          "title": "万斯 ： 60天谈判期限18日起算 ， 将领导美方团队",
+          "domain": "news.ifeng.com",
+          "seendate": "20260619T000000Z"
+        },
+        {
+          "url": "https://www.breakingnews.ie/world/israeli-military-strikes-beirut-suburbs-in-lead-up-to-anticipated-us-iran-deal-1913445.html",
+          "title": "Israeli military strikes Beirut suburbs in lead - up to anticipated US - Iran deal",
+          "domain": "breakingnews.ie",
+          "seendate": "20260614T120000Z"
+        },
+        {
+          "url": "https://www.theargus.co.uk/news/national/26192708.dont-blow-it-trump-warns-israel-iran-strikes-threaten-emerging-deal/",
+          "title": "Dont  blow it , Trump warns Israel and Iran as strikes threaten emerging deal",
+          "domain": "theargus.co.uk",
+          "seendate": "20260614T164500Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/us/trump-says-he-urged-israel-to-agree-to-ceasefire-deal-with-hezbollah20260620023359/",
+          "title": "Trump says he urged Israel to agree to ceasefire deal with Hezbollah",
+          "domain": "aninews.in",
+          "seendate": "20260619T223000Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/06/13/iran-says-signing-of-islamabad-memorandum-will-not-take-place-on-sunday",
+          "title": "Iran : Islamabad memorandum signing not on Sunday",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260613T190000Z"
+        },
+        {
+          "url": "https://www.lex18.com/us-news/iran-war/us-iran-talks-delayed-but-israel-hezbollah-ceasefire-could-push-deal-forward",
+          "title": "US - Iran talks delayed , but Israel - Hezbollah ceasefire could push deal forward",
+          "domain": "lex18.com",
+          "seendate": "20260619T200000Z"
+        },
+        {
+          "url": "http://www.china.com.cn/opinion2020/2026-06/16/content_118551166.shtml",
+          "title": "  停战  不等于  止战 ： 美伊停火前景几何 ？_ 中国网",
+          "domain": "china.com.cn",
+          "seendate": "20260616T071500Z"
+        },
+        {
+          "url": "https://www.jagran.com/world/middle-east-us-iran-conflict-end-soon-peace-deal-finalized-after-107-days-40274300.html",
+          "title": "अमेरिका - ईरान के बीच 107 दिनों के तनाव से पूरी दुनिया की अटकी रहीं सांसें , कब क्या - क्या हुआ ? पढ़ें पूरी टाइमलाइन - us iran conflict end soon peace deal finalized after 107 days",
+          "domain": "jagran.com",
+          "seendate": "20260615T154500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/379/iranos-ypex-se-dyo-stadia-oi-epomenes-diapragmatefseis.htm",
+          "title": "Ιρανός ΥΠΕΞ : Σε δύο στάδια οι επόμενες διαπραγματεύσεις",
+          "domain": "inewsgr.com",
+          "seendate": "20260616T183000Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/e0a9e-qatari-mediators-travel-to-tehran-for-final-touches-on-a-possible-deal-to-end-war/",
+          "title": "Qatari mediators travel to Tehran for final touches on a possible deal to end war",
+          "domain": "wral.com",
+          "seendate": "20260614T103000Z"
+        },
+        {
+          "url": "https://www.ksl.com:443/article/51513851/lebanon-ceasefire-agreed-after-us-iran-talks-in-switzerland-scrapped",
+          "title": "Lebanon ceasefire agreed after US - Iran talks in Switzerland scrapped",
+          "domain": "ksl.com",
+          "seendate": "20260619T223000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/428868",
+          "title": "Ambassador Leiter affirms commitment to Lebanon truce but vows to thwart threats",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260619T000000Z"
+        },
+        {
+          "url": "https://www.aa.com.tr/tr/dunya/lubnan-cumhurbaskani-avn-washingtondaki-israil-gorusmeleri-oncesi-muzakere-heyetiyle-bir-araya-geldi/3971059",
+          "title": "Lübnan Cumhurbaşkanı Avn , Washingtondaki İsrail görüşmeleri öncesi müzakere heyetiyle bir araya geldi",
+          "domain": "aa.com.tr",
+          "seendate": "20260618T153000Z"
+        },
+        {
+          "url": "https://news.bigmir.net/ua/world/10376392-zmi-nazvali-prichinu-zrivu-peregovoriv-ssha-iran",
+          "title": "ЗМІ назвали причину зриву переговорів США - Іран",
+          "domain": "news.bigmir.net",
+          "seendate": "20260619T191500Z"
+        },
+        {
+          "url": "https://glavcom.ua/world/world-politics/izrajil-vidmovivsja-vivoditi-vijska-z-hazi-livanu-ta-siriji-1125732.html",
+          "title": "Ізраїль відмовився виводити війська з Гази , Лівану та Сирії",
+          "domain": "glavcom.ua",
+          "seendate": "20260615T120000Z"
+        },
+        {
+          "url": "https://www.dailymirror.lk/recomended-news/Breaking-Down-the-IsraelIran-Conflict-What-We-Know-So-Far-Day-108/277-334187",
+          "title": "Breaking Down the Israel – Iran Conflict : What We Know So Far - Day 108 - Breaking News",
+          "domain": "dailymirror.lk",
+          "seendate": "20260615T153000Z"
+        },
+        {
+          "url": "https://www.sudouest.fr:443/international/moyen-orient/guerre-au-moyen-orient-nouveau-cessez-le-feu-au-liban-apres-de-meurtrieres-violences-menacant-l-accord-irano-americain-29572183.php",
+          "title": "Guerre au Moyen - Orient  : nouveau cessez - le - feu au Liban après des violences meurtrières menaçant laccord irano - américain",
+          "domain": "sudouest.fr",
+          "seendate": "20260619T213000Z"
+        },
+        {
+          "url": "https://www.moroccoworldnews.com/2026/06/321054/israel-strikes-lebanon-iran-warns-ceasefire-violations-could-threaten-us-deal/",
+          "title": "Israel Strikes Lebanon , Iran Warns Ceasefire Violations Could Threaten US Deal",
+          "domain": "moroccoworldnews.com",
+          "seendate": "20260617T141500Z"
+        },
+        {
+          "url": "https://globalnews.ca/news/11903831/israel-strikes-beirut-possible-iran-us-deal/",
+          "title": "Israel strikes Beirut as possible U . S .- Iran deal looms - National",
+          "domain": "globalnews.ca",
+          "seendate": "20260614T153000Z"
+        },
+        {
+          "url": "https://www.indiatvnews.com/news/world/iran-signals-greater-control-over-strait-of-hormuz-asks-ships-to-register-despite-free-transit-2026-06-19-1045491",
+          "title": "Iran signals greater control over Strait of Hormuz , asks ships to register despite free transit | World",
+          "domain": "indiatvnews.com",
+          "seendate": "20260619T153000Z"
+        },
+        {
+          "url": "https://udn.com/news/story/124061/9566552",
+          "title": "美伊停火協議內容有什麼 ？ | 中東戰火連綿 | 全球",
+          "domain": "udn.com",
+          "seendate": "20260615T021500Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/articles/analysis-lebanon-remain-battlefield-bargaining-202325081.html",
+          "title": "Analysis : Will Lebanon remain a battlefield , bargaining chip despite U . S .- Iran deal ? ",
+          "domain": "yahoo.com",
+          "seendate": "20260619T210000Z"
+        },
+        {
+          "url": "https://www.staradvertiser.com/2026/06/19/breaking-news/israel-hezbollah-agree-to-ceasefire-as-iran-talks-stall/",
+          "title": "Israel , Hezbollah agree to ceasefire as Iran talks stall | Honolulu Star - Advertiser",
+          "domain": "staradvertiser.com",
+          "seendate": "20260619T201500Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/06/14/qatari-mediators-travel-to-tehran-for-final-touches-on-a-possible-deal-to-end-war",
+          "title": "Qatari mediators travel to Tehran for final touches on a possible deal to end war – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260614T101500Z"
+        },
+        {
+          "url": "https://www.sozcu.com.tr/hurmuz-bogazi-acildiktan-3-gun-sonra-kapatildi-p329411",
+          "title": "Hürmüz Boğazı açıldıktan 3 gün sonra kapatıldı",
+          "domain": "sozcu.com.tr",
+          "seendate": "20260619T143000Z"
+        },
+        {
+          "url": "https://www.chinatimes.com/realtimenews/20260616001677-260408",
+          "title": "川普宣布對伊協議達成 俄羅斯潑冷水揭最大破局關鍵 - 政治圈",
+          "domain": "chinatimes.com",
+          "seendate": "20260616T031500Z"
+        },
+        {
+          "url": "https://www.theargus.co.uk/news/national/26192708.israeli-military-strikes-beirut-suburbs-lead-up-anticipated-us-iran-deal/",
+          "title": "Israeli military strikes Beirut suburbs in lead - up to anticipated US - Iran deal",
+          "domain": "theargus.co.uk",
+          "seendate": "20260614T123000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/428904",
+          "title": "Trump confirms he asked Israel to agree to Lebanon ceasefire",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260619T193000Z"
+        },
+        {
+          "url": "https://www.upi.com/Top_News/World-News/2026/06/19/lebanon-united-states-iran-war/4581781899651/",
+          "title": "Analysis : Will Lebanon remain a battlefield , bargaining chip despite U . S .- Iran deal ? ",
+          "domain": "upi.com",
+          "seendate": "20260619T210000Z"
+        },
+        {
+          "url": "https://www.corsematin.com/article/francemonde/69020111066506/le-detroit-dormuz-completement-ouvert-vendredi-annonce-trump-apres-laccord-avec-liran",
+          "title": "Le détroit dOrmuz  complètement ouvert  vendredi , annonce Trump après laccord avec lIran",
+          "domain": "corsematin.com",
+          "seendate": "20260616T070000Z"
+        }
+      ]
     },
     {
       "id": "supreme_leader",
@@ -40,7 +1545,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -72,17 +1577,17 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     }
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.4971,
+      "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
@@ -90,7 +1595,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9649
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -101,10 +1606,10 @@
       }
     },
     {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.4583,
-      "is_pre_round": true,
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4942,
+      "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
@@ -112,7 +1617,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9302
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -125,7 +1630,7 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.4583,
+      "composite_score": 0.4879,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -134,7 +1639,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.855
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -169,7 +1674,7 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.0721,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -178,7 +1683,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.8656
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -312,7 +1817,7 @@
       "articles_fa": 0,
       "confluence_score": 0.0,
       "unique_domains_total": 0,
-      "tone_mean": null
+      "tone_mean": -1.8347
     },
     "window_21d": {
       "volume_total": 0,
@@ -328,6 +1833,6 @@
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 5 in 21d). Scores are provisional."
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-18T15:24:40.920619+00:00",
+  "updated_at": "2026-06-20T14:03:50.832554+00:00",
   "short_term": {
-    "score": 46,
+    "score": 50,
     "status_he": "שקט",
-    "avg_7day": 48,
-    "delta_vs_avg": -2
+    "avg_7day": 50,
+    "delta_vs_avg": 0
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-06-03T16:50:34.580292+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-06-04T03:50:36.742935+00:00",
         "score": 62
       },
@@ -114,6 +110,10 @@
       {
         "ts": "2026-06-18T15:24:40.919548+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-20T14:03:50.829700+00:00",
+        "score": 50
       }
     ],
     "month": [
@@ -224,6 +224,10 @@
       {
         "ts": "2026-06-18T15:24:40.919548+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-20T14:03:50.829700+00:00",
+        "score": 50
       }
     ],
     "comparison_bars": [
@@ -255,8 +259,24 @@
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
+    "list": [
+      "163.com",
+      "24tv.ua",
+      "444.hu",
+      "aa.com.tr",
+      "aktuality.sk",
+      "albawaba.com",
+      "Al Jazeera",
+      "americanthinker.com",
+      "aninews.in",
+      "ansa.it",
+      "arynews.tv",
+      "asiaone.com",
+      "bankingnews.gr",
+      "BBC",
+      "benzinga.com"
+    ],
+    "total_count": 169,
     "articles_72h": null
   }
 }
