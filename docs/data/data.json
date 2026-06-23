@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-22T16:58:06.496100+00:00",
+  "updated_at": "2026-06-23T14:49:39.025091+00:00",
   "short_term": {
-    "score": 66,
+    "score": 61,
     "status_he": "מתוח",
-    "avg_7day": 53,
-    "delta_vs_avg": 13
+    "avg_7day": 54,
+    "delta_vs_avg": 7
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-06-05T14:52:08.859812+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-06-08T03:48:47.038238+00:00",
         "score": 61
       },
@@ -114,6 +110,10 @@
       {
         "ts": "2026-06-22T16:58:06.490272+00:00",
         "score": 66
+      },
+      {
+        "ts": "2026-06-23T14:49:39.023952+00:00",
+        "score": 61
       }
     ],
     "month": [
@@ -240,6 +240,10 @@
       {
         "ts": "2026-06-22T16:58:06.490272+00:00",
         "score": 66
+      },
+      {
+        "ts": "2026-06-23T14:49:39.023952+00:00",
+        "score": 61
       }
     ],
     "comparison_bars": [
@@ -271,24 +275,8 @@
     ]
   },
   "sources": {
-    "list": [
-      "1019bigwaax.iheart.com",
-      "1150wima.iheart.com",
-      "15min.lt",
-      "163.com",
-      "570wkbn.iheart.com",
-      "6abc.com",
-      "710wor.iheart.com",
-      "720thevoice.iheart.com",
-      "790waeb.iheart.com",
-      "800wvhu.iheart.com",
-      "95wxtk.iheart.com",
-      "aa.com.tr",
-      "abc.net.au",
-      "abc11.com",
-      "abc13.com"
-    ],
-    "total_count": 430,
+    "list": [],
+    "total_count": 0,
     "articles_72h": 250
   }
 }
