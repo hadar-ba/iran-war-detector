@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-06-23T14:49:39.023952+00:00",
+  "timestamp_utc": "2026-06-25T14:33:58.315234+00:00",
   "status": "yellow",
-  "headline_score_7day": 61,
+  "headline_score_7day": 62,
   "headline_score_21day": 46,
-  "score_jump": -5,
+  "score_jump": 1,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (61%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (61%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (61% similarity). The 7-day reading is 15 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to the post-Lion's Roar period (April–May 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (61% דמיון). הקריאה ל-7 ימים גבוהה ב-15 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026).",
+  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
+  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 7-day reading is 17 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to the post-Lion's Roar period (April–May 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). הקריאה ל-7 ימים גבוהה ב-17 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -40,7 +40,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -56,7 +56,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -72,46 +72,24 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     }
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.7429,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.6239,
+      "composite_score": 0.625,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.9932,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -125,15 +103,15 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.6132,
+      "composite_score": 0.625,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.9295,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -145,17 +123,17 @@
       }
     },
     {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.4712,
-      "is_pre_round": true,
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.625,
+      "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -169,15 +147,37 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.2899,
+      "composite_score": 0.2083,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.0417,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9119,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -303,15 +303,15 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
-      "articles_en": 250,
+      "volume_total": 323.2649,
+      "volume_mean_daily": 1.9711,
+      "volume_peak": 4.9756,
+      "days_active": 164,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 145,
+      "unique_domains_total": 0,
       "tone_mean": null
     },
     "window_21d": {
