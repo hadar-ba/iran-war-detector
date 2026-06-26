@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-25T14:33:58.315838+00:00",
+  "updated_at": "2026-06-26T03:33:50.126409+00:00",
   "short_term": {
-    "score": 62,
-    "status_he": "מתוח",
+    "score": 46,
+    "status_he": "שקט",
     "avg_7day": 56,
-    "delta_vs_avg": 6
+    "delta_vs_avg": -10
   },
   "archive_comparison": {
-    "score": 46,
+    "score": 50,
     "status_he": "דמיון נמוך",
     "reference_events": [
       "אפריל 2024",
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-06-11T03:48:37.210346+00:00",
-        "score": 62
-      },
-      {
         "ts": "2026-06-11T16:02:10.297708+00:00",
         "score": 46
       },
@@ -114,6 +110,10 @@
       {
         "ts": "2026-06-25T14:33:58.315234+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-06-26T03:33:50.123721+00:00",
+        "score": 46
       }
     ],
     "month": [
@@ -248,22 +248,26 @@
       {
         "ts": "2026-06-25T14:33:58.315234+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-06-26T03:33:50.123721+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
-        "label": "אחרי פבר' 2026",
-        "score": 46,
-        "is_pre_conflict": false
-      },
-      {
         "label": "טרום פבר' 2026",
-        "score": 46,
+        "score": 50,
         "is_pre_conflict": true
       },
       {
+        "label": "אחרי פבר' 2026",
+        "score": 50,
+        "is_pre_conflict": false
+      },
+      {
         "label": "שקט ינו' 2026",
-        "score": 46,
+        "score": 49,
         "is_pre_conflict": false
       },
       {
@@ -273,14 +277,30 @@
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 4,
+        "score": 7,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
+    "list": [
+      "163.com",
+      "4029tv.com",
+      "444.hu",
+      "81.cn",
+      "aa.com.tr",
+      "aktuality.sk",
+      "Al Jazeera",
+      "ansa.it",
+      "arabnews.com",
+      "atv.hu",
+      "bbs.wenxuecity.com",
+      "bin.ua",
+      "bumm.sk",
+      "cbg.cn",
+      "cqnews.net"
+    ],
+    "total_count": 155,
     "articles_72h": null
   }
 }
