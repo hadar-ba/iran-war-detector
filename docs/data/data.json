@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-26T03:33:50.126409+00:00",
+  "updated_at": "2026-06-27T02:57:06.986934+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
-    "avg_7day": 56,
-    "delta_vs_avg": -10
+    "avg_7day": 55,
+    "delta_vs_avg": -9
   },
   "archive_comparison": {
-    "score": 50,
+    "score": 46,
     "status_he": "דמיון נמוך",
     "reference_events": [
       "אפריל 2024",
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-06-11T16:02:10.297708+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-06-13T03:35:35.505462+00:00",
         "score": 46
       },
@@ -113,6 +109,10 @@
       },
       {
         "ts": "2026-06-26T03:33:50.123721+00:00",
+        "score": 46
+      },
+      {
+        "ts": "2026-06-27T02:57:06.984232+00:00",
         "score": 46
       }
     ],
@@ -252,22 +252,26 @@
       {
         "ts": "2026-06-26T03:33:50.123721+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-27T02:57:06.984232+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
-        "label": "טרום פבר' 2026",
-        "score": 50,
-        "is_pre_conflict": true
-      },
-      {
         "label": "אחרי פבר' 2026",
-        "score": 50,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
+        "label": "טרום פבר' 2026",
+        "score": 46,
+        "is_pre_conflict": true
+      },
+      {
         "label": "שקט ינו' 2026",
-        "score": 49,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
@@ -277,30 +281,30 @@
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 7,
+        "score": 4,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
     "list": [
+      "1011now.com",
       "163.com",
-      "4029tv.com",
-      "444.hu",
-      "81.cn",
+      "902.gr",
       "aa.com.tr",
-      "aktuality.sk",
-      "Al Jazeera",
-      "ansa.it",
+      "abc.net.au",
+      "aiwaegypt.com",
+      "akhbarelyom.com",
+      "al-monitor.com",
+      "albawaba.com",
+      "albeu.com",
+      "alhurra.com",
+      "arabic.euronews.com",
       "arabnews.com",
-      "atv.hu",
-      "bbs.wenxuecity.com",
-      "bin.ua",
-      "bumm.sk",
-      "cbg.cn",
-      "cqnews.net"
+      "arynews.tv",
+      "asia.nikkei.com"
     ],
-    "total_count": 155,
+    "total_count": 193,
     "articles_72h": null
   }
 }
