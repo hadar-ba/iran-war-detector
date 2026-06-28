@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-27T02:57:06.986934+00:00",
+  "updated_at": "2026-06-28T03:39:39.962602+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 55,
-    "delta_vs_avg": -9
+    "score": 62,
+    "status_he": "מתוח",
+    "avg_7day": 56,
+    "delta_vs_avg": 6
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-06-13T03:35:35.505462+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-06-13T13:59:53.153083+00:00",
         "score": 46
       },
@@ -114,6 +110,10 @@
       {
         "ts": "2026-06-27T02:57:06.984232+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-28T03:39:39.961557+00:00",
+        "score": 62
       }
     ],
     "month": [
@@ -256,6 +256,10 @@
       {
         "ts": "2026-06-27T02:57:06.984232+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-06-28T03:39:39.961557+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
@@ -287,24 +291,8 @@
     ]
   },
   "sources": {
-    "list": [
-      "1011now.com",
-      "163.com",
-      "902.gr",
-      "aa.com.tr",
-      "abc.net.au",
-      "aiwaegypt.com",
-      "akhbarelyom.com",
-      "al-monitor.com",
-      "albawaba.com",
-      "albeu.com",
-      "alhurra.com",
-      "arabic.euronews.com",
-      "arabnews.com",
-      "arynews.tv",
-      "asia.nikkei.com"
-    ],
-    "total_count": 193,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
