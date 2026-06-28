@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-28T03:39:39.962602+00:00",
+  "updated_at": "2026-06-28T13:47:37.512435+00:00",
   "short_term": {
-    "score": 62,
-    "status_he": "מתוח",
+    "score": 46,
+    "status_he": "שקט",
     "avg_7day": 56,
-    "delta_vs_avg": 6
+    "delta_vs_avg": -10
   },
   "archive_comparison": {
-    "score": 46,
+    "score": 50,
     "status_he": "דמיון נמוך",
     "reference_events": [
       "אפריל 2024",
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-06-13T13:59:53.153083+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-06-14T14:04:01.026926+00:00",
         "score": 46
       },
@@ -114,6 +110,10 @@
       {
         "ts": "2026-06-28T03:39:39.961557+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-06-28T13:47:37.509641+00:00",
+        "score": 46
       }
     ],
     "month": [
@@ -260,22 +260,26 @@
       {
         "ts": "2026-06-28T03:39:39.961557+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-06-28T13:47:37.509641+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
-        "label": "אחרי פבר' 2026",
-        "score": 46,
-        "is_pre_conflict": false
-      },
-      {
         "label": "טרום פבר' 2026",
-        "score": 46,
+        "score": 50,
         "is_pre_conflict": true
       },
       {
+        "label": "אחרי פבר' 2026",
+        "score": 50,
+        "is_pre_conflict": false
+      },
+      {
         "label": "שקט ינו' 2026",
-        "score": 46,
+        "score": 49,
         "is_pre_conflict": false
       },
       {
@@ -285,14 +289,30 @@
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 4,
+        "score": 7,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
+    "list": [
+      "13tv.co.il",
+      "163.com",
+      "24tv.ua",
+      "902.gr",
+      "960weli.iheart.com",
+      "aa.com.tr",
+      "abc3340.com",
+      "abc6onyourside.com",
+      "abc7amarillo.com",
+      "aktuality.sk",
+      "alhurra.com",
+      "Al Jazeera",
+      "almasryalyoum.com",
+      "alternet.org",
+      "anna-news.info"
+    ],
+    "total_count": 173,
     "articles_72h": null
   }
 }
