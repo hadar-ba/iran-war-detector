@@ -233,6 +233,12 @@
       "headline_score_7day": 46,
       "headline_score_21day": 46,
       "status": "green"
+    },
+    {
+      "timestamp_utc": "2026-07-05T13:31:56.223687+00:00",
+      "headline_score_7day": 50,
+      "headline_score_21day": 67,
+      "status": "green"
     }
   ]
 }

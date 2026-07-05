@@ -1,18 +1,16 @@
 {
-  "updated_at": "2026-07-02T14:02:09.344774+00:00",
+  "updated_at": "2026-07-05T13:31:56.224824+00:00",
   "short_term": {
-    "score": 46,
+    "score": 50,
     "status_he": "שקט",
-    "avg_7day": 51,
-    "delta_vs_avg": -5
+    "avg_7day": 47,
+    "delta_vs_avg": 3
   },
   "archive_comparison": {
-    "score": 46,
-    "status_he": "דמיון נמוך",
+    "score": 67,
+    "status_he": "דמיון גבולי",
     "reference_events": [
-      "אפריל 2024",
-      "אוקטובר 2024",
-      "יוני 2025"
+      "פברואר 2026"
     ]
   },
   "signals": [
@@ -59,10 +57,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-06-18T03:46:05.063020+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-18T15:24:40.919548+00:00",
         "score": 46
@@ -114,6 +108,10 @@
       {
         "ts": "2026-07-02T14:02:09.342116+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-07-05T13:31:56.223687+00:00",
+        "score": 50
       }
     ],
     "month": [
@@ -272,55 +270,43 @@
       {
         "ts": "2026-07-02T14:02:09.342116+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-07-05T13:31:56.223687+00:00",
+        "score": 50
       }
     ],
     "comparison_bars": [
       {
-        "label": "אחרי פבר' 2026",
-        "score": 46,
+        "label": "שקט ינו' 2026",
+        "score": 77,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 46,
+        "score": 67,
         "is_pre_conflict": true
       },
       {
-        "label": "שקט ינו' 2026",
-        "score": 46,
+        "label": "אחרי פבר' 2026",
+        "score": 66,
         "is_pre_conflict": false
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 21,
+        "score": 47,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 4,
+        "score": 34,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "1011now.com",
-      "163.com",
-      "24heures.ch",
-      "abc.net.au",
-      "abc13.com",
-      "abc7chicago.com",
-      "abc7news.com",
-      "afghanistannews.net",
-      "africanmanager.com",
-      "aktuality.sk",
-      "al-monitor.com",
-      "alhurra.com",
-      "Al Jazeera",
-      "almontasaf.net",
-      "alwatan.com.sa"
-    ],
-    "total_count": 210,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }

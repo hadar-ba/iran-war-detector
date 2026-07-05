@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-07-02T14:02:09.342116+00:00",
+  "timestamp_utc": "2026-07-05T13:31:56.223687+00:00",
   "status": "green",
-  "headline_score_7day": 46,
-  "headline_score_21day": 46,
-  "score_jump": 0,
+  "headline_score_7day": 50,
+  "headline_score_21day": 67,
+  "score_jump": 4,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "News patterns are within the normal range — no elevated signals detected.",
   "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (50% similarity). The 21-day picture is consistent: 67% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (50% דמיון). התמונה ל-21 יום עקבית: 67% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -72,1522 +72,17 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
-      "example_urls": [
-        "https://www.in.gr/2026/06/28/world/nea-klimakosi-me-epikentro-ta-stena-tou-ormouz-to-iran-apanta-sta-pligmata-ton-ipa-me-epitheseis-se-vaseis-ston-kolpo/",
-        "https://www.taxydromos.gr/diethni/1336336/nees-amerikanikes-epitheseis-sto-iran-kai-iranika-antipoina-se-koyveit-kai-mpachrein/",
-        "https://www.offsite.com.cy/eidiseis/diethni/nees-epitheseis-ipa-se-iran-kai-antipoina-apo-teherani-me-htypimata-se-koybeit-kai"
-      ],
-      "articles": [
-        {
-          "url": "https://www.in.gr/2026/06/28/world/nea-klimakosi-me-epikentro-ta-stena-tou-ormouz-to-iran-apanta-sta-pligmata-ton-ipa-me-epitheseis-se-vaseis-ston-kolpo/",
-          "title": "Νέα κλιμάκωση με επίκεντρο τα Στενά του Ορμούζ : Το Ιράν απαντά στα πλήγματα των ΗΠΑ με επιθέσεις σε βάσεις στον Κόλπο",
-          "domain": "in.gr",
-          "seendate": "20260628T071500Z"
-        },
-        {
-          "url": "https://www.taxydromos.gr/diethni/1336336/nees-amerikanikes-epitheseis-sto-iran-kai-iranika-antipoina-se-koyveit-kai-mpachrein/",
-          "title": "Νέες αμερικανικές επιθέσεις στο Ιράν και ιρανικά αντίποινα σε Κουβέιτ και Μπαχρέιν",
-          "domain": "taxydromos.gr",
-          "seendate": "20260628T094500Z"
-        },
-        {
-          "url": "https://www.offsite.com.cy/eidiseis/diethni/nees-epitheseis-ipa-se-iran-kai-antipoina-apo-teherani-me-htypimata-se-koybeit-kai",
-          "title": "Νέες επιθέσεις ΗΠΑ σε Ιράν και αντίποινα από Τεχεράνη με χτυπήματα σε Κουβέιτ και Μπαχρέιν",
-          "domain": "offsite.com.cy",
-          "seendate": "20260628T071500Z"
-        },
-        {
-          "url": "https://www.sigmalive.com/news/international/1319614/nees-epitheseis-hpa-se-iran-antipoina-tekheranis-kai-apeiles-tramp",
-          "title": "Νέες επιθέσεις ΗΠΑ σε Ιράν - Αντίποινα Τεχεράνης και απειλές Τραμπ",
-          "domain": "sigmalive.com",
-          "seendate": "20260628T044500Z"
-        },
-        {
-          "url": "https://www.athensvoice.gr/epikairotita/diethni/971916/neos-kuklos-edasis-sti-mesi-anatoli-amerikanika-pligmata-kai-apeiles-trab-sto-iran-adipoina-tis-teheranis/",
-          "title": "Νέος κύκλος έντασης στη Μέση Ανατολή : Αμερικανικά πλήγματα και απειλές Τραμπ στο Ιράν , αντίποινα της Τεχεράνης",
-          "domain": "athensvoice.gr",
-          "seendate": "20260628T080000Z"
-        },
-        {
-          "url": "https://www.iefimerida.gr/kosmos/nees-amerikanikes-epitheseis-sto-iran-kai-apeiles-tramp",
-          "title": "Νέες αμερικανικές επιθέσεις στο Ιράν και απειλές Τραμπ κατά της Τεχεράνης : Αν τους επιτεθούμε , δεν θα υπάρχουν πλέον",
-          "domain": "iefimerida.gr",
-          "seendate": "20260628T044500Z"
-        },
-        {
-          "url": "https://ichannela.com/news/detail/000000536753.do",
-          "title": "이란  중동 미군기지 타격 … 美 보복 공습에 대응  ",
-          "domain": "ichannela.com",
-          "seendate": "20260627T014500Z"
-        },
-        {
-          "url": "https://www.efsyn.gr/kosmos/1415248/anaflexi-sti-mesi-anatoli-epitheseis-ekaterothen-anamesa-se-ipa-kai-iran-amfivolies-gia-tin-ekeheiria-sto-livano/",
-          "title": "Ανάφλεξη στη Μέση Ανατολή : Επιθέσεις εκατέρωθεν ανάμεσα σε ΗΠΑ και Ιράν - Αμφιβολίες για την εκεχειρία στο Λίβανο",
-          "domain": "efsyn.gr",
-          "seendate": "20260628T080000Z"
-        },
-        {
-          "url": "https://newpost.gr/eidiseis/nees-amerikanikes-epitheseis-sto-iran-kai-apeiles-tramp-kata-tis-techeranis-iranika-pligmata-se-koyveit-kai-mpachrein/",
-          "title": "Νέες αμερικανικές επιθέσεις στο Ιράν και απειλές Τραμπ κατά της Τεχεράνης – Ιρανικά πλήγματα σε Κουβέιτ και Μπαχρέιν",
-          "domain": "newpost.gr",
-          "seendate": "20260628T081500Z"
-        },
-        {
-          "url": "https://www.enikos.gr/international/polemoun-eno-vriskontai-se-ekecheiria-ipa-iran-enoples-alla-kai-lektikes-epitheseis/2605198/",
-          "title": "Πολεμούν ενώ βρίσκονται σε εκεχειρία ΗΠΑ - Ιράν : Ένοπλες αλλά και λεκτικές επιθέσεις",
-          "domain": "enikos.gr",
-          "seendate": "20260628T044500Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/441/polemos-nevron-ipa--iran-nea-amerikanika-pligmata-kai-antipoina-se-kouveit-kai-bachrein.htm",
-          "title": "Πόλεμος νεύρων ΗΠΑ – Ιράν : Νέα αμερικανικά πλήγματα και αντίποινα σε Κουβέιτ και Μπαχρέιν",
-          "domain": "inewsgr.com",
-          "seendate": "20260628T141500Z"
-        },
-        {
-          "url": "https://theconversation.com/israels-campaign-between-the-wars-how-strategy-to-contain-iran-and-its-allies-risks-further-straining-ties-with-us-284697",
-          "title": "Israel  campaign between the war : How strategy to contain Iran and its allies risks further straining ties with US",
-          "domain": "theconversation.com",
-          "seendate": "20260626T190000Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202606270628487562",
-          "title": "美 , 이란의 호르무즈 상선 공격에 보복공습 … 종전합의 흔들리나 ( 종합 ) ",
-          "domain": "fnnews.com",
-          "seendate": "20260627T000000Z"
-        },
-        {
-          "url": "https://www.yahoo.com/news/politics/articles/u-hits-iran-again-strait-223839640.html",
-          "title": "U . S . hits Iran again after new Strait of Hormuz tanker attack",
-          "domain": "yahoo.com",
-          "seendate": "20260627T231500Z"
-        },
-        {
-          "url": "https://www.la-croix.com/international/direct-guerre-iran-israel-usa-jour-121-moyen-orient-bilan-resume-aujourdhui-20260628",
-          "title": "Guerre au Moyen - Orient  : le cessez - le - feu mis à mal  ; Trump menace de détruire le régime iranien",
-          "domain": "la-croix.com",
-          "seendate": "20260628T093000Z"
-        },
-        {
-          "url": "https://www.newsx.com/world/us-iran-war-latest-update-irgc-claims-retaliatory-strikes-on-us-military-sites-after-us-attacks-iran-241540/",
-          "title": "US - Iran War Latest Update : IRGC Claims Retaliatory Strikes on US Military Sites After US Attacks Iran",
-          "domain": "newsx.com",
-          "seendate": "20260627T041500Z"
-        },
-        {
-          "url": "https://www.radioseoul1650.com/archives/144595",
-          "title": "미 , 이란에 보복 공습 … 트럼프  휴전 위반한 어리석은 행동  ",
-          "domain": "radioseoul1650.com",
-          "seendate": "20260627T043000Z"
-        },
-        {
-          "url": "https://www.ledauphine.com/defense-guerre-conflit/2026/06/28/de-nouveaux-tirs-menacent-la-treve-trump-promet-que-l-iran-cessera-d-exister-si-le-conflit-reprend",
-          "title": "Moyen - Orient . De nouveaux tirs menacent la trêve , Trump promet que lIran  cessera dexister  si le conflit reprend",
-          "domain": "ledauphine.com",
-          "seendate": "20260628T080000Z"
-        },
-        {
-          "url": "https://www.dna.fr/defense-guerre-conflit/2026/06/28/de-nouveaux-tirs-menacent-la-treve-trump-promet-que-l-iran-cessera-d-exister-si-le-conflit-reprend",
-          "title": "Moyen - Orient . De nouveaux tirs menacent la trêve , Trump promet que lIran  cessera dexister  si le conflit reprend",
-          "domain": "dna.fr",
-          "seendate": "20260628T081500Z"
-        },
-        {
-          "url": "https://www.thisdaylive.com/2026/06/28/iran-accuses-us-of-violating-peace-deal-as-fresh-strikes-threaten-middle-east-ceasefire/",
-          "title": "Iran Accuses US of Violating Peace Deal as Fresh Strikes Threaten Middle East Ceasefire – THISDAYLIVE",
-          "domain": "thisdaylive.com",
-          "seendate": "20260628T071500Z"
-        },
-        {
-          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003246751&PAGE_CD=N0002&CMPT_CD=M0112",
-          "title": "미국 , 이란의 호르무즈 상선 공격에 보복공습 … 종전합의 흔들리나",
-          "domain": "ohmynews.com",
-          "seendate": "20260627T020000Z"
-        },
-        {
-          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003246751&PAGE_CD=N0002&BLCK_NO=&CMPT_CD=M0147",
-          "title": "미국 , 이란의 호르무즈 상선 공격에 보복공습 … 종전합의 흔들리나",
-          "domain": "ohmynews.com",
-          "seendate": "20260627T041500Z"
-        },
-        {
-          "url": "https://bankwars.gr/%CE%BD%CE%AD%CE%B5%CF%82-%CE%B1%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%B1%CE%BD%CE%B9%CE%BA%CE%AD%CF%82-%CE%B5%CF%80%CE%B9%CE%B8%CE%AD%CF%83%CE%B5%CE%B9%CF%82-%CF%83%CF%84%CE%BF-%CE%B9%CF%81%CE%AC%CE%BD/",
-          "title": "Νέες αμερικανικές επιθέσεις στο Ιράν και απειλές Τραμπ κατά της Τεχεράνης – Ιρανικά πλήγματα σε Κουβέιτ και Μπαχρέιν",
-          "domain": "bankwars.gr",
-          "seendate": "20260628T090000Z"
-        },
-        {
-          "url": "https://www.vosgesmatin.fr/defense-guerre-conflit/2026/06/28/de-nouveaux-tirs-menacent-la-treve-trump-promet-que-l-iran-cessera-d-exister-si-le-conflit-reprend",
-          "title": "Moyen - Orient . De nouveaux tirs menacent la trêve , Trump promet que lIran  cessera dexister  si le conflit reprend",
-          "domain": "vosgesmatin.fr",
-          "seendate": "20260628T080000Z"
-        },
-        {
-          "url": "https://www.cubaheadlines.com/articles/333546",
-          "title": "Iran Claims Striking U . S . Military Positions Near the Strait of Hormuz",
-          "domain": "cubaheadlines.com",
-          "seendate": "20260627T181500Z"
-        },
-        {
-          "url": "https://jp.ibtimes.com/trump-threatens-complete-job-iran-us-iran-trade-strikes-near-strait-hormuz-102036",
-          "title": "Trump Threatens to  Complete the Job  in Iran as US and Iran Trade Strikes Near the Strait of Hormuz",
-          "domain": "jp.ibtimes.com",
-          "seendate": "20260629T020000Z"
-        },
-        {
-          "url": "http://www.thejakartapost.com/world/2026/06/28/us-iran-clash-putting-fragile-deal-under-growing-strain",
-          "title": "US , Iran clash , putting fragile deal under growing strain - Middle East and Africa",
-          "domain": "thejakartapost.com",
-          "seendate": "20260628T020000Z"
-        },
-        {
-          "url": "https://news.antiwar.com/2026/06/25/lockheed-martin-gets-35-billion-thaad-contract-as-arms-makers-cash-in-on-iran-war/",
-          "title": "Lockheed Martin Gets $35 Billion THAAD Contract as Arms Makers Cash In on Iran War",
-          "domain": "news.antiwar.com",
-          "seendate": "20260625T191500Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/06/trump-threatens-annihilate-iran-after-new-exchange-attacks",
-          "title": "Trump threatens to annihilate Iran after new exchange of attacks",
-          "domain": "al-monitor.com",
-          "seendate": "20260628T020000Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/us-iran-agree-to-halt-fighting-resume-doha-talks-to-save-fragile-peace-deal-article-13960668.html",
-          "title": "US , Iran agree to halt fighting , resume Doha talks to save fragile peace deal",
-          "domain": "moneycontrol.com",
-          "seendate": "20260629T050000Z"
-        },
-        {
-          "url": "https://www.dailynayadiganta.com/international/asia/middle-east/ibnJvJeoYNrn",
-          "title": "ইরানের আঘাতে তছনছ মার্কিন ঘাঁটি ইসরাইলে সরানোর কথা ভাবছে যুক্তরাষ্ট্র",
-          "domain": "dailynayadiganta.com",
-          "seendate": "20260627T123000Z"
-        },
-        {
-          "url": "https://paris.maville.com/actu/actudet_-guerre-au-moyen-orient-frappes-americaines-le-koweit-et-bahrein-cibles-par-l-iran...-les-dernieres-infos-_fil-7381369_actu.Htm",
-          "title": "Guerre au Moyen - Orient : frappes américaines , le Koweït et Bahreïn ciblés par lIran … Les",
-          "domain": "paris.maville.com",
-          "seendate": "20260628T113000Z"
-        },
-        {
-          "url": "https://www.juancole.com/2026/06/israels-campaign-between.html",
-          "title": "Israel  campaign between the war against Iran hurts US Ties",
-          "domain": "juancole.com",
-          "seendate": "20260627T081500Z"
-        },
-        {
-          "url": "https://udn.com/news/story/124061/9596708",
-          "title": "兩種情況就開戰 ！ 以色列防長 ： 若伊朗再射飛彈 最快明天單獨開打 | 中東戰火連綿 | 全球",
-          "domain": "udn.com",
-          "seendate": "20260630T004500Z"
-        },
-        {
-          "url": "https://www.yeniakit.com.tr/haber/irandan-misilleme-haydut-abdnin-saldirisina-cevap-2009683.html",
-          "title": "İrandan misilleme ! Haydut ABDnin saldırısına cevap",
-          "domain": "yeniakit.com.tr",
-          "seendate": "20260627T091500Z"
-        },
-        {
-          "url": "https://www.republicain-lorrain.fr/defense-guerre-conflit/2026/06/28/de-nouveaux-tirs-menacent-la-treve-trump-promet-que-l-iran-cessera-d-exister-si-le-conflit-reprend",
-          "title": "Moyen - Orient . De nouveaux tirs menacent la trêve , Trump promet que lIran  cessera dexister  si le conflit reprend",
-          "domain": "republicain-lorrain.fr",
-          "seendate": "20260628T084500Z"
-        },
-        {
-          "url": "https://www.straitstimes.com/world/middle-east/iran-says-us-violated-peace-deal-as-both-sides-trade-fire",
-          "title": "Iran says US violated peace deal , as both sides trade fire",
-          "domain": "straitstimes.com",
-          "seendate": "20260628T003000Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/374/nees-amerikanikes-epitheseis-sto-iran-iranika-pligmata-se-kouveit-kai-bachrein.htm",
-          "title": "Νέες αμερικανικές επιθέσεις στο Ιράν : Ιρανικά πλήγματα σε Κουβέιτ και Μπαχρέιν",
-          "domain": "inewsgr.com",
-          "seendate": "20260628T084500Z"
-        },
-        {
-          "url": "https://www.i24news.tv/en/news/middle-east/the-gulf/artc-exclusive-the-houthis-are-conducting-experiments-to-improve-their-missile-system",
-          "title": "Exclusive : The Houthis Are Conducting Experiments To Improve Their Missile System",
-          "domain": "i24news.tv",
-          "seendate": "20260629T104500Z"
-        },
-        {
-          "url": "https://www.lindependant.fr/2026/06/29/direct-guerre-au-moyen-orient-liran-met-en-garde-les-navires-contre-tout-contournement-de-son-itineraire-dans-le-detroit-dormuz-suivez-la-situation-en-13442375.php",
-          "title": "DIRECT . Guerre au Moyen - Orient  : lIran met en garde les navires contre tout contournement de son itinéraire dans le détroit dOrmuz , suivez la situation en direct",
-          "domain": "lindependant.fr",
-          "seendate": "20260629T044500Z"
-        },
-        {
-          "url": "https://www.trthaber.com/haber/dunya/abd-iran-mutabakati-sonrasi-ilk-sicak-catisma-anlasma-bozuldu-mu-949505.html",
-          "title": "ABD - İran mutabakatı sonrası ilk sıcak çatışma : Anlaşma bozuldu mu ? ",
-          "domain": "trthaber.com",
-          "seendate": "20260627T110000Z"
-        },
-        {
-          "url": "https://www.evrensel.net/haber/5990008/hurmuz-bogazi-nda-sicak-saatler-abd-nin-hava-saldirisina-iran-misilleme-yapti",
-          "title": "Hürmüz Boğazı  nda sıcak saatler : ABDnin hava saldırısına İran misilleme yaptı",
-          "domain": "evrensel.net",
-          "seendate": "20260627T020000Z"
-        },
-        {
-          "url": "https://www.npr.org/2026/06/28/g-s1-130748/us-iran-israel-lebanon-hormuz-strikes-bahrain-kuwait",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "npr.org",
-          "seendate": "20260628T194500Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/khamenei-says-us-israel-boasting-over-iran-strikes-amounts-to-confession-of-crimes/articleshow/132053923.cms",
-          "title": "Khamenei says US - Israel  boasting  over Iran strikes amounts to confession of crimes",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260628T160000Z"
-        },
-        {
-          "url": "https://www.haberler.com/dunya/iran-devrim-muhafizlari-abd-nin-saldirisina-misilleme-yaptik-19995062-haberi/",
-          "title": "İran Devrim Muhafızları Ordusundan misilleme : ABDnin bölgedeki konuşlanma noktaları vuruldu",
-          "domain": "haberler.com",
-          "seendate": "20260627T084500Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202606283785510734.html",
-          "title": "部分加密货币跳水 ！ 美军发动空袭 特朗普重大警告 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20260628T044500Z"
-        },
-        {
-          "url": "https://www.dw.com/en/us-iran-agree-to-halt-strikes-but-broader-talks-still-to-begin/live-77746775",
-          "title": "US , Iran agree to halt strikes but broader talks pending",
-          "domain": "dw.com",
-          "seendate": "20260629T123000Z"
-        },
-        {
-          "url": "https://www.newsbeast.gr/world/arthro/13197807/oi-zimies-apo-ta-iranika-pligmata-matosan-tis-ipa-kai-odigoun-se-anadiataxi-dynameon-sti-mesi-anatoli-krisimos-o-rolos-tou-israil",
-          "title": "Οι ζημιές από τα ιρανικά πλήγματα « μάτωσαν » τις ΗΠΑ και οδηγούν σε αναδιάταξη δυνάμεων στη Μέση Ανατολή – Κρίσιμος ο ρόλος του Ισραήλ",
-          "domain": "newsbeast.gr",
-          "seendate": "20260628T091500Z"
-        },
-        {
-          "url": "https://www.cjme.com/2026/06/26/u-s-strikes-iran-in-response-to-a-drone-attack-on-a-ship/",
-          "title": "U . S . strikes Iran in response to a drone attack on a ship",
-          "domain": "cjme.com",
-          "seendate": "20260627T050000Z"
-        },
-        {
-          "url": "https://www.ckom.com/2026/06/26/u-s-strikes-iran-in-response-to-a-drone-attack-on-a-ship/",
-          "title": "U . S . strikes Iran in response to a drone attack on a ship",
-          "domain": "ckom.com",
-          "seendate": "20260627T051500Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/97/oi-zimies-apo-ta-iranika-pligmata-matosan-tis-ipa-kai-odigoun-se-anadiataxi-dynameon-sti-mesi-anatoli--krisimos-o-rolos-tou-israil.htm",
-          "title": "Οι ζημιές από τα ιρανικά πλήγματα « μάτωσαν » τις ΗΠΑ και οδηγούν σε αναδιάταξη δυνάμεων στη Μέση Ανατολή – Κρίσιμος ο ρόλος του Ισραήλ",
-          "domain": "inewsgr.com",
-          "seendate": "20260628T090000Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=26062026&id=76d5f1e9-7636-4044-9e3c-174739c768e8",
-          "title": "معاريف : نتنياهو جعل إسرائيل بعزلة والعالم يحتقرها وواشنطن تمقتها",
-          "domain": "shorouknews.com",
-          "seendate": "20260626T161500Z"
-        },
-        {
-          "url": "https://www.ledevoir.com/monde/moyen-orient/990935/toute-ingerence-gestion-ormuz-risque-accroitre-tensions-previent-iran",
-          "title": "Toute « ingérence » dans la gestion dOrmuz risque daccroitre les tensions , prévient lIran",
-          "domain": "ledevoir.com",
-          "seendate": "20260628T134500Z"
-        },
-        {
-          "url": "https://www.yeniakit.com.tr/haber/abd-iran-kiyilarini-vurdu-ateskes-resmi-olarak-sonlanirsa-dunya-icin-felaket-olur-2009651.html",
-          "title": "ABD İran kıyılarını vurdu ! Ateşkes resmi olarak sonlanırsa dünya için felaket olur ! ",
-          "domain": "yeniakit.com.tr",
-          "seendate": "20260627T043000Z"
-        },
-        {
-          "url": "https://www.vanguardngr.com/2026/06/bahrain-says-targeted-by-several-iranian-drones/",
-          "title": "Bahrain says targeted by several Iranian drones",
-          "domain": "vanguardngr.com",
-          "seendate": "20260627T120000Z"
-        },
-        {
-          "url": "https://www.dw.com/en/us-iran-trade-strikes-as-truce-faces-threat/live-77729995",
-          "title": "US , Iran trade strikes putting truce at risk",
-          "domain": "dw.com",
-          "seendate": "20260627T124500Z"
-        },
-        {
-          "url": "https://www.zaobao.com.sg/news/world/story20260628-9279225",
-          "title": "美伊互袭升级 : 特朗普威胁摧毁伊朗 局势波及科威特巴林",
-          "domain": "zaobao.com.sg",
-          "seendate": "20260628T164500Z"
-        },
-        {
-          "url": "https://www.lapresse.ca/international/moyen-orient/2026-06-27/conflit-au-moyen-orient/nouveaux-bombardements-americains-en-iran-que-trump-menace-d-aneantir.php",
-          "title": "Conflit au Moyen - Orient | Nouveaux bombardements américains en Iran , que Trump menace danéantir",
-          "domain": "lapresse.ca",
-          "seendate": "20260628T044500Z"
-        },
-        {
-          "url": "https://www.sankei.com/article/20260627-2FCPB27T5JOMHAQSQH5HUVAT3Y/",
-          "title": "米がイラン施設を空爆 「 貨物船攻撃への報復 」、 イラン側も攻撃 覚書後初めて応酬",
-          "domain": "sankei.com",
-          "seendate": "20260627T140000Z"
-        },
-        {
-          "url": "https://www.cbc.ca/news/world/israeli-strike-south-lebanon-9.7248434",
-          "title": "2 people killed in Israeli drone strike on car in South Lebanon",
-          "domain": "cbc.ca",
-          "seendate": "20260625T153000Z"
-        },
-        {
-          "url": "https://www.rts.ch/info/monde/2026/minute-par-minute/29288385.html",
-          "title": "Tensions united states - Iran : nouvel échange de frappes et menaces de Trump",
-          "domain": "rts.ch",
-          "seendate": "20260628T074500Z"
-        },
-        {
-          "url": "https://www.metroseoul.co.kr:443/article/20260627500003",
-          "title": "이란 혁명수비대  중동 미군기지 타격 … 트럼프  호르무즈 공격은 휴전 위반  ",
-          "domain": "metroseoul.co.kr",
-          "seendate": "20260627T080000Z"
-        },
-        {
-          "url": "https://www.nicematin.com/societe/conflits/il-se-peut-qu-un-jour-nous-ne-puissions-plus-faire-preuve-de-raison-apres-un-nouvel-echange-de-frappes-donald-trump-menace-encore-une-fois-d-aneantir-l-iran-10686964",
-          "title": " Il se peut quun jour , nous ne puissions plus faire preuve de raison  : après un nouvel échange de frappes , Donald Trump menace encore une fois danéantir lIran",
-          "domain": "nicematin.com",
-          "seendate": "20260628T083000Z"
-        },
-        {
-          "url": "https://www.nbd.com.cn/articles/2026-06-30/4441636.html",
-          "title": "突发 ！ 以色列宣布 ： 打死伊斯梅尔 · 马斯里 ！ 以防长 ： 明天就可能与伊朗进入战争状态 ， 已选定针对伊朗境内的打击目标",
-          "domain": "nbd.com.cn",
-          "seendate": "20260630T034500Z"
-        },
-        {
-          "url": "http://www.econotimes.com/US-Strikes-Iran-After-Strait-of-Hormuz-Attack-as-Ceasefire-Tensions-Escalate-1745298",
-          "title": "US Strikes Iran After Strait of Hormuz Attack as Ceasefire Tensions Escalate",
-          "domain": "econotimes.com",
-          "seendate": "20260627T043000Z"
-        },
-        {
-          "url": "https://www.lindependant.fr/2026/06/27/direct-guerre-au-moyen-orient-accord-cadre-entre-liban-et-israel-qui-laisse-deux-zones-pilotes-a-larmee-libanaise-suivez-la-situation-en-direct-13439810.php",
-          "title": "DIRECT . Guerre au Moyen - Orient  : accord - cadre entre Liban et Israël , échanges de frappes entre lraniens et Américains",
-          "domain": "lindependant.fr",
-          "seendate": "20260627T053000Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/06/29/pakistan-reaffirms-middle-east-peace-push-amid-renewed-regional-escalation",
-          "title": "Pakistan Reaffirms Middle East Peace Push as Iran - U . S . Clash",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260629T000000Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/884605/isopedosan-ksana-amerikanikes-vaseis-oi-iranoi-ekrikseis-ston-5o-stolo-ipa-xtypisame-sirik-se-hormuz-vance-na-ta-vroyme",
-          "title": "Ισοπέδωσαν ξανά Αμερικανικές Βάσεις οι Ιρανοί , φεύγει ο 5ος Στόλος – ΗΠΑ : Χτυπήσαμε Sirik σε Hormuz – Vance : Να τα βρούμε",
-          "domain": "bankingnews.gr",
-          "seendate": "20260627T043000Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/884605/isopedosan-ksana-amerikanikes-vaseis-oi-iranoi-ekrikseis-ston-5o-stolo-ipa-xtypisame-sirik-se-hormuz-vance-na-ta-vroyme%20title=",
-          "title": "Ισοπέδωσαν ξανά Αμερικανικές Βάσεις οι Ιρανοί , φεύγει ο 5ος Στόλος – ΗΠΑ : Χτυπήσαμε Sirik σε Hormuz – Vance : Να τα βρούμε",
-          "domain": "bankingnews.gr",
-          "seendate": "20260627T043000Z"
-        },
-        {
-          "url": "https://pakobserver.net/iran-us-exchange-fresh-strikes-accuse-each-other-of-violating-mou/",
-          "title": "Iran - US exchange fresh strikes , accuse each other of violating MoU",
-          "domain": "pakobserver.net",
-          "seendate": "20260628T090000Z"
-        },
-        {
-          "url": "https://www.lopinion.fr/international/guerre-au-moyen-orient-liran-affirme-avoir-frappe-des-positions-militaires-americaines",
-          "title": "Guerre au Moyen - Orient : lIran affirme avoir frappé des positions militaires américaines",
-          "domain": "lopinion.fr",
-          "seendate": "20260627T084500Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202606271929051264",
-          "title": "美 · 이란 ,  MOU 위반  보복 공방 확산 … 바레인도  이란 공격받았다  ",
-          "domain": "fnnews.com",
-          "seendate": "20260627T124500Z"
-        },
-        {
-          "url": "https://www.sabah.com.tr/yasam/canli-son-dakika-abd-iran-ateskesinde-catlak-hurmuz-bogazi-gerilimi-sonrasi-tahran-yonetimi-tehditler-yagdirdi-trump-pisman-olacak-7611439",
-          "title": "SON DAKİKA … ABD - İran ateşkesinde çatlak ! Hürmüz Boğazı gerilimi sonrası Tahran yönetimi tehditler yağdırdı : Trump pişman olacak ! ",
-          "domain": "sabah.com.tr",
-          "seendate": "20260627T043000Z"
-        },
-        {
-          "url": "https://www.khaama.com/pakistan-bahrain-foreign-ministers-discuss-latest-regional-developments/",
-          "title": "Pakistan , Bahrain foreign ministers discuss latest regional developments",
-          "domain": "khaama.com",
-          "seendate": "20260628T141500Z"
-        },
-        {
-          "url": "https://www.voachinese.com/a/president-trump-says-us-iran-talks-to-resume-in-doha-on-tuesday-20260629/8166151.html",
-          "title": "特朗普总统宣布 美伊星期二将在多哈恢复会谈",
-          "domain": "voachinese.com",
-          "seendate": "20260629T234500Z"
-        },
-        {
-          "url": "https://www.livemint.com/news/world/us-iran-war-news-live-updates-ceasefire-hezbollah-israel-lebanon-oil-donald-trump-strait-of-hormuz-peace-deal-27-june-11782518159080.html",
-          "title": "US - Iran war news Live : Tehran launches retaliatory strikes on US sites in Gulf , warns  if aggression is repeated , our … ",
-          "domain": "livemint.com",
-          "seendate": "20260627T020000Z"
-        },
-        {
-          "url": "https://africanmanager.com/liran-met-en-garde-contre-toute-ingerence-dans-la-gestion-dormuz/",
-          "title": "LIran met en garde contre toute  ingérence  dans la gestion dOrmuz",
-          "domain": "africanmanager.com",
-          "seendate": "20260628T163000Z"
-        },
-        {
-          "url": "https://www.haksozhaber.net/hizbullah-artik-tahran-icin-bir-varliktan-cok-bir-yuk-mu-256316h.htm",
-          "title": "Hizbullah artık Tahran için bir varlıktan çok bir yük mü ? ",
-          "domain": "haksozhaber.net",
-          "seendate": "20260629T191500Z"
-        },
-        {
-          "url": "https://world.qianlong.com/2026/0626/8688943.shtml",
-          "title": "伊朗外交部谴责美国与海合会联合声明",
-          "domain": "world.qianlong.com",
-          "seendate": "20260626T174500Z"
-        },
-        {
-          "url": "https://www.abc.net.au/listen/programs/global-roaming/global-roaming-middle-east-escalation-trap-war/106778818",
-          "title": "Is the Middle East caught in an unstoppable  escalation trap  of all - out war ? ",
-          "domain": "abc.net.au",
-          "seendate": "20260629T071500Z"
-        },
-        {
-          "url": "https://www.busan.com/view/busan/view.php?code=2026062709391237166",
-          "title": "美 - 이란 , 종전 MOU 9일 만에 다시 무력충돌",
-          "domain": "busan.com",
-          "seendate": "20260627T101500Z"
-        },
-        {
-          "url": "https://www.newstalkzb.co.nz/news/world/trump-threatens-to-annihilate-iran-after-new-exchange-of-attacks/",
-          "title": "Trump threatens to annihilate Iran after new exchange of attacks",
-          "domain": "newstalkzb.co.nz",
-          "seendate": "20260628T021500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-30/live-updates-900897",
-          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260630T043000Z"
-        },
-        {
-          "url": "https://www.bd-pratidin.com/international-news/2026/06/26/1267178",
-          "title": "ইরানি হামলায় ব্যাপক ক্ষয়ক্ষতি , মধ্যপ্রাচ্যের কয়েকটি ঘাঁটি সরিয়ে নিচ্ছে আমেরিকা ? |",
-          "domain": "bd-pratidin.com",
-          "seendate": "20260626T084500Z"
-        },
-        {
-          "url": "https://www.news24.com/world/us-strikes-iran-after-foolish-violation-of-ceasefire-says-trump-20260627-0285",
-          "title": "US strikes Iran after  foolish violation  of ceasefire , says Trump",
-          "domain": "news24.com",
-          "seendate": "20260627T084500Z"
-        },
-        {
-          "url": "https://www.alwatan.com.sa/article/1182342",
-          "title": "إيران وأمريكا تكثفان الهجمات وتهددان بالتصعيد",
-          "domain": "alwatan.com.sa",
-          "seendate": "20260628T233000Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/us-says-iran-iran-says-us-who-really-broke-ceasefire-this-time/articleshow/132028110.cms",
-          "title": "US says Iran , Iran says US : Who really broke ceasefire this time ? ",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260627T043000Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/us/us-says-iran-iran-says-us-who-really-broke-ceasefire-this-time/articleshow/132028183.cms",
-          "title": "US says Iran , Iran says US : Who really broke ceasefire this time ? ",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260627T043000Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-571",
-          "title": "Morning update",
-          "domain": "middleeasteye.net",
-          "seendate": "20260627T081500Z"
-        },
-        {
-          "url": "https://www.boston.com/news/world-news/2026/06/26/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship/",
-          "title": "US strikes Iran in response to a drone attack on a ship",
-          "domain": "boston.com",
-          "seendate": "20260627T021500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-27/live-updates-900631",
-          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260627T051500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-06-26/live-updates-900594",
-          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260626T051500Z"
-        },
-        {
-          "url": "https://www.wyso.org/npr-news/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "wyso.org",
-          "seendate": "20260628T194500Z"
-        },
-        {
-          "url": "https://www.kyuk.org/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "kyuk.org",
-          "seendate": "20260628T194500Z"
-        },
-        {
-          "url": "https://www.kzyx.org/npr-news/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "kzyx.org",
-          "seendate": "20260628T191500Z"
-        },
-        {
-          "url": "https://www.wfdd.org/national/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "wfdd.org",
-          "seendate": "20260628T191500Z"
-        },
-        {
-          "url": "https://kansaspublicradio.org/npr-news/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "kansaspublicradio.org",
-          "seendate": "20260628T191500Z"
-        },
-        {
-          "url": "https://www.southcarolinapublicradio.org/news/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "southcarolinapublicradio.org",
-          "seendate": "20260628T191500Z"
-        },
-        {
-          "url": "https://www.turkiyegazetesi.com.tr/dunya/saldiri-sonrasi-iran-disisleri-bakanligindan-dikkat-ceken-hurmuz-aciklamasi-1799698",
-          "title": "Saldırı sonrası İran Dışişleri Bakanlığı  ndan dikkat çeken Hürmüz açıklaması",
-          "domain": "turkiyegazetesi.com.tr",
-          "seendate": "20260627T094500Z"
-        },
-        {
-          "url": "https://www.npr.org/2026/06/27/nx-s1-5872954/us-strikes-iran",
-          "title": "U . S . strikes Iran in response to a drone attack on a ship",
-          "domain": "npr.org",
-          "seendate": "20260627T050000Z"
-        },
-        {
-          "url": "https://www.lapresse.ca/international/moyen-orient/2026-06-27/conflit-au-moyen-orient/nouveaux-bombardements-americains-en-iran-que-trump-menace-encore-d-aneantir.php",
-          "title": "Conflit au Moyen - Orient | Nouveaux bombardements américains en Iran , que Trump menace encore danéantir",
-          "domain": "lapresse.ca",
-          "seendate": "20260628T021500Z"
-        },
-        {
-          "url": "https://www.senenews.com/actualites/politique/liran-cible-le-koweit-et-bahrein-apres-des-frappes-americaines-sur-son-sol_591397.html",
-          "title": "LIran revendique des frappes contre le Koweït et Bahreïn après des actions américaines",
-          "domain": "senenews.com",
-          "seendate": "20260628T131500Z"
-        },
-        {
-          "url": "https://www.almontasaf.net/news144030.html",
-          "title": "إسرائيل تعيد تقييم التهديدات الحوثية وتحدث خططها الهجومية ضد الحوثيين",
-          "domain": "almontasaf.net",
-          "seendate": "20260628T091500Z"
-        },
-        {
-          "url": "https://www.jugantor.com/international/1119185",
-          "title": "আরব দেশের কিছু মার্কিন ঘাঁটি ইসরাইলে সরানোর পরিকল্পনা পেন্টাগনের",
-          "domain": "jugantor.com",
-          "seendate": "20260627T111500Z"
-        },
-        {
-          "url": "https://www.easternriverinachronicle.com.au/story/9300380/us-military-carries-out-fresh-attacks-on-iran/",
-          "title": "US military carries out fresh attacks on Iran",
-          "domain": "easternriverinachronicle.com.au",
-          "seendate": "20260627T233000Z"
-        },
-        {
-          "url": "https://lanouvelletribune.info/2026/06/netanyahou-a-harcele-obama-pour-des-frappes-sur-liran-selon-john-kerry/",
-          "title": "Netanyahou a harcelé Obama pour des frappes sur lIran selon John Kerry",
-          "domain": "lanouvelletribune.info",
-          "seendate": "20260629T134500Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/06/29/israels-mission-impossible",
-          "title": "Israel US Military Dependence Meets  Mission Impossible  ",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260629T000000Z"
-        },
-        {
-          "url": "https://www.24heures.ch/direct-moyen-orient-malgre-laccord-de-cessez-le-feu-les-frappes-continuent-785348163569",
-          "title": "DIRECT . Moyen - Orient : États - Unis et Iran échangent des frappes",
-          "domain": "24heures.ch",
-          "seendate": "20260628T080000Z"
-        },
-        {
-          "url": "https://wsvn.com/news/us-world/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship-that-trump-says-violated-ceasefire/",
-          "title": "US strikes Iran in response to a drone attack on a ship that Trump says violated ceasefire - WSVN 7News | Miami News , Weather , Sports",
-          "domain": "wsvn.com",
-          "seendate": "20260627T033000Z"
-        },
-        {
-          "url": "https://thepressproject.gr/ipa-kai-iran-symfonisan-se-anastoli-ton-echthropraxion-kai-epanenarxi-ton-synomilion-sti-ntocha-nees-israilines-epitheseis-sto-livano/",
-          "title": "ΗΠΑ και Ιράν συμφώνησαν σε « αναστολή των εχθροπραξιών » και επανέναρξη των συνομιλιών στη Ντόχα - Νέες ισραηλινές επιθέσεις στο Λίβανο - The Press Project",
-          "domain": "thepressproject.gr",
-          "seendate": "20260629T101500Z"
-        },
-        {
-          "url": "https://www.moonofalabama.org/2026/06/war-on-iran-new-clash-over-strait-passage-lebanons-capitulation-ignites-new-civil-war.html/comment-page-3",
-          "title": "War On Iran : – New Clash Over Strait Passage – Lebanon Capitulation Ignites New Civil War – Moon of Alabama",
-          "domain": "moonofalabama.org",
-          "seendate": "20260628T071500Z"
-        },
-        {
-          "url": "https://www.24heures.ch/direct-moyen-orient-le-chef-du-parlement-libanais-rejette-accord-avec-israel-785348163569",
-          "title": "DIRECT . Moyen - Orient : États - Unis et Iran échangent des frappes",
-          "domain": "24heures.ch",
-          "seendate": "20260629T021500Z"
-        },
-        {
-          "url": "https://www.tribune.gr/world/news/article/950372/o-tramp-apeilei-na-teleiosei-ti-doyleia-sto-iran-kathos-o-stratos-ton-ipa-exapelyse-nea-pligmata.html",
-          "title": "Ο Τραμπ απειλεί να « τελειώσει τη δουλειά » στο Ιράν , καθώς ο στρατός των ΗΠΑ εξαπέλυσε νέα πλήγματα",
-          "domain": "tribune.gr",
-          "seendate": "20260628T081500Z"
-        },
-        {
-          "url": "https://www.corsematin.com/article/francemonde/63099671708096/guerre-au-moyen-orient-trump-affirme-que-liran-cessera-dexister-si-les-etats-unis-repartent-en-guerre",
-          "title": "Nouvel échange de frappes entre les États - Unis et lIran , que Trump menace danéantir",
-          "domain": "corsematin.com",
-          "seendate": "20260628T103000Z"
-        },
-        {
-          "url": "https://www.sankei.com/article/20260627-PZO7CPQQVBMN5PQZJ3D4PPGYB4/",
-          "title": "米 、 イラン軍事施設を空爆 前日の貨物船攻撃への報復 バンス氏 「 暴力には暴力で応じる 」 ",
-          "domain": "sankei.com",
-          "seendate": "20260627T031500Z"
-        },
-        {
-          "url": "https://tribune.com.pk/story/2615539/us-iran-truce-hangs-by-a-thread-after-fresh-strikes",
-          "title": "US - Iran truce hangs by a thread after fresh strikes",
-          "domain": "tribune.com.pk",
-          "seendate": "20260628T224500Z"
-        },
-        {
-          "url": "https://www.livehindustan.com/middle-east/us-and-israel-remained-entangled-in-war-iran-pulled-off-major-move-developing-lethal-weapons-201782666541356.html",
-          "title": "अमेरिका - इजरायल युद्ध में उलझे रहे , ईरान ने कर दिया बड़ा खेल ; बना डाले घातक हथियार",
-          "domain": "livehindustan.com",
-          "seendate": "20260628T174500Z"
-        },
-        {
-          "url": "https://www.deccanchronicle.com/world/tanker-struck-in-hormuz-as-iran-us-trade-attacks-after-peace-deal-1966785",
-          "title": "Tanker Struck in Hormuz as Iran , US Trade Attacks After Peace Deal",
-          "domain": "deccanchronicle.com",
-          "seendate": "20260627T201500Z"
-        },
-        {
-          "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/us-strikes-iran-to-respond-to-attack-trump-says-violated-ceasefire",
-          "title": "US strikes Iran to respond to attack Trump says violated ceasefire",
-          "domain": "asia.nikkei.com",
-          "seendate": "20260627T001500Z"
-        },
-        {
-          "url": "https://www.tovima.gr/2026/06/27/%CE%B1%CF%84%CE%B1%CE%BE%CE%B9%CE%BD%CF%8C%CE%BC%CE%B7%CF%84%CE%B1/flegetai-ksana-o-kolpos-xtypithike-tanker-sta-stena-katarreei-i-ekexeiria-ipa-me-iran/",
-          "title": "Φλέγεται ξανά ο Κόλπος : Χτυπήθηκε τάνκερ στα Στενά - Καταρρέει η εκεχειρία ΗΠΑ με Ιράν ; ",
-          "domain": "tovima.gr",
-          "seendate": "20260627T154500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/06/29/world/live-news/iran-war-strikes-trump",
-          "title": "Live updates : US and Iran will  stand down for now  and talks  on track , US officials say",
-          "domain": "cnn.com",
-          "seendate": "20260629T054500Z"
-        },
-        {
-          "url": "https://www.israelnationalnews.com/news/429220",
-          "title": "Quds Force chief warns Israel : Evacuate Lebanon or face humiliating defeat",
-          "domain": "israelnationalnews.com",
-          "seendate": "20260626T003000Z"
-        },
-        {
-          "url": "https://www.dw.com/en/us-iran-deliver-conflicting-reports-on-fresh-peace-talks/live-77746775",
-          "title": "US , Iran deliver conflicting reports on fresh peace talks",
-          "domain": "dw.com",
-          "seendate": "20260629T210000Z"
-        },
-        {
-          "url": "https://www.rtl.be/actu/monde/international/nouvel-echange-dattaques-trump-affirme-que-liran-cessera-dexister-si-les-etats/2026-06-28/article/792974",
-          "title": "Nouvel échange dattaques : Trump affirme que lIran  cessera dexister  si les États - Unis repartent en guerre",
-          "domain": "rtl.be",
-          "seendate": "20260628T103000Z"
-        },
-        {
-          "url": "https://www.cna.com.tw/news/aopl/202606260178.aspx",
-          "title": "WSJ ： 伊朗重創美駐巴林海軍基地 美重估中東部署 | 國際",
-          "domain": "cna.com.tw",
-          "seendate": "20260626T070000Z"
-        },
-        {
-          "url": "https://www.cna.com.tw:443/news/aopl/202606260178.aspx",
-          "title": "WSJ ： 伊朗重創美駐巴林海軍基地 美重估中東部署 | 國際",
-          "domain": "cna.com.tw",
-          "seendate": "20260626T073000Z"
-        },
-        {
-          "url": "https://newtalk.tw/news/view/2026-06-30/1044316",
-          "title": "嗆明天就可讓伊陷戰爭狀態 ! 以擬採 「 獨立軍事行動 」 2狀況開啟 「 藍白行動 」 | 國際",
-          "domain": "newtalk.tw",
-          "seendate": "20260630T044500Z"
-        },
-        {
-          "url": "https://www.wistv.com/2026/06/26/trump-blames-iran-drone-strike-cargo-ship-strait-hormuz/",
-          "title": "US strikes Iran to respond to attack on ship that Trump says violated ceasefire",
-          "domain": "wistv.com",
-          "seendate": "20260626T220000Z"
-        },
-        {
-          "url": "https://www.theyeshivaworld.com/news/israel-news/2568339/iran-signals-next-phase-military-unveils-new-combat-drones-promises-more-advanced-weapons.html",
-          "title": "IRAN SIGNALS NEXT PHASE : Military Unveils New Combat Drones , Promises More Advanced Weapons",
-          "domain": "theyeshivaworld.com",
-          "seendate": "20260629T020000Z"
-        },
-        {
-          "url": "https://portal.sina.com.hk/news-intl/sina/2026/06/28/1837467/%E3%80%8C%E8%AB%92%E8%A7%A3%E3%80%8D%E4%B9%8B%E5%BE%8C%E8%A1%9D%E7%AA%81%E5%86%8D%E8%B5%B7%EF%BC%8C%E7%BE%8E%E4%BC%8A%E7%82%BA%E4%BD%95%E5%8F%88%E5%8B%95%E6%89%8B%EF%BC%9F/",
-          "title": " 「 諒解 」 之後衝突再起 ， 美伊為何又動手 ？ ",
-          "domain": "portal.sina.com.hk",
-          "seendate": "20260628T161500Z"
-        },
-        {
-          "url": "https://www.geo.tv/latest/670460-us-iran-exchange-strikes-for-first-time-since-signing-switzerland-peace-accord",
-          "title": "US , Iran exchange strikes for first time since signing Switzerland peace accord",
-          "domain": "geo.tv",
-          "seendate": "20260627T080000Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/6/27/iran-and-us-trade-blame-for-attacks-threatening-fragile-ceasefire",
-          "title": "Iran and US trade blame for attacks , threatening fragile ceasefire",
-          "domain": "aljazeera.com",
-          "seendate": "20260627T110000Z"
-        },
-        {
-          "url": "https://wsvn.com/news/us-world/us-strikes-iran-to-respond-to-attack-on-ship-that-trump-says-violated-ceasefire/",
-          "title": "US strikes Iran to respond to attack on ship that Trump says violated ceasefire - WSVN 7News | Miami News , Weather , Sports",
-          "domain": "wsvn.com",
-          "seendate": "20260626T224500Z"
-        },
-        {
-          "url": "https://www.moonofalabama.org/2026/06/war-on-iran-new-clash-over-strait-passage-lebanons-capitulation-ignites-new-civil-war.html",
-          "title": "War On Iran : – New Clash Over Strait Passage – Lebanon Capitulation Ignites New Civil War – Moon of Alabama",
-          "domain": "moonofalabama.org",
-          "seendate": "20260627T124500Z"
-        },
-        {
-          "url": "https://www.wndu.com/2026/06/26/trump-blames-iran-drone-strike-cargo-ship-strait-hormuz/",
-          "title": "US strikes Iran to respond to attack on ship that Trump says violated ceasefire",
-          "domain": "wndu.com",
-          "seendate": "20260627T030000Z"
-        },
-        {
-          "url": "https://www.wuky.org/npr-news/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "wuky.org",
-          "seendate": "20260628T233000Z"
-        },
-        {
-          "url": "https://www.wrvo.org/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "wrvo.org",
-          "seendate": "20260628T224500Z"
-        },
-        {
-          "url": "https://www.kenw.org/npr-news/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "kenw.org",
-          "seendate": "20260628T233000Z"
-        },
-        {
-          "url": "https://www.tspr.org/npr-news/2026-06-28/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire",
-          "title": "U . S . and Iran exchange strikes , underscoring the fragility of the ceasefire",
-          "domain": "tspr.org",
-          "seendate": "20260628T220000Z"
-        },
-        {
-          "url": "https://news.ifeng.com/c/8uHILhokvjL",
-          "title": "伊朗外交部谴责美国与海合会联合声明",
-          "domain": "news.ifeng.com",
-          "seendate": "20260626T141500Z"
-        },
-        {
-          "url": "https://www.aktuality.sk/clanok/hJ7Hpyo/trump-pritvrdil-vo-vojne-o-ceny-benzinu-predajcom-v-usa-odkazal-ze-musia-okamzite-zlacniet/",
-          "title": "Trump pritvrdil vo vojne o ceny benzínu . Predajcom v united states odkázal , že musia okamžite zlacnieť",
-          "domain": "aktuality.sk",
-          "seendate": "20260630T051500Z"
-        },
-        {
-          "url": "https://annabaa.org/arabic/authorsarticles/46559",
-          "title": "الاتفاق الامريكي الايراني بعد حرب الاربعين يوماً .. الدوافع والمشاهد المستقبلية",
-          "domain": "annabaa.org",
-          "seendate": "20260627T060000Z"
-        },
-        {
-          "url": "https://www.1011now.com/2026/06/26/trump-blames-iran-drone-strike-cargo-ship-strait-hormuz/",
-          "title": "US strikes Iran to respond to attack on ship that Trump says violated ceasefire",
-          "domain": "1011now.com",
-          "seendate": "20260627T000000Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/news/US-Iran-MoU-conditional-surrender-analyst-Tucker-Carlson-show",
-          "title": "US - Iran agreement amounts to  conditional surrender , analyst says on Tucker Carlson show",
-          "domain": "middleeasteye.net",
-          "seendate": "20260627T094500Z"
-        },
-        {
-          "url": "https://www.mvariety.com/news/national/national-trump-republican-senator-in-shouting-match-over-unpopular-iran-war/article_27c39499-9ec3-487d-824d-4a40befbdc14.html",
-          "title": "Trump , Republican senator in shouting match over unpopular Iran war - Marianas Variety News & Views",
-          "domain": "mvariety.com",
-          "seendate": "20260625T171500Z"
-        },
-        {
-          "url": "https://www.sun-sentinel.com/2026/06/26/iran-us-war-missile-alert/",
-          "title": "Trump blames Iran for drone strike on a cargo ship in Strait of Hormuz",
-          "domain": "sun-sentinel.com",
-          "seendate": "20260627T014500Z"
-        },
-        {
-          "url": "https://whdh.com/news/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship/",
-          "title": "US strikes Iran in response to a drone attack on a ship - Boston News , Weather , Sports",
-          "domain": "whdh.com",
-          "seendate": "20260627T041500Z"
-        },
-        {
-          "url": "https://www.orlandosentinel.com/2026/06/26/iran-us-war-missile-alert/",
-          "title": "Trump blames Iran for drone strike on a cargo ship in Strait of Hormuz",
-          "domain": "orlandosentinel.com",
-          "seendate": "20260627T001500Z"
-        },
-        {
-          "url": "https://wnyc.org/npr/nx-s1-5872954",
-          "title": "U . S . strikes Iran in response to a drone attack on a ship",
-          "domain": "wnyc.org",
-          "seendate": "20260627T084500Z"
-        },
-        {
-          "url": "https://www.hani.co.kr/arti/international/arabafrica/1265630.html",
-          "title": " [ 속보 ] 미국 , 연이틀 이란 공습 … 호르무즈 유조선 피격 뒤 긴장 재고조",
-          "domain": "hani.co.kr",
-          "seendate": "20260627T233000Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/will-the-us-iran-ceasefire-hold-fresh-strikes-renew-gulf-tensions-article-13960115.html",
-          "title": "Will the US - Iran ceasefire hold ? Fresh strikes renew Gulf tensions",
-          "domain": "moneycontrol.com",
-          "seendate": "20260627T181500Z"
-        },
-        {
-          "url": "https://www.rnz.co.nz/news/world/632861/iran-attacks-after-trump-warns-it-will-no-longer-exist-if-us-escalates",
-          "title": "Iran attacks after Trump warns it  will no longer exist  if US escalates",
-          "domain": "rnz.co.nz",
-          "seendate": "20260628T071500Z"
-        },
-        {
-          "url": "https://newtalk.tw/news/view/2026-06-28/1043897",
-          "title": "報復美軍攻擊 ！ 伊飛彈 、 無人機夜襲 「 這兩國 」 怒稱荷姆茲不納談判內容 | 國際",
-          "domain": "newtalk.tw",
-          "seendate": "20260628T074500Z"
-        },
-        {
-          "url": "http://www.europesun.com/news/279152972/bahrain-kuwait-condemn-iranian-attacks-after-us-strikes-on-iran",
-          "title": "Bahrain , Kuwait Condemn Iranian Attacks After US Strikes On Iran",
-          "domain": "europesun.com",
-          "seendate": "20260628T103000Z"
-        },
-        {
-          "url": "http://www.iranherald.com/news/279152972/bahrain-kuwait-condemn-iranian-attacks-after-us-strikes-on-iran",
-          "title": "Bahrain , Kuwait Condemn Iranian Attacks After US Strikes On Iran",
-          "domain": "iranherald.com",
-          "seendate": "20260628T103000Z"
-        },
-        {
-          "url": "http://www.israelherald.com/news/279152972/bahrain-kuwait-condemn-iranian-attacks-after-us-strikes-on-iran",
-          "title": "Bahrain , Kuwait Condemn Iranian Attacks After US Strikes On Iran",
-          "domain": "israelherald.com",
-          "seendate": "20260629T011500Z"
-        },
-        {
-          "url": "https://knpr.org/npr/2026-06-26/u-s-strikes-iran-in-response-to-a-drone-attack-on-a-ship",
-          "title": "U . S . strikes Iran in response to a drone attack on a ship",
-          "domain": "knpr.org",
-          "seendate": "20260627T070000Z"
-        },
-        {
-          "url": "https://www.wenxuecity.com/news/2026/06/26/126690448.html",
-          "title": "美媒 ： 伊朗重创美驻巴林海军基地 美重估中东部署",
-          "domain": "wenxuecity.com",
-          "seendate": "20260626T190000Z"
-        },
-        {
-          "url": "https://www.tanea.gr/2026/06/30/world/ipa-kai-iran-synomilies-sto-katar-meta-tin-klimakosi-sto-epikentro-ta-stena-toy-ormoyz/",
-          "title": "ΗΠΑ και Ιράν : Συνομιλίες στο Κατάρ μετά την κλιμάκωση – Στο επίκεντρο τα Στενά του Ορμούζ",
-          "domain": "tanea.gr",
-          "seendate": "20260630T051500Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/27/ipa-kai-iran-synomilies-sto-katar-meta-tin-klimakosi--sto-epikentro-ta-stena-tou-ormouz.htm",
-          "title": "ΗΠΑ και Ιράν : Συνομιλίες στο Κατάρ μετά την κλιμάκωση – Στο επίκεντρο τα Στενά του Ορμούζ",
-          "domain": "inewsgr.com",
-          "seendate": "20260630T051500Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/6/27/iran-war-day-120-tehran-condemns-us-strikes-says-its-violation-of-mou",
-          "title": "Iran war day 120 : Tehran condemns US strikes , says it violates MoU",
-          "domain": "aljazeera.com",
-          "seendate": "20260627T110000Z"
-        },
-        {
-          "url": "https://www.wwaytv3.com/us-strikes-iran-to-respond-to-attack-on-ship-that-trump-says-violated-ceasefire/",
-          "title": "US strikes Iran to respond to attack on ship that Trump says violated ceasefire",
-          "domain": "wwaytv3.com",
-          "seendate": "20260627T020000Z"
-        },
-        {
-          "url": "https://www.nbcdfw.com/news/national-international/us-strikes-iran-attack-ship/4041845/",
-          "title": "U . S . strikes Iran to respond to attack on ship – NBC 5 Dallas - Fort Worth",
-          "domain": "nbcdfw.com",
-          "seendate": "20260627T004500Z"
-        },
-        {
-          "url": "https://www.tyzden.sk/svet/136575/udalost-dna-usa-a-iran-pokracuju-vo-vzajomnych-utokoch-a-hrozbach-odvetou/",
-          "title": "Udalosť dňa : united states a Irán pokračujú vo vzájomných útokoch a hrozbách odvetou | Svet | . týždeň",
-          "domain": "tyzden.sk",
-          "seendate": "20260627T101500Z"
-        },
-        {
-          "url": "https://military.china.com/news/13004177/20260629/49576066.html",
-          "title": "特朗普威胁伊朗或将不复存在 美军打击升级 _ 军事频道 _ 中华网",
-          "domain": "military.china.com",
-          "seendate": "20260629T021500Z"
-        },
-        {
-          "url": "https://www.munhwa.com:443/article/11598618",
-          "title": " [ 속보 ] 이란 혁명수비대 ,  미군기지 타격  발표 … 휴전 10일도 안 돼 충돌",
-          "domain": "munhwa.com",
-          "seendate": "20260627T004500Z"
-        },
-        {
-          "url": "https://empisteutiko.gr/oi-zimies-apo-ta-iranika-pligmata-matosan-tis-ipa-kai-odigoyn-se-anadiataxi-dynameon-sti-mesi-anatoli-krisimos-o-rolos-toy-israil/",
-          "title": "Οι ζημιές από τα ιρανικά πλήγματα « μάτωσαν » τις ΗΠΑ και οδηγούν σε αναδιάταξη δυνάμεων στη Μέση Ανατολή – Κρίσιμος ο ρόλος του Ισραήλ",
-          "domain": "empisteutiko.gr",
-          "seendate": "20260628T164500Z"
-        },
-        {
-          "url": "https://www.nbclosangeles.com/news/national-international/us-strikes-iran-attack-ship/3909920/",
-          "title": "U . S . strikes Iran to respond to attack on ship – NBC Los Angeles",
-          "domain": "nbclosangeles.com",
-          "seendate": "20260627T004500Z"
-        },
-        {
-          "url": "https://www.nbcchicago.com/news/national-international/us-strikes-iran-attack-ship/3954153/",
-          "title": "U . S . strikes Iran to respond to attack on ship – NBC Chicago",
-          "domain": "nbcchicago.com",
-          "seendate": "20260627T010000Z"
-        },
-        {
-          "url": "https://www.thenewslens.com/article/268945",
-          "title": "美伊在飛彈交錯中重啟談判 ； 納坦雅胡讚以黎協議歷史成就 ， 真主黨怒批等同投降 - TNL The News Lens 關鍵評論網",
-          "domain": "thenewslens.com",
-          "seendate": "20260629T021500Z"
-        },
-        {
-          "url": "https://wtop.com/middle-east/2026/06/missile-alert-goes-off-in-dubai-in-the-united-arab-emirates-warning-of-an-incoming-projectile/",
-          "title": "US strikes Iran in response to a drone attack on a ship that Trump says violated ceasefire",
-          "domain": "wtop.com",
-          "seendate": "20260627T001500Z"
-        },
-        {
-          "url": "https://alhurra.com/24072",
-          "title": "إسرائيل وتركيا : التصعيد يتجاوز الذاكرة إلى البحر وغزة",
-          "domain": "alhurra.com",
-          "seendate": "20260628T181500Z"
-        },
-        {
-          "url": "https://www.wamc.org/2026-06-27/u-s-strikes-iran-in-response-to-a-drone-attack-on-a-ship",
-          "title": "U . S . strikes Iran in response to a drone attack on a ship",
-          "domain": "wamc.org",
-          "seendate": "20260627T064500Z"
-        },
-        {
-          "url": "https://www.gulte.com/trends/418095/us-and-iran-resume-strikes-again",
-          "title": "US and Iran resume strikes again",
-          "domain": "gulte.com",
-          "seendate": "20260627T033000Z"
-        },
-        {
-          "url": "https://www.kpbs.org/news/international/2026/06/26/u-s-strikes-iran-in-response-to-a-drone-attack-on-a-ship",
-          "title": "U . S . strikes Iran in response to a drone attack on a ship",
-          "domain": "kpbs.org",
-          "seendate": "20260627T070000Z"
-        },
-        {
-          "url": "https://www.zazoom.it/2026-06-27/iran-attacco-di-rappresaglia-usa-contro-siti-militari-di-teheran/19394843/",
-          "title": "Iran attacco di rappresaglia united states contro siti militari di Teheran",
-          "domain": "zazoom.it",
-          "seendate": "20260627T080000Z"
-        },
-        {
-          "url": "https://www.koreatimes.co.kr/world/20260627/us-strikes-iran-in-response-to-drone-attack-on-ship-that-trump-says-violated-ceasefire",
-          "title": "US strikes Iran in response to drone attack on ship that Trump says violated ceasefire",
-          "domain": "koreatimes.co.kr",
-          "seendate": "20260627T043000Z"
-        },
-        {
-          "url": "https://www.houstonpublicmedia.org/npr/2026/06/28/g-s1-130748/u-s-and-iran-exchange-strikes-underscoring-the-fragility-of-the-ceasefire/",
-          "title": "U . S . and Iran exchange strikes , as violence escalates between Israel and Hezbollah",
-          "domain": "houstonpublicmedia.org",
-          "seendate": "20260628T191500Z"
-        },
-        {
-          "url": "https://www.vosgesmatin.fr/defense-guerre-conflit/2026/06/27/iran-et-etats-unis-reprennent-les-frappes-teheran-denonce-une-violation-flagrante-de-l-accord",
-          "title": "Moyen - Orient . Échanges de tirs entre Iran et États - Unis , Israël bombarde le sud du Liban malgré laccord - cadre",
-          "domain": "vosgesmatin.fr",
-          "seendate": "20260627T131500Z"
-        },
-        {
-          "url": "https://news.gooya.com/2026/06/post-110911.php",
-          "title": " « عملیات آبی و سفید »؛ اسرائیل از آمادگی برای سناریوی بعدی خبر داد",
-          "domain": "news.gooya.com",
-          "seendate": "20260629T191500Z"
-        },
-        {
-          "url": "https://www.wfmz.com/news/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship/article_1c15ebc7-2ee3-552c-b283-95abf68fa62d.html",
-          "title": "US strikes Iran in response to a drone attack on a ship",
-          "domain": "wfmz.com",
-          "seendate": "20260627T051500Z"
-        },
-        {
-          "url": "https://www.thehindubusinessline.com/news/world/us-strikes-iran-in-response-to-ship-attack-that-trump-called-a-ceasefire-violation/article71153092.ece",
-          "title": "US strikes Iran after cargo ship attack as Strait of Hormuz ceasefire faces test",
-          "domain": "thehindubusinessline.com",
-          "seendate": "20260627T033000Z"
-        },
-        {
-          "url": "https://www.bournemouthecho.co.uk/news/national/26234458.iran-launches-missile-attacks-bahrain-kuwait-us-air-strikes/",
-          "title": "Iran launches missile attacks on Bahrain and Kuwait after US air strikes",
-          "domain": "bournemouthecho.co.uk",
-          "seendate": "20260628T163000Z"
-        },
-        {
-          "url": "https://lancasteronline.com/news/world/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship/article_4de248be-abfc-521c-841a-3cd496b6f50d.html",
-          "title": "US strikes Iran in response to a drone attack on a ship",
-          "domain": "lancasteronline.com",
-          "seendate": "20260627T040000Z"
-        },
-        {
-          "url": "https://www.news-gazette.com/news/nation-world/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship/article_c9b38697-0012-5caf-a9ed-f409336cc2b3.html",
-          "title": "US strikes Iran in response to a drone attack on a ship",
-          "domain": "news-gazette.com",
-          "seendate": "20260627T021500Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/news/tucker",
-          "title": "US - Iran MoU  conditional surrender  signed by America , analyst says on Tucker Carlson show",
-          "domain": "middleeasteye.net",
-          "seendate": "20260627T081500Z"
-        },
-        {
-          "url": "https://www.wdrb.com/news/national/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship-that-trump-says/article_fd6932d1-d4a4-55ac-9f95-40a08b03b345.html",
-          "title": "US strikes Iran in response to a drone attack on a ship that Trump says violated ceasefire",
-          "domain": "wdrb.com",
-          "seendate": "20260627T004500Z"
-        },
-        {
-          "url": "https://www.wdrb.com/news/national/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship/article_fd6932d1-d4a4-55ac-9f95-40a08b03b345.html",
-          "title": "US strikes Iran in response to a drone attack on a ship",
-          "domain": "wdrb.com",
-          "seendate": "20260627T070000Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L0E576V10514R9OJ.html",
-          "title": "伊朗革命卫队 ： 打击美军多个目标以回应美空袭伊朗",
-          "domain": "163.com",
-          "seendate": "20260627T080000Z"
-        },
-        {
-          "url": "https://lasvegassun.com/news/2026/jun/26/us-strikes-iran-in-response-to-a-drone-attack-on-a/",
-          "title": "US strikes Iran in response to a drone attack on a ship - Las Vegas Sun News",
-          "domain": "lasvegassun.com",
-          "seendate": "20260627T051500Z"
-        },
-        {
-          "url": "https://www.cp24.com/news/world/2026/06/28/iran-attacks-bahrain-and-kuwait-following-us-strikes-and-threatens-to-halt-talks-to-end-the-war/",
-          "title": "Iran war : Bahrain , Kuwait attacked following U . S . strikes",
-          "domain": "cp24.com",
-          "seendate": "20260628T164500Z"
-        },
-        {
-          "url": "https://isp.netscape.com:443/news/world/story/0001/20260627/8c1a77eb82d25f00de814958114c7296",
-          "title": "US strikes Iran in response to a drone attack on a ship",
-          "domain": "isp.netscape.com",
-          "seendate": "20260627T044500Z"
-        },
-        {
-          "url": "https://www.smdailyjournal.com/news/world/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship/article_38f66bf1-9f86-5ab9-9e07-89c9943ece45.html",
-          "title": "US strikes Iran in response to a drone attack on a ship",
-          "domain": "smdailyjournal.com",
-          "seendate": "20260627T020000Z"
-        },
-        {
-          "url": "https://news.china.com/international/1000/20260627/49573379.html",
-          "title": "美媒爆 ： 伊朗袭击对美军基地造成重创 _ 新闻频道 _ 中华网",
-          "domain": "news.china.com",
-          "seendate": "20260627T030000Z"
-        },
-        {
-          "url": "https://www.odatv.com/dunya/once-abd-ardindan-iran-vurdu-hurmuz-bogazindan-ateskes-delindi-120152505",
-          "title": "Önce ABD ardından İran vurdu ... Hürmüz Boğazı  ndan ateşkes delindi",
-          "domain": "odatv.com",
-          "seendate": "20260627T051500Z"
-        },
-        {
-          "url": "https://www.canberratimes.com.au/story/9300380/iran-us-continue-escalating-attacks-and-recriminations/",
-          "title": "Iran , US continue escalating attacks and recriminations",
-          "domain": "canberratimes.com.au",
-          "seendate": "20260628T081500Z"
-        },
-        {
-          "url": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo",
-          "title": "Israel strikes southern Lebanon as Hezbollah condemns new deal",
-          "domain": "bbc.co.uk",
-          "seendate": "20260627T233000Z"
-        },
-        {
-          "url": "http://news.cnnb.com.cn/system/2026/06/27/030786950.shtml",
-          "title": "中东局势双线生变 黎以美达成三方框架协议 美军深夜空袭伊朗 - 新闻中心 - 中国宁波网",
-          "domain": "news.cnnb.com.cn",
-          "seendate": "20260627T021500Z"
-        },
-        {
-          "url": "http://futures.cnfol.com/qishidongtai/20260629/32292575.shtml",
-          "title": "从握手言和到导弹互射 ， 只用了11天 ！ 美伊停火协议为何如此脆弱 ？ 多哈会谈能救场吗 ？_ 期市动态 _ 期货 _ 中金在线",
-          "domain": "futures.cnfol.com",
-          "seendate": "20260629T034500Z"
-        },
-        {
-          "url": "https://www.houstonpublicmedia.org/npr/2026/06/27/nx-s1-5872954/u-s-strikes-iran-in-response-to-a-drone-attack-on-a-ship/",
-          "title": "U . S . strikes Iran in response to a drone attack on a ship",
-          "domain": "houstonpublicmedia.org",
-          "seendate": "20260627T053000Z"
-        },
-        {
-          "url": "https://mil.ifeng.com/c/8uI3lpwjpW4",
-          "title": "中东局势双线生变 ， 美军深夜空袭伊朗",
-          "domain": "mil.ifeng.com",
-          "seendate": "20260627T200000Z"
-        },
-        {
-          "url": "https://www.opinionnigeria.com/iran-accuses-us-of-breaching-peace-agreement-after-fresh-gulf-attacks/",
-          "title": "Iran Accuses US of Violating Peace Deal After Gulf Strikes",
-          "domain": "opinionnigeria.com",
-          "seendate": "20260627T131500Z"
-        },
-        {
-          "url": "https://news.ycwb.com/ikimvkmtil/content_54198530.htm",
-          "title": "美军深夜空袭伊朗 ， 霍尔木兹海峡冲突再起 ； 同日 ， 黎以美达成三方框架协议 ； 中东局势双线生变→",
-          "domain": "news.ycwb.com",
-          "seendate": "20260627T031500Z"
-        },
-        {
-          "url": "https://www.sbs.com.au/news/podcast-episode/renewed-fighting-tests-fragile-peace-deal-for-us-iran/n189fwmi3",
-          "title": "Renewed fighting tests fragile peace deal for US , Iran",
-          "domain": "sbs.com.au",
-          "seendate": "20260629T050000Z"
-        },
-        {
-          "url": "http://www.afghanistannews.net/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "afghanistannews.net",
-          "seendate": "20260629T134500Z"
-        },
-        {
-          "url": "http://www.irishsun.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "irishsun.com",
-          "seendate": "20260629T140000Z"
-        },
-        {
-          "url": "http://www.tucsonpost.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "tucsonpost.com",
-          "seendate": "20260629T121500Z"
-        },
-        {
-          "url": "http://www.ohiostandard.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "ohiostandard.com",
-          "seendate": "20260629T123000Z"
-        },
-        {
-          "url": "http://www.texasguardian.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "texasguardian.com",
-          "seendate": "20260629T093000Z"
-        },
-        {
-          "url": "http://www.hongkongherald.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "hongkongherald.com",
-          "seendate": "20260629T104500Z"
-        },
-        {
-          "url": "http://www.mainemirror.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "mainemirror.com",
-          "seendate": "20260629T104500Z"
-        },
-        {
-          "url": "http://www.northkoreatimes.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "northkoreatimes.com",
-          "seendate": "20260629T104500Z"
-        },
-        {
-          "url": "http://www.parisguardian.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "parisguardian.com",
-          "seendate": "20260629T134500Z"
-        },
-        {
-          "url": "http://www.shanghainews.net/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "shanghainews.net",
-          "seendate": "20260629T140000Z"
-        },
-        {
-          "url": "http://www.sierraleonetimes.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "sierraleonetimes.com",
-          "seendate": "20260629T131500Z"
-        },
-        {
-          "url": "http://www.brazilsun.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "brazilsun.com",
-          "seendate": "20260629T093000Z"
-        },
-        {
-          "url": "http://www.japanherald.com/news/279154283/both-sides-will-stand-down-for-now-ahead-of-technical-talks",
-          "title": "  Both Sides Will Stand Down For Now  Ahead Of Technical Talks",
-          "domain": "japanherald.com",
-          "seendate": "20260629T104500Z"
-        },
-        {
-          "url": "http://www.dailyadvance.com/news/world/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship/article_e760a910-3335-590d-9180-3d5d6f1dbf4e.html",
-          "title": "US strikes Iran in response to a drone attack on a ship",
-          "domain": "dailyadvance.com",
-          "seendate": "20260627T093000Z"
-        },
-        {
-          "url": "https://nypost.com/2026/06/27/world-news/iran-says-it-hit-us-linked-targets-as-bahrain-reports-drone-attack/",
-          "title": "Iran says it hit US - linked targets as Bahrain reports drone attack",
-          "domain": "nypost.com",
-          "seendate": "20260627T101500Z"
-        },
-        {
-          "url": "https://www.nrc.nl/nieuws/2026/06/29/israel-will-come-to-terms-with-donald-trumps-iran-deal-a4931123",
-          "title": "Opinie | Israel will come to terms with Donald Trump Iran deal",
-          "domain": "nrc.nl",
-          "seendate": "20260629T211500Z"
-        },
-        {
-          "url": "http://www.jpost.com/opinion/article-900490",
-          "title": "Trump Iran deal shows why Israel must put its own interests first",
-          "domain": "jpost.com",
-          "seendate": "20260626T143000Z"
-        },
-        {
-          "url": "https://www.irishtimes.com/world/middle-east/2026/06/25/rubio-seeks-to-allay-gulf-state-fears-but-allies-have-reason-to-worry-about-peace-deal/",
-          "title": "Rubio seeks to allay Gulf state fears , but allies have reason to worry about peace deal",
-          "domain": "irishtimes.com",
-          "seendate": "20260625T193000Z"
-        },
-        {
-          "url": "https://www.clevelandjewishnews.com/jns/katz-us-pressure-prevented-campaign-aimed-at-hezbollahs-collapse/article_96f96c70-57e0-50b6-a5d5-39143ac35674.html",
-          "title": "Katz : US pressure prevented campaign aimed at Hezbollah collapse",
-          "domain": "clevelandjewishnews.com",
-          "seendate": "20260630T084500Z"
-        },
-        {
-          "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/iran-and-us-step-up-attacks-and-threaten-to-escalate",
-          "title": "Iran and US step up attacks and threaten to escalate",
-          "domain": "asia.nikkei.com",
-          "seendate": "20260628T141500Z"
-        },
-        {
-          "url": "https://www.yakimaherald.com/news/nation_and_world/nation/us-strikes-iran-in-response-to-a-drone-attack-on-a-ship/article_9c3c6868-6ff8-5755-bc75-411ba6e8408c.html",
-          "title": "US strikes Iran in response to a drone attack on a ship",
-          "domain": "yakimaherald.com",
-          "seendate": "20260627T040000Z"
-        },
-        {
-          "url": "https://dunyanews.tv/en/World/959631-iran-attacks-bahrain-and-kuwait-following-us-strikes-and-threatens-to-",
-          "title": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks to end the war",
-          "domain": "dunyanews.tv",
-          "seendate": "20260628T163000Z"
-        },
-        {
-          "url": "https://www.eastidahonews.com/2026/06/us-strikes-iran-in-response-to-a-drone-attack-that-trump-says-violated-ceasefire/",
-          "title": "US strikes Iran in response to a drone attack that Trump says violated ceasefire",
-          "domain": "eastidahonews.com",
-          "seendate": "20260627T011500Z"
-        },
-        {
-          "url": "https://www.theyeshivaworld.com/news/israel-news/2567376/defense-minister-israel-katz-every-dollar-given-to-iran-goes-to-terror.html",
-          "title": "DEFENSE MINISTER ISRAEL KATZ :  Every Dollar Given to Iran Goes to Terror  – The Yeshiva World",
-          "domain": "theyeshivaworld.com",
-          "seendate": "20260626T011500Z"
-        },
-        {
-          "url": "https://www.businesstimes.com.sg/international/iran-and-us-step-attacks-and-threaten-escalate",
-          "title": "Iran and US step up attacks and threaten to escalate",
-          "domain": "businesstimes.com.sg",
-          "seendate": "20260628T134500Z"
-        },
-        {
-          "url": "https://www.rtl.be/actu/monde/international/liran-accuse-washington-de-violation-de-laccord-les-deux-pays-echangent-des/2026-06-27/article/792929",
-          "title": "LIran accuse Washington de  violation  de laccord , les deux pays échangent des frappes",
-          "domain": "rtl.be",
-          "seendate": "20260627T120000Z"
-        },
-        {
-          "url": "https://naharnet.com/stories/en/320928-oil-tankers-navigate-strait-of-hormuz-despite-threats-from-iran-s-revolutionary-guard",
-          "title": "Oil tankers navigate Strait of Hormuz despite threats from Iran Revolutionary Guard",
-          "domain": "naharnet.com",
-          "seendate": "20260626T010000Z"
-        },
-        {
-          "url": "https://www.naharnet.com:443/stories/en/320928-oil-tankers-navigate-strait-of-hormuz-despite-threats-from-iran-s-revolutionary-guard",
-          "title": "Oil tankers navigate Strait of Hormuz despite threats from Iran Revolutionary Guard",
-          "domain": "naharnet.com",
-          "seendate": "20260625T164500Z"
-        },
-        {
-          "url": "https://abc13.com/post/iran-attacks-bahrain-kuwait-following-us-strikes-threatens-halt-talks-end-war/19403300/",
-          "title": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks to end the war",
-          "domain": "abc13.com",
-          "seendate": "20260628T163000Z"
-        },
-        {
-          "url": "https://abc7chicago.com/post/iran-attacks-bahrain-kuwait-following-us-strikes-threatens-halt-talks-end-war/19403300/",
-          "title": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks to end the war",
-          "domain": "abc7chicago.com",
-          "seendate": "20260628T160000Z"
-        },
-        {
-          "url": "https://www.timesfreepress.com/news/2026/jun/25/an-oil-tanker-navigates-the-strait-of-hormuz-despite-threats-from-irans-revolutionary-guard/",
-          "title": "An oil tanker navigates the Strait of Hormuz despite threats from Iran Revolutionary Guard",
-          "domain": "timesfreepress.com",
-          "seendate": "20260625T163000Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/441/netaniachou-den-fevgoume-apo-ton-livano-oso-i-chezbolach-apotelei-apeili.htm",
-          "title": "Νετανιάχου : « Δεν φεύγουμε από τον Λίβανο όσο η Χεζμπολάχ αποτελεί απειλή » ",
-          "domain": "inewsgr.com",
-          "seendate": "20260630T174500Z"
-        },
-        {
-          "url": "http://www.iraqsun.com/news/279154144/us-iran-agree-to-halt-attacks-resume-negotiations-officials-say",
-          "title": "US , Iran Agree To Halt Attacks , Resume Negotiations , Officials Say",
-          "domain": "iraqsun.com",
-          "seendate": "20260629T040000Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279154144/us-iran-agree-to-halt-attacks-resume-negotiations-officials-say",
-          "title": "US , Iran Agree To Halt Attacks , Resume Negotiations , Officials Say",
-          "domain": "middleeaststar.com",
-          "seendate": "20260629T043000Z"
-        },
-        {
-          "url": "https://abc7news.com/post/iran-attacks-bahrain-kuwait-following-us-strikes-threatens-halt-talks-end-war/19403300/",
-          "title": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks to end the war",
-          "domain": "abc7news.com",
-          "seendate": "20260628T120000Z"
-        },
-        {
-          "url": "https://www.straitstimes.com/world/middle-east/us-conducts-further-strikes-on-iran",
-          "title": "US strikes Iran after tanker attack",
-          "domain": "straitstimes.com",
-          "seendate": "20260628T103000Z"
-        },
-        {
-          "url": "https://www.irishtimes.com/world/middle-east/2026/06/28/iran-launches-attacks-on-us-bases-in-gulf-as-trump-warns-of-further-military-action/",
-          "title": "Iran launches attacks on US bases in Gulf as Trump warns of further military action",
-          "domain": "irishtimes.com",
-          "seendate": "20260628T103000Z"
-        },
-        {
-          "url": "https://www.ksl.com:443/article/51561613/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities",
-          "title": "US carries out fresh strikes against Iran after tanker struck in Hormuz , escalating hostilities",
-          "domain": "ksl.com",
-          "seendate": "20260628T010000Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=28062026&id=cc909665-2404-4674-90dc-f45336614fcd",
-          "title": "تصعيد جديد بين واشنطن وطهران .. هجمات إيرانية على الكويت والبحرين",
-          "domain": "shorouknews.com",
-          "seendate": "20260628T074500Z"
-        },
-        {
-          "url": "https://www.nile.eg/%D9%83%D8%A7%D8%AA%D8%B3-%D9%8A%D8%AD%D8%B0%D8%B1-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%82%D8%AF-%D8%AA%D8%AC%D8%AF-%D9%86%D9%81%D8%B3%D9%87%D8%A7-%D9%81%D9%8A-%D8%AD%D8%B1%D8%A8-%D9%85",
-          "title": "قناة النيل للأخبار | كاتس يحذر : إسرائيل قد تجد نفسها في حرب مع إيران غدًا أو خلال يومين",
-          "domain": "nile.eg",
-          "seendate": "20260630T080000Z"
-        },
-        {
-          "url": "https://www.yasstribune.com.au/story/9300162/fresh-ship-struck-in-hormuz-as-iran-us-trade-attacks/",
-          "title": "Fresh ship struck in Hormuz as Iran , US trade attacks",
-          "domain": "yasstribune.com.au",
-          "seendate": "20260627T170000Z"
-        },
-        {
-          "url": "https://www.sconeadvocate.com.au/story/9300162/fresh-ship-struck-in-hormuz-as-iran-us-trade-attacks/",
-          "title": "Fresh ship struck in Hormuz as Iran , US trade attacks",
-          "domain": "sconeadvocate.com.au",
-          "seendate": "20260627T140000Z"
-        },
-        {
-          "url": "https://www.easternriverinachronicle.com.au/story/9300162/fresh-ship-struck-in-hormuz-as-iran-us-trade-attacks/",
-          "title": "Fresh ship struck in Hormuz as Iran , US trade attacks",
-          "domain": "easternriverinachronicle.com.au",
-          "seendate": "20260627T134500Z"
-        },
-        {
-          "url": "https://www.northerndailyleader.com.au/story/9300162/fresh-ship-struck-in-hormuz-as-iran-us-trade-attacks/",
-          "title": "Fresh ship struck in Hormuz as Iran , US trade attacks",
-          "domain": "northerndailyleader.com.au",
-          "seendate": "20260627T131500Z"
-        },
-        {
-          "url": "https://www.goulburnpost.com.au/story/9300162/fresh-ship-struck-in-hormuz-as-iran-us-trade-attacks/",
-          "title": "Fresh ship struck in Hormuz as Iran , US trade attacks",
-          "domain": "goulburnpost.com.au",
-          "seendate": "20260627T134500Z"
-        },
-        {
-          "url": "https://www.maitlandmercury.com.au/story/9300162/fresh-ship-struck-in-hormuz-as-iran-us-trade-attacks/",
-          "title": "Fresh ship struck in Hormuz as Iran , US trade attacks",
-          "domain": "maitlandmercury.com.au",
-          "seendate": "20260627T143000Z"
-        }
-      ]
+      "error": "429 rate-limited",
+      "example_urls": [],
+      "articles": []
     }
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.4987,
+      "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
@@ -1595,7 +90,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.984
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1606,10 +101,10 @@
       }
     },
     {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.4583,
-      "is_pre_round": true,
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4984,
+      "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
@@ -1617,7 +112,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9813
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1630,7 +125,7 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.4583,
+      "composite_score": 0.4922,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -1639,7 +134,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9061
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1674,7 +169,7 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.0764,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -1683,7 +178,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9167
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1696,18 +191,18 @@
   ],
   "comparison_table_21day": [
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.7741,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.7071,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
+        "source_diversity": 1.0,
+        "tone": 0.8755
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1720,7 +215,7 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.4583,
+      "composite_score": 0.6655,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -1728,8 +223,8 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
+        "source_diversity": 1.0,
+        "tone": 0.9855
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1740,9 +235,9 @@
       }
     },
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4583,
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.6626,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -1750,8 +245,8 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
+        "source_diversity": 1.0,
+        "tone": 0.9507
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1764,15 +259,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.2083,
+      "composite_score": 0.4712,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -1786,16 +281,16 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.3367,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
+        "source_diversity": 1.0,
+        "tone": 0.8861
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1817,22 +312,22 @@
       "articles_fa": 0,
       "confluence_score": 0.0,
       "unique_domains_total": 0,
-      "tone_mean": null
+      "tone_mean": -2.8573
     },
     "window_21d": {
       "volume_total": 0,
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 0,
+      "articles_en": 250,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 0,
-      "tone_mean": null
+      "unique_domains_total": 167,
+      "tone_mean": -2.2457
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 3 in 21d). Scores are provisional."
   ]
 }
