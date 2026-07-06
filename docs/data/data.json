@@ -1,16 +1,18 @@
 {
-  "updated_at": "2026-07-05T13:31:56.224824+00:00",
+  "updated_at": "2026-07-06T03:01:49.681332+00:00",
   "short_term": {
-    "score": 50,
+    "score": 46,
     "status_he": "שקט",
     "avg_7day": 47,
-    "delta_vs_avg": 3
+    "delta_vs_avg": -1
   },
   "archive_comparison": {
-    "score": 67,
-    "status_he": "דמיון גבולי",
+    "score": 46,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -57,10 +59,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-06-18T15:24:40.919548+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-20T14:03:50.829700+00:00",
         "score": 50
@@ -112,6 +110,10 @@
       {
         "ts": "2026-07-05T13:31:56.223687+00:00",
         "score": 50
+      },
+      {
+        "ts": "2026-07-06T03:01:49.680240+00:00",
+        "score": 46
       }
     ],
     "month": [
@@ -274,32 +276,36 @@
       {
         "ts": "2026-07-05T13:31:56.223687+00:00",
         "score": 50
+      },
+      {
+        "ts": "2026-07-06T03:01:49.680240+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
-        "label": "שקט ינו' 2026",
-        "score": 77,
+        "label": "אחרי פבר' 2026",
+        "score": 46,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 67,
+        "score": 46,
         "is_pre_conflict": true
       },
       {
-        "label": "אחרי פבר' 2026",
-        "score": 66,
+        "label": "שקט ינו' 2026",
+        "score": 46,
         "is_pre_conflict": false
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 47,
+        "score": 21,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 34,
+        "score": 4,
         "is_pre_conflict": true
       }
     ]
