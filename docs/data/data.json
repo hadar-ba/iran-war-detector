@@ -1,16 +1,18 @@
 {
-  "updated_at": "2026-07-09T02:49:29.302295+00:00",
+  "updated_at": "2026-07-10T14:26:19.667971+00:00",
   "short_term": {
-    "score": 62,
-    "status_he": "מתוח",
-    "avg_7day": 51,
-    "delta_vs_avg": 11
+    "score": 50,
+    "status_he": "שקט",
+    "avg_7day": 52,
+    "delta_vs_avg": -2
   },
   "archive_comparison": {
-    "score": 62,
-    "status_he": "דמיון גבולי",
+    "score": 46,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -57,10 +59,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-06-21T04:02:00.282113+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-21T14:11:32.834447+00:00",
         "score": 62
@@ -112,6 +110,10 @@
       {
         "ts": "2026-07-09T02:49:29.301409+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-07-10T14:26:19.666850+00:00",
+        "score": 50
       }
     ],
     "month": [
@@ -282,31 +284,35 @@
       {
         "ts": "2026-07-09T02:49:29.301409+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-07-10T14:26:19.666850+00:00",
+        "score": 50
       }
     ],
     "comparison_bars": [
       {
+        "label": "אחרי פבר' 2026",
+        "score": 46,
+        "is_pre_conflict": false
+      },
+      {
         "label": "טרום פבר' 2026",
-        "score": 62,
+        "score": 46,
         "is_pre_conflict": true
       },
       {
         "label": "שקט ינו' 2026",
-        "score": 62,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
-        "label": "אחרי פבר' 2026",
-        "score": 55,
-        "is_pre_conflict": false
-      },
-      {
-        "label": "טרום אוק' 2024",
+        "label": "טרום אפר' 2024",
         "score": 21,
         "is_pre_conflict": true
       },
       {
-        "label": "טרום אפר' 2024",
+        "label": "טרום אוק' 2024",
         "score": 4,
         "is_pre_conflict": true
       }
@@ -315,6 +321,6 @@
   "sources": {
     "list": [],
     "total_count": 0,
-    "articles_72h": 250
+    "articles_72h": null
   }
 }
