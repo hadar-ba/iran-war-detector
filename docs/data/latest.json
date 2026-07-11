@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-07-10T14:26:19.666850+00:00",
+  "timestamp_utc": "2026-07-11T13:21:33.451378+00:00",
   "status": "green",
-  "headline_score_7day": 50,
-  "headline_score_21day": 46,
-  "score_jump": -12,
+  "headline_score_7day": 46,
+  "headline_score_21day": 62,
+  "score_jump": -4,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "News patterns are within the normal range — no elevated signals detected.",
   "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (50% similarity). The 21-day picture is consistent: 46% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (50% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 62% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 62% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -24,9 +24,1514 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
-      "example_urls": [],
-      "articles": []
+      "error": "429 rate-limited",
+      "example_urls": [
+        "https://finance.eastmoney.com/a/202607113802451181.html",
+        "https://www.wenxuecity.com/news/2026/07/07/126701437.html",
+        "https://www.stcn.com/article/detail/4012703.html"
+      ],
+      "articles": [
+        {
+          "url": "https://finance.eastmoney.com/a/202607113802451181.html",
+          "title": "突然集体大涨 ！ 超5万人爆仓 ！ 美伊谈判突传重磅 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260711T030000Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/07/07/126701437.html",
+          "title": "战火再起 ？ 美伊谈判濒临破局 川普 ： 做个了结吧",
+          "domain": "wenxuecity.com",
+          "seendate": "20260707T224500Z"
+        },
+        {
+          "url": "https://www.stcn.com/article/detail/4012703.html",
+          "title": "加密货币市场集体大涨 ！ 美伊谈判 ， 突传重磅",
+          "domain": "stcn.com",
+          "seendate": "20260711T030000Z"
+        },
+        {
+          "url": "https://ve.lt/pasaulis/jav-parenge-atsaka-kokio-teheranas-dar-nera-mates-trampas-perspejo-irana-del-galimo",
+          "title": "JAV parengė atsaką , kokio Teheranas dar nėra matęs : Trampas perspėjo Iraną dėl galimo pasikėsinimo į jį",
+          "domain": "ve.lt",
+          "seendate": "20260711T101500Z"
+        },
+        {
+          "url": "https://www.thenews.com.pk/latest/1408754-us-demands-iran-publicly-ensure-strait-of-hormuz-is-open-and-safe-for-shipping",
+          "title": "US demands Iran publicly ensure Strait of Hormuz is open and safe for shipping",
+          "domain": "thenews.com.pk",
+          "seendate": "20260711T064500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L1IB1E58051492LM.html",
+          "title": "特朗普又变卦 ， 宣称1000枚导弹已瞄准伊朗 ！ 命令已下达 ， 美军有能力在一年时间内彻底摧毁和消灭伊朗  |停火|唐纳 · 川普|核协议草案",
+          "domain": "163.com",
+          "seendate": "20260711T081500Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20260706-iranian-parliament-speaker-we-have-no-peace-with-us-and-will-not-recognise-israel/",
+          "title": "Iranian parliament speaker : We have no peace with US and will not recognise Israel",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20260706T131500Z"
+        },
+        {
+          "url": "https://hnonline.sk/svet/96291226-teheran-doteraz-svoje-slovo-dodrzal-tvrdi-sef-iranskej-diplomacie-z-porusovania-dohody-vini-usa",
+          "title": "Teherán doteraz svoje slovo dodržal , tvrdí šéf iránskej diplomacie . Z porušovania dohody viní united states ",
+          "domain": "hnonline.sk",
+          "seendate": "20260711T054500Z"
+        },
+        {
+          "url": "https://www.deccanchronicle.com/world/trumps-says-agreed-to-more-iran-talks-but-insists-truce-over-1969931",
+          "title": "Trump Says Agreed To More Iran Talks But Insists Truce Over",
+          "domain": "deccanchronicle.com",
+          "seendate": "20260710T173000Z"
+        },
+        {
+          "url": "https://www.news24.com/world/iran-us-ceasefire-collapses-as-qatar-scrambles-to-keep-both-sides-talking-20260710-1119",
+          "title": "Iran - US ceasefire collapses as Qatar scrambles to keep both sides talking",
+          "domain": "news24.com",
+          "seendate": "20260710T214500Z"
+        },
+        {
+          "url": "http://forex.cnfol.com/jingjiyaowen/20260711/32304936.shtml",
+          "title": "1000枚导弹锁定伊朗 ？！ 特朗普发出最强警告 ： 一旦遭暗杀 ， 美国将发动  前所未见  的报复 _ 汇市观察 _ 外汇 _ 中金在线",
+          "domain": "forex.cnfol.com",
+          "seendate": "20260711T111500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/07/trumps-says-agreed-more-iran-talks-insists-truce-over",
+          "title": "Trumps says agreed to more Iran talks but insists truce over",
+          "domain": "al-monitor.com",
+          "seendate": "20260710T173000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/trumps-says-agreed-more-iran-160012319.html",
+          "title": "Trump says agreed to more Iran talks but insists truce over",
+          "domain": "yahoo.com",
+          "seendate": "20260710T184500Z"
+        },
+        {
+          "url": "https://glavcom.ua/world/world-politics/iran-potajki-vidnovljuje-rozbombleni-jaderni-objekti-suputnikovi-znimki-1130613.html",
+          "title": "Іран потайки відновлює розбомблені ядерні об  єкти – супутникові знімки",
+          "domain": "glavcom.ua",
+          "seendate": "20260711T064500Z"
+        },
+        {
+          "url": "https://news.cts.com.tw/cna/international/202607/202607113054297.html",
+          "title": "美伊衝突再起 調解方努力挽救外交協商空間 - 國際",
+          "domain": "news.cts.com.tw",
+          "seendate": "20260711T124500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/iran-gives-us-a-reality-check-says-washington-broke-ceasefire-terms/articleshow/132323886.cms",
+          "title": "Iran gives US a  reality check , says Washington broke ceasefire terms",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260711T034500Z"
+        },
+        {
+          "url": "https://index.hu/kulfold/2026/07/10/iran-usa-konfliktus-donald-trump-tamadasok-ali-hamenei-temetes/",
+          "title": "Index - Külföld - Az Egyesült Államok és Irán újra lecsapott egymásra , miközben eltemették Ali Hameneit",
+          "domain": "index.hu",
+          "seendate": "20260710T064500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/07/trump-agrees-more-iran-talks-insists-truce-over",
+          "title": "Trump agrees to more Iran talks but insists truce is over",
+          "domain": "al-monitor.com",
+          "seendate": "20260710T210000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1870153706839332337",
+          "title": "欧盟发布飞行警告 ： 建议航司避开伊朗 、 伊拉克 、 黎巴嫩空域 ， 一旦美伊停火破裂 ， 伊朗空域可能面临威胁",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260708T181500Z"
+        },
+        {
+          "url": "https://www.iltalehti.fi/ulkomaat/a/3e7d17ef-eafb-4d95-8563-7c6d5152e71a",
+          "title": "Israelilta hyytävä varoitus Trumpille",
+          "domain": "iltalehti.fi",
+          "seendate": "20260711T083000Z"
+        },
+        {
+          "url": "https://sputniknews.cn/20260709/1072258487.html",
+          "title": "伊朗布什尔省副省长 ： 美国袭击伊朗南部布什尔核电站周边区域",
+          "domain": "sputniknews.cn",
+          "seendate": "20260710T031500Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202607060910169553",
+          "title": "이란 협상대표  美와 평화상태 아냐 … MOU 이행 , 어렵지만 가능  ",
+          "domain": "fnnews.com",
+          "seendate": "20260706T013000Z"
+        },
+        {
+          "url": "https://news.china.com/international/1000/20260710/49600771.html",
+          "title": "高层互放狠话背后 ， 土以竞争关系日益凸显 _ 新闻频道 _ 中华网",
+          "domain": "news.china.com",
+          "seendate": "20260710T021500Z"
+        },
+        {
+          "url": "https://musavat.com/news/abs-dan-irana-ultimatum-ya-bu-gun-ya-da_1274530.html",
+          "title": "ABŞ - dan İrana ultimatum : Ya bu gün , ya da ... ",
+          "domain": "musavat.com",
+          "seendate": "20260711T070000Z"
+        },
+        {
+          "url": "https://www.khaama.com/iranian-missiles-hit-commercial-ships-near-strait-of-hormuz-u-s-officials-say/",
+          "title": "Iranian Missiles Hit Commercial Ships Near Strait of Hormuz , U . S . Officials Say",
+          "domain": "khaama.com",
+          "seendate": "20260707T124500Z"
+        },
+        {
+          "url": "https://www.tportal.hr/vijesti/clanak/trump-otkrio-ako-me-ubiju-ostavio-sam-upute-sto-napraviti-20260711",
+          "title": "Trump otkrio : Ako me ubiju , ostavio sam upute što napraviti",
+          "domain": "tportal.hr",
+          "seendate": "20260710T223000Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/07/10/126704091.html",
+          "title": "伊朗停火协议  终结 ， 特朗普面临破局难题",
+          "domain": "wenxuecity.com",
+          "seendate": "20260710T104500Z"
+        },
+        {
+          "url": "https://www.albawaba.com/news/iran-calls-hormuz-attack-mistake-nuclear-1632688",
+          "title": "Iran calls Hormuz attack a  Mistake  as Nuclear talks hang in the balance",
+          "domain": "albawaba.com",
+          "seendate": "20260711T111500Z"
+        },
+        {
+          "url": "https://dennikn.sk/minuta/5449709/",
+          "title": "Donald Trump opäť pohrozil Iránu úplným zničením",
+          "domain": "dennikn.sk",
+          "seendate": "20260711T051500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8uVaMNT51we",
+          "title": "特朗普称内塔尼亚胡主动求访白宫 ， 他知道谁是老大 _ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260705T040000Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3776516",
+          "title": "军事冲突陡然升级 ， 两国表态都很强硬 ， 美伊谅解备忘录面临危机",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260709T014500Z"
+        },
+        {
+          "url": "https://adevarul.ro/stiri-externe/sua/sua-cer-iranului-sa-declare-public-ca-stramtoarea-2542498.html",
+          "title": "SUA cer Iranului să declare public că Strâmtoarea Ormuz este deschisă și să garanteze siguranța navelor",
+          "domain": "adevarul.ro",
+          "seendate": "20260711T111500Z"
+        },
+        {
+          "url": "https://www.sabah.com.tr/dunya/irandan-muzakere-aciklamasi-abd-ile-barisimiz-yok-israili-resmi-olarak-tanimayacagiz-7616726",
+          "title": "İrandan çok net İsrail mesajı : Resmi olarak tanımayacağız",
+          "domain": "sabah.com.tr",
+          "seendate": "20260705T153000Z"
+        },
+        {
+          "url": "https://www.sabah.com.tr/dunya/netanyahu-ile-trump-iran-ve-lubnan-konularini-telefonda-gorustu-7619835",
+          "title": "Netanyahu ile Trump , İran ve Lübnan konularını telefonda görüştü",
+          "domain": "sabah.com.tr",
+          "seendate": "20260710T104500Z"
+        },
+        {
+          "url": "https://www.dunya.com/dunya/trump-ve-netanyahu-telefonda-gorustu-iran-lubnan-ve-bolgesel-guvenlik-ele-alindi-haberi-831707",
+          "title": "Trump ve Netanyahu telefonda görüştü : İran , Lübnan ve bölgesel güvenlik ele alındı",
+          "domain": "dunya.com",
+          "seendate": "20260710T070000Z"
+        },
+        {
+          "url": "https://www.agi.it/estero/news/2026-07-10/iran-usa-guerra-tregua-37961685/",
+          "title": "Iran :  In caso di attacchi non risparmieremo Israele  ",
+          "domain": "agi.it",
+          "seendate": "20260710T213000Z"
+        },
+        {
+          "url": "https://news.bigmir.net/ua/world/10389849-ssha-pogodilis-na-peregovori-z-iranom-ale-peremirya-zakinchilosya-tramp",
+          "title": "США погодились на переговори з Іраном , але перемир  я  закінчилося  - Трамп",
+          "domain": "news.bigmir.net",
+          "seendate": "20260710T220000Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/trump-says-us-ready-destroy-iran-after-israeli-intelligence-warns-assassination-plot",
+          "title": "Trump says US ready to  destroy  Iran after Israeli intelligence warns of   assassination plot  ",
+          "domain": "middleeasteye.net",
+          "seendate": "20260711T121500Z"
+        },
+        {
+          "url": "https://www.democracynow.org/2026/7/10/headlines/us_denies_involvement_as_blasts_rock_southern_iran",
+          "title": "U . S . Denies Involvement as Blasts Rock Southern Iran",
+          "domain": "democracynow.org",
+          "seendate": "20260710T143000Z"
+        },
+        {
+          "url": "https://www.evrensel.net/haber/5991216/iran-meclis-baskani-kalibaf-abd-ile-barisimiz-yok-israili-tanimayacagiz",
+          "title": "İran Meclis Başkanı Kalibaf : ABD ile barışımız yok , İsraili tanımayacağız",
+          "domain": "evrensel.net",
+          "seendate": "20260706T084500Z"
+        },
+        {
+          "url": "https://www.seattletimes.com/nation-world/nation/is-an-iran-deal-over-and-war-back-on-a-timeline-of-the-conflict-and-talks/",
+          "title": "Is an Iran deal  over  and war back on ? A timeline of the conflict and talks",
+          "domain": "seattletimes.com",
+          "seendate": "20260708T150000Z"
+        },
+        {
+          "url": "https://www.dawn.com/news/2013511/trump-threatens-to-strike-iran-if-deal-not-reached",
+          "title": "Trump threatens to strike Iran if deal not reached - World",
+          "domain": "dawn.com",
+          "seendate": "20260708T031500Z"
+        },
+        {
+          "url": "https://www.ilmessaggero.it:443/mondo/iran_minacce_trump_attacco_cosa_succede-9644057.html",
+          "title": "Trump : « Se lIran mi uccide dovete distruggerli ». Le minacce incrociate e il piano in caso di morte",
+          "domain": "ilmessaggero.it",
+          "seendate": "20260711T000000Z"
+        },
+        {
+          "url": "https://www.ilmessaggero.it/mondo/iran_minacce_trump_attacco_cosa_succede-9644057.html",
+          "title": "Trump : « Se lIran mi uccide dovete distruggerli ». Le minacce incrociate e il piano in caso di morte",
+          "domain": "ilmessaggero.it",
+          "seendate": "20260710T231500Z"
+        },
+        {
+          "url": "https://www.indiatvnews.com/news/world/netanyahu-opposes-us-f-35-sale-to-turkey-warns-trump-s-move-would-upset-middle-east-power-balance-2026-07-08-1047511",
+          "title": "Netanyahu opposes US F - 35 sale to Turkey , warns Trump move would upset Middle East power balance | World",
+          "domain": "indiatvnews.com",
+          "seendate": "20260708T060000Z"
+        },
+        {
+          "url": "https://www.aa.com.tr/tr/dunya/israil-lubnan-ile-gorusmeler-gelecek-hafta-romada-yeniden-baslayacak-/3989695",
+          "title": "İsrail : Lübnan ile görüşmeler gelecek hafta Romada yeniden başlayacak",
+          "domain": "aa.com.tr",
+          "seendate": "20260707T213000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/israil-lubnan-ile-gorusmeler-gelecek-hafta-roma-da-yeniden-baslayacak-722732",
+          "title": "İsrail : Lübnan ile görüşmeler gelecek hafta Romada yeniden başlayacak",
+          "domain": "birgun.net",
+          "seendate": "20260708T011500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/israil-ateskese-ragmen-lubnan-da-evleri-havaya-ucurdu-20023212-haberi/",
+          "title": "İsrail ordusu ateşkese rağmen Lübnan  ın güneyindeki evleri yıkmaya devam ediyor",
+          "domain": "haberler.com",
+          "seendate": "20260706T090000Z"
+        },
+        {
+          "url": "https://www.zazoom.it/2026-07-11/strategia-trump-negoziati-ma-il-cessate-il-fuoco-e-finito/19449295/",
+          "title": "Strategia Trump | Negoziati Ma il cessate il fuoco è finito",
+          "domain": "zazoom.it",
+          "seendate": "20260711T103000Z"
+        },
+        {
+          "url": "https://dailyinqilab.com/international/news/913075",
+          "title": "যুক্তরাষ্ট্র ইরানের মিত্রদের স্বীকৃতি দিতে বাধ্য হয়েছে : গালিবাফ",
+          "domain": "dailyinqilab.com",
+          "seendate": "20260706T064500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2617478/iran-says-it-hits-us-military-targets-in-gulf-buries-slain-leader-khamenei",
+          "title": "Iran says it hits US military targets in Gulf , buries slain leader Khamenei",
+          "domain": "tribune.com.pk",
+          "seendate": "20260710T081500Z"
+        },
+        {
+          "url": "https://www.dw.com/zh/%E7%89%B9%E6%9C%97%E6%99%AE%E5%A8%81%E8%83%81%E8%8B%A5%E9%81%AD%E6%9A%97%E6%9D%80%E5%B0%86%E6%91%A7%E6%AF%81%E4%BC%8A%E6%9C%97-%E7%A7%B0%E5%8D%83%E6%9E%9A%E5%AF%BC%E5%BC%B9%E5%B7%B2%E5%BE%85%E5%8F%91/a-77915557",
+          "title": "特朗普威胁若遭暗杀将  摧毁伊朗  称千枚导弹已待发",
+          "domain": "dw.com",
+          "seendate": "20260711T104500Z"
+        },
+        {
+          "url": "https://www.sabah.com.tr/dunya/israil-lubnanda-ateskesi-yeniden-deldi-deyr-seryan-beldesi-topcu-atislariyla-vuruldu-7616722",
+          "title": "İsrail Lübnanda ateşkesi yeniden deldi : Deyr Seryan beldesi topçu atışlarıyla vuruldu",
+          "domain": "sabah.com.tr",
+          "seendate": "20260705T153000Z"
+        },
+        {
+          "url": "https://pelop.gr/trab-se-iran-1-000-pyravloi-einai-etoimoi-an-me-angixete-telesigrafo-gia-ta-stena-tou-ormouz/",
+          "title": "Τραμπ σε Ιράν : « 1 . 000 πύραυλοι είναι έτοιμοι αν με αγγίξετε » – Τελεσίγραφο για τα Στενά του Ορμούζ",
+          "domain": "pelop.gr",
+          "seendate": "20260711T084500Z"
+        },
+        {
+          "url": "https://www.zazoom.it/2026-07-08/missili-di-teheran-su-hormuz-gli-usa-lanciano-potenti-attacchi-contro-liran-la-tregua-e-rotta/19435355/",
+          "title": "Missili di Teheran su Hormuz gli united states lanciano potenti attacchi contro lIran La tregua è rotta",
+          "domain": "zazoom.it",
+          "seendate": "20260707T231500Z"
+        },
+        {
+          "url": "https://www.philstar.com/world/2026/07/11/2541435/trump-agrees-more-iran-talks-insists-truce-over",
+          "title": "Trump agrees to more Iran talks but insists truce is over",
+          "domain": "philstar.com",
+          "seendate": "20260711T071500Z"
+        },
+        {
+          "url": "https://www.index.hr/vijesti/clanak/netanyahu-s-trumpom-se-slazem-oko-kljucnih-stvari-vezanih-za-iran/2811012.aspx?index_tid=1081175&index_ref=naslovnica_vijesti_ostalo_d_1",
+          "title": "Netanyahu : S Trumpom se slažem oko ključnih stvari vezanih za Iran",
+          "domain": "index.hr",
+          "seendate": "20260707T180000Z"
+        },
+        {
+          "url": "https://www.index.hr/vijesti/clanak/netanyahu-s-trumpom-se-slazem-oko-kljucnih-stvari-vezanih-za-iran/2811012.aspx?index_tid=1081175&index_ref=naslovnica_vijesti_najnovije_d",
+          "title": "Netanyahu : S Trumpom se slažem oko ključnih stvari vezanih za Iran",
+          "domain": "index.hr",
+          "seendate": "20260707T180000Z"
+        },
+        {
+          "url": "https://newtalk.tw/news/view/2026-07-05/1045335",
+          "title": "土耳其總統艾爾段挺美伊協議 控以色列意圖 「 炸毀 」 中東和平 | 國際",
+          "domain": "newtalk.tw",
+          "seendate": "20260705T063000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/israil-in-2-mart-tan-bu-yana-lubnan-a-duzenledigi-saldirilarda-olenlerin-sayisi-4-bin-304-e-yukseldi-722368%20target=_blank%20class=stretched-link",
+          "title": "İsrailin 2 Marttan bu yana Lübnana düzenlediği saldırılarda ölenlerin sayısı 4 bin 304  e yükseldi",
+          "domain": "birgun.net",
+          "seendate": "20260705T184500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/israil-in-2-mart-tan-bu-yana-lubnan-a-duzenledigi-saldirilarda-olenlerin-sayisi-4-bin-304-e-yukseldi-722368",
+          "title": "İsrailin 2 Marttan bu yana Lübnana düzenlediği saldırılarda ölenlerin sayısı 4 bin 304  e yükseldi",
+          "domain": "birgun.net",
+          "seendate": "20260705T211500Z"
+        },
+        {
+          "url": "https://www.justiceinfo.net/en/161718-trump-says-agreed-to-more-iran-talks-but-insists-truce-over.html",
+          "title": "Trump says agreed to more Iran talks but insists truce over",
+          "domain": "justiceinfo.net",
+          "seendate": "20260710T220000Z"
+        },
+        {
+          "url": "https://unn.ua/news/tramp-ponovyv-pohrozy-zavershyty-spravu-viiskovymy-diiamy-shchodo-iranu",
+          "title": "Трамп поновив погрози  завершити справу  військовими діями щодо Ірану",
+          "domain": "unn.ua",
+          "seendate": "20260707T061500Z"
+        },
+        {
+          "url": "https://www.yeniakit.com.tr/haber/lubnanda-buyuk-aci-2011010.html",
+          "title": "Lübnanda büyük acı ! ",
+          "domain": "yeniakit.com.tr",
+          "seendate": "20260705T170000Z"
+        },
+        {
+          "url": "https://www.evrensel.net/haber/5991725/cerceve-anlasmanin-golgesinde-agir-bilanco-israilin-lubnana-saldirilarinda-can-kaybi-4-bin-321e-yukseldi",
+          "title": "Çerçeve anlaşmanın gölgesinde ağır bilanço : İsrailin Lübnana saldırılarında can kaybı 4 bin 321  e yükseldi",
+          "domain": "evrensel.net",
+          "seendate": "20260709T064500Z"
+        },
+        {
+          "url": "https://hnonline.sk/svet/96291188-iran-chce-pokracovat-v-rokovaniach-pristupili-sme-na-to-tvrdi-trump-odkazal-vsak-ze-primerie-sa-skoncilo",
+          "title": "Irán chce pokračovať v rokovaniach , pristúpili sme na to , tvrdí Trump . Odkázal však , že prímerie sa skončilo",
+          "domain": "hnonline.sk",
+          "seendate": "20260710T174500Z"
+        },
+        {
+          "url": "https://www.bostonglobe.com/2026/07/08/nation/iran-war-talks-timeline/",
+          "title": "A timeline of the Iran deal and talks",
+          "domain": "bostonglobe.com",
+          "seendate": "20260708T150000Z"
+        },
+        {
+          "url": "https://www.newsweek.com/why-the-us-and-irans-first-step-deal-was-doomed-to-fail-12173268",
+          "title": "Why the US and Iran First - Step Deal Was Doomed to Fail",
+          "domain": "newsweek.com",
+          "seendate": "20260708T230000Z"
+        },
+        {
+          "url": "https://www.dha.com.tr/dunya/iran-abd-ile-barisimiz-yok-israili-resmi-olarak-tanimayacagiz-2904595",
+          "title": "İran : ABD ile barışımız yok , İsraili resmi olarak tanımayacağız",
+          "domain": "dha.com.tr",
+          "seendate": "20260706T060000Z"
+        },
+        {
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-ceasefire-talks-strait-of-hormuz/",
+          "title": "U . S .- Iran Latest : Tehran seeks regional support as mediators push to keep talks going after intense flare - up",
+          "domain": "cbsnews.com",
+          "seendate": "20260710T131500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/israil-in-lubnan-saldirilarinda-can-kaybi-4-bin-304-e-yukseldi-20021818-haberi/",
+          "title": "İsrailin 2 Marttan bu yana Lübnana düzenlediği saldırılarda ölenlerin sayısı 4 bin 304  e ulaştı",
+          "domain": "haberler.com",
+          "seendate": "20260705T171500Z"
+        },
+        {
+          "url": "https://www.orientaldaily.com.my/news/international/2026/07/09/831519",
+          "title": "欧盟航空安全局建议航司 避开两伊和黎巴嫩空域 | 国际",
+          "domain": "orientaldaily.com.my",
+          "seendate": "20260709T013000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/middle-east/iran-says-final-deal-talks-with-us-will-not-start-if-threats-continue/3988039",
+          "title": "Iran says final deal talks with US will not start if  threats continue  ",
+          "domain": "aa.com.tr",
+          "seendate": "20260707T093000Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-07-10/4465317.html",
+          "title": "  为哈梅内伊复仇 ， 伊朗打击美军舰 、 基地 、 爱国者  等 ！ 美方 ： 正进行外交努力缓和局势 ！ 以色列 ： 做好打伊朗准备 ， 数百架战机随时待命",
+          "domain": "nbd.com.cn",
+          "seendate": "20260710T030000Z"
+        },
+        {
+          "url": "https://www.jns.org/jns-tv/israel-undiplomatic/what-khameneis-funeral-says-about-the-next-iran-israel-showdown",
+          "title": "What Khamenei funeral says about the next Iran - Israel showdown - Israel & Jewish News",
+          "domain": "jns.org",
+          "seendate": "20260707T100000Z"
+        },
+        {
+          "url": "https://www.middle-east-online.com/en/hezbollah-urges-aoun-reject-israel-deal-pursue-indirect-talks",
+          "title": "Hezbollah urges Aoun to reject Israel deal , pursue indirect talks",
+          "domain": "middle-east-online.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://www.duluthnewstribune.com/opinion/columns/point-counterpoint-iran-turning-certain-defeat-into-stunning-victory",
+          "title": "Point / Counterpoint : Iran turning certain defeat into stunning victory",
+          "domain": "duluthnewstribune.com",
+          "seendate": "20260705T190000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8ucbGhl5RQh",
+          "title": "  打不服 、 谈不拢 、 拖不起 、 退不了 ， 美伊局势 ： 下一个俄乌 ？_ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260709T094500Z"
+        },
+        {
+          "url": "http://futures.cnfol.com/qishidongtai/20260711/32304881.shtml",
+          "title": "油价周线狂飙逾5 %！ 德黑兰否认求谈 ， 聚焦美伊下周恢复谈判 _ 期市动态 _ 期货 _ 中金在线",
+          "domain": "futures.cnfol.com",
+          "seendate": "20260711T044500Z"
+        },
+        {
+          "url": "https://www.etoday.co.kr/news/view/2600393",
+          "title": "네타냐후  트럼프와 불화 없다 … 이란 핵무기 보유 못할 것  ",
+          "domain": "etoday.co.kr",
+          "seendate": "20260705T233000Z"
+        },
+        {
+          "url": "https://www.vilaweb.cat/noticies/cupules-iran-hamas-exhibeixen-bones-relacions-funeral-khamenei/",
+          "title": "Les cúpules de lIran i Hamàs exhibeixen les bones relacions durant el funeral de Khamenei",
+          "domain": "vilaweb.cat",
+          "seendate": "20260705T163000Z"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5496197",
+          "title": "揚言再攻伊朗 ！ 川普撂話 「 炸橋樑斷能源 」 德黑蘭怒斥 ： 妄想 - 國際",
+          "domain": "news.ltn.com.tw",
+          "seendate": "20260707T010000Z"
+        },
+        {
+          "url": "https://uainfo.org/blognews/1783669461-trampa-spiymali-na-brehni-shchodo-peregovoriv-z-iranom---abc.html",
+          "title": "Трампа спіймали на брехні щодо переговорів з Іраном , ",
+          "domain": "uainfo.org",
+          "seendate": "20260710T091500Z"
+        },
+        {
+          "url": "https://www.sandiegouniontribune.com/2026/07/08/iran-war-timeline/",
+          "title": "Is Iran deal  over  and war back on ? A timeline of conflict and talks",
+          "domain": "sandiegouniontribune.com",
+          "seendate": "20260708T170000Z"
+        },
+        {
+          "url": "https://www.bostonherald.com/2026/07/08/iran-war-timeline/",
+          "title": "Is Iran deal  over  and war back on ? A timeline of conflict and talks",
+          "domain": "bostonherald.com",
+          "seendate": "20260708T151500Z"
+        },
+        {
+          "url": "https://www.today.it/mondo/trump-piano-omicidio-colloqui-svizzera.html",
+          "title": "Riprendono i colloqui tra Stati Uniti e Iran , Trump :  Se mi uccidono li bombarderemo come mai fatto  ",
+          "domain": "today.it",
+          "seendate": "20260710T173000Z"
+        },
+        {
+          "url": "https://jp.ibtimes.com/israeli-drone-strike-kills-least-4-southern-lebanon-despite-ceasefire-102440",
+          "title": "Israeli Drone Strike Kills at Least 4 in Southern Lebanon Despite Ceasefire",
+          "domain": "jp.ibtimes.com",
+          "seendate": "20260707T160000Z"
+        },
+        {
+          "url": "https://www.aa.com.tr/tr/dunya/israil-ateskese-ragmen-lubnanin-guneyinde-bir-beldeyi-vurdu/3986567",
+          "title": "İsrail , ateşkese rağmen Lübnan  ın güneyinde bir beldeyi vurdu",
+          "domain": "aa.com.tr",
+          "seendate": "20260705T113000Z"
+        },
+        {
+          "url": "https://www.aa.com.tr/tr/dunya/israilin-ateskese-ragmen-lubnanda-bir-araca-duzenledigi-iha-saldirisinda-2-kisi-yaralandi/3993819",
+          "title": "İsrailin ateşkese rağmen Lübnanda bir araca düzenlediği İHA saldırısında 2 kişi yaralandı",
+          "domain": "aa.com.tr",
+          "seendate": "20260710T071500Z"
+        },
+        {
+          "url": "https://technews.tw/2026/07/07/us-iran-talks-reach-another-impasse/",
+          "title": "美伊談判僵局 ， 川普放話 ： 不達成協議就做個了結",
+          "domain": "technews.tw",
+          "seendate": "20260707T051500Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/80064",
+          "title": "US Issues Saturday Deadline for Iran to Publicly Commit to Hormuz Shipping Safety",
+          "domain": "kyivpost.com",
+          "seendate": "20260711T104500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/lubnan-cumhurbaskani-avn-hicbir-kosulda-baskalarinin-adimiza-muzakere-yapmasina-izin-vermeyiz-20027935-haberi/",
+          "title": "Lübnan Cumhurbaşkanı Avndan , İsrailin ateşkese uyması için uluslararası topluma çağrı",
+          "domain": "haberler.com",
+          "seendate": "20260707T133000Z"
+        },
+        {
+          "url": "https://www.aa.com.tr/tr/dunya/israil-ordusu-ateskese-ragmen-lubnanin-guneyinde-isgal-ettigi-beldede-bazi-evleri-yakti/3993704",
+          "title": "İsrail ordusu ateşkese rağmen Lübnan  ın güneyinde işgal ettiği beldede bazı evleri yaktı",
+          "domain": "aa.com.tr",
+          "seendate": "20260709T211500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/israil-den-lubnan-in-guneyine-iha-ve-patlayicili-saldirilar-20041605-haberi/",
+          "title": "İsrail ordusu Lübnan  ın güneyindeki bazı beldelere İHA saldırıları gerçekleştirdi",
+          "domain": "haberler.com",
+          "seendate": "20260711T114500Z"
+        },
+        {
+          "url": "https://www.hurriyet.com.tr/dunya/israil-lubnandan-ne-zaman-cekilecek-dikkat-ceken-iddia-ateskes-ihlal-edildi-irandan-ceza-tehdidi-43229663",
+          "title": "İsrail Lübnandan ne zaman çekilecek ? Dikkat çeken iddia ! Ateşkes ihlal edildi ... İrandan  ceza  tehdidi",
+          "domain": "hurriyet.com.tr",
+          "seendate": "20260705T143000Z"
+        },
+        {
+          "url": "https://dunyanews.tv/en/World/961127-khamenei-funeral-signals-irans-defiance-and-new-regional-order",
+          "title": "Khamenei funeral signals Iran defiance and new regional order",
+          "domain": "dunyanews.tv",
+          "seendate": "20260707T140000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1870103445448324803",
+          "title": "视频丨意大利外交部 ： 黎以将于下周在罗马举行会谈",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260708T054500Z"
+        },
+        {
+          "url": "https://avaz.ba/vijesti/globus/1054762/predsjednik-iranskog-parlamenta-tvrdi-sporazum-s-amerikom-je-tezak-ali-moguc",
+          "title": "Predsjednik iranskog parlamenta tvrdi : Sporazum s Amerikom je težak , ali moguć",
+          "domain": "avaz.ba",
+          "seendate": "20260705T170000Z"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/aopl/202607070053.aspx",
+          "title": "美伊談判僵局 川普放話 ： 不達成協議就做個了結 | 國際",
+          "domain": "cna.com.tw",
+          "seendate": "20260707T053000Z"
+        },
+        {
+          "url": "https://www.cna.com.tw:443/news/aopl/202607070053.aspx",
+          "title": "美伊談判僵局 川普放話 ： 不達成協議就做個了結 | 國際",
+          "domain": "cna.com.tw",
+          "seendate": "20260707T030000Z"
+        },
+        {
+          "url": "https://www.f5haber.com/gundem/hakan-fidan-iranli-mevkidasi-arakci-ile-gorustu-6944561",
+          "title": "Hakan Fidan , İranlı mevkidaşı Arakçi ile görüştü",
+          "domain": "f5haber.com",
+          "seendate": "20260709T181500Z"
+        },
+        {
+          "url": "https://www.taipeitimes.com/News/editorials/archives/2026/07/10/2003860503",
+          "title": "Khamenei funeral signals Iran defiance and new regional order",
+          "domain": "taipeitimes.com",
+          "seendate": "20260709T170000Z"
+        },
+        {
+          "url": "https://www.arabnews.com/node/2650189/middle-east",
+          "title": "Lebanon to attend Rome talks only if Israel withdraws from 2  pilot  zones : diplomatic source",
+          "domain": "arabnews.com",
+          "seendate": "20260709T013000Z"
+        },
+        {
+          "url": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/who-benefits-renewed-us-iran-hostilities-4219786",
+          "title": "US - Iran Ceasefire Collapse | Who benefits from renewed US - Iran hostilities ? ",
+          "domain": "thedailystar.net",
+          "seendate": "20260709T104500Z"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/paper/1761952",
+          "title": "美伊又互轟 川普 ： 停火結束了 - 國際 - 自由時報電子報",
+          "domain": "news.ltn.com.tw",
+          "seendate": "20260708T230000Z"
+        },
+        {
+          "url": "https://www.justiceinfo.net/en/161725-trump-agrees-to-more-iran-talks-but-insists-truce-is-over.html",
+          "title": "Trump agrees to more Iran talks but insists truce is over",
+          "domain": "justiceinfo.net",
+          "seendate": "20260710T220000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/israil-den-lubnan-a-iha-saldirisi-723202",
+          "title": "İsrailden Lübnana İHA saldırısı",
+          "domain": "birgun.net",
+          "seendate": "20260710T141500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/israil-den-lubnan-a-iha-saldirisi-723202%20target=_blank%20class=stretched-link",
+          "title": "İsrailden Lübnana İHA saldırısı",
+          "domain": "birgun.net",
+          "seendate": "20260710T130000Z"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5494428",
+          "title": "伊朗國葬現場點名川普 主持人喊 「 他為何還活著 」 - 國際",
+          "domain": "news.ltn.com.tw",
+          "seendate": "20260705T060000Z"
+        },
+        {
+          "url": "https://www.tothemaonline.com/Article/467033/tramp-apeilei-to-iran-1000-pyrayloi-einai-etoimoi-an-me-aggixete---stelnei-telesigrafo-sthn-teheranh",
+          "title": "Τραμπ : Aπειλεί το Ιράν « 1 . 000 πύραυλοι είναι έτοιμοι αν με αγγίξετε » - Στέλνει τελεσίγραφο στην Τεχεράνη",
+          "domain": "tothemaonline.com",
+          "seendate": "20260711T064500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/a-new-plot-to-kill-trump-one-us-ally-believes-iran-was-behind-it-report/articleshow/132326750.cms",
+          "title": "A new plot to kill Trump ? One US ally believes Iran was behind it : Report",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260711T084500Z"
+        },
+        {
+          "url": "https://www.haksozhaber.net/isgal-ordusu-ateskese-ragmen-lubnanin-guneyindeki-evleri-yikmaya-devam-ediyor-256656h.htm",
+          "title": "İşgal ordusu ateşkese rağmen Lübnan  ın güneyindeki evleri yıkmaya devam ediyor",
+          "domain": "haksozhaber.net",
+          "seendate": "20260706T104500Z"
+        },
+        {
+          "url": "https://news.ycwb.com/ikimvkltkc/content_54219227.htm",
+          "title": "特朗普 ： 今夜可能再打伊朗 ， 如有必要将打击伊朗  最高等级  目标 ； 以色列空袭黎巴嫩南部",
+          "domain": "news.ycwb.com",
+          "seendate": "20260708T150000Z"
+        },
+        {
+          "url": "https://www.star.com.tr/dunya/irana-saldirilarda-on-saflarda-yer-almisti-abdye-ait-f-22ler-israilden-ayrildi-haber-2027024/",
+          "title": "rana saldýrlarda ön saflarda yer almtý ! ABDye ait F - 22  ler Ýsrailden ayrýld",
+          "domain": "star.com.tr",
+          "seendate": "20260710T144500Z"
+        },
+        {
+          "url": "https://www.linternaute.com/actualite/monde/9970081-guerre-en-iran-et-au-liban-la-fin-de-la-treve-et-des-negociations-trump-promet-une-nouvelle-attaque/",
+          "title": "Guerre en Iran et au Liban  : la fin de la trêve ... et des négociations  ? Trump promet une nouvelle attaque",
+          "domain": "linternaute.com",
+          "seendate": "20260708T153000Z"
+        },
+        {
+          "url": "https://www.haksozhaber.net/isgalci-israil-ateskese-ragmen-lubnanin-guneyinde-bir-eve-iha-saldirisi-duzenledi-256613h.htm",
+          "title": "İşgalci İsrail , ateşkese rağmen Lübnan  ın güneyinde bir eve İHA saldırısı düzenledi",
+          "domain": "haksozhaber.net",
+          "seendate": "20260705T013000Z"
+        },
+        {
+          "url": "http://www.xinhuanet.com/20260708/aeb62b3fb2d242a1885a9426e249d8f5/c.html",
+          "title": "特朗普称美伊谅解备忘录已终结 伊朗谴责美军事侵略 - 新华网",
+          "domain": "xinhuanet.com",
+          "seendate": "20260709T010000Z"
+        },
+        {
+          "url": "https://www.index.hr/vijesti/clanak/iranski-duznosnik-dogovor-sa-sadom-je-tezak-ali-provediv/2810199.aspx",
+          "title": "Iranski dužnosnik : Dogovor sa SAD - om je težak , ali provediv",
+          "domain": "index.hr",
+          "seendate": "20260705T171500Z"
+        },
+        {
+          "url": "https://www.mirror.co.uk/news/us-news/white-house-quietly-admits-trumps-37417528",
+          "title": "White House quietly admits Trump Iran deal is looking  increasingly unlikely  ",
+          "domain": "mirror.co.uk",
+          "seendate": "20260711T100000Z"
+        },
+        {
+          "url": "https://www.ensonhaber.com/iran-meclis-baskani-kalibaf-abd-ile-barisimiz-yok-h1547640",
+          "title": "İran Meclis Başkanı Kalibaf : ABD ile barışımız yok",
+          "domain": "ensonhaber.com",
+          "seendate": "20260705T200000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-news-live-updates-west-asia-conflict-strait-of-hormuz-trump-tehran-talks-ceasefire-gulf-states/liveblog/132320232.cms",
+          "title": "US - Iran War Live Updates : Mediators Qatar and Pakistan review developments amid fresh US - Iran tensions",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260710T204500Z"
+        },
+        {
+          "url": "https://www.chinatimes.com/realtimenews/20260710001457-260408",
+          "title": "川普沒招了 ？ 轟炸與暫時性協議都未奏效 白宮陷戰略死胡同 - 政治圈",
+          "domain": "chinatimes.com",
+          "seendate": "20260710T024500Z"
+        },
+        {
+          "url": "https://www.dawn.com/news/2014025",
+          "title": "Gulf flare - up - Newspaper - DAWN . COM",
+          "domain": "dawn.com",
+          "seendate": "20260709T070000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2617558/pm-shehbaz-calls-for-restraint-regional-peace-in-in-calls-with-iranian-president-qatari-emir",
+          "title": "PM calls for restraint , regional peace in in calls with Iranian president , Qatari emir",
+          "domain": "tribune.com.pk",
+          "seendate": "20260710T201500Z"
+        },
+        {
+          "url": "http://gold.cnfol.com/jinshizhibo/20260707/32300474.shtml",
+          "title": "霍尔木兹海峡惊魂夜 ： 伊朗导弹重创两艘商船 ， 美原油急涨1 %， 金价一度跌破4130 _ 金市直播 _ 黄金网 _ 中金在线",
+          "domain": "gold.cnfol.com",
+          "seendate": "20260707T030000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/886370/unrepentant-netanyahu-provokes-khamenei-would-still-be-alive-if-i-listened-to-advice-trump-is-not-the-boss",
+          "title": "Unrepentant Netanyahu provokes : Khamenei would still be alive if I listened to advice",
+          "domain": "bankingnews.gr",
+          "seendate": "20260706T084500Z"
+        },
+        {
+          "url": "https://www.zaobao.com.sg/news/world/story20260710-9346419",
+          "title": "哈梅内伊安葬 最高领袖缺席引关注",
+          "domain": "zaobao.com.sg",
+          "seendate": "20260710T161500Z"
+        },
+        {
+          "url": "https://newtalk.tw/news/view/2026-07-08/1045848",
+          "title": "美伊戰火再起 ！ 美軍中央司令部 ： 美部隊對伊朗發動一系列強力打擊 | 國際",
+          "domain": "newtalk.tw",
+          "seendate": "20260708T011500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/887437/trump-shreds-iran-ceasefire-agreement-as-tactical-blunder-cedes-control-of-strait-of-hormuz-chaos-looms",
+          "title": "Trump shreds Iran ceasefire agreement as tactical blunder cedes control of Strait of Hormuz , chaos looms",
+          "domain": "bankingnews.gr",
+          "seendate": "20260710T163000Z"
+        },
+        {
+          "url": "https://www.trthaber.com/haber/dunya/soykirimci-israil-ateskese-ragmen-lubnanin-guneyinde-saldirilarini-surdurup-evleri-havaya-ucurdu-950904.html",
+          "title": "Soykırımcı İsrail , ateşkese rağmen Lübnan  ın güneyinde saldırılarını sürdürüp evleri havaya uçurdu",
+          "domain": "trthaber.com",
+          "seendate": "20260711T010000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/diplomasi-sustu-silah-konusuyor-722914%20target=_blank%20class=stretched-link",
+          "title": "Diplomasi sustu silah konuşuyor",
+          "domain": "birgun.net",
+          "seendate": "20260709T023000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/diplomasi-sustu-silah-konusuyor-722914",
+          "title": "Diplomasi sustu silah konuşuyor",
+          "domain": "birgun.net",
+          "seendate": "20260709T034500Z"
+        },
+        {
+          "url": "https://www.cnn.com/2026/07/09/politics/trump-assassination-plot-iran-israel",
+          "title": "Israel shared intelligence with US of Iranian plot to assassinate Trump , sources say",
+          "domain": "cnn.com",
+          "seendate": "20260710T031500Z"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/07/09/politics/trump-assassination-plot-iran-israel",
+          "title": "Israel shared intelligence with US of Iranian plot to assassinate Trump , sources say",
+          "domain": "edition.cnn.com",
+          "seendate": "20260710T034500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/iran-dan-nato-nun-ankara-zirvesi-bildirisi-ne-sert-tepki-20034856-haberi/",
+          "title": "İrandan NATO Bildirisine Tepki : İddialar Temelsiz ve Siyasi",
+          "domain": "haberler.com",
+          "seendate": "20260709T120000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L1G1M0DN051492T3.html",
+          "title": "特朗普  伊朗要杀我  的情报来自以色列 ， 美轰炸通往哈梅内伊出生地桥梁|巴林|德黑兰|唐纳 · 川普|唐纳德 · 特朗普",
+          "domain": "163.com",
+          "seendate": "20260710T081500Z"
+        },
+        {
+          "url": "https://www.cp24.com/news/world/2026/07/09/israel-shared-intelligence-with-us-of-iranian-plot-to-assassinate-trump-sources-say/",
+          "title": "Israeli intelligence : Iran plotted to kill Trump",
+          "domain": "cp24.com",
+          "seendate": "20260710T030000Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/lubnan-cumhurbaskani-israil-isgali-washington-anlasmasi-ni-engelliyor-20024486-haberi/",
+          "title": "Lübnan Cumhurbaşkanı Avn , İsrail işgalinin Washington Anlaşması  nın uygulanmasını engellediğini söyledi",
+          "domain": "haberler.com",
+          "seendate": "20260706T131500Z"
+        },
+        {
+          "url": "https://www.linternaute.com/actualite/monde/9970081-guerre-en-iran-et-au-liban-le-conflit-est-il-relance/",
+          "title": "Guerre en Iran et au Liban : le conflit est - il relanc ? ",
+          "domain": "linternaute.com",
+          "seendate": "20260708T004500Z"
+        },
+        {
+          "url": "https://www.dawn.com/news/2013403/khamenei-funeral-signals-irans-defiance-and-new-regional-order",
+          "title": "Khamenei funeral signals Iran defiance and new regional order - World",
+          "domain": "dawn.com",
+          "seendate": "20260708T031500Z"
+        },
+        {
+          "url": "http://futures.cnfol.com/qishidongtai/20260710/32303728.shtml",
+          "title": "美伊空袭引爆霍尔木兹僵局 ， 全球油轮几近断航 ， 航运保险拉响最高警报 _ 期市动态 _ 期货 _ 中金在线",
+          "domain": "futures.cnfol.com",
+          "seendate": "20260710T030000Z"
+        },
+        {
+          "url": "https://www.lapresse.it/esteri/2026/07/10/iran-trump-i-colloqui-continuano-ma-il-cessate-il-fuoco-e-finito/",
+          "title": "Iran , Trump :  I colloqui continuano ma il cessate il fuoco è finito  ",
+          "domain": "lapresse.it",
+          "seendate": "20260710T174500Z"
+        },
+        {
+          "url": "https://www.hurriyet.com.tr/dunya/israil-lubnandan-ne-zaman-cekilecek-dikkat-ceken-iddia-43229663",
+          "title": "İsrail Lübnandan ne zaman çekilecek ? Dikkat çeken iddia ! Ateşkes ihlal edildi",
+          "domain": "hurriyet.com.tr",
+          "seendate": "20260705T131500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/97/neo-polemiko-telesigrafo-tou-israil-etoimo-gia-triti-epithesi-kata-tou-iran.htm",
+          "title": "Νέο πολεμικό τελεσίγραφο του Ισραήλ : Έτοιμο για τρίτη επίθεση κατά του Ιράν",
+          "domain": "inewsgr.com",
+          "seendate": "20260709T191500Z"
+        },
+        {
+          "url": "https://www.epochtimes.com/gb/26/7/10/n14807293.htm",
+          "title": "伊朗又密谋暗杀 ？ 川普 ： 我出事就彻底摧毁他们",
+          "domain": "epochtimes.com",
+          "seendate": "20260710T213000Z"
+        },
+        {
+          "url": "https://townhall.com/columnists/bonnie-glick/2026/07/10/diplomacy-finally-caught-up-with-reality-in-lebanon-rubios-masterstroke-n2679116",
+          "title": "Diplomacy Finally Caught Up With Reality in Lebanon : Rubio Masterstroke",
+          "domain": "townhall.com",
+          "seendate": "20260710T060000Z"
+        },
+        {
+          "url": "https://www.arkansasonline.com/news/2026/jul/11/us-urges-iran-commit-to-ending-strait-strikes/",
+          "title": "US urges Iran commit to ending strait strikes | The Arkansas Democrat - Gazette",
+          "domain": "arkansasonline.com",
+          "seendate": "20260711T103000Z"
+        },
+        {
+          "url": "https://www.kcci.com/article/is-us-at-war-iran-again/71886606",
+          "title": "Is the US at war ? Answering your questions about the US - Iran conflict",
+          "domain": "kcci.com",
+          "seendate": "20260709T211500Z"
+        },
+        {
+          "url": "https://www.risalehaber.com/soykirimci-israil-ateskese-ragmen-lubnanda-evleri-havaya-ucurdu-453280h.htm",
+          "title": "Soykırımcı israil , ateşkese rağmen Lübnanda evleri havaya uçurdu",
+          "domain": "risalehaber.com",
+          "seendate": "20260711T091500Z"
+        },
+        {
+          "url": "https://www.kcra.com/article/is-us-at-war-iran-again/71886606",
+          "title": "Is the US at war ? Answering your questions about the US - Iran conflict",
+          "domain": "kcra.com",
+          "seendate": "20260709T203000Z"
+        },
+        {
+          "url": "https://time.com/article/2026/07/07/fresh-attacks-in-the-strait-of-hormuz-shake-peace-talks/",
+          "title": "Fresh Attacks in the Strait of Hormuz Raise Stakes for Peace Deal",
+          "domain": "time.com",
+          "seendate": "20260707T200000Z"
+        },
+        {
+          "url": "https://www.wgal.com/article/is-us-at-war-iran-again/71886606",
+          "title": "Is the US at war ? Answering your questions about the US - Iran conflict",
+          "domain": "wgal.com",
+          "seendate": "20260709T200000Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/364/o-trab-apeilei-to-iran-1000-pyravloi-einai-etoimoi-an-me-angixete-stelnei-telesigrafo-stin-techerani-na-stamatisei-tis-epitheseis-sta-stena-tou-ormouz.htm",
+          "title": "Ο Τραμπ απειλεί το Ιράν « 1 . 000 πύραυλοι είναι έτοιμοι αν με αγγίξετε », στέλνει τελεσίγραφο στην Τεχεράνη να σταματήσει τις επιθέσεις στα Στενά του Ορμούζ",
+          "domain": "inewsgr.com",
+          "seendate": "20260711T051500Z"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/policy/defense/4641457/timeline-iran-us-ceasefire-mou-signing-to-end/",
+          "title": "What has happened between US and Iran since MOU signing ? ",
+          "domain": "washingtonexaminer.com",
+          "seendate": "20260708T224500Z"
+        },
+        {
+          "url": "https://www.voria.gr/article/apeiles-tramp-pros-iran-1000-pyrayloi-etoimoi-me-aggixete-telesigrafo-stin-teherani-na",
+          "title": "Απειλές Τραμπ προς Ιράν : 1 . 000 πύραυλοι έτοιμοι αν με αγγίξετε - Τελεσίγραφο στην Τεχεράνη να σταματήσει τις επιθέσεις στο Ορμούζ",
+          "domain": "voria.gr",
+          "seendate": "20260711T073000Z"
+        },
+        {
+          "url": "https://www.newsweek.com/how-donald-trump-approval-rating-changed-iran-ceasefire-12173837",
+          "title": "How Donald Trump Approval Rating Has Changed During Iran Ceasefire",
+          "domain": "newsweek.com",
+          "seendate": "20260708T230000Z"
+        },
+        {
+          "url": "https://www.turkiyegazetesi.com.tr/dunya/irandan-misilleme-tehdidi-1802454",
+          "title": "İrandan misilleme tehdidi ! | Türkiye Gazetesi",
+          "domain": "turkiyegazetesi.com.tr",
+          "seendate": "20260710T141500Z"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2026-07-10/iran-us-trade-strikes-/106899742",
+          "title": "Iran targets US military sites in Gulf as Israel warns it could  strike again  ",
+          "domain": "abc.net.au",
+          "seendate": "20260709T183000Z"
+        },
+        {
+          "url": "https://www.dawn.com/news/2013076",
+          "title": "Islamabad frontrunner to host US - Iran talks - Newspaper",
+          "domain": "dawn.com",
+          "seendate": "20260705T030000Z"
+        },
+        {
+          "url": "https://www.democracynow.org/2026/7/8/headlines",
+          "title": "Headlines for July 08 , 2026",
+          "domain": "democracynow.org",
+          "seendate": "20260708T153000Z"
+        },
+        {
+          "url": "https://www.kompas.com/global/read/2026/07/07/125000770/ketika-mimpi-damai-dibayangi-plot-pembunuhan-israel",
+          "title": "Ketika Mimpi Damai Dibayangi Plot Pembunuhan Israel",
+          "domain": "kompas.com",
+          "seendate": "20260707T061500Z"
+        },
+        {
+          "url": "https://news.liga.net/ua/world/news/wsj-izrail-poperedyv-ssha-pro-novi-plany-iranu-vbyty-trampa",
+          "title": "Іран планує вбивство Трампа , каже розвідка Ізраїлю | Новини України",
+          "domain": "news.liga.net",
+          "seendate": "20260710T073000Z"
+        },
+        {
+          "url": "https://www.hurriyetdailynews.com/mediators-push-to-get-mideast-diplomacy-back-on-track-after-flare-up-224230",
+          "title": "Mediators push to get Mideast diplomacy back on track after flare - up",
+          "domain": "hurriyetdailynews.com",
+          "seendate": "20260710T134500Z"
+        },
+        {
+          "url": "https://www.dnoticias.pt/2026/7/9/498419-bombardeamentos-norte-americanos-causam-14-mortos-e-78-feridos-no-irao/",
+          "title": "Bombardeamentos norte - americanos causam 14 mortos e 78 feridos no Irão",
+          "domain": "dnoticias.pt",
+          "seendate": "20260709T104500Z"
+        },
+        {
+          "url": "https://www.zazoom.it/2026-07-07/negoziato-israele-libano-a-roma-per-litalia-un-rischio-e-unopportunita/19433862/",
+          "title": "Negoziato Israele - Libano a Roma per lItalia un rischio e unopportunità",
+          "domain": "zazoom.it",
+          "seendate": "20260707T134500Z"
+        },
+        {
+          "url": "https://www.is.fi/ulkomaat/art-2000012135282.html",
+          "title": "Trump uhkailee Irania - Ilta - Sanomat",
+          "domain": "is.fi",
+          "seendate": "20260711T070000Z"
+        },
+        {
+          "url": "https://www.havadiskibris.com/irana-ders-vermesi-kabul-edilemez/",
+          "title": "  İrana ders vermesi kabul edilemez  - Havadis Gazetesi",
+          "domain": "havadiskibris.com",
+          "seendate": "20260709T193000Z"
+        },
+        {
+          "url": "https://www.naharnet.com:443/stories/en/321175-all-you-need-to-know-about-lebanon-israel-talks-in-rome",
+          "title": "All you need to know about Lebanon - Israel talks in Rome",
+          "domain": "naharnet.com",
+          "seendate": "20260709T120000Z"
+        },
+        {
+          "url": "https://www.naharnet.com/stories/en/321175-all-you-need-to-know-about-lebanon-israel-talks-in-rome",
+          "title": "All you need to know about Lebanon - Israel talks in Rome",
+          "domain": "naharnet.com",
+          "seendate": "20260709T150000Z"
+        },
+        {
+          "url": "https://www.the-star.co.ke/news/world/2026-07-11-us-wants-iran-to-pledge-to-stop-shooting-at-ships-in-strait-of-hormuz",
+          "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz",
+          "domain": "the-star.co.ke",
+          "seendate": "20260711T101500Z"
+        },
+        {
+          "url": "https://www.is.fi/ulkomaat/art-2000012128090.html",
+          "title": "Yhdysvallat iski kovaa Iraniin",
+          "domain": "is.fi",
+          "seendate": "20260708T124500Z"
+        },
+        {
+          "url": "https://arabic.cnn.com/middle-east/article/2026/07/05/netanyahu-plans-to-visit-washington-as-early-as-next-monday-source-says",
+          "title": "لبحث التطبيع مع السعودية وملف إيران .. مصدر : نتنياهو يخطط للقاء ترامب بواشنطن في هذا الموعد",
+          "domain": "arabic.cnn.com",
+          "seendate": "20260705T094500Z"
+        },
+        {
+          "url": "https://www.haberekspres.com.tr/irandan-nato-ankara-zirvesi-bildirisine-tepki",
+          "title": "İrandan NATO Ankara Zirvesi Bildirisine tepki | Haber Ekspres - Haber Ekspres - İzmir Haberleri - Son Dakika Haberleri",
+          "domain": "haberekspres.com.tr",
+          "seendate": "20260709T173000Z"
+        },
+        {
+          "url": "https://finance.jrj.com.cn/2026/07/11080657767786.shtml",
+          "title": "最新 ！ 特朗普称停火已经结束 ， 内塔尼亚胡 ： 杀死20名伊朗核专家 ！ 深夜 ， 存储巨头ADR股价暴涨 ， 通胀预期生变 ？ ",
+          "domain": "finance.jrj.com.cn",
+          "seendate": "20260711T031500Z"
+        },
+        {
+          "url": "https://www.wdsu.com/article/is-us-at-war-iran-again/71886606",
+          "title": "Is the US at war ? Answering your questions about the US - Iran conflict",
+          "domain": "wdsu.com",
+          "seendate": "20260709T194500Z"
+        },
+        {
+          "url": "https://www.wishtv.com/news/politics/israel-shares-intelligence-with-u-s-on-iranian-plot-to-assassinate-trump-july-9-2026/",
+          "title": "Israel shares intelligence with US on Iranian plot to assassinate Trump",
+          "domain": "wishtv.com",
+          "seendate": "20260710T064500Z"
+        },
+        {
+          "url": "https://www1.pluska.sk/spravy/trump-a-netanjahu-planuju-stretnutie-v-bielom-dome",
+          "title": "Trump a Netanjahu plánujú stretnutie v Bielom dome",
+          "domain": "pluska.sk",
+          "seendate": "20260705T103000Z"
+        },
+        {
+          "url": "https://news.am/en/news/1049177",
+          "title": "Pakistan says it is ready to continue mediating between Iran and the U . S . ",
+          "domain": "news.am",
+          "seendate": "20260710T213000Z"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5496453",
+          "title": "撕毀60天停火 伊朗射2飛彈重創卡達天然氣船 - 國際",
+          "domain": "news.ltn.com.tw",
+          "seendate": "20260707T033000Z"
+        },
+        {
+          "url": "https://www.ilgazzettino.it/mondo/guerra_iran_usa_raid_incrociati_traffico_bloccato_hormuz-9642021.html",
+          "title": "Iran - Usa , raid incrociati e traffico bloccato a Hormuz . Sepolto Ali Khamenei , in migliaia allultimo corteo funebre",
+          "domain": "ilgazzettino.it",
+          "seendate": "20260710T064500Z"
+        },
+        {
+          "url": "https://dunyanews.tv/en/World/961986-us-demands-iran-publicly-state-strait-of-hormuz-open-for-all",
+          "title": "US demands Iran publicly state Strait of Hormuz open for all",
+          "domain": "dunyanews.tv",
+          "seendate": "20260711T063000Z"
+        },
+        {
+          "url": "https://pakobserver.net/switzerland-to-host-next-round-of-us-iran-talks-amid-fresh-escalation/",
+          "title": "Switzerland to host Next Round of US - Iran Talks amid Fresh Escalation ? ",
+          "domain": "pakobserver.net",
+          "seendate": "20260710T213000Z"
+        },
+        {
+          "url": "https://www.asiaone.com:443/world/us-demands-iran-publicly-state-strait-hormuz-open-and-tehran-wont-attack-ships-anymore",
+          "title": "US demands Iran publicly state that Strait of Hormuz is open and Tehran wont attack ships anymore",
+          "domain": "asiaone.com",
+          "seendate": "20260711T070000Z"
+        },
+        {
+          "url": "https://www.voria.gr/article/netaniahoy-me-ton-tramp-moirazomaste-toys-idioys-stohoys-gia-iran",
+          "title": "Νετανιάχου : Με τον Τραμπ μοιραζόμαστε τους ίδιους στόχους για το Ιράν",
+          "domain": "voria.gr",
+          "seendate": "20260705T180000Z"
+        },
+        {
+          "url": "https://wset.com/news/nation-world/report-us-defense-secretary-hegseth-cancels-meeting-with-israeli-prime-minister-netanyahu-as-iran-war-ceasefire-shakes",
+          "title": "Report : Hegseth cancels meeting with Netanyahu as Iran ceasefire shakes",
+          "domain": "wset.com",
+          "seendate": "20260708T201500Z"
+        },
+        {
+          "url": "https://www.linternaute.com/actualite/monde/9970081-guerre-en-iran-trump-affirme-que-le-cessez-le-feu-est-termine-et-menace-teheran/",
+          "title": "Guerre en Iran  : Trump affirme que le cessez - le - feu est  terminé  et menace Téhéran",
+          "domain": "linternaute.com",
+          "seendate": "20260711T090000Z"
+        },
+        {
+          "url": "https://www.theweek.in/news/middle-east/2026/07/05/trump-netanyahu-meeting-white-house.html",
+          "title": "  He knows who the boss i : Trump says Netanyahu requested White House meeting",
+          "domain": "theweek.in",
+          "seendate": "20260705T030000Z"
+        },
+        {
+          "url": "https://www.ceskenoviny.cz/zpravy/trump-hrozi-iranu-znicenim-v-reakci-na-vyzvy-k-jeho-zabiti/2849809",
+          "title": "Trump hrozí Íránu zničením v reakci na výzvy k jeho zabití",
+          "domain": "ceskenoviny.cz",
+          "seendate": "20260711T063000Z"
+        },
+        {
+          "url": "https://www.botasot.info/amerika-bota/2505013/shba-ultimatum-teheranit-per-hormuzin-trump-i-drejtohet-iranin-1-000-raketa-jane-gati-nese-me-prekni/",
+          "title": "SHBA ultimatum Teheranit për Hormuzin , Trump i drejtohet Iranin : 1 , 000 raketa janë gati nëse më prekni ! ",
+          "domain": "botasot.info",
+          "seendate": "20260711T060000Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/middle-east/idf-eliminates-armed-terrorist-in-security-zone-citing-ceasefire-violation-by-lebanon20260705131907/",
+          "title": "IDF eliminates  armed terrorist  in Security Zone citing  ceasefire violation  by Lebanon",
+          "domain": "aninews.in",
+          "seendate": "20260705T081500Z"
+        },
+        {
+          "url": "https://13wham.com/news/nation-world/report-us-defense-secretary-hegseth-cancels-meeting-with-israeli-prime-minister-netanyahu-as-iran-war-ceasefire-shakes",
+          "title": "Report : Hegseth cancels meeting with Netanyahu as Iran ceasefire shakes",
+          "domain": "13wham.com",
+          "seendate": "20260708T181500Z"
+        },
+        {
+          "url": "https://lancasteronline.com/news/world/us-demands-iran-publicly-state-that-strait-of-hormuz-is-open-and-tehran-wont-attack/article_8ccbd675-c051-5689-9b37-03ccd32bfc0a.html",
+          "title": "US demands Iran publicly state that Strait of Hormuz is open and Tehran wont attack ships anymore",
+          "domain": "lancasteronline.com",
+          "seendate": "20260711T000000Z"
+        },
+        {
+          "url": "https://www.theguardian.com/commentisfree/2026/jul/09/trump-is-bombing-iran-again-and-blundering-again-he-has-no-grasp-of-his-enemy",
+          "title": "Trump is bombing Iran again and blundering again . He has no grasp of his enemy | Sina Toossi",
+          "domain": "theguardian.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://www.albawaba.net/news/iran-calls-hormuz-attack-mistake-nuclear-1632688",
+          "title": "Iran calls Hormuz attack a  Mistake  as Nuclear talks hang in the balance",
+          "domain": "albawaba.net",
+          "seendate": "20260711T113000Z"
+        },
+        {
+          "url": "https://wwmt.com/news/nation-world/report-us-defense-secretary-hegseth-cancels-meeting-with-israeli-prime-minister-netanyahu-as-iran-war-ceasefire-shakes",
+          "title": "Report : Hegseth cancels meeting with Netanyahu as Iran ceasefire shakes",
+          "domain": "wwmt.com",
+          "seendate": "20260708T191500Z"
+        },
+        {
+          "url": "https://www.iefimerida.gr/kosmos/diapragmateyseis-ipa-iran-gkalimpaf",
+          "title": " « Οι διαπραγματεύσεις με τις ΗΠΑ δεν θα γίνουν την επόμενη εβδομάδα », λέει το Ιράν - Γκαλιμπάφ : Δεν θα παραδοθούμε ποτέ",
+          "domain": "iefimerida.gr",
+          "seendate": "20260710T194500Z"
+        },
+        {
+          "url": "https://abc6onyourside.com/news/nation-world/report-us-defense-secretary-hegseth-cancels-meeting-with-israeli-prime-minister-netanyahu-as-iran-war-ceasefire-shakes",
+          "title": "Report : Hegseth cancels meeting with Netanyahu as Iran ceasefire shakes",
+          "domain": "abc6onyourside.com",
+          "seendate": "20260708T181500Z"
+        },
+        {
+          "url": "https://kfdm.com/news/nation-world/report-us-defense-secretary-hegseth-cancels-meeting-with-israeli-prime-minister-netanyahu-as-iran-war-ceasefire-shakes",
+          "title": "Report : Hegseth cancels meeting with Netanyahu as Iran ceasefire shakes",
+          "domain": "kfdm.com",
+          "seendate": "20260708T181500Z"
+        },
+        {
+          "url": "https://www.loksatta.com/desh-videsh/congress-slams-pm-modi-over-israel-pm-netanyahu-statement-rub-99-6003631/",
+          "title": "नेत्यानाहूंच्या वक्तव्यावरून काँग्रेसची पंतप्रधान मोदींवर टीका ;  विश्वगुरूंच्या  मौनावर प्रश्नचिन्ह",
+          "domain": "loksatta.com",
+          "seendate": "20260706T230000Z"
+        },
+        {
+          "url": "https://udn.com/news/story/124061/9607877",
+          "title": "千萬人參加哈米尼葬禮 美伊暫停談判 | 中東戰火連綿 | 全球",
+          "domain": "udn.com",
+          "seendate": "20260705T053000Z"
+        },
+        {
+          "url": "https://n.yam.com/Article/20260710855274",
+          "title": "美伊緊張局勢升級 ： 雙方證實互相攻擊 ， 中東瀕臨戰爭邊緣",
+          "domain": "n.yam.com",
+          "seendate": "20260710T040000Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3776563",
+          "title": "欧盟发布飞行警告 ！ 卡塔尔 、 巴林境内拉响警报 ； 科威特称拦截  敌方  空中目标",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://www.tayyar.org/News/Lebanon/731142/_guid=731142",
+          "title": "tayyar . org - Bassil to Al Jazeera : The Framework Agreement Is Unbalanced and Does Not Guarantee an End to Israeli Attacks or a Withdrawal … Al - Sharaa Position of Non - Interference in Lebanon Is Positive and Encouraging",
+          "domain": "tayyar.org",
+          "seendate": "20260705T113000Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/us-iran-mou-agreement-falling-apart-trump-strait-of-hormuz-israel-lebanon-analysis/article71197993.ece",
+          "title": "Is the U . S .- Iran agreement falling apart ? ",
+          "domain": "thehindu.com",
+          "seendate": "20260708T124500Z"
+        },
+        {
+          "url": "https://www.sabah.com.tr/yasam/canli-son-dakika-irandan-trumpa-yonelik-yeni-suikast-plani-iddiasi-israil-istihbarat-paylasiminda-bulundu-abd-ordusundan-hurmuz-aciklamasi-7619730",
+          "title": "SON DAKİKA| İrandan Trumpa yönelik yeni suikast planı iddiası … İsrail istihbarat paylaşımında bulundu ! ABD ordusundan Hürmüz açıklaması",
+          "domain": "sabah.com.tr",
+          "seendate": "20260710T070000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1869960848324920168",
+          "title": "内塔尼亚胡 ： 以色列仍然拥有许多朋友 ， 尤其是  14亿人口的  小国  印度  ",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260706T111500Z"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/07/07/us-strikes-iran-hormuz-ships.html",
+          "title": "U . S . resumes  powerful strike on Iran after Hormuz Strait ship attacks , CENTCOM says",
+          "domain": "cnbc.com",
+          "seendate": "20260707T223000Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/27/netaniachou-sto-Fox-News-me-ton-trab-echoume-koino-stocho-na-min-apoktisei-to-iran-pyrinika-opla.htm",
+          "title": "Νετανιάχου στο Fox News : « Με τον Τραμπ έχουμε κοινό στόχο να μην αποκτήσει το Ιράν πυρηνικά όπλα » ",
+          "domain": "inewsgr.com",
+          "seendate": "20260705T171500Z"
+        },
+        {
+          "url": "https://tribuneonlineng.com/israel-shared-intelligence-with-us-on-fresh-iranian-plot-to-kill-trump-report/",
+          "title": "Israel shared intelligence with US on fresh Iranian plot to kill Trump Report",
+          "domain": "tribuneonlineng.com",
+          "seendate": "20260710T063000Z"
+        },
+        {
+          "url": "https://fox11online.com/news/nation-world/report-us-defense-secretary-hegseth-cancels-meeting-with-israeli-prime-minister-netanyahu-as-iran-war-ceasefire-shakes",
+          "title": "Report : Hegseth cancels meeting with Netanyahu as Iran ceasefire shakes",
+          "domain": "fox11online.com",
+          "seendate": "20260708T193000Z"
+        },
+        {
+          "url": "https://www.esaimaa.fi/uutissuomalainen/9610800",
+          "title": "Trump sanoi suostuvansa jatkamaan neuvotteluja Iranin kanssa – Myös välittäjt halusivat palata neuvottelupöytn",
+          "domain": "esaimaa.fi",
+          "seendate": "20260710T214500Z"
+        },
+        {
+          "url": "https://www.lansi-savo.fi/uutissuomalainen/9610800",
+          "title": "Trump sanoi suostuvansa jatkamaan neuvotteluja Iranin kanssa – Myös välittäjt halusivat palata neuvottelupöytn",
+          "domain": "lansi-savo.fi",
+          "seendate": "20260710T214500Z"
+        },
+        {
+          "url": "https://www.ksml.fi/uutissuomalainen/9610800",
+          "title": "Trump sanoi suostuvansa jatkamaan neuvotteluja Iranin kanssa – Myös välittäjt halusivat palata neuvottelupöytn",
+          "domain": "ksml.fi",
+          "seendate": "20260710T201500Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260710/49601358.html",
+          "title": "美军袭击伊朗铁路桥 引发地区紧张局势升级 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260710T031500Z"
+        },
+        {
+          "url": "https://www.dailystar.co.uk/news/world-news/trump-warns-iran-hes-missiles-37417362",
+          "title": "Trump warns Iran he got missiles  locked and loaded  if they try to assassinate him",
+          "domain": "dailystar.co.uk",
+          "seendate": "20260711T083000Z"
+        },
+        {
+          "url": "https://www.lbc.co.uk/article/trump-talks-iran-says-ceasefire-over-5HjddRs_2/",
+          "title": "Trump agrees to talks with Iran after latest strikes but says ceasefire  over  ",
+          "domain": "lbc.co.uk",
+          "seendate": "20260710T231500Z"
+        },
+        {
+          "url": "https://www.pravda.sk/spravy/ekonomika/clanok/2005393-udery-nezastavili-jednu-z-najdolezitejsich-tras-sveta-hormuzom-opat-preplavaju-desiatky-lodi",
+          "title": "Údery nezastavili jednu z najdôležitejších trás sveta . Hormuzom opäť preplávajú desiatky lodí - Ekonomika - Správy",
+          "domain": "pravda.sk",
+          "seendate": "20260710T121500Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/israel-warns-us-iranian-plot-trump-1808042",
+          "title": "Trump Reportedly Targeted in New Iranian Assassination Plot Flagged by Israeli Intelligence",
+          "domain": "ibtimes.co.uk",
+          "seendate": "20260710T161500Z"
+        },
+        {
+          "url": "https://www.straitstimes.com/world/middle-east/a-new-kind-of-ceasefire-between-the-us-and-iran-talks-strikes-are-instruments-in-the-same-process",
+          "title": "A new kind of  ceasefire  between US and Iran where talks , strikes are part of the same process",
+          "domain": "straitstimes.com",
+          "seendate": "20260709T101500Z"
+        },
+        {
+          "url": "https://www.zaobao.com.sg/news/world/story20260709-9335697",
+          "title": "特朗普下令再空袭伊朗 警告再袭霍尔木兹船只将付更大代价",
+          "domain": "zaobao.com.sg",
+          "seendate": "20260709T010000Z"
+        },
+        {
+          "url": "https://upnorthlive.com/news/nation-world/report-us-defense-secretary-hegseth-cancels-meeting-with-israeli-prime-minister-netanyahu-as-iran-war-ceasefire-shakes",
+          "title": "Report : Hegseth cancels meeting with Netanyahu as Iran ceasefire shakes",
+          "domain": "upnorthlive.com",
+          "seendate": "20260708T181500Z"
+        },
+        {
+          "url": "https://fox17.com/news/nation-world/report-us-defense-secretary-hegseth-cancels-meeting-with-israeli-prime-minister-netanyahu-as-iran-war-ceasefire-shakes",
+          "title": "Report : Hegseth cancels meeting with Netanyahu as Iran ceasefire shakes",
+          "domain": "fox17.com",
+          "seendate": "20260708T201500Z"
+        },
+        {
+          "url": "https://news.bjd.com.cn/2026/07/11/11858519.shtml",
+          "title": "语出惊人 ！ 特朗普 ： 1000枚导弹瞄准伊朗",
+          "domain": "news.bjd.com.cn",
+          "seendate": "20260711T064500Z"
+        },
+        {
+          "url": "https://finance.ifeng.com/c/8uVTeMNbYrF",
+          "title": "全线拉升 ， 超6万人爆仓 ， 美伊谈判突传重磅",
+          "domain": "finance.ifeng.com",
+          "seendate": "20260705T024500Z"
+        },
+        {
+          "url": "https://www.echo-news.co.uk/news/national/26271913.us-demands-iran-publicly-guarantees-strait-hormuz-open-safe-ships/",
+          "title": "US demands Iran publicly guarantees Strait of Hormuz is open and safe for ships",
+          "domain": "echo-news.co.uk",
+          "seendate": "20260710T231500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202607053794232552.html",
+          "title": "加密货币全线拉升 ！ 超6万人爆仓 ！ 美伊谈判突传重磅 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260705T040000Z"
+        },
+        {
+          "url": "https://www.salisburyjournal.co.uk/news/national/26271913.us-demands-iran-publicly-guarantees-strait-hormuz-open-safe-ships/",
+          "title": "US demands Iran publicly guarantees Strait of Hormuz is open and safe for ships",
+          "domain": "salisburyjournal.co.uk",
+          "seendate": "20260711T031500Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-parliament-speaker-says-ceasefire-agreement-difficult-achievable",
+          "title": "Iranian parliament speaker says ceasefire agreement is  difficult , but achievable  ",
+          "domain": "middleeasteye.net",
+          "seendate": "20260706T203000Z"
+        },
+        {
+          "url": "https://www.repubblica.it/esteri/2026/07/07/diretta/guerra_iran_usa_israele_news_oggi-425455714/",
+          "title": "Guerra in Iran , le news di oggi in diretta",
+          "domain": "repubblica.it",
+          "seendate": "20260707T030000Z"
+        },
+        {
+          "url": "https://www.tayyar.org/News/Lebanon/731528/_guid=731528",
+          "title": "tayyar . org - عناوين الصحف ليوم الأربعاء 8 تموز 2026",
+          "domain": "tayyar.org",
+          "seendate": "20260708T050000Z"
+        },
+        {
+          "url": "https://phnompenhpost.com/international/islamabad-frontrunner-to-host-us-iran-talks/",
+          "title": "Islamabad frontrunner to host US - Iran talks",
+          "domain": "phnompenhpost.com",
+          "seendate": "20260706T041500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1870312448605395614",
+          "title": "哈梅内伊落葬出生地马什哈德 民众不畏高温含泪送别",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260711T081500Z"
+        },
+        {
+          "url": "https://www.news.cn/world/20260710/095a707cb1fc4c7491eab1e616d55862/c.html",
+          "title": "哈梅内伊落葬出生地马什哈德 民众不畏高温含泪送别 - 新华网",
+          "domain": "news.cn",
+          "seendate": "20260710T094500Z"
+        },
+        {
+          "url": "https://www.straitstimes.com/opinion/who-won-the-iran-war",
+          "title": "Who won the Iran war ? ",
+          "domain": "straitstimes.com",
+          "seendate": "20260709T010000Z"
+        },
+        {
+          "url": "https://www.ipswichstar.co.uk/news/national/26271913.us-demands-iran-publicly-guarantees-strait-hormuz-open-safe-ships/",
+          "title": "US demands Iran publicly guarantees Strait of Hormuz is open and safe for ships",
+          "domain": "ipswichstar.co.uk",
+          "seendate": "20260710T231500Z"
+        },
+        {
+          "url": "https://www.elperiodico.com/es/internacional/20260711/guerra-iran-estados-unidos-israel-ormuz-ultima-hora-directo-apertura-ormuz-130265713",
+          "title": "Guerra de Irán , en directo . Última hora",
+          "domain": "elperiodico.com",
+          "seendate": "20260711T063000Z"
+        },
+        {
+          "url": "https://slguardian.org/beneath-the-mourning-in-tehran-three-questions-the-region-cannot-avoid/",
+          "title": "Beneath the Mourning in Tehran , Three Questions the Region Cannot Avoid",
+          "domain": "slguardian.org",
+          "seendate": "20260706T220000Z"
+        },
+        {
+          "url": "https://www.clevelandjewishnews.com/jta/us-launches-powerful-strikes-against-iran/article_dff0e101-691c-587c-a5e4-8af1a54a5537.html",
+          "title": "US launches  powerful strike against Iran | JTA | clevelandjewishnews . com",
+          "domain": "clevelandjewishnews.com",
+          "seendate": "20260708T004500Z"
+        },
+        {
+          "url": "https://www.yorkpress.co.uk/news/national/26271913.us-demands-iran-publicly-guarantees-strait-hormuz-open-safe-ships/",
+          "title": "US demands Iran publicly guarantees Strait of Hormuz is open and safe for ships",
+          "domain": "yorkpress.co.uk",
+          "seendate": "20260711T014500Z"
+        },
+        {
+          "url": "https://www.deccanchronicle.com/west-asia/trump-bomb-them-like-never-before-if-iran-assassinates-me-1970038",
+          "title": "Trump : Bomb Them Like Never Before if Iran Assassinates Me",
+          "domain": "deccanchronicle.com",
+          "seendate": "20260711T030000Z"
+        },
+        {
+          "url": "https://www.theboltonnews.co.uk/news/national/26271913.us-demands-iran-publicly-guarantees-strait-hormuz-open-safe-ships/",
+          "title": "US demands Iran publicly guarantees Strait of Hormuz is open and safe for ships",
+          "domain": "theboltonnews.co.uk",
+          "seendate": "20260711T031500Z"
+        },
+        {
+          "url": "https://nbcmontana.com/news/nation-world/report-us-defense-secretary-hegseth-cancels-meeting-with-israeli-prime-minister-netanyahu-as-iran-war-ceasefire-shakes",
+          "title": "Report : Hegseth cancels meeting with Netanyahu as Iran ceasefire shakes",
+          "domain": "nbcmontana.com",
+          "seendate": "20260708T201500Z"
+        },
+        {
+          "url": "https://www.sabah.com.tr/dunya/iran-israil-savascilarin-verecegi-cevaptan-dolayi-guvende-olmayacak-7619925",
+          "title": "İran : İsrail , savaşçıların vereceği cevaptan dolayı güvende olmayacak",
+          "domain": "sabah.com.tr",
+          "seendate": "20260710T141500Z"
+        },
+        {
+          "url": "https://www.mediaite.com/media/tv/netanyahu-says-he-has-doubts-trump-talks-can-stop-irans-nuclear-program/",
+          "title": "Netanyahu Says Has  Doubt Trump Talks Can Stop Iran Nukes",
+          "domain": "mediaite.com",
+          "seendate": "20260707T224500Z"
+        },
+        {
+          "url": "https://www.nwaonline.com/news/2026/jul/11/us-urges-iran-commit-to-ending-strait-strikes/",
+          "title": "US urges Iran commit to ending strait strikes | Northwest Arkansas Democrat - Gazette",
+          "domain": "nwaonline.com",
+          "seendate": "20260711T101500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/887304/kuwait-bahrain-attack-southern-iran-us-suspends-airstrikes-restarts-dialogue-with-iranians",
+          "title": "Kuwait , Bahrain attack southern Iran – US suspends airstrikes , restarts dialogue with Iranians",
+          "domain": "bankingnews.gr",
+          "seendate": "20260710T073000Z"
+        },
+        {
+          "url": "https://www.ilmessaggero.it:443/mondo/israele_libano_nuovo_round_roma_diplomazia-9635776.html",
+          "title": "Israele - Libano , 15 - 16 luglio nuovo round a Roma . La Capitale al centro della diplomazia",
+          "domain": "ilmessaggero.it",
+          "seendate": "20260707T000000Z"
+        },
+        {
+          "url": "https://www.ilgazzettino.it/mondo/israele_libano_nuovo_round_roma_diplomazia-9635776.html",
+          "title": "Israele - Libano , 15 - 16 luglio nuovo round a Roma . La Capitale al centro della diplomazia",
+          "domain": "ilgazzettino.it",
+          "seendate": "20260707T111500Z"
+        },
+        {
+          "url": "https://www.bucksfreepress.co.uk/news/national/26271913.us-demands-iran-publicly-guarantees-strait-hormuz-open-safe-ships/",
+          "title": "US demands Iran publicly guarantees Strait of Hormuz is open and safe for ships",
+          "domain": "bucksfreepress.co.uk",
+          "seendate": "20260710T231500Z"
+        },
+        {
+          "url": "https://www.indiatvnews.com/news/world/trump-keeps-up-pressure-on-iran-says-us-could-wipe-out-leaders-gathered-at-khamenei-s-funeral-in-one-shot-2026-07-05-1047166",
+          "title": "Trump keeps up pressure on Iran , says US could wipe out leaders gathered at Khamenei funeral  in one shot  | World",
+          "domain": "indiatvnews.com",
+          "seendate": "20260705T023000Z"
+        }
+      ]
     },
     {
       "id": "supreme_leader",
@@ -40,7 +1545,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -57,8 +1562,1513 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.chunichi.co.jp:443/article/1279594",
+        "https://www.wenweipo.com/a/202607/10/AP6a504fc7e4b0b49ad1c2bf15.html",
+        "https://www.hkcna.hk/docDetail.jsp?id=101366710&channel=2810"
+      ],
+      "articles": [
+        {
+          "url": "https://www.chunichi.co.jp:443/article/1279594",
+          "title": " 「 イランが米大統領の暗殺計画 」 イスラエルが情報伝達とＣＮＮ ： 中日新聞Web",
+          "domain": "chunichi.co.jp",
+          "seendate": "20260710T124500Z"
+        },
+        {
+          "url": "https://www.wenweipo.com/a/202607/10/AP6a504fc7e4b0b49ad1c2bf15.html",
+          "title": "美媒爆料 ： 以色列向美方通報伊朗謀劃刺殺特朗普計劃 - 國際",
+          "domain": "wenweipo.com",
+          "seendate": "20260710T063000Z"
+        },
+        {
+          "url": "https://www.hkcna.hk/docDetail.jsp?id=101366710&channel=2810",
+          "title": "外媒 ： 以色列向美通報 伊朗策劃暗殺特朗普 | 國際",
+          "domain": "hkcna.hk",
+          "seendate": "20260710T071500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L1FVV8Q9053469LG.html",
+          "title": "怕了 ？ 特朗普两次临时换专机跑路 ， 曾暗示生命受到威胁 ， 目前我还算幸运 ， 但这份幸运可能不会持续太久 ； 以色列称伊朗谋划刺杀特朗普|内塔尼亚胡|唐纳 · 川普",
+          "domain": "163.com",
+          "seendate": "20260710T073000Z"
+        },
+        {
+          "url": "https://mil.ifeng.com/c/8uWz0JMLiHZ",
+          "title": "美以领导人在白宫会晤 ， 特朗普 ： 他知道谁是老大",
+          "domain": "mil.ifeng.com",
+          "seendate": "20260706T003000Z"
+        },
+        {
+          "url": "https://news.china.com/international/1000/20260710/49600771.html",
+          "title": "高层互放狠话背后 ， 土以竞争关系日益凸显 _ 新闻频道 _ 中华网",
+          "domain": "news.china.com",
+          "seendate": "20260710T021500Z"
+        },
+        {
+          "url": "https://www.naftemporiki.gr/kosmos/2135808/to-israil-perimenei-to-prasino-fos-toy-tramp-gia-na-epitethei-kai-pali-sto-iran/",
+          "title": "Το Ισραήλ περιμένει το « πράσινο φως » του Τραμπ για να επιτεθεί και πάλι στο Ιράν",
+          "domain": "naftemporiki.gr",
+          "seendate": "20260710T071500Z"
+        },
+        {
+          "url": "https://www.902.gr/eidisi/kosmos/424247/israil-spernei-ton-thanato-se-livano-kai-palaistini-eno-oi-ipa-apeiloyn-ek-neoy",
+          "title": "Το Ισραήλ σπέρνει τον θάνατο σε Λίβανο και Παλαιστίνη ενώ οι ΗΠΑ απειλούν εκ νέου « να τελειώσουν τη δουλειά » στο Ιράν",
+          "domain": "902.gr",
+          "seendate": "20260706T203000Z"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01925366645511568&mediaCodeNo=257",
+          "title": "  미국에 죽음을 … 이란 , 러 · 중국 등 조문 속 하메네이 국장 ( 종합 ) ",
+          "domain": "edaily.co.kr",
+          "seendate": "20260705T070000Z"
+        },
+        {
+          "url": "https://news.bjd.com.cn/2026/07/11/11858519.shtml",
+          "title": "语出惊人 ！ 特朗普 ： 1000枚导弹瞄准伊朗",
+          "domain": "news.bjd.com.cn",
+          "seendate": "20260711T064500Z"
+        },
+        {
+          "url": "https://cbgc.scol.com.cn/news/7734152",
+          "title": "美国以色列谁是老大 ， 内塔尼亚胡知道吗 ？ 丨夜观天下",
+          "domain": "cbgc.scol.com.cn",
+          "seendate": "20260706T131500Z"
+        },
+        {
+          "url": "https://www.thaipbs.or.th/news/content/508105",
+          "title": "สหรัฐฯ โจมตีอิหร่านระลอกใหม่ 2 วันติดต่อกัน เสียชีวิต 14 คน",
+          "domain": "thaipbs.or.th",
+          "seendate": "20260710T031500Z"
+        },
+        {
+          "url": "https://www.maariv.co.il/news/world/article-1342579",
+          "title": "לא סתם תקיפה : טראמפ השמיד לאיראן את הגשר האסטרטגי לסין ורוסיה",
+          "domain": "maariv.co.il",
+          "seendate": "20260709T151500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L1G1M0DN051492T3.html",
+          "title": "特朗普  伊朗要杀我  的情报来自以色列 ， 美轰炸通往哈梅内伊出生地桥梁|巴林|德黑兰|唐纳 · 川普|唐纳德 · 特朗普",
+          "domain": "163.com",
+          "seendate": "20260710T081500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/s1erpba7ge",
+          "title": "איראן שיגרה עשרות טילים וכטב  מים מהלילה :  המתווכות מנסות לחזור למו  מ  ",
+          "domain": "ynet.co.il",
+          "seendate": "20260709T183000Z"
+        },
+        {
+          "url": "https://news.gooya.com/2026/07/post-111228.php",
+          "title": "جمهوری اسلامی واستقبال از جنگ ، بابک نژند",
+          "domain": "news.gooya.com",
+          "seendate": "20260710T151500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202607053794232552.html",
+          "title": "加密货币全线拉升 ！ 超6万人爆仓 ！ 美伊谈判突传重磅 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260705T040000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202607113802451181.html",
+          "title": "突然集体大涨 ！ 超5万人爆仓 ！ 美伊谈判突传重磅 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260711T030000Z"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030066639&code=61131111&sid1=int",
+          "title": "호르무즈 해협 이용료 차등 징수 꺼내든 이란 … 우호국에 특별 배려 - 국민일보",
+          "domain": "kmib.co.kr",
+          "seendate": "20260705T093000Z"
+        },
+        {
+          "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/finanza/dettaglio/morning-note-economia-e-finanza-dai-giornali-esteri-nRC_10072026_1022_204207480.html",
+          "title": "Morning note : economia e finanza dai giornali esteri",
+          "domain": "borsaitaliana.it",
+          "seendate": "20260710T131500Z"
+        },
+        {
+          "url": "https://na.ifeng.com/c/8uc1mv4sJPF",
+          "title": "特朗普 ： 美国是否进一步从欧洲撤军  取决于格陵兰岛  凤凰网北美 _ 凤凰网",
+          "domain": "na.ifeng.com",
+          "seendate": "20260710T013000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-07-05-saudi-crown-prince-lost-faith-in-trump.html",
+          "title": "Report : Saudi Crown Prince Lost Confidence in Trump After U . S . Failure in Iran – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260705T134500Z"
+        },
+        {
+          "url": "https://www.eremnews.com/news/world/3nty1i7",
+          "title": "بين الردع و  شكل جديد  من التفاوض .. ضرب إيران يفتح صراعات داخل إدارة ترامب",
+          "domain": "eremnews.com",
+          "seendate": "20260709T071500Z"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/07/07/politics/fact-check-trump-meeting-erdogan",
+          "title": "Fact check : Five false claims Trump made in one meeting with Erdogan",
+          "domain": "edition.cnn.com",
+          "seendate": "20260707T234500Z"
+        },
+        {
+          "url": "https://www.cnn.com/2026/07/07/politics/fact-check-trump-meeting-erdogan",
+          "title": "Fact check : Five false claims Trump made in one meeting with Erdogan",
+          "domain": "cnn.com",
+          "seendate": "20260708T000000Z"
+        },
+        {
+          "url": "https://us.cnn.com/2026/07/07/politics/fact-check-trump-meeting-erdogan",
+          "title": "Fact check : Five false claims Trump made in one meeting with Erdogan",
+          "domain": "us.cnn.com",
+          "seendate": "20260707T214500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/887207/iran-blinded-the-aircraft-carrier-uss-lincoln-with-111-missiles-in-1-hour-trump-in-a-state-of-shock",
+          "title": "Iran  blinded  the aircraft carrier  USS Lincoln  with 111 missiles in 1 hour – Trump in a state of shock",
+          "domain": "bankingnews.gr",
+          "seendate": "20260709T161500Z"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/1000-pociskow-jest-juz-zaladowanych-Wpis-Trumpa-i-grozba-totalnej-wojny-z-Iranem-9166813.html",
+          "title": "  1000 pocisków jest już załadowanych . Wpis Trumpa i groźba totalnej wojny z Iranem",
+          "domain": "bankier.pl",
+          "seendate": "20260711T070000Z"
+        },
+        {
+          "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1227217-0/",
+          "title": "  למה טראמפ עדיין חי ?: ממשיך מסע הלוויה של עלי חמינאי",
+          "domain": "kipa.co.il",
+          "seendate": "20260705T111500Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-trump-khamenei-funeral-mojtaba-live-updates-b3009141.html",
+          "title": "Iran - US war latest : Trump says just  one shot  can take out all Iranian leaders as six - day funeral for Ali Khamenei underway",
+          "domain": "independent.co.uk",
+          "seendate": "20260705T131500Z"
+        },
+        {
+          "url": "https://www.straitstimes.com/opinion/who-won-the-iran-war",
+          "title": "Who won the Iran war ? ",
+          "domain": "straitstimes.com",
+          "seendate": "20260709T010000Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/world-news/khamenei-funeral-death-threats-trump-iran",
+          "title": "קריאות רצח נגד טראמפ בהלוויית חמינאי -  מי שהרג את האימאם למה לא נהרוג או .. ",
+          "domain": "kikar.co.il",
+          "seendate": "20260705T060000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L11V9SJL055040N3.html",
+          "title": "伊朗计划按标准对霍尔木兹海峡通航收取服务费",
+          "domain": "163.com",
+          "seendate": "20260705T051500Z"
+        },
+        {
+          "url": "https://www.newsit.gr/kosmos/ntonalnt-tramp-ta-5-psemata-tou-amerikanou-proedrou-sti-synantisi-tou-me-ton-tagip-erntogan-stin-agkyra/4723041/",
+          "title": "Ντόναλντ Τραμπ : Τα 5 ψέματα του Αμερικανού προέδρου στη συνάντησή του με τον Ταγίπ Ερντογάν στην Άγκυρα",
+          "domain": "newsit.gr",
+          "seendate": "20260708T054500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/93/ntonalnt-trab-ta-5-psemata-tou-amerikanou-proedrou-sti-synantisi-tou-me-ton-tagip-erntogan-stin-agkyra.htm",
+          "title": "Ντόναλντ Τραμπ : Τα 5 ψέματα του Αμερικανού προέδρου στη συνάντησή του με τον Ταγίπ Ερντογάν στην Άγκυρα",
+          "domain": "inewsgr.com",
+          "seendate": "20260708T060000Z"
+        },
+        {
+          "url": "https://blog.udn.com:443/eeee452d/191210606",
+          "title": "地位恐怕不保了 ， 內塔尼亞胡勁敵出現 ， 不是伊朗也不是川普 - eeee452d 的部落格",
+          "domain": "blog.udn.com",
+          "seendate": "20260708T154500Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-07-10/4467061.html",
+          "title": "现场画面 ： 哈梅内伊安葬仪式举行 ， 其3个儿子出席 ， 最高领袖穆杰塔巴未露面 ！ 上百万民众前往告别 ， 特朗普曾表示震惊 ： 以为伊朗人不喜欢他",
+          "domain": "nbd.com.cn",
+          "seendate": "20260710T071500Z"
+        },
+        {
+          "url": "https://www.cp24.com/news/world/2026/07/07/fact-check-five-false-claims-trump-made-in-one-meeting-with-erdogan/",
+          "title": "False claims Donald Trump made in Recep Tayyip Erdogan meeting",
+          "domain": "cp24.com",
+          "seendate": "20260707T223000Z"
+        },
+        {
+          "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/finanza/dettaglio/economia-e-finanza-dai-giornali-usa-nRC_10072026_1425_344190559.html",
+          "title": "Economia e finanza dai giornali united states - Borsa Italiana",
+          "domain": "borsaitaliana.it",
+          "seendate": "20260710T131500Z"
+        },
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/c5yzwz9wz9xo/trad",
+          "title": "哈梅內伊葬禮上的中國來客 ： 一場外交安排透露北京的新盤算 - BBC News 中文",
+          "domain": "bbc.com",
+          "seendate": "20260709T003000Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/ayatollah-ali-khamenei-funeral-live-updates-tehran-us-iran-war-trump-mojtaba-mashhad-israel-netanyahu-hormuz-news-101783215160612.html",
+          "title": "Iran news LIVE :  People can be killed , ideals cannot , Tehran tells Trump ; Mojtaba missing amid father funeral",
+          "domain": "hindustantimes.com",
+          "seendate": "20260705T024500Z"
+        },
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/c5yzwz9wz9xo/simp",
+          "title": "哈梅内伊葬礼上的中国来客 ： 一场外交安排透露北京的新盘算 - BBC News 中文",
+          "domain": "bbc.com",
+          "seendate": "20260709T043000Z"
+        },
+        {
+          "url": "https://foreignpolicy.com/2026/07/06/saudi-iran-order-israel-palestine/?tpcc=recirc_trending062921",
+          "title": "Israel Belongs in the Middle East New Saudi - Iranian Order",
+          "domain": "foreignpolicy.com",
+          "seendate": "20260706T141500Z"
+        },
+        {
+          "url": "https://www.radiofarda.com/a/33801490.html",
+          "title": "ترامپ : آتش‌بس پایان یافته اما گفت‌وگوها با ایران ادامه می‌یابد",
+          "domain": "radiofarda.com",
+          "seendate": "20260711T063000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2616667/china-and-the-iran-war",
+          "title": "China and the Iran War",
+          "domain": "tribune.com.pk",
+          "seendate": "20260705T233000Z"
+        },
+        {
+          "url": "https://www.singtaousa.com/2026/07/10/news/world/trump-netanyahu-phone-call-policy/",
+          "title": "特朗普與內塔尼亞胡通話 商定保持政策協調",
+          "domain": "singtaousa.com",
+          "seendate": "20260710T144500Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/us-president-trump-thinks-us-iran-ceasefire-over-newsquawk-daily-asia-pac-opening-news",
+          "title": "US President Trump thinks the US - Iran ceasefire is over - Newsquawk Daily Asia - Pac Opening News",
+          "domain": "zerohedge.com",
+          "seendate": "20260709T000000Z"
+        },
+        {
+          "url": "https://dailyk2.com/next-round-of-us-iran-indirect-talks-expected-after-khamenei-funeral-despite-major-disagreements/",
+          "title": "Next Round of US - Iran Indirect Talks Expected After Khamenei",
+          "domain": "dailyk2.com",
+          "seendate": "20260705T093000Z"
+        },
+        {
+          "url": "https://www.newsbomb.gr/kosmos/story/1748765/klimakonetai-i-sygkrousi-ipa-iran-ston-aera-i-ekexeiria-meta-apo-nees-sfodres-epitheseis",
+          "title": "Κλιμακώνεται η σύγκρουση ΗΠΑ - Ιράν - Στον αέρα η εκεχειρία μετά απο νέες σφοδρές επιθέσεις",
+          "domain": "newsbomb.gr",
+          "seendate": "20260710T063000Z"
+        },
+        {
+          "url": "https://theshillongtimes.com/2026/07/10/terror-from-trump/",
+          "title": "Terror from Trump - The Shillong Times",
+          "domain": "theshillongtimes.com",
+          "seendate": "20260710T044500Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/07/09/126703534.html",
+          "title": "哈梅内伊葬礼的中国来客 外交安排透露北京新盘算",
+          "domain": "wenxuecity.com",
+          "seendate": "20260709T194500Z"
+        },
+        {
+          "url": "https://news.sina.com.cn/w/2026-07-08/doc-inihaiee8082226.shtml",
+          "title": "全世界哭笑不得 ， 北约被骂懵 ， 中国又躺枪",
+          "domain": "news.sina.com.cn",
+          "seendate": "20260708T050000Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/wm/2026-07-08/doc-inifzwqf1455736.shtml",
+          "title": "全世界哭笑不得 ， 北约被骂懵 ， 中国又躺枪",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260708T013000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L1A3HG0G052182V3.html",
+          "title": "全世界哭笑不得 ， 北约被骂懵 ， 中国又躺枪",
+          "domain": "163.com",
+          "seendate": "20260708T000000Z"
+        },
+        {
+          "url": "https://www.voria.gr/article/cnn-pente-pseydeis-ishyrismoi-toy-tramp-sti-synantisi-toy-me-ton-erntogan",
+          "title": "CNN : Πέντε ψευδείς ισχυρισμοί του Τραμπ στη συνάντησή του με τον Ερντογάν",
+          "domain": "voria.gr",
+          "seendate": "20260708T064500Z"
+        },
+        {
+          "url": "https://worldtribune.com/trump-at-nato-boosts-turkey-and-defies-europe-pressing-case-for-greenland/",
+          "title": "Trump at NATO boosts Turkey and defies Europe , pressing case for Greenland",
+          "domain": "worldtribune.com",
+          "seendate": "20260709T023000Z"
+        },
+        {
+          "url": "https://www.163.com/news/article/L1A4QG1J0001899O.html",
+          "title": "全世界哭笑不得 ， 北约被骂懵 ， 中国又躺枪",
+          "domain": "163.com",
+          "seendate": "20260708T004500Z"
+        },
+        {
+          "url": "https://blog.wenxuecity.com/myblog/70246/202607/6127.html",
+          "title": "特朗普再打伊朗为子孙 - 博客",
+          "domain": "blog.wenxuecity.com",
+          "seendate": "20260710T073000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-07-04-israels-death-mark-aimed-at-irans-new-leadership-reveals-a-war-with-no-end-only-escalation.html",
+          "title": "Israel  Death Mark  aimed at Iran new leadership reveals a war with no end , only escalation – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260705T040000Z"
+        },
+        {
+          "url": "https://www.skai.gr/news/world/fact-check-tou-cnn-oi-pente-pseydeis-isxyrismoi-tou-tramp-kata-ti-synantisi-tou-me-ton-ern",
+          "title": "Fact check του CNN : Οι πέντε ψευδείς ισχυρισμοί του Τραμπ κατά τη συνάντησή του με τον Ερντογάν",
+          "domain": "skai.gr",
+          "seendate": "20260708T053000Z"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2026-07-10/iran-us-trade-strikes-/106899742",
+          "title": "Iran targets US military sites in Gulf as Israel warns it could  strike again  ",
+          "domain": "abc.net.au",
+          "seendate": "20260709T183000Z"
+        },
+        {
+          "url": "https://www.lykavitos.gr/news/planet/cnn-oi-pente-pseydeis-isxyrismoi-tou-tramp-sti-synantisi-tou-me-ton-erntogan",
+          "title": "CNN : Οι πέντε ψευδείς ισχυρισμοί του Τραμπ στη συνάντησή του με τον Ερντογάν",
+          "domain": "lykavitos.gr",
+          "seendate": "20260708T083000Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/middle-east/trump-iran-war-nato-talks-strait-hormuz-b3011668.html",
+          "title": "Why Trump desperately needs Nato help to get out of his mess in Iran",
+          "domain": "independent.co.uk",
+          "seendate": "20260709T130000Z"
+        },
+        {
+          "url": "https://www.bbc.com/arabic/articles/clyee5p0zk6o",
+          "title": "كيف يختلف النظام الإيراني الجديد اختلافاً كبيراً عما كان قبله ؟ ",
+          "domain": "bbc.com",
+          "seendate": "20260705T210000Z"
+        },
+        {
+          "url": "https://dailypioneer.com/news/us-iran-peace-talks-fail-lasting-peace-in-west-asia-remains-as-elusive-as-ever",
+          "title": "US - Iran Peace Process Collapses : Hormuz Attacks Raise Fears of Wider Gulf Conflict",
+          "domain": "dailypioneer.com",
+          "seendate": "20260708T230000Z"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030079671&code=61131111&sid1=int",
+          "title": "나토 간 트럼프 ,  그린란드 병합  또 시작 … 튀르키예 충성스럽다  동맹 군기 잡기 - 국민일보",
+          "domain": "kmib.co.kr",
+          "seendate": "20260708T043000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-07-08-war-iran-back-on-energy-lockdowns-inescapable.html",
+          "title": "War with Iran is Back On , and the Coming Energy Lockdowns Are Now Inescapable – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260708T123000Z"
+        },
+        {
+          "url": "https://naturalnews.com/2026-07-08-war-iran-back-on-energy-lockdowns-inescapable.html",
+          "title": "War with Iran is Back On , and the Coming Energy Lockdowns Are Now Inescapable – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260710T013000Z"
+        },
+        {
+          "url": "https://www.newsweek.com/why-the-us-and-irans-first-step-deal-was-doomed-to-fail-12173268",
+          "title": "Why the US and Iran First - Step Deal Was Doomed to Fail",
+          "domain": "newsweek.com",
+          "seendate": "20260708T230000Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/world-news/thwj3v",
+          "title": "האחרון במלאי ? מטוס קרב איראני בודד ליווה את גופת המנהיג העליון | צפו",
+          "domain": "kikar.co.il",
+          "seendate": "20260709T103000Z"
+        },
+        {
+          "url": "https://world.qianlong.com/2026/0706/8693278.shtml",
+          "title": "伊朗人高呼  复仇  特朗普称  全是假哭  遭驳斥 - 千龙网 · 中国首都网",
+          "domain": "world.qianlong.com",
+          "seendate": "20260706T020000Z"
+        },
+        {
+          "url": "https://talk1200boston.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "talk1200boston.iheart.com",
+          "seendate": "20260709T091500Z"
+        },
+        {
+          "url": "https://1430kasi.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "1430kasi.iheart.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://kfbk.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "kfbk.iheart.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://590kqnt.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "590kqnt.iheart.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://wlac.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | Talk Radio 98 . 3 WLAC",
+          "domain": "wlac.iheart.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://powertalk1460.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | PowerTalk 1460 AM & 101 . 1 FM",
+          "domain": "powertalk1460.iheart.com",
+          "seendate": "20260709T093000Z"
+        },
+        {
+          "url": "https://710wor.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "710wor.iheart.com",
+          "seendate": "20260709T093000Z"
+        },
+        {
+          "url": "https://wmanfm.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | News Radio 98 . 3 WMAN",
+          "domain": "wmanfm.iheart.com",
+          "seendate": "20260709T093000Z"
+        },
+        {
+          "url": "https://wrno.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "wrno.iheart.com",
+          "seendate": "20260709T093000Z"
+        },
+        {
+          "url": "https://wercfm.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | News Radio 105 . 5 WERC",
+          "domain": "wercfm.iheart.com",
+          "seendate": "20260709T093000Z"
+        },
+        {
+          "url": "https://1190talkradio.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "1190talkradio.iheart.com",
+          "seendate": "20260709T093000Z"
+        },
+        {
+          "url": "https://wflafm.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "wflafm.iheart.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://kprcradio.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "kprcradio.iheart.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://ktsmradio.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "ktsmradio.iheart.com",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://wtam.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "wtam.iheart.com",
+          "seendate": "20260709T101500Z"
+        },
+        {
+          "url": "https://patriotla.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | The Patriot KEIB AM 1150",
+          "domain": "patriotla.iheart.com",
+          "seendate": "20260709T091500Z"
+        },
+        {
+          "url": "https://600kcol.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "600kcol.iheart.com",
+          "seendate": "20260709T103000Z"
+        },
+        {
+          "url": "https://newstalk1090.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | News Talk 1090 WKBZ - AM",
+          "domain": "newstalk1090.iheart.com",
+          "seendate": "20260709T103000Z"
+        },
+        {
+          "url": "https://talkradio1059.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "talkradio1059.iheart.com",
+          "seendate": "20260709T101500Z"
+        },
+        {
+          "url": "https://newstalk1230.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "newstalk1230.iheart.com",
+          "seendate": "20260709T104500Z"
+        },
+        {
+          "url": "https://newsradio1170.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "newsradio1170.iheart.com",
+          "seendate": "20260709T104500Z"
+        },
+        {
+          "url": "https://talkradio1080.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "talkradio1080.iheart.com",
+          "seendate": "20260709T104500Z"
+        },
+        {
+          "url": "https://943wsc.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "943wsc.iheart.com",
+          "seendate": "20260709T110000Z"
+        },
+        {
+          "url": "https://wbhpam.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "wbhpam.iheart.com",
+          "seendate": "20260709T104500Z"
+        },
+        {
+          "url": "https://wtag.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "wtag.iheart.com",
+          "seendate": "20260709T104500Z"
+        },
+        {
+          "url": "https://newsradiowkcy.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | NewsRadio WKCY",
+          "domain": "newsradiowkcy.iheart.com",
+          "seendate": "20260709T101500Z"
+        },
+        {
+          "url": "https://1360kktx.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "1360kktx.iheart.com",
+          "seendate": "20260709T091500Z"
+        },
+        {
+          "url": "https://55krc.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "55krc.iheart.com",
+          "seendate": "20260709T123000Z"
+        },
+        {
+          "url": "https://wgy.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | News Radio 103 . 1 and 810 WGY",
+          "domain": "wgy.iheart.com",
+          "seendate": "20260709T120000Z"
+        },
+        {
+          "url": "https://newsradio1410.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | News Radio 1410 AM & 100 . 9 FM",
+          "domain": "newsradio1410.iheart.com",
+          "seendate": "20260709T120000Z"
+        },
+        {
+          "url": "https://700wlw.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "700wlw.iheart.com",
+          "seendate": "20260709T121500Z"
+        },
+        {
+          "url": "https://newsradio710.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "newsradio710.iheart.com",
+          "seendate": "20260709T121500Z"
+        },
+        {
+          "url": "https://newstalk1130.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict",
+          "domain": "newstalk1130.iheart.com",
+          "seendate": "20260709T130000Z"
+        },
+        {
+          "url": "https://twincitiesnewstalk.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | Twin Cities News Talk",
+          "domain": "twincitiesnewstalk.iheart.com",
+          "seendate": "20260709T110000Z"
+        },
+        {
+          "url": "https://1450wkip.iheart.com/content/2026-07-09-imf-cuts-global-growth-forecast-amid-iran-conflict/",
+          "title": "IMF Cuts Global Growth Forecast Amid Iran Conflict | NewsRadio 1450 / 1370 WKIP",
+          "domain": "1450wkip.iheart.com",
+          "seendate": "20260709T110000Z"
+        },
+        {
+          "url": "https://news.qq.com/rain/a/20260709A06K2O00",
+          "title": "特朗普 ， 紧急换专机回国 _ 腾讯新闻",
+          "domain": "news.qq.com",
+          "seendate": "20260709T080000Z"
+        },
+        {
+          "url": "https://www.capital.gr/diethni/4003485/to-nato-tis-epomenis-meras-i-oukrania-kai-ta-f-35-pou-den-edose-akomi-o-tramp-ston-erntogan/",
+          "title": "Το ΝΑΤΟ της επόμενης μέρας , η Ουκρανία και τα F - 35 που δεν έδωσε ( ακόμη ) ο ... ",
+          "domain": "capital.gr",
+          "seendate": "20260708T054500Z"
+        },
+        {
+          "url": "https://cbgc.scol.com.cn/news/7730704",
+          "title": "川观早8点丨我国首架综合航测飞机首飞成功 ； 今起国内航线燃油附加费下调 ； 法国将与摩洛哥争夺四强席位 （ 2026年7月5日 ） ",
+          "domain": "cbgc.scol.com.cn",
+          "seendate": "20260705T023000Z"
+        },
+        {
+          "url": "https://www.lrb.co.uk/blog/2026/july/trump-s-golden-dome",
+          "title": "Tom Stevenson | Trump Golden Dome",
+          "domain": "lrb.co.uk",
+          "seendate": "20260707T030000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/world/5292899-netanyahu-urges-us-not-sell-f-35-fighter-jets-t%C3%BCrkiye",
+          "title": "Netanyahu Urges US Not to Sell F - 35 Fighter Jets to Türkiye",
+          "domain": "english.aawsat.com",
+          "seendate": "20260706T171500Z"
+        },
+        {
+          "url": "https://dorzeczy.pl/swiat/911986/trump-wraca-do-sprawy-grenlandii-premier-danii-odpowiada.html",
+          "title": "Trump wraca do sprawy Grenlandii . Premier Danii odpowiada",
+          "domain": "dorzeczy.pl",
+          "seendate": "20260708T061500Z"
+        },
+        {
+          "url": "https://anna-news.info/svodka-sobytij-v-irane-i-stranah-blizhnego-vostoka-za-10-iyulya-2026-g/",
+          "title": "Сводка событий в Иране и странах Ближнего Востока за 10 июля 2026 г . ",
+          "domain": "anna-news.info",
+          "seendate": "20260711T044500Z"
+        },
+        {
+          "url": "https://www.902.gr/eidisi/kosmos/424510/ipa-iran-kleista-xana-ta-stena-toy-ormoyz-meta-ti-nea-anaflexi",
+          "title": "ΗΠΑ - Ιράν : Κλειστά ξανά τα Στενά του Ορμούζ μετά τη νέα ανάφλεξη",
+          "domain": "902.gr",
+          "seendate": "20260710T064500Z"
+        },
+        {
+          "url": "https://13tv.co.il/item/news/politics/security/gy8ng-905258225/?pid=7&refc=902992371",
+          "title": "בישראל מעריכים : ארה  ב ואיראן מעוניינות לסיים את סבב הלחימה",
+          "domain": "13tv.co.il",
+          "seendate": "20260709T174500Z"
+        },
+        {
+          "url": "https://www.nzherald.co.nz/world/trumps-deal-with-syria-offers-a-potential-way-of-bypassing-the-strait-of-hormuz/6NFPA5L3NFF3FMF3YVC42OBBVM/",
+          "title": "Trump deal with Syria offers a potential way of bypassing the Strait of Hormuz",
+          "domain": "nzherald.co.nz",
+          "seendate": "20260709T201500Z"
+        },
+        {
+          "url": "https://www.irishtimes.com/world/2026/07/09/trump-says-iran-ceasefire-is-over-but-is-it/",
+          "title": "Trump says Iran ceasefire is  over . But is it ? – The Irish Times",
+          "domain": "irishtimes.com",
+          "seendate": "20260709T070000Z"
+        },
+        {
+          "url": "https://www.thehindubusinessline.com/news/world/nato-readies-for-a-big-reveal-on-arms-deals-to-prove-its-firepower-to-trump/article71192518.ece",
+          "title": "NATO readies for a  big reveal  on arms deals to prove its firepower to Trump",
+          "domain": "thehindubusinessline.com",
+          "seendate": "20260707T093000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L1CP4L9N053469LG.html",
+          "title": "伊朗首次公开已故最高领袖哈梅内伊官邸遭袭后画面 ： 建筑严重损毁 ， 遍地瓦砾 ； 最新消息 ： 美军再袭伊朗 ； 特朗普称如伊朗再袭船美军将打更狠",
+          "domain": "163.com",
+          "seendate": "20260709T034500Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/07/09/126703271.html",
+          "title": "特朗普北约峰会后紧急换回旧版  空军一号  回国",
+          "domain": "wenxuecity.com",
+          "seendate": "20260709T173000Z"
+        },
+        {
+          "url": "https://www.news4jax.com/news/world/2026/07/07/nato-readies-for-a-big-reveal-on-arms-deals-to-prove-its-firepower-to-trump/",
+          "title": "NATO readies for a  big reveal  on arms deals to prove its firepower to Trump",
+          "domain": "news4jax.com",
+          "seendate": "20260707T063000Z"
+        },
+        {
+          "url": "https://www.reporter.gr/diethnh/diethneis-eidhseis/680130-tramp-o-erntogan-einai-san-emena-kai-thelei-na-apoktisei-f-35",
+          "title": "Τραμπ : Ο Ερντογάν είναι σαν εμένα και θέλει να αποκτήσει F - 35",
+          "domain": "reporter.gr",
+          "seendate": "20260708T100000Z"
+        },
+        {
+          "url": "https://www.moonofalabama.org/2026/07/how-israel-could-push-the-u-s-into-further-bombing-iran.html/comment-page-2",
+          "title": "How Israel Could Push The U . S . Into Further Bombing Iran – Moon of Alabama",
+          "domain": "moonofalabama.org",
+          "seendate": "20260711T010000Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-07-10/4465317.html",
+          "title": "  为哈梅内伊复仇 ， 伊朗打击美军舰 、 基地 、 爱国者  等 ！ 美方 ： 正进行外交努力缓和局势 ！ 以色列 ： 做好打伊朗准备 ， 数百架战机随时待命",
+          "domain": "nbd.com.cn",
+          "seendate": "20260710T030000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/7/8/five-key-takeaways-from-the-nato-summit-in-ankara",
+          "title": "Five key takeaways from the NATO summit in Ankara",
+          "domain": "aljazeera.com",
+          "seendate": "20260708T204500Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/middle-east/mediators-make-fresh-contacts-with-us-iran-to-halt-further-military-strikes-pakistani-sources/3993074",
+          "title": "Mediators make fresh contacts with US , Iran to halt further military strikes : Pakistani sources",
+          "domain": "aa.com.tr",
+          "seendate": "20260709T151500Z"
+        },
+        {
+          "url": "https://abcnews.com/International/wireStory/nato-set-unveil-billions-arms-deals-prove-firepower-134538415",
+          "title": "NATO set to unveil billions in arms deals to prove its firepower to Trump",
+          "domain": "abcnews.com",
+          "seendate": "20260707T071500Z"
+        },
+        {
+          "url": "https://news.dayoo.com/world/202607/10/139998_54978116.htm",
+          "title": "美国连续两天发动打击 ， 伊朗展开对等报复 _ 广州日报大洋网",
+          "domain": "news.dayoo.com",
+          "seendate": "20260710T043000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/7/9/us-strikes-iran-for-second-night-is-the-peace-process-all-over-now",
+          "title": "US strikes Iran for second night – is the peace process all over now ? ",
+          "domain": "aljazeera.com",
+          "seendate": "20260709T130000Z"
+        },
+        {
+          "url": "https://www.manilatimes.net/2026/07/07/world/nato-set-to-unveil-billions-in-arms-deals-to-prove-its-firepower-to-trump/2379557",
+          "title": "NATO set to unveil billions in arms deals to prove its firepower to Trump",
+          "domain": "manilatimes.net",
+          "seendate": "20260707T080000Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/national/the-latest-us-strikes-iran-as-trump-meets-with-nato-leaders-in-turkey/article_74c52a01-331a-54e6-aa4e-a3fa0901d40e.html",
+          "title": "The Latest : US strikes Iran as Trump meets with NATO leaders in Turkey",
+          "domain": "dailyadvance.com",
+          "seendate": "20260707T221500Z"
+        },
+        {
+          "url": "https://www.wfmj.com/news/national/the-latest-us-strikes-iran-as-trump-meets-with-nato-leaders-in-turkey/article_c2e3bd8c-ce08-58cb-82a6-719ca35beb49.html",
+          "title": "The Latest : US strikes Iran as Trump meets with NATO leaders in Turkey",
+          "domain": "wfmj.com",
+          "seendate": "20260708T223000Z"
+        },
+        {
+          "url": "https://www.kathimerini.gr/world/564335245/triti-imera-sygkroyseon-ipa-iran/",
+          "title": "Τρίτη ημέρα συγκρούσεων ΗΠΑ – Ιράν",
+          "domain": "kathimerini.gr",
+          "seendate": "20260710T041500Z"
+        },
+        {
+          "url": "https://www.dw.com/ru/ormuzskij-proliv-opat-zakryt-pocemu-neft-pocti-ne-dorozaet/a-77890321",
+          "title": "Ормузский пролив опять закрыт . Что будет с нефтью ? ",
+          "domain": "dw.com",
+          "seendate": "20260709T193000Z"
+        },
+        {
+          "url": "https://www.yakimaherald.com/news/nation_and_world/nation/the-latest-president-trump-pleases-turkey-angers-other-allies-ahead-of-nato-summit/article_34641e09-0423-5b7f-952d-30e44fc67a1e.html",
+          "title": "The Latest : President Trump pleases Turkey , angers other allies ahead of NATO summit",
+          "domain": "yakimaherald.com",
+          "seendate": "20260707T170000Z"
+        },
+        {
+          "url": "https://13tv.co.il/item/news/politics/security/usa-905256727/?pid=7&refc=902992383",
+          "title": "התקיפות הנרחבות ביותר באיראן מאז הפסקת האש :  יהיה יותר גרוע  ",
+          "domain": "13tv.co.il",
+          "seendate": "20260709T100000Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/3f503-the-latest-president-trump-meets-nato-leaders-as-they-try-to-show-they-are-serious-about-defense/",
+          "title": "The Latest : President Trump pleases Turkey , angers other allies ahead of NATO summit",
+          "domain": "wral.com",
+          "seendate": "20260707T153000Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/national/the-latest-president-trump-pleases-turkey-irks-other-allies-ahead-of-nato-summit/article_74c52a01-331a-54e6-aa4e-a3fa0901d40e.html",
+          "title": "The Latest : President Trump pleases Turkey , irks other allies ahead of NATO summit",
+          "domain": "dailyadvance.com",
+          "seendate": "20260707T180000Z"
+        },
+        {
+          "url": "https://www.news247.gr/politiki/nikos-bistis-to-nato-ston-sigxrono-kosmo/",
+          "title": "Νίκος Μπίστης : Το ΝΑΤΟ στον σύγχρονο κόσμο ... ",
+          "domain": "news247.gr",
+          "seendate": "20260710T060000Z"
+        },
+        {
+          "url": "https://www.jns.org/opinion/column/fiamma-nirenstein/turkey-is-no-ally-to-entrust-with-the-f-35",
+          "title": "Turkey is no ally to entrust with the F - 35",
+          "domain": "jns.org",
+          "seendate": "20260708T190000Z"
+        },
+        {
+          "url": "https://www.almasryalyoum.com/news/details/4308915",
+          "title": "كتاب يلقى الضوء على جيل من صناع السياسة فى القرن الـ21 .. « نقاط الاختناق .. القوة الأمريكية فى عصر الحرب الاقتصادية » ",
+          "domain": "almasryalyoum.com",
+          "seendate": "20260706T013000Z"
+        },
+        {
+          "url": "https://indianexpress.com/article/opinion/columns/iran-war-hormuz-to-malacca-delhi-must-draw-the-right-lessons-10778946/",
+          "title": "From Hormuz to Malacca , Delhi must draw the right lessons",
+          "domain": "indianexpress.com",
+          "seendate": "20260709T114500Z"
+        },
+        {
+          "url": "https://www.jiji.com/jc/article?k=20260710049090a&g=afp",
+          "title": "中国 、 米国が目を逸らした隙に核攻撃能力誇示 ： 時事ドットコム",
+          "domain": "jiji.com",
+          "seendate": "20260710T104500Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/7/9/imf-cuts-2026-world-growth-forecast-citing-iran-war-fallout",
+          "title": "IMF cuts 2026 world growth forecast , citing Iran war fallout",
+          "domain": "aljazeera.com",
+          "seendate": "20260709T051500Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/07/10/126704084.html",
+          "title": "受伊朗战争和通货膨胀冲击 全球经济增长面临急剧放缓",
+          "domain": "wenxuecity.com",
+          "seendate": "20260710T104500Z"
+        },
+        {
+          "url": "https://abc11.com/story/danish-pm-says-greenland-is-not-sale-trump-joins-nato-leaders-turkey/19470369/",
+          "title": "Danish PM says Greenland is  not for sale  as Trump joins NATO leaders in Turkey",
+          "domain": "abc11.com",
+          "seendate": "20260708T204500Z"
+        },
+        {
+          "url": "https://www.asiaone.com:443/world/nato-unveils-billions-arms-deals-prove-its-firepower-trump",
+          "title": "Nato unveils billions in arms deals to prove its firepower to Trump",
+          "domain": "asiaone.com",
+          "seendate": "20260707T121500Z"
+        },
+        {
+          "url": "https://www.bnnbloomberg.ca/business/international/2026/07/07/the-latest-president-trump-meets-nato-leaders-as-they-try-to-show-they-are-serious-about-defence/",
+          "title": "President Trump meets NATO leaders : live updates",
+          "domain": "bnnbloomberg.ca",
+          "seendate": "20260707T174500Z"
+        },
+        {
+          "url": "https://www.sun-sentinel.com/2026/07/07/nato-unveils-billions-in-arms-deals-to-prove-its-firepower-to-trump/",
+          "title": "NATO unveils billions in arms deals to prove its firepower to Trump",
+          "domain": "sun-sentinel.com",
+          "seendate": "20260707T094500Z"
+        },
+        {
+          "url": "https://www.timesfreepress.com/news/2026/jul/08/danish-pm-says-her-country-is-ready-to-defend-greenland-as-trump-joins-nato-leaders-in-turkey/",
+          "title": "Trump blasts NATO for rejecting his efforts to claim Greenland as leaders hold a summit in Turkey",
+          "domain": "timesfreepress.com",
+          "seendate": "20260708T170000Z"
+        },
+        {
+          "url": "https://www.nbcnewyork.com/news/national-international/nato-billions-arms-deals-prove-firepower-trump/6522559/",
+          "title": "NATO wants to prove Trump it has real firepower – NBC New York",
+          "domain": "nbcnewyork.com",
+          "seendate": "20260707T100000Z"
+        },
+        {
+          "url": "https://abc7ny.com/story/danish-pm-says-greenland-is-not-sale-trump-joins-nato-leaders-turkey/19470369/",
+          "title": "Danish PM says Greenland is  not for sale  as Trump joins NATO leaders in Turkey",
+          "domain": "abc7ny.com",
+          "seendate": "20260708T204500Z"
+        },
+        {
+          "url": "https://abc7news.com/story/danish-pm-says-greenland-is-not-sale-trump-joins-nato-leaders-turkey/19470369/",
+          "title": "Danish PM says Greenland is  not for sale  as Trump joins NATO leaders in Turkey",
+          "domain": "abc7news.com",
+          "seendate": "20260708T223000Z"
+        },
+        {
+          "url": "https://www.nbcdfw.com/news/national-international/nato-billions-arms-deals-prove-firepower-trump/4045662/",
+          "title": "NATO wants to prove Trump it has real firepower – NBC 5 Dallas - Fort Worth",
+          "domain": "nbcdfw.com",
+          "seendate": "20260707T121500Z"
+        },
+        {
+          "url": "https://www.bnnbloomberg.ca/business/international/2026/07/08/us-strikes-iran-as-trump-meets-with-nato-leaders-in-turkiye/",
+          "title": "U . S . strikes Iran as Trump meets with NATO leaders",
+          "domain": "bnnbloomberg.ca",
+          "seendate": "20260708T033000Z"
+        },
+        {
+          "url": "https://www.nbclosangeles.com/news/national-international/nato-billions-arms-deals-prove-firepower-trump/3913878/",
+          "title": "NATO wants to prove Trump it has real firepower – NBC Los Angeles",
+          "domain": "nbclosangeles.com",
+          "seendate": "20260707T094500Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/iran-news/article-901450",
+          "title": "Iran plans to charge service fees in Strait of Hormuz",
+          "domain": "jpost.com",
+          "seendate": "20260705T130000Z"
+        },
+        {
+          "url": "http://www.asiabulletin.com/news/279171720/china-conducts-rare-submarine-launched-ballistic-missile-test",
+          "title": "China conducts rare submarine - launched ballistic missile test",
+          "domain": "asiabulletin.com",
+          "seendate": "20260707T051500Z"
+        },
+        {
+          "url": "http://www.jamaicantimes.com/news/279171720/china-conducts-rare-submarine-launched-ballistic-missile-test",
+          "title": "China conducts rare submarine - launched ballistic missile test",
+          "domain": "jamaicantimes.com",
+          "seendate": "20260707T053000Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279171720/china-conducts-rare-submarine-launched-ballistic-missile-test",
+          "title": "China conducts rare submarine - launched ballistic missile test",
+          "domain": "iranherald.com",
+          "seendate": "20260707T071500Z"
+        },
+        {
+          "url": "http://www.japanherald.com/news/279171720/china-conducts-rare-submarine-launched-ballistic-missile-test",
+          "title": "China conducts rare submarine - launched ballistic missile test",
+          "domain": "japanherald.com",
+          "seendate": "20260707T060000Z"
+        },
+        {
+          "url": "http://www.australiannews.net/news/279171720/china-conducts-rare-submarine-launched-ballistic-missile-test",
+          "title": "China conducts rare submarine - launched ballistic missile test",
+          "domain": "australiannews.net",
+          "seendate": "20260707T063000Z"
+        },
+        {
+          "url": "http://www.heraldglobe.com/news/279171720/china-conducts-rare-submarine-launched-ballistic-missile-test",
+          "title": "China conducts rare submarine - launched ballistic missile test",
+          "domain": "heraldglobe.com",
+          "seendate": "20260707T061500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/07/iran-war-conflicting-reports-on-momentary-pause-restart-of-talks-or-iran-readying-big-strike-russia-diesel-export-halt-and-qatar-lng-pullback-increase-energy-pressure.html",
+          "title": "Iran War : Conflicting Reports on Momentary Pause – Restart of Talks or Iran Readying Big Strike ? Russia Diesel Export Halt and Qatar LNG Pullback Increase Energy Pressure",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260710T131500Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/weekend-news-roundup-newsquawk-daily-asia-pac-market-open-5",
+          "title": "Weekend News Roundup - Newsquawk Daily Asia - Pac Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20260706T003000Z"
+        },
+        {
+          "url": "https://abc7news.com/post/nato-unveils-billions-arms-deals-prove-firepower-president-trump-arrives-ankara/19463166/",
+          "title": "NATO unveils billions in arms deals to prove its firepower as President Trump arrives in Ankara",
+          "domain": "abc7news.com",
+          "seendate": "20260707T134500Z"
+        },
+        {
+          "url": "https://www.theyeshivaworld.com/news/general/2571875/nato-unveils-billions-in-arms-deals-to-prove-its-firepower-as-trump-arrives-in-ankara.html",
+          "title": "NATO Unveils Billions In Arms Deals To Prove Its Firepower As Trump Arrives In Ankara",
+          "domain": "theyeshivaworld.com",
+          "seendate": "20260707T134500Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/7/7/trump-lashes-out-at-nato-as-first-day-of-summit-wraps-in-turkiye",
+          "title": "Trump lashes out at NATO as first day of summit wraps in Turkiye",
+          "domain": "aljazeera.com",
+          "seendate": "20260707T234500Z"
+        },
+        {
+          "url": "https://www.military.com/trump-blasts-nato-for-rejecting-his-efforts-to-claim-greenland-as-leaders-meet-in-turkey",
+          "title": "Trump Blasts NATO for Rejecting His Efforts to Claim Greenland as Leaders Meet in Turkey",
+          "domain": "military.com",
+          "seendate": "20260708T164500Z"
+        },
+        {
+          "url": "https://www.newsday.com/news/nation/nato-defense-trump-contracts-spending-turkey-summit-s21098",
+          "title": "NATO unveils billions in arms deals to prove its firepower to Trump",
+          "domain": "newsday.com",
+          "seendate": "20260707T110000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087353267-imf-cuts-2026-global-growth-forecast-amid-iran-war-fallout",
+          "title": "IMF cuts 2026 global growth forecast amid Iran war fallout",
+          "domain": "samaa.tv",
+          "seendate": "20260709T064500Z"
+        },
+        {
+          "url": "https://www.bostonglobe.com/2026/07/05/world/nato-chief-faces-challenge-at-summit-as-trump-demands-loyalty/",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  ",
+          "domain": "bostonglobe.com",
+          "seendate": "20260705T073000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/7/8/us-summer-travel-slumps-under-rising-fares-and-fuel-expenses",
+          "title": "US summer travel slumps under rising fares and fuel expenses",
+          "domain": "aljazeera.com",
+          "seendate": "20260708T204500Z"
+        },
+        {
+          "url": "https://fondsk.ru/news/2026/07/09/sammit-nato-v-ankare-zachem-erdogan-ulybaetsya-trampu.html",
+          "title": "Саммит НАТО в Анкаре : зачем Эрдоган улыбается Трампу ? Фонд стратегической культуры",
+          "domain": "fondsk.ru",
+          "seendate": "20260709T104500Z"
+        },
+        {
+          "url": "https://www.americanthinker.com/blog/2026/07/trump-s-legacy-and-the-price-of-political-expediency/",
+          "title": "Trump legacy and the price of political expediency",
+          "domain": "americanthinker.com",
+          "seendate": "20260709T001500Z"
+        },
+        {
+          "url": "http://www.idahopress.com/news/world/nato-unveils-billions-in-arms-deals-to-prove-its-firepower-to-trump/article_ea7baaf1-f255-5a84-aec1-184970a8e227.html",
+          "title": "NATO unveils billions in arms deals to prove its firepower to Trump",
+          "domain": "idahopress.com",
+          "seendate": "20260707T104500Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/world/morning-briefing-july-11-2026/3994768",
+          "title": "Morning Briefing : July 11 , 2026",
+          "domain": "aa.com.tr",
+          "seendate": "20260711T071500Z"
+        },
+        {
+          "url": "https://www.omanobserver.om/article/1192550/business/economy/global-economy-faces-sharp-slowdown-imf",
+          "title": "Global economy faces sharp slowdown : IMF",
+          "domain": "omanobserver.om",
+          "seendate": "20260709T104500Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/middle-east/mourners-carry-kill-trump-banners-at-khameneis-funeral-procession-eulogist-calls-for-trumps-death20260706140619/",
+          "title": "Mourners carry  Kill Trump  banners at Khamenei funeral procession ; Eulogist calls for Trump death",
+          "domain": "aninews.in",
+          "seendate": "20260706T090000Z"
+        },
+        {
+          "url": "https://www.clevelandjewishnews.com/jns/a-tremendous-mistake/article_a703e2f3-3574-59d0-8465-1e95a86405d3.html",
+          "title": "  A tremendous mistake  ",
+          "domain": "clevelandjewishnews.com",
+          "seendate": "20260707T100000Z"
+        },
+        {
+          "url": "https://www.sohu.com/a/1048567044_114988?edtsign=A4F9CB3A910476DFCD7D5F4D8A9E0975803E7592&edtcode=zXiNVNvXHhH4mGR7923P6Q==&scm=thor.283_14-200000.0.0-0-0-0-0.",
+          "title": "葬礼结束 、 战火再起 ， 美伊谈判还有戏吗 ？ ",
+          "domain": "sohu.com",
+          "seendate": "20260711T010000Z"
+        },
+        {
+          "url": "https://fortune.com/2026/07/05/trump-nato-summit-member-defense-spending-burden-sharing-loyalty/",
+          "title": "Trump moves the goalposts for NATO after demanding members spend more .  I just want loyalty  ",
+          "domain": "fortune.com",
+          "seendate": "20260705T183000Z"
+        },
+        {
+          "url": "https://zn.ua/ukr/POLITICS/vozzjednannja-aljansu-v-ankari-samit-nato-zavershivsja-nespodivanoju-zajavoju-rjutte-reuters.html",
+          "title": "Рютте про Трампа - як НАТО зберігає єдність попри розбіжності - новини політики",
+          "domain": "zn.ua",
+          "seendate": "20260708T201500Z"
+        },
+        {
+          "url": "https://www.clevelandjewishnews.com/jns/the-trillion-dollar-campaign-to-conquer-the-west/article_e3b0fd58-4879-5c38-b760-6bb65be92ebe.html",
+          "title": "The trillion - dollar campaign to conquer the West",
+          "domain": "clevelandjewishnews.com",
+          "seendate": "20260709T214500Z"
+        },
+        {
+          "url": "https://www.sandiegouniontribune.com/2026/07/08/trump-nato-summit-greenland/",
+          "title": "At summit , Trump blasts NATO for rejecting efforts to claim Greenland",
+          "domain": "sandiegouniontribune.com",
+          "seendate": "20260708T124500Z"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/news/washington-secrets/4643610/white-house-report-card-winning-iran-war-not-trump/",
+          "title": "White House report card : Who winning the Iran war ? Not Trump",
+          "domain": "washingtonexaminer.com",
+          "seendate": "20260710T174500Z"
+        },
+        {
+          "url": "https://www.kathimerini.com.cy/gr/kosmos/triti-imera-sygkroyseon-ipa-%E2%80%93-iran",
+          "title": "Τρίτη ημέρα συγκρούσεων ΗΠΑ – Ιράν",
+          "domain": "kathimerini.com.cy",
+          "seendate": "20260710T060000Z"
+        },
+        {
+          "url": "https://www.pressenza.com/2026/07/hormuz-the-throat-of-the-world/",
+          "title": "Hormuz , the Throat of the World",
+          "domain": "pressenza.com",
+          "seendate": "20260706T020000Z"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/us-news/us-strikes-iran-continue-second-day-maine-democrats-scramble-replace-g-rcna353621",
+          "title": "U . S . attacks Iran for a second day and Maine Democrats race to replace Graham Platner : Morning Rundown",
+          "domain": "nbcnews.com",
+          "seendate": "20260709T120000Z"
+        },
+        {
+          "url": "https://www.nayaindia.com/news/hundreds-of-thousands-attend-khamenei-final-farewell/518675.html",
+          "title": "खामेनेई की अंतिम विदाई में लाखों लोग शामिल - Naya India - Hindi News , Latest Hindi News , Breaking News , Hindi Samachar",
+          "domain": "nayaindia.com",
+          "seendate": "20260705T093000Z"
+        },
+        {
+          "url": "https://www.juancole.com/2026/07/khamenei-declaration-independence.html",
+          "title": "For  Half the World , Khamenei Funeral a Declaration of Independence",
+          "domain": "juancole.com",
+          "seendate": "20260705T100000Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/f8379-nato-chief-may-have-to-match-his-made-for-trump-sales-pitch-to-keep-a-summit-on-the-rails/",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "wral.com",
+          "seendate": "20260705T203000Z"
+        },
+        {
+          "url": "https://www.seattletimes.com/nation-world/world/nato-chief-may-have-to-match-his-made-for-trump-sales-pitch-to-keep-a-summit-on-the-rails/",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "seattletimes.com",
+          "seendate": "20260705T073000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/features/5292257-nato-chief-may-have-match-his-made-trump-sales-pitch-keep-summit-rails",
+          "title": "NATO Chief May Have to Match His Made - for - Trump Sales Pitch to Keep a Summit on the Rails",
+          "domain": "english.aawsat.com",
+          "seendate": "20260705T100000Z"
+        },
+        {
+          "url": "https://www.ksat.com/news/world/2026/07/05/nato-chief-faces-challenge-at-summit-as-trump-demands-loyalty-and-not-just-burden-sharing/",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "ksat.com",
+          "seendate": "20260705T070000Z"
+        },
+        {
+          "url": "https://nuclear-news.net/2026/07/10/1-b1-the-clear-winner-of-trumps-war-in-the-middle-east-is-china-says-new-report/",
+          "title": "The clear winner of Trump war in the Middle East is … China , says new report « nuclear - news",
+          "domain": "nuclear-news.net",
+          "seendate": "20260710T104500Z"
+        },
+        {
+          "url": "https://www.clickondetroit.com/news/world/2026/07/05/nato-chief-may-have-to-match-his-made-for-trump-sales-pitch-to-keep-a-summit-on-the-rails/",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "clickondetroit.com",
+          "seendate": "20260705T103000Z"
+        },
+        {
+          "url": "https://www.koreaherald.com/article/10799377",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "koreaherald.com",
+          "seendate": "20260706T041500Z"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/world/article-nato-summit-rutte-trump-demands/",
+          "title": "Rutte faces challenge meeting Trump demands at NATO summit",
+          "domain": "theglobeandmail.com",
+          "seendate": "20260705T210000Z"
+        },
+        {
+          "url": "https://www.americanthinker.com/articles/2026/07/two-hundred-fifty-glorious-years/",
+          "title": "Two Hundred Fifty Glorious Years",
+          "domain": "americanthinker.com",
+          "seendate": "20260705T104500Z"
+        },
+        {
+          "url": "https://www.sun-sentinel.com/2026/07/08/trump-nato-summit-greenland/",
+          "title": "At summit , Trump blasts NATO for rejecting efforts to claim Greenland",
+          "domain": "sun-sentinel.com",
+          "seendate": "20260708T140000Z"
+        },
+        {
+          "url": "https://wiadomosci.onet.pl/swiat/roman-graczyk-o-wojnie-usa-z-iranem-kolejny-fantastyczny-deal-donalda-trumpa/9dld7ts",
+          "title": "Roman Graczyk o wojnie united states z Iranem : kolejny fantastyczny deal Donalda Trumpa",
+          "domain": "wiadomosci.onet.pl",
+          "seendate": "20260706T124500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2617478/iran-says-it-hits-us-military-targets-in-gulf-buries-slain-leader-khamenei",
+          "title": "Iran says it hits US military targets in Gulf , buries slain leader Khamenei",
+          "domain": "tribune.com.pk",
+          "seendate": "20260710T081500Z"
+        },
+        {
+          "url": "https://www.news4jax.com/news/world/2026/07/05/nato-chief-may-have-to-match-his-made-for-trump-sales-pitch-to-keep-a-summit-on-the-rails/",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "news4jax.com",
+          "seendate": "20260705T093000Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/world/nato-chief-faces-challenge-at-summit-as-trump-demands-loyalty-and-not-just-burden-sharing/article_eec2eed7-a9f9-58cb-95b6-bf1135f8424c.html",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "thegazette.com",
+          "seendate": "20260705T093000Z"
+        },
+        {
+          "url": "https://wwmt.com/news/local/abdul-el-sayed-haley-stevens-debate-democrats-government-primary-senate-michigan-policies-grand-rapids-election",
+          "title": "Abdul El - Sayed , Haley Stevens trade jabs and push policies in U . S . Senate primary debate",
+          "domain": "wwmt.com",
+          "seendate": "20260708T050000Z"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/world/2026/07/05/nato-chief-may-have-to-match-his-made-for-trump-sales-pitch-to-keep-a-summit-on-the-rails/",
+          "title": "NATO chief may have to match his made - for - Trump sales pitch to keep a summit on the rails",
+          "domain": "clickorlando.com",
+          "seendate": "20260705T053000Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/oman-tells-european-allies-ships-passing-through-strait-of-hormuz-may-have-to-pay-101783617030312.html",
+          "title": "Oman tells European allies ships passing through Strait of Hormuz may have to pay",
+          "domain": "hindustantimes.com",
+          "seendate": "20260709T174500Z"
+        },
+        {
+          "url": "https://www.thetoc.gr/diethni/article/uposxeseis-route-ta-meli-tou-nato-tha-doun-sumbolaia-dekadon-disekatommurion-dolarion/",
+          "title": "Υποσχέσεις Ρούτε : Τα μέλη του ΝΑΤΟ θα δουν συμβόλαια δεκάδων ... ",
+          "domain": "thetoc.gr",
+          "seendate": "20260706T214500Z"
+        },
+        {
+          "url": "https://www.bjnews.com.cn/detail/1783674314169827.html",
+          "title": "葬礼结束 、 战火再起 ， 美伊谈判还有戏吗 ？ 新京报",
+          "domain": "bjnews.com.cn",
+          "seendate": "20260710T104500Z"
+        },
+        {
+          "url": "https://www.courant.com/2026/07/07/nato-arms-deals-trump/",
+          "title": "NATO unveils billions in arms deals as Trump arrives in Ankara",
+          "domain": "courant.com",
+          "seendate": "20260707T130000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/nato-chief-mark-rutte-may-have-to-match-his-made-for-trump-sales-pitch-to-keep-a-summit-on-the-rails/articleshow/132191281.cms",
+          "title": "NATO chief Mark Rutte may have to match his made - for - Trump sales pitch to keep a summit on the rails",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260705T063000Z"
+        },
+        {
+          "url": "https://www.clevelandjewishnews.com/news/world_news/nato-unveils-billions-in-arms-deals-to-prove-its-firepower-as-trump-arrives-in-ankara/article_dc3a3ab9-73b5-5b7b-bdd9-330ccd970a2f.html",
+          "title": "NATO unveils billions in arms deals to prove its firepower as Trump arrives in Ankara",
+          "domain": "clevelandjewishnews.com",
+          "seendate": "20260707T144500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1869946006467924632",
+          "title": "美国 ： 独立250周年庆典难掩褪色现实",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260706T084500Z"
+        },
+        {
+          "url": "https://www.wsls.com/news/world/2026/07/05/nato-chief-may-have-to-match-his-made-for-trump-sales-pitch-to-keep-a-summit-on-the-rails/",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "wsls.com",
+          "seendate": "20260705T073000Z"
+        },
+        {
+          "url": "https://kar-online.com/117039/",
+          "title": "جنگ پایان نیافته است",
+          "domain": "kar-online.com",
+          "seendate": "20260705T040000Z"
+        },
+        {
+          "url": "https://www.topontiki.gr/2026/07/07/trab-se-erntogan-i-tourkia-pio-pisti-chora-stis-ipa-apo-allous-exetazoume-tin-polisi-f-35/",
+          "title": "Τραμπ σε Ερντογάν : « Η Τουρκία πιο πιστή χώρα στις ΗΠΑ – Εξετάζουμε την πώληση F - 35 , θα άρουμε τις κυρώσεις στους φίλους μας » ",
+          "domain": "topontiki.gr",
+          "seendate": "20260707T140000Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3776687",
+          "title": "华尔街见闻早餐FM - Radio | 2026年7月11日",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260711T010000Z"
+        },
+        {
+          "url": "https://www.theyeshivaworld.com/news/israel-news/2572448/rahm-emanuel-warns-that-israel-has-become-a-territorial-pariah-in-blistering-speech.html",
+          "title": "Rahm Emanuel Warns That Israel Has Become A  Territorial Pariah  In Blistering Speech – The Yeshiva World",
+          "domain": "theyeshivaworld.com",
+          "seendate": "20260708T233000Z"
+        },
+        {
+          "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-essentials-daily-subject-quiz-international-relation-week-169-10772743/",
+          "title": "UPSC Essentials subject wise Quiz : International Relations ( Week 169 ) ",
+          "domain": "indianexpress.com",
+          "seendate": "20260705T153000Z"
+        },
+        {
+          "url": "https://abcnews.com/International/wireStory/nato-chief-faces-challenge-summit-trump-demands-loyalty-134493185",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "abcnews.com",
+          "seendate": "20260705T090000Z"
+        },
+        {
+          "url": "https://13tv.co.il/item/news/abroad/rj5ju-905249585/?pid=7&refc=902992371",
+          "title": "עם קריאות להתנקשות בנשיא טראמפ : נמשכת הלוויית עלי חמינאי",
+          "domain": "13tv.co.il",
+          "seendate": "20260705T100000Z"
+        },
+        {
+          "url": "https://www.csmonitor.com/World/2026/0705/NATO-summit-Trump-loyalty",
+          "title": "First money , now  loyalty : US demands shift ahead of NATO summit in Turkey",
+          "domain": "csmonitor.com",
+          "seendate": "20260705T214500Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/07/05/nato-chief-may-have-to-match-his-made-for-trump-sales-pitch-to-keep-a-summit-on-the-rails",
+          "title": "NATO chief may have to match his made - for - Trump sales pitch to keep a summit on the rails – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260705T060000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/stocks-mixed-and-oil-bid-escalating-usiran-tensions-us-market-wrap",
+          "title": "Stocks mixed and oil bid on escalating US / Iran tensions - US Market Wrap",
+          "domain": "zerohedge.com",
+          "seendate": "20260709T000000Z"
+        },
+        {
+          "url": "https://www.dostor.org/5623691",
+          "title": "استمرار سيطرة إيران على مضيق هرمز .. والألغام تعرقل استئناف الملاحة",
+          "domain": "dostor.org",
+          "seendate": "20260705T081500Z"
+        },
+        {
+          "url": "https://www.worthynews.com/115752-u-s-strikes-iran-after-tankers-hit-in-strait-of-hormuz-revokes-oil-waiver",
+          "title": "U . S . Strikes Iran After Tankers Hit In Strait Of Hormuz , Revokes Oil Waiver",
+          "domain": "worthynews.com",
+          "seendate": "20260708T040000Z"
+        },
+        {
+          "url": "https://www.dnews.gr/eidhseis/kosmos/598488/mia-synantisi-pente-psemata-to-cnn-apodomei-osa-eipe-o-donalnt-tramp-stin-agkyra",
+          "title": "Μία συνάντηση , πέντε ψέματα : To CNN αποδομεί όσα είπε ο Ντόναλντ Τραμπ στην Άγκυρα",
+          "domain": "dnews.gr",
+          "seendate": "20260708T091500Z"
+        },
+        {
+          "url": "https://upnorthlive.com/news/michigan-politics/abdul-el-sayed-haley-stevens-debate-democrats-government-primary-senate-michigan-policies-grand-rapids-election",
+          "title": "Abdul El - Sayed , Haley Stevens trade jabs and push policies in U . S . Senate primary debate",
+          "domain": "upnorthlive.com",
+          "seendate": "20260708T083000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/americas-battlefield-dominance-is-under-serious-threat/articleshow/132193035.cms",
+          "title": "America battlefield dominance is under serious threat",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260705T093000Z"
+        },
+        {
+          "url": "https://www.wboc.com/news/international/nato-chief-may-have-to-match-his-made-for-trump-sales-pitch-to-keep-a/article_55c918a1-f967-5d1f-b67e-cfd478422c0c.html",
+          "title": "NATO chief may have to match his made - for - Trump sales pitch to keep a summit on the rails",
+          "domain": "wboc.com",
+          "seendate": "20260705T071500Z"
+        },
+        {
+          "url": "https://lancasteronline.com/news/world/nato-chief-faces-challenge-at-summit-as-trump-demands-loyalty-and-not-just-burden-sharing/article_17a92993-7c2b-5448-bb1e-588ae70f6abd.html",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "lancasteronline.com",
+          "seendate": "20260705T070000Z"
+        },
+        {
+          "url": "http://www.shangbaoindonesia.com/read/2026/07/05/berita-luar-negeri-1783245495",
+          "title": "伊朗前最高领袖哈梅内伊国葬 反美抗以呼声回荡四周",
+          "domain": "shangbaoindonesia.com",
+          "seendate": "20260705T103000Z"
+        },
+        {
+          "url": "https://ria.ru/20260707/nato-2103079643.html",
+          "title": "Альянс самоубийц : Украина стала  котлом  для НАТО - РИА Новости , 07 . 07 . 2026",
+          "domain": "ria.ru",
+          "seendate": "20260707T084500Z"
+        },
+        {
+          "url": "https://www.latimes.com/world-nation/story/2026-07-08/rahm-emanuel-warns-that-israel-has-become-territorial-pariah-in-blistering-speech",
+          "title": "Rahm Emanuel warns that Israel has become a  territorial pariah  in a blistering speech",
+          "domain": "latimes.com",
+          "seendate": "20260708T171500Z"
+        },
+        {
+          "url": "https://www.deccanchronicle.com/world/kill-trump-banners-displayed-at-khamenei-funeral-in-tehran-1968753",
+          "title": "  Kill Trump  Banners Displayed at Khamenei Funeral in Tehran",
+          "domain": "deccanchronicle.com",
+          "seendate": "20260706T113000Z"
+        },
+        {
+          "url": "https://www.capitalgazette.com/2026/07/08/trump-nato-summit-greenland/",
+          "title": "At summit , Trump blasts NATO for rejecting efforts to claim Greenland",
+          "domain": "capitalgazette.com",
+          "seendate": "20260708T140000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/trump-bets-former-nato-troublemaker-125451340.html",
+          "title": "Trump bets on former NATO troublemaker as Turkey strategic value surges",
+          "domain": "yahoo.com",
+          "seendate": "20260706T194500Z"
+        },
+        {
+          "url": "https://www.arabnews.com/node/2650171/middle-east",
+          "title": "Rahm Emanuel warns that Israel has become a  territorial pariah  in a blistering speech",
+          "domain": "arabnews.com",
+          "seendate": "20260708T204500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1869976492521751411",
+          "title": "缺席北约峰会 高市早苗在躲什么 ？ ",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260707T001500Z"
+        },
+        {
+          "url": "https://www.nbcchicago.com/news/local/rahm-emanuel-warns-that-israel-has-become-a-territorial-pariah-in-a-blistering-speech/3959151/",
+          "title": "Rahm Emanuel warns Israel has become a  territorial pariah  – NBC Chicago",
+          "domain": "nbcchicago.com",
+          "seendate": "20260709T010000Z"
+        },
+        {
+          "url": "https://www.wsws.org/en/articles/2026/07/07/sxtj-j07.html",
+          "title": "US conducts massive RIMPAC joint naval drills",
+          "domain": "wsws.org",
+          "seendate": "20260707T071500Z"
+        },
+        {
+          "url": "https://www.singtaousa.com/2026/07/07/news/world/nato-unveil-billions-military-contracts/",
+          "title": "北約將簽百億軍購 冀獲特朗普肯定 - 星島日報",
+          "domain": "singtaousa.com",
+          "seendate": "20260707T200000Z"
+        },
+        {
+          "url": "https://www.enikos.gr/international/cheri-cheri-o-erntogan-me-ton-route-stin-agkyra-oi-fotografies-pou-prokalesan-aisthisi-prin-apo-ti-synodo-tou-nato/2610071/",
+          "title": "Χέρι - χέρι ο Ερντογάν με τον Ρούτε στην Άγκυρα - Οι φωτογραφίες που προκάλεσαν αίσθηση πριν από τη Σύνοδο του ΝΑΤΟ",
+          "domain": "enikos.gr",
+          "seendate": "20260707T100000Z"
+        },
+        {
+          "url": "https://www.newsbeast.gr/politiki/arthro/13229360/patriot-stin-oukrania-kai-s-400-stin-tourkia-to-megalo-geopolitiko-pazari",
+          "title": "Patriot στην Ουκρανία και S - 400 στην Τουρκία – Το μεγάλο γεωπολιτικό παζάρι",
+          "domain": "newsbeast.gr",
+          "seendate": "20260711T111500Z"
+        },
+        {
+          "url": "https://www.insurancejournal.com/news/international/2026/07/07/876415.htm",
+          "title": "Update : Qatari LNG Ship Struck in Strait of Hormuz , Testing US Talks",
+          "domain": "insurancejournal.com",
+          "seendate": "20260707T140000Z"
+        },
+        {
+          "url": "https://www.theguardian.com/commentisfree/2026/jul/10/andy-burnham-keir-starmer-donald-trump-foreign-secretary",
+          "title": "Burnham will have to master something Starmer couldnt : the art of dealing with Donald Trump | Gaby Hinsliff",
+          "domain": "theguardian.com",
+          "seendate": "20260710T173000Z"
+        },
+        {
+          "url": "https://www.citizensvoice.com/2026/07/06/editorial-on-the-birthright-matter-the-u-s-constitution-is-pretty-clear/",
+          "title": "Editorial : On the birthright matter , the US Constitution is pretty clear",
+          "domain": "citizensvoice.com",
+          "seendate": "20260706T090000Z"
+        },
+        {
+          "url": "https://isp.netscape.com:443/news/world/story/0001/20260705/f8379b038dfbbf7afde80bb50a0bd96e",
+          "title": "NATO chief faces challenge at summit as Trump demands  loyalty  and not just burden - sharing",
+          "domain": "isp.netscape.com",
+          "seendate": "20260705T073000Z"
+        },
+        {
+          "url": "https://www.smdailyjournal.com/news/national/the-latest-us-demands-iran-guarantee-strait-of-hormuz-is-open-and-stop-attacks-officials/article_bd3cfc18-f22d-51a4-bc3f-3f310ba25926.html",
+          "title": "The Latest : US demands Iran guarantee Strait of Hormuz is open and stop attacks , officials say",
+          "domain": "smdailyjournal.com",
+          "seendate": "20260710T220000Z"
+        }
+      ]
     },
     {
       "id": "military_strike",
@@ -78,118 +3088,6 @@
     }
   ],
   "comparison_table_7day": [
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.4986,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.9832
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.4985,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.9821
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4922,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.9069
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.2083,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_OCT24",
-      "reference_type": "pre-round",
-      "composite_score": 0.0765,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.9174
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    }
-  ],
-  "comparison_table_21day": [
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
@@ -301,6 +3199,118 @@
       }
     }
   ],
+  "comparison_table_21day": [
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.7429,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.7071,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.625,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.625,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.4712,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 1.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.3046,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    }
+  ],
   "current_metrics": {
     "window_7d": {
       "volume_total": 0,
@@ -312,22 +3322,22 @@
       "articles_fa": 0,
       "confluence_score": 0.0,
       "unique_domains_total": 0,
-      "tone_mean": -2.8721
+      "tone_mean": null
     },
     "window_21d": {
       "volume_total": 0,
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 0,
+      "articles_en": 250,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 0,
+      "unique_domains_total": 174,
       "tone_mean": null
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }
