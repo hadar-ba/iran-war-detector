@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-07-12T02:39:46.057112+00:00",
-  "status": "yellow",
-  "headline_score_7day": 62,
-  "headline_score_21day": 62,
-  "score_jump": 16,
+  "timestamp_utc": "2026-07-13T14:36:39.548740+00:00",
+  "status": "green",
+  "headline_score_7day": 46,
+  "headline_score_21day": 50,
+  "score_jump": -16,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 21-day picture is similar at 62% similarity to a relatively quiet period (January 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). התמונה ל-21 יום דומה עם 62% דמיון לתקופה יחסית שקטה (ינואר 2026).",
+  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
+  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 50% similarity to the period before Operation Lion's Roar (February 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 50% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -40,1514 +40,9 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
-      "example_urls": [
-        "https://indianexpress.com/article/world/khamenei-funeral-live-updates-us-iran-war-trump-israel-iran-peace-talks-10773117/",
-        "https://nypost.com/2026/07/06/world-news/israel-warns-any-iranian-leader-who-seeks-its-destruction-will-be-eliminated/",
-        "https://www.albiladpress.com/news/2026/6475/arab-and-world/1007819.html"
-      ],
-      "articles": [
-        {
-          "url": "https://indianexpress.com/article/world/khamenei-funeral-live-updates-us-iran-war-trump-israel-iran-peace-talks-10773117/",
-          "title": "Ayatollah Ali Khamenei Funeral Updates : Millions mourn Khamenei as Iran tensions simmer ; Trump says  no shot during funeral | World News",
-          "domain": "indianexpress.com",
-          "seendate": "20260706T030000Z"
-        },
-        {
-          "url": "https://nypost.com/2026/07/06/world-news/israel-warns-any-iranian-leader-who-seeks-its-destruction-will-be-eliminated/",
-          "title": "Israel warns any Iranian leader who seeks its destruction will be eliminated",
-          "domain": "nypost.com",
-          "seendate": "20260706T121500Z"
-        },
-        {
-          "url": "https://www.albiladpress.com/news/2026/6475/arab-and-world/1007819.html",
-          "title": "جريدة البلاد | كاتس : قتلنا علي خامنئي ... وإسرائيل مُستعدة للرد على  أي تهديد  ",
-          "domain": "albiladpress.com",
-          "seendate": "20260706T094500Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/7/6/khamenei-family-mourns-but-mojtabas-absence-fuels-public-insecurity",
-          "title": "Khamenei family mourns , but Mojtaba absence fuels public insecurity | US - Israel war on Iran News",
-          "domain": "aljazeera.com",
-          "seendate": "20260706T194500Z"
-        },
-        {
-          "url": "https://www.birgun.net/haber/iddialarin-ardindan-ilk-kez-eski-iran-cumhurbaskani-ahmedinejad-aylar-sonra-goruntulendi-722491",
-          "title": "İddiaların ardından ilk kez : Eski İran Cumhurbaşkanı Ahmedinejad , aylar sonra görüntülendi",
-          "domain": "birgun.net",
-          "seendate": "20260706T104500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/article-901417",
-          "title": "Fmr . Iranian leader Ali Khamenei week - long funeral begins second day in Tehran",
-          "domain": "jpost.com",
-          "seendate": "20260705T093000Z"
-        },
-        {
-          "url": "https://www.haberler.com/dunya/iran-eski-lideri-hamaney-meshed-de-topraga-verildi-20036972-haberi/",
-          "title": "İran  ın eski lideri Hamaney Meşhedde toprağa verildi",
-          "domain": "haberler.com",
-          "seendate": "20260710T071500Z"
-        },
-        {
-          "url": "https://hotnews.ro/trei-dintre-fiii-lui-ali-khamenei-prezenti-la-funeralii-a-lipsit-insa-chiar-succesorul-liderului-iranian-2292461",
-          "title": "Trei dintre fiii lui Ali Khamenei , prezenţi la funeralii . A lipsit însă chiar succesorul liderului iranian",
-          "domain": "hotnews.ro",
-          "seendate": "20260705T183000Z"
-        },
-        {
-          "url": "https://www.skynews.com.au/world-news/global-affairs/israel-shared-intelligence-with-the-us-on-iranian-plot-to-assassinate-donald-trump-report/news-story/c3c3d8b0768ad86b343313f8365e99e7?nk=e0d2239bdaa96f3318c81832a29995b0-1783657009",
-          "title": "Israel shared intel with US on Iranian plot to assassinate Donald Trump : report",
-          "domain": "skynews.com.au",
-          "seendate": "20260710T043000Z"
-        },
-        {
-          "url": "https://albeu.com/english/katz-sends-message-to-tehran-during-khameneis-funeral-any-threat-against-israel-will-be-neutralized/913648/",
-          "title": "Katz Sends Message to Tehran During Khamenei Funeral : Any Threat Against Israel Will Be Neutralized",
-          "domain": "albeu.com",
-          "seendate": "20260706T094500Z"
-        },
-        {
-          "url": "https://www.sabah.com.tr/yasam/canli-son-dakika-irandan-trumpa-yonelik-yeni-suikast-plani-iddiasi-israil-istihbarat-paylasiminda-bulundu-abd-ordusundan-hurmuz-aciklamasi-7619730",
-          "title": "SON DAKİKA| İrandan Trumpa yönelik yeni suikast planı iddiası … İsrail istihbarat paylaşımında bulundu ! ABD ordusundan Hürmüz açıklaması",
-          "domain": "sabah.com.tr",
-          "seendate": "20260710T070000Z"
-        },
-        {
-          "url": "https://www.dcnews.ro/mojtaba-noul-lider-suprem-al-iranului-si-fiul-lui-khamenei-l-a-amenintat-pe-trump-cu-moartea-ascuns-de-doua-luni-mojtaba-posteaza-pe-internet_1068479.html",
-          "title": "Mojtaba , noul Lider Suprem al Iranului și fiul lui Khamenei , l - a amenințat pe Trump cu moartea . Ascuns de două luni , Mojtaba postează pe internet",
-          "domain": "dcnews.ro",
-          "seendate": "20260711T171500Z"
-        },
-        {
-          "url": "https://www.stiripesurse.ro/israelul-reactioneaza-dur-dupa-ce-in-iran-se-scandeaza-morte-lui-trump-rusinos-dezvaluie-adevarata-natura-a-regimului_3901008",
-          "title": "Israelul reacționează dur după ce în Iran se scandează „ moarte lui Trump : „ Rușinos ! dezvăluie adevărata natură a regimului  ",
-          "domain": "stiripesurse.ro",
-          "seendate": "20260706T104500Z"
-        },
-        {
-          "url": "https://www.dostor.org/5625294",
-          "title": "تطورات مستمرة| طهران تتمسك بالانتقام لخامنئي .. وإسرائيل تهدد أي إيراني بمصير المرشد السابق",
-          "domain": "dostor.org",
-          "seendate": "20260706T130000Z"
-        },
-        {
-          "url": "https://www.oneindia.com/international/why-was-ayatollah-ali-khameneis-son-mojtaba-not-present-at-his-funeral-where-is-he-8137847.html",
-          "title": "Why Was Ayatollah Ali Khamenei Son Mojtaba Not Present at His Funeral ? Where Is He ? ",
-          "domain": "oneindia.com",
-          "seendate": "20260705T131500Z"
-        },
-        {
-          "url": "https://jp.ibtimes.com/death-america-crowds-khamenei-funeral-call-revenge-against-us-israel-wave-killtrump-banner-102370",
-          "title": "  Death to America : Crowds at Khamenei Funeral Call for Revenge Against US - Israel and Wave # Killtrump  Banner",
-          "domain": "jp.ibtimes.com",
-          "seendate": "20260705T084500Z"
-        },
-        {
-          "url": "https://leadership.ng/irans-supreme-leaders-funeral-procession-attracts-huge-crowd/",
-          "title": "Iran Supreme Leader Funeral Procession Attracts Huge Crowd",
-          "domain": "leadership.ng",
-          "seendate": "20260706T204500Z"
-        },
-        {
-          "url": "https://www.digi24.ro/stiri/externe/iran-trei-dintre-fiii-lui-ali-khamenei-prezenti-la-funeralii-care-a-fost-marele-absent-de-la-ceremonii-3848419",
-          "title": "Iran . Trei dintre fiii lui Ali Khamenei , prezenţi la funeralii . Care a fost marele absent de la ceremonii",
-          "domain": "digi24.ro",
-          "seendate": "20260705T183000Z"
-        },
-        {
-          "url": "https://www.jugantor.com/international/1123176",
-          "title": "খামেনির মতো ইরানি নেতাদের হত্যার হুমকি ইসরাইল",
-          "domain": "jugantor.com",
-          "seendate": "20260706T110000Z"
-        },
-        {
-          "url": "https://www.sandiegouniontribune.com/2026/07/08/iran-war-timeline/",
-          "title": "Is Iran deal  over  and war back on ? A timeline of conflict and talks",
-          "domain": "sandiegouniontribune.com",
-          "seendate": "20260708T170000Z"
-        },
-        {
-          "url": "https://www.bostonherald.com/2026/07/08/iran-war-timeline/",
-          "title": "Is Iran deal  over  and war back on ? A timeline of conflict and talks",
-          "domain": "bostonherald.com",
-          "seendate": "20260708T151500Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/world-news/mojtaba-khamenei-vows-revenge-hit-list-exposed",
-          "title": "מוג  תבא חמינאי בצוואה רצחנית :  ננקום את מות אבי , הרשימה נחשפה  | בבלי",
-          "domain": "kikar.co.il",
-          "seendate": "20260711T181500Z"
-        },
-        {
-          "url": "https://www.inn.co.il/news/700740",
-          "title": "שר הביטחון :  כל מנהיג שיאיים עלינו יסוכל  ",
-          "domain": "inn.co.il",
-          "seendate": "20260706T063000Z"
-        },
-        {
-          "url": "https://www.digi24.ro/stiri/externe/zeci-de-mii-de-iranieni-au-mers-la-slujba-de-inmormantare-pentru-ali-khamenei-in-a-doua-zi-a-funeraliilor-publice-3848073",
-          "title": "Zeci de mii de iranieni au mers la slujba de înmormântare pentru Ali Khamenei , în a doua zi a funeraliilor publice",
-          "domain": "digi24.ro",
-          "seendate": "20260705T093000Z"
-        },
-        {
-          "url": "https://www.sabah.com.tr/dunya/iran-tek-ses-intikam-7616388",
-          "title": "İran tek ses : İntikam",
-          "domain": "sabah.com.tr",
-          "seendate": "20260705T060000Z"
-        },
-        {
-          "url": "https://pch24.pl/wiadomosci/modztaba-chamenei-przerywa-milczenie-zapowiada-zemste-za-smierc-ojca,726006",
-          "title": "Modżtaba Chamenei przerywa milczenie . Zapowiada zemstę za śmierć ojca",
-          "domain": "pch24.pl",
-          "seendate": "20260711T203000Z"
-        },
-        {
-          "url": "https://www.naturalnews.com/2026-07-04-israels-death-mark-aimed-at-irans-new-leadership-reveals-a-war-with-no-end-only-escalation.html",
-          "title": "Israel  Death Mark  aimed at Iran new leadership reveals a war with no end , only escalation – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "seendate": "20260705T040000Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/s1erpba7ge",
-          "title": "איראן שיגרה עשרות טילים וכטב  מים מהלילה :  המתווכות מנסות לחזור למו  מ  ",
-          "domain": "ynet.co.il",
-          "seendate": "20260709T183000Z"
-        },
-        {
-          "url": "https://www.news24.com/world/iran-warns-of-retaliation-after-us-strikes-kill-17-and-hit-civilian-infrastructure-20260710-0832",
-          "title": "Iran warns of retaliation after US strikes kill 17 and hit civilian infrastructure",
-          "domain": "news24.com",
-          "seendate": "20260710T141500Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/world-news/mojtaba-khamenei-funeral-absence",
-          "title": "מוג  תבא חמינאי : היעדרות מהלוויה בשל חשש לחיסול ישראלי",
-          "domain": "kikar.co.il",
-          "seendate": "20260705T103000Z"
-        },
-        {
-          "url": "https://www.jugantor.com/international/1123086",
-          "title": "ফিলিস্তিনের প্রতি সমর্থনের জন্যই খামেনিকে হত্যা করা হয়েছে : হুথি",
-          "domain": "jugantor.com",
-          "seendate": "20260706T040000Z"
-        },
-        {
-          "url": "https://www.lokmat.com/international/mojtaba-khamenei-iran-new-leader-latest-news-big-excitement-mojtaba-khamenei-will-appear-publicly-for-the-first-time-tomorrow-walking-or-in-a-wheelchair-a-a607/",
-          "title": "मोठी खळबळ ! मोजतबा खामेनेई उद्या पहिल्यांदाच उघडपणे जगासमोर येणार ; चालत की व्हील चेअरवर ...? ",
-          "domain": "lokmat.com",
-          "seendate": "20260710T123000Z"
-        },
-        {
-          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260710-azertac01.htm",
-          "title": "Iran late Supreme Leader Ali Khamenei buried in Mashhad",
-          "domain": "globalsecurity.org",
-          "seendate": "20260711T134500Z"
-        },
-        {
-          "url": "https://www.turkiyegazetesi.com.tr/dunya/ayetullah-ali-hamaney-defnedildi-cenazede-milyonlarca-kisi-vardi-sadece-o-yoktu-1802359",
-          "title": "Ayetullah Ali Hamaney defnedildi ! Cenazede milyonlarca kişi vardı , sadece o yoktu",
-          "domain": "turkiyegazetesi.com.tr",
-          "seendate": "20260710T041500Z"
-        },
-        {
-          "url": "https://iranpressnews.com/source/245987.htm",
-          "title": "IranPressNews : ايران پرس نيوز اخبار ايران و جهان",
-          "domain": "iranpressnews.com",
-          "seendate": "20260706T101500Z"
-        },
-        {
-          "url": "https://www.sozcu.com.tr/hamaney-in-cenazesinde-trump-i-oldurene-100-milyon-dolar-pankarti-acildi-p334102",
-          "title": "Hamaneyin cenazesinde  Trump  ı öldürene 100 milyon dolar  pankartı açıldı",
-          "domain": "sozcu.com.tr",
-          "seendate": "20260706T080000Z"
-        },
-        {
-          "url": "https://www.ntdtv.com/b5/2026/07/10/a104114140.html",
-          "title": "哈梅內伊官邸遭襲慘狀曝 以情報揭伊朗策劃暗殺川普 | 以色列情報 | 哈梅內伊葬禮 | 美以聯軍空襲伊朗2026",
-          "domain": "ntdtv.com",
-          "seendate": "20260710T184500Z"
-        },
-        {
-          "url": "https://www.jiji.com/jc/article?k=2026070701060&g=int",
-          "title": "モジタバ師 「 不在 」 に臆測 暗殺警戒か ― イラン前最高指導者国葬 ： 時事ドットコム",
-          "domain": "jiji.com",
-          "seendate": "20260707T234500Z"
-        },
-        {
-          "url": "https://www.asiaone.com:443/asia/iranian-mourners-call-vengeance-trump-during-khamenei-funeral-procession",
-          "title": "Iranian mourners call for vengeance on Trump during Khamenei funeral procession",
-          "domain": "asiaone.com",
-          "seendate": "20260706T121500Z"
-        },
-        {
-          "url": "https://www.theargus.co.uk/news/national/26253797.performer-funeral-iranian-leader-calls-death-trump/",
-          "title": "Performer at funeral of Iranian leader calls for death of Trump",
-          "domain": "theargus.co.uk",
-          "seendate": "20260705T100000Z"
-        },
-        {
-          "url": "https://www.samaa.tv/2087353130-iranians-call-for-vengeance-on-trump-during-khamenei-funeral",
-          "title": "Iranians call for vengeance on Trump during Khamenei funeral",
-          "domain": "samaa.tv",
-          "seendate": "20260706T133000Z"
-        },
-        {
-          "url": "https://www.canberratimes.com.au/story/9305057/three-of-slain-iran-leaders-four-sons-attend-funeral/",
-          "title": "Three of slain Iran leader four sons attend funeral",
-          "domain": "canberratimes.com.au",
-          "seendate": "20260705T200000Z"
-        },
-        {
-          "url": "https://www.bostonglobe.com/2026/07/08/nation/iran-war-talks-timeline/",
-          "title": "A timeline of the Iran deal and talks",
-          "domain": "bostonglobe.com",
-          "seendate": "20260708T150000Z"
-        },
-        {
-          "url": "https://www.haberler.com/guncel/hamaney-in-kerbela-da-cenaze-toreni-basladi-20032897-haberi/",
-          "title": "Eski İran lideri Hamaney için Irak  ın Kerbela kentinde cenaze töreni düzenleniyor",
-          "domain": "haberler.com",
-          "seendate": "20260708T204500Z"
-        },
-        {
-          "url": "https://www.dailymaverick.co.za/article/2026-07-06-iranian-mourners-call-for-vengeance-on-trump-during-khamenei-funeral-procession/",
-          "title": "Iranian mourners call for vengeance on Trump during Khamenei funeral procession",
-          "domain": "dailymaverick.co.za",
-          "seendate": "20260706T131500Z"
-        },
-        {
-          "url": "https://www.bankier.pl/wiadomosc/Cialo-Chameneiego-dotarlo-do-swietego-miasta-Kom-Zdjecia-Trumpa-ukamieniowane-9164364.html",
-          "title": "Ciało Chameneiego dotarło do świętego miasta Kom . Zdjęcia Trumpa ukamieniowane",
-          "domain": "bankier.pl",
-          "seendate": "20260707T060000Z"
-        },
-        {
-          "url": "https://nypost.com/2026/07/05/world-news/calla-walsh-attends-khameneis-funeral-in-iran-hails-him-as-greatest-anti-imperialist-leader/",
-          "title": "Calla Walsh attends Khamenei funeral in Iran , hails him as  greatest anti - imperialist leader  ",
-          "domain": "nypost.com",
-          "seendate": "20260705T214500Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/syew2maqzg",
-          "title": "התרחישים שיכולים להכניס את ישראל ללחימה לצד ארה  ב :  כרגע הם מובילים  ",
-          "domain": "ynet.co.il",
-          "seendate": "20260709T164500Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/iran-buries-former-supreme-leader-ali-khamenei-after-new-fighting-with-us-erupts-article-13970414.html",
-          "title": "Iran buries former supreme leader Ali Khamenei after new fighting with US erupts",
-          "domain": "moneycontrol.com",
-          "seendate": "20260710T041500Z"
-        },
-        {
-          "url": "https://www.tayyar.org/News/Lebanon/731210/_guid=731210",
-          "title": "tayyar . org - عناوين الصحف ليوم الأثنين 6 تموز 2026",
-          "domain": "tayyar.org",
-          "seendate": "20260706T050000Z"
-        },
-        {
-          "url": "https://www.yorkpress.co.uk/news/national/26253797.performer-former-iranian-supreme-leaders-funeral-calls-death-trump/",
-          "title": "Performer at former Iranian supreme leader funeral calls for death of Trump",
-          "domain": "yorkpress.co.uk",
-          "seendate": "20260705T064500Z"
-        },
-        {
-          "url": "https://dorzeczy.pl/swiat/910825/pogrzeb-chameneiego-w-iranie-artysta-wzywal-do-zabicia-trumpa-tlum-wiwatowal.html",
-          "title": "Pogrzeb Chameneiego w Iranie . Artysta wzywał do zabicia Trumpa , tłum wiwatował",
-          "domain": "dorzeczy.pl",
-          "seendate": "20260705T071500Z"
-        },
-        {
-          "url": "https://cbn.com/news/israel/tehran-funeral-crowds-chant-death-america-and-israel-july-4th-vow-kill-trump",
-          "title": "Tehran Funeral Crowds Chant  Death  to America and Israel on July 4th , Vow to  Kill Trump  ",
-          "domain": "cbn.com",
-          "seendate": "20260706T161500Z"
-        },
-        {
-          "url": "https://www.milliyet.com.tr/dunya/son-dakika-tahranda-hamaneye-veda-torende-dikkat-ceken-isim-7618429",
-          "title": "SON DAKİKA HABERİ : Hamaneye veda ! Törende dikkat çeken isim",
-          "domain": "milliyet.com.tr",
-          "seendate": "20260706T104500Z"
-        },
-        {
-          "url": "https://www.fakt.pl/polityka/pogrzeb-ajatollaha-alego-chamenei-tlum-domagal-sie-smierci-donalda-trumpa/pke17ye",
-          "title": "Pogrzeb ajatollaha Alego Chamenei . Tłum domagał się śmierci Donalda Trumpa",
-          "domain": "fakt.pl",
-          "seendate": "20260705T070000Z"
-        },
-        {
-          "url": "https://indianexpress.com/article/world/calls-to-kill-donald-trump-ayatollah-ali-khamenei-funeral-tehran-iran-war-10773297/",
-          "title": "  Trump murder is our responsibility : At Khamenei funeral , calls for vengeance | World News",
-          "domain": "indianexpress.com",
-          "seendate": "20260706T070000Z"
-        },
-        {
-          "url": "https://nepszava.hu/3328722_donald-trump-kozolte-raketak-ezrei-indulnanak-iran-fele-ha-teheran-megprobalna-megolni-ot",
-          "title": "Donald Trump közölte , rakéták ezrei indulnának Irán felé , ha Irán megpróbálná megölni őt",
-          "domain": "nepszava.hu",
-          "seendate": "20260711T113000Z"
-        },
-        {
-          "url": "https://www.local10.com/news/2026/07/05/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "local10.com",
-          "seendate": "20260705T063000Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/07/iranian-mourners-call-vengeance-trump-during-khamenei-funeral-procession",
-          "title": "Iranian mourners call for vengeance on Trump during Khamenei funeral procession",
-          "domain": "al-monitor.com",
-          "seendate": "20260706T121500Z"
-        },
-        {
-          "url": "https://www.star.com.tr/dunya/kendi-yok-mesaji-var-hamaneyden-intikam-sozu-haber-2027217/",
-          "title": "Kendi yok mesajý var ! Hamaneyden  intikam  sözü",
-          "domain": "star.com.tr",
-          "seendate": "20260711T114500Z"
-        },
-        {
-          "url": "https://www.wcvb.com/article/calls-for-trump-death-funeral-iran-supreme-leader/71825002",
-          "title": "Performer at funeral for Iran late supreme leader calls for Trump death",
-          "domain": "wcvb.com",
-          "seendate": "20260705T081500Z"
-        },
-        {
-          "url": "https://www.ksat.com/news/world/2026/07/05/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "ksat.com",
-          "seendate": "20260705T070000Z"
-        },
-        {
-          "url": "https://www.livemint.com/news/us-news/trumps-chilling-warning-to-iran-if-he-s-assassinated-bomb-them-at-levels-that-they-ve-never-seen-before-11783708201656.html",
-          "title": "Trump reveals he  left instruction if Iran assassinates him :  Bomb them at levels that theyve never seen before  ",
-          "domain": "livemint.com",
-          "seendate": "20260710T194500Z"
-        },
-        {
-          "url": "https://www.swindonadvertiser.co.uk/news/national/26253797.performer-funeral-iranian-leader-calls-death-trump/",
-          "title": "Performer at funeral of Iranian leader calls for death of Trump",
-          "domain": "swindonadvertiser.co.uk",
-          "seendate": "20260705T111500Z"
-        },
-        {
-          "url": "https://www.swindonadvertiser.co.uk/news/national/26253797.performer-former-iranian-supreme-leaders-funeral-calls-death-trump/",
-          "title": "Performer at former Iranian supreme leader funeral calls for death of Trump",
-          "domain": "swindonadvertiser.co.uk",
-          "seendate": "20260705T061500Z"
-        },
-        {
-          "url": "https://www.bucksfreepress.co.uk/news/national/26253797.performer-former-iranian-supreme-leaders-funeral-calls-death-trump/",
-          "title": "Performer at former Iranian supreme leader funeral calls for death of Trump",
-          "domain": "bucksfreepress.co.uk",
-          "seendate": "20260705T063000Z"
-        },
-        {
-          "url": "https://index.hu/kulfold/2026/07/11/iran-ali-hamenei-halala-modzstaba-hamenei-bosszu/",
-          "title": "Index - Külföld - Irán új vezetője bosszút ígrt apja , Ali Hamenei halálrt",
-          "domain": "index.hu",
-          "seendate": "20260711T180000Z"
-        },
-        {
-          "url": "https://www.clickondetroit.com/news/world/2026/07/05/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "clickondetroit.com",
-          "seendate": "20260705T053000Z"
-        },
-        {
-          "url": "https://www.dailysabah.com/world/mid-east/iranians-call-to-avenge-khamenei-during-tehran-funeral-procession",
-          "title": "Iranians call to avenge Khamenei during Tehran funeral procession",
-          "domain": "dailysabah.com",
-          "seendate": "20260706T133000Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/trump-says-us-could-eliminate-iran-s-leadership-with-one-shot-says-talks-remain-priority-article-13966213.html",
-          "title": "Trump says US could eliminate Iran leadership  with one shot , says talks remain priority",
-          "domain": "moneycontrol.com",
-          "seendate": "20260705T034500Z"
-        },
-        {
-          "url": "https://www.yahoo.com/news/world/articles/iranian-mourners-call-vengeance-trump-090030309.html",
-          "title": "Iranian mourners call for vengeance on Trump during Khamenei funeral procession",
-          "domain": "yahoo.com",
-          "seendate": "20260706T104500Z"
-        },
-        {
-          "url": "https://www.standard.net.au/story/9305057/three-of-slain-iran-leaders-four-sons-attend-funeral/",
-          "title": "Three of slain Iran leader four sons attend funeral",
-          "domain": "standard.net.au",
-          "seendate": "20260705T211500Z"
-        },
-        {
-          "url": "https://www.examiner.com.au/story/9305057/three-of-slain-iran-leaders-four-sons-attend-funeral/",
-          "title": "Three of slain Iran leader four sons attend funeral",
-          "domain": "examiner.com.au",
-          "seendate": "20260705T211500Z"
-        },
-        {
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-trump-khamenei-funeral-mojtaba-live-updates-b3009141.html",
-          "title": "Iran - US war latest : Trump says just  one shot  can take out all Iranian leaders as six - day funeral for Ali Khamenei underway",
-          "domain": "independent.co.uk",
-          "seendate": "20260705T131500Z"
-        },
-        {
-          "url": "https://lancasteronline.com/news/world/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/article_320b6d50-7f24-5326-9f69-281aaa066820.html",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "lancasteronline.com",
-          "seendate": "20260705T070000Z"
-        },
-        {
-          "url": "https://www.eremnews.com/news/world/ta8z01p",
-          "title": "مجتبى خامنئي : الثأر لوالدي مطلب أمة و  سيحدث بالتأكيد  ",
-          "domain": "eremnews.com",
-          "seendate": "20260711T111500Z"
-        },
-        {
-          "url": "https://haber.mynet.com/israil-i-turkiye-abd-is-birligi-korkusu-sardi-netanyahu-guc-dengesi-bozulur-110107300852",
-          "title": "İsraili Türkiye - ABD iş birliği korkusu sardı ! Netanyahu :  G dengesi bozulur  ",
-          "domain": "haber.mynet.com",
-          "seendate": "20260706T214500Z"
-        },
-        {
-          "url": "https://www.digi24.ro/stiri/externe/iranul-l-a-ingropat-pe-ali-khamenei-si-odata-cu-batranul-ayatollah-s-a-dus-si-atitudinea-retinuta-fata-de-jignirile-americanilor-3855955",
-          "title": "Iranul l - a îngropat pe Ali Khamenei și odată cu bătrânul ayatollah s - a dus și atitudinea reținută față de jignirile americanilor",
-          "domain": "digi24.ro",
-          "seendate": "20260709T214500Z"
-        },
-        {
-          "url": "https://www.mzamin.com/article/26416",
-          "title": "খামেনির জানাজায় উপস্থিত তিন ছেলে , অনুপস্থিত মোজতবা খামেনি",
-          "domain": "mzamin.com",
-          "seendate": "20260705T084500Z"
-        },
-        {
-          "url": "https://www.wtae.com/article/calls-for-trump-death-funeral-iran-supreme-leader/71825002",
-          "title": "Performer at funeral for Iran late supreme leader calls for Trump death",
-          "domain": "wtae.com",
-          "seendate": "20260705T073000Z"
-        },
-        {
-          "url": "https://www.wbaltv.com/article/calls-for-trump-death-funeral-iran-supreme-leader/71825002",
-          "title": "Performer at funeral for Iran late supreme leader calls for Trump death",
-          "domain": "wbaltv.com",
-          "seendate": "20260705T063000Z"
-        },
-        {
-          "url": "https://www.mirror.co.uk/news/world-news/khamenei-iran-trump-netanyahu-israel-37415084",
-          "title": "Terrifying Iran  revenge  warning as Donald Trump assassination plot claimed by Israel",
-          "domain": "mirror.co.uk",
-          "seendate": "20260710T201500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/07/09/middleeast/irans-supreme-leader-missed-public-funeral-intl",
-          "title": "Iran supreme leader missed his father momentous funeral – now what ? ",
-          "domain": "cnn.com",
-          "seendate": "20260710T031500Z"
-        },
-        {
-          "url": "https://www.channelnewsasia.com/world/three-sons-irans-slain-leader-appear-funeral-not-his-successor-6233131",
-          "title": "Three sons of Iran slain leader appear at funeral , not his successor",
-          "domain": "channelnewsasia.com",
-          "seendate": "20260705T183000Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/us/were-watching-closely-us-senator-warns-pak-over-double-role-after-khamenei-tribute/articleshow/132230979.cms",
-          "title": "Rick Scott :  Were watching closely : US Senator warns Pak over  double role  after Khamenei tribute",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260707T054500Z"
-        },
-        {
-          "url": "https://www.dailyexcelsior.com/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/",
-          "title": "Performer calls for Trump death  at funeral for Iran late supreme leader",
-          "domain": "dailyexcelsior.com",
-          "seendate": "20260705T084500Z"
-        },
-        {
-          "url": "https://www.indiatvnews.com/news/world/i-was-shocked-thought-people-hated-him-trump-on-iranians-crying-at-khamenei-funeral-latest-updates-2026-07-05-1047174",
-          "title": "  I was shocked , thought people hated him : Trump on Iranians crying at Khamenei funeral | World",
-          "domain": "indiatvnews.com",
-          "seendate": "20260705T063000Z"
-        },
-        {
-          "url": "https://www.the-star.co.ke/news/world/2026-07-05-irans-supreme-leader-absent-at-ayatollahs-funeral",
-          "title": "Iran supreme leader absent as senior officials attend Ayatollah funeral",
-          "domain": "the-star.co.ke",
-          "seendate": "20260705T171500Z"
-        },
-        {
-          "url": "https://www.kcra.com/article/calls-for-trump-death-funeral-iran-supreme-leader/71825002",
-          "title": "Performer at funeral for Iran late supreme leader calls for Trump death",
-          "domain": "kcra.com",
-          "seendate": "20260705T073000Z"
-        },
-        {
-          "url": "https://www.eadt.co.uk/news/national/26253824.senior-iranian-officials-back-public-eye-funeral-former-leader-khamenei/",
-          "title": "Senior Iranian officials back in public eye at funeral of former leader Khamenei",
-          "domain": "eadt.co.uk",
-          "seendate": "20260705T121500Z"
-        },
-        {
-          "url": "https://www.rp.pl/konflikty-zbrojne/art44809901-modztaba-chamenei-zapowiada-zemste-za-zabicie-swojego-ojca-narod-tego-zada",
-          "title": "Najwyższy przywódca Iranu zapowiada zemstę za zabicie swojego ojca , Alego Chameneiego",
-          "domain": "rp.pl",
-          "seendate": "20260711T163000Z"
-        },
-        {
-          "url": "https://www.hurriyetdailynews.com/iran-buries-khamenei-after-new-fighting-with-us-erupts-224208",
-          "title": "Iran buries Khamenei after new fighting with US erupts",
-          "domain": "hurriyetdailynews.com",
-          "seendate": "20260710T060000Z"
-        },
-        {
-          "url": "https://hotnews.ro/imaginile-momentului-sute-de-mii-de-oameni-pe-strazile-din-teheran-la-funeraliile-fostului-ayatollah-2292982",
-          "title": "Imaginile momentului : Sute de mii de oameni pe străzile din Teheran la funeraliile fostului ayatollah",
-          "domain": "hotnews.ro",
-          "seendate": "20260706T130000Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-death-call-by-performer-at-irans-khamenei-funeral-draws-cheers/articleshow/132190590.cms",
-          "title": "Trump death call by performer at Iran Ali Khamenei funeral draws cheers",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260705T053000Z"
-        },
-        {
-          "url": "https://kaieteurnewsonline.com/2026/07/07/iranian-mourners-call-for-vengeance-on-trump-during-khamenei-funeral-procession/",
-          "title": "Iranian mourners call for vengeance on Trump during Khamenei funeral procession",
-          "domain": "kaieteurnewsonline.com",
-          "seendate": "20260707T050000Z"
-        },
-        {
-          "url": "https://www.thehindu.com/news/international/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/article71185134.ece",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "thehindu.com",
-          "seendate": "20260705T053000Z"
-        },
-        {
-          "url": "https://www.posta.com.tr/dunya/hamaneyin-cenaze-toreninde-dikkat-ceken-isim-3012173",
-          "title": "Hamaneyin cenaze töreninde dikkat çeken isim",
-          "domain": "posta.com.tr",
-          "seendate": "20260706T113000Z"
-        },
-        {
-          "url": "https://www.sandiegouniontribune.com/2026/07/06/funeral-procession-iran-supreme-leader-ayatollah-ali-khamenei/",
-          "title": "Mourners throng funeral procession for Ayatollah Ali Khamenei in Iran",
-          "domain": "sandiegouniontribune.com",
-          "seendate": "20260706T131500Z"
-        },
-        {
-          "url": "https://www.thehindubusinessline.com/news/world/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/article71185128.ece",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "thehindubusinessline.com",
-          "seendate": "20260705T051500Z"
-        },
-        {
-          "url": "https://hotnews.ro/liderul-iranului-promite-ca-va-razbuna-inevitabil-moartea-tatalui-sau-este-vointa-natiunii-noastre-2297808",
-          "title": "Liderul Iranului promite că va răzbuna „ inevitabil  moartea tatălui său : „ Este voința națiunii noastre  ",
-          "domain": "hotnews.ro",
-          "seendate": "20260711T133000Z"
-        },
-        {
-          "url": "https://globalnews.ca/news/11953575/iran-officials-attend-prayer-ayatollah-ali-khamenei/",
-          "title": "Iran top officials attend prayer for the late Supreme Leader Ayatollah Ali Khamenei - National",
-          "domain": "globalnews.ca",
-          "seendate": "20260705T163000Z"
-        },
-        {
-          "url": "https://www.ipswichstar.co.uk/news/national/26253824.senior-iranian-officials-back-public-eye-funeral-former-leader-khamenei/",
-          "title": "Senior Iranian officials back in public eye at funeral of former leader Khamenei",
-          "domain": "ipswichstar.co.uk",
-          "seendate": "20260705T104500Z"
-        },
-        {
-          "url": "https://www.sabah.com.tr/dunya/iranin-eski-dini-lideri-ali-hamaney-meshedde-topraga-verildi-7619845",
-          "title": "İran  ın eski dini lideri Ali Hamaney Meşhedde toprağa verildi",
-          "domain": "sabah.com.tr",
-          "seendate": "20260710T104500Z"
-        },
-        {
-          "url": "http://www.econotimes.com/Iran-Buries-Ayatollah-Ali-Khamenei-at-Imam-Reza-Shrine-as-Successor-Mojtaba-Remains-Out-of-Public-View-1746409",
-          "title": "Iran Buries Ayatollah Ali Khamenei at Imam Reza Shrine as Successor Mojtaba Remains Out of Public View",
-          "domain": "econotimes.com",
-          "seendate": "20260710T024500Z"
-        },
-        {
-          "url": "https://www.courant.com/2026/07/06/funeral-procession-iran-supreme-leader-ayatollah-ali-khamenei/",
-          "title": "Mourners throng funeral procession for Ayatollah Ali Khamenei in Iran",
-          "domain": "courant.com",
-          "seendate": "20260706T134500Z"
-        },
-        {
-          "url": "https://www.clevelandjewishnews.com/jns/katz-any-iranian-leader-seeking-israels-destruction-will-be-eliminated/article_02b11398-062c-521a-94ee-5daf799d5f73.html",
-          "title": "Katz : Any Iranian leader seeking Israel destruction will be eliminated",
-          "domain": "clevelandjewishnews.com",
-          "seendate": "20260706T101500Z"
-        },
-        {
-          "url": "https://www.seattletimes.com/nation-world/nation/is-an-iran-deal-over-and-war-back-on-a-timeline-of-the-conflict-and-talks/",
-          "title": "Is an Iran deal  over  and war back on ? A timeline of the conflict and talks",
-          "domain": "seattletimes.com",
-          "seendate": "20260708T150000Z"
-        },
-        {
-          "url": "https://www.hurriyet.com.tr/dunya/iranda-yeni-rejim-satranc-tahtasi-yeniden-sekilleniyor-43229331",
-          "title": "İranda yeni rejim : Satranç tahtası yeniden şekilleniyor",
-          "domain": "hurriyet.com.tr",
-          "seendate": "20260705T093000Z"
-        },
-        {
-          "url": "https://www.eremnews.com/news/arab-world/9gltf86",
-          "title": "حزب الله يقيم مراسم رمزية لخامنئي في الضاحية الجنوبية لبيروت",
-          "domain": "eremnews.com",
-          "seendate": "20260709T094500Z"
-        },
-        {
-          "url": "https://dunyanews.tv/en/Event-Reporting/265",
-          "title": "US - Iran peace deal - Khamenei killers will not die  a natural death , says Iranian official amid funeral processions",
-          "domain": "dunyanews.tv",
-          "seendate": "20260706T094500Z"
-        },
-        {
-          "url": "https://www.haaretz.co.il/news/world/europe/2026-07-06/ty-article-magazine/.premium/0000019f-371f-d22f-a9ff-f73fe6980000",
-          "title": "המונים בטהראן נפרדים מחמינאי בפעם האחרונה",
-          "domain": "haaretz.co.il",
-          "seendate": "20260706T124500Z"
-        },
-        {
-          "url": "https://www.kmbc.com/article/calls-for-trump-death-funeral-iran-supreme-leader/71825002",
-          "title": "Performer at funeral for Iran late supreme leader calls for Trump death",
-          "domain": "kmbc.com",
-          "seendate": "20260705T061500Z"
-        },
-        {
-          "url": "https://www.bssnews.net/news-flash/404210",
-          "title": "Iran buries Khamenei after new fighting with US erupts",
-          "domain": "bssnews.net",
-          "seendate": "20260710T060000Z"
-        },
-        {
-          "url": "https://aa.com.tr/en/middle-east/body-of-slain-iranian-supreme-leader-reaches-iraqs-karbala/3992528",
-          "title": "Body of slain Iranian supreme leader reaches Iraq Karbala",
-          "domain": "aa.com.tr",
-          "seendate": "20260708T233000Z"
-        },
-        {
-          "url": "https://dailyinqilab.com/international/news/915189",
-          "title": "বাবার  নির্দোষ রক্তের  প্রতিশোধ নেওয়ার অঙ্গীকার মোজতাবা খামেনির",
-          "domain": "dailyinqilab.com",
-          "seendate": "20260711T124500Z"
-        },
-        {
-          "url": "https://www.eveningnews24.co.uk/news/national/26253797.performer-funeral-iranian-leader-calls-death-trump/",
-          "title": "Performer at funeral of Iranian leader calls for death of Trump",
-          "domain": "eveningnews24.co.uk",
-          "seendate": "20260705T084500Z"
-        },
-        {
-          "url": "https://www.bucksfreepress.co.uk/news/national/26253824.senior-iranian-officials-back-public-eye-funeral-former-leader-khamenei/",
-          "title": "Senior Iranian officials back in public eye at funeral of former leader Khamenei",
-          "domain": "bucksfreepress.co.uk",
-          "seendate": "20260705T110000Z"
-        },
-        {
-          "url": "https://www.birgun.net/haber/iran-da-hamaney-e-son-veda-723029",
-          "title": "İranda Hamaneye son veda",
-          "domain": "birgun.net",
-          "seendate": "20260709T151500Z"
-        },
-        {
-          "url": "https://www.birgun.net/haber/iran-da-hamaney-e-son-veda-723029%20target=_blank%20class=stretched-link",
-          "title": "İranda Hamaneye son veda",
-          "domain": "birgun.net",
-          "seendate": "20260709T150000Z"
-        },
-        {
-          "url": "https://www.lancashiretelegraph.co.uk/news/national/26253797.performer-former-iranian-supreme-leaders-funeral-calls-death-trump/",
-          "title": "Performer at former Iranian supreme leader funeral calls for death of Trump",
-          "domain": "lancashiretelegraph.co.uk",
-          "seendate": "20260705T051500Z"
-        },
-        {
-          "url": "https://newtalk.tw/news/view/2026-07-07/1045785",
-          "title": " ( 影 ) 用AI造人潮被抓包 ? 伊稱哈梅內伊國葬數千萬人送別 網曝實際畫面質疑 | 國際",
-          "domain": "newtalk.tw",
-          "seendate": "20260707T100000Z"
-        },
-        {
-          "url": "https://www.chicagotribune.com/2026/07/05/iran-prayer-supreme-leader-ayatollah-ali-khamenei/",
-          "title": "Officials attend prayer for Supreme Leader Ayatollah Ali Khamenei",
-          "domain": "chicagotribune.com",
-          "seendate": "20260705T180000Z"
-        },
-        {
-          "url": "https://www.seattletimes.com/nation-world/nation/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/",
-          "title": "Iran top officials attend prayer for the late Supreme Leader Ayatollah Ali Khamenei in Tehran",
-          "domain": "seattletimes.com",
-          "seendate": "20260705T073000Z"
-        },
-        {
-          "url": "https://www.geo.tv/latest/671721-khamenei-funeral-procession-begins-in-tehran-as-huge-crowds-expected",
-          "title": "Khamenei funeral procession begins in Tehran as huge crowds expected",
-          "domain": "geo.tv",
-          "seendate": "20260706T090000Z"
-        },
-        {
-          "url": "https://whdh.com/news/irans-top-officials-attend-prayer-for-the-late-supreme-leader-ayatollah-ali-khamenei-in-tehran/",
-          "title": "Iran top officials attend prayer for the late Supreme Leader Ayatollah Ali Khamenei in Tehran - Boston News , Weather , Sports",
-          "domain": "whdh.com",
-          "seendate": "20260705T130000Z"
-        },
-        {
-          "url": "https://www.independent.co.uk/news/world/middle-east/ayatollah-ali-khamenei-funeral-sons-iran-b3009229.html",
-          "title": "Khamenei three sons attend his funeral in Tehran – but not his successor",
-          "domain": "independent.co.uk",
-          "seendate": "20260705T184500Z"
-        },
-        {
-          "url": "https://www.perthnow.com.au/news/conflict/three-of-slain-iran-leaders-four-sons-attend-funeral-c-22534595",
-          "title": "Three of slain Iran leader four sons attend funeral",
-          "domain": "perthnow.com.au",
-          "seendate": "20260705T190000Z"
-        },
-        {
-          "url": "https://www.theargus.co.uk/news/national/26253797.performer-former-iranian-supreme-leaders-funeral-calls-death-trump/",
-          "title": "Performer at former Iranian supreme leader funeral calls for death of Trump",
-          "domain": "theargus.co.uk",
-          "seendate": "20260705T053000Z"
-        },
-        {
-          "url": "https://www.echo-news.co.uk/news/national/26253797.performer-former-iranian-supreme-leaders-funeral-calls-death-trump/",
-          "title": "Performer at former Iranian supreme leader funeral calls for death of Trump",
-          "domain": "echo-news.co.uk",
-          "seendate": "20260705T053000Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/world-news/dramatic-raid-iran-19-arrested-2-killed-israel-blamed",
-          "title": "פשיטה דרמטית באיראן : 19 נעצרו ו - 2 חוסלו – איראן מאשימה את ישראל",
-          "domain": "kikar.co.il",
-          "seendate": "20260705T103000Z"
-        },
-        {
-          "url": "https://www.turkiyegazetesi.com.tr/dunya/torenler-bir-hafta-surdu-hamaneyin-cenazesi-bugun-defnedilecek-1802126",
-          "title": "Törenler bir hafta sürdü : Hamaneyin cenazesi bugün defnedilecek",
-          "domain": "turkiyegazetesi.com.tr",
-          "seendate": "20260709T011500Z"
-        },
-        {
-          "url": "https://www.dw.com/en/iran-millions-flock-to-ali-khameneis-funeral-procession/a-77846937",
-          "title": "Iran : Millions flock to Ali Khamenei funeral procession",
-          "domain": "dw.com",
-          "seendate": "20260706T103000Z"
-        },
-        {
-          "url": "https://www.salisburyjournal.co.uk/news/national/26253797.performer-former-iranian-supreme-leaders-funeral-calls-death-trump/",
-          "title": "Performer at former Iranian supreme leader funeral calls for death of Trump",
-          "domain": "salisburyjournal.co.uk",
-          "seendate": "20260705T053000Z"
-        },
-        {
-          "url": "https://www.hurriyet.com.tr/dunya/iranin-eski-dini-lideri-ali-hamaney-meshedde-topraga-verildi-43234760",
-          "title": "İran  ın eski dini lideri Ali Hamaney Meşhedde toprağa verildi - Hürriyet En Son Haberler",
-          "domain": "hurriyet.com.tr",
-          "seendate": "20260710T024500Z"
-        },
-        {
-          "url": "https://aa.com.tr/en/middle-east/body-of-slain-iranian-supreme-leader-arrives-in-iraq-ahead-of-procession/3989662",
-          "title": "Body of slain Iranian supreme leader arrives in Iraq ahead of procession",
-          "domain": "aa.com.tr",
-          "seendate": "20260707T214500Z"
-        },
-        {
-          "url": "https://www.abc.net.au/news/2026-07-07/iran-al-ikhamenei-funeral-procession/106887000",
-          "title": "Mourners throng funeral procession in Tehran for Iran supreme leader ayatollah Ali Khamenei",
-          "domain": "abc.net.au",
-          "seendate": "20260706T214500Z"
-        },
-        {
-          "url": "https://dorzeczy.pl/swiat/913645/modztaba-chamenei-zapowiada-zemste-musi-nastapic.html",
-          "title": "Modżtaba Chamenei zapowiada zemstę .  Musi nastąpić  ",
-          "domain": "dorzeczy.pl",
-          "seendate": "20260711T183000Z"
-        },
-        {
-          "url": "http://www.thegazette.com/news/world/irans-top-officials-attend-prayer-for-the-late-supreme-leader-ayatollah-ali-khamenei-in-tehran/article_a7a87e21-481e-5d76-90d6-9e580e41d448.html",
-          "title": "Iran top officials attend prayer for the late Supreme Leader Ayatollah Ali Khamenei in Tehran",
-          "domain": "thegazette.com",
-          "seendate": "20260705T093000Z"
-        },
-        {
-          "url": "https://www.stiripesurse.ro/mojtaba-khamenei-lider-suprem-iran-absenta-funeralii_3901217",
-          "title": "Unde este Mojtaba Khamenei ? Absență de impact în Iran",
-          "domain": "stiripesurse.ro",
-          "seendate": "20260707T070000Z"
-        },
-        {
-          "url": "https://www.asiaone.com:443/world/performer-calls-trumps-death-funeral-irans-late-supreme-leader",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "asiaone.com",
-          "seendate": "20260705T084500Z"
-        },
-        {
-          "url": "https://www.rp.pl/polityka/art44775891-miliony-ludzi-na-ulicach-teheranu-poeta-wzywa-do-zabojstwa-donalda-trumpa",
-          "title": "Wielkie uroczystości pogrzebowe Alego Chameneiego . To sygnał Iranu dla united states i Izraela",
-          "domain": "rp.pl",
-          "seendate": "20260706T133000Z"
-        },
-        {
-          "url": "https://www.yeniakit.com.tr/yazarlar/mehmet-kocak/tarihi-cenaze-merasiminde-her-kesime-derin-mesajlar-53111.html",
-          "title": "Tarihi cenaze merasiminde her kesime derin mesajlar … ",
-          "domain": "yeniakit.com.tr",
-          "seendate": "20260707T224500Z"
-        },
-        {
-          "url": "https://www.dailylocal.com/2026/07/06/funeral-procession-iran-supreme-leader-ayatollah-ali-khamenei/",
-          "title": "Mourners throng funeral procession for Ayatollah Ali Khamenei in Iran",
-          "domain": "dailylocal.com",
-          "seendate": "20260706T130000Z"
-        },
-        {
-          "url": "https://www.haberturk.com/dunya/netanyahu-turkiye-aleyhine-cagri-yapti-3896634",
-          "title": "Netanyahu , Türkiye aleyhine çağrı yaptı - Dünyadan Haberler",
-          "domain": "haberturk.com",
-          "seendate": "20260706T163000Z"
-        },
-        {
-          "url": "https://dailypioneer.com/news/irans-top-officials-attend-prayer-for-late-supreme-leader-khamenei-in-tehran",
-          "title": "Iran Holds Massive Funeral for Ayatollah Khamenei Amid Rising Anti - US and Anti - Israel Tensions",
-          "domain": "dailypioneer.com",
-          "seendate": "20260706T070000Z"
-        },
-        {
-          "url": "https://nationalpost.com/news/iran-foreign-minister-hamas-hezbollah-ali-khamenei-funeral",
-          "title": "Iranian foreign minister meets with terrorist allies in Tehran : report",
-          "domain": "nationalpost.com",
-          "seendate": "20260705T203000Z"
-        },
-        {
-          "url": "https://www.rp.pl/spoleczenstwo/art44783761-100-mln-dolarow-za-glowe-trumpa-wezwania-do-zemsty-na-pogrzebie-chameneiego",
-          "title": "100 mln dolarów za głowę Trumpa . W Iranie rosną nastroje odwetu",
-          "domain": "rp.pl",
-          "seendate": "20260707T153000Z"
-        },
-        {
-          "url": "https://dorzeczy.pl/swiat/912952/iran-ali-chamenei-zostal-pochowany-w-meszhedzie.html",
-          "title": "Iran . Ali Chamenei został pochowany w Meszhedzie",
-          "domain": "dorzeczy.pl",
-          "seendate": "20260710T103000Z"
-        },
-        {
-          "url": "https://www.portfolio.hu/global/20260710/azt-hittek-kiiktatasaval-egy-csapasra-megnyerhetik-a-haborut-eltemettek-ali-hameneit-848712",
-          "title": "Azt hitték , kiiktatásával egy csapásra megnyerhetik a háborút - Eltemették Ali Hameneit",
-          "domain": "portfolio.hu",
-          "seendate": "20260710T063000Z"
-        },
-        {
-          "url": "https://panow.com/2026/07/04/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "panow.com",
-          "seendate": "20260705T070000Z"
-        },
-        {
-          "url": "https://indianexpress.com/article/world/trump-netanyahu-knows-who-boss-is-white-house-meeting-us-israel-relations-10771940/",
-          "title": "  He knows who the boss i : Trump signals White House meeting with Netanyahu next week",
-          "domain": "indianexpress.com",
-          "seendate": "20260705T040000Z"
-        },
-        {
-          "url": "https://www.stcatharinesstandard.ca/news/world/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/article_d57b8e55-3dcb-553b-9d9c-47be32ffca53.html",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "stcatharinesstandard.ca",
-          "seendate": "20260705T074500Z"
-        },
-        {
-          "url": "https://www.haberler.com/guncel/iran-da-hamaney-icin-tahran-da-cenaze-toreni-duzenlendi-20020187-haberi/",
-          "title": "İran  ın eski lideri Hamaney için Tahranda cenaze namazı kılındı",
-          "domain": "haberler.com",
-          "seendate": "20260705T053000Z"
-        },
-        {
-          "url": "https://timesofoman.com/article/174012-iran-millions-flock-to-ali-khameneis-funeral-procession",
-          "title": "Iran : Millions flock to Ali Khamenei funeral procession",
-          "domain": "timesofoman.com",
-          "seendate": "20260706T124500Z"
-        },
-        {
-          "url": "https://www.express.co.uk/news/world/2227150/iran-supreme-leader-break-cover",
-          "title": "Iran Supreme Leader Mojtaba Khamenei to break cover for first time | World | News",
-          "domain": "express.co.uk",
-          "seendate": "20260709T104500Z"
-        },
-        {
-          "url": "https://www.theboltonnews.co.uk/news/national/26253797.performer-former-iranian-supreme-leaders-funeral-calls-death-trump/",
-          "title": "Performer at former Iranian supreme leader funeral calls for death of Trump",
-          "domain": "theboltonnews.co.uk",
-          "seendate": "20260705T053000Z"
-        },
-        {
-          "url": "https://www.samaa.tv/2087353091-three-of-ali-khamenei-s-sons-appear-at-funeral-not-successor",
-          "title": "Three of Ali Khamenei sons appear at funeral , not successor",
-          "domain": "samaa.tv",
-          "seendate": "20260706T084500Z"
-        },
-        {
-          "url": "https://www.haberler.com/politika/iran-dini-lideri-mucteba-hamaney-ali-hamaney-in-20042072-haberi/",
-          "title": "İran dini lideri Mücteba Hamaney :  Ali Hamaneyin intikamını alacağımıza söz veriyoruz  ",
-          "domain": "haberler.com",
-          "seendate": "20260711T140000Z"
-        },
-        {
-          "url": "https://www.gercekgundem.com/dunya/eski-iran-dini-lideri-hamaneye-meshed-kentinde-son-veda-savas-ucaklarinin-golgesinde-cenaze-toreni-574652",
-          "title": "Eski İran Dini Lideri Hamaneye Meşhed Kentinde Son Veda : Savaş Uçaklarının Gölgesinde Cenaze Töreni",
-          "domain": "gercekgundem.com",
-          "seendate": "20260709T161500Z"
-        },
-        {
-          "url": "https://www.channelnewsasia.com/world/iran-supreme-leader-khamenei-funeral-burial-6243061",
-          "title": "Iran to bury slain Supreme Leader Khamenei in culmination of mass funeral",
-          "domain": "channelnewsasia.com",
-          "seendate": "20260709T100000Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/886367/kill-trump-mourning-and-anger-in-tehran-10-million-say-goodbye-to-ali-khamenei-the-funeral-procession-will-last-12-hours",
-          "title": "  Kill Trump  – Mourning and anger in Tehran , 10 million say goodbye to Ali Khamenei – The funeral procession will last 12 hours",
-          "domain": "bankingnews.gr",
-          "seendate": "20260706T084500Z"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/red-flags-storm-iran-streets-as-mourners-attend-ayatollah-ali-khamenei-funeral-in-tehran-but-what-do-they-signify-101783331183183.html",
-          "title": "  Red flag storm Iran streets as mourners attend Khamenei funeral . But what do they signify ? ",
-          "domain": "hindustantimes.com",
-          "seendate": "20260706T161500Z"
-        },
-        {
-          "url": "http://global.chinadaily.com.cn/a/202607/07/WS6a4c5202a310986e2b463d54.html",
-          "title": "Iran mourns as US president jab sparks fury",
-          "domain": "global.chinadaily.com.cn",
-          "seendate": "20260707T053000Z"
-        },
-        {
-          "url": "https://www.news24.com/world/ali-khameneis-funeral-procession-begins-in-iran-but-new-supreme-leader-absent-20260706-0315",
-          "title": "Ali Khamenei funeral procession begins in Iran , but new supreme leader absent",
-          "domain": "news24.com",
-          "seendate": "20260706T060000Z"
-        },
-        {
-          "url": "https://www.breakingnews.ie/world/senior-iranian-officials-back-in-public-eye-at-funeral-of-former-leader-khamenei-1922501.html",
-          "title": "Senior Iranian officials back in public eye at funeral of former leader Khamenei",
-          "domain": "breakingnews.ie",
-          "seendate": "20260705T084500Z"
-        },
-        {
-          "url": "https://mfor.hu/cikkek/kulpolitika/messze-meg-a-nyugvopont-iran-legfobb-vezetoje-bosszut-igert-ali-hamenei-halalaert.html",
-          "title": "Messze még a nyugvópont : Irán legfőbb vezetője bosszút ígrt Ali Hamenei halálrt",
-          "domain": "mfor.hu",
-          "seendate": "20260711T163000Z"
-        },
-        {
-          "url": "https://hu.euronews.com/2026/07/05/donald-trump-megolesere-szolitott-fel-ali-hamenei-irani-ajantollah-temetesen-a-szertartas-",
-          "title": "Donald Trump megölésére szólított fel Ali Hamenei iráni ajantollah temetésén a szertartás szónoka",
-          "domain": "hu.euronews.com",
-          "seendate": "20260705T103000Z"
-        },
-        {
-          "url": "https://www.star.com.tr/yazar/suriyedeki-sii-kurbanlari-icin-de-agladiniz-mi-yazi-2026422/",
-          "title": "Suriyedeki  Þiî kurbanlarý  için de aðladýnýz mý ? - Yazarlar - Nuh ALBAYRAK",
-          "domain": "star.com.tr",
-          "seendate": "20260707T050000Z"
-        },
-        {
-          "url": "https://www.dailysabah.com/world/mid-east/khamenei-buried-as-iran-mourns-fights-reckons-with-divided-legacy",
-          "title": "Khamenei buried as Iran mourns , fights , reckons with divided legacy",
-          "domain": "dailysabah.com",
-          "seendate": "20260710T110000Z"
-        },
-        {
-          "url": "https://www.index.hr/vijesti/clanak/izrael-spremni-smo-napasti-iran-i-treci-put-ako-je-potrebno/2811805.aspx",
-          "title": "Izrael : Spremni smo napasti Iran i treći put ako je potrebno",
-          "domain": "index.hr",
-          "seendate": "20260709T193000Z"
-        },
-        {
-          "url": "https://dailyinqilab.com/international/news/912720",
-          "title": "খামেনির জানাজায় অংশ নিলেন তার ৩ ছেলে",
-          "domain": "dailyinqilab.com",
-          "seendate": "20260705T084500Z"
-        },
-        {
-          "url": "https://ujszo.com/kulfold/iran-legfobb-vezetoje-bosszut-igert-elodje-es-apja-ali-hamenei-halalaert",
-          "title": "Irán legfőbb vezetője bosszút ígrt elődje és apja , Ali Hamenei halálrt",
-          "domain": "ujszo.com",
-          "seendate": "20260711T124500Z"
-        },
-        {
-          "url": "https://www.haberturk.com/dunya/israil-savunma-bakani-katz-dan-hamaney-in-olumu-uzerinden-iranli-liderlere-tehdit-3896517",
-          "title": "İsrail Savunma Bakanı Katzdan Hamaneyin ölümü üzerinden İranlı liderlere tehdit - Dünya Haberleri",
-          "domain": "haberturk.com",
-          "seendate": "20260706T084500Z"
-        },
-        {
-          "url": "https://www.mzamin.com/article/26913",
-          "title": "কোমে খামেনির স্মরণে নজিরবিহীন শোকযাত্রা",
-          "domain": "mzamin.com",
-          "seendate": "20260707T140000Z"
-        },
-        {
-          "url": "https://nypost.com/2026/07/06/world-news/iranian-loyalists-vow-to-assassinate-trump-during-ayatollah-khameneis-funeral/",
-          "title": "Iranian loyalists vow to assassinate Trump during Ayatollah Khamenei funeral",
-          "domain": "nypost.com",
-          "seendate": "20260707T000000Z"
-        },
-        {
-          "url": "https://www.dawn.com/news/2014015/khamenei-to-be-laid-to-rest-today-in-mashhad",
-          "title": "Khamenei to be laid to rest today in Mashhad - World",
-          "domain": "dawn.com",
-          "seendate": "20260709T070000Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-ali-khamenei-funeral-west-asia-conflict-strait-of-hormuz-trump-latest-warning-news/liveblog/132190092.cms",
-          "title": "Iran War News Live Updates : Prayers to be held over Ali Khamenei casket as funeral enters second day",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260705T040000Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/iran-news/article-902104",
-          "title": "Iran diplomacy continues amid Khamenei funeral , airstrikes , US official says",
-          "domain": "jpost.com",
-          "seendate": "20260710T083000Z"
-        },
-        {
-          "url": "https://www.eveningnews24.co.uk/news/national/26253824.senior-iranian-officials-back-public-eye-funeral-former-leader-khamenei/",
-          "title": "Senior Iranian officials back in public eye at funeral of former leader Khamenei",
-          "domain": "eveningnews24.co.uk",
-          "seendate": "20260705T084500Z"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/call-for-trumps-death-echoes-from-khamenei-funeral-stage-our-duty-to-kill-him-why-is-he-still-alive-101783226216876.html",
-          "title": "Call for Trump death echoes from Khamenei funeral stage :  Our duty to kill him  ",
-          "domain": "hindustantimes.com",
-          "seendate": "20260705T060000Z"
-        },
-        {
-          "url": "https://arabic.euronews.com/2026/07/06/kataib-hezbollah-representatives-ahmadinejad-seen-attending-the-third-day-of-khameneis",
-          "title": "بعد اتهامات طالته واختفاء أثار التكهنات .. أحمدي نجاد يظهر في جنازة خامنئي",
-          "domain": "arabic.euronews.com",
-          "seendate": "20260706T130000Z"
-        },
-        {
-          "url": "https://www.iha.com.tr/haber-tahranda-hamaneyin-cenaze-namazi-kilindi-1196716",
-          "title": "Tahranda Hamaneyin cenaze namazı kılındı İhlas Haber Ajansı",
-          "domain": "iha.com.tr",
-          "seendate": "20260705T131500Z"
-        },
-        {
-          "url": "https://www.posta.com.tr/dunya/iranin-eski-lideri-hamaney-meshedde-son-yolculuguna-ugurlandi-3013616",
-          "title": "İran  ın eski lideri Hamaney Meşhedde son yolculuğuna uğurlandı - Son Dakika Dünya Haberleri",
-          "domain": "posta.com.tr",
-          "seendate": "20260710T083000Z"
-        },
-        {
-          "url": "https://www.wsls.com/news/world/2026/07/05/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/",
-          "title": "Iran top officials attend prayer for the late Supreme Leader Ayatollah Ali Khamenei in Tehran",
-          "domain": "wsls.com",
-          "seendate": "20260705T073000Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/rjeu0qk4mx",
-          "title": "אחרי שנעדר מהלוויית אביו , מוג  תבא שוב מאיים - לא בקולו :  מתחייבים לנקום  ",
-          "domain": "ynet.co.il",
-          "seendate": "20260711T114500Z"
-        },
-        {
-          "url": "https://www.timescall.com/2026/07/06/funeral-procession-iran-supreme-leader-ayatollah-ali-khamenei/",
-          "title": "Mourners throng funeral procession for Ayatollah Ali Khamenei in Iran",
-          "domain": "timescall.com",
-          "seendate": "20260706T130000Z"
-        },
-        {
-          "url": "https://www.tribuneindia.com/news/world/three-sons-of-irans-slain-leader-khamenei-attend-funeral-successor-mojtaba-skips/",
-          "title": "Three sons of Iran slain leader Khamenei attend funeral , successor Mojtaba skips",
-          "domain": "tribuneindia.com",
-          "seendate": "20260705T173000Z"
-        },
-        {
-          "url": "https://dailyinqilab.com/international/news/913066",
-          "title": "খামেনিকে হত্যার মূল কারণ ফিলিস্তিনিদের সমর্থন : হুথি",
-          "domain": "dailyinqilab.com",
-          "seendate": "20260706T041500Z"
-        },
-        {
-          "url": "https://444.hu/2026/07/05/hamenei-temetesen-a-harom-fia-is-megjelent-utodja-viszont-nem-volt-ott",
-          "title": "Hamenei temetésén a három fia is megjelent , utódja viszont nem volt ott",
-          "domain": "444.hu",
-          "seendate": "20260705T163000Z"
-        },
-        {
-          "url": "https://www.arabnews.com/node/2649740/middle-east",
-          "title": "Three sons of Iran slain leader Khamenei appear at funeral , not his successor",
-          "domain": "arabnews.com",
-          "seendate": "20260705T134500Z"
-        },
-        {
-          "url": "https://www.jpost.com/international/article-902134",
-          "title": "Donald Trump leaves instructions in case of his assassination by Iran",
-          "domain": "jpost.com",
-          "seendate": "20260710T211500Z"
-        },
-        {
-          "url": "http://www.jpost.com/international/article-902134",
-          "title": "Donald Trump leaves instructions in case of his assassination by Iran",
-          "domain": "jpost.com",
-          "seendate": "20260710T201500Z"
-        },
-        {
-          "url": "https://theshillongtimes.com/2026/07/07/mourners-flood-tehran-vow-revenge-for-khamenei/",
-          "title": "Mourners flood Tehran , vow revenge for Khamenei - The Shillong Times",
-          "domain": "theshillongtimes.com",
-          "seendate": "20260707T023000Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202607090245045819",
-          "title": "이란  미국이 MOU 위반 … 미군 한 명도 살아 돌아가지 못할 것  ",
-          "domain": "fnnews.com",
-          "seendate": "20260708T214500Z"
-        },
-        {
-          "url": "https://www.durangoherald.com/articles/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "durangoherald.com",
-          "seendate": "20260705T051500Z"
-        },
-        {
-          "url": "https://www.theyeshivaworld.com/news/israel-news/2572962/israel-signals-readiness-netanyahu-says-war-isnt-over-katz-threatens-new-strikes-if-needed.html",
-          "title": "ISRAEL SIGNALS READINESS : Netanyahu Says War Isnt Over , Katz Threatens New Strikes If Needed – The Yeshiva World",
-          "domain": "theyeshivaworld.com",
-          "seendate": "20260709T184500Z"
-        },
-        {
-          "url": "https://www.modernghana.com/news/1508925/huge-crowds-flood-iraqs-holy-cities-for-khamenei.html",
-          "title": "Huge crowds flood Iraq holy cities for Khamenei funeral procession",
-          "domain": "modernghana.com",
-          "seendate": "20260708T170000Z"
-        },
-        {
-          "url": "https://www.ensonhaber.com/mucteba-hamaneyden-babasi-icin-intikam-sozu-h1549189",
-          "title": "Mücteba Hamaneyden babası için  intikam  sözü",
-          "domain": "ensonhaber.com",
-          "seendate": "20260711T121500Z"
-        },
-        {
-          "url": "https://dailypioneer.com/news/calls-to-assassinate-trump-echo-at-khameneis-funeral-as-anti-us-chants-intensify",
-          "title": "Calls to Assassinate Trump Emerge During Khamenei Funeral in Tehran",
-          "domain": "dailypioneer.com",
-          "seendate": "20260705T121500Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202607060934134130",
-          "title": "하메네이 장례식에 아직 나타나지 않은 후계자 … 건강이상설 증폭",
-          "domain": "fnnews.com",
-          "seendate": "20260706T030000Z"
-        },
-        {
-          "url": "https://www.almasryalyoum.com/news/details/4309659",
-          "title": "واشنطن تضغط لفتح « هرمز » بالكامل عبر المفاوضات مع إيران",
-          "domain": "almasryalyoum.com",
-          "seendate": "20260707T071500Z"
-        },
-        {
-          "url": "https://isp.netscape.com:443/news/world/story/0001/20260705/9c2641e5bc540e5943dd39b95d4f02f8",
-          "title": "Iran top officials attend prayer for the late Supreme Leader Ayatollah Ali Khamenei in Tehran",
-          "domain": "isp.netscape.com",
-          "seendate": "20260705T073000Z"
-        },
-        {
-          "url": "https://kvia.com/news/us-world/cnn-world/2026/07/09/irans-supreme-leader-missed-his-fathers-momentous-funeral-now-what/",
-          "title": "Iran supreme leader missed his father momentous funeral – now what ? ",
-          "domain": "kvia.com",
-          "seendate": "20260710T034500Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/why-should-we-not-kill-the-man-who-killed-my-imam-calls-to-assassinate-trump-ring-out-at-khameneis-funeral/articleshow/132191271.cms",
-          "title": "  Why should we not kill the man who killed my Imam ? Calls to assassinate Trump ring out at Khamenei funeral",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260705T073000Z"
-        },
-        {
-          "url": "http://www.idahopress.com/news/world/irans-top-officials-attend-prayer-for-the-late-supreme-leader-ayatollah-ali-khamenei-in-tehran/article_2ec3e92a-3f8b-54a9-aac7-ecca0e6d1fbb.html",
-          "title": "Iran top officials attend prayer for the late Supreme Leader Ayatollah Ali Khamenei in Tehran",
-          "domain": "idahopress.com",
-          "seendate": "20260705T093000Z"
-        },
-        {
-          "url": "https://www.mzamin.com/article/27457",
-          "title": "পিতার শেষ বিদায়েও আড়ালেই মোজতবা , কী লুকাচ্ছে ইরান ? ",
-          "domain": "mzamin.com",
-          "seendate": "20260710T140000Z"
-        },
-        {
-          "url": "https://www.alwatan.com.sa/article/1182649",
-          "title": "موكب خامنئي يتحدى وترمب يعد بإنهاء المهمة",
-          "domain": "alwatan.com.sa",
-          "seendate": "20260706T220000Z"
-        },
-        {
-          "url": "https://www.aa.com.tr/tr/dunya/abd-saldirisinda-hayatini-kaybeden-eski-iran-lideri-hamaney-icin-meshed-de-cenaze-toreni-duzenlendi/3993338",
-          "title": "ABD saldırısında hayatını kaybeden eski İran lideri Hamaney için Meşhedde cenaze töreni düzenlendi",
-          "domain": "aa.com.tr",
-          "seendate": "20260709T164500Z"
-        },
-        {
-          "url": "https://stirileprotv.ro/stiri/international/razbunarea-va-veni-inevitabil-mesajul-noului-lider-suprem-al-iranului-la-cateva-luni-dupa-uciderea-tatalui-sau.html",
-          "title": " „ Răzbunarea va veni , inevitabil . Mesajul noului lider suprem al Iranului , la câteva luni după uciderea tatălui său",
-          "domain": "stirileprotv.ro",
-          "seendate": "20260711T134500Z"
-        },
-        {
-          "url": "https://www.indiatvnews.com/news/world/in-first-remark-since-father-s-funeral-iran-s-mojtaba-khamenei-vows-inevitable-revenge-2026-07-11-1047924",
-          "title": "In first remark since father funeral , Iran Mojtaba Khamenei vows  inevitable  revenge | World",
-          "domain": "indiatvnews.com",
-          "seendate": "20260711T133000Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/07/09/iran-buries-slain-supreme-leader-in-culmination-of-mass-funeral",
-          "title": "Iran buries slain Supreme Leader Ali Khamenei in Mashhad",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260709T174500Z"
-        },
-        {
-          "url": "https://www.turkiyegazetesi.com.tr/dunya/iranin-dini-lideri-mucteba-hamaneyden-intikam-sozu-1802622",
-          "title": "İran  ın dini lideri Mücteba Hamaneyden intikam sözü",
-          "domain": "turkiyegazetesi.com.tr",
-          "seendate": "20260711T124500Z"
-        },
-        {
-          "url": "https://www.oxfordmail.co.uk/news/national/26253824.senior-iranian-officials-back-public-eye-funeral-former-leader-khamenei/",
-          "title": "Senior Iranian officials back in public eye at funeral of former leader Khamenei",
-          "domain": "oxfordmail.co.uk",
-          "seendate": "20260705T090000Z"
-        },
-        {
-          "url": "https://krdo.com/news/2026/07/09/irans-supreme-leader-missed-his-fathers-momentous-funeral-now-what/",
-          "title": "Iran supreme leader missed his father momentous funeral – now what ? ",
-          "domain": "krdo.com",
-          "seendate": "20260710T034500Z"
-        },
-        {
-          "url": "https://lasvegassun.com/news/2026/jul/03/iran-begins-dayslong-funeral-for-supreme-leader-ay/",
-          "title": "Iran begins dayslong funeral for Supreme Leader Ayatollah Ali Khamenei , killed in war - Las Vegas Sun News",
-          "domain": "lasvegassun.com",
-          "seendate": "20260705T040000Z"
-        },
-        {
-          "url": "http://usa.chinadaily.com.cn/a/202607/06/WS6a4afc39a310986e2b463a29.html",
-          "title": "Iranians pray for slain leader Khamenei",
-          "domain": "usa.chinadaily.com.cn",
-          "seendate": "20260706T131500Z"
-        },
-        {
-          "url": "https://www.niagarafallsreview.ca/news/world/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/article_87cb93bb-7105-58c3-bd9f-7048bec10b1a.html",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "niagarafallsreview.ca",
-          "seendate": "20260705T074500Z"
-        },
-        {
-          "url": "https://www.mediafax.ro/externe/mojtaba-khamenei-promite-razbunarea-pentru-moartea-lui-ali-khamenei-23770620",
-          "title": "Mojtaba Khamenei promite răzbunarea pentru moartea lui Ali Khamenei . Ce mesaj transmite liderul",
-          "domain": "mediafax.ro",
-          "seendate": "20260711T133000Z"
-        },
-        {
-          "url": "http://www.somdnews.com/ap/world/performer-calls-for-trumps-death-at-funeral-for-irans-late-supreme-leader/article_085f51d9-3489-502b-ab1e-2574d7562648.html",
-          "title": "Performer calls for Trump death at funeral for Iran late supreme leader",
-          "domain": "somdnews.com",
-          "seendate": "20260705T053000Z"
-        },
-        {
-          "url": "https://www.asiaone.com/asia/khameneis-other-sons-appear-his-funeral-iran-new-supreme-leader-remains-hiding",
-          "title": "Khamenei other sons appear at his funeral in Iran as new supreme leader remains in hiding",
-          "domain": "asiaone.com",
-          "seendate": "20260706T054500Z"
-        },
-        {
-          "url": "https://www.staradvertiser.com/2026/07/05/breaking-news/3-sons-of-irans-slain-leader-appear-at-funeral-not-his-successor/",
-          "title": "3 sons of Iran slain leader appear at funeral , not his successor",
-          "domain": "staradvertiser.com",
-          "seendate": "20260706T011500Z"
-        },
-        {
-          "url": "http://www.dailyadvance.com/news/world/irans-top-officials-attend-prayer-for-the-late-supreme-leader-ayatollah-ali-khamenei-in-tehran/article_cc129fdb-2efb-5c6d-8821-0509fc49a3ba.html",
-          "title": "Iran top officials attend prayer for the late Supreme Leader Ayatollah Ali Khamenei in Tehran",
-          "domain": "dailyadvance.com",
-          "seendate": "20260705T073000Z"
-        },
-        {
-          "url": "https://abc11.com/post/us-iran-news-calls-revenge-senior-iranian-officials-appear-public-ayatollah-ali-khamenei-funeral/19453072/",
-          "title": "US - Iran news : Calls for revenge as senior Iranian officials appear in public for Ayatollah Ali Khamenei funeral",
-          "domain": "abc11.com",
-          "seendate": "20260705T171500Z"
-        },
-        {
-          "url": "https://www.pilotonline.com/2026/07/04/khameneis-other-sons-appear-at-his-funeral-in-iran-as-new-supreme-leader-remains-in-hiding/",
-          "title": "Khamenei other sons appear at his funeral in Iran as new supreme leader remains in hiding – The Virginian - Pilot",
-          "domain": "pilotonline.com",
-          "seendate": "20260705T200000Z"
-        },
-        {
-          "url": "https://abc13.com/post/us-iran-news-calls-revenge-senior-iranian-officials-appear-public-ayatollah-ali-khamenei-funeral/19453072/",
-          "title": "US - Iran news : Calls for revenge as senior Iranian officials appear in public for Ayatollah Ali Khamenei funeral",
-          "domain": "abc13.com",
-          "seendate": "20260705T190000Z"
-        },
-        {
-          "url": "https://abc7chicago.com/post/us-iran-news-calls-revenge-senior-iranian-officials-appear-public-ayatollah-ali-khamenei-funeral/19453072/",
-          "title": "US - Iran news : Calls for revenge as senior Iranian officials appear in public for Ayatollah Ali Khamenei funeral",
-          "domain": "abc7chicago.com",
-          "seendate": "20260705T183000Z"
-        },
-        {
-          "url": "https://www.canberratimes.com.au/story/9304718/calls-for-trumps-death-at-iran-leaders-funeral/",
-          "title": "Calls for Trump death at Iran leader funeral",
-          "domain": "canberratimes.com.au",
-          "seendate": "20260705T051500Z"
-        },
-        {
-          "url": "https://www.albayan.ae/news/middle-east/iran/1485552",
-          "title": "ترامب يعيد معادلة إيران .. اتفاق أو « إنهاء المهمة » عسكرياً",
-          "domain": "albayan.ae",
-          "seendate": "20260706T234500Z"
-        },
-        {
-          "url": "https://www.local10.com/news/2026/07/05/khameneis-other-sons-appear-at-his-funeral-in-iran-as-new-supreme-leader-remains-in-hiding/",
-          "title": "Khamenei other sons appear at his funeral in Iran as new supreme leader remains in hiding",
-          "domain": "local10.com",
-          "seendate": "20260706T010000Z"
-        },
-        {
-          "url": "https://www.smdailyjournal.com/news/world/mourners-throng-funeral-procession-in-tehran-for-irans-supreme-leader-ayatollah-ali-khamenei/article_09a8590e-0100-5359-8351-168730d00cf5.html",
-          "title": "Mourners throng funeral procession in Tehran for Iran Supreme Leader Ayatollah Ali Khamenei",
-          "domain": "smdailyjournal.com",
-          "seendate": "20260706T160000Z"
-        },
-        {
-          "url": "https://abc7.com/post/us-iran-news-calls-revenge-senior-iranian-officials-appear-public-ayatollah-ali-khamenei-funeral/19453072/",
-          "title": "US - Iran news : Calls for revenge as senior Iranian officials appear in public for Ayatollah Ali Khamenei funeral",
-          "domain": "abc7.com",
-          "seendate": "20260705T170000Z"
-        },
-        {
-          "url": "https://abc7news.com/post/us-iran-news-calls-revenge-senior-iranian-officials-appear-public-ayatollah-ali-khamenei-funeral/19453072/",
-          "title": "US - Iran news : Calls for revenge as senior Iranian officials appear in public for Ayatollah Ali Khamenei funeral",
-          "domain": "abc7news.com",
-          "seendate": "20260705T190000Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=09072026&id=d269fc63-151e-4cf6-a4a3-8e1512ba4396",
-          "title": "إيران تستعد لدفن جثمان خامنئي في مدينة مشهد - بوابة الشروق",
-          "domain": "shorouknews.com",
-          "seendate": "20260709T041500Z"
-        },
-        {
-          "url": "https://www.independent.co.uk/news/world/americas/israel-tehran-donald-trump-ayatollah-ali-khamenei-strait-of-hormuz-b3009267.html",
-          "title": "Calls for revenge as senior Iranian officials appear in public for supreme leader funeral",
-          "domain": "independent.co.uk",
-          "seendate": "20260705T184500Z"
-        },
-        {
-          "url": "https://dailyinqilab.com/international/news/913159",
-          "title": "খামেনির মতো ইরানি শীর্ষ নেতাদের হত্যার হুমকি ইসরায়েলের",
-          "domain": "dailyinqilab.com",
-          "seendate": "20260706T110000Z"
-        },
-        {
-          "url": "http://www.econotimes.com/Khamenei-Funeral-Draws-Massive-Crowds-as-Irans-New-Supreme-Leader-Remains-Absent-1745950",
-          "title": "Khamenei Funeral Draws Massive Crowds as Iran New Supreme Leader Remains Absent",
-          "domain": "econotimes.com",
-          "seendate": "20260706T000000Z"
-        },
-        {
-          "url": "https://www.yahoo.com/news/world/articles/ali-khameneis-coffin-carried-streets-065603420.html",
-          "title": "Ali Khamenei coffin carried through the streets of Tehran",
-          "domain": "yahoo.com",
-          "seendate": "20260706T080000Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/international/world-news/irans-officials-call-for-revenge-amid-growing-tensions-as-supreme-leaders-funeral-unfolds/articleshow/132197744.cms",
-          "title": "Calls for revenge as senior Iranian officials appear in public for supreme leader funeral",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260705T160000Z"
-        },
-        {
-          "url": "https://fortune.com/2026/07/05/iranians-revenge-funeral-ceremonies-supreme-leader-ayatollah-ali-khamenei/",
-          "title": "Iranians demand revenge at funeral ceremonies for supreme leader killed during war",
-          "domain": "fortune.com",
-          "seendate": "20260705T183000Z"
-        },
-        {
-          "url": "https://www.trthaber.com/haber/dunya/eski-iran-lideri-hamaney-icin-irakin-kerbela-kentinde-cenaze-toreni-duzenleniyor-950697.html",
-          "title": "Eski İran lideri Hamaney için Irak  ın Kerbela kentinde cenaze töreni düzenleniyor",
-          "domain": "trthaber.com",
-          "seendate": "20260708T211500Z"
-        },
-        {
-          "url": "https://morningstaronline.co.uk/article/israeli-defence-minister-defends-killing-ayatollah-funeral-proceeds-through-tehran",
-          "title": "Israeli defence minister defends killing ayatollah as funeral proceeds through Tehran",
-          "domain": "morningstaronline.co.uk",
-          "seendate": "20260706T204500Z"
-        },
-        {
-          "url": "https://jp.ibtimes.com/iran-opens-khamenei-funeral-mourners-chant-revenge-tehran-warns-uk-france-over-hormuz-102379",
-          "title": "Iran Opens Khamenei Funeral as Mourners Chant Revenge ; Tehran Warns united kingdom , France Over Hormuz",
-          "domain": "jp.ibtimes.com",
-          "seendate": "20260705T084500Z"
-        },
-        {
-          "url": "https://adevarul.ro/stiri-externe/in-lume/de-ce-nu-participa-mojtaba-khamenei-la-funeraliile-2541034.html",
-          "title": "De ce nu participă Mojtaba Khamenei la funeraliile tatălui său . Trump : „ Sunt toți acolo . O singură lovitură și i - am putea elimina pe toți  ",
-          "domain": "adevarul.ro",
-          "seendate": "20260705T081500Z"
-        },
-        {
-          "url": "https://www.nzherald.co.nz/world/bomb-them-trumps-revenge-instructions-for-if-iran-assassinates-him/IWLIFN77INGNHO2ZXFWFOJSBMM/",
-          "title": "  Bomb them : Trump revenge instructions for if Iran assassinates him",
-          "domain": "nzherald.co.nz",
-          "seendate": "20260710T194500Z"
-        },
-        {
-          "url": "https://www.edaily.co.kr/News/Read?newsId=01925366645511568&mediaCodeNo=257",
-          "title": "  미국에 죽음을 … 이란 , 러 · 중국 등 조문 속 하메네이 국장 ( 종합 ) ",
-          "domain": "edaily.co.kr",
-          "seendate": "20260705T070000Z"
-        },
-        {
-          "url": "https://leadership.ng/three-sons-of-irans-slain-leader-khamenei-appear-at-funeral/",
-          "title": "Three Sons Of Iran Slain Leader Khamenei Appear At Funeral",
-          "domain": "leadership.ng",
-          "seendate": "20260706T080000Z"
-        },
-        {
-          "url": "https://www.nzherald.co.nz/world/fresh-us-iran-strikes-amid-khamenei-burial-threatens-return-to-full-scale-war/LH7PKERM6NBFXFZU566DMRCGBU/",
-          "title": "Fresh US - Iran strikes amid Khamenei burial threatens return to full - scale war",
-          "domain": "nzherald.co.nz",
-          "seendate": "20260709T201500Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/iran-news/article-901453",
-          "title": "Iran to pursue legal action against Israel , US over Khamenei assassination",
-          "domain": "jpost.com",
-          "seendate": "20260705T130000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/article-901453",
-          "title": "Iran to pursue legal action against Israel , US over Khamenei assassination",
-          "domain": "jpost.com",
-          "seendate": "20260705T140000Z"
-        },
-        {
-          "url": "https://www.standard.net.au/story/9304718/calls-for-trumps-death-at-iran-leaders-funeral/",
-          "title": "Calls for Trump death at Iran leader funeral",
-          "domain": "standard.net.au",
-          "seendate": "20260705T070000Z"
-        }
-      ]
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "trump_china",
@@ -1561,7 +56,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "all retries failed",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     },
@@ -1586,14 +81,14 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
         "tone": 0.5
       },
@@ -1608,14 +103,14 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.625,
+      "composite_score": 0.4583,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
         "tone": 0.5
       },
@@ -1630,14 +125,14 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.625,
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
         "tone": 0.5
       },
@@ -1650,7 +145,7 @@
       }
     },
     {
-      "reference_id": "PRE_OCT24",
+      "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
       "composite_score": 0.2083,
       "is_pre_round": true,
@@ -1672,7 +167,7 @@
       }
     },
     {
-      "reference_id": "PRE_APR24",
+      "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
       "composite_score": 0.0417,
       "is_pre_round": true,
@@ -1696,18 +191,18 @@
   ],
   "comparison_table_21day": [
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.7429,
-      "is_pre_round": false,
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.4991,
+      "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
+        "source_diversity": 0.0,
+        "tone": 0.9891
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1720,7 +215,7 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
+      "composite_score": 0.498,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -1728,8 +223,8 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
+        "source_diversity": 0.0,
+        "tone": 0.9762
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1740,18 +235,18 @@
       }
     },
     {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.625,
-      "is_pre_round": true,
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.4917,
+      "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
+        "source_diversity": 0.0,
+        "tone": 0.901
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1764,15 +259,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.4712,
+      "composite_score": 0.2083,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -1786,16 +281,16 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.3046,
+      "composite_score": 0.076,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
+        "source_diversity": 0.0,
+        "tone": 0.9116
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1808,10 +303,10 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 170.4377,
-      "volume_mean_daily": 1.0206,
-      "volume_peak": 1.8914,
-      "days_active": 167,
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
       "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
@@ -1824,15 +319,15 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 250,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 171,
-      "tone_mean": null
+      "unique_domains_total": 0,
+      "tone_mean": -2.7549
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 4 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }
