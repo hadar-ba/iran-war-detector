@@ -1,16 +1,18 @@
 {
-  "updated_at": "2026-07-14T13:36:07.426951+00:00",
+  "updated_at": "2026-07-19T13:19:31.333547+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 52,
-    "delta_vs_avg": -6
+    "score": 62,
+    "status_he": "מתוח",
+    "avg_7day": 51,
+    "delta_vs_avg": 11
   },
   "archive_comparison": {
-    "score": 67,
-    "status_he": "דמיון גבולי",
+    "score": 50,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -57,10 +59,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-06-26T03:33:50.123721+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-27T02:57:06.984232+00:00",
         "score": 46
@@ -112,6 +110,10 @@
       {
         "ts": "2026-07-14T13:36:07.424043+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-07-19T13:19:31.332347+00:00",
+        "score": 62
       }
     ],
     "month": [
@@ -302,55 +304,43 @@
       {
         "ts": "2026-07-14T13:36:07.424043+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-07-19T13:19:31.332347+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
-        "label": "שקט ינו' 2026",
-        "score": 78,
-        "is_pre_conflict": false
-      },
-      {
         "label": "אחרי פבר' 2026",
-        "score": 67,
+        "score": 50,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 67,
+        "score": 50,
         "is_pre_conflict": true
       },
       {
+        "label": "שקט ינו' 2026",
+        "score": 49,
+        "is_pre_conflict": false
+      },
+      {
         "label": "טרום אפר' 2024",
-        "score": 47,
+        "score": 21,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 34,
+        "score": 8,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "20min.ch",
-      "aa.com.tr",
-      "africanews.com",
-      "agerpres.ro",
-      "al-monitor.com",
-      "alfajertv.com",
-      "aljadeed.tv",
-      "Al Jazeera",
-      "Al Jazeera",
-      "aninews.in",
-      "aol.com",
-      "arabic.cnn.com",
-      "arabnews.com",
-      "arthosuchak.com",
-      "az-online.de"
-    ],
-    "total_count": 153,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }

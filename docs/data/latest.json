@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-07-14T13:36:07.424043+00:00",
-  "status": "green",
-  "headline_score_7day": 46,
-  "headline_score_21day": 67,
-  "score_jump": 0,
+  "timestamp_utc": "2026-07-19T13:19:31.332347+00:00",
+  "status": "yellow",
+  "headline_score_7day": 62,
+  "headline_score_21day": 50,
+  "score_jump": 16,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
-  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 67% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 67% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
+  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 7-day reading is 13 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is similar at 50% similarity to the post-Lion's Roar period (April–May 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). הקריאה ל-7 ימים גבוהה ב-13 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום דומה עם 50% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -41,1513 +41,8 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [
-        "https://www.haberler.com/dunya/iran-eski-lideri-hamaney-meshed-de-topraga-verildi-20036972-haberi/",
-        "https://www.skynews.com.au/world-news/global-affairs/israel-shared-intelligence-with-the-us-on-iranian-plot-to-assassinate-donald-trump-report/news-story/c3c3d8b0768ad86b343313f8365e99e7?nk=e0d2239bdaa96f3318c81832a29995b0-1783657009",
-        "https://www.sabah.com.tr/yasam/canli-son-dakika-irandan-trumpa-yonelik-yeni-suikast-plani-iddiasi-israil-istihbarat-paylasiminda-bulundu-abd-ordusundan-hurmuz-aciklamasi-7619730"
-      ],
-      "articles": [
-        {
-          "url": "https://www.haberler.com/dunya/iran-eski-lideri-hamaney-meshed-de-topraga-verildi-20036972-haberi/",
-          "title": "İran  ın eski lideri Hamaney Meşhedde toprağa verildi",
-          "domain": "haberler.com",
-          "seendate": "20260710T071500Z"
-        },
-        {
-          "url": "https://www.skynews.com.au/world-news/global-affairs/israel-shared-intelligence-with-the-us-on-iranian-plot-to-assassinate-donald-trump-report/news-story/c3c3d8b0768ad86b343313f8365e99e7?nk=e0d2239bdaa96f3318c81832a29995b0-1783657009",
-          "title": "Israel shared intel with US on Iranian plot to assassinate Donald Trump : report",
-          "domain": "skynews.com.au",
-          "seendate": "20260710T043000Z"
-        },
-        {
-          "url": "https://www.sabah.com.tr/yasam/canli-son-dakika-irandan-trumpa-yonelik-yeni-suikast-plani-iddiasi-israil-istihbarat-paylasiminda-bulundu-abd-ordusundan-hurmuz-aciklamasi-7619730",
-          "title": "SON DAKİKA| İrandan Trumpa yönelik yeni suikast planı iddiası … İsrail istihbarat paylaşımında bulundu ! ABD ordusundan Hürmüz açıklaması",
-          "domain": "sabah.com.tr",
-          "seendate": "20260710T070000Z"
-        },
-        {
-          "url": "https://www.dcnews.ro/mojtaba-noul-lider-suprem-al-iranului-si-fiul-lui-khamenei-l-a-amenintat-pe-trump-cu-moartea-ascuns-de-doua-luni-mojtaba-posteaza-pe-internet_1068479.html",
-          "title": "Mojtaba , noul Lider Suprem al Iranului și fiul lui Khamenei , l - a amenințat pe Trump cu moartea . Ascuns de două luni , Mojtaba postează pe internet",
-          "domain": "dcnews.ro",
-          "seendate": "20260711T171500Z"
-        },
-        {
-          "url": "https://www.sandiegouniontribune.com/2026/07/08/iran-war-timeline/",
-          "title": "Is Iran deal  over  and war back on ? A timeline of conflict and talks",
-          "domain": "sandiegouniontribune.com",
-          "seendate": "20260708T170000Z"
-        },
-        {
-          "url": "https://www.bostonherald.com/2026/07/08/iran-war-timeline/",
-          "title": "Is Iran deal  over  and war back on ? A timeline of conflict and talks",
-          "domain": "bostonherald.com",
-          "seendate": "20260708T151500Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/world-news/mojtaba-khamenei-vows-revenge-hit-list-exposed",
-          "title": "מוג  תבא חמינאי בצוואה רצחנית :  ננקום את מות אבי , הרשימה נחשפה  | בבלי",
-          "domain": "kikar.co.il",
-          "seendate": "20260711T181500Z"
-        },
-        {
-          "url": "https://pch24.pl/wiadomosci/modztaba-chamenei-przerywa-milczenie-zapowiada-zemste-za-smierc-ojca,726006",
-          "title": "Modżtaba Chamenei przerywa milczenie . Zapowiada zemstę za śmierć ojca",
-          "domain": "pch24.pl",
-          "seendate": "20260711T203000Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/s1erpba7ge",
-          "title": "איראן שיגרה עשרות טילים וכטב  מים מהלילה :  המתווכות מנסות לחזור למו  מ  ",
-          "domain": "ynet.co.il",
-          "seendate": "20260709T183000Z"
-        },
-        {
-          "url": "https://www.news24.com/world/iran-warns-of-retaliation-after-us-strikes-kill-17-and-hit-civilian-infrastructure-20260710-0832",
-          "title": "Iran warns of retaliation after US strikes kill 17 and hit civilian infrastructure",
-          "domain": "news24.com",
-          "seendate": "20260710T141500Z"
-        },
-        {
-          "url": "https://www.lokmat.com/international/mojtaba-khamenei-iran-new-leader-latest-news-big-excitement-mojtaba-khamenei-will-appear-publicly-for-the-first-time-tomorrow-walking-or-in-a-wheelchair-a-a607/",
-          "title": "मोठी खळबळ ! मोजतबा खामेनेई उद्या पहिल्यांदाच उघडपणे जगासमोर येणार ; चालत की व्हील चेअरवर ...? ",
-          "domain": "lokmat.com",
-          "seendate": "20260710T123000Z"
-        },
-        {
-          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260710-azertac01.htm",
-          "title": "Iran late Supreme Leader Ali Khamenei buried in Mashhad",
-          "domain": "globalsecurity.org",
-          "seendate": "20260711T134500Z"
-        },
-        {
-          "url": "https://www.turkiyegazetesi.com.tr/dunya/ayetullah-ali-hamaney-defnedildi-cenazede-milyonlarca-kisi-vardi-sadece-o-yoktu-1802359",
-          "title": "Ayetullah Ali Hamaney defnedildi ! Cenazede milyonlarca kişi vardı , sadece o yoktu",
-          "domain": "turkiyegazetesi.com.tr",
-          "seendate": "20260710T041500Z"
-        },
-        {
-          "url": "https://www.ntdtv.com/b5/2026/07/10/a104114140.html",
-          "title": "哈梅內伊官邸遭襲慘狀曝 以情報揭伊朗策劃暗殺川普 | 以色列情報 | 哈梅內伊葬禮 | 美以聯軍空襲伊朗2026",
-          "domain": "ntdtv.com",
-          "seendate": "20260710T184500Z"
-        },
-        {
-          "url": "https://www.jiji.com/jc/article?k=2026070701060&g=int",
-          "title": "モジタバ師 「 不在 」 に臆測 暗殺警戒か ― イラン前最高指導者国葬 ： 時事ドットコム",
-          "domain": "jiji.com",
-          "seendate": "20260707T234500Z"
-        },
-        {
-          "url": "https://www.bostonglobe.com/2026/07/08/nation/iran-war-talks-timeline/",
-          "title": "A timeline of the Iran deal and talks",
-          "domain": "bostonglobe.com",
-          "seendate": "20260708T150000Z"
-        },
-        {
-          "url": "https://www.haberler.com/guncel/hamaney-in-kerbela-da-cenaze-toreni-basladi-20032897-haberi/",
-          "title": "Eski İran lideri Hamaney için Irak  ın Kerbela kentinde cenaze töreni düzenleniyor",
-          "domain": "haberler.com",
-          "seendate": "20260708T204500Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/syew2maqzg",
-          "title": "התרחישים שיכולים להכניס את ישראל ללחימה לצד ארה  ב :  כרגע הם מובילים  ",
-          "domain": "ynet.co.il",
-          "seendate": "20260709T164500Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/iran-buries-former-supreme-leader-ali-khamenei-after-new-fighting-with-us-erupts-article-13970414.html",
-          "title": "Iran buries former supreme leader Ali Khamenei after new fighting with US erupts",
-          "domain": "moneycontrol.com",
-          "seendate": "20260710T041500Z"
-        },
-        {
-          "url": "https://www.ensonhaber.com/iranda-mucetba-hamaney-donemi-resmen-basladi-h1549439",
-          "title": "İranda Mücteba Hamaney dönemi resmen başladı",
-          "domain": "ensonhaber.com",
-          "seendate": "20260712T150000Z"
-        },
-        {
-          "url": "https://nepszava.hu/3328722_donald-trump-kozolte-raketak-ezrei-indulnanak-iran-fele-ha-teheran-megprobalna-megolni-ot",
-          "title": "Donald Trump közölte , rakéták ezrei indulnának Irán felé , ha Irán megpróbálná megölni őt",
-          "domain": "nepszava.hu",
-          "seendate": "20260711T113000Z"
-        },
-        {
-          "url": "https://www.star.com.tr/dunya/kendi-yok-mesaji-var-hamaneyden-intikam-sozu-haber-2027217/",
-          "title": "Kendi yok mesajý var ! Hamaneyden  intikam  sözü",
-          "domain": "star.com.tr",
-          "seendate": "20260711T114500Z"
-        },
-        {
-          "url": "https://www.livemint.com/news/us-news/trumps-chilling-warning-to-iran-if-he-s-assassinated-bomb-them-at-levels-that-they-ve-never-seen-before-11783708201656.html",
-          "title": "Trump reveals he  left instruction if Iran assassinates him :  Bomb them at levels that theyve never seen before  ",
-          "domain": "livemint.com",
-          "seendate": "20260710T194500Z"
-        },
-        {
-          "url": "https://index.hu/kulfold/2026/07/11/iran-ali-hamenei-halala-modzstaba-hamenei-bosszu/",
-          "title": "Index - Külföld - Irán új vezetője bosszút ígrt apja , Ali Hamenei halálrt",
-          "domain": "index.hu",
-          "seendate": "20260711T180000Z"
-        },
-        {
-          "url": "https://pidgin.informationng.com/?p=35382",
-          "title": "  We go avenge di blood of our leader  – Iran supreme leader call for revenge ova father death – Information Nigeria Pidgin",
-          "domain": "pidgin.informationng.com",
-          "seendate": "20260712T150000Z"
-        },
-        {
-          "url": "https://www.eremnews.com/news/world/ta8z01p",
-          "title": "مجتبى خامنئي : الثأر لوالدي مطلب أمة و  سيحدث بالتأكيد  ",
-          "domain": "eremnews.com",
-          "seendate": "20260711T111500Z"
-        },
-        {
-          "url": "https://www.digi24.ro/stiri/externe/iranul-l-a-ingropat-pe-ali-khamenei-si-odata-cu-batranul-ayatollah-s-a-dus-si-atitudinea-retinuta-fata-de-jignirile-americanilor-3855955",
-          "title": "Iranul l - a îngropat pe Ali Khamenei și odată cu bătrânul ayatollah s - a dus și atitudinea reținută față de jignirile americanilor",
-          "domain": "digi24.ro",
-          "seendate": "20260709T214500Z"
-        },
-        {
-          "url": "https://www.mirror.co.uk/news/world-news/khamenei-iran-trump-netanyahu-israel-37415084",
-          "title": "Terrifying Iran  revenge  warning as Donald Trump assassination plot claimed by Israel",
-          "domain": "mirror.co.uk",
-          "seendate": "20260710T201500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/07/09/middleeast/irans-supreme-leader-missed-public-funeral-intl",
-          "title": "Iran supreme leader missed his father momentous funeral – now what ? ",
-          "domain": "cnn.com",
-          "seendate": "20260710T031500Z"
-        },
-        {
-          "url": "http://www.tz.de/politik/iran-krieg-aktuell-iranische-zeitung-droht-trump-und-merz-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Iranische Zeitung droht Trump und Merz",
-          "domain": "tz.de",
-          "seendate": "20260712T083000Z"
-        },
-        {
-          "url": "https://www.hna.de/politik/iran-krieg-aktuell-iranische-zeitung-droht-trump-und-merz-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Iranische Zeitung droht Trump und Merz",
-          "domain": "hna.de",
-          "seendate": "20260712T081500Z"
-        },
-        {
-          "url": "http://www.hna.de/politik/iran-krieg-aktuell-iranische-zeitung-droht-trump-und-merz-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Iranische Zeitung droht Trump und Merz",
-          "domain": "hna.de",
-          "seendate": "20260712T084500Z"
-        },
-        {
-          "url": "https://www.rp.pl/konflikty-zbrojne/art44809901-modztaba-chamenei-zapowiada-zemste-za-zabicie-swojego-ojca-narod-tego-zada",
-          "title": "Najwyższy przywódca Iranu zapowiada zemstę za zabicie swojego ojca , Alego Chameneiego",
-          "domain": "rp.pl",
-          "seendate": "20260711T163000Z"
-        },
-        {
-          "url": "http://www.wa.de/politik/iran-krieg-aktuell-iranische-zeitung-droht-trump-und-merz-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Iranische Zeitung droht Trump und Merz",
-          "domain": "wa.de",
-          "seendate": "20260712T083000Z"
-        },
-        {
-          "url": "https://www.hurriyetdailynews.com/iran-buries-khamenei-after-new-fighting-with-us-erupts-224208",
-          "title": "Iran buries Khamenei after new fighting with US erupts",
-          "domain": "hurriyetdailynews.com",
-          "seendate": "20260710T060000Z"
-        },
-        {
-          "url": "https://hotnews.ro/liderul-iranului-promite-ca-va-razbuna-inevitabil-moartea-tatalui-sau-este-vointa-natiunii-noastre-2297808",
-          "title": "Liderul Iranului promite că va răzbuna „ inevitabil  moartea tatălui său : „ Este voința națiunii noastre  ",
-          "domain": "hotnews.ro",
-          "seendate": "20260711T133000Z"
-        },
-        {
-          "url": "https://www.sabah.com.tr/dunya/iranin-eski-dini-lideri-ali-hamaney-meshedde-topraga-verildi-7619845",
-          "title": "İran  ın eski dini lideri Ali Hamaney Meşhedde toprağa verildi",
-          "domain": "sabah.com.tr",
-          "seendate": "20260710T104500Z"
-        },
-        {
-          "url": "http://www.come-on.de/politik/iran-krieg-aktuell-iranische-zeitung-droht-trump-und-merz-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Iranische Zeitung droht Trump und Merz",
-          "domain": "come-on.de",
-          "seendate": "20260712T100000Z"
-        },
-        {
-          "url": "http://www.econotimes.com/Iran-Buries-Ayatollah-Ali-Khamenei-at-Imam-Reza-Shrine-as-Successor-Mojtaba-Remains-Out-of-Public-View-1746409",
-          "title": "Iran Buries Ayatollah Ali Khamenei at Imam Reza Shrine as Successor Mojtaba Remains Out of Public View",
-          "domain": "econotimes.com",
-          "seendate": "20260710T024500Z"
-        },
-        {
-          "url": "https://www.seattletimes.com/nation-world/nation/is-an-iran-deal-over-and-war-back-on-a-timeline-of-the-conflict-and-talks/",
-          "title": "Is an Iran deal  over  and war back on ? A timeline of the conflict and talks",
-          "domain": "seattletimes.com",
-          "seendate": "20260708T150000Z"
-        },
-        {
-          "url": "http://www.fnp.de/politik/iran-krieg-aktuell-iranische-zeitung-droht-trump-und-merz-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Iranische Zeitung droht Trump und Merz",
-          "domain": "fnp.de",
-          "seendate": "20260712T081500Z"
-        },
-        {
-          "url": "https://www.eremnews.com/news/arab-world/9gltf86",
-          "title": "حزب الله يقيم مراسم رمزية لخامنئي في الضاحية الجنوبية لبيروت",
-          "domain": "eremnews.com",
-          "seendate": "20260709T094500Z"
-        },
-        {
-          "url": "https://www.inn.co.il/news/701283",
-          "title": "הנציג היהודי באיראן : התורה מחייבת להילחם בציונות",
-          "domain": "inn.co.il",
-          "seendate": "20260712T160000Z"
-        },
-        {
-          "url": "https://www.bssnews.net/news-flash/404210",
-          "title": "Iran buries Khamenei after new fighting with US erupts",
-          "domain": "bssnews.net",
-          "seendate": "20260710T060000Z"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/meloni-trump-netanyahu-full-list-of-13-leaders-on-iran-revenge-list-101783913073889.html",
-          "title": "Meloni , Trump , Netanyahu : Full list of 13 leaders on Iran  revenge list  ",
-          "domain": "hindustantimes.com",
-          "seendate": "20260713T050000Z"
-        },
-        {
-          "url": "https://aa.com.tr/en/middle-east/body-of-slain-iranian-supreme-leader-reaches-iraqs-karbala/3992528",
-          "title": "Body of slain Iranian supreme leader reaches Iraq Karbala",
-          "domain": "aa.com.tr",
-          "seendate": "20260708T233000Z"
-        },
-        {
-          "url": "http://www.op-online.de/politik/iran-krieg-aktuell-iranische-zeitung-droht-trump-und-merz-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Iranische Zeitung droht Trump und Merz",
-          "domain": "op-online.de",
-          "seendate": "20260712T083000Z"
-        },
-        {
-          "url": "https://dailyinqilab.com/international/news/915189",
-          "title": "বাবার  নির্দোষ রক্তের  প্রতিশোধ নেওয়ার অঙ্গীকার মোজতাবা খামেনির",
-          "domain": "dailyinqilab.com",
-          "seendate": "20260711T124500Z"
-        },
-        {
-          "url": "https://www.birgun.net/haber/iran-da-hamaney-e-son-veda-723029",
-          "title": "İranda Hamaneye son veda",
-          "domain": "birgun.net",
-          "seendate": "20260709T151500Z"
-        },
-        {
-          "url": "https://www.birgun.net/haber/iran-da-hamaney-e-son-veda-723029%20target=_blank%20class=stretched-link",
-          "title": "İranda Hamaneye son veda",
-          "domain": "birgun.net",
-          "seendate": "20260709T150000Z"
-        },
-        {
-          "url": "https://www.hispantv.com/noticias/politica/647080/asamblea-de-expertos-apoya-llamado-del-lider-de-iran-a-vengar-a-los-martires",
-          "title": "Asamblea de Expertos apoya llamado del Líder de Irán a vengar a los mártires",
-          "domain": "hispantv.com",
-          "seendate": "20260714T041500Z"
-        },
-        {
-          "url": "https://www.dailystar.co.uk/news/latest-news/iran-publishes-revenge-hit-list-37426016",
-          "title": "Iran publishes  revenge hit list  including Starmer over Ayatollah assassination",
-          "domain": "dailystar.co.uk",
-          "seendate": "20260713T171500Z"
-        },
-        {
-          "url": "https://www.turkiyegazetesi.com.tr/dunya/torenler-bir-hafta-surdu-hamaneyin-cenazesi-bugun-defnedilecek-1802126",
-          "title": "Törenler bir hafta sürdü : Hamaneyin cenazesi bugün defnedilecek",
-          "domain": "turkiyegazetesi.com.tr",
-          "seendate": "20260709T011500Z"
-        },
-        {
-          "url": "https://www.hurriyet.com.tr/dunya/iranin-eski-dini-lideri-ali-hamaney-meshedde-topraga-verildi-43234760",
-          "title": "İran  ın eski dini lideri Ali Hamaney Meşhedde toprağa verildi - Hürriyet En Son Haberler",
-          "domain": "hurriyet.com.tr",
-          "seendate": "20260710T024500Z"
-        },
-        {
-          "url": "https://aa.com.tr/en/middle-east/body-of-slain-iranian-supreme-leader-arrives-in-iraq-ahead-of-procession/3989662",
-          "title": "Body of slain Iranian supreme leader arrives in Iraq ahead of procession",
-          "domain": "aa.com.tr",
-          "seendate": "20260707T214500Z"
-        },
-        {
-          "url": "https://dorzeczy.pl/swiat/913645/modztaba-chamenei-zapowiada-zemste-musi-nastapic.html",
-          "title": "Modżtaba Chamenei zapowiada zemstę .  Musi nastąpić  ",
-          "domain": "dorzeczy.pl",
-          "seendate": "20260711T183000Z"
-        },
-        {
-          "url": "https://www.blikk.hu/politika/vilagpolitika/iran-elnok-moszad-titkosszolgalat-budapest/x7ym3v6",
-          "title": "Budapesten akarta beszervezni a Moszad a volt iráni elnököt",
-          "domain": "blikk.hu",
-          "seendate": "20260714T083000Z"
-        },
-        {
-          "url": "https://www.yeniakit.com.tr/yazarlar/mehmet-kocak/tarihi-cenaze-merasiminde-her-kesime-derin-mesajlar-53111.html",
-          "title": "Tarihi cenaze merasiminde her kesime derin mesajlar … ",
-          "domain": "yeniakit.com.tr",
-          "seendate": "20260707T224500Z"
-        },
-        {
-          "url": "https://www.tayyar.org/News/Mena/732238/_guid=732238",
-          "title": "tayyar . org - تكهنات بأنّه مجتبى .. من هو الرجل المقنع الذي ظهر في جنازة خامنئي ؟ ",
-          "domain": "tayyar.org",
-          "seendate": "20260712T121500Z"
-        },
-        {
-          "url": "https://www.rp.pl/spoleczenstwo/art44783761-100-mln-dolarow-za-glowe-trumpa-wezwania-do-zemsty-na-pogrzebie-chameneiego",
-          "title": "100 mln dolarów za głowę Trumpa . W Iranie rosną nastroje odwetu",
-          "domain": "rp.pl",
-          "seendate": "20260707T153000Z"
-        },
-        {
-          "url": "https://dorzeczy.pl/swiat/912952/iran-ali-chamenei-zostal-pochowany-w-meszhedzie.html",
-          "title": "Iran . Ali Chamenei został pochowany w Meszhedzie",
-          "domain": "dorzeczy.pl",
-          "seendate": "20260710T103000Z"
-        },
-        {
-          "url": "https://www.portfolio.hu/global/20260710/azt-hittek-kiiktatasaval-egy-csapasra-megnyerhetik-a-haborut-eltemettek-ali-hameneit-848712",
-          "title": "Azt hitték , kiiktatásával egy csapásra megnyerhetik a háborút - Eltemették Ali Hameneit",
-          "domain": "portfolio.hu",
-          "seendate": "20260710T063000Z"
-        },
-        {
-          "url": "https://www.express.co.uk/news/world/2227150/iran-supreme-leader-break-cover",
-          "title": "Iran Supreme Leader Mojtaba Khamenei to break cover for first time | World | News",
-          "domain": "express.co.uk",
-          "seendate": "20260709T104500Z"
-        },
-        {
-          "url": "https://www.haberler.com/politika/iran-dini-lideri-mucteba-hamaney-ali-hamaney-in-20042072-haberi/",
-          "title": "İran dini lideri Mücteba Hamaney :  Ali Hamaneyin intikamını alacağımıza söz veriyoruz  ",
-          "domain": "haberler.com",
-          "seendate": "20260711T140000Z"
-        },
-        {
-          "url": "https://kuruc.info/r/67/304524/",
-          "title": "Kuruc . info - Modzstaba Hamenei : nemzetünk követeli , hogy bosszút álljunk",
-          "domain": "kuruc.info",
-          "seendate": "20260712T003000Z"
-        },
-        {
-          "url": "https://www.gercekgundem.com/dunya/eski-iran-dini-lideri-hamaneye-meshed-kentinde-son-veda-savas-ucaklarinin-golgesinde-cenaze-toreni-574652",
-          "title": "Eski İran Dini Lideri Hamaneye Meşhed Kentinde Son Veda : Savaş Uçaklarının Gölgesinde Cenaze Töreni",
-          "domain": "gercekgundem.com",
-          "seendate": "20260709T161500Z"
-        },
-        {
-          "url": "https://www.channelnewsasia.com/world/iran-supreme-leader-khamenei-funeral-burial-6243061",
-          "title": "Iran to bury slain Supreme Leader Khamenei in culmination of mass funeral",
-          "domain": "channelnewsasia.com",
-          "seendate": "20260709T100000Z"
-        },
-        {
-          "url": "https://www.oneindia.com/international/irans-revenge-list-trump-netanyahu-meloni-macron-and-9-others-are-on-the-hitlist-check-trumps-8144829.html",
-          "title": "Iran Revenge List ? Trump , Netanyahu , Meloni , Macron And 9 Others Are On The Hitlist ; Check Trump Response",
-          "domain": "oneindia.com",
-          "seendate": "20260713T110000Z"
-        },
-        {
-          "url": "https://mfor.hu/cikkek/kulpolitika/messze-meg-a-nyugvopont-iran-legfobb-vezetoje-bosszut-igert-ali-hamenei-halalaert.html",
-          "title": "Messze még a nyugvópont : Irán legfőbb vezetője bosszút ígrt Ali Hamenei halálrt",
-          "domain": "mfor.hu",
-          "seendate": "20260711T163000Z"
-        },
-        {
-          "url": "https://www.dailysabah.com/world/mid-east/khamenei-buried-as-iran-mourns-fights-reckons-with-divided-legacy",
-          "title": "Khamenei buried as Iran mourns , fights , reckons with divided legacy",
-          "domain": "dailysabah.com",
-          "seendate": "20260710T110000Z"
-        },
-        {
-          "url": "https://www.index.hr/vijesti/clanak/izrael-spremni-smo-napasti-iran-i-treci-put-ako-je-potrebno/2811805.aspx",
-          "title": "Izrael : Spremni smo napasti Iran i treći put ako je potrebno",
-          "domain": "index.hr",
-          "seendate": "20260709T193000Z"
-        },
-        {
-          "url": "https://www.maariv.co.il/news/world/article-1343630",
-          "title": "האיש במסכה השחורה שהסעיר את איראן : התעלומה מהלוויית חמינאי נפתרה",
-          "domain": "maariv.co.il",
-          "seendate": "20260712T190000Z"
-        },
-        {
-          "url": "https://ujszo.com/kulfold/iran-legfobb-vezetoje-bosszut-igert-elodje-es-apja-ali-hamenei-halalaert",
-          "title": "Irán legfőbb vezetője bosszút ígrt elődje és apja , Ali Hamenei halálrt",
-          "domain": "ujszo.com",
-          "seendate": "20260711T124500Z"
-        },
-        {
-          "url": "https://www.mzamin.com/article/26913",
-          "title": "কোমে খামেনির স্মরণে নজিরবিহীন শোকযাত্রা",
-          "domain": "mzamin.com",
-          "seendate": "20260707T140000Z"
-        },
-        {
-          "url": "https://www.dawn.com/news/2014015/khamenei-to-be-laid-to-rest-today-in-mashhad",
-          "title": "Khamenei to be laid to rest today in Mashhad - World",
-          "domain": "dawn.com",
-          "seendate": "20260709T070000Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/iran-news/article-902104",
-          "title": "Iran diplomacy continues amid Khamenei funeral , airstrikes , US official says",
-          "domain": "jpost.com",
-          "seendate": "20260710T083000Z"
-        },
-        {
-          "url": "https://www.theweek.in/news/middle-east/2026/07/13/ahmadinejad-israel-succession-plan.html",
-          "title": "Was Ahmadinejad an Israeli spy ? Ex - Iranian president secretly met Mossad chief in Hungary but plans to install him as leader failed",
-          "domain": "theweek.in",
-          "seendate": "20260713T174500Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/national/a-timeline-of-the-iran-conflict-and-talks-aimed-at-ending-it/article_6506d217-5069-5632-8645-d6344c270832.html",
-          "title": "A timeline of the Iran conflict and talks aimed at ending it",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260712T180000Z"
-        },
-        {
-          "url": "https://www.posta.com.tr/dunya/iranin-eski-lideri-hamaney-meshedde-son-yolculuguna-ugurlandi-3013616",
-          "title": "İran  ın eski lideri Hamaney Meşhedde son yolculuğuna uğurlandı - Son Dakika Dünya Haberleri",
-          "domain": "posta.com.tr",
-          "seendate": "20260710T083000Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/rjeu0qk4mx",
-          "title": "אחרי שנעדר מהלוויית אביו , מוג  תבא שוב מאיים - לא בקולו :  מתחייבים לנקום  ",
-          "domain": "ynet.co.il",
-          "seendate": "20260711T114500Z"
-        },
-        {
-          "url": "https://www.jpost.com/international/article-902134",
-          "title": "Donald Trump leaves instructions in case of his assassination by Iran",
-          "domain": "jpost.com",
-          "seendate": "20260710T211500Z"
-        },
-        {
-          "url": "http://www.jpost.com/international/article-902134",
-          "title": "Donald Trump leaves instructions in case of his assassination by Iran",
-          "domain": "jpost.com",
-          "seendate": "20260710T201500Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202607090245045819",
-          "title": "이란  미국이 MOU 위반 … 미군 한 명도 살아 돌아가지 못할 것  ",
-          "domain": "fnnews.com",
-          "seendate": "20260708T214500Z"
-        },
-        {
-          "url": "https://www.theyeshivaworld.com/news/israel-news/2572962/israel-signals-readiness-netanyahu-says-war-isnt-over-katz-threatens-new-strikes-if-needed.html",
-          "title": "ISRAEL SIGNALS READINESS : Netanyahu Says War Isnt Over , Katz Threatens New Strikes If Needed – The Yeshiva World",
-          "domain": "theyeshivaworld.com",
-          "seendate": "20260709T184500Z"
-        },
-        {
-          "url": "https://www.modernghana.com/news/1508925/huge-crowds-flood-iraqs-holy-cities-for-khamenei.html",
-          "title": "Huge crowds flood Iraq holy cities for Khamenei funeral procession",
-          "domain": "modernghana.com",
-          "seendate": "20260708T170000Z"
-        },
-        {
-          "url": "https://www.ensonhaber.com/mucteba-hamaneyden-babasi-icin-intikam-sozu-h1549189",
-          "title": "Mücteba Hamaneyden babası için  intikam  sözü",
-          "domain": "ensonhaber.com",
-          "seendate": "20260711T121500Z"
-        },
-        {
-          "url": "https://kvia.com/news/us-world/cnn-world/2026/07/09/irans-supreme-leader-missed-his-fathers-momentous-funeral-now-what/",
-          "title": "Iran supreme leader missed his father momentous funeral – now what ? ",
-          "domain": "kvia.com",
-          "seendate": "20260710T034500Z"
-        },
-        {
-          "url": "https://www.mzamin.com/article/27457",
-          "title": "পিতার শেষ বিদায়েও আড়ালেই মোজতবা , কী লুকাচ্ছে ইরান ? ",
-          "domain": "mzamin.com",
-          "seendate": "20260710T140000Z"
-        },
-        {
-          "url": "https://www.aa.com.tr/tr/dunya/abd-saldirisinda-hayatini-kaybeden-eski-iran-lideri-hamaney-icin-meshed-de-cenaze-toreni-duzenlendi/3993338",
-          "title": "ABD saldırısında hayatını kaybeden eski İran lideri Hamaney için Meşhedde cenaze töreni düzenlendi",
-          "domain": "aa.com.tr",
-          "seendate": "20260709T164500Z"
-        },
-        {
-          "url": "https://unitedwithisrael.org/iranian-leadership-prioritizes-vengeance-while-citizens-endure-blackouts/",
-          "title": "Iranian Leadership Prioritizes Vengeance While Citizens Endure Blackouts",
-          "domain": "unitedwithisrael.org",
-          "seendate": "20260714T121500Z"
-        },
-        {
-          "url": "https://stirileprotv.ro/stiri/international/razbunarea-va-veni-inevitabil-mesajul-noului-lider-suprem-al-iranului-la-cateva-luni-dupa-uciderea-tatalui-sau.html",
-          "title": " „ Răzbunarea va veni , inevitabil . Mesajul noului lider suprem al Iranului , la câteva luni după uciderea tatălui său",
-          "domain": "stirileprotv.ro",
-          "seendate": "20260711T134500Z"
-        },
-        {
-          "url": "https://www.aljadeed.tv/news/%D8%B9%D8%B1%D8%A8%D9%8A%D8%A7%D8%AA/582053/%D9%87%D9%84-%D8%B8%D9%87%D8%B1-%D9%85%D8%AC%D8%AA%D8%A8%D9%89-%D8%AE%D8%A7%D9%85%D9%86%D8%A6%D9%8A%D8%9F",
-          "title": "هل ظهر مجتبى خامنئي ؟ - Lebanon News",
-          "domain": "aljadeed.tv",
-          "seendate": "20260712T120000Z"
-        },
-        {
-          "url": "https://www.indiatvnews.com/news/world/in-first-remark-since-father-s-funeral-iran-s-mojtaba-khamenei-vows-inevitable-revenge-2026-07-11-1047924",
-          "title": "In first remark since father funeral , Iran Mojtaba Khamenei vows  inevitable  revenge | World",
-          "domain": "indiatvnews.com",
-          "seendate": "20260711T133000Z"
-        },
-        {
-          "url": "https://www.hkcna.hk/docDetail.jsp?id=101368589&channel=2810",
-          "title": "伊媒公布  復仇  名單 美以歐13政要上榜 | 國際",
-          "domain": "hkcna.hk",
-          "seendate": "20260713T121500Z"
-        },
-        {
-          "url": "https://www.hkcna.hk/docDetail.jsp?id=101368589&channel=2803",
-          "title": "伊媒公布  復仇  名單 美以歐13政要上榜 | 頭條",
-          "domain": "hkcna.hk",
-          "seendate": "20260713T121500Z"
-        },
-        {
-          "url": "https://www.rediff.com/news/report/irans-revenge-list-features-meloni-macron-alongside-trump-bibi/20260713.htm",
-          "title": "Iran  revenge list  features Meloni , Macron alongside Trump , Bibi",
-          "domain": "rediff.com",
-          "seendate": "20260713T141500Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/07/09/iran-buries-slain-supreme-leader-in-culmination-of-mass-funeral",
-          "title": "Iran buries slain Supreme Leader Ali Khamenei in Mashhad",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260709T174500Z"
-        },
-        {
-          "url": "https://www.turkiyegazetesi.com.tr/dunya/iranin-dini-lideri-mucteba-hamaneyden-intikam-sozu-1802622",
-          "title": "İran  ın dini lideri Mücteba Hamaneyden intikam sözü",
-          "domain": "turkiyegazetesi.com.tr",
-          "seendate": "20260711T124500Z"
-        },
-        {
-          "url": "https://krdo.com/news/2026/07/09/irans-supreme-leader-missed-his-fathers-momentous-funeral-now-what/",
-          "title": "Iran supreme leader missed his father momentous funeral – now what ? ",
-          "domain": "krdo.com",
-          "seendate": "20260710T034500Z"
-        },
-        {
-          "url": "https://www.dw.com/tr/hamaney-sonras%C4%B1-i%CC%87randa-yeni-d%C3%B6nem-resmen-ba%C5%9Flad%C4%B1/a-77906844",
-          "title": "Hamaney sonrası İranda yeni dönem resmen başladı",
-          "domain": "dw.com",
-          "seendate": "20260712T100000Z"
-        },
-        {
-          "url": "https://www.mediafax.ro/externe/mojtaba-khamenei-promite-razbunarea-pentru-moartea-lui-ali-khamenei-23770620",
-          "title": "Mojtaba Khamenei promite răzbunarea pentru moartea lui Ali Khamenei . Ce mesaj transmite liderul",
-          "domain": "mediafax.ro",
-          "seendate": "20260711T133000Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=09072026&id=d269fc63-151e-4cf6-a4a3-8e1512ba4396",
-          "title": "إيران تستعد لدفن جثمان خامنئي في مدينة مشهد - بوابة الشروق",
-          "domain": "shorouknews.com",
-          "seendate": "20260709T041500Z"
-        },
-        {
-          "url": "https://www.trthaber.com/haber/dunya/eski-iran-lideri-hamaney-icin-irakin-kerbela-kentinde-cenaze-toreni-duzenleniyor-950697.html",
-          "title": "Eski İran lideri Hamaney için Irak  ın Kerbela kentinde cenaze töreni düzenleniyor",
-          "domain": "trthaber.com",
-          "seendate": "20260708T211500Z"
-        },
-        {
-          "url": "https://www.nzherald.co.nz/world/bomb-them-trumps-revenge-instructions-for-if-iran-assassinates-him/IWLIFN77INGNHO2ZXFWFOJSBMM/",
-          "title": "  Bomb them : Trump revenge instructions for if Iran assassinates him",
-          "domain": "nzherald.co.nz",
-          "seendate": "20260710T194500Z"
-        },
-        {
-          "url": "https://www.nzherald.co.nz/world/fresh-us-iran-strikes-amid-khamenei-burial-threatens-return-to-full-scale-war/LH7PKERM6NBFXFZU566DMRCGBU/",
-          "title": "Fresh US - Iran strikes amid Khamenei burial threatens return to full - scale war",
-          "domain": "nzherald.co.nz",
-          "seendate": "20260709T201500Z"
-        },
-        {
-          "url": "https://www.indiatvnews.com/news/world/trump-netanyahu-and-meloni-among-13-world-leaders-on-iran-s-revenge-list-as-mideast-continues-to-boil-2026-07-13-1048103",
-          "title": "Trump , Netanyahu and Meloni among 13 world leaders on Iran  revenge list  as Mideast continues to boil | World",
-          "domain": "indiatvnews.com",
-          "seendate": "20260713T110000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/article-902330",
-          "title": "Iran does not take Donald Trump threats seriously , regional expert says",
-          "domain": "jpost.com",
-          "seendate": "20260713T110000Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/bjrwfjl4fx",
-          "title": "תמונת העיתון האיראני , אחרי איום הנקמה : נתניהו וטראמפ ב  מדי אסיר  ",
-          "domain": "ynet.co.il",
-          "seendate": "20260711T164500Z"
-        },
-        {
-          "url": "https://www.oann.com/newsroom/operation-b-slap-trump-outlines-plans-to-bomb-iran-if-hes-assassinated/",
-          "title": "  Operation B **** Slap : Trump outlines plans to bomb Iran if he assassinated – One America News Network",
-          "domain": "oann.com",
-          "seendate": "20260710T201500Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/world-news/ti43vu",
-          "title": "למה איראן לא תוקפת את ישראל - וזה מה שיגרום לה לפתוח נגדנו במלחמה",
-          "domain": "kikar.co.il",
-          "seendate": "20260713T134500Z"
-        },
-        {
-          "url": "https://privatbankar.hu/cikkek/nemzetkozi/4-honap-utan-csak-most-temettek-el-az-irani-vallasi-vezetot.html",
-          "title": "4 hónap után , csak most temették el az iráni vallási vezetőt",
-          "domain": "privatbankar.hu",
-          "seendate": "20260710T073000Z"
-        },
-        {
-          "url": "https://www.portfolio.hu/global/20260711/megjott-a-sulyos-fenyegetes-kegyetlen-bosszut-forral-amerika-ellen-az-irani-rezsim-uj-vezetoje-848962",
-          "title": "Megjött a súlyos fenyegetés : kegyetlen bosszút forral Amerika ellen az iráni rezsim új vezetője",
-          "domain": "portfolio.hu",
-          "seendate": "20260711T140000Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/world-news/iran-president-foreign-minister-attacked-khamenei-",
-          "title": "  מוות לבוגד : נשיא איראן ושר החוץ הותקפו בהלוויה - צפו",
-          "domain": "kikar.co.il",
-          "seendate": "20260709T070000Z"
-        },
-        {
-          "url": "https://www.rappler.com/world/middle-east/iranian-leader-khamenei-buried-successor-out-sight/",
-          "title": "Slain Iranian leader buried as successor remains out of sight",
-          "domain": "rappler.com",
-          "seendate": "20260710T043000Z"
-        },
-        {
-          "url": "http://www.merkur.de/politik/iraner-verbrennen-riesigen-lego-trump-am-rande-von-staatsbegraebnis-zr-94391998.html",
-          "title": "Iraner verbrennen riesigen LEGO - Trump am Rande von Staatsbegräbnis",
-          "domain": "merkur.de",
-          "seendate": "20260710T140000Z"
-        },
-        {
-          "url": "http://www.tz.de/politik/iraner-verbrennen-riesigen-lego-trump-am-rande-von-staatsbegraebnis-zr-94391998.html",
-          "title": "Iraner verbrennen riesigen LEGO - Trump am Rande von Staatsbegräbnis",
-          "domain": "tz.de",
-          "seendate": "20260710T144500Z"
-        },
-        {
-          "url": "https://nypost.com/2026/07/09/world-news/ayatollah-khameneis-compound-after-us-israel-strike-that-took-out-irans-supreme-leader/",
-          "title": "Ayatollah Khamenei compound after US - Israel strike that took out Iran Supreme Leader",
-          "domain": "nypost.com",
-          "seendate": "20260709T151500Z"
-        },
-        {
-          "url": "https://www.hna.de/politik/iraner-verbrennen-riesigen-lego-trump-am-rande-von-staatsbegraebnis-zr-94391998.html",
-          "title": "Iraner verbrennen riesigen LEGO - Trump am Rande von Staatsbegräbnis",
-          "domain": "hna.de",
-          "seendate": "20260710T140000Z"
-        },
-        {
-          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/13/iran-rejects-us-talks-as-trump-issues-fresh-threat-to-tehran",
-          "title": "Iran rejects US talks as Trump issues fresh threat to Tehran",
-          "domain": "thestar.com.my",
-          "seendate": "20260713T110000Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/us/news/israel-reportedly-warns-us-of-alleged-iranian-assassination-plot-targeting-us-president-trump/articleshow/132303387.cms",
-          "title": "Trump assassination plot : Israel reportedly warns US of alleged Iranian assassination plot targeting President Trump",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260710T060000Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/international/world-news/new-us-iran-fighting-erupts-ahead-of-khamenei-burial/articleshow/132295240.cms",
-          "title": "New US , Iran fighting erupts ahead of Khamenei burial",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260709T181500Z"
-        },
-        {
-          "url": "https://www.bssnews.net/international/404342",
-          "title": "Iran will respond against Israel if infrastructure attacked : security official",
-          "domain": "bssnews.net",
-          "seendate": "20260710T141500Z"
-        },
-        {
-          "url": "https://www.odatv.com/guncel/canli-yayinda-odatv-gazeteciligine-ovgu-120154352",
-          "title": "Canlı yayında Odatv gazeteciliğine övgü",
-          "domain": "odatv.com",
-          "seendate": "20260712T214500Z"
-        },
-        {
-          "url": "https://www.haberler.com/dunya/iran-dini-lideri-hamaney-in-cenazesi-necef-te-kortejle-tasindi-20031328-haberi/",
-          "title": "İran  ın Öldürülen Dini Lideri Hamaney İçin Irakta Cenaze Törenleri Başladı",
-          "domain": "haberler.com",
-          "seendate": "20260708T124500Z"
-        },
-        {
-          "url": "https://www.bankier.pl/wiadomosc/1000-pociskow-jest-juz-zaladowanych-Wpis-Trumpa-i-grozba-totalnej-wojny-z-Iranem-9166813.html",
-          "title": "  1000 pocisków jest już załadowanych . Wpis Trumpa i groźba totalnej wojny z Iranem",
-          "domain": "bankier.pl",
-          "seendate": "20260711T070000Z"
-        },
-        {
-          "url": "https://www.haberler.com/politika/iran-dan-uyari-altyapiya-yonelik-her-turlu-20039107-haberi/",
-          "title": "İrandan ABD ve İsraile misilleme tehdidi",
-          "domain": "haberler.com",
-          "seendate": "20260710T141500Z"
-        },
-        {
-          "url": "https://www.dw.com/pl/kanclerz-merz-na-ira%C5%84skiej-li%C5%9Bcie-odwetowej-gro%C5%BAba-zamach%C3%B3w/a-77936811",
-          "title": "Merz na irańskiej liście odwetowej .  Groźba zamachów  ",
-          "domain": "dw.com",
-          "seendate": "20260713T153000Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/opinion/whether-khamenei-was-hero-or-villain-iranian-people-decide",
-          "title": "Whether Khamenei was a hero or a villain is for the Iranian people to decide",
-          "domain": "middleeasteye.net",
-          "seendate": "20260708T133000Z"
-        },
-        {
-          "url": "https://www.birgun.net/haber/hamaney-icin-irak-in-kerbela-kentinde-cenaze-toreni-722899%20target=_blank%20class=stretched-link",
-          "title": "Hamaney için Irak  ın Kerbela kentinde cenaze töreni",
-          "domain": "birgun.net",
-          "seendate": "20260708T210000Z"
-        },
-        {
-          "url": "https://www.newsx.com/world/us-iran-war-live-updates-iran-revenge-list-out-trump-netanyahu-among-13-world-leaders-named-who-else-is-on-it-247984/",
-          "title": "Iran  Revenge List  Out : Trump , Netanyahu Among 13 World Leaders Named ; Who Else Is on It ? ",
-          "domain": "newsx.com",
-          "seendate": "20260713T101500Z"
-        },
-        {
-          "url": "https://www.deccanchronicle.com/west-asia/trump-bomb-them-like-never-before-if-iran-assassinates-me-1970038",
-          "title": "Trump : Bomb Them Like Never Before if Iran Assassinates Me",
-          "domain": "deccanchronicle.com",
-          "seendate": "20260711T030000Z"
-        },
-        {
-          "url": "https://www.africanews.com/2026/07/08/thousands-of-mourners-take-part-in-khameneis-funeral-procession-in-iraq/",
-          "title": "Thousands of mourners take part in Khamenei funeral procession in Iraq",
-          "domain": "africanews.com",
-          "seendate": "20260708T181500Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/07/slain-iranian-leader-buried-successor-remains-out-sight",
-          "title": "Slain Iranian leader buried as successor remains out of sight",
-          "domain": "al-monitor.com",
-          "seendate": "20260710T034500Z"
-        },
-        {
-          "url": "http://www.fnp.de/politik/iraner-verbrennen-riesigen-lego-trump-am-rande-von-staatsbegraebnis-zr-94391998.html",
-          "title": "Iraner verbrennen riesigen LEGO - Trump am Rande von Staatsbegräbnis",
-          "domain": "fnp.de",
-          "seendate": "20260710T140000Z"
-        },
-        {
-          "url": "https://www.heute.at/s/iran-setzt-westliche-politiker-auf-schwarze-liste-120222243",
-          "title": "Reaktionen auf Chameneis Tod – Diese Politiker setzt der Iran auf  schwarze Liste  ",
-          "domain": "heute.at",
-          "seendate": "20260712T193000Z"
-        },
-        {
-          "url": "https://agerpres.ro/politic-extern/2026/07/08/irak-mii-de-participanti-la-procesiunea-funerara-a-lui-khamenei-la-najaf--1574178",
-          "title": "Irak : Mii de participanți la procesiunea funerară a lui Khamenei la Najaf",
-          "domain": "agerpres.ro",
-          "seendate": "20260708T094500Z"
-        },
-        {
-          "url": "https://diario.mx/internacional/2026/jul/12/promete-ayatola-vengar-la-muerte-de-su-padre-1127391.html",
-          "title": "Promete Ayatolá vengar la muerte de su padre",
-          "domain": "diario.mx",
-          "seendate": "20260712T124500Z"
-        },
-        {
-          "url": "https://www.washingtonexaminer.com/news/world/4643851/trump-instruction-bomb-assassination-iran/",
-          "title": "Trump says he wrote instructions for bombing campaign if he killed by Iran",
-          "domain": "washingtonexaminer.com",
-          "seendate": "20260710T174500Z"
-        },
-        {
-          "url": "https://www.maariv.co.il/news/world/article-1343103",
-          "title": "התגובה האיראנית בדרך : משמרות המהפכה סימנו יעד אסטרטגי בישראל",
-          "domain": "maariv.co.il",
-          "seendate": "20260711T194500Z"
-        },
-        {
-          "url": "https://www.arabnews.com/node/2650400/middle-east",
-          "title": "Security official : Iran will respond against Israel if infrastructure attacked",
-          "domain": "arabnews.com",
-          "seendate": "20260710T141500Z"
-        },
-        {
-          "url": "http://www.thejakartapost.com/world/2026/07/10/slain-iranian-leader-buried-as-successor-remains-out-of-sight",
-          "title": "Slain Iranian leader buried as successor remains out of sight - Middle East and Africa",
-          "domain": "thejakartapost.com",
-          "seendate": "20260710T024500Z"
-        },
-        {
-          "url": "https://www.bankier.pl/wiadomosc/Nowy-plan-zamachu-na-Trumpa-Izrael-ostrzega-USA-przed-Iranem-9166204.html",
-          "title": "Nowy plan zamachu na Trumpa ? Izrael ostrzega united states przed Iranem",
-          "domain": "bankier.pl",
-          "seendate": "20260710T073000Z"
-        },
-        {
-          "url": "https://planoinformativo.com/1156906/promete-ayatola-vengar-la-muerte-de-su-padre-",
-          "title": "Promete Ayatolá vengar la muerte de su padre",
-          "domain": "planoinformativo.com",
-          "seendate": "20260712T160000Z"
-        },
-        {
-          "url": "http://www.op-online.de/politik/iraner-verbrennen-riesigen-lego-trump-am-rande-von-staatsbegraebnis-zr-94391998.html",
-          "title": "Iraner verbrennen riesigen LEGO - Trump am Rande von Staatsbegräbnis",
-          "domain": "op-online.de",
-          "seendate": "20260710T141500Z"
-        },
-        {
-          "url": "https://www.digi24.ro/stiri/externe/presa-iraniana-afirma-ca-43-de-milioane-de-persoane-au-participat-la-ceremoniile-funerare-ale-lui-khamenei-3856381",
-          "title": "Presa iraniană afirmă că 43 de milioane de persoane au participat la ceremoniile funerare ale lui Khamenei",
-          "domain": "digi24.ro",
-          "seendate": "20260710T080000Z"
-        },
-        {
-          "url": "https://www.politico.eu/article/us-strikes-iran-following-vessel-attack-hormuz-strait/",
-          "title": "US launches fresh strikes on Iran following attack on vessel in Hormuz strait",
-          "domain": "politico.eu",
-          "seendate": "20260712T093000Z"
-        },
-        {
-          "url": "https://dunyanews.tv/en/World/961885-iran-warns-us-and-israel-as-irgc-chief-vows-to-avenge-khameneis-death",
-          "title": "Iran warns US and Israel as IRGC chief vows to avenge Khamenei death",
-          "domain": "dunyanews.tv",
-          "seendate": "20260710T161500Z"
-        },
-        {
-          "url": "https://www.newsx.com/world/us-iran-war-live-updates-tensions-escalate-amid-khamenei-burial-trump-briefed-on-alleged-assassination-plot-against-him-246832/",
-          "title": "US - Iran Tensions Escalate Amid Khamenei Burial ; Trump Briefed on Alleged Assassination Plot Against Him",
-          "domain": "newsx.com",
-          "seendate": "20260710T041500Z"
-        },
-        {
-          "url": "https://dunyanews.tv/en/World/962347-iranian-media-identifies-masked-figure-at-ayatollah-khameneis-funer",
-          "title": "Iranian media identifies masked figure at Ayatollah Khamenei funeral",
-          "domain": "dunyanews.tv",
-          "seendate": "20260713T070000Z"
-        },
-        {
-          "url": "https://www.excelsior.com.mx/internacional/lider-supremo-iran-promete-venganza-por-muerte-padre",
-          "title": "Líder supremo de Irán promete venganza por la muerte de su padre",
-          "domain": "excelsior.com.mx",
-          "seendate": "20260711T160000Z"
-        },
-        {
-          "url": "https://www.aljazeera.net/news/2026/7/10/%D8%B9%D8%A7%D8%AC%D9%84-%D8%AA%D8%B1%D9%85%D8%A8-%D9%84%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83-%D8%A8%D9%88%D8%B3%D8%AA-%D8%AA%D8%B1%D9%83%D8%AA-%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA",
-          "title": "ترمب : تركت تعليمات بقصف إيران بمستويات غير مسبوقة إذا نجحت في اغتيالي",
-          "domain": "aljazeera.net",
-          "seendate": "20260710T173000Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/hk00kfjjege",
-          "title": "  Revenge is the will of our nation : Iran leader vows vengeance as Trump threatens ma",
-          "domain": "ynetnews.com",
-          "seendate": "20260711T153000Z"
-        },
-        {
-          "url": "https://www.heraldgoa.in/goa/irans-supreme-leader-mojtaba-khamenei-vows-revenge-for-fathers-killing/481516/",
-          "title": "Iran Supreme Leader Mojtaba Khamenei vows revenge for father killing – 11 July 2026",
-          "domain": "heraldgoa.in",
-          "seendate": "20260711T183000Z"
-        },
-        {
-          "url": "https://www.express.co.uk/news/world/2227514/iran-plan-kill-trump-israel",
-          "title": "Iran  plan to kill Donald Trump  foiled after Israel shares new intelligence",
-          "domain": "express.co.uk",
-          "seendate": "20260710T024500Z"
-        },
-        {
-          "url": "https://www.sarayanews.com/article/1092095/%D8%AC%D8%AB%D9%85%D8%A7%D9%86-%D8%AE%D8%A7%D9%85%D9%86%D8%A6%D9%8A-%D9%8A%D8%B5%D9%84-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82",
-          "title": "جثمان خامنئي يصل إلى العراق | سياسة | وكالة أنباء سرايا الإخبارية",
-          "domain": "sarayanews.com",
-          "seendate": "20260707T233000Z"
-        },
-        {
-          "url": "https://www.aljazeera.net/news/2026/7/7/%D8%AC%D8%AB%D9%85%D8%A7%D9%86-%D8%AE%D8%A7%D9%85%D9%86%D8%A6%D9%8A-%D9%8A%D8%B5%D9%84-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%84%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A9",
-          "title": "جثمان خامنئي يصل إلى العراق في محطة جديدة ضمن مسار تشييعه",
-          "domain": "aljazeera.net",
-          "seendate": "20260707T213000Z"
-        },
-        {
-          "url": "http://www.merkur.de/politik/merz-iran-krieg-aktuell-iranische-zeitung-droht-trump-und-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Straße von Hormus wieder geöffnet – laut Trump",
-          "domain": "merkur.de",
-          "seendate": "20260713T050000Z"
-        },
-        {
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-assassination-israel-netanyahu-b3012360.html",
-          "title": "Israel shared intelligence of new Iranian plot to kill Trump with US officials , report says",
-          "domain": "independent.co.uk",
-          "seendate": "20260710T083000Z"
-        },
-        {
-          "url": "https://www.lokmat.com/international/i-will-continue-to-avenge-my-fathers-murder-mojtabas-shuddering-roar-after-khameneis-burial-ceremony-a-a1013/",
-          "title": "  वडिलांच्या हत्येचा बदला घेऊनच राहणार , खामेनेईंच्या सुपुर्द - ए - खाक विधीनंतर मोज्तबा थरकाप उडवणारी गर्जना ! ",
-          "domain": "lokmat.com",
-          "seendate": "20260711T200000Z"
-        },
-        {
-          "url": "https://www.vetogate.com/5689581",
-          "title": "ترامب : لو كان هناك رئيس غيري للولايات المتحدة لاختفت إسرائيل من الوجود",
-          "domain": "vetogate.com",
-          "seendate": "20260708T150000Z"
-        },
-        {
-          "url": "https://www.freepressjournal.in/world/israeli-pm-netanyahu-us-president-trump-talk-over-phone-agree-to-maintain-coordination-on-various-fronts",
-          "title": "Israeli PM Netanyahu & US President Trump Talk Over Phone , Agree To Maintain Coordination On  Various Fronts  ",
-          "domain": "freepressjournal.in",
-          "seendate": "20260710T030000Z"
-        },
-        {
-          "url": "https://www.newsweek.com/irans-revenge-us-khamenei-killing-donald-trump-12184794",
-          "title": "Iran Vows Revenge Against US For Khamenei Killing",
-          "domain": "newsweek.com",
-          "seendate": "20260711T163000Z"
-        },
-        {
-          "url": "https://www.tribuneindia.com/news/world/trump-says-he-has-left-instructions-to-bomb-iran-if-tehran-succeeds-plan-to-assassinate-him/",
-          "title": "  Bomb them : Trump says he has  left instruction if Iran assassinates him",
-          "domain": "tribuneindia.com",
-          "seendate": "20260711T030000Z"
-        },
-        {
-          "url": "https://news.webindia123.com/news/Articles/World/20260711/4473372.html",
-          "title": "Trump says he has  left instructions  to bomb Iran if Tehran succeeds plan to assassinate him",
-          "domain": "news.webindia123.com",
-          "seendate": "20260710T214500Z"
-        },
-        {
-          "url": "https://news.webindia123.com/news/Articles/World/20260711/4473387.html",
-          "title": "  Bomb them like theyve never seen before : Trump says he has  left instructions  if Iran succeeds in assassinating him",
-          "domain": "news.webindia123.com",
-          "seendate": "20260710T214500Z"
-        },
-        {
-          "url": "http://www.wa.de/politik/merz-iran-krieg-aktuell-iranische-zeitung-droht-trump-und-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Straße von Hormus wieder geöffnet – laut Trump",
-          "domain": "wa.de",
-          "seendate": "20260713T044500Z"
-        },
-        {
-          "url": "https://www.haberler.com/yerel/hamaney-in-cenazesi-irak-ta-binlerce-kisiyle-topraga-veriliyor-20029917-haberi/",
-          "title": "Hamaneyin cenazesi Irakta",
-          "domain": "haberler.com",
-          "seendate": "20260708T080000Z"
-        },
-        {
-          "url": "https://aninews.in/news/world/us/trump-says-he-has-left-instructions-to-bomb-iran-if-tehran-succeeds-plan-to-assassinate-him20260711010550/",
-          "title": "  Bomb them like theyve never seen before : Trump says he has  left instructions  if Iran succeeds in assassinating him",
-          "domain": "aninews.in",
-          "seendate": "20260710T201500Z"
-        },
-        {
-          "url": "https://www.ntvbd.com/world/news-1768945",
-          "title": "ইমাম রেজার মাজারে সমাহিত আয়াতুল্লাহ খামেনি",
-          "domain": "ntvbd.com",
-          "seendate": "20260710T060000Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=449454",
-          "title": "Video shows men who attended Khamenei funeral and the son who didnt - 08 - Jul - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260707T200000Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/hkzfyyrxze",
-          "title": "בנושאת המטוסים הזהירו ש  זה מתחמם  - וגורם אמריקני הודיע :  עכשיו הדיפלומטיה מובילה  ",
-          "domain": "ynet.co.il",
-          "seendate": "20260710T053000Z"
-        },
-        {
-          "url": "https://www.mzamin.com/article/27756",
-          "title": "  শহীদ নেতার রক্তের প্রতিশোধ অবশ্যম্ভাবী  ",
-          "domain": "mzamin.com",
-          "seendate": "20260711T160000Z"
-        },
-        {
-          "url": "https://aa.com.tr/en/middle-east/israeli-prime-minister-says-iran-war-has-not-ended-/3993540",
-          "title": "Israeli prime minister says Iran war  has not ended  ",
-          "domain": "aa.com.tr",
-          "seendate": "20260709T183000Z"
-        },
-        {
-          "url": "https://www.eremnews.com/news/world/v5ct0yn",
-          "title": "حقبة  الخليفة الغائب .. كيف تبدو ملامح  ولاية الفقيه  في نسختها الجديدة ؟ ",
-          "domain": "eremnews.com",
-          "seendate": "20260709T170000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/article-901885",
-          "title": "Iranian media reveals ruins of former supreme leader Ali Khamenei compound",
-          "domain": "jpost.com",
-          "seendate": "20260708T183000Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/iran-news/article-901849",
-          "title": "Ahmadinejad first appearance since war outbreak leaves unanswered questions",
-          "domain": "jpost.com",
-          "seendate": "20260708T124500Z"
-        },
-        {
-          "url": "https://www.aol.com/articles/iran-considered-plan-assassinate-trump-230000000.html",
-          "title": "Iran considered new plan to assassinate Trump , Israel tells US",
-          "domain": "aol.com",
-          "seendate": "20260710T013000Z"
-        },
-        {
-          "url": "https://www.inn.co.il/news/701084",
-          "title": "דיווח : נשיא איראן ושר החוץ הותקפו בהלוויית חמינאי בידי גורמים קיצוניים",
-          "domain": "inn.co.il",
-          "seendate": "20260709T131500Z"
-        },
-        {
-          "url": "https://www.washingtonexaminer.com/policy/defense/4641457/timeline-iran-us-ceasefire-mou-signing-to-end/",
-          "title": "What has happened between US and Iran since MOU signing ? ",
-          "domain": "washingtonexaminer.com",
-          "seendate": "20260708T224500Z"
-        },
-        {
-          "url": "https://alfajertv.com/news/worldnews/736052.html",
-          "title": "نتنياهو في إشارة لتركيا :  محاور جديدة  تنشأ والحفاظ على التفوق الجوي أمر ضروري – تلفزيون الفجر",
-          "domain": "alfajertv.com",
-          "seendate": "20260709T181500Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/khamenei-s-coffin-reaches-in-mashhad-funeral-delayed-due-to-massive-crowds-time-venue-and-other-crucial-details-article-13969860.html",
-          "title": "Khamenei coffin reaches in Mashhad ; funeral delayed due to massive crowds : Time , venue and other crucial details",
-          "domain": "moneycontrol.com",
-          "seendate": "20260709T110000Z"
-        },
-        {
-          "url": "https://english.aawsat.com/world/5293524-iraqi-cities-host-funeral-processions-khamenei",
-          "title": "Iraqi Cities Host Funeral Processions for Khamenei",
-          "domain": "english.aawsat.com",
-          "seendate": "20260708T073000Z"
-        },
-        {
-          "url": "https://srilankamirror.com/world/huge-crowds-in-mashhad-as-irans-late-supreme-leader-is-buried/",
-          "title": "Huge crowds in Mashhad as Iran late supreme leader is buried – Sri Lanka Mirror – Right to Know . Power to Change",
-          "domain": "srilankamirror.com",
-          "seendate": "20260710T081500Z"
-        },
-        {
-          "url": "http://www.op-online.de/politik/merz-iran-krieg-aktuell-iranische-zeitung-droht-trump-und-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Straße von Hormus wieder geöffnet – laut Trump",
-          "domain": "op-online.de",
-          "seendate": "20260713T044500Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/07/08/iraqs-holy-cities-host-funeral-processions-for-martyred-supreme-leader-khamenei",
-          "title": "Najaf , Karbala hold Khamenei funeral processions",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260708T101500Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/news/irans-supreme-leader-vows-killers-father-will-be-held-accountable",
-          "title": "Iran supreme leader vows killers of father  will be held accountable  ",
-          "domain": "middleeasteye.net",
-          "seendate": "20260711T160000Z"
-        },
-        {
-          "url": "https://kesq.com/news/national-world/cnn-world/2026/07/09/irans-supreme-leader-missed-his-fathers-momentous-funeral-now-what/",
-          "title": "Iran supreme leader missed his father momentous funeral – now what ? ",
-          "domain": "kesq.com",
-          "seendate": "20260710T043000Z"
-        },
-        {
-          "url": "https://www.skynews.com.au/world-news/global-affairs/iran-releases-footage-of-ruins-left-behind-by-usisraeli-airstrike-that-killed-its-supreme-leader-ali-khamenei/news-story/bca306f3cca7305f837d1f743c8f715f?nk=d0287e7a2214f327cffc024abd34bc7e-1783572394",
-          "title": "Iran releases footage of ruins left behind by US - Israeli airstrike that killed its Supreme Leader Ali Khamenei",
-          "domain": "skynews.com.au",
-          "seendate": "20260709T050000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-07-08/live-updates-901807",
-          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260708T024500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-07-09/live-updates-901946",
-          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260709T050000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-07-11/live-updates-902151",
-          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260711T060000Z"
-        },
-        {
-          "url": "https://www.deccanchronicle.com/world/nyt-israel-explored-recruiting-ahmadinejad-as-intelligence-asset-1970831",
-          "title": "Israel Explored Recruiting Ahmadinejad as Intelligence Asset : NYT Report",
-          "domain": "deccanchronicle.com",
-          "seendate": "20260714T111500Z"
-        },
-        {
-          "url": "https://news.webindia123.com/news/Articles/World/20260714/4474671.html",
-          "title": "Israel groomed former Iranian president for secret regime - change plan : NYT report",
-          "domain": "news.webindia123.com",
-          "seendate": "20260714T111500Z"
-        },
-        {
-          "url": "https://www.maariv.co.il/news/world/article-1342827",
-          "title": "ישראל לדונלד טראמפ : איראן פועלת בימים אלו לחסל אותך | המידע המודיעיני שהתגלה",
-          "domain": "maariv.co.il",
-          "seendate": "20260710T173000Z"
-        },
-        {
-          "url": "https://niezalezna.pl/swiat/przygotowuja-zamach-na-trumpa-prezydent-usa-dostal-ostrzezenie/574605",
-          "title": "Przygotowują zamach na Trumpa . Prezydent united states dostał ostrzeżenie",
-          "domain": "niezalezna.pl",
-          "seendate": "20260710T131500Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/international/global-trends/iraqs-holy-cities-to-host-funeral-processions-for-ali-khamenei/articleshow/132251926.cms",
-          "title": "Iraq holy cities to host funeral processions for Ali Khamenei",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260708T031500Z"
-        },
-        {
-          "url": "https://english.aawsat.com/world/5294009-iran-bury-slain-supreme-leader-culmination-mass-funeral",
-          "title": "Iran to Bury Slain Supreme Leader in Culmination of Mass Funeral",
-          "domain": "english.aawsat.com",
-          "seendate": "20260709T120000Z"
-        },
-        {
-          "url": "https://www.ibtimes.co.uk/trump-threatens-iran-military-force-funeral-chants-1808142",
-          "title": "Trump Responds to  Death to Trump  Chants at Khamenei Funeral With Threat of  1 , 000 Missiles  ",
-          "domain": "ibtimes.co.uk",
-          "seendate": "20260711T153000Z"
-        },
-        {
-          "url": "https://aa.com.tr/en/middle-east/irans-supreme-leader-pledges-revenge-for-father-s-death-in-us-israeli-attacks/3995927",
-          "title": "Iran supreme leader pledges revenge for father death in US - Israeli attacks",
-          "domain": "aa.com.tr",
-          "seendate": "20260712T213000Z"
-        },
-        {
-          "url": "https://www.stiripesurse.ro/operatiune-mossad-mahmoud-ahmadinejad-ar-fi-incercat-sa-preia-puterea-in-iran-cu-ajutorul-israelului_3903019",
-          "title": "Operațiune Mossad : Mahmoud Ahmadinejad ar fi încercat să preia puterea în Iran cu ajutorul Israelului",
-          "domain": "stiripesurse.ro",
-          "seendate": "20260713T140000Z"
-        },
-        {
-          "url": "https://www.ntvbd.com/world/news-1768449",
-          "title": "কোটি মানুষের অশ্রুসিক্ত বিদায় , আজ সমাহিত হচ্ছেন খামেনি",
-          "domain": "ntvbd.com",
-          "seendate": "20260709T051500Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/bkkp5uzegx",
-          "title": "  כרגע אנחנו בחוץ , הכול יכול להשתנות : הדריכות בישראל , וההסלמה הצפויה באיראן",
-          "domain": "ynet.co.il",
-          "seendate": "20260712T213000Z"
-        },
-        {
-          "url": "https://dailyinqilab.com/islamic-world/news/915695",
-          "title": "  শহীদ নেতার রক্তের প্রতিশোধ অবশ্যম্ভাবী  ",
-          "domain": "dailyinqilab.com",
-          "seendate": "20260712T183000Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/7/9/iran-prepares-to-bury-slain-leader-khamenei-after-mass-funeral-ceremonies",
-          "title": "Iran prepares to bury slain leader Khamenei after mass funeral processions",
-          "domain": "aljazeera.com",
-          "seendate": "20260709T130000Z"
-        },
-        {
-          "url": "https://www.digi24.ro/stiri/externe/liderul-suprem-al-iranului-mojtaba-khamenei-promite-ca-va-razbuna-uciderea-tatalui-sau-se-va-implini-inevitabil-3858007",
-          "title": "Liderul Suprem al Iranului , Mojtaba Khamenei , promite că va răzbuna uciderea tatălui său . „ Se va împlini inevitabil  ",
-          "domain": "digi24.ro",
-          "seendate": "20260711T140000Z"
-        },
-        {
-          "url": "https://www.canberratimes.com.au/story/9307347/thousands-march-as-khameneis-funeral-crosses-into-iraq/",
-          "title": "Thousands march as Khamenei funeral crosses into Iraq",
-          "domain": "canberratimes.com.au",
-          "seendate": "20260708T084500Z"
-        },
-        {
-          "url": "https://www.sbs.com.au/news/article/crowds-farewell-khamenei-iranian-holy-city-qom-body-arrives-iraq/numzxp17z",
-          "title": "Crowds bid farewell to Khamenei in Iranian holy city of Qom as body arrives in Iraq",
-          "domain": "sbs.com.au",
-          "seendate": "20260707T221500Z"
-        },
-        {
-          "url": "https://www.bssnews.net/international/404208",
-          "title": "US - Iran strikes : latest developments",
-          "domain": "bssnews.net",
-          "seendate": "20260710T220000Z"
-        },
-        {
-          "url": "https://www.thehindu.com/news/international/price-of-peace-in-the-time-of-war/article71206883.ece",
-          "title": "Price of peace in the time of war",
-          "domain": "thehindu.com",
-          "seendate": "20260711T051500Z"
-        },
-        {
-          "url": "https://news.webindia123.com/news/Articles/World/20260708/4472502.html",
-          "title": "Funeral procession of Ali Khamenei enters shrine of Imam Ali in Iraq ; to be buried in Mashhad on Thursday",
-          "domain": "news.webindia123.com",
-          "seendate": "20260708T151500Z"
-        },
-        {
-          "url": "https://www.rte.ie/news/middle-east/2026/0708/1582315-khamenei-funeral/",
-          "title": "Iraq host funeral processions for Khamenei",
-          "domain": "rte.ie",
-          "seendate": "20260708T043000Z"
-        },
-        {
-          "url": "https://www.arthosuchak.com/archives/966225/%E0%A6%AE%E0%A7%8B%E0%A6%9C%E0%A6%A4%E0%A6%AC%E0%A6%BE-%E0%A6%96%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A6%BF-%E0%A7%AF%E0%A7%A6-%E0%A6%B6%E0%A6%A4%E0%A6%BE%E0%A6%82%E0%A6%B6-%E0%A6%B6/",
-          "title": "মোজতবা খামেনি  ৯০ শতাংশ শেষ , দাবি ট্রাম্পের",
-          "domain": "arthosuchak.com",
-          "seendate": "20260714T113000Z"
-        },
-        {
-          "url": "https://www.tportal.hr/vijesti/clanak/novi-iranski-vrhovni-voda-zaprijetio-osvetom-krv-mog-oca-bit-ce-osvecena-20260711",
-          "title": "Novi iranski vrhovni vođa zaprijetio osvetom :  Krv mog oca bit će osvećena  ",
-          "domain": "tportal.hr",
-          "seendate": "20260711T153000Z"
-        },
-        {
-          "url": "https://aninews.in/news/world/middle-east/irans-late-supreme-leader-ayatollah-ali-khamenei-laid-to-rest-in-mashhad-as-thousands-gather-to-bid-farewell20260710051340/",
-          "title": "Iran late Supreme Leader Ayatollah Ali Khamenei laid to rest in Mashhad as thousands gather to bid farewell",
-          "domain": "aninews.in",
-          "seendate": "20260710T010000Z"
-        },
-        {
-          "url": "https://jp.ibtimes.com/trump-responds-death-trump-chants-khamenei-funeral-threat-1000-missiles-102479",
-          "title": "Trump Responds to  Death to Trump  Chants at Khamenei Funeral With Threat of  1 , 000 Missiles  ",
-          "domain": "jp.ibtimes.com",
-          "seendate": "20260713T080000Z"
-        },
-        {
-          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-ceasefire-talks-strait-of-hormuz/",
-          "title": "U . S .- Iran Latest : Tehran seeks regional support as mediators push to keep talks going after intense flare - up",
-          "domain": "cbsnews.com",
-          "seendate": "20260710T131500Z"
-        },
-        {
-          "url": "https://www.stiripesurse.ro/complot-iran-asasinare-donald-trump-informatii-israel_3902188",
-          "title": "Complot iranian pentru uciderea lui Trump , descoperit de Israel",
-          "domain": "stiripesurse.ro",
-          "seendate": "20260710T041500Z"
-        },
-        {
-          "url": "https://www.lebanonfiles.com/2026/articles/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%AE%D8%AA%D8%A7%D8%B1%D8%A9/%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D9%88%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D9%86%D8%B9%D9%88%D8%AF/",
-          "title": "من  الحرس  وإلى  الحرس  نعود … | أخبار الساعة من لبنان والعالم بشكل مباشر | Lebanonfiles",
-          "domain": "lebanonfiles.com",
-          "seendate": "20260709T060000Z"
-        },
-        {
-          "url": "https://arabic.cnn.com/middle-east/article/2026/07/10/irans-supreme-leader-missed-his-fathers-momentous-funeral-now-what",
-          "title": "رجل غامض بجنازة خامنئي رُصد من بُعد وسط مقاطع فيديو تزعم أنه نجله مجتبى .. ماذا نعلم ؟ ",
-          "domain": "arabic.cnn.com",
-          "seendate": "20260710T130000Z"
-        },
-        {
-          "url": "https://www.dawn.com/news/2014323/assassinated-iranian-supreme-leader-ayatollah-khamenei-laid-to-rest-in-mashhad",
-          "title": "Assassinated Iranian supreme leader Ayatollah Khamenei laid to rest in Mashhad - World",
-          "domain": "dawn.com",
-          "seendate": "20260710T034500Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=11072026&id=ebd6583b-0f9f-4678-ac25-55515a3b7084",
-          "title": "غلاف مثير لصحيفة همشهري الإيرانية .. قائمة تصفيات تضم ترامب ونتنياهو وقادة غربيين",
-          "domain": "shorouknews.com",
-          "seendate": "20260711T181500Z"
-        },
-        {
-          "url": "https://www.europafm.ro/ianul-ameninta-ca-va-raspunde-oricarui-nou-atac-asupra-infrastructurii-sale-inclusiv-prin-lovirea-israelului/",
-          "title": "Ianul amenință că va răspunde oricărui nou atac asupra infrastructurii sale , inclusiv prin lovirea Israelului : Europa FM",
-          "domain": "europafm.ro",
-          "seendate": "20260710T194500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/opinions-analysis/article/rkclevoqme",
-          "title": "Israel fronts are still linked , and Iran axis knows it",
-          "domain": "ynetnews.com",
-          "seendate": "20260708T043000Z"
-        },
-        {
-          "url": "https://index.hu/kulfold/2026/07/10/iran-usa-konfliktus-donald-trump-tamadasok-ali-hamenei-temetes/",
-          "title": "Index - Külföld - Az Egyesült Államok és Irán újra lecsapott egymásra , miközben eltemették Ali Hameneit",
-          "domain": "index.hu",
-          "seendate": "20260710T064500Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=449454&fm=psp,tsf",
-          "title": "Video shows men who attended Khamenei funeral and the son who didnt - 08 - Jul - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260708T000000Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=449454&fm=psp,tst",
-          "title": "Video shows men who attended Khamenei funeral and the son who didnt - 08 - Jul - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260708T000000Z"
-        },
-        {
-          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030091185&code=61131111&sid1=int",
-          "title": "WSJ  이스라엘 , 美에  이란이 트럼프 암살 계획  첩보 전달 - 국민일보",
-          "domain": "kmib.co.kr",
-          "seendate": "20260710T021500Z"
-        },
-        {
-          "url": "https://www.ibtimes.co.uk/mahmoud-ahmadinejad-return-khamenei-funeral-1807413",
-          "title": "  Back From the Dead : Mahmoud Ahmadinejad Stuns Crowd at Ali Khamenei Funeral",
-          "domain": "ibtimes.co.uk",
-          "seendate": "20260707T233000Z"
-        },
-        {
-          "url": "https://www.rp.pl/polityka/art44803501-izrael-ostrzega-usa-iran-planuje-zamach-na-donalda-trumpa",
-          "title": "Izrael poinformował united states , że Iran planuje zamach na Donalda Trumpa",
-          "domain": "rp.pl",
-          "seendate": "20260710T043000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-07-12/live-updates-902186",
-          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260712T060000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-07-14/live-updates-902426",
-          "title": "Live Updates : Latest from Israel , Iran , and Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260714T063000Z"
-        },
-        {
-          "url": "https://www.dcnews.ro/iranul-ameninta-cu-atacuri-asupra-israelului-si-avertizeaza-ca-nu-va-fi-crutat_1068281.html",
-          "title": "Iranul amenință cu atacuri asupra Israelului și avertizează că „ nu va fi cruțat  ",
-          "domain": "dcnews.ro",
-          "seendate": "20260710T163000Z"
-        },
-        {
-          "url": "https://www.milliyet.com.tr/dunya/son-dakika-iranin-dini-lideri-mucteba-hamaneyden-cenazenin-ardindan-ilk-aciklama-intikam-alacagiz-7621358",
-          "title": "İran  ın dini lideri Mücteba Hamaneyden cenazenin ardından ilk açıklama !  İntikam alacağız  ",
-          "domain": "milliyet.com.tr",
-          "seendate": "20260711T113000Z"
-        },
-        {
-          "url": "https://www.dcnews.ro/complot-iranian-pentru-asasinarea-presedintelui-sua-israelul-l-a-avertizat-pe-donald-trump_1068170.html",
-          "title": "Complot iranian pentru asasinarea preşedintelui SUA . Israelul l - a avertizat pe Donald Trump",
-          "domain": "dcnews.ro",
-          "seendate": "20260710T071500Z"
-        },
-        {
-          "url": "https://www.columbian.com/news/2026/jul/10/its-a-mystery-who-launched-the-latest-airstrikes-against-iran/",
-          "title": "It a mystery who launched the latest airstrikes against Iran",
-          "domain": "columbian.com",
-          "seendate": "20260710T174500Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/iran-news/article-902045",
-          "title": "Iran buries Khamenei in Mashhad as crowds chant  Kill Donald Trump  ",
-          "domain": "jpost.com",
-          "seendate": "20260709T171500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/article-902045",
-          "title": "Iran buries Khamenei in Mashhad as crowds chant  Kill Donald Trump  ",
-          "domain": "jpost.com",
-          "seendate": "20260709T161500Z"
-        },
-        {
-          "url": "http://www.az-online.de/politik/iran-krieg-aktuell-iranische-zeitung-droht-trump-und-merz-zr-94393306.html",
-          "title": "Iran - Krieg aktuell : Iranische Zeitung droht Trump und Merz",
-          "domain": "az-online.de",
-          "seendate": "20260712T094500Z"
-        },
-        {
-          "url": "https://www.dw.com/en/irans-mojtaba-khamenei-vows-revenge-for-fathers-killing/live-77913349",
-          "title": "Iran Mojtaba Khamenei vows revenge for father killing",
-          "domain": "dw.com",
-          "seendate": "20260711T121500Z"
-        },
-        {
-          "url": "https://haber.mynet.com/abd-yi-alarma-geciren-iddia-israil-paylasti-hedefte-trump-var-110107301266",
-          "title": "ABDyi alarma geçiren iddia ! İsrail paylaştı :  Hedefte Trump var  ",
-          "domain": "haber.mynet.com",
-          "seendate": "20260710T063000Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/trump-updated-netanyahu-on-us-moves-in-gulf-israeli-pm-s-office-article-13970410.html",
-          "title": "Trump briefs Netanyahu on  American moves in Gulf  in phone call after renewed US strikes on Iran",
-          "domain": "moneycontrol.com",
-          "seendate": "20260710T041500Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/international/world-news/iranian-newspaper-names-trump-and-european-leaders-as-targets-for-revenge/articleshow/132343555.cms",
-          "title": "Iran newspaper lists Trump , European leaders as revenge targets",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260712T100000Z"
-        },
-        {
-          "url": "https://www.rheinpfalz.de/politik_artikel,-trotz-angriffen-gespr%C3%A4chsbereitschaft-zwischen-usa-und-iran-_arid,5908843.html",
-          "title": "Trotz Angriffen : Gesprächsbereitschaft zwischen united states und Iran - Politik",
-          "domain": "rheinpfalz.de",
-          "seendate": "20260710T130000Z"
-        },
-        {
-          "url": "https://ria.ru/20260709/usa-2103634211.html",
-          "title": "  Вырезать опухоль : Штаты блефуют , но никому не страшно - РИА Новости , 09 . 07 . 2026",
-          "domain": "ria.ru",
-          "seendate": "20260709T070000Z"
-        },
-        {
-          "url": "https://www.kshb.com/us-news/iran-war/israel-warns-of-trump-assassination-plot-as-us-iran-ceasefire-teeters",
-          "title": "Israel warns of Trump assassination plot as US - Iran ceasefire teeters",
-          "domain": "kshb.com",
-          "seendate": "20260710T144500Z"
-        },
-        {
-          "url": "https://www.wtkr.com/us-news/iran-war/israel-warns-of-trump-assassination-plot-as-us-iran-ceasefire-teeters",
-          "title": "Israel warns of Trump assassination plot as US - Iran ceasefire teeters",
-          "domain": "wtkr.com",
-          "seendate": "20260710T141500Z"
-        },
-        {
-          "url": "https://dnevnik.hr/vijesti/svijet/iranske-novine-objavile-crnu-listu-celnika---990900.html",
-          "title": "Iranci objavili  crnu listu , na njoj su i europski čelnici : Uključila se i tajna služba susjeda",
-          "domain": "dnevnik.hr",
-          "seendate": "20260713T061500Z"
-        },
-        {
-          "url": "https://www.20min.ch/story/rache-fuer-chameneis-tod-merz-meloni-und-macron-landen-auf-irans-todesliste-103601136",
-          "title": "Irans « Todesliste »: Meloni , Macron und Trump im Visier der Zeitung « Hamshari » ",
-          "domain": "20min.ch",
-          "seendate": "20260711T224500Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/arab-news/thv0xx",
-          "title": "תיעוד נדיר מאיראן : המתחם שבו חוסל עלי חמינאי נחשף לראשונה",
-          "domain": "kikar.co.il",
-          "seendate": "20260708T163000Z"
-        },
-        {
-          "url": "https://www.stiripesurse.ro/donald-trump-a-fost-sunat-de-omul-care-sperie-jumatate-de-planeta-se-cere-pace-in-iran_3902601",
-          "title": "Donald Trump a fost sunat de omul care sperie jumătate de planetă : Se cere pace în Iran",
-          "domain": "stiripesurse.ro",
-          "seendate": "20260711T194500Z"
-        }
-      ]
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "trump_china",
@@ -1561,7 +56,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     },
@@ -1577,23 +72,45 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     }
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.625,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.625,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
         "source_diversity": 0.0,
         "tone": 0.5
       },
@@ -1608,14 +125,14 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.4583,
+      "composite_score": 0.625,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
+        "raw_volume": 1.0,
         "source_diversity": 0.0,
         "tone": 0.5
       },
@@ -1628,9 +145,55 @@
       }
     },
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4583,
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.2083,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.0417,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    }
+  ],
+  "comparison_table_21day": [
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4998,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -1639,7 +202,51 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9978
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.4969,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.9631
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.4939,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.927
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1674,7 +281,7 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.0781,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -1683,119 +290,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    }
-  ],
-  "comparison_table_21day": [
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.7768,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.9074
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.6652,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.9826
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.6652,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.9827
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.4712,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
-        "raw_volume": 1.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_OCT24",
-      "reference_type": "pre-round",
-      "composite_score": 0.3394,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.918
+        "tone": 0.9376
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1808,10 +303,10 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
+      "volume_total": 154.9316,
+      "volume_mean_daily": 0.9277,
+      "volume_peak": 2.218,
+      "days_active": 167,
       "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
@@ -1824,15 +319,15 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 250,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 174,
-      "tone_mean": -2.8828
+      "unique_domains_total": 0,
+      "tone_mean": -3.2749
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 3 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }
