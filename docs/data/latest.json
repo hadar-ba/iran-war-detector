@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-07-19T13:19:31.332347+00:00",
+  "timestamp_utc": "2026-07-21T02:33:25.399761+00:00",
   "status": "yellow",
   "headline_score_7day": 62,
-  "headline_score_21day": 50,
-  "score_jump": 16,
+  "headline_score_21day": 62,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
   "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 7-day reading is 13 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is similar at 50% similarity to the post-Lion's Roar period (April–May 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). הקריאה ל-7 ימים גבוהה ב-13 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום דומה עם 50% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 21-day picture is similar at 62% similarity to a relatively quiet period (January 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). התמונה ל-21 יום דומה עם 62% דמיון לתקופה יחסית שקטה (ינואר 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -24,7 +24,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     },
@@ -56,9 +56,1514 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
-      "example_urls": [],
-      "articles": []
+      "error": "429 rate-limited",
+      "example_urls": [
+        "https://www.chunichi.co.jp:443/article/1281880",
+        "https://www.khaskhabar.com/news/world-news/news-pakistan-is-not-an-impartial-mediator-diplomacy-alone-wont-work-with-iran-israeli-security-expert-dr-rafael-benlevi-news-hindi-1-829287-KKN.html",
+        "https://baijiahao.baidu.com/s?id=1870668034117891137"
+      ],
+      "articles": [
+        {
+          "url": "https://www.chunichi.co.jp:443/article/1281880",
+          "title": "トランプ氏と２０日に会談か イスラエル首相近く訪米 ： 中日新聞Web",
+          "domain": "chunichi.co.jp",
+          "seendate": "20260715T161500Z"
+        },
+        {
+          "url": "https://www.khaskhabar.com/news/world-news/news-pakistan-is-not-an-impartial-mediator-diplomacy-alone-wont-work-with-iran-israeli-security-expert-dr-rafael-benlevi-news-hindi-1-829287-KKN.html",
+          "title": "Pakistan is not an impartial mediator ; diplomacy alone wont work with Iran : Israeli security expert Dr . Rafael BenLevi",
+          "domain": "khaskhabar.com",
+          "seendate": "20260716T140000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1870668034117891137",
+          "title": "伊朗发动代号  纳斯尔2  军事行动 ， 对美军  造成重大损失 ！ 特朗普 ： 伊朗想达成协议 ， 已与美方接触 ！ 以色列非常想加入打伊朗 ， 美国不让",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260714T063000Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/us-news/what-really-happened-between-laura-loomer-and-joe-rogan-feud-explained-as-she-accuses-him-of-bashing-trump-101784317509975.html",
+          "title": "What really happened between Laura Loomer and Joe Rogan ? Feud explained as she accuses him of  bashing  Trump",
+          "domain": "hindustantimes.com",
+          "seendate": "20260717T213000Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/wm/2026-07-17/doc-iniiahrp8097954.shtml",
+          "title": "美国副总统 ， 两个不寻常的动向",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260717T003000Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/07/20/126714994.html",
+          "title": "FT ： 特朗普正滑入泥潭 只能重新考虑推翻伊朗政权",
+          "domain": "wenxuecity.com",
+          "seendate": "20260720T220000Z"
+        },
+        {
+          "url": "https://www.express.co.uk/news/world/2229649/china-xi-jinping-trump-poll",
+          "title": "China Xi Jinping seen more favourably than Donald Trump in bombshell | World | News",
+          "domain": "express.co.uk",
+          "seendate": "20260716T063000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L21A3DO0052182V3.html",
+          "title": "美国副总统 ， 两个不寻常的动向",
+          "domain": "163.com",
+          "seendate": "20260717T001500Z"
+        },
+        {
+          "url": "https://world.qianlong.com/2026/0714/8697245.shtml",
+          "title": "特朗普称美国向中东盟友提供保护应获  补偿 - 千龙网 · 中国首都网",
+          "domain": "world.qianlong.com",
+          "seendate": "20260714T091500Z"
+        },
+        {
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001549863",
+          "title": "איראן זיהתה את נקודת התורפה של ארה  ב במזרח התיכון",
+          "domain": "globes.co.il",
+          "seendate": "20260720T101500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/07/links-7-19-2016.html",
+          "title": "Links 7 / 19 / 2026 | naked capitalism",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260719T113000Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/07/links-7-19-2026.html",
+          "title": "Links 7 / 19 / 2026 | naked capitalism",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260719T123000Z"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/world/article-china-now-viewed-more-favourably-than-us-in-20-countries-pew-survey/",
+          "title": "China now viewed more favourably than U . S . in 20 countries , Pew survey finds",
+          "domain": "theglobeandmail.com",
+          "seendate": "20260715T173000Z"
+        },
+        {
+          "url": "https://news.sina.com.cn/w/2026-07-16/doc-inihycsp7940411.shtml",
+          "title": "  去死吧 ！ 万斯怒斥以色列砸钱抹黑自己 ： 他们持续攻击我 ， 主张美国不该和伊朗谈判 ， 应该无限期军事对抗 _ 新浪新闻",
+          "domain": "news.sina.com.cn",
+          "seendate": "20260716T063000Z"
+        },
+        {
+          "url": "https://www.news247.gr/kosmos/axios-o-trab-exetazei-klimakosi-kata-tou-iran-stelnei-epipleon-aeroskafi-sto-israil/",
+          "title": "Axios : Ο Τραμπ εξετάζει κλιμάκωση κατά του Ιράν - Ενισχύει με αεροσκάφη το Ισραήλ",
+          "domain": "news247.gr",
+          "seendate": "20260717T200000Z"
+        },
+        {
+          "url": "https://www.globalissues.org/news/2026/07/14/43567",
+          "title": "Western Imperialist Unity Split by Rival Priorities",
+          "domain": "globalissues.org",
+          "seendate": "20260714T190000Z"
+        },
+        {
+          "url": "https://arabic.rt.com/press/1811155-%D9%84%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%85%D8%B5%D9%84%D8%AD%D8%A9-%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86/",
+          "title": "لنتنياهو مصلحة شخصية في إيران",
+          "domain": "arabic.rt.com",
+          "seendate": "20260717T051500Z"
+        },
+        {
+          "url": "https://www.theguardian.com/us-news/2026/jul/20/fetterman-trump-fixation-2020-loss",
+          "title": "Trump could  do something positive  rather than fixate on 2020 loss , Fetterman says | US Senate",
+          "domain": "theguardian.com",
+          "seendate": "20260720T103000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8ukhwi9IbW5",
+          "title": "伊朗前总统内贾德被曝已遭软禁 ， 曾短暂出现在哈梅内伊葬礼队伍中",
+          "domain": "news.ifeng.com",
+          "seendate": "20260714T073000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2618169/china-urges-us-iran-to-avoid-return-of-war-backs-lawful-rights-of-coastal-nations-in-hormuz",
+          "title": "China urges US , Iran to avoid return of war , backs  lawful right of coastal nations in Hormuz",
+          "domain": "tribune.com.pk",
+          "seendate": "20260714T160000Z"
+        },
+        {
+          "url": "https://www.theepochtimes.com/opinion/the-world-made-anew-6063003",
+          "title": "The World Made Anew",
+          "domain": "theepochtimes.com",
+          "seendate": "20260716T201500Z"
+        },
+        {
+          "url": "https://townhall.com/columnists/victordavishanson/2026/07/16/the-world-made-anew-n2679592",
+          "title": "The World Made Anew",
+          "domain": "townhall.com",
+          "seendate": "20260716T191500Z"
+        },
+        {
+          "url": "https://www.wcvb.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "wcvb.com",
+          "seendate": "20260716T050000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L1QUUQCP0514BE2Q.html",
+          "title": "乌克兰归来后 ， 特朗普  心腹  突然倒下|总统|共和党|格雷厄姆|唐纳 · 川普|白宫新闻秘书",
+          "domain": "163.com",
+          "seendate": "20260714T131500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8ul9GKUtAia",
+          "title": "乌克兰归来后 ， 特朗普  心腹  突然倒下 _ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260714T131500Z"
+        },
+        {
+          "url": "https://newsradio1290wtks.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "newsradio1290wtks.iheart.com",
+          "seendate": "20260716T090000Z"
+        },
+        {
+          "url": "https://wrno.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | News Talk 99 . 5 WRNO",
+          "domain": "wrno.iheart.com",
+          "seendate": "20260716T084500Z"
+        },
+        {
+          "url": "https://wccfradio.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "wccfradio.iheart.com",
+          "seendate": "20260716T090000Z"
+        },
+        {
+          "url": "https://wtkg.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "wtkg.iheart.com",
+          "seendate": "20260716T090000Z"
+        },
+        {
+          "url": "https://knrs.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | Talk Radio 105 . 9",
+          "domain": "knrs.iheart.com",
+          "seendate": "20260716T090000Z"
+        },
+        {
+          "url": "https://newsradio967.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "newsradio967.iheart.com",
+          "seendate": "20260716T090000Z"
+        },
+        {
+          "url": "https://wbhpam.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "wbhpam.iheart.com",
+          "seendate": "20260716T090000Z"
+        },
+        {
+          "url": "https://patriotla.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | The Patriot KEIB AM 1150",
+          "domain": "patriotla.iheart.com",
+          "seendate": "20260716T090000Z"
+        },
+        {
+          "url": "https://95wxtk.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | Newsradio 95 WXTK",
+          "domain": "95wxtk.iheart.com",
+          "seendate": "20260716T120000Z"
+        },
+        {
+          "url": "https://newsradio710.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "newsradio710.iheart.com",
+          "seendate": "20260716T101500Z"
+        },
+        {
+          "url": "https://newsradio1049.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | NewsRadio 104 . 9 WBUV",
+          "domain": "newsradio1049.iheart.com",
+          "seendate": "20260716T101500Z"
+        },
+        {
+          "url": "https://whoradio.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | NEWSRADIO 1040 WHO",
+          "domain": "whoradio.iheart.com",
+          "seendate": "20260716T101500Z"
+        },
+        {
+          "url": "https://55krc.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "55krc.iheart.com",
+          "seendate": "20260716T101500Z"
+        },
+        {
+          "url": "https://powertalk967.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "powertalk967.iheart.com",
+          "seendate": "20260716T111500Z"
+        },
+        {
+          "url": "https://woodradio.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | Newsradio WOOD 1300 and 106 . 9 FM",
+          "domain": "woodradio.iheart.com",
+          "seendate": "20260716T084500Z"
+        },
+        {
+          "url": "https://600kcol.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | NewsTalk 600 KCOL",
+          "domain": "600kcol.iheart.com",
+          "seendate": "20260716T084500Z"
+        },
+        {
+          "url": "https://943wsc.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | News Radio 94 . 3 WSC",
+          "domain": "943wsc.iheart.com",
+          "seendate": "20260716T090000Z"
+        },
+        {
+          "url": "https://talkradio1080.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "talkradio1080.iheart.com",
+          "seendate": "20260716T084500Z"
+        },
+        {
+          "url": "https://newsradiowkcy.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | NewsRadio WKCY",
+          "domain": "newsradiowkcy.iheart.com",
+          "seendate": "20260716T084500Z"
+        },
+        {
+          "url": "https://wilm.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | News Radio 1450 WILM",
+          "domain": "wilm.iheart.com",
+          "seendate": "20260716T124500Z"
+        },
+        {
+          "url": "https://700wlw.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "700wlw.iheart.com",
+          "seendate": "20260716T124500Z"
+        },
+        {
+          "url": "https://wjno.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "wjno.iheart.com",
+          "seendate": "20260716T124500Z"
+        },
+        {
+          "url": "https://newsradio910wltp.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | NewsRadio 910 WLTP",
+          "domain": "newsradio910wltp.iheart.com",
+          "seendate": "20260716T124500Z"
+        },
+        {
+          "url": "https://590kqnt.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "590kqnt.iheart.com",
+          "seendate": "20260716T120000Z"
+        },
+        {
+          "url": "https://1440wgig.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "1440wgig.iheart.com",
+          "seendate": "20260716T120000Z"
+        },
+        {
+          "url": "https://koacolorado.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | KOA 850 AM & 94 . 1 FM",
+          "domain": "koacolorado.iheart.com",
+          "seendate": "20260716T120000Z"
+        },
+        {
+          "url": "https://newstalk1130.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | News / Talk 1130 WISN",
+          "domain": "newstalk1130.iheart.com",
+          "seendate": "20260716T123000Z"
+        },
+        {
+          "url": "https://powertalk1360.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | PowerTalk 1360 KFIV",
+          "domain": "powertalk1360.iheart.com",
+          "seendate": "20260716T123000Z"
+        },
+        {
+          "url": "https://1019bigwaax.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | News Radio 101 . 9 Big WAAX",
+          "domain": "1019bigwaax.iheart.com",
+          "seendate": "20260716T133000Z"
+        },
+        {
+          "url": "https://wgiram.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "wgiram.iheart.com",
+          "seendate": "20260716T131500Z"
+        },
+        {
+          "url": "https://ktok.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | NewsRadio 1000 KTOK",
+          "domain": "ktok.iheart.com",
+          "seendate": "20260716T093000Z"
+        },
+        {
+          "url": "https://600wrec.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "600wrec.iheart.com",
+          "seendate": "20260716T091500Z"
+        },
+        {
+          "url": "https://wlap.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | NewsRadio 630 WLAP",
+          "domain": "wlap.iheart.com",
+          "seendate": "20260716T101500Z"
+        },
+        {
+          "url": "https://powertalk1460.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | PowerTalk 1460 AM & 101 . 1 FM",
+          "domain": "powertalk1460.iheart.com",
+          "seendate": "20260716T093000Z"
+        },
+        {
+          "url": "https://newstalk1230.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "newstalk1230.iheart.com",
+          "seendate": "20260716T123000Z"
+        },
+        {
+          "url": "https://veropatriot.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "veropatriot.iheart.com",
+          "seendate": "20260716T123000Z"
+        },
+        {
+          "url": "https://wflaorlando.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | Newsradio WFLA Orlando",
+          "domain": "wflaorlando.iheart.com",
+          "seendate": "20260716T101500Z"
+        },
+        {
+          "url": "https://khow.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet",
+          "domain": "khow.iheart.com",
+          "seendate": "20260716T101500Z"
+        },
+        {
+          "url": "https://newsradio1170.iheart.com/content/2026-07-16-survey-global-opinions-about-us-plummet/",
+          "title": "Survey : Global Opinions About U . S . Plummet | NewsRadio 1170 WWVA",
+          "domain": "newsradio1170.iheart.com",
+          "seendate": "20260716T121500Z"
+        },
+        {
+          "url": "https://www.koat.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "koat.com",
+          "seendate": "20260716T061500Z"
+        },
+        {
+          "url": "https://www.wxii12.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "wxii12.com",
+          "seendate": "20260716T023000Z"
+        },
+        {
+          "url": "https://www.americanthinker.com/articles/2026/07/strange-things-are-happening/",
+          "title": "Strange Things Are Happening",
+          "domain": "americanthinker.com",
+          "seendate": "20260719T091500Z"
+        },
+        {
+          "url": "https://www.wtae.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "wtae.com",
+          "seendate": "20260716T020000Z"
+        },
+        {
+          "url": "https://www.wesh.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "wesh.com",
+          "seendate": "20260716T030000Z"
+        },
+        {
+          "url": "https://www.kcci.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "kcci.com",
+          "seendate": "20260716T054500Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/asia-pacific/china-urges-us-iran-to-avoid-return-of-war-backs-lawful-rights-of-coastal-nations-in-hormuz/3997262",
+          "title": "China urges US , Iran to avoid return of war , backs  lawful right of coastal nations in Hormuz",
+          "domain": "aa.com.tr",
+          "seendate": "20260714T111500Z"
+        },
+        {
+          "url": "https://www.kcra.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "kcra.com",
+          "seendate": "20260716T060000Z"
+        },
+        {
+          "url": "https://www.wgal.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "wgal.com",
+          "seendate": "20260716T023000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/geopolitical/alastair-crooke-iran-war-30",
+          "title": "Iran War 3 . 0 : Where Did This All Go Wrong ? ",
+          "domain": "zerohedge.com",
+          "seendate": "20260715T061500Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10811825",
+          "title": "이란전쟁 동참 보상 ?… 美가 UAE에 안긴 선물 정체 [ 디브리핑 ] ",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20260717T004500Z"
+        },
+        {
+          "url": "https://www.wlwt.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "wlwt.com",
+          "seendate": "20260716T060000Z"
+        },
+        {
+          "url": "https://futures.hexun.com/2026-07-20/224660891.html",
+          "title": "清晨 ， 直线拉升 ！ 霍尔木兹海峡 ， 突遭  封锁 ！ 国际油价飙涨 - 期货频道 - 和讯网",
+          "domain": "futures.hexun.com",
+          "seendate": "20260720T041500Z"
+        },
+        {
+          "url": "https://espreso.tv/svit-dlya-iranu-kompromisu-ne-isnuvalo-dobryak-poyasniv-chomu-siloviy-stsenariy-na-blizkomu-skhodi-stav-neminuchim",
+          "title": "Добряк : Чому силовий сценарій на Близькому Сході став неминучим",
+          "domain": "espreso.tv",
+          "seendate": "20260720T164500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202607203811940115.html",
+          "title": "清晨直线拉升 ！ 霍尔木兹海峡突遭  封锁 ！ 国际油价飙涨 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260720T020000Z"
+        },
+        {
+          "url": "https://www.asahi.com/ajw/articles/16731456",
+          "title": "China and Xi are seen more favorably than the U . S . and Trump in many nations , new survey says | The Asahi Shimbun : Breaking News , Japan News and Analysis",
+          "domain": "asahi.com",
+          "seendate": "20260716T043000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/byef11cmefe",
+          "title": "Israel hired Trump former digital guru to sway MAGA over Iran deal : report",
+          "domain": "ynetnews.com",
+          "seendate": "20260715T010000Z"
+        },
+        {
+          "url": "https://www.ksat.com/news/world/2026/07/15/china-and-xi-are-seen-more-favorably-than-the-us-and-trump-in-many-nations-new-survey-says/",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "ksat.com",
+          "seendate": "20260716T020000Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/07/14/china-urges-us-iran-to-avoid-return-of-war-backs-lawful-rights-of-coastal-nations-in-hormuz",
+          "title": "China Urges US , Iran to Avoid War in Strait of Hormuz",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260714T201500Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.in/support-us-declines-among-indians-only-18-back-trumps-tariffs-survey-903969",
+          "title": "Support for US declines among Indians , only 18 % back Trump tariffs : Survey",
+          "domain": "ibtimes.co.in",
+          "seendate": "20260718T113000Z"
+        },
+        {
+          "url": "https://www.unian.ua/world/viyna-v-irani-kitay-ta-rosiya-dopomagayut-vrazhati-cili-u-ssha-13445739.html",
+          "title": "Війна в Ірані : Китай та Росія допомагають вражати цілі у США",
+          "domain": "unian.ua",
+          "seendate": "20260720T070000Z"
+        },
+        {
+          "url": "http://www.afghanpaper.com/nbody.php?id=200570",
+          "title": "رشد وجهه چین ، سقوط وجهه آمریکا",
+          "domain": "afghanpaper.com",
+          "seendate": "20260720T190000Z"
+        },
+        {
+          "url": "https://www.tothemaonline.com/Article/467700/ektelesthkan-dia-apaghonismoy-dyo-andres-gia-th-dolofonia-astynomikwn-se-diadhlwseis-sto-iran",
+          "title": "Εκτελέστηκαν διά απαγχονισμού δύο άνδρες για τη δολοφονία αστυνομικών σε διαδηλώσεις στο Ιράν",
+          "domain": "tothemaonline.com",
+          "seendate": "20260719T153000Z"
+        },
+        {
+          "url": "https://www.houstonpublicmedia.org/npr/2026/07/15/g-s1-133827/china-and-xi-favored-over-u-s-and-trump-in-many-nations-survey/",
+          "title": "China and Xi favored over U . S . and Trump in many nations : Survey",
+          "domain": "houstonpublicmedia.org",
+          "seendate": "20260715T220000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202607193811738284.html",
+          "title": "局势突变 ！ 美国大举增兵 ！ 伊朗重大警告 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260719T070000Z"
+        },
+        {
+          "url": "https://www.munhwa.com:443/article/11603345",
+          "title": "  미국에서 조사한 건데도 이래 ?… 20개국 설문 결과  트럼프보다 시진핑이 낫다 .. 우방들도 중국↑",
+          "domain": "munhwa.com",
+          "seendate": "20260718T050000Z"
+        },
+        {
+          "url": "https://www.wdsu.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "wdsu.com",
+          "seendate": "20260716T043000Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/iran-announces-execution-of-two-anti-government-protesters/article71242359.ece",
+          "title": "Iran announces execution of two anti - government protesters",
+          "domain": "thehindu.com",
+          "seendate": "20260719T170000Z"
+        },
+        {
+          "url": "https://www.wmtw.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "wmtw.com",
+          "seendate": "20260716T043000Z"
+        },
+        {
+          "url": "https://www.orientaldaily.com.my/news/international/2026/07/17/833732",
+          "title": "特朗普全国讲话猛打  选举舞弊  控中国窃取选民资料 | 国际 | 東方網 馬來西亞東方日報",
+          "domain": "orientaldaily.com.my",
+          "seendate": "20260717T043000Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/182/iran-dyo-andres-ektelestikan-gia-tis-antikyvernitikes-diadiloseis-tou-ianouariou.htm",
+          "title": "Ιράν : Δύο άνδρες εκτελέστηκαν για τις αντικυβερνητικές διαδηλώσεις του Ιανουαρίου",
+          "domain": "inewsgr.com",
+          "seendate": "20260719T150000Z"
+        },
+        {
+          "url": "https://www.reviewjournal.com/opinion/opinion-columns/victor-davis-hanson/victor-davis-hanson-the-world-made-anew-3852184/",
+          "title": "VICTOR DAVIS HANSON : The world made anew",
+          "domain": "reviewjournal.com",
+          "seendate": "20260719T061500Z"
+        },
+        {
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/china-more-positive-view-us-pew-poll-survey",
+          "title": "China and Xi Jinping seen more favourably than the US and Trump in poll of major countries",
+          "domain": "theguardian.com",
+          "seendate": "20260716T003000Z"
+        },
+        {
+          "url": "https://www.channelnewsasia.com/world/china-xi-united-states-trump-pew-study-favourable-6256736",
+          "title": "China and Xi are seen more favourably than the US and Trump in many nations , Pew study suggests",
+          "domain": "channelnewsasia.com",
+          "seendate": "20260716T011500Z"
+        },
+        {
+          "url": "https://www.radio.gov.pk/16-07-2026/analysts-hail-pak-robust-diplomacy-to-defuse-mideast-escalation",
+          "title": "Analysts hail Pak diplomacy to defuse Mideast escalation",
+          "domain": "radio.gov.pk",
+          "seendate": "20260716T161500Z"
+        },
+        {
+          "url": "https://www.almasryalyoum.com/news/details/4316374",
+          "title": "المؤرخة العسكرية البريطانية « لينيت نوسباخر » لـ « المصري اليوم »: مغامرة واشنطن العسكرية غير المحسوبة تسببت فى بروز إيران كقوة إقليمية ( الحلقة 77 ) ",
+          "domain": "almasryalyoum.com",
+          "seendate": "20260715T221500Z"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4649530/iran-strait-hormuz-strikes-costing-influence-options/",
+          "title": "Iran brinkmanship is costing it influence and options",
+          "domain": "washingtonexaminer.com",
+          "seendate": "20260716T201500Z"
+        },
+        {
+          "url": "https://www.arabstoday.net/w-2783/061547-%D9%84%D8%A7-%D8%AD%D9%84%D9%91-%D8%B3%D9%84%D9%85%D9%8A%D9%91%D8%A7%D9%8B-%D9%85%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+          "title": "لا حلّ سلميّاً مع إيران",
+          "domain": "arabstoday.net",
+          "seendate": "20260720T070000Z"
+        },
+        {
+          "url": "https://www.vanguardngr.com/2026/07/iran-announces-execution-of-two-protesters-accused-of-setting-police-officers-on-fire/",
+          "title": "Iran announces execution of two protesters accused of setting police officers on fire",
+          "domain": "vanguardngr.com",
+          "seendate": "20260719T144500Z"
+        },
+        {
+          "url": "https://bbs.wenxuecity.com/currentevent/4032719.html",
+          "title": "中国向台湾张开了血盆大口 ！ - 朱头山发表于 时事述评 - 论坛",
+          "domain": "bbs.wenxuecity.com",
+          "seendate": "20260715T170000Z"
+        },
+        {
+          "url": "https://www.cretalive.gr/kosmos/iran-dyo-andres-ektelestikan-di-apaghonismoy-epeidi-dolofonisan-astynomikoys-kata-ti",
+          "title": "Ιράν : Δύο άνδρες εκτελέστηκαν δι  απαγχονισμού επειδή δολοφόνησαν αστυνομικούς κατά τη διάρκεια των διαδηλώσεων",
+          "domain": "cretalive.gr",
+          "seendate": "20260719T173000Z"
+        },
+        {
+          "url": "https://www.busan.com/view/busan/view.php?code=2026071518043275506",
+          "title": " [ 데스크 칼럼 ] 다시 등장한  명백한 운명  론의 광풍",
+          "domain": "busan.com",
+          "seendate": "20260715T131500Z"
+        },
+        {
+          "url": "https://www.onalert.gr/kosmos/iran-ektelestikan-dyo-andres-gia-ton-thanato-astynomikon-se-antikyvernitikes-diadiloseis/808753/",
+          "title": "Ιράν : Εκτελέστηκαν δύο άνδρες για τον θάνατο αστυνομικών σε αντικυβερνητικές διαδηλώσεις",
+          "domain": "onalert.gr",
+          "seendate": "20260719T150000Z"
+        },
+        {
+          "url": "https://www.ryt9.com/s/iq/12830792",
+          "title": "ผลสำรวจทั่วโลกชี้ นานาชาติมองจีนดีกว่าสหรัฐฯ เชื่อมั่น สีจิ้นผิง มากกว่า",
+          "domain": "ryt9.com",
+          "seendate": "20260717T051500Z"
+        },
+        {
+          "url": "https://www.theguardian.com/commentisfree/2026/jul/18/donald-trump-iran-world-danger-bombing-us",
+          "title": "Trump , not Iran , is the world greatest danger . He a one - man weapon of mass destruction | Simon Tisdall",
+          "domain": "theguardian.com",
+          "seendate": "20260718T060000Z"
+        },
+        {
+          "url": "https://www.benzinga.com/news/politics/26/07/60540661/marjorie-taylor-greene-questions-who-rigged-2024-election-amid-trumps-renewed-vote-fraud-claims-how-absurd-it-is",
+          "title": "Marjorie Taylor Greene Questions Who  Rigged  2024 Election Amid Trump Renewed Vote Fraud Claims :  How",
+          "domain": "benzinga.com",
+          "seendate": "20260718T080000Z"
+        },
+        {
+          "url": "https://www.npr.org/2026/07/15/g-s1-133827/china-and-xi-favored-over-us-and-trump-in-many-nations-survey",
+          "title": "China and Xi favored over U . S . and Trump in many nations : Survey",
+          "domain": "npr.org",
+          "seendate": "20260715T230000Z"
+        },
+        {
+          "url": "https://nypost.com/2026/07/14/opinion/retired-army-gen-jack-keane-on-the-military-buildup-in-the-middle-east/",
+          "title": "Retired Army Gen . Jack Keane on the military buildup in the Middle East",
+          "domain": "nypost.com",
+          "seendate": "20260715T000000Z"
+        },
+        {
+          "url": "https://vlasti.net/news/367635",
+          "title": "Війна США з Іраном зайшла в глухий кут : чому Трамп не може завершити конфлікт The Telegraph / vlasti . net",
+          "domain": "vlasti.net",
+          "seendate": "20260719T073000Z"
+        },
+        {
+          "url": "https://www.koco.com/article/china-xi-us-trump-new-survey/71967009",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "koco.com",
+          "seendate": "20260716T021500Z"
+        },
+        {
+          "url": "https://zn.ua/ukr/WORLD/svit-dedali-bilshe-simpatizuje-kitaju-a-ne-ssha-opituvannja.html",
+          "title": "США проти Китаю - У багатьох країнах покращується ставлення до Пекіна",
+          "domain": "zn.ua",
+          "seendate": "20260716T054500Z"
+        },
+        {
+          "url": "https://www.lykavitos.gr/news/planet/dyo-andres-ektelestikan-di-apagxonismou-sto-iran-eixan-katigorithei-gia-symmetoxi-se-ant",
+          "title": "Δύο άνδρες εκτελέστηκαν δι  απαγχονισμού στο Ιράν – Είχαν κατηγορηθεί για συμμετοχή σε αντικυβερνητικές διαδηλώσεις",
+          "domain": "lykavitos.gr",
+          "seendate": "20260719T171500Z"
+        },
+        {
+          "url": "https://www.ibtimes.com/america-first-more-countries-view-china-more-positive-light-us-first-time-decades-3805423",
+          "title": "America First ? More Countries View China In A More Positive Light Than U . S . For The First Time In Decades",
+          "domain": "ibtimes.com",
+          "seendate": "20260720T104500Z"
+        },
+        {
+          "url": "https://www.modernghana.com/news/1511047/people-globally-view-chinas-xi-more-favourably.html",
+          "title": "People globally view China Xi more favourably than Donald Trump , Pew poll finds",
+          "domain": "modernghana.com",
+          "seendate": "20260716T023000Z"
+        },
+        {
+          "url": "https://foreignpolicy.com/2026/07/17/iran-war-china-benefit-united-states-energy-economics-geopolitics-trump-xi/?tpcc=recirc_trending062921",
+          "title": "The Iran War Is a Gift to China",
+          "domain": "foreignpolicy.com",
+          "seendate": "20260717T201500Z"
+        },
+        {
+          "url": "https://foreignpolicy.com/2026/07/17/iran-war-china-benefit-united-states-energy-economics-geopolitics-trump-xi/",
+          "title": "The Iran War Is a Gift to China",
+          "domain": "foreignpolicy.com",
+          "seendate": "20260717T151500Z"
+        },
+        {
+          "url": "https://www.almasryalyoum.com/news/details/4316425",
+          "title": "هل استؤنفت الحرب الشاملة ضد إيران ؟! ",
+          "domain": "almasryalyoum.com",
+          "seendate": "20260715T231500Z"
+        },
+        {
+          "url": "https://www.sofokleousin.gr/epikairotita/diethni/iran-dyo-andres-ektelestikan-di-apagxonismou-se-sxesi-me-tis-mega",
+          "title": "Ιράν : Δύο άνδρες εκτελέστηκαν δι  απαγχονισμού σε σχέση με τις μεγάλες διαδηλώσεις",
+          "domain": "sofokleousin.gr",
+          "seendate": "20260719T154500Z"
+        },
+        {
+          "url": "https://www.163.com/news/article/L1S4GC970001899O.html",
+          "title": "昔日  反美斗士  竟是最大内鬼 ？ 哈梅内伊葬礼内贾德再次现身 ， 外媒爆料 ： 内贾德和以色列情报部门关系密切 ， 伊朗发现其野心后将他软禁",
+          "domain": "163.com",
+          "seendate": "20260715T003000Z"
+        },
+        {
+          "url": "https://foreignpolicy.com/2026/07/15/iran-war-trump-treaty-hormuz-strait-mou-united-states-diplomacy/",
+          "title": "Trump Iran Fiasco",
+          "domain": "foreignpolicy.com",
+          "seendate": "20260715T164500Z"
+        },
+        {
+          "url": "https://foreignpolicy.com/2026/07/15/iran-war-trump-treaty-hormuz-strait-mou-united-states-diplomacy/?tpcc=recirc_trending062921",
+          "title": "Trump Iran Fiasco",
+          "domain": "foreignpolicy.com",
+          "seendate": "20260715T161500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1871250818409384349",
+          "title": "闪评｜美伊对抗快速升级 以色列伺机欲动 ？ ",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260720T233000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/07/15/china-and-xi-are-seen-more-favorably-than-the-us-and-trump-in-many-nations-new-survey-says",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260715T174500Z"
+        },
+        {
+          "url": "http://www.srugim.co.il/101006299-%D7%9B%D7%95%D7%97%D7%95%D7%AA%D7%99%D7%A0%D7%95-%D7%A7%D7%98%D7%9C%D7%A0%D7%99%D7%99%D7%9D-%D7%95%D7%9E%D7%95%D7%9B%D7%A0%D7%99%D7%9D-%D7%90%D7%A8%D7%94%D7%91-%D7%94%D7%97%D7%9C%D7%94-%D7%90%D7%AA",
+          "title": "  כוחותינו קטלניים ומוכנים : ארה  ב החלה את המצור על איראן",
+          "domain": "srugim.co.il",
+          "seendate": "20260714T224500Z"
+        },
+        {
+          "url": "https://nypost.com/2026/07/15/business/us-eases-uae-access-to-ai-chips-after-providing-help-in-iran-war/",
+          "title": "US eases UAE access to AI chips after providing help in Iran war",
+          "domain": "nypost.com",
+          "seendate": "20260715T164500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/07/us-ties-fray-top-oman-official-visits-china-what-know",
+          "title": "As US ties fray , top Oman official visits China : What to know",
+          "domain": "al-monitor.com",
+          "seendate": "20260716T160000Z"
+        },
+        {
+          "url": "https://www.latimes.com/world-nation/story/2026-07-15/china-xi-are-seen-more-favorably-than-u-s-trump-in-many-nations-new-survey-says",
+          "title": "China and Xi are seen more favorably than the U . S . and Trump in many nations , new survey says",
+          "domain": "latimes.com",
+          "seendate": "20260715T211500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/newsletter/2026-07-16/top-oman-official-visits-china",
+          "title": "Top Oman official visits China",
+          "domain": "al-monitor.com",
+          "seendate": "20260716T160000Z"
+        },
+        {
+          "url": "https://www.seattletimes.com/nation-world/nation/china-and-xi-are-seen-more-favorably-than-the-us-and-trump-in-many-nations-new-survey-says/",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "seattletimes.com",
+          "seendate": "20260715T180000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/the-week-that-was-in-international-affairs-us-iran-ceasefire-dead-hormuz-blockade-back-on-china-flexes-with-missile-test/articleshow/132497920.cms",
+          "title": "The week that was in international affairs : US - Iran ceasefire dead , Hormuz blockade back on ; China flexes with missile test",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260719T174500Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/ap-news-in-brief-at-6-04-a-m-edt/article_7001bf4a-85c9-595b-828a-486cbb6965c5.html",
+          "title": "AP News in Brief at 6 : 04 a . m . EDT",
+          "domain": "idahostatejournal.com",
+          "seendate": "20260717T103000Z"
+        },
+        {
+          "url": "https://www.orlandosentinel.com/2026/07/15/us-china-favorability-survey/",
+          "title": "China seen more favorably than US , Trump in many nations : new survey",
+          "domain": "orlandosentinel.com",
+          "seendate": "20260715T204500Z"
+        },
+        {
+          "url": "https://www.clickondetroit.com/news/world/2026/07/15/china-and-xi-are-seen-more-favorably-than-the-us-and-trump-in-many-nations-new-survey-says/",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "clickondetroit.com",
+          "seendate": "20260715T210000Z"
+        },
+        {
+          "url": "http://news.china.com.cn/2026-07/14/content_118598930.shtml",
+          "title": "互袭加封锁 ， 美伊退回  谅解  前 ？_ 中国网",
+          "domain": "news.china.com.cn",
+          "seendate": "20260714T151500Z"
+        },
+        {
+          "url": "https://wnyc.org/npr/g-s1-133827",
+          "title": "China and Xi favored over U . S . and Trump in many nations : Survey",
+          "domain": "wnyc.org",
+          "seendate": "20260715T224500Z"
+        },
+        {
+          "url": "https://www.local10.com/news/national/2026/07/15/china-and-xi-are-seen-more-favorably-than-the-us-and-trump-in-many-nations-new-survey-says/",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "local10.com",
+          "seendate": "20260715T181500Z"
+        },
+        {
+          "url": "https://www.taipeitimes.com/News/editorials/archives/2026/07/17/2003860874",
+          "title": "Hypocrite Rubio still better than nihilist Trump",
+          "domain": "taipeitimes.com",
+          "seendate": "20260716T201500Z"
+        },
+        {
+          "url": "https://cbgc.scol.com.cn/news/7777165",
+          "title": "美军打击民用设施 ， 美伊冲突会不会失控 ？ 丨夜观天下",
+          "domain": "cbgc.scol.com.cn",
+          "seendate": "20260720T151500Z"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/world/2026/07/15/china-and-xi-are-seen-more-favorably-than-the-us-and-trump-in-many-nations-new-survey-says/",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "clickorlando.com",
+          "seendate": "20260715T193000Z"
+        },
+        {
+          "url": "https://www.citizensvoice.com/2026/07/15/us-china-favorability-survey/",
+          "title": "China seen more favorably than US , Trump in many nations : new survey",
+          "domain": "citizensvoice.com",
+          "seendate": "20260715T181500Z"
+        },
+        {
+          "url": "https://knpr.org/npr/2026-07-15/china-and-xi-favored-over-u-s-and-trump-in-many-nations-survey",
+          "title": "China and Xi favored over U . S . and Trump in many nations : Survey",
+          "domain": "knpr.org",
+          "seendate": "20260715T220000Z"
+        },
+        {
+          "url": "https://hindi.webdunia.com/latest-deutsche-welle-news/america-iran-peace-deal-hormuz-strait-crisis-july-2026-126071500002_1.html",
+          "title": "ईरान और अमेरिका समझौते के रास्ते से क्यों भटक गए ? ",
+          "domain": "hindi.webdunia.com",
+          "seendate": "20260715T031500Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5695484",
+          "title": "طريق الحرير الوجه الخفى في حرب إيران",
+          "domain": "vetogate.com",
+          "seendate": "20260718T101500Z"
+        },
+        {
+          "url": "https://lasvegassun.com/news/2026/jul/15/china-and-xi-are-seen-more-favorably-than-the-us-a/",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says - Las Vegas Sun News",
+          "domain": "lasvegassun.com",
+          "seendate": "20260715T174500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L214M91O0514R9OJ.html",
+          "title": "美军方扩大袭击范围 ， 德黑兰谴责  战争罪行 ， 伊朗议长 ： 这是一场  生存之战  |巴林|美伊|约旦|以色列",
+          "domain": "163.com",
+          "seendate": "20260716T233000Z"
+        },
+        {
+          "url": "https://www.thetimes-tribune.com/2026/07/15/us-china-favorability-survey/",
+          "title": "China seen more favorably than US , Trump in many nations : new survey",
+          "domain": "thetimes-tribune.com",
+          "seendate": "20260715T220000Z"
+        },
+        {
+          "url": "https://life.ru/p/1901288",
+          "title": "Никогда не было и вдруг опять : Запад ловят на вранье , Трамп забыл принять таблетки и кричит о краже выборов",
+          "domain": "life.ru",
+          "seendate": "20260718T233000Z"
+        },
+        {
+          "url": "https://www.wsls.com/news/world/2026/07/15/china-and-xi-are-seen-more-favorably-than-the-us-and-trump-in-many-nations-new-survey-says/",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "wsls.com",
+          "seendate": "20260715T204500Z"
+        },
+        {
+          "url": "https://www.wsbradio.com/news/world/china-xi-are-seen/X2UVU4H5BE4K7DXNLMAQ3JCMV4/",
+          "title": "China is seen more favorably than the US in new study",
+          "domain": "wsbradio.com",
+          "seendate": "20260715T191500Z"
+        },
+        {
+          "url": "https://abcnews.com/US/wireStory/china-xi-favorably-us-trump-nations-new-survey-134790121",
+          "title": "China and Xi are seen more favorably than the US and Trump in many nations , new survey says",
+          "domain": "abcnews.com",
+          "seendate": "20260715T190000Z"
+        },
+        {
+          "url": "https://www.thenews.com.pk/latest/1409515-egypt-how-garbage-city-is-profiting-from-the-iran-wars-plastic-squeeze",
+          "title": "Egypt : How  Garbage City  is profiting from the Iran war plastic squeeze",
+          "domain": "thenews.com.pk",
+          "seendate": "20260718T131500Z"
+        },
+        {
+          "url": "https://www.eremnews.com/news/world/949svhx",
+          "title": "بعد عقدين من الهيمنة الأمريكية .. الصين تتصدر مؤشرات  القبول  الدولي",
+          "domain": "eremnews.com",
+          "seendate": "20260716T204500Z"
+        },
+        {
+          "url": "https://www.straitstimes.com/world/united-states/china-tops-us-in-global-favourability-for-first-time-pew-survey",
+          "title": "China tops US in global favourability : Pew survey",
+          "domain": "straitstimes.com",
+          "seendate": "20260715T231500Z"
+        },
+        {
+          "url": "https://dailycaller.com/2026/07/14/maga-paid-influencer-brad-parscale-israel-clock-tower-salem/",
+          "title": "MAGA Paid Influencer Scandal Exploding Into Full View",
+          "domain": "dailycaller.com",
+          "seendate": "20260715T000000Z"
+        },
+        {
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001549254",
+          "title": "בין החות  ים לאיראן : ההזדמנות של ישראל לשת  פ אסטרגי עם סעודיה",
+          "domain": "globes.co.il",
+          "seendate": "20260714T213000Z"
+        },
+        {
+          "url": "https://news.china.com/socialgd/10000169/20260716/49614540.html",
+          "title": "美媒 ： 中美航天工业差距正在缩小 ， 世界正在重新选边 _ 新闻频道 _ 中华网",
+          "domain": "news.china.com",
+          "seendate": "20260716T061500Z"
+        },
+        {
+          "url": "https://www.businesstimes.com.sg/international/global/china-overtakes-us-global-favourability-first-time-pew",
+          "title": "China overtakes US in global favourability for first time : Pew",
+          "domain": "businesstimes.com.sg",
+          "seendate": "20260716T020000Z"
+        },
+        {
+          "url": "https://www.dw.com/fa-ir/%D8%AD%D9%85%D9%84%D9%87-%D8%A8%D9%87-%DB%8C%DA%A9-%D9%86%D9%81%D8%AA%DA%A9%D8%B4-%D9%86%D8%B1%D9%88%DA%98%DB%8C-%D8%AF%D8%B1-%D8%B3%D9%88%D8%A7%D8%AD%D9%84-%D8%B9%D9%85%D8%A7%D9%86/live-77943625",
+          "title": "حمله به  یک نفت‌کش نروژی در سواحل عمان  ",
+          "domain": "dw.com",
+          "seendate": "20260714T160000Z"
+        },
+        {
+          "url": "https://www.kalw.org/npr-news/2026-07-15/china-and-xi-favored-over-u-s-and-trump-in-many-nations-survey",
+          "title": "China and Xi favored over U . S . and Trump in many nations : Survey",
+          "domain": "kalw.org",
+          "seendate": "20260716T004500Z"
+        },
+        {
+          "url": "https://www.hkcna.hk/docDetail.jsp?id=101371088&channel=2810",
+          "title": "威脅下周將摧毀橋樑和電廠 ！ 美媒 ： 白宮正討論大規模進攻伊朗 | 國際",
+          "domain": "hkcna.hk",
+          "seendate": "20260716T020000Z"
+        },
+        {
+          "url": "https://www.hkcna.hk/docDetail.jsp?id=101371088&channel=2803",
+          "title": "威脅下周將摧毀橋樑和電廠 ！ 美媒 ： 白宮正討論大規模進攻伊朗 | 頭條",
+          "domain": "hkcna.hk",
+          "seendate": "20260716T020000Z"
+        },
+        {
+          "url": "https://www.livemint.com/global/uae-rewarded-with-coveted-ai-chips-for-supporting-us-war-in-iran-11784077160958.html",
+          "title": "UAE rewarded with coveted AI chips for supporting US war in Iran",
+          "domain": "livemint.com",
+          "seendate": "20260715T033000Z"
+        },
+        {
+          "url": "https://world.qianlong.com/2026/0714/8697475.shtml",
+          "title": "互袭加封锁 ， 美伊退回  谅解  前 ？- 千龙网 · 中国首都网",
+          "domain": "world.qianlong.com",
+          "seendate": "20260715T000000Z"
+        },
+        {
+          "url": "https://www.jagran.com/world/middle-east-hormuz-strait-trumps-20-toll-plan-international-law-40308554.html",
+          "title": "क्या होर्मुज से गुजरने वाले जहाजों से टैक्स वसूल सकते हैं डोनल्ड ट्रंप ? जानिए क्या कहता है अंतरराष्ट्रीय कानून - hormuz strait trumps 20 toll plan international law",
+          "domain": "jagran.com",
+          "seendate": "20260716T120000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1871001491481316382",
+          "title": "大暴雨 、 8级以上雷暴大风来袭｜晨报来了",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260717T233000Z"
+        },
+        {
+          "url": "https://www.sbs.com.au/language/arabic/ar/article/middle-east-updates-trump-threatens-to-target-iranian-power-plants-and-us-strikes-continue-for-the-fourth-day/yj7m1j96c",
+          "title": "مستجدات الشرق الأوسط : ترامب يهدد باستهداف محطات الطاقة الإيرانية .. والضربات الأميركية تتواصل لليوم الرابع",
+          "domain": "sbs.com.au",
+          "seendate": "20260715T040000Z"
+        },
+        {
+          "url": "https://stock.jrj.com.cn/2026/07/15185157818703.shtml",
+          "title": "帮美国打伊朗 ， 换来AI芯片  绿灯 ！ 阿联酋与特朗普家族的利益交换浮出水面 - 股票 - 金融界",
+          "domain": "stock.jrj.com.cn",
+          "seendate": "20260715T111500Z"
+        },
+        {
+          "url": "https://www.timescall.com/2026/07/15/us-china-favorability-survey/",
+          "title": "China seen more favorably than US , Trump in many nations : new survey",
+          "domain": "timescall.com",
+          "seendate": "20260715T200000Z"
+        },
+        {
+          "url": "https://www.taipeitimes.com/News/world/archives/2026/07/17/2003860909",
+          "title": "China tops US in Pew global favorability survey",
+          "domain": "taipeitimes.com",
+          "seendate": "20260716T201500Z"
+        },
+        {
+          "url": "https://www.mirror.co.uk/news/world-news/iran-strait-hormuz-donald-trump-37448226",
+          "title": "Iran makes defiant vow that not a  drop of oil and ga will leave Strait of Hormuz",
+          "domain": "mirror.co.uk",
+          "seendate": "20260718T163000Z"
+        },
+        {
+          "url": "https://www.thedailybeast.com/kaitlan-collins-corners-donald-trump-on-new-attacks-in-iran/",
+          "title": "Kaitlan Collins Corners Donald Trump on New Attacks in Iran",
+          "domain": "thedailybeast.com",
+          "seendate": "20260714T043000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/why-trump-s-former-pentagon-chief-says-bombing-alone-won-t-force-iran-to-back-down-article-13975599.html",
+          "title": "Why Trump former Pentagon chief says bombing alone wont force Iran to back down",
+          "domain": "moneycontrol.com",
+          "seendate": "20260716T091500Z"
+        },
+        {
+          "url": "https://www.kpbs.org/news/international/2026/07/15/china-and-xi-favored-over-u-s-and-trump-in-many-nations-survey",
+          "title": "China and Xi favored over U . S . and Trump in many nations : Survey",
+          "domain": "kpbs.org",
+          "seendate": "20260715T221500Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-07-16/4474406.html",
+          "title": "连炸6小时 ， 美军炮击伊朗儿童医院附近区域 ！ 特朗普称  伊朗想达成协议 ， 伊朗 ： 不谈 ！ 万斯 ： 单靠武力赢不了伊朗 ， 对美国人很失望",
+          "domain": "nbd.com.cn",
+          "seendate": "20260716T033000Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/opinion/80082",
+          "title": "Opinion : Ukraine Watershed",
+          "domain": "kyivpost.com",
+          "seendate": "20260718T174500Z"
+        },
+        {
+          "url": "https://www.cretalive.gr/kosmos/guardian-o-tramp-kai-ohi-iran-einai-o-megalyteros-kindynos-gia-ton-kosmo",
+          "title": "Guardian : Ο Τραμπ και όχι το Ιράν , είναι ο μεγαλύτερος κίνδυνος για τον κόσμο",
+          "domain": "cretalive.gr",
+          "seendate": "20260718T223000Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/227/Guardian-o-trab-ochi-to-iran-einai-o-megalyteros-kindynos-gia-ton-kosmo.htm",
+          "title": "Guardian : Ο Τραμπ , όχι το Ιράν , είναι ο μεγαλύτερος κίνδυνος για τον κόσμο",
+          "domain": "inewsgr.com",
+          "seendate": "20260718T201500Z"
+        },
+        {
+          "url": "https://www.newsbeast.gr/world/arthro/13244201/i-tourkia-diapragmatevetai-ti-metafora-ton-s-400-sta-inomena-aravika-emirata-gia-na-apoktisei-ta-f-35",
+          "title": "Η Τουρκία διαπραγματεύεται τη μεταφορά των S - 400 στα Ηνωμένα Αραβικά Εμιράτα για να αποκτήσει τα F - 35",
+          "domain": "newsbeast.gr",
+          "seendate": "20260718T193000Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-07-15/4472762.html",
+          "title": "美国出动超20艘军舰 、 数百架战机打击 、 封锁伊朗 ； 特朗普 ： 继续打 ， 直到我说  够了 ； 美股齐涨 ， SK海力士涨27 %； 西班牙2 - 0法国丨每经早参",
+          "domain": "nbd.com.cn",
+          "seendate": "20260714T231500Z"
+        },
+        {
+          "url": "https://www.prajasakti.com/opinion-90/articles-81/hormuz-is-crucial",
+          "title": "హర్మూజ్ కీలకం ! ",
+          "domain": "prajasakti.com",
+          "seendate": "20260715T030000Z"
+        },
+        {
+          "url": "https://cbgc.scol.com.cn/news/7760762",
+          "title": "川观早8点丨全国用电负荷再创新高 ； 国有四大行紧急提示 ； 美国对伊朗发动新一轮打击 （ 2026年7月15日 ） ",
+          "domain": "cbgc.scol.com.cn",
+          "seendate": "20260715T033000Z"
+        },
+        {
+          "url": "https://www.hkcna.hk/docDetail.jsp?id=101372177&channel=2810",
+          "title": "對話 | 阿聯酋獲美  芯片分紅 ， 對海灣格局和中東中企有何影響 ？ | 國際",
+          "domain": "hkcna.hk",
+          "seendate": "20260717T033000Z"
+        },
+        {
+          "url": "https://www.hkcna.hk/docDetail.jsp?id=101372177&channel=2803",
+          "title": "對話 | 阿聯酋獲美  芯片分紅 ， 對海灣格局和中東中企有何影響 ？ | 頭條",
+          "domain": "hkcna.hk",
+          "seendate": "20260717T053000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L27QSJ6D0514BQ68.html",
+          "title": "外媒 ： 特朗普在伊朗  迅速找到出路希望渺茫  |美国|盟国|德黑兰|华盛顿|新总统|唐纳 · 川普",
+          "domain": "163.com",
+          "seendate": "20260719T134500Z"
+        },
+        {
+          "url": "https://www.addustour.com/articles/1579149-%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D9%80%D9%80%D9%80%D8%AC%D9%80%D9%80%D9%87%D9%86%D9%85%D9%80%D9%8A%D9%80%D9%80%D8%A9",
+          "title": "حرب الخطوط الـــجــهنمـيــة",
+          "domain": "addustour.com",
+          "seendate": "20260719T224500Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/430479",
+          "title": "Conspiratorial Obsessions",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260720T210000Z"
+        },
+        {
+          "url": "https://www.dw.com/zh/%E4%B8%AD%E4%B8%9C%E6%88%98%E4%BA%89%E7%BE%8E%E5%86%9B%E6%83%A9%E7%BD%9A%E4%BC%8A%E6%9C%97/a-78024327",
+          "title": "中东战争 ： 美军  惩罚  伊朗",
+          "domain": "dw.com",
+          "seendate": "20260719T103000Z"
+        },
+        {
+          "url": "https://sputniknews.cn/20260716/1072347744.html",
+          "title": "皮尤调查 ： 中国全球好感度排名超过美国",
+          "domain": "sputniknews.cn",
+          "seendate": "20260716T024500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/07/links-7-18-2026.html",
+          "title": "Links 7 / 18 / 2026 | naked capitalism",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260718T113000Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/07/20/is-israel-the-biggest-threat-to-the-usa",
+          "title": "Is Israel the Biggest Threat to U . S . Security ? Critical Risk",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260720T214500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8umrKcjjbd0",
+          "title": "上千枚导弹 ， 要飞向伊朗 ？ ",
+          "domain": "news.ifeng.com",
+          "seendate": "20260715T171500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/b1gzpx9vme",
+          "title": "ההתפתחויות שמרמזות : הסלמה משמעותית בפתח",
+          "domain": "ynet.co.il",
+          "seendate": "20260719T100000Z"
+        },
+        {
+          "url": "https://www.sbs.com.au/language/arabic/ar/article/the-united-states-escalates-its-strikes-on-iran-and-aoun-discusses-in-washington-the-consolidation-of-the-truce-and-the-israeli-withdrawal/ysirlobfz",
+          "title": "الولايات المتحدة تصعّد ضرباتها على إيران .. وعون يبحث في واشنطن تثبيت الهدنة والانسحاب الإسرائيلي",
+          "domain": "sbs.com.au",
+          "seendate": "20260719T111500Z"
+        },
+        {
+          "url": "https://www.ocregister.com/2026/07/17/john-seiler-trumps-forever-wars-are-wrecking-america-first/",
+          "title": "John Seiler : Trump forever wars are wrecking America First – Orange County Register",
+          "domain": "ocregister.com",
+          "seendate": "20260717T211500Z"
+        },
+        {
+          "url": "https://www.dailymaverick.co.za/article/2026-07-16-is-the-deal-dead-your-questions-on-the-iran-us-conflict-answered/",
+          "title": "Your questions on the Iran - US conflict answered",
+          "domain": "dailymaverick.co.za",
+          "seendate": "20260716T231500Z"
+        },
+        {
+          "url": "https://www.youm7.com/story/2026/7/20/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7-%D9%88%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%A9-%D8%A7%D9%84%D8%B1%D8%AF%D8%B9-%D8%A7%D9%84%D9%85%D8%AA%D8%A8%D8%A7%D8%AF%D9%84/7486744",
+          "title": "إيران وأمريكا .. ومعادلة الردع المتبادل",
+          "domain": "youm7.com",
+          "seendate": "20260719T223000Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/news/2026/07/19/126713373.html",
+          "title": "中东战争 ： 美军  惩罚  伊朗",
+          "domain": "wenxuecity.com",
+          "seendate": "20260719T123000Z"
+        },
+        {
+          "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/finanza/dettaglio/morning-note-economia-e-finanza-dai-giornali-esteri-nRC_16072026_1013_241118871.html",
+          "title": "Morning note : economia e finanza dai giornali esteri",
+          "domain": "borsaitaliana.it",
+          "seendate": "20260716T093000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/world/morning-briefing-july-16-2026/3999751",
+          "title": "Morning Briefing : July 16 , 2026",
+          "domain": "aa.com.tr",
+          "seendate": "20260716T093000Z"
+        },
+        {
+          "url": "https://www.thenation.com/podcast/world/ap-071726/",
+          "title": "The US Resumes the Iran War , the Ebola Outbreak Surges in the DRC , Andy Burnham Becomes the united kingdom PM",
+          "domain": "thenation.com",
+          "seendate": "20260717T223000Z"
+        },
+        {
+          "url": "https://www.khaskhabar.com/local/delhi-ncr/delhi-news/news-trust-in-trump-and-the-us-declines-in-india-with-51-showing-the-highest-trust-in-putin-pew-survey-news-hindi-1-829706-KKN.html",
+          "title": "Trust in Trump and the US declines in India , with 51 showing the highest trust in Putin : Pew Survey , Delhi News in Hindi",
+          "domain": "khaskhabar.com",
+          "seendate": "20260718T113000Z"
+        },
+        {
+          "url": "https://blog.wenxuecity.com/myblog/70246/202607/13776.html",
+          "title": "伊朗要杀川全家 - 博客",
+          "domain": "blog.wenxuecity.com",
+          "seendate": "20260720T013000Z"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/why-oil-prices-havent-gone-105141407.html",
+          "title": "Why oil prices havent gone crazy despite 5 months of US - Iran war",
+          "domain": "finance.yahoo.com",
+          "seendate": "20260720T130000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/us-stocks-finished-mixed-most-major-indices-green-and-dollar-continued-weaken-after-softer",
+          "title": "US stocks finished mixed with most major indices in the green and the dollar continued to weaken after softer - than - expected PPI data - Newsquawk Daily Asia - Pac Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20260716T010000Z"
+        },
+        {
+          "url": "https://fortune.com/2026/07/18/trump-choose-endless-quagmire-ceding-strait-hormuz-iran/",
+          "title": "Trump may have to choose between an endless quagmire and ceding the Strait of Hormuz to Iran",
+          "domain": "fortune.com",
+          "seendate": "20260718T104500Z"
+        },
+        {
+          "url": "https://www.albawaba.com/node/trump-unveils-white-house-files-us-1633213",
+          "title": "Trump unveils white house files on US election manipulation",
+          "domain": "albawaba.com",
+          "seendate": "20260717T231500Z"
+        },
+        {
+          "url": "https://www.skai.gr/news/world/wsji-tourkia-diapragmateyetai-ti-metafora-ton-s-400-sta-iae-gia-na-apoktisei-ta-f-35",
+          "title": "WSJ : Η Τουρκία διαπραγματεύεται τη μεταφορά των S - 400 στα ΗΑΕ για να αποκτήσει τα F - 35",
+          "domain": "skai.gr",
+          "seendate": "20260718T210000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/we-have-toolstolls-do-it",
+          "title": "We Have The Tools / Tolls To Do It",
+          "domain": "zerohedge.com",
+          "seendate": "20260715T170000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/more-people-around-world-now-170246751.html",
+          "title": "More people around the world now favour China over the US , Pew study suggests",
+          "domain": "yahoo.com",
+          "seendate": "20260715T181500Z"
+        },
+        {
+          "url": "https://vm.ru/politics/1343965-strelyayut-sebe-v-nogu-kak-amerikancy-vsemi-sposobami-meshayut-razvitiyu-mnogopolyarnoj-sistemy",
+          "title": "Стреляют себе в ногу : как американцы всеми способами мешают развитию многополярной системы",
+          "domain": "vm.ru",
+          "seendate": "20260720T210000Z"
+        },
+        {
+          "url": "http://theeconomiccollapseblog.com/the-battle-for-the-strait-of-hormuz-will-show-whether-the-world-can-survive-without-oil-from-the-persian-gulf-or-not/",
+          "title": "The Battle For The Strait Of Hormuz Will Show Whether The World Can Survive Without Oil From The Persian Gulf Or Not",
+          "domain": "theeconomiccollapseblog.com",
+          "seendate": "20260714T233000Z"
+        },
+        {
+          "url": "https://www.nzherald.co.nz/world/in-iran-trump-has-found-an-opponent-he-cannot-easily-dominate/premium/MMHO5M254RGFHP7RXHU3VIE2QE/",
+          "title": "In Iran , Trump has found an opponent he cannot easily dominate",
+          "domain": "nzherald.co.nz",
+          "seendate": "20260716T003000Z"
+        },
+        {
+          "url": "https://www.albayan.ae/news/middle-east/iran/1531584",
+          "title": "واشنطن تواصل قصف إيران وحصار الموانئ يدخل حيز التنفيذ",
+          "domain": "albayan.ae",
+          "seendate": "20260714T223000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/889075/iran-counterstrikes-crush-us-hopes-for-quick-victory-as-middle-east-brinkmanship-reaches-critical-flashpoint%20title=",
+          "title": "Iran counterstrikes crush US hopes for quick victory as Middle East brinkmanship reaches critical flashpoint",
+          "domain": "bankingnews.gr",
+          "seendate": "20260719T113000Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jimmy-carter-iran-war-inflation-b3017477.html",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+          "domain": "independent.co.uk",
+          "seendate": "20260718T190000Z"
+        },
+        {
+          "url": "https://pjmedia.com/aj-christopher/2026/07/14/finish-the-job-mr-president-part-2-n4955010",
+          "title": "Finish the Job , Mr . President ( Part 2 ) ",
+          "domain": "pjmedia.com",
+          "seendate": "20260714T204500Z"
+        },
+        {
+          "url": "https://www.presstelegram.com/2026/07/17/john-seiler-trumps-forever-wars-are-wrecking-america-first/",
+          "title": "John Seiler : Trump forever wars are wrecking America First – Press Telegram",
+          "domain": "presstelegram.com",
+          "seendate": "20260717T224500Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/us-stocks-were-mostly-lower-amid-higher-oil-prices-and-yields-us-iran-strikes-continued",
+          "title": "US stocks were mostly lower , amid higher oil prices and yields , as US - Iran strikes continued - Newsquawk Daily Asia - Pac Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20260720T224500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-shifts-his-tone-on-jimmy-carter-while-grappling-with-iran-inflation-his-own-legacy/articleshow/132482303.cms",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation , his own legacy",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260718T153000Z"
+        },
+        {
+          "url": "https://www.armstrongeconomics.com/international-news/iran/iran-war-more-unpopular-than-vietnam-or-iraq/",
+          "title": "Iran War More Unpopular Than Vietnam Or Iraq | Armstrong Economics",
+          "domain": "armstrongeconomics.com",
+          "seendate": "20260720T041500Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/trump-shifts-tone-jimmy-carter-131501080.html",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+          "domain": "yahoo.com",
+          "seendate": "20260718T141500Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/trump-may-choose-between-endless-080700006.html",
+          "title": "Trump may have to choose between an endless quagmire and ceding the Strait of Hormuz to Iran",
+          "domain": "yahoo.com",
+          "seendate": "20260718T113000Z"
+        },
+        {
+          "url": "https://www.sun-sentinel.com/2026/07/18/trump-shifts-his-tone-on-jimmy-carter-while-grappling-with-iran-inflation-and-his-own-legacy/",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+          "domain": "sun-sentinel.com",
+          "seendate": "20260718T150000Z"
+        },
+        {
+          "url": "https://www.clickondetroit.com/news/politics/2026/07/18/trump-shifts-his-tone-on-jimmy-carter-while-grappling-with-iran-inflation-and-his-own-legacy/",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+          "domain": "clickondetroit.com",
+          "seendate": "20260718T160000Z"
+        },
+        {
+          "url": "https://www.click2houston.com/news/politics/2026/07/18/trump-shifts-his-tone-on-jimmy-carter-while-grappling-with-iran-inflation-and-his-own-legacy/",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+          "domain": "click2houston.com",
+          "seendate": "20260718T160000Z"
+        },
+        {
+          "url": "https://www.dailysabah.com/business/economy/why-oil-prices-havent-gone-crazy-despite-5-months-of-us-iran-war",
+          "title": "Why oil prices havent gone crazy despite 5 months of US - Iran war",
+          "domain": "dailysabah.com",
+          "seendate": "20260720T154500Z"
+        },
+        {
+          "url": "https://www.news4jax.com/news/politics/2026/07/18/trump-shifts-his-tone-on-jimmy-carter-while-grappling-with-iran-inflation-and-his-own-legacy/",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+          "domain": "news4jax.com",
+          "seendate": "20260718T153000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/07/18/trump-shifts-his-tone-on-jimmy-carter-while-grappling-with-iran-inflation-and-his-own-legacy",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260718T140000Z"
+        },
+        {
+          "url": "https://addiyar.com/article/2377680-%d8%a3%d9%88-%d8%ad%d8%b1%d8%a8-%d8%a7%d9%84%d9%85%d8%a7%d8%a6%d8%a9-%d8%b9%d8%a7%d9%85",
+          "title": " ... أو حرب المائة عام !! - نبيه البرجي",
+          "domain": "addiyar.com",
+          "seendate": "20260720T221500Z"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/politics/2026/07/18/trump-shifts-his-tone-on-jimmy-carter-while-grappling-with-iran-inflation-and-his-own-legacy/",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+          "domain": "clickorlando.com",
+          "seendate": "20260718T144500Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/what-is-irans-pickaxe-mountain-and-why-has-trump-threatened-to-strike-it-explained-101784131181806.html",
+          "title": "What is Iran Pickaxe Mountain and why has Trump threatened to strike it ? Explained",
+          "domain": "hindustantimes.com",
+          "seendate": "20260715T174500Z"
+        },
+        {
+          "url": "https://tech.ifeng.com/c/8uq1HFC9vqt",
+          "title": " 《 大西洋月刊 》： JD Vance 本人遭遇外星人绑架了吗 ？ ",
+          "domain": "tech.ifeng.com",
+          "seendate": "20260717T114500Z"
+        },
+        {
+          "url": "https://www.theamericanconservative.com/the-real-lesson-of-americas-decades-long-conflict-with-iran/",
+          "title": "The Real Lesson of America Decades - Long Conflict with Iran - The American Conservative",
+          "domain": "theamericanconservative.com",
+          "seendate": "20260715T044500Z"
+        },
+        {
+          "url": "https://pjmedia.com/scott-pinsker/2026/07/14/what-the-woke-right-really-truly-wants-and-where-they-actually-have-a-point-n4955026",
+          "title": "What the Woke Right Really , Truly Wants and Where It Actually Has a Point",
+          "domain": "pjmedia.com",
+          "seendate": "20260714T204500Z"
+        },
+        {
+          "url": "https://www.actionnewsjax.com/news/world/trump-shifts-his/YERHOMAM4U245MCEXYD64WMJNA/",
+          "title": "Why Trump has changed the way he talks about Jimmy Carter",
+          "domain": "actionnewsjax.com",
+          "seendate": "20260718T141500Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-07-19/4476961.html",
+          "title": "特朗普下令空袭 ， 伊朗最大岛屿遭导弹袭击 ！ 伊朗 ： 将  毁灭性回击  ！ 美军称伊朗袭击致2名美士兵死亡 、 1人失踪",
+          "domain": "nbd.com.cn",
+          "seendate": "20260719T034500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2618450/greater-israel-an-unfinished-war-and-pakistans-balancing-act",
+          "title": "Greater Israel , an unfinished war and Pakistan balancing act",
+          "domain": "tribune.com.pk",
+          "seendate": "20260715T220000Z"
+        },
+        {
+          "url": "https://www.singtaousa.com/2026/07/16/news/world/iranian-people-curse-trump/",
+          "title": "伊朗人咒特朗普去死 - 星島日報",
+          "domain": "singtaousa.com",
+          "seendate": "20260716T133000Z"
+        },
+        {
+          "url": "https://www.capitalgazette.com/2026/07/18/2-us-troops-killed-1-missing-after-iran-strikes-neighbors/",
+          "title": "2 US troops killed , 1 missing after Iran strikes neighbors",
+          "domain": "capitalgazette.com",
+          "seendate": "20260719T020000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/turkiye/morning-briefing-july-17-2026/4000904",
+          "title": "Morning Briefing : July 17 , 2026",
+          "domain": "aa.com.tr",
+          "seendate": "20260717T051500Z"
+        },
+        {
+          "url": "https://lasvegassun.com/news/2026/jul/18/trump-shifts-his-tone-on-jimmy-carter-while-grappl/",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy - Las Vegas Sun News",
+          "domain": "lasvegassun.com",
+          "seendate": "20260718T164500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/07/iran-war-trump-tacos-on-strait-of-hormuz-fee-as-blockade-starts-but-again-threatens-to-attack-iran-energy-and-critical-infrastructure-as-iran-warns-of-closure-of-bab-el-mandeb-destruction-of-gulf-st.html",
+          "title": "Iran War : Trump TACOs on Strait of Hormuz Fee as Blockade Starts but Again Threatens to Attack Iran Energy and Critical Infrastructure as Iran Warns of Closure of Bab el - Mandeb , Destruction of Gulf State Energy Production",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260715T124500Z"
+        },
+        {
+          "url": "https://www.wsls.com/news/politics/2026/07/18/trump-shifts-his-tone-on-jimmy-carter-while-grappling-with-iran-inflation-and-his-own-legacy/",
+          "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+          "domain": "wsls.com",
+          "seendate": "20260718T151500Z"
+        },
+        {
+          "url": "https://slguardian.org/the-next-strait-crisis/",
+          "title": "The Next Strait Crisis ? ",
+          "domain": "slguardian.org",
+          "seendate": "20260717T070000Z"
+        },
+        {
+          "url": "https://www.wsbradio.com/news/world/trump-shifts-his/YERHOMAM4U245MCEXYD64WMJNA/",
+          "title": "Why Trump has changed the way he talks about Jimmy Carter",
+          "domain": "wsbradio.com",
+          "seendate": "20260718T174500Z"
+        },
+        {
+          "url": "https://www.moroccoworldnews.com/2026/07/330370/madrid-vs-washington-who-gets-to-decide-europes-middle-east-stance/",
+          "title": "Madrid vs . Washington : Who Gets to Decide Europe Middle East Stance ? ",
+          "domain": "moroccoworldnews.com",
+          "seendate": "20260720T203000Z"
+        }
+      ]
     },
     {
       "id": "military_strike",
@@ -81,15 +1586,15 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.625,
+      "composite_score": 0.7429,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "cross_lang_correlation": 0.7071,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -110,8 +1615,8 @@
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -132,30 +1637,8 @@
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_OCT24",
-      "reference_type": "pre-round",
-      "composite_score": 0.2083,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -169,15 +1652,37 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.4712,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 1.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.3014,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 0.9811,
         "tone": 0.5
       },
       "weights_applied": {
@@ -191,9 +1696,31 @@
   ],
   "comparison_table_21day": [
     {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.7429,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.7071,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.4998,
+      "composite_score": 0.625,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -201,8 +1728,8 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.9978
+        "source_diversity": 1.0,
+        "tone": 0.5
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -215,7 +1742,7 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.4969,
+      "composite_score": 0.6239,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -223,30 +1750,8 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.9631
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4939,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.927
+        "source_diversity": 0.9936,
+        "tone": 0.5
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -259,15 +1764,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.2083,
+      "composite_score": 0.4712,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -281,16 +1786,16 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0781,
+      "composite_score": 0.3004,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.9376
+        "source_diversity": 0.9748,
+        "tone": 0.5
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -303,15 +1808,15 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 154.9316,
-      "volume_mean_daily": 0.9277,
-      "volume_peak": 2.218,
-      "days_active": 167,
-      "articles_en": 0,
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
+      "articles_en": 250,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 0,
+      "unique_domains_total": 156,
       "tone_mean": null
     },
     "window_21d": {
@@ -319,12 +1824,12 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 0,
+      "articles_en": 250,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 0,
-      "tone_mean": -3.2749
+      "unique_domains_total": 155,
+      "tone_mean": null
     }
   },
   "data_quality_notes": [
