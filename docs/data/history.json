@@ -299,6 +299,12 @@
       "headline_score_7day": 46,
       "headline_score_21day": 46,
       "status": "green"
+    },
+    {
+      "timestamp_utc": "2026-07-22T13:53:11.386414+00:00",
+      "headline_score_7day": 61,
+      "headline_score_21day": 46,
+      "status": "yellow"
     }
   ]
 }
