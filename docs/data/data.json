@@ -1,18 +1,16 @@
 {
-  "updated_at": "2026-07-22T13:53:11.387689+00:00",
+  "updated_at": "2026-07-24T02:34:38.013648+00:00",
   "short_term": {
-    "score": 61,
+    "score": 62,
     "status_he": "מתוח",
-    "avg_7day": 58,
+    "avg_7day": 59,
     "delta_vs_avg": 3
   },
   "archive_comparison": {
-    "score": 46,
-    "status_he": "דמיון נמוך",
+    "score": 62,
+    "status_he": "דמיון גבולי",
     "reference_events": [
-      "אפריל 2024",
-      "אוקטובר 2024",
-      "יוני 2025"
+      "פברואר 2026"
     ]
   },
   "signals": [
@@ -59,10 +57,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-06-30T14:20:36.192032+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-07-02T14:02:09.342116+00:00",
         "score": 46
@@ -114,6 +108,10 @@
       {
         "ts": "2026-07-22T13:53:11.386414+00:00",
         "score": 61
+      },
+      {
+        "ts": "2026-07-24T02:34:38.009314+00:00",
+        "score": 62
       }
     ],
     "month": [
@@ -320,39 +318,59 @@
       {
         "ts": "2026-07-22T13:53:11.386414+00:00",
         "score": 61
+      },
+      {
+        "ts": "2026-07-24T02:34:38.009314+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
-        "score": 46,
+        "score": 74,
         "is_pre_conflict": false
       },
       {
         "label": "אחרי פבר' 2026",
-        "score": 46,
+        "score": 62,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 46,
+        "score": 62,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 21,
+        "score": 47,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 4,
+        "score": 29,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
-    "articles_72h": 250
+    "list": [
+      "163.com",
+      "902.gr",
+      "aa.com.tr",
+      "abc13.com",
+      "abc30.com",
+      "abc7chicago.com",
+      "abc7news.com",
+      "abc7ny.com",
+      "actionnewsjax.com",
+      "addiyar.com",
+      "addustour.com",
+      "aei.org",
+      "afghanpaper.com",
+      "albawaba.com",
+      "albawaba.net"
+    ],
+    "total_count": 311,
+    "articles_72h": null
   }
 }
