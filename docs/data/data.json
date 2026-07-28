@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-26T13:22:10.279349+00:00",
+  "updated_at": "2026-07-28T14:07:35.841919+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
-    "avg_7day": 56,
-    "delta_vs_avg": -10
+    "avg_7day": 54,
+    "delta_vs_avg": -8
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-07-06T03:01:49.680240+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-07-09T02:49:29.301409+00:00",
         "score": 62
       },
@@ -113,6 +109,10 @@
       },
       {
         "ts": "2026-07-26T13:22:10.275439+00:00",
+        "score": 46
+      },
+      {
+        "ts": "2026-07-28T14:07:35.839177+00:00",
         "score": 46
       }
     ],
@@ -332,6 +332,10 @@
       {
         "ts": "2026-07-26T13:22:10.275439+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-07-28T14:07:35.839177+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -364,23 +368,23 @@
   },
   "sources": {
     "list": [
-      "1019bigwaax.iheart.com",
-      "1190talkradio.iheart.com",
-      "1360kktx.iheart.com",
-      "1450wkip.iheart.com",
       "163.com",
-      "55krc.iheart.com",
-      "600wmtradio.iheart.com",
-      "600wrec.iheart.com",
-      "700wlw.iheart.com",
-      "720thevoice.iheart.com",
-      "800wvhu.iheart.com",
       "902.gr",
-      "943wsc.iheart.com",
-      "95wxtk.iheart.com",
-      "960weli.iheart.com"
+      "aa.com.tr",
+      "aei.org",
+      "ahaber.com.tr",
+      "aksam.com.tr",
+      "al-monitor.com",
+      "albawaba.net",
+      "albayan.ae",
+      "alfajertv.com",
+      "alhurra.com",
+      "Al Jazeera",
+      "Al Jazeera",
+      "almasryalyoum.com",
+      "anlatilaninotesi.com.tr"
     ],
-    "total_count": 353,
+    "total_count": 167,
     "articles_72h": null
   }
 }
