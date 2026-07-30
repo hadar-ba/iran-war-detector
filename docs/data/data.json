@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-30T02:13:29.952019+00:00",
+  "updated_at": "2026-07-30T13:59:56.774416+00:00",
   "short_term": {
-    "score": 50,
-    "status_he": "שקט",
-    "avg_7day": 52,
-    "delta_vs_avg": -2
+    "score": 62,
+    "status_he": "מתוח",
+    "avg_7day": 53,
+    "delta_vs_avg": 9
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-07-11T13:21:33.451378+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-07-12T02:39:46.057112+00:00",
         "score": 62
       },
@@ -114,6 +110,10 @@
       {
         "ts": "2026-07-30T02:13:29.950801+00:00",
         "score": 50
+      },
+      {
+        "ts": "2026-07-30T13:59:56.771430+00:00",
+        "score": 62
       }
     ],
     "month": [
@@ -344,6 +344,10 @@
       {
         "ts": "2026-07-30T02:13:29.950801+00:00",
         "score": 50
+      },
+      {
+        "ts": "2026-07-30T13:59:56.771430+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
@@ -375,8 +379,24 @@
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
+    "list": [
+      "1019bigwaax.iheart.com",
+      "1061fmtalk.iheart.com",
+      "1150wima.iheart.com",
+      "1190kex.iheart.com",
+      "1360kktx.iheart.com",
+      "1430kasi.iheart.com",
+      "1440wgig.iheart.com",
+      "1450wkip.iheart.com",
+      "163.com",
+      "570wkbn.iheart.com",
+      "590kqnt.iheart.com",
+      "600kcol.iheart.com",
+      "600wmtradio.iheart.com",
+      "650keni.iheart.com",
+      "700wlw.iheart.com"
+    ],
+    "total_count": 200,
     "articles_72h": null
   }
 }
