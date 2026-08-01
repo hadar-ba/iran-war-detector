@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-07-30T13:59:56.771430+00:00",
-  "status": "yellow",
-  "headline_score_7day": 62,
-  "headline_score_21day": 46,
-  "score_jump": 12,
+  "timestamp_utc": "2026-08-01T02:39:40.781826+00:00",
+  "status": "green",
+  "headline_score_7day": 50,
+  "headline_score_21day": 62,
+  "score_jump": -12,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 7-day reading is 17 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to a relatively quiet period (January 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). הקריאה ל-7 ימים גבוהה ב-17 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון לתקופה יחסית שקטה (ינואר 2026).",
+  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
+  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (50% similarity). The 21-day picture is consistent: 62% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (50% דמיון). התמונה ל-21 יום עקבית: 62% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -72,1530 +72,25 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
-      "example_urls": [
-        "https://www.fnnews.com/news/202607270242125820",
-        "https://segye.com:443/newsView/20260727500420",
-        "https://www.hurriyetdailynews.com/trump-vows-retaliation-after-iran-targets-us-bases-in-jordan-224986"
-      ],
-      "articles": [
-        {
-          "url": "https://www.fnnews.com/news/202607270242125820",
-          "title": "美공습 · 이란 보복 2주만에 중단 … 불안한  물밑대화  소강 국면",
-          "domain": "fnnews.com",
-          "seendate": "20260726T203000Z"
-        },
-        {
-          "url": "https://segye.com:443/newsView/20260727500420",
-          "title": "美공습 · 이란 보복 2주만에 중단 … 불안한  물밑대화  소강 국면",
-          "domain": "segye.com",
-          "seendate": "20260726T234500Z"
-        },
-        {
-          "url": "https://www.hurriyetdailynews.com/trump-vows-retaliation-after-iran-targets-us-bases-in-jordan-224986",
-          "title": "Trump vows retaliation after Iran targets US bases in Jordan",
-          "domain": "hurriyetdailynews.com",
-          "seendate": "20260729T161500Z"
-        },
-        {
-          "url": "https://www.in.gr/2026/07/30/world/oukrania-megalis-klimakas-rosiki-epithesi-me-vallistikous-pyraylous-se-oli-ti-xora-ekrikseis-sto-kievo/",
-          "title": "Ουκρανία : Μεγάλης κλίμακας ρωσική επίθεση με βαλλιστικούς πυραύλους σε όλη τη χώρα - Εκρήξεις στο Κίεβο",
-          "domain": "in.gr",
-          "seendate": "20260730T000000Z"
-        },
-        {
-          "url": "https://www.breitbart.com/middle-east/2026/07/24/report-irans-terrorist-irgc-flew-into-yemen-to-help-houthis-block-shipping/",
-          "title": "Report : Iran Terrorist IRGC Flew into Yemen to Help Houthis Block Shipping",
-          "domain": "breitbart.com",
-          "seendate": "20260724T170000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/article-903606",
-          "title": "Saudi - led coalition strikes Houthis as Yemen tensions rise",
-          "domain": "jpost.com",
-          "seendate": "20260725T200000Z"
-        },
-        {
-          "url": "https://www.kyivpost.com/post/81388",
-          "title": "From Shaheds to Sabotage : How Iran Could Retaliate Against Ukraine",
-          "domain": "kyivpost.com",
-          "seendate": "20260730T101500Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202607291521136207",
-          "title": "이란 , 중동 미군기지 다시 공격 … 미군도  대리세력  공습 ( 종합2보 ) ",
-          "domain": "fnnews.com",
-          "seendate": "20260729T073000Z"
-        },
-        {
-          "url": "http://inews24.com/view/1988859",
-          "title": "이란군 대변인  美 공습 멈춰⋯보복 작전 중단  ",
-          "domain": "inews24.com",
-          "seendate": "20260726T151500Z"
-        },
-        {
-          "url": "https://www.sozcu.com.tr/trump-tan-iran-a-misilleme-sozu-cok-fena-pataklayacagiz-p340755",
-          "title": "Trumptan İrana misilleme sözü :  Çok fena pataklayacağız  ",
-          "domain": "sozcu.com.tr",
-          "seendate": "20260729T130000Z"
-        },
-        {
-          "url": "https://www.arabnews.com/node/2652622",
-          "title": "Washington smartest move is to keep Israel out of the war",
-          "domain": "arabnews.com",
-          "seendate": "20260728T221500Z"
-        },
-        {
-          "url": "https://biz.heraldcorp.com/article/10820614",
-          "title": " [ 속보 ] 이란군 대변인  미국 공습 중단에 보복 작전 중단  ",
-          "domain": "biz.heraldcorp.com",
-          "seendate": "20260726T124500Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/israel-says-us-warplanes-used-its-bases-to-launch-strikes-on-iran-warns-of-retaliation-if-attacked-article-13986105.html",
-          "title": "Israel says US warplanes used its bases to launch strikes on Iran ; warns of retaliation if attacked",
-          "domain": "moneycontrol.com",
-          "seendate": "20260728T133000Z"
-        },
-        {
-          "url": "https://www.naturalnews.com/2026-07-25-us-iran-military-data-unmet-objectives-depleted-stockpiles.html",
-          "title": "U . S . Officials Say Iran War Nearly Won , but Military Data Shows Unmet Objectives and Depleted Stockpiles – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "seendate": "20260726T013000Z"
-        },
-        {
-          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030176734&code=61131111&sid1=int",
-          "title": "美는 멈췄는데 이란은 미사일 발사 … 트럼프 , 이례적으로 네타냐후와 비공개 회담",
-          "domain": "kmib.co.kr",
-          "seendate": "20260729T011500Z"
-        },
-        {
-          "url": "http://www.koreatimes.com/article/20260726/1622964",
-          "title": "이란군 대변인  미국이 공습 멈춰 보복 작전 중단  ",
-          "domain": "koreatimes.com",
-          "seendate": "20260726T194500Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/184/oukrania-baraz-ekrixeon-ta-ximeromata-sto-kievo.htm",
-          "title": "Ουκρανία : Μπαράζ εκρήξεων τα ξημερώματα στο Κίεβο",
-          "domain": "inewsgr.com",
-          "seendate": "20260730T010000Z"
-        },
-        {
-          "url": "https://www.cubaheadlines.com/articles/336475",
-          "title": "Iran Ballistic Missile Strike on U . S . Bases in Middle East Thwarted",
-          "domain": "cubaheadlines.com",
-          "seendate": "20260729T123000Z"
-        },
-        {
-          "url": "https://biz.heraldcorp.com/article/10820644",
-          "title": "트럼프  이란과 진지한 대화 … 공습 · 보복 멈추고 사흘째 소강 [ 1일1트 ] ",
-          "domain": "biz.heraldcorp.com",
-          "seendate": "20260726T234500Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/891166/xaos-o-trump-dilonei-aidiasmenos-kai-xtypaei-ksana-to-iran-to-israil-thelei-dolofonies-i-mossad-proteinei-sxedio-octopus",
-          "title": "Xάος – O Trump δηλώνει αηδιασμένος , κύμα νέων εκρήξεων σε Ιράν – Το Ισραήλ θέλει δολοφονίες , η Mossad προτείνει σχέδιο Octopus",
-          "domain": "bankingnews.gr",
-          "seendate": "20260730T024500Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/891166/xaos-o-trump-dilonei-aidiasmenos-kai-xtypaei-ksana-to-iran-to-israil-thelei-dolofonies-i-mossad-proteinei-sxedio-octopus%20title=",
-          "title": "Xάος – O Trump δηλώνει αηδιασμένος , κύμα νέων εκρήξεων σε Ιράν – Το Ισραήλ θέλει δολοφονίες , η Mossad προτείνει σχέδιο Octopus",
-          "domain": "bankingnews.gr",
-          "seendate": "20260730T024500Z"
-        },
-        {
-          "url": "https://www.lastampa.it/esteri/2026/07/30/diretta/guerra_iran_usa_israele_news_oggi-15702644/",
-          "title": "Guerra Iran , le news dopo lattacco di united states Israele . La diretta",
-          "domain": "lastampa.it",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://www.ddaily.co.kr:443/page/view/2026072710131385453",
-          "title": "美 · 이란 , 무력공방 멈췄다 … 물밑협상 속 불안한 소강",
-          "domain": "ddaily.co.kr",
-          "seendate": "20260727T053000Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/b1syqyxhzl",
-          "title": "The scenarios that could draw Israel into war with Iran , and the one that may keep it",
-          "domain": "ynetnews.com",
-          "seendate": "20260723T203000Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L2TQUAQM051482MP.html",
-          "title": "特朗普 ： 如果没有美国 ， 如果不是我决定介入并炸掉伊朗  即将成型的核武器 ， 以色列早就不复存在了 ， 内塔尼亚胡 ： 局势发展特朗普说了算|白宫|核计划|唐纳 · 川普|唐纳德 · 特朗普|国际原子能机构",
-          "domain": "163.com",
-          "seendate": "20260728T091500Z"
-        },
-        {
-          "url": "https://www.dw.com/en/iran-war-us-saudi-arabia-strike-iran-backed-iraqi-militias/live-78152241",
-          "title": "Iran war : US , Saudi Arabia strike Iran - backed Iraqi militias",
-          "domain": "dw.com",
-          "seendate": "20260729T013000Z"
-        },
-        {
-          "url": "https://world.qianlong.com/2026/0724/8702029.shtml",
-          "title": "美国或加大打击力度 伊朗为军事升级做准备",
-          "domain": "world.qianlong.com",
-          "seendate": "20260723T201500Z"
-        },
-        {
-          "url": "https://www.skai.gr/news/world/giati-to-iran-ksanarxise-tis-epitheseis-sti-mesi-anatoli",
-          "title": "Γιατί το Ιράν ξανάρχισε τις επιθέσεις στη Μέση Ανατολή",
-          "domain": "skai.gr",
-          "seendate": "20260730T130000Z"
-        },
-        {
-          "url": "https://www.newsbomb.gr/kosmos/story/1753257/oukrania-se-ekseliksi-rosiki-epithesi-me-vallistikoys-pyraylous---ekrikseis-sto-kievo",
-          "title": "Ουκρανία : Σε εξέλιξη ρωσική επίθεση με βαλλιστικούς πυραύλους – Εκρήξεις στο Κίεβο",
-          "domain": "newsbomb.gr",
-          "seendate": "20260730T021500Z"
-        },
-        {
-          "url": "https://news.sina.com.cn/w/2026-07-24/doc-iniiviic2042989.shtml",
-          "title": "美国或加大打击力度 ， 伊朗为军事升级做准备",
-          "domain": "news.sina.com.cn",
-          "seendate": "20260724T043000Z"
-        },
-        {
-          "url": "http://world.people.com.cn/n1/2026/0723/c1002-40766817.html",
-          "title": "美国或加大打击力度 伊朗为军事升级做准备 -- 国际 -- 人民网",
-          "domain": "world.people.com.cn",
-          "seendate": "20260724T000000Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202607233819330036.html",
-          "title": "美国或加大打击力度 伊朗为军事升级做准备 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20260723T181500Z"
-        },
-        {
-          "url": "https://www.rp.pl/konflikty-zbrojne/art44887471-iran-wstrzymuje-ataki-w-zatoce-perskiej-kolejna-noc-bez-dzialan-zbrojnych",
-          "title": "Konflikt united states - Iran : Teheran wstrzymuje ataki w Zatoce Perskiej",
-          "domain": "rp.pl",
-          "seendate": "20260726T150000Z"
-        },
-        {
-          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030181881&code=61131111&sid1=int",
-          "title": "美 · 이란 군사 충돌 , 지중해까지 확산 … 이란 , 中 무기까지 구매하나",
-          "domain": "kmib.co.kr",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://www.washingtonexaminer.com/news/world/4666366/iran-restitution-ukraine-ship-attack/",
-          "title": "Iran says it seeks  restitution  from Ukraine after ship attack",
-          "domain": "washingtonexaminer.com",
-          "seendate": "20260728T224500Z"
-        },
-        {
-          "url": "https://www.protothema.gr/world/article/1857959/sunagermos-sto-kievo-ishures-ekrixeis-meta-apo-proeidopoiisi-gia-rosiki-purauliki-epithesi/",
-          "title": "Συναγερμός στο Κίεβο : Ισχυρές εκρήξεις μετά από προειδοποίηση για ρωσική πυραυλική επίθεση",
-          "domain": "protothema.gr",
-          "seendate": "20260730T013000Z"
-        },
-        {
-          "url": "https://www.newsbeast.gr/world/arthro/13265179/ekrixeis-sto-kievo-meta-tin-proeidopoiisi-tou-zelenski-gia-maziki-rosiki-epithesi",
-          "title": "Εκρήξεις στο Κίεβο μετά την προειδοποίηση του Ζελένσκι για μαζική ρωσική επίθεση",
-          "domain": "newsbeast.gr",
-          "seendate": "20260730T000000Z"
-        },
-        {
-          "url": "http://www.cfi.net.cn/p20260727000257.html",
-          "title": "叫停对伊行动原因被曝光 ， 特朗普回应 - CFi . CN 中财网",
-          "domain": "cfi.net.cn",
-          "seendate": "20260727T020000Z"
-        },
-        {
-          "url": "https://oilprice.com/Energy/Energy-General/Ukraines-Attack-on-Iranian-Cargo-Ship-Links-Two-Wars.html",
-          "title": "Ukraine Attack on Iranian Cargo Ship Links Two Wars",
-          "domain": "oilprice.com",
-          "seendate": "20260729T193000Z"
-        },
-        {
-          "url": "https://www.sozcu.com.tr/abd-nin-iran-a-atacak-fuzesi-kalmadi-p340007",
-          "title": "ABDnin İrana atacak füzesi kalmadı",
-          "domain": "sozcu.com.tr",
-          "seendate": "20260727T071500Z"
-        },
-        {
-          "url": "https://indianexpress.com/article/world/trump-considering-massive-attack-on-iran-bigger-than-ever-before-10801014/",
-          "title": "  Bigger than ever : Trump says he close to deciding on massive Iran attack | World News",
-          "domain": "indianexpress.com",
-          "seendate": "20260724T041500Z"
-        },
-        {
-          "url": "https://jp.ibtimes.com/iran-accuses-israel-driving-ukraines-deadly-strike-caspian-sea-becomes-latest-flashpoint-103038",
-          "title": "Iran Accuses Israel of Driving Ukraine Deadly Strike as Caspian Sea Becomes Latest Flashpoint",
-          "domain": "jp.ibtimes.com",
-          "seendate": "20260727T023000Z"
-        },
-        {
-          "url": "https://www.iefimerida.gr/oikonomia/petrelaio-alma-anazopyrosi-entasis-mesi-anatoli-foboi-ormoyz",
-          "title": "Πετρέλαιο : Νέο ράλι μετά την αναζωπύρωση της έντασης στη Μέση Ανατολή - Φόβοι για το Ορμούζ και την παγκόσμια αγορά ενέργειας",
-          "domain": "iefimerida.gr",
-          "seendate": "20260729T070000Z"
-        },
-        {
-          "url": "https://www.deccanchronicle.com/west-asia/us-launches-retaliatory-strikes-on-iran-after-jordan-base-attack-1975097",
-          "title": "US Launches Retaliatory Strikes on Iran After Jordan Base Attack",
-          "domain": "deccanchronicle.com",
-          "seendate": "20260730T030000Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L2TJF5TP0514R9P4.html",
-          "title": "美暂停打击伊朗的军事行动 ， 是因为美军被打疼了 ？ ",
-          "domain": "163.com",
-          "seendate": "20260728T010000Z"
-        },
-        {
-          "url": "https://www.freemalaysiatoday.com/category/world/2026/07/30/us-military-launches-powerful-retaliatory-strikes-on-iran",
-          "title": "US military launches  powerful  retaliatory strikes on Iran",
-          "domain": "freemalaysiatoday.com",
-          "seendate": "20260730T021500Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/93/mesi-anatoli-fovoi-gia-maziki-epithesi-ton-ipa-sto-iran--pithani-nea-ebloki-tou-israil.htm",
-          "title": "Μέση Ανατολή : Φόβοι για μαζική επίθεση των ΗΠΑ στο Ιράν – Πιθανή νέα εμπλοκή του Ισραήλ",
-          "domain": "inewsgr.com",
-          "seendate": "20260724T053000Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/93/mesi-anatoli-fovoi-gia-maziki-epithesi-ipa-sto-iran--pithani-nea-ebloki-tou-israil.htm",
-          "title": "Μέση Ανατολή : Φόβοι για μαζική επίθεση ΗΠΑ στο Ιράν – Πιθανή νέα εμπλοκή του Ισραήλ",
-          "domain": "inewsgr.com",
-          "seendate": "20260724T051500Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L2J9VUJ8051482MP.html",
-          "title": "特朗普 ： 我正考虑发动一次大规模打击 ， 规模空前 ， 如果我提出要求以色列  两分钟内就会加入 ， 伊朗 ： 打击美电子战部队 ， 多名美军人员伤亡|国防部长|社交媒体|唐纳 · 川普",
-          "domain": "163.com",
-          "seendate": "20260724T004500Z"
-        },
-        {
-          "url": "https://www.iefimerida.gr/kosmos/oykrania-mparaz-ekrixeon-ta-ximeromata-sto-kiebo-0",
-          "title": "Ουκρανία : Μπαράζ εκρήξεων τα ξημερώματα στο Κίεβο",
-          "domain": "iefimerida.gr",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://www.hankookilbo.com/news/article/A2026073009470001907",
-          "title": "  두들겨 팰 것  트럼프 경고 현실로 … 미국 , 6일 만에 이란 공습 재개 - 국제ㅣ한국일보",
-          "domain": "hankookilbo.com",
-          "seendate": "20260730T020000Z"
-        },
-        {
-          "url": "https://www.naturalnews.com/2026-07-24-intelligence-renewed-war-iran-unlikely-achieve-goals.html",
-          "title": "U . S . Intelligence : Renewed War on Iran Unlikely to Achieve Goals – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "seendate": "20260725T020000Z"
-        },
-        {
-          "url": "https://www.bssnews.net/news-flash/410126",
-          "title": "US military launches  powerful  retaliatory strikes on Iran",
-          "domain": "bssnews.net",
-          "seendate": "20260730T043000Z"
-        },
-        {
-          "url": "https://newtalk.tw/news/view/2026-07-28/1049787",
-          "title": "這事不能沒有回應 ! 裏海船隻遭烏軍襲擊 伊朗揚言發動彈道飛彈報復 | 國際",
-          "domain": "newtalk.tw",
-          "seendate": "20260728T050000Z"
-        },
-        {
-          "url": "https://www.ksl.com:443/article/51602288/iran-will-halt-attacks-as-long-as-us-maintains-pause-iranian-source-says-after-trump-calls-off-strikes",
-          "title": "Iran will halt attacks as long as US maintains pause , Iranian source says after Trump calls off strikes",
-          "domain": "ksl.com",
-          "seendate": "20260726T170000Z"
-        },
-        {
-          "url": "https://www.hani.co.kr/arti/international/international_general/1270044.html",
-          "title": "2주 만에 공격 멈춘 트럼프 … 이란도 보복 반격 중단",
-          "domain": "hani.co.kr",
-          "seendate": "20260726T144500Z"
-        },
-        {
-          "url": "https://www.newsit.gr/kosmos/mesi-anatoli-fovoi-gia-maziki-epithesi-ton-ipa-sto-iran-pithani-nea-emploki-tou-israil/4735824/",
-          "title": "Μέση Ανατολή : Φόβοι για μαζική επίθεση των ΗΠΑ στο Ιράν - Πιθανή νέα εμπλοκή του Ισραήλ",
-          "domain": "newsit.gr",
-          "seendate": "20260724T060000Z"
-        },
-        {
-          "url": "https://www.turkiyegazetesi.com.tr/dunya/trump-geri-adim-atti-irandan-yesil-isik-saldirilari-simdilik-durduruyoruz-1805351",
-          "title": "Trump geri adım attı , İrandan şartlı fren : Saldırıları şimdilik durduruyoruz",
-          "domain": "turkiyegazetesi.com.tr",
-          "seendate": "20260726T120000Z"
-        },
-        {
-          "url": "https://www.bankier.pl/wiadomosc/O-maly-wlos-od-drastycznej-eskalacji-Teheran-planowal-atak-na-ukrainskie-porty-9174750.html",
-          "title": "O mały włos od drastycznej eskalacji . Teheran planował atak na ukraińskie porty",
-          "domain": "bankier.pl",
-          "seendate": "20260729T084500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/rkpsyjxsgg",
-          "title": "Israel Iran dilemma : Another round of strikes or a strategic blow to the regime ? ",
-          "domain": "ynetnews.com",
-          "seendate": "20260723T203000Z"
-        },
-        {
-          "url": "https://www.haberler.com/haberler/ne-abd-ne-de-israil-iki-ulke-gizlice-irani-20085457-haberi/",
-          "title": "Ne ABD ne de İsrail ! İki ülke gizlice İran  ı bombaladı",
-          "domain": "haberler.com",
-          "seendate": "20260724T173000Z"
-        },
-        {
-          "url": "https://www.albawaba.net/news/israel-opens-shelters-tel-aviv-1633685",
-          "title": "Israel opens shelters in Tel Aviv amid fear of Iranian missiles",
-          "domain": "albawaba.net",
-          "seendate": "20260723T160000Z"
-        },
-        {
-          "url": "https://www.hurhaber.com/dunya-haberleri/trump-tan-iran-a-misilleme-sozu-cok-fena-pataklayacagiz-510185",
-          "title": "Trumptan İrana misilleme sözü :  Çok fena pataklayacağız  ",
-          "domain": "hurhaber.com",
-          "seendate": "20260729T234500Z"
-        },
-        {
-          "url": "https://finance.ifeng.com/c/8vAoeNLvnvH",
-          "title": "中东突变 ， 油价飙升 ， 特朗普再次威胁将痛击伊朗 ， 并对伊加征关税",
-          "domain": "finance.ifeng.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://kprcradio.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "kprcradio.iheart.com",
-          "seendate": "20260729T213000Z"
-        },
-        {
-          "url": "https://wlac.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wlac.iheart.com",
-          "seendate": "20260729T210000Z"
-        },
-        {
-          "url": "https://wgy.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | News Radio 103 . 1 and 810 WGY",
-          "domain": "wgy.iheart.com",
-          "seendate": "20260729T210000Z"
-        },
-        {
-          "url": "https://powertalk967.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "powertalk967.iheart.com",
-          "seendate": "20260729T210000Z"
-        },
-        {
-          "url": "https://95wxtk.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "95wxtk.iheart.com",
-          "seendate": "20260729T210000Z"
-        },
-        {
-          "url": "https://1360kktx.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "1360kktx.iheart.com",
-          "seendate": "20260729T214500Z"
-        },
-        {
-          "url": "https://newsradio540.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "newsradio540.iheart.com",
-          "seendate": "20260729T211500Z"
-        },
-        {
-          "url": "https://newsradiori.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | News Radio 920 AM & 104 . 7 FM",
-          "domain": "newsradiori.iheart.com",
-          "seendate": "20260729T211500Z"
-        },
-        {
-          "url": "https://whp580.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "whp580.iheart.com",
-          "seendate": "20260729T214500Z"
-        },
-        {
-          "url": "https://720thevoice.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "720thevoice.iheart.com",
-          "seendate": "20260729T214500Z"
-        },
-        {
-          "url": "https://kogo.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "kogo.iheart.com",
-          "seendate": "20260729T213000Z"
-        },
-        {
-          "url": "https://wbex.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wbex.iheart.com",
-          "seendate": "20260729T231500Z"
-        },
-        {
-          "url": "https://veropatriot.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "veropatriot.iheart.com",
-          "seendate": "20260729T231500Z"
-        },
-        {
-          "url": "https://wflafm.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wflafm.iheart.com",
-          "seendate": "20260729T231500Z"
-        },
-        {
-          "url": "https://whoradio.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "whoradio.iheart.com",
-          "seendate": "20260729T231500Z"
-        },
-        {
-          "url": "https://wjdx.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wjdx.iheart.com",
-          "seendate": "20260729T231500Z"
-        },
-        {
-          "url": "https://powertalk1460.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | PowerTalk 1460 AM & 101 . 1 FM",
-          "domain": "powertalk1460.iheart.com",
-          "seendate": "20260729T230000Z"
-        },
-        {
-          "url": "https://kfyr.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "kfyr.iheart.com",
-          "seendate": "20260729T230000Z"
-        },
-        {
-          "url": "https://945wpti.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "945wpti.iheart.com",
-          "seendate": "20260729T230000Z"
-        },
-        {
-          "url": "https://newsradio1410.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | News Radio 1410 AM & 100 . 9 FM",
-          "domain": "newsradio1410.iheart.com",
-          "seendate": "20260729T230000Z"
-        },
-        {
-          "url": "https://wccfradio.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wccfradio.iheart.com",
-          "seendate": "20260729T224500Z"
-        },
-        {
-          "url": "https://wtam.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wtam.iheart.com",
-          "seendate": "20260729T224500Z"
-        },
-        {
-          "url": "https://650keni.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "650keni.iheart.com",
-          "seendate": "20260729T230000Z"
-        },
-        {
-          "url": "https://khvhradio.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "khvhradio.iheart.com",
-          "seendate": "20260729T230000Z"
-        },
-        {
-          "url": "https://newsradio910wltp.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "newsradio910wltp.iheart.com",
-          "seendate": "20260729T230000Z"
-        },
-        {
-          "url": "https://kwhn.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "kwhn.iheart.com",
-          "seendate": "20260729T223000Z"
-        },
-        {
-          "url": "https://710wor.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "710wor.iheart.com",
-          "seendate": "20260729T221500Z"
-        },
-        {
-          "url": "https://wwnc.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wwnc.iheart.com",
-          "seendate": "20260729T224500Z"
-        },
-        {
-          "url": "https://wtag.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wtag.iheart.com",
-          "seendate": "20260729T224500Z"
-        },
-        {
-          "url": "https://943wsc.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "943wsc.iheart.com",
-          "seendate": "20260729T234500Z"
-        },
-        {
-          "url": "https://talkradio1080.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "talkradio1080.iheart.com",
-          "seendate": "20260729T234500Z"
-        },
-        {
-          "url": "https://570wkbn.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "570wkbn.iheart.com",
-          "seendate": "20260729T234500Z"
-        },
-        {
-          "url": "https://wham1180.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wham1180.iheart.com",
-          "seendate": "20260729T234500Z"
-        },
-        {
-          "url": "https://newsradiowkcy.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | NewsRadio WKCY",
-          "domain": "newsradiowkcy.iheart.com",
-          "seendate": "20260729T234500Z"
-        },
-        {
-          "url": "https://wrak.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wrak.iheart.com",
-          "seendate": "20260730T000000Z"
-        },
-        {
-          "url": "https://wercfm.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wercfm.iheart.com",
-          "seendate": "20260730T000000Z"
-        },
-        {
-          "url": "https://wsyr.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wsyr.iheart.com",
-          "seendate": "20260729T233000Z"
-        },
-        {
-          "url": "https://newsradio710.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "newsradio710.iheart.com",
-          "seendate": "20260729T233000Z"
-        },
-        {
-          "url": "https://newsradio1290wtks.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "newsradio1290wtks.iheart.com",
-          "seendate": "20260730T000000Z"
-        },
-        {
-          "url": "https://wspd.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | NewsRadio 1370 AM & 92 . 9 FM WSPD",
-          "domain": "wspd.iheart.com",
-          "seendate": "20260730T000000Z"
-        },
-        {
-          "url": "https://wiod.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wiod.iheart.com",
-          "seendate": "20260730T000000Z"
-        },
-        {
-          "url": "https://790waeb.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "790waeb.iheart.com",
-          "seendate": "20260730T000000Z"
-        },
-        {
-          "url": "https://wonw1280.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wonw1280.iheart.com",
-          "seendate": "20260730T000000Z"
-        },
-        {
-          "url": "https://800wvhu.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "800wvhu.iheart.com",
-          "seendate": "20260729T233000Z"
-        },
-        {
-          "url": "https://wilm.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wilm.iheart.com",
-          "seendate": "20260729T234500Z"
-        },
-        {
-          "url": "https://wrno.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wrno.iheart.com",
-          "seendate": "20260730T003000Z"
-        },
-        {
-          "url": "https://1440wgig.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "1440wgig.iheart.com",
-          "seendate": "20260730T003000Z"
-        },
-        {
-          "url": "https://1061fmtalk.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "1061fmtalk.iheart.com",
-          "seendate": "20260730T003000Z"
-        },
-        {
-          "url": "https://wdov.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wdov.iheart.com",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://600kcol.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "600kcol.iheart.com",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://wtkg.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wtkg.iheart.com",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://wsfcam.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wsfcam.iheart.com",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://twincitiesnewstalk.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "twincitiesnewstalk.iheart.com",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://600wmtradio.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "600wmtradio.iheart.com",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://knrs.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | Talk Radio 105 . 9",
-          "domain": "knrs.iheart.com",
-          "seendate": "20260730T013000Z"
-        },
-        {
-          "url": "https://1430kasi.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "1430kasi.iheart.com",
-          "seendate": "20260730T010000Z"
-        },
-        {
-          "url": "https://powertalk1360.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "powertalk1360.iheart.com",
-          "seendate": "20260730T010000Z"
-        },
-        {
-          "url": "https://wflanews.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wflanews.iheart.com",
-          "seendate": "20260730T010000Z"
-        },
-        {
-          "url": "https://talk1200boston.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "talk1200boston.iheart.com",
-          "seendate": "20260730T010000Z"
-        },
-        {
-          "url": "https://whnz.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "whnz.iheart.com",
-          "seendate": "20260730T010000Z"
-        },
-        {
-          "url": "https://kfyi.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "kfyi.iheart.com",
-          "seendate": "20260730T003000Z"
-        },
-        {
-          "url": "https://wgiram.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wgiram.iheart.com",
-          "seendate": "20260730T003000Z"
-        },
-        {
-          "url": "https://590kqnt.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "590kqnt.iheart.com",
-          "seendate": "20260730T003000Z"
-        },
-        {
-          "url": "https://koacolorado.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "koacolorado.iheart.com",
-          "seendate": "20260730T010000Z"
-        },
-        {
-          "url": "https://1190kex.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "1190kex.iheart.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://woc1420.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "woc1420.iheart.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://ktok.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "ktok.iheart.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://700wlw.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "700wlw.iheart.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://kste.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "kste.iheart.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://1450wkip.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | NewsRadio 1450 / 1370 WKIP",
-          "domain": "1450wkip.iheart.com",
-          "seendate": "20260730T001500Z"
-        },
-        {
-          "url": "https://1150wima.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "1150wima.iheart.com",
-          "seendate": "20260730T001500Z"
-        },
-        {
-          "url": "https://1019bigwaax.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | News Radio 101 . 9 Big WAAX",
-          "domain": "1019bigwaax.iheart.com",
-          "seendate": "20260730T013000Z"
-        },
-        {
-          "url": "https://jetradio1400.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "jetradio1400.iheart.com",
-          "seendate": "20260730T001500Z"
-        },
-        {
-          "url": "https://newstalk1090.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "newstalk1090.iheart.com",
-          "seendate": "20260730T001500Z"
-        },
-        {
-          "url": "https://wmeq.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | NewsTalk WMEQ",
-          "domain": "wmeq.iheart.com",
-          "seendate": "20260730T001500Z"
-        },
-        {
-          "url": "https://patriotla.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | The Patriot KEIB AM 1150",
-          "domain": "patriotla.iheart.com",
-          "seendate": "20260730T001500Z"
-        },
-        {
-          "url": "https://newsradio1170.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "newsradio1170.iheart.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://talkradio1059.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "talkradio1059.iheart.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://960weli.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "960weli.iheart.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://kfab.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "kfab.iheart.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://wbhpam.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wbhpam.iheart.com",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://newstalk1130.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "newstalk1130.iheart.com",
-          "seendate": "20260730T011500Z"
-        },
-        {
-          "url": "https://wmanfm.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-          "title": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-          "domain": "wmanfm.iheart.com",
-          "seendate": "20260730T003000Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L2SPN2KB0514R9P4.html",
-          "title": "国际观察丨对伊朗停火 ， 美国这次是  不打了  还是  打不了 ？ |美军|美伊",
-          "domain": "163.com",
-          "seendate": "20260728T091500Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L2J8JQQL0530JPVV.html",
-          "title": "美以伊最新局势 ： 特朗普威胁对伊朗发动空前打击 ， 称如果他提出要求 ， 以色列  两分钟内就会加入 ， 伊朗 、 胡塞武装 ： 已做好应战准备|美军|也门|社交媒体|唐纳 · 川普",
-          "domain": "163.com",
-          "seendate": "20260724T033000Z"
-        },
-        {
-          "url": "https://www.trthaber.com/haber/dunya/ingiltereden-irana-saldiri-mesaji-kendimizi-savunmaya-haziriz-952079.html",
-          "title": "İngiltereden İrana saldırı mesajı : Kendimizi savunmaya hazırız",
-          "domain": "trthaber.com",
-          "seendate": "20260724T080000Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1871544442146382504",
-          "title": "美威胁发动空前打击 伊朗 、 胡塞武装 ： 已做好应战准备",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20260723T223000Z"
-        },
-        {
-          "url": "https://www.news247.gr/uncategorized/oukrania-rosiki-piravliki-epithesi-kai-pligmata-kai-sto-kievo-epta-nekroi-anamesa-tous-dio-paidia/",
-          "title": "Ουκρανία : Ρωσική πυραυλική επίθεση και πλήγματα και στο Κίεβο - Επτά νεκροί , ανάμεσά τους δύο παιδιά",
-          "domain": "news247.gr",
-          "seendate": "20260730T063000Z"
-        },
-        {
-          "url": "https://www.wenxuecity.com/news/2026/07/23/126718957.html",
-          "title": "美威胁发动空前打击 伊朗 、 胡塞 ： 已做好准备",
-          "domain": "wenxuecity.com",
-          "seendate": "20260724T040000Z"
-        },
-        {
-          "url": "https://www.nakedcapitalism.com/2026/07/iran-war-iran-hits-us-base-in-jordan-after-us-saudi-strike-on-iraqi-militia.html",
-          "title": "Iran War : Iran Hits US Base in Jordan After US - Saudi Strike on Iraqi Militia",
-          "domain": "nakedcapitalism.com",
-          "seendate": "20260729T123000Z"
-        },
-        {
-          "url": "https://www.cna.com.tw/news/aopl/202607300069.aspx",
-          "title": "駐約旦基地遇襲 美軍打擊伊朗 、 代理勢力捲入戰火 | 國際",
-          "domain": "cna.com.tw",
-          "seendate": "20260730T040000Z"
-        },
-        {
-          "url": "https://www.cna.com.tw:443/news/aopl/202607300069.aspx",
-          "title": "駐約旦基地遇襲 美軍打擊伊朗 、 代理勢力捲入戰火 | 國際",
-          "domain": "cna.com.tw",
-          "seendate": "20260730T033000Z"
-        },
-        {
-          "url": "http://www.koreatimes.com/article/20260724/1622918",
-          "title": "  바레인 · 쿠웨이트 , 이달 초 전투기로 이란 비밀 공습  ",
-          "domain": "koreatimes.com",
-          "seendate": "20260725T061500Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202607243819346764.html",
-          "title": "214票对208票 美众议院要求停止对伊朗军事行动 ！ 特朗普 ： 考虑更大规模袭击 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20260723T181500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/hjgyfgobfl",
-          "title": "US launches new strikes on Iran after six days of calm as Trump signals escalation",
-          "domain": "ynetnews.com",
-          "seendate": "20260730T030000Z"
-        },
-        {
-          "url": "https://www.ddaily.co.kr:443/page/view/2026072610335838543",
-          "title": "트럼프  이란 공습 중단  지시 … 악화되던 美 · 이란 전쟁 , 다시 반전되나",
-          "domain": "ddaily.co.kr",
-          "seendate": "20260726T061500Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202607262105393739",
-          "title": "미 · 이란 이틀째  총성 멈췄다 … 협상 기대 속  전쟁 재개 불씨는 여전  ",
-          "domain": "fnnews.com",
-          "seendate": "20260726T134500Z"
-        },
-        {
-          "url": "http://www.koreatimes.com/article/20260729/1623442",
-          "title": "사우디 , 인내 끝났나 … 이란 겨냥  공개  반격",
-          "domain": "koreatimes.com",
-          "seendate": "20260729T194500Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1871548822709055669",
-          "title": "美以伊最新局势 ： 特朗普威胁对伊朗发动空前打击 ， 称如果他提出要求 ， 以色列  两分钟内就会加入 ， 伊朗 、 胡塞武装 ： 已做好应战准备",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20260724T051500Z"
-        },
-        {
-          "url": "https://www.timesfreepress.com/news/2026/jul/26/bridges-and-infrastructure-hit-as-us-struck-deeper-inside-iran-tfp/",
-          "title": "Bridges and infrastructure hit as US struck deeper inside Iran | Chattanooga Times Free Press",
-          "domain": "timesfreepress.com",
-          "seendate": "20260726T220000Z"
-        },
-        {
-          "url": "https://pch24.pl/wiadomosci/co-sie-dzieje-w-iranie-teheran-komentuje-ogien-zawieszony,727712",
-          "title": "Co się dzieje w Iranie ? Teheran komentuje , ogień zawieszony",
-          "domain": "pch24.pl",
-          "seendate": "20260726T130000Z"
-        },
-        {
-          "url": "https://www.theyeshivaworld.com/news/israel-news/2578445/former-israeli-security-chief-iran-conflict-could-explode-within-hours.html",
-          "title": "FORMER ISRAELI SECURITY CHIEF : Iran Conflict Could Explode Within Hours",
-          "domain": "theyeshivaworld.com",
-          "seendate": "20260724T164500Z"
-        },
-        {
-          "url": "https://anna-news.info/vlasti-izrailya-otkryvayut-bomboubezhishha-gotovyas-k-iranskim-udaram/",
-          "title": "Власти Израиля открывают бомбоубежища , готовясь к иранским ударам",
-          "domain": "anna-news.info",
-          "seendate": "20260724T004500Z"
-        },
-        {
-          "url": "https://www.breitbart.com/europe/2026/07/25/u-s-strikes-deeper-inside-iran-targeting-bridges-and-infrastructure/",
-          "title": "U . S . Strikes Deeper Inside Iran , Targeting Bridges and Infrastructure",
-          "domain": "breitbart.com",
-          "seendate": "20260725T141500Z"
-        },
-        {
-          "url": "https://arynews.tv/trump-pauses-iran-air-strikes-to-allow-diplomacy-us-envoy-says",
-          "title": "Trump pauses Iran air strikes to allow diplomacy , US envoy says",
-          "domain": "arynews.tv",
-          "seendate": "20260726T163000Z"
-        },
-        {
-          "url": "https://www.star.com.tr/dunya/abdnin-iran-plani-cikmaza-girdi-trump-bu-kadar-zor-olacagini-dusunemedim-haber-2031044/",
-          "title": "ABDnin Ýran planý kmaza girdi ! Trump : Bu kadar zor olacaný dnemedim",
-          "domain": "star.com.tr",
-          "seendate": "20260730T133000Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/07/iran-will-halt-attacks-long-us-maintains-pause-iranian-source-says-after-trump",
-          "title": "Iran will halt attacks as long as US maintains pause , Iranian source says after Trump calls off strikes",
-          "domain": "al-monitor.com",
-          "seendate": "20260726T163000Z"
-        },
-        {
-          "url": "https://www.nbd.com.cn/articles/2026-07-24/4505160.html",
-          "title": "214票对208票 ， 美众议院要求停止对伊朗军事行动 ！ 特朗普 ： 考虑更大规模袭击 ； 以色列 ： 已收到美国通报 ！ 伊朗又发生爆炸",
-          "domain": "nbd.com.cn",
-          "seendate": "20260723T164500Z"
-        },
-        {
-          "url": "https://us.cnn.com/2026/07/29/middleeast/why-iran-chose-to-restart-the-fight-us-intl",
-          "title": "Why Iran chose to restart the fight after the US stopped firing",
-          "domain": "us.cnn.com",
-          "seendate": "20260729T194500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/07/29/middleeast/why-iran-chose-to-restart-the-fight-us-intl",
-          "title": "Why Iran chose to restart the fight after the US stopped firing",
-          "domain": "cnn.com",
-          "seendate": "20260729T193000Z"
-        },
-        {
-          "url": "https://www.washingtonexaminer.com/news/world/4666347/iran-struck-14-middle-eastern-nations-where-things-stand-ally-or-neutral-military/",
-          "title": "Iran has struck 14 Middle Eastern nations since the war began",
-          "domain": "washingtonexaminer.com",
-          "seendate": "20260728T224500Z"
-        },
-        {
-          "url": "https://arabic.rt.com/press/1815495-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%B6%D8%B1-%D9%84%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%85-%D9%85%D9%86-%D9%83%D9%8A%D9%8A%D9%81/",
-          "title": "إيران تُحضّر للانتقام من كييف",
-          "domain": "arabic.rt.com",
-          "seendate": "20260729T140000Z"
-        },
-        {
-          "url": "https://www.wnp.pl/rynki/iran-armia-zaprzestalismy-atakow-na-sasiadow-bo-usa-przestaly-atakowac-nasze-terytorium,1084557.html",
-          "title": "Iran : Armia : zaprzestaliśmy ataków na sąsiadów , bo united states przestały atakować nasze terytorium",
-          "domain": "wnp.pl",
-          "seendate": "20260726T121500Z"
-        },
-        {
-          "url": "https://military.china.com/important/64/20260729/49640150.html",
-          "title": "美暂停打击伊朗的军事行动 ， 是因为美军被打疼了 ？_ 军事频道 _ 中华网",
-          "domain": "military.china.com",
-          "seendate": "20260729T040000Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/defence/bridges-and-infrastructure-are-hit-as-us-struck-deeper-into-iran/articleshow/132625387.cms",
-          "title": "Bridges and infrastructure are hit as US struck deeper into Iran",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260725T130000Z"
-        },
-        {
-          "url": "https://www.investmentwatchblog.com/the-great-middle-east-war-escalates-trump-has-told-us-exactly-what-he-plans-to-do-next-and-it-is-going-to-change-everything/",
-          "title": "The Great Middle East War Escalates : Trump Has Told Us Exactly What He Plans To Do Next , And It Is Going To Change Everything",
-          "domain": "investmentwatchblog.com",
-          "seendate": "20260730T061500Z"
-        },
-        {
-          "url": "https://ichannela.com/news/detail/000000542258.do",
-          "title": "5일 만에 깨진  평화 … 이란 , 중동 내 美 기지에 미사일 발사",
-          "domain": "ichannela.com",
-          "seendate": "20260729T011500Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/890869/trump-s-trick-scenario-of-nato-involvement-in-war-with-iran-3-scenarios-following-caspian-strike",
-          "title": "Trump trick : Scenario of NATO involvement in war with Iran – 3 scenarios following Caspian strike",
-          "domain": "bankingnews.gr",
-          "seendate": "20260728T141500Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/890869/trump-s-trick-scenario-of-nato-involvement-in-war-with-iran-3-scenarios-following-caspian-strike%20title=",
-          "title": "Trump trick : Scenario of NATO involvement in war with Iran – 3 scenarios following Caspian strike",
-          "domain": "bankingnews.gr",
-          "seendate": "20260728T141500Z"
-        },
-        {
-          "url": "https://www.dailymail.com/news/article-16012941/Iran-considered-attacking-Ukrainian-port-revenge-strikes-Caspian-Sea-ships-heading-Russia-two-wars-continue-merge.html",
-          "title": "Iran  considered attacking Ukrainian port in revenge for strikes on Caspian Sea ships heading for Russia  as two wars continue to merge",
-          "domain": "dailymail.com",
-          "seendate": "20260729T103000Z"
-        },
-        {
-          "url": "https://www.lalibre.be/international/moyen-orient/2026/07/29/liran-aurait-envisage-une-frappe-de-represailles-contre-un-port-ukrainien-la-cheffe-de-la-diplomatie-europeenne-kaja-kallas-a-desamorce-YERHILZWGNB3NJJ5BSUHHJAEMY/",
-          "title": "LIran a envisagé une frappe de représailles contre un port ukrainien . La cheffe de la diplomatie européenne , Kaja Kallas , a désamorcé",
-          "domain": "lalibre.be",
-          "seendate": "20260729T123000Z"
-        },
-        {
-          "url": "https://www.channelnewsasia.com/world/iran-says-halt-attacks-if-us-maintains-pause-6279116",
-          "title": "Iran will halt attacks as long as US maintains pause , Iranian source says after Trump calls off strikes",
-          "domain": "channelnewsasia.com",
-          "seendate": "20260726T153000Z"
-        },
-        {
-          "url": "http://www.thegazette.com/news/national/bridges-and-infrastructure-hit-as-us-struck-deeper-inside-iran/article_440f0a85-5fce-58e7-bc70-16b4ab13350e.html",
-          "title": "Bridges and infrastructure hit as US struck deeper inside Iran",
-          "domain": "thegazette.com",
-          "seendate": "20260725T113000Z"
-        },
-        {
-          "url": "https://www.arkansasonline.com/news/2026/jul/24/us-continues-to-strike-iran-for-13th-night/",
-          "title": "US continues to strike Iran for 13th night | The Arkansas Democrat - Gazette",
-          "domain": "arkansasonline.com",
-          "seendate": "20260724T083000Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1872054176155271176",
-          "title": "这边谈罢那边打 ， 美以伊渐入新博弈",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20260730T003000Z"
-        },
-        {
-          "url": "https://news.ifeng.com/c/8vABL9D86pu",
-          "title": "这边谈罢那边打 ， 美以伊渐入新博弈",
-          "domain": "news.ifeng.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://www.perthnow.com.au/news/conflict/as-us-calls-off-bombing-iran-hints-itll-halt-strikes-c-22631721",
-          "title": "As US calls off bombing , Iran hints itll halt strikes",
-          "domain": "perthnow.com.au",
-          "seendate": "20260726T190000Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202607301009571976",
-          "title": "美 , 6일 만에 공습 재개 ... 대담해진 이란 상대로 강경 대응",
-          "domain": "fnnews.com",
-          "seendate": "20260730T030000Z"
-        },
-        {
-          "url": "https://www.newsx.com/world/who-is-fares-al-masri-hamas-arms-manufacturing-commander-killed-in-israeli-strike-252803/",
-          "title": "Who Is Fares Al - Masri ? Hamas Arms Manufacturing Commander Killed In Israeli Strike",
-          "domain": "newsx.com",
-          "seendate": "20260726T114500Z"
-        },
-        {
-          "url": "https://udn.com/news/story/124061/9660161",
-          "title": "打殘伊朗可省攔截彈藥 ？ 美軍中央司令提議 「 大舉出擊 」 連炸14天 | 中東戰火連綿 | 全球",
-          "domain": "udn.com",
-          "seendate": "20260730T040000Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/article-903561",
-          "title": "Iran Kuwait threat signals a dangerous new phase in Middle East conflict",
-          "domain": "jpost.com",
-          "seendate": "20260724T141500Z"
-        },
-        {
-          "url": "https://www.ansa.it/sito/notizie/mondo/2026/07/26/teheran-e-disponibile-a-proseguire-i-negoziati.-trump-accantona-lescalation-la-cronaca-del-26-luglio_0707d9b7-2c7c-47ca-bc75-4448d3f76a2b.html",
-          "title": "  Teheran è disponibile a proseguire i negoziati . Trump accantona lescalation - LA CRONACA DEL 26 LUGLIO - Notizie",
-          "domain": "ansa.it",
-          "seendate": "20260726T190000Z"
-        },
-        {
-          "url": "https://www.durangoherald.com/articles/associated-press/bridges-and-infrastructure-are-hit-as-us-strikes-deeper-into-iran/",
-          "title": "Bridges and infrastructure are hit as US strikes deeper into Iran",
-          "domain": "durangoherald.com",
-          "seendate": "20260725T101500Z"
-        },
-        {
-          "url": "https://mil.news.sina.com.cn/zonghe/2026-07-24/doc-iniiwrap1707751.shtml",
-          "title": "美威胁打击伊朗地下核设施 伊朗批美为侵略找借口",
-          "domain": "mil.news.sina.com.cn",
-          "seendate": "20260724T053000Z"
-        },
-        {
-          "url": "https://arynews.tv/israel-strike-destroys-al-muttaqin-mosque-in-gaza",
-          "title": "Israel strike destroys Al - Muttaqin mosque in Gaza",
-          "domain": "arynews.tv",
-          "seendate": "20260730T110000Z"
-        },
-        {
-          "url": "http://theeconomiccollapseblog.com/the-great-middle-east-war-escalates-trump-has-told-us-exactly-what-he-plans-to-do-next-and-it-is-going-to-change-everything/",
-          "title": "The Great Middle East War Escalates : Trump Has Told Us Exactly What He Plans To Do Next , And It Is Going To Change Everything",
-          "domain": "theeconomiccollapseblog.com",
-          "seendate": "20260729T230000Z"
-        },
-        {
-          "url": "https://espreso.tv/svit-iran-strimko-vidbudovue-viyskovi-obekti-zruynovani-udarami-ssha-ta-izrailyu-wsj",
-          "title": "Іран швидко відбудовує військові об  єкти після ударів США й Ізраїлю",
-          "domain": "espreso.tv",
-          "seendate": "20260724T171500Z"
-        },
-        {
-          "url": "http://www.jpost.com/israel-news/defense-news/article-903499",
-          "title": "Katz : Iran will face a  crushing blow  if it strikes Israel first",
-          "domain": "jpost.com",
-          "seendate": "20260723T211500Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202607243820515547.html",
-          "title": "伊朗拒绝停火提议 ！ 特朗普 ： 认真考虑对伊大规模作战 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20260724T093000Z"
-        },
-        {
-          "url": "https://www.dailysabah.com/opinion/op-ed/houthis-war-of-leverage-how-trade-routes-became-weapon",
-          "title": "Houthi war of leverage : How trade routes became weapon",
-          "domain": "dailysabah.com",
-          "seendate": "20260726T214500Z"
-        },
-        {
-          "url": "https://www.hkcna.hk/docDetail.jsp?id=101382626&channel=2803",
-          "title": "美以伊衝突進入新博弈 ： 三方再次交鋒或令局勢複雜化 | 頭條",
-          "domain": "hkcna.hk",
-          "seendate": "20260730T024500Z"
-        },
-        {
-          "url": "https://www.hkcna.hk/docDetail.jsp?id=101382626&channel=2810",
-          "title": "美以伊衝突進入新博弈 ： 三方再次交鋒或令局勢複雜化 | 國際",
-          "domain": "hkcna.hk",
-          "seendate": "20260730T024500Z"
-        },
-        {
-          "url": "https://alanbatnews.net/article/480912",
-          "title": "ترامب : سنضرب إيران بقوة",
-          "domain": "alanbatnews.net",
-          "seendate": "20260729T233000Z"
-        },
-        {
-          "url": "https://alfajertv.com/news/worldnews/737377.html",
-          "title": "نتنياهو يدفع نحو تصعيد في الضفة كجبهة بديلة بعد تراجع احتمالات مواجهة إيران – تلفزيون الفجر",
-          "domain": "alfajertv.com",
-          "seendate": "20260727T194500Z"
-        },
-        {
-          "url": "https://biz.heraldcorp.com/article/10818665",
-          "title": "위성에 찍힌  놀라운 복구력 … 美  공습만으론 이란 못 바꾼다  ",
-          "domain": "biz.heraldcorp.com",
-          "seendate": "20260724T003000Z"
-        },
-        {
-          "url": "https://www.thetoc.gr/diethni/article/o-tramp-apeilei-xana-to-iran-exetazo-mia-maziki-epithesi-megaluteri-apo-pote/",
-          "title": "Ο Τραμπ απειλεί το Ιράν :  Εξετάζω μια μαζική επίθεση , μεγαλύτερη από ποτέ ... ",
-          "domain": "thetoc.gr",
-          "seendate": "20260723T181500Z"
-        },
-        {
-          "url": "https://www.cna.com.tw:443/news/aopl/202607300018.aspx",
-          "title": "美伊情勢升級 埃及港口天然氣船遇襲 、 中東多國捲入戰火 | 國際",
-          "domain": "cna.com.tw",
-          "seendate": "20260729T230000Z"
-        },
-        {
-          "url": "https://www.cna.com.tw/news/aopl/202607300018.aspx",
-          "title": "美伊情勢升級 埃及港口天然氣船遇襲 、 中東多國捲入戰火 | 國際",
-          "domain": "cna.com.tw",
-          "seendate": "20260730T013000Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202607260606424697",
-          "title": "  트럼프 ,  24일 이란 공격 말라  지시 … 공습 소강국면 이어질까",
-          "domain": "fnnews.com",
-          "seendate": "20260725T233000Z"
-        },
-        {
-          "url": "https://www.i24news.tv/en/news/international/americas/artc-trump-weighs-a-10-to-14-day-air-campaign-against-iran-as-us-considers-major-escalation-report",
-          "title": "Trump Weighs A 10 To 14 Day Air Campaign Against Iran As US Considers Major Escalation - Report",
-          "domain": "i24news.tv",
-          "seendate": "20260730T051500Z"
-        },
-        {
-          "url": "https://www.wxii12.com/article/bridges-infrastructure-hit-us-strikes-deeper-inside-iran/73261915",
-          "title": "Bridges and infrastructure hit as US struck deeper inside Iran",
-          "domain": "wxii12.com",
-          "seendate": "20260725T143000Z"
-        },
-        {
-          "url": "https://news.cts.com.tw/cna/international/202607/202607303061386.html",
-          "title": "美伊戰火擴大 沙烏地 、 約旦 、 埃及等捲入 - 國際",
-          "domain": "news.cts.com.tw",
-          "seendate": "20260730T001500Z"
-        },
-        {
-          "url": "https://www.wtae.com/article/bridges-infrastructure-hit-us-strikes-deeper-inside-iran/73261915",
-          "title": "Bridges and infrastructure hit as US struck deeper inside Iran",
-          "domain": "wtae.com",
-          "seendate": "20260725T120000Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1872057165273317148",
-          "title": "国际观察丨这边谈罢那边打 ， 美以伊渐入新博弈",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20260729T170000Z"
-        },
-        {
-          "url": "http://gold.cnfol.com/guojiyuanyousc/20260730/32321557.shtml",
-          "title": "美军重启空袭伊朗 ， 格什姆岛与基什岛遭打击 ， 中东多线战火全面燃烧 ， 油价剑指120美元 ？_ 国际原油市场 _ 黄金网 _ 中金在线",
-          "domain": "gold.cnfol.com",
-          "seendate": "20260730T061500Z"
-        },
-        {
-          "url": "https://biz.heraldcorp.com/article/10818495",
-          "title": "트럼프  이란 역대 최대 공격 검토 … 결정 직전 , 모든 준비 마쳤다 [ 1일1트 ] ",
-          "domain": "biz.heraldcorp.com",
-          "seendate": "20260723T211500Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/890118/the-13th-wave-of-hell-trump-i-am-planning-a-shock-attack-iran-said-no-to-a-ceasefire-dismantles-kuwait-mushroom-cloud-in-jordan",
-          "title": "The 13th wave of hell – Trump : I am planning a shock attack – Iran said no to a ceasefire , dismantles Kuwait , mushroom cloud in Jordan",
-          "domain": "bankingnews.gr",
-          "seendate": "20260724T081500Z"
-        },
-        {
-          "url": "https://www.zaobao.com.sg/news/world/story20260726-9423554",
-          "title": "美伊冲突暂缓 : 外交斡旋空间与地区局势升级",
-          "domain": "zaobao.com.sg",
-          "seendate": "20260726T164500Z"
-        },
-        {
-          "url": "https://www.cna.com.tw:443/news/aopl/202607290129.aspx",
-          "title": "路透 ： 補強防空缺口 伊朗傳將接收400套中國飛彈 | 國際",
-          "domain": "cna.com.tw",
-          "seendate": "20260729T054500Z"
-        },
-        {
-          "url": "https://www.dailysabah.com/world/mid-east/tehran-slams-kyiv-as-caspian-sea-strike-risks-new-front-in-iran-war",
-          "title": "Tehran slams Kyiv as Caspian Sea strike risks new front in Iran war",
-          "domain": "dailysabah.com",
-          "seendate": "20260727T124500Z"
-        },
-        {
-          "url": "https://newtalk.tw/news/view/2026-07-29/1049988",
-          "title": " ( 影 ) 先發制人瓦解美 、 以合謀 ？ 主動打破停火狀態 伊突然夜襲約旦美基地 | 國際",
-          "domain": "newtalk.tw",
-          "seendate": "20260729T041500Z"
-        },
-        {
-          "url": "https://www.worthynews.com/116327-iran-fires-ballistic-missiles-at-u-s-forces-in-jordan-triggering-joint-american-saudi-strikes-in-iraq",
-          "title": "Iran Fires Ballistic Missiles At U . S . Forces In Jordan , Triggering Joint American - Saudi Strikes In Iraq",
-          "domain": "worthynews.com",
-          "seendate": "20260729T013000Z"
-        },
-        {
-          "url": "https://www.wnp.pl/bezpieczenstwo/eskalacja-na-bliskim-wschodzie-iran-zaatakowal-tankowce-w-ciesninie-ormuz-i-baze-usa-w-jordanii,1085325.html",
-          "title": "Eskalacja na Bliskim Wschodzie . Iran zaatakował tankowce w cieśninie Ormuz i bazę united states w Jordanii",
-          "domain": "wnp.pl",
-          "seendate": "20260729T053000Z"
-        },
-        {
-          "url": "https://wallstreetcn.com/articles/3778277",
-          "title": "布油盘中涨超8 %！ 特朗普一再警告  狠狠打击  伊朗 ， 美军已准备  两周大幅升级空袭方案  ",
-          "domain": "wallstreetcn.com",
-          "seendate": "20260730T034500Z"
-        },
-        {
-          "url": "https://www.ibtimes.co.uk/uk-armed-forces-prepared-amid-iran-threats-1810367",
-          "title": "Iran Warns united kingdom Military Bases Are  Legitimate Target After US Launches B - 1 Bomber Strikes",
-          "domain": "ibtimes.co.uk",
-          "seendate": "20260723T210000Z"
-        },
-        {
-          "url": "https://www.ansa.it/sito/notizie/mondo/2026/07/26/media-teheran-e-disponibile-a-proseguire-i-negoziati.-trump-accantona-lescalation-usa-a-corto_0707d9b7-2c7c-47ca-bc75-4448d3f76a2b.html",
-          "title": "Media :  Teheran è disponibile a proseguire i negoziati . Trump accantona lescalation ,  Usa a corto di Patriot  - Notizie",
-          "domain": "ansa.it",
-          "seendate": "20260726T151500Z"
-        },
-        {
-          "url": "https://www.ibtimes.com/israel-believes-us-iran-wont-reach-deal-over-hormuz-strait-so-trump-will-escalate-3805756",
-          "title": "Israel Believes The U . S . And Iran Wont Reach a Deal Over The Hormuz Strait , So Trump Will Escalate",
-          "domain": "ibtimes.com",
-          "seendate": "20260727T153000Z"
-        },
-        {
-          "url": "https://whdh.com/news/us-thwarts-an-iranian-missile-attack-and-launches-strikes-with-saudi-arabia-against-militias-in-iraq/",
-          "title": "US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq - Boston News , Weather , Sports",
-          "domain": "whdh.com",
-          "seendate": "20260729T034500Z"
-        },
-        {
-          "url": "https://www.samaa.tv/2087354108-trump-says-he-s-considering-biggest-ever-attack-on-iran",
-          "title": "Trump says he considering biggest - ever attack on Iran",
-          "domain": "samaa.tv",
-          "seendate": "20260723T203000Z"
-        },
-        {
-          "url": "https://www.theyeshivaworld.com/news/israel-news/2579749/defense-revelations-katz-says-israel-wants-to-strike-iran-again-but-u-s-has-not-approved.html",
-          "title": "DEFENSE REVELATIONS : Katz Says Israel Wants To Strike Iran Again But U . S . Has Not Approved",
-          "domain": "theyeshivaworld.com",
-          "seendate": "20260728T171500Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/iran-sharpens-missile-strikes-as-us-faces-growing-challenge-article-13987035.html",
-          "title": "Iran sharpens missile strikes as US faces growing challenge",
-          "domain": "moneycontrol.com",
-          "seendate": "20260729T084500Z"
-        },
-        {
-          "url": "https://www.punjabkesari.in/international/news/iran-records-first-peaceful-night-following-13-days-of-us-strikes-2361351",
-          "title": "13 दिन बाद अमेरिकी हमले थमे ; ईरान में  शांत से बीती पहली रात , खतरा अब भी बरकरार - iran records first peaceful night following 13 days of us strikes",
-          "domain": "punjabkesari.in",
-          "seendate": "20260725T171500Z"
-        },
-        {
-          "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/07/ukraine-260728-rferl02.htm",
-          "title": "Ukraine Hits At Iran . In The Caspian Sea , Things Get Even Messier . ",
-          "domain": "globalsecurity.org",
-          "seendate": "20260729T130000Z"
-        },
-        {
-          "url": "https://www.naturalnews.com/2026-07-27-iran-accuses-ukraine-striking-cargo-ship-israels-request.html",
-          "title": "Iran Accuses Ukraine of Striking Its Cargo Ship in Caspian Sea at Israel Request – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "seendate": "20260727T201500Z"
-        },
-        {
-          "url": "https://countercurrents.org/2026/07/the-role-of-pakistans-asim-munir-behind-iran-saudi-de-escalation/",
-          "title": "The Role of Pakistan Asim Munir behind Iran - Saudi De - escalation",
-          "domain": "countercurrents.org",
-          "seendate": "20260727T091500Z"
-        },
-        {
-          "url": "https://www.wsls.com/news/world/2026/07/28/saudi-arabia-says-it-shot-down-more-drones-as-houthis-claim-to-have-turned-back-tanker/",
-          "title": "US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq",
-          "domain": "wsls.com",
-          "seendate": "20260729T021500Z"
-        },
-        {
-          "url": "https://www.santafenewmexican.com/ap/business/us-thwarts-an-iranian-missile-attack-and-launches-strikes-with-saudi-arabia-against-militias-in/article_e1cc022a-ad9f-50b2-bf70-a84904755cad.html",
-          "title": "US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq",
-          "domain": "santafenewmexican.com",
-          "seendate": "20260729T130000Z"
-        },
-        {
-          "url": "https://toulon.maville.com/actu/actudet_-guerre-en-ukraine-explosions-massives-a-kiev-cette-nuit-au-moins-un-mort-le-point-sur-la-nuit_fil-7424333_actu.Htm",
-          "title": "Guerre en Ukraine : explosions massives à Kiev cette nuit , au moins un mort … Le point sur la",
-          "domain": "toulon.maville.com",
-          "seendate": "20260730T053000Z"
-        },
-        {
-          "url": "https://www.hurriyetdailynews.com/us-military-completes-heavy-wave-of-retaliatory-strikes-on-iran-224997",
-          "title": "US military completes  heavy wave  of retaliatory strikes on Iran",
-          "domain": "hurriyetdailynews.com",
-          "seendate": "20260730T104500Z"
-        },
-        {
-          "url": "https://www.hurriyet.com.tr/yazarlar/nilgun-tekfidan-gumus/ukrayna-hazarda-irana-niye-saldirdi-43253627",
-          "title": "Ukrayna , Hazarda İrana niye saldırdı | Nilgün Tekfidan GÜMÜŞ Köşe Yazısı",
-          "domain": "hurriyet.com.tr",
-          "seendate": "20260728T001500Z"
-        },
-        {
-          "url": "https://www.wandtv.com/news/national/us-thwarts-an-iranian-missile-attack-and-launches-strikes-with-saudi-arabia-against-militias-in/article_9fd323c5-d396-5a4e-8707-ebc77602843f.html",
-          "title": "US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq",
-          "domain": "wandtv.com",
-          "seendate": "20260729T053000Z"
-        },
-        {
-          "url": "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/vers-une-offensive-majeure-des-etats-unis-en-iran-donald-trump-se-dit-proche-de-prendre-une-decision-6852899",
-          "title": "Vers une offensive majeure des États - Unis en Iran  ? Donald Trump se dit  proche de prendre une décision  ",
-          "domain": "radiofrance.fr",
-          "seendate": "20260724T134500Z"
-        },
-        {
-          "url": "https://news.ifeng.com/c/8vAnrArxfmc",
-          "title": "为期14天 ！ 美司令被曝已准备了一份大幅升级对伊战争方案",
-          "domain": "news.ifeng.com",
-          "seendate": "20260730T004500Z"
-        },
-        {
-          "url": "https://www.wenxuecity.com/news/2026/07/29/126725540.html",
-          "title": "美司令被曝已准备了一份大幅升级对伊战争方案",
-          "domain": "wenxuecity.com",
-          "seendate": "20260730T040000Z"
-        },
-        {
-          "url": "https://www.wmtw.com/article/bridges-infrastructure-hit-us-strikes-deeper-inside-iran/73261915",
-          "title": "Bridges and infrastructure hit as US struck deeper inside Iran",
-          "domain": "wmtw.com",
-          "seendate": "20260725T140000Z"
-        },
-        {
-          "url": "https://www.voakorea.com/a/u-s-and-saudi-arabia-launch-joint-strike-against-iranian-militias-in-iraq-072926/8180480.html",
-          "title": "미 · 사우디 , 이라크 내 이란 민병대 합동 타격",
-          "domain": "voakorea.com",
-          "seendate": "20260729T224500Z"
-        }
-      ]
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "example_urls": [],
+      "articles": []
     }
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.625,
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4989,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9871
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1608,16 +103,16 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.625,
+      "composite_score": 0.4982,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9782
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1628,18 +123,18 @@
       }
     },
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.4927,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9119
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1650,7 +145,7 @@
       }
     },
     {
-      "reference_id": "PRE_OCT24",
+      "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
       "composite_score": 0.2083,
       "is_pre_round": true,
@@ -1672,9 +167,9 @@
       }
     },
     {
-      "reference_id": "PRE_APR24",
+      "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.0769,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -1683,7 +178,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9225
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1698,37 +193,15 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.4583,
+      "composite_score": 0.7429,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.7071,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.4583,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -1742,7 +215,7 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
+      "composite_score": 0.625,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -1750,7 +223,29 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.6229,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.9872,
         "tone": 0.5
       },
       "weights_applied": {
@@ -1764,15 +259,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.2083,
+      "composite_score": 0.4712,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -1786,15 +281,15 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.2993,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 0.9686,
         "tone": 0.5
       },
       "weights_applied": {
@@ -1808,18 +303,6 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 162.6629,
-      "volume_mean_daily": 0.9799,
-      "volume_peak": 1.9313,
-      "days_active": 166,
-      "articles_en": 0,
-      "articles_he": 0,
-      "articles_fa": 0,
-      "confluence_score": 0.0,
-      "unique_domains_total": 0,
-      "tone_mean": null
-    },
-    "window_21d": {
       "volume_total": 0,
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
@@ -1829,10 +312,22 @@
       "articles_fa": 0,
       "confluence_score": 0.0,
       "unique_domains_total": 0,
+      "tone_mean": -2.9727
+    },
+    "window_21d": {
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
+      "articles_en": 250,
+      "articles_he": 0,
+      "articles_fa": 0,
+      "confluence_score": 0.0,
+      "unique_domains_total": 154,
       "tone_mean": null
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }
