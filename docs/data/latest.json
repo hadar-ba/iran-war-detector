@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-08-04T14:11:51.288283+00:00",
+  "timestamp_utc": "2026-08-05T02:18:59.114659+00:00",
   "status": "yellow",
   "headline_score_7day": 62,
-  "headline_score_21day": 62,
-  "score_jump": -4,
+  "headline_score_21day": 66,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
   "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 21-day picture is similar at 62% similarity to a relatively quiet period (January 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). התמונה ל-21 יום דומה עם 62% דמיון לתקופה יחסית שקטה (ינואר 2026).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 21-day picture is similar at 66% similarity to a relatively quiet period (January 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). התמונה ל-21 יום דומה עם 66% דמיון לתקופה יחסית שקטה (ינואר 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -40,7 +40,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -72,7 +72,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     }
@@ -101,10 +101,10 @@
       }
     },
     {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
       "composite_score": 0.625,
-      "is_pre_round": true,
+      "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
@@ -123,17 +123,17 @@
       }
     },
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
-      "is_pre_round": false,
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.6175,
+      "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.9551,
         "tone": 0.5
       },
       "weights_applied": {
@@ -169,7 +169,7 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.3035,
+      "composite_score": 0.2941,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -177,7 +177,7 @@
         "confluence": 0.0,
         "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.9937,
+        "source_diversity": 0.9371,
         "tone": 0.5
       },
       "weights_applied": {
@@ -193,7 +193,7 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.7429,
+      "composite_score": 0.7783,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -202,29 +202,7 @@
         "cross_lang_correlation": 0.7071,
         "raw_volume": 0.0,
         "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.625,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
+        "tone": 0.9255
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -237,7 +215,7 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
+      "composite_score": 0.6666,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -246,7 +224,29 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 1.0,
-        "tone": 0.5
+        "tone": 0.9993
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.6637,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.9646
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -281,7 +281,7 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.3025,
+      "composite_score": 0.3409,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -289,8 +289,8 @@
         "confluence": 0.0,
         "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.9874,
-        "tone": 0.5
+        "source_diversity": 1.0,
+        "tone": 0.9361
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -311,7 +311,7 @@
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 158,
+      "unique_domains_total": 149,
       "tone_mean": null
     },
     "window_21d": {
@@ -323,11 +323,11 @@
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 157,
-      "tone_mean": null
+      "unique_domains_total": 159,
+      "tone_mean": -3.2455
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 4 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 3 in 21d). Scores are provisional."
   ]
 }
