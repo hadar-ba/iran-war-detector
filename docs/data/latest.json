@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-08-05T02:18:59.114659+00:00",
-  "status": "yellow",
-  "headline_score_7day": 62,
-  "headline_score_21day": 66,
-  "score_jump": 0,
+  "timestamp_utc": "2026-08-08T12:48:28.698623+00:00",
+  "status": "green",
+  "headline_score_7day": 46,
+  "headline_score_21day": 46,
+  "score_jump": -16,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 21-day picture is similar at 66% similarity to a relatively quiet period (January 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). התמונה ל-21 יום דומה עם 66% דמיון לתקופה יחסית שקטה (ינואר 2026).",
+  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
+  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -57,8 +57,1513 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://baijiahao.baidu.com/s?id=1872499075741219332",
+        "http://news.china.com.cn/2026-08/03/content_118630481.shtml",
+        "https://www.armstrongeconomics.com/international-news/iran/the-unwinnable-iran-war/"
+      ],
+      "articles": [
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1872499075741219332",
+          "title": "专家 ： 美不与以沟通取消袭伊计划或为避免局势失控",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260805T221500Z"
+        },
+        {
+          "url": "http://news.china.com.cn/2026-08/03/content_118630481.shtml",
+          "title": "特朗普称3日与伊朗谈判 以色列自曝  被盟友抛弃 _ 中国网",
+          "domain": "news.china.com.cn",
+          "seendate": "20260803T031500Z"
+        },
+        {
+          "url": "https://www.armstrongeconomics.com/international-news/iran/the-unwinnable-iran-war/",
+          "title": "The Unwinnable Iran War | Armstrong Economics",
+          "domain": "armstrongeconomics.com",
+          "seendate": "20260808T054500Z"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000000500&code=61131511&sid1=int",
+          "title": "트럼프  이란 · 중동국가 요청에 공격 취소 … 호르무즈 즉각 전면 개방하라 - 국민일보",
+          "domain": "kmib.co.kr",
+          "seendate": "20260802T034500Z"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000000500&code=61131511&stg=wm_rank",
+          "title": "트럼프  이란 · 중동국가 요청에 공격 취소 … 호르무즈 즉각 전면 개방하라 - 국민일보",
+          "domain": "kmib.co.kr",
+          "seendate": "20260802T084500Z"
+        },
+        {
+          "url": "https://www.rawstory.com/mark-levin-2677647120/",
+          "title": "  Oh my god he crying ? Fox News host gets emotional over progressive 2028 prediction",
+          "domain": "rawstory.com",
+          "seendate": "20260802T154500Z"
+        },
+        {
+          "url": "https://akhbarelyom.com/news/newdetails/4859503/1/%D9%84%D9%87%D8%B0%D8%A7-%D8%AA%D8%B4%D8%B9%D8%B1-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A8%D8%AE%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%84",
+          "title": "لهذا تشعر إسرائيل بخيبة الأمل",
+          "domain": "akhbarelyom.com",
+          "seendate": "20260802T183000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1872512257137907629",
+          "title": "视频丨美国  一脚刹车  以色列被  晾在一边 ？ ",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260803T174500Z"
+        },
+        {
+          "url": "https://freerepublic.com/focus/f-news/4390885/posts",
+          "title": "The Iran - China axis has no clue who theyre messing with ! ",
+          "domain": "freerepublic.com",
+          "seendate": "20260806T221500Z"
+        },
+        {
+          "url": "https://guba.eastmoney.com/o/news,ufipeb00y,1753040375.html",
+          "title": " 【 全11条 】 美伊冲突最新报道 以色列称紧张局势达到顶点 ！ 除了强烈打击特朗普别无选择 ！？_ 布伦特原油 ( ufipeb00y ) 股吧 _ 东方财富网股吧",
+          "domain": "guba.eastmoney.com",
+          "seendate": "20260801T203000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8vGX94p6Mgk",
+          "title": "取消对伊打击 ， 美国为何总上演  临门收手  戏码 ？_ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260802T103000Z"
+        },
+        {
+          "url": "http://news.china.com.cn/2026-08/02/content_118630063.shtml",
+          "title": "特朗普宣布取消军事打击 伊朗称  仍处于最高戒备 _ 中国网",
+          "domain": "news.china.com.cn",
+          "seendate": "20260802T121500Z"
+        },
+        {
+          "url": "https://www.armstrongeconomics.com/international-news/iran/china-middle-east-2027/",
+          "title": "China - Middle East & 2027 | Armstrong Economics",
+          "domain": "armstrongeconomics.com",
+          "seendate": "20260803T070000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202608033829201840.html",
+          "title": "清晨利好突袭 ！ 美股 、 黄金全线拉升 ！ 特朗普称美伊3日将举行谈判 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260803T004500Z"
+        },
+        {
+          "url": "https://www.maariv.co.il/news/world/article-1353449",
+          "title": "פזשכיאן : אין קרע עם הצבא , ארה  ב מנעה הסכם עם אירופה",
+          "domain": "maariv.co.il",
+          "seendate": "20260808T054500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L3AGF8VS053469LG.html",
+          "title": "美计划本周末发动  猛烈轰炸 ， 伊朗 ： 全面反击方案已就绪|美国|美军|以色列|伊拉克|美士兵",
+          "domain": "163.com",
+          "seendate": "20260802T004500Z"
+        },
+        {
+          "url": "https://www.aol.co.uk/articles/trump-forced-deny-us-army-024300000.html",
+          "title": "Trump forced to deny US Army used  virtually all  long - range precision missiles in Iran",
+          "domain": "aol.co.uk",
+          "seendate": "20260805T033000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8vFm8oefWuS",
+          "title": "美计划本周末发动  猛烈轰炸  伊朗 ： 全面反击方案已就绪 _ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260802T020000Z"
+        },
+        {
+          "url": "https://healthimpactnews.com/2026/the-u-s-warns-americans-to-prepare-to-leave-the-middle-east-as-iran-war-escalates/",
+          "title": "The U . S . Warns Americans to Prepare to Leave the Middle East as Iran War Escalates",
+          "domain": "healthimpactnews.com",
+          "seendate": "20260802T000000Z"
+        },
+        {
+          "url": "https://china.zjol.com.cn/gjxw/202608/t20260802_31822298.shtml",
+          "title": "美计划本周末发动  猛烈轰炸  伊朗 : 反击方案已就绪",
+          "domain": "china.zjol.com.cn",
+          "seendate": "20260802T034500Z"
+        },
+        {
+          "url": "https://news.hangzhou.com.cn/gjxw/content/2026-08/02/content_9270399.htm",
+          "title": "美计划本周末发动  猛烈轰炸  伊朗 ： 全面反击方案已就绪",
+          "domain": "news.hangzhou.com.cn",
+          "seendate": "20260802T071500Z"
+        },
+        {
+          "url": "https://oilprice.com/Geopolitics/Middle-East/Why-Have-China-and-Russia-Just-Stepped-Out-Of-The-Shadows-In-The-US-Iran-War.html",
+          "title": "Why Have China and Russia Just Stepped Out Of The Shadows In The U . S .- Iran War ? ",
+          "domain": "oilprice.com",
+          "seendate": "20260803T173000Z"
+        },
+        {
+          "url": "https://news.fznews.com.cn/gngj/20260802/h30120b49k.shtml",
+          "title": "美计划本周末发动  猛烈轰炸  伊朗 ： 全面反击方案已就绪 _ 天下 _ 新闻频道 _ 福州新闻网",
+          "domain": "news.fznews.com.cn",
+          "seendate": "20260802T121500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1872364754023452036",
+          "title": "美计划本周末发动  猛烈轰炸  伊朗 ： 全面反击方案已就绪",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260803T061500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1872365193141078079",
+          "title": "美计划本周末发动  猛烈轰炸  伊朗 ： 全面反击方案已就绪",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260802T000000Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/the-view-from-india-newsletter-losing-a-war-refusing-it-to-see-it/article71272232.ece",
+          "title": "The View From India newsletter : Losing a war , refusing it to see it",
+          "domain": "thehindu.com",
+          "seendate": "20260804T050000Z"
+        },
+        {
+          "url": "https://www.jpost.com/israel-news/defense-news/article-904787",
+          "title": "Israel may suffer from same missile shortage as US , fmr . Navy head Marom says",
+          "domain": "jpost.com",
+          "seendate": "20260806T164500Z"
+        },
+        {
+          "url": "http://usa.chinadaily.com.cn/a/202608/03/WS6a6feb21a310986e2b4689e0.html",
+          "title": "Washington to hold off on Iran strikes",
+          "domain": "usa.chinadaily.com.cn",
+          "seendate": "20260803T040000Z"
+        },
+        {
+          "url": "http://global.chinadaily.com.cn/a/202608/03/WS6a6feb21a310986e2b4689e0.html",
+          "title": "Washington to hold off on Iran strikes",
+          "domain": "global.chinadaily.com.cn",
+          "seendate": "20260803T031500Z"
+        },
+        {
+          "url": "http://europe.chinadaily.com.cn/a/202608/03/WS6a6feb21a310986e2b4689e0.html",
+          "title": "Washington to hold off on Iran strikes",
+          "domain": "europe.chinadaily.com.cn",
+          "seendate": "20260803T031500Z"
+        },
+        {
+          "url": "https://www.kathimerini.gr/world/564379108/choris-schedio-choris-sfaires/",
+          "title": "Χωρίς σχέδιο , χωρίς σφαίρες",
+          "domain": "kathimerini.gr",
+          "seendate": "20260802T123000Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/08/07/how-iran-emerged-as-fourth-centre-of-global-power",
+          "title": "Iran Emerges as Fourth Global Power Centre , Analysts Say",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260806T223000Z"
+        },
+        {
+          "url": "https://thenewamerican.com/us/politics/foreign-policy/reports-u-s-virtually-out-of-long-range-missiles-army-general-u-s-can-no-longer-defend-israel/",
+          "title": "Reports : U . S .  Virtually  Out of Long - range Missiles . Army General : U . S . Can No Longer Defend Israel",
+          "domain": "thenewamerican.com",
+          "seendate": "20260804T203000Z"
+        },
+        {
+          "url": "https://www.livemint.com/opinion/columns/iran-us-war-saudi-pakistan-turkiye-defence-pact-india-west-asia-11786178553633.html",
+          "title": "US - Iran war throws up a new diplomatic stressor for India",
+          "domain": "livemint.com",
+          "seendate": "20260808T113000Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202608051109138485",
+          "title": "이란  드론 생산량 전쟁 전보다 3배 … 휴전 중 무기 재건  ",
+          "domain": "fnnews.com",
+          "seendate": "20260805T120000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-08-05-reuters-us-spent-almost-all-missiles-on-iran.html",
+          "title": "Reuters : Washington Spent Nearly Entire Stock of Ground - Based Tactical Ballistic Missiles in Attack on Iran – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260805T213000Z"
+        },
+        {
+          "url": "https://www.902.gr/eidisi/kosmos/426262/iranikes-proeidopoiiseis-stis-hores-toy-kolpoy-eno-oi-ipa-xemenoyn-apo",
+          "title": "Ιρανικές προειδοποιήσεις στις χώρες του Κόλπου ενώ οι ΗΠΑ ξεμένουν από πυραύλους",
+          "domain": "902.gr",
+          "seendate": "20260806T180000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2622748/trumps-top-general-seeks-path-out-of-iran-war-as-military-options-narrow-report",
+          "title": "Trump top general seeks path out of Iran war as military options narrow : report",
+          "domain": "tribune.com.pk",
+          "seendate": "20260808T061500Z"
+        },
+        {
+          "url": "https://pakobserver.net/how-iran-emerged-as-fourth-centre-of-global-power/",
+          "title": "How Iran emerged as fourth centre of global power",
+          "domain": "pakobserver.net",
+          "seendate": "20260805T040000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202608023829103859.html",
+          "title": "突变 ！ 特朗普同意取消对伊朗的打击  双方已就协议的框架达成一致 ！ 原油永续合约大跌 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260802T084500Z"
+        },
+        {
+          "url": "https://www.theweek.in/theweek/more/2026/08/01/a-new-arms-race-how-trumps-saudi-nuclear-deal-could-destabilise-middle-east.html",
+          "title": "A new arms race ? How Trump Saudi nuclear deal could destabilise Middle East",
+          "domain": "theweek.in",
+          "seendate": "20260802T033000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/world/morning-briefing-aug-3-2026/4016585",
+          "title": "Morning Briefing : Aug . 3 , 2026",
+          "domain": "aa.com.tr",
+          "seendate": "20260803T061500Z"
+        },
+        {
+          "url": "https://www.alquds.co.uk/%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83-%D8%AA%D8%A7%D9%8A%D9%85%D8%B2-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D9%88%D8%A7%D9%84%D9%87%D8%AF%D9%86-%D8%B4%D9%83%D9%84/",
+          "title": "نيويورك تايمز : بين التصعيد والهدن .. شكل جديد من الحرب الدائمة والحلفاء يخشون هزيمة إستراتيجية لأمريكا في إيران",
+          "domain": "alquds.co.uk",
+          "seendate": "20260802T100000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/bond-salesman-chief-has-fired-first-shot-capital-market-war-follows-trade-war",
+          "title": "The Bond - Salesman - In - Chief Has Fired The First Shot Of The Capital Market War That Follows The Trade War",
+          "domain": "zerohedge.com",
+          "seendate": "20260804T170000Z"
+        },
+        {
+          "url": "https://www.dailystar.co.uk/news/weird-news/chinas-nostradamus-makes-chilling-iran-37493496",
+          "title": "  China Nostradamu makes chilling US - Iran war prediction as two forecasts come true",
+          "domain": "dailystar.co.uk",
+          "seendate": "20260803T083000Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=03082026&id=13b97eb4-67c4-4086-8b15-7a206516508c",
+          "title": "الخارجية الإيرانية : لا محادثات حاليا مع أمريكا والحوار يجري مع عُمان بشأن مضيق هرمز",
+          "domain": "shorouknews.com",
+          "seendate": "20260803T080000Z"
+        },
+        {
+          "url": "http://news.china.com.cn/2026-08/04/content_118631952.shtml",
+          "title": "伊朗战事如何继续 ？ 美军开始内部  求支招 _ 中国网",
+          "domain": "news.china.com.cn",
+          "seendate": "20260804T001500Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/08/02/iran-denies-seeking-halt-to-us-attacks-agreement-to-reopen-strait-of-hormuz",
+          "title": "Iran Denies Halt to US Attack , Strait of Hormuz Closed",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260802T184500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2621639/trump-says-he-will-hold-off-on-fresh-iran-attack-in-hope-of-quick-deal",
+          "title": "Trump says he will hold off on fresh Iran attack in hope of quick deal",
+          "domain": "tribune.com.pk",
+          "seendate": "20260802T081500Z"
+        },
+        {
+          "url": "https://www.topontiki.gr/2026/08/07/pos-to-iran-schediazi-na-kratisi-omiro-ton-trab-mechri-tis-endiameses-ekloges-i-kathisterisis-ke-i-paratetameni-emploki-ston-polemo/",
+          "title": "Πώς το Ιράν σχεδιάζει να κρατήσει « όμηρο » τον Τραμπ μέχρι τις ενδιάμεσες εκλογές – Οι καθυστερήσεις και η παρατεταμένη εμπλοκή στον πόλεμο",
+          "domain": "topontiki.gr",
+          "seendate": "20260807T194500Z"
+        },
+        {
+          "url": "https://tsn.ua/svit/ssha-vytratyly-mayze-vsi-dalekobiyni-rakety-u-viyni-z-iranom-chym-tse-zahrozuye-3142427.html",
+          "title": "США майже вичерпали запаси далекобійних ракет у війні з Іраном – Reuters Світ",
+          "domain": "tsn.ua",
+          "seendate": "20260805T033000Z"
+        },
+        {
+          "url": "https://www.capital.gr/bloomberg-view/4008906/i-ameriki-exagei-sugxusi-se-olokliro-ton-kosmo/",
+          "title": "Η Αμερική εξάγει σύγχυση σε ολόκληρο τον κόσμο",
+          "domain": "capital.gr",
+          "seendate": "20260804T221500Z"
+        },
+        {
+          "url": "https://www.euro2day.gr/ftcom/ftcom_gr/article-ft-gr/2362167/rahman-oi-perifereiakoi-polemoi-apoktoyn-pagkosmie.html",
+          "title": "Ράχμαν : Οι περιφερειακοί πόλεμοι αποκτούν παγκόσμιες διαστάσεις",
+          "domain": "euro2day.gr",
+          "seendate": "20260807T071500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202608023829114446.html",
+          "title": "周末又来一个利好 ！ 原油暗盘直线  闪崩  _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260802T084500Z"
+        },
+        {
+          "url": "https://www.stcn.com/article/detail/4054180.html",
+          "title": "突然 ， 直线跳水 ！ 原油暗盘暴跌 ， 中东股市大涨 ！ 美伊  迷局  一夜反转",
+          "domain": "stcn.com",
+          "seendate": "20260802T154500Z"
+        },
+        {
+          "url": "https://www.foxnews.com/opinion/trump-winning-every-battle-iran-risking-war-matters",
+          "title": "America can destroy Iran arsenal . It still needs a clear path to victory",
+          "domain": "foxnews.com",
+          "seendate": "20260803T093000Z"
+        },
+        {
+          "url": "https://www.dw.com/en/iran-war-trump-tells-iranian-leaders-to-make-deal-or-surrender/live-78210315",
+          "title": "Iran war : Trump tells Iranians to make deal or surrender",
+          "domain": "dw.com",
+          "seendate": "20260803T181500Z"
+        },
+        {
+          "url": "https://dailypost.ng/2026/08/05/us-runs-low-on-long-range-precision-missiles-after-months-of-iran-war/",
+          "title": "US runs low on long - range precision missiles after months of Iran war",
+          "domain": "dailypost.ng",
+          "seendate": "20260805T070000Z"
+        },
+        {
+          "url": "https://zn.ua/ukr/WORLD/ssha-posiljujut-tisk-na-kubu-shukajuchi-novoho-lidera-dlja-ostrivnoji-derzhavi-nyt.html",
+          "title": "Трамп проти Куби - США шукають нового лідера для острівної держави",
+          "domain": "zn.ua",
+          "seendate": "20260808T051500Z"
+        },
+        {
+          "url": "https://www.express.co.uk/news/world/2236714/trump-missiles-hegseth-ukraine-china",
+          "title": "Donald Trump incompetence threatens us all - latest blunder proves it | World | News",
+          "domain": "express.co.uk",
+          "seendate": "20260807T063000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/as-iran-war-drags-on-americans-are-bracing-for-more-chaos-in-middle-east-reuters-poll-finds/articleshow/132997829.cms",
+          "title": "As Iran war drags on , Americans are bracing for more chaos in Middle East , Reuters poll finds",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260806T111500Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/defence/international/us-has-nearly-emptied-its-stock-of-long-range-precision-weapons-in-war-with-iran-report/articleshow/132862107.cms",
+          "title": "Iran war depletes US missile stocks , raising concerns over readiness for conflict with China : Report",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260804T151500Z"
+        },
+        {
+          "url": "https://www.alternet.org/trump-leakers-2677671277/",
+          "title": "Officials reveal what Trump says in private as crisis keeps him up at night",
+          "domain": "alternet.org",
+          "seendate": "20260807T150000Z"
+        },
+        {
+          "url": "https://zn.ua/ukr/usa/ssha-vicherpali-praktichno-vsi-zapasi-dalekobijnikh-visokotochnikh-raket-u-vijni-z-iranom-reuters.html",
+          "title": "Війна з Іраном - США використали практично всі свої далекобійні високоточні ракети",
+          "domain": "zn.ua",
+          "seendate": "20260804T150000Z"
+        },
+        {
+          "url": "https://news.china.com/socialgd/10000169/20260802/49649289.html",
+          "title": "美国为何总上演  临门收手  戏码 极限施压策略再现 _ 新闻频道 _ 中华网",
+          "domain": "news.china.com",
+          "seendate": "20260802T121500Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260807/49659400.html",
+          "title": "伊朗拟设霍尔木兹海峡新规瞄准美以 美国  硬蹭  谈判桌 违规者将重罚 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260807T004500Z"
+        },
+        {
+          "url": "https://www.skai.gr/news/world/i-antiparathesi-tou-tramp-me-to-iran-paravlepei-ti-genikoteri-pragmatikotita",
+          "title": "Η αντιπαράθεση του Τραμπ με το Ιράν παραβλέπει τη γενικότερη πραγματικότητα",
+          "domain": "skai.gr",
+          "seendate": "20260804T214500Z"
+        },
+        {
+          "url": "https://www.bostonglobe.com/2026/08/01/world/us-appears-headed-strategic-defeat-iran-war-allies-fear/",
+          "title": "US appears headed for a strategic defeat in Iran war , allies fear",
+          "domain": "bostonglobe.com",
+          "seendate": "20260801T233000Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20260805-us-has-used-virtually-all-key-long-range-missiles-in-iran-war-report/",
+          "title": "US has used  virtually all  key long - range missiles in Iran war – report – Middle East Monitor",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20260805T130000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/hj4tiye8mg",
+          "title": "US expects Strait of Hormuz deal soon as Iran - Oman talks advance",
+          "domain": "ynetnews.com",
+          "seendate": "20260808T004500Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10831048",
+          "title": "  미군 , 사드 미사일 80 % 소진 … 이란戰 장기화에 美 무기고  비상  ",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20260804T230000Z"
+        },
+        {
+          "url": "https://www.ibtimes.com/us-senate-nod-russia-sanctions-ukraine-cheers-move-will-moscow-blink-3806204",
+          "title": "US Senate Nod For Russia Sanctions . Ukraine Cheers Move , But Will Moscow Blink",
+          "domain": "ibtimes.com",
+          "seendate": "20260808T113000Z"
+        },
+        {
+          "url": "https://www.dw.com/zh/%E7%BE%8E%E5%86%9B%E5%B0%B1%E8%A6%81%E5%BC%B9%E5%B0%BD%E7%82%AE%E7%BB%9D/a-78236361",
+          "title": "美军就要  弹尽炮绝 ？ ",
+          "domain": "dw.com",
+          "seendate": "20260807T104500Z"
+        },
+        {
+          "url": "https://news.southcn.com/node_8e175e0ac5/1dead253f8.shtml",
+          "title": "牛弹琴 ： 历史性一天 ， 给美国的一个强烈信号 _ 南方网",
+          "domain": "news.southcn.com",
+          "seendate": "20260808T050000Z"
+        },
+        {
+          "url": "https://www.dailynews.co.th/news/6082494/",
+          "title": "สหรัฐใช้ขีปนาวุธพิสัยไกลความแม่นยำสูง  เกือบทั้งหมด  ในสงครามอิหร่าน",
+          "domain": "dailynews.co.th",
+          "seendate": "20260805T061500Z"
+        },
+        {
+          "url": "https://www.moonofalabama.org/2026/08/war-on-iran-another-taco-irans-need-to-escalate.html/comment-page-4",
+          "title": "War On Iran : – Another TACO – Iran Need To Escalate – Moon of Alabama",
+          "domain": "moonofalabama.org",
+          "seendate": "20260805T070000Z"
+        },
+        {
+          "url": "https://www.moonofalabama.org/2026/08/war-on-iran-another-taco-irans-need-to-escalate.html/comment-page-2",
+          "title": "War On Iran : – Another TACO – Iran Need To Escalate – Moon of Alabama",
+          "domain": "moonofalabama.org",
+          "seendate": "20260804T031500Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/middle-east/trump-missiles-iran-war-us-military-b3027655.html",
+          "title": "US runs out of nearly all of its long - range missiles leaving Trump short of options in Iran",
+          "domain": "independent.co.uk",
+          "seendate": "20260805T224500Z"
+        },
+        {
+          "url": "https://www.unian.ua/world/pogrozi-donalda-trampa-bilshe-ne-diyut-na-soyuznikiv-i-vorogiv-wp-13460934.html",
+          "title": "Погрози Дональда Трампа більше не діють на союзників і ворогів , ",
+          "domain": "unian.ua",
+          "seendate": "20260805T050000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1872816576715003401",
+          "title": "视频丨伊朗拟设霍尔木兹海峡新规瞄准美以 美国  硬蹭  谈判桌",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260808T000000Z"
+        },
+        {
+          "url": "https://www.eremnews.com/news/world/t4guvvy",
+          "title": "لماذا ترى الصين في التقارب الأمريكي اللبناني تهديدا لطموحاتها بالشرق الأوسط ؟ ",
+          "domain": "eremnews.com",
+          "seendate": "20260802T120000Z"
+        },
+        {
+          "url": "http://news.cyol.com/gb/news/articles/2026-08/05/content_0z30yvivQg.html",
+          "title": "美沙核协议 ： 中东  核竞赛  的发令枪 ？ ",
+          "domain": "news.cyol.com",
+          "seendate": "20260805T041500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/columns/view.aspx?cdate=02082026&id=8d32f010-a5af-432c-bf1e-567681681f23",
+          "title": "المستفيد من توسيع الحرب - عماد الدين حسين - بوابة الشروق",
+          "domain": "shorouknews.com",
+          "seendate": "20260802T173000Z"
+        },
+        {
+          "url": "https://www.albiladpress.com/news/2026/6503/arab-and-world/1012336.html",
+          "title": "جريدة البلاد | ترامب وإيران .. هدنة تفاوض أم تأجيل للمواجهة ؟ ",
+          "domain": "albiladpress.com",
+          "seendate": "20260803T110000Z"
+        },
+        {
+          "url": "https://www.albiladpress.com/news/2026/6506/arab-and-world/1012801.html",
+          "title": "جريدة البلاد | استطلاع : غالبية الأميركيين يتوقعون مزيداً من الفوضى في الشرق الأوسط",
+          "domain": "albiladpress.com",
+          "seendate": "20260806T131500Z"
+        },
+        {
+          "url": "https://prabhanews.com/us-weapons-shortage-pentagon-patriot-thaad-missiles-iran-war-trump/",
+          "title": "Us - Weapons - Shortage : పెంగాన్ బిక్క‌మొహం Andhra Prabha Top Story - Andhra Prabha | Telugu News Daily , Latest Telugu News , Latest తెలుగు వార్తలు and LIVE Updates | Breaking News in AP and Telangana",
+          "domain": "prabhanews.com",
+          "seendate": "20260805T061500Z"
+        },
+        {
+          "url": "https://www.asiaone.com:443/world/us-expects-deal-soon-hormuz-sunni-powers-unite-defense-pact",
+          "title": "US expects deal soon on Strait of Hormuz ; Sunni powers unite in defense pact",
+          "domain": "asiaone.com",
+          "seendate": "20260808T041500Z"
+        },
+        {
+          "url": "https://www.asiaone.com/world/us-expects-deal-soon-hormuz-sunni-powers-unite-defense-pact",
+          "title": "US expects deal soon on Strait of Hormuz ; Sunni powers unite in defense pact",
+          "domain": "asiaone.com",
+          "seendate": "20260808T031500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=04082026&id=b4a374bc-0e85-4de8-892e-5f20f5f139f9",
+          "title": "رويترز : واشنطن استخدمت معظم صواريخها بعيدة المدى بحرب إيران",
+          "domain": "shorouknews.com",
+          "seendate": "20260804T130000Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/08/us-expects-deal-soon-strait-hormuz-sunni-powers-unite-defense-pact",
+          "title": "US expects deal soon on Strait of Hormuz ; Sunni powers unite in defense pact",
+          "domain": "al-monitor.com",
+          "seendate": "20260808T003000Z"
+        },
+        {
+          "url": "https://alfajertv.com/news/worldnews/737947.html",
+          "title": "تقرير : واشنطن استخدمت كل صواريخها بعيدة المدى تقريبا بالحرب على إيران – تلفزيون الفجر",
+          "domain": "alfajertv.com",
+          "seendate": "20260804T161500Z"
+        },
+        {
+          "url": "https://www.dailymirror.lk/breaking-news/US-expects-deal-soon-on-Strait-of-Hormuz-Sunni-powers-unite-in-defense-pact/108-347704",
+          "title": "US expects deal soon on Strait of Hormuz ; Sunni powers unite in defense pact - International",
+          "domain": "dailymirror.lk",
+          "seendate": "20260808T110000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-08-04-general-warns-insufficient-naval-forces-protect-israel.html",
+          "title": "Top U . S . General Warns of Insufficient Naval Forces to Protect Israel – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260804T133000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/weekend-news-roundup-newsquawk-daily-asia-pac-market-open-9",
+          "title": "Weekend News Roundup - Newsquawk Daily Asia - Pac Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20260802T224500Z"
+        },
+        {
+          "url": "https://www.newsweek.com/donald-trump-vows-hunt-down-leakers-saying-us-running-out-of-missiles-munitions-iran-war-12290564",
+          "title": "Donald Trump Vows To Hunt Down  Leaker Saying US Running Out of Missiles",
+          "domain": "newsweek.com",
+          "seendate": "20260806T111500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/trumps-iran-dilemma-hes-stuck-in-war-with-no-exit-in-sight/articleshow/133019042.cms",
+          "title": "Trump Iran dilemma : He stuck in war with no exit in sight",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260807T031500Z"
+        },
+        {
+          "url": "https://dunyanews.tv/en/World/966686-trumps-iran-dilemma-hes-stuck-in-war-with-no-exit-in-sight",
+          "title": "Trump Iran dilemma : He stuck in war with no exit in sight",
+          "domain": "dunyanews.tv",
+          "seendate": "20260807T044500Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-08-03/4529732.html",
+          "title": "特朗普 ： 美伊3日将举行谈判 ， 关于霍尔木兹海峡已有协议 ； 以总理通过社媒才得知美叫停对伊打击 ； 河南通报  三支一扶  核查结果丨每经早参",
+          "domain": "nbd.com.cn",
+          "seendate": "20260802T230000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/article-904102",
+          "title": "Middle East press weighs war , diplomacy , technology , and sport",
+          "domain": "jpost.com",
+          "seendate": "20260802T183000Z"
+        },
+        {
+          "url": "https://www.timeslive.co.za/news/world/2026-08-06-analysis-trumps-iran-dilemma-hes-stuck-in-a-war-with-no-exit-in-sight/",
+          "title": "ANALYSIS | Trump Iran dilemma : he stuck in a war with no exit in sight",
+          "domain": "timeslive.co.za",
+          "seendate": "20260806T200000Z"
+        },
+        {
+          "url": "https://www.businesstimes.com.sg/international/global/trumps-iran-dilemma-menu-bad-options-leaves-us-no-easy-exit-war",
+          "title": "Trump Iran dilemma :  Menu of bad option leaves the US with no easy exit from war",
+          "domain": "businesstimes.com.sg",
+          "seendate": "20260807T010000Z"
+        },
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/08/us-expects-deal-soon-on-strait-of-hormuz-sunni-powers-unite-in-defense-pact",
+          "title": "US expects deal soon on Strait of Hormuz ; Sunni powers unite in defense pact",
+          "domain": "internazionale.it",
+          "seendate": "20260808T010000Z"
+        },
+        {
+          "url": "https://fakty.ua/476557-eto-oslablyaet-v-peregovorah-s-iranom-tramp-razyarilsya-iz-za-soobcshenij-ob-istocshenii-arsenalov",
+          "title": "Трамп розлютився через повідомлення у ЗМІ про виснаження запасів боєприпасів",
+          "domain": "fakty.ua",
+          "seendate": "20260808T101500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202608033829225051.html",
+          "title": "油价暴跌 ！ 特朗普称美伊将举行谈判伊朗外长 ： 与阿曼谈判接近完成 ！ 欧佩克宣布继续增产 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260803T031500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/08/links-8-8-2026.html",
+          "title": "Links 8 / 8 / 2026 | naked capitalism",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260808T121500Z"
+        },
+        {
+          "url": "https://vlasti.net/news/367782",
+          "title": "США використали майже всі далекобійні високоточні ракети у війні з Іраном Reuters / vlasti . net",
+          "domain": "vlasti.net",
+          "seendate": "20260804T161500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/08/analysis-trumps-iran-dilemma-hes-stuck-war-no-exit-sight",
+          "title": "Analysis - Trump Iran dilemma : He stuck in war with no exit in sight",
+          "domain": "al-monitor.com",
+          "seendate": "20260806T194500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2622629/trumps-iran-dilemma-hes-stuck-in-war-with-no-exit-in-sight",
+          "title": "Trump Iran dilemma : He stuck in war with no exit in sight",
+          "domain": "tribune.com.pk",
+          "seendate": "20260807T150000Z"
+        },
+        {
+          "url": "https://city.udn.com/2976/7247690?raid=7297526",
+          "title": "中東風雲錄 -- 開欄文 ： 埃及的加薩重建方案 -- Al Jazeera - 時事論壇",
+          "domain": "city.udn.com",
+          "seendate": "20260803T040000Z"
+        },
+        {
+          "url": "https://www.in.gr/2026/08/04/world/stereyoun-oi-ipa-apo-pyraylous-akriveias-megalou-velinekous/",
+          "title": " « Στερεύουν » οι ΗΠΑ από πυραύλους ακριβείας μεγάλου βεληνεκούς ; ",
+          "domain": "in.gr",
+          "seendate": "20260804T170000Z"
+        },
+        {
+          "url": "https://www.brisbanetimes.com.au/world/north-america/us-has-used-up-virtually-all-of-its-precision-missiles-20260805-p60lj8.html",
+          "title": "US has used up  virtually all  of its precision missiles",
+          "domain": "brisbanetimes.com.au",
+          "seendate": "20260805T023000Z"
+        },
+        {
+          "url": "https://www.voria.gr/article/reuters-iran-leei-oti-den-tha-paei-se-diapragmateyseis-me-tis-ipa-opos-eihe-anakoinosei-o",
+          "title": "Reuters : Το Ιράν λέει ότι δεν θα πάει σε διαπραγματεύσεις με τις ΗΠΑ , όπως είχε ανακοινώσει ο Τραμπ",
+          "domain": "voria.gr",
+          "seendate": "20260803T093000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/us-has-used-virtually-all-of-its-long-range-precision-missiles-during-iran-war-sources-say/articleshow/132856603.cms",
+          "title": "US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260804T104500Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-08-07/4534641.html",
+          "title": "伊朗 ： 打击敌方目标 ， 拟禁止美国等通行霍尔木兹海峡 ； 特朗普 ： 我正参与谈判 ， 协议尚未达成 ； 美股集体收跌 ， 存储芯片股大跌丨每经早参",
+          "domain": "nbd.com.cn",
+          "seendate": "20260806T234500Z"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/08/04/us-has-used-virtually-all-of-its-long-range-precision-missiles-report.html",
+          "title": "U . S . has used  virtually all  of its long - range precision missiles : report",
+          "domain": "cnbc.com",
+          "seendate": "20260804T124500Z"
+        },
+        {
+          "url": "https://www.rappler.com/world/middle-east/sources-us-used-virtually-all-long-range-precision-missiles-iran-war/",
+          "title": "US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+          "domain": "rappler.com",
+          "seendate": "20260804T130000Z"
+        },
+        {
+          "url": "https://www.efsyn.gr/kosmos/1441848/apokalypsi-apo-to-reuters-oi-ipa-ehoyn-hrisimopoiisei-shedon-oloys-toys-diathesimoys-pyrayloys-megaloy-velinekoys/",
+          "title": "Αποκάλυψη « βόμβα » από το Reuters : Οι ΗΠΑ έχουν χρησιμοποιήσει σχεδόν όλους τους διαθέσιμους πυραύλους μεγάλου βεληνεκούς",
+          "domain": "efsyn.gr",
+          "seendate": "20260804T170000Z"
+        },
+        {
+          "url": "https://www.militarytimes.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
+          "title": "US used  virtually all  long - range precision missiles during Iran war , sources say",
+          "domain": "militarytimes.com",
+          "seendate": "20260804T170000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087354669-us-has-used-virtually-all-of-long-range-missiles-on-iran-sources",
+          "title": "US missile stockpiles depleted by Iran war : Report",
+          "domain": "samaa.tv",
+          "seendate": "20260804T131500Z"
+        },
+        {
+          "url": "https://www.marinecorpstimes.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
+          "title": "US used  virtually all  long - range precision missiles during Iran war , sources say",
+          "domain": "marinecorpstimes.com",
+          "seendate": "20260804T133000Z"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/washington-3rd-district-primary-results-marie-gluesenkamp-perez-john-braun/",
+          "title": "Democratic Rep . Gluesenkamp Perez and Trump - backed Republican advance in Washington 3rd District primary",
+          "domain": "cbsnews.com",
+          "seendate": "20260805T053000Z"
+        },
+        {
+          "url": "https://www.jutarnji.hr/vijesti/svijet/trumpov-blef-iran-hormus-nafta-sigurnost-zaljeva-15733859",
+          "title": "Jutarnji list - Trump je jednom riječju nehotice razotkrio svoju veliku slabost , Iranci sad znaju što trebaju",
+          "domain": "jutarnji.hr",
+          "seendate": "20260803T160000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2622032/us-has-used-virtually-all-of-its-long-range-precision-missiles-during-iran-war-sources-say",
+          "title": "US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+          "domain": "tribune.com.pk",
+          "seendate": "20260804T111500Z"
+        },
+        {
+          "url": "https://www.wenweipo.com/a/202608/06/AP6a747a5ee4b0c1e50023d079.html",
+          "title": "霍爾木茲海峽通航協議接近敲定 ？ - 國際",
+          "domain": "wenweipo.com",
+          "seendate": "20260806T163000Z"
+        },
+        {
+          "url": "https://www.kathimerini.gr/world/564383776/i-pligi-sto-amerikaniko-oplostasio-kai-i-apeili-apo-rosia-kai-kina/",
+          "title": "Η « πληγή » στο αμερικανικό οπλοστάσιο και η απειλή από Ρωσία και Κίνα",
+          "domain": "kathimerini.gr",
+          "seendate": "20260804T174500Z"
+        },
+        {
+          "url": "https://www.navytimes.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
+          "title": "US used  virtually all  long - range precision missiles during Iran war , sources say",
+          "domain": "navytimes.com",
+          "seendate": "20260804T170000Z"
+        },
+        {
+          "url": "https://www.enikos.gr/international/iran-schedio-na-kratisei-ton-trab-blegmeno-ston-polemo-eos-tis-endiameses-ekloges-pontarei-stin-politiki-fthora-tou/2625967/",
+          "title": "Ιράν : Σχέδιο να κρατήσει τον Τραμπ « μπλεγμένο » στον πόλεμο έως τις ενδιάμεσες εκλογές – Ποντάρει στην πολιτική φθορά του",
+          "domain": "enikos.gr",
+          "seendate": "20260807T203000Z"
+        },
+        {
+          "url": "https://finance.jrj.com.cn/2026/08/02180557988218.shtml",
+          "title": "周末重要消息出炉 ！ 央行重磅会议召开 ， 继续实施好适度宽松的货币政策 特朗普称同意取消对伊朗的打击",
+          "domain": "finance.jrj.com.cn",
+          "seendate": "20260802T140000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/us-has-used-virtually-all-of-some-key-missiles-how-iran-war-is-taking-a-heavy-toll-on-america-s-arsenal-article-13994216.html",
+          "title": "US has used  virtually all  of some key missiles : How Iran war is taking a heavy toll on America arsenal",
+          "domain": "moneycontrol.com",
+          "seendate": "20260804T151500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/379/Reuters-oi-ipa-echoun-chrisimopoiisei-ousiastika-olous-tous-pyravlous-akriveias-megalou-velinekous-ston-polemo-kata-tou-iran.htm",
+          "title": "Reuters : Οι ΗΠΑ έχουν χρησιμοποιήσει « ουσιαστικά όλους » τους πυραύλους ακριβείας μεγάλου βεληνεκούς στον πόλεμο κατά του Ιράν",
+          "domain": "inewsgr.com",
+          "seendate": "20260805T070000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/features/5303434-report-us-has-used-%E2%80%98virtually-all%E2%80%99-its-long-range-precision-missiles-during-iran",
+          "title": "Report : US Has Used  Virtually All  of Its Long - Range Precision Missiles During Iran War",
+          "domain": "english.aawsat.com",
+          "seendate": "20260804T183000Z"
+        },
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/04/exclusive-us-has-used-virtually-all-of-its-long-range-precision-missiles-during-iran-war-sources-say",
+          "title": "Exclusive - US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+          "domain": "internazionale.it",
+          "seendate": "20260804T104500Z"
+        },
+        {
+          "url": "https://freethoughtblogs.com/singham/2026/08/02/the-misleading-impression-given-about-the-iran-war/",
+          "title": "The misleading impression given about the Iran war",
+          "domain": "freethoughtblogs.com",
+          "seendate": "20260802T161500Z"
+        },
+        {
+          "url": "http://www.jpost.com/international/article-904564",
+          "title": "Low stockpiles of US long - range precision missile raise concerns",
+          "domain": "jpost.com",
+          "seendate": "20260804T174500Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/skt4cwyuzg",
+          "title": "Report : US has used  virtually all  of key long - range missiles in Iran war",
+          "domain": "ynetnews.com",
+          "seendate": "20260804T170000Z"
+        },
+        {
+          "url": "https://www.arabnews.com/node/2653375/middle-east",
+          "title": "US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+          "domain": "arabnews.com",
+          "seendate": "20260804T154500Z"
+        },
+        {
+          "url": "https://www.staradvertiser.com/2026/08/04/breaking-news/u-s-has-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
+          "title": "U . S . has used virtually all long - range precision missiles during Iran war , sources say",
+          "domain": "staradvertiser.com",
+          "seendate": "20260804T214500Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/08/04/us-has-used-virtually-all-of-its-long-range-precision-missiles-during-me-war-say-sources",
+          "title": "US Used  Virtually All  ATACMS and PrSM in Iran War",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260804T183000Z"
+        },
+        {
+          "url": "https://www.gdnonline.com:443/Details/1402556/US-has-used-%E2%80%98virtually-all%E2%80%99-of-its-long-range-precision-missiles",
+          "title": "World News : US has used  virtually all  of its long - range precision missiles",
+          "domain": "gdnonline.com",
+          "seendate": "20260804T231500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/08/links-8-5-2026.html",
+          "title": "Links 8 / 5 / 2026 | naked capitalism",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260805T124500Z"
+        },
+        {
+          "url": "https://www.juancole.com/2026/08/turkiye-pakistani-umbrella.html",
+          "title": "Türkiye and Saudi Arabia seek Pakistani Nuclear Umbrella against Israel",
+          "domain": "juancole.com",
+          "seendate": "20260808T080000Z"
+        },
+        {
+          "url": "https://www.breakingnews.ie/world/exclusive-us-has-used-virtually-all-of-its-long-range-precision-missiles-during-iran-war-sources-say-1936150.html",
+          "title": "US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+          "domain": "breakingnews.ie",
+          "seendate": "20260804T211500Z"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/08/exclusive-us-has-used-virtually-all-its-long-range-precision-missiles-during-iran",
+          "title": "Exclusive - US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+          "domain": "al-monitor.com",
+          "seendate": "20260804T111500Z"
+        },
+        {
+          "url": "https://www.sofokleousin.gr/epikairotita/amyna-diplomatia/ipa-exoun-xrisimopoiithei-oloi-oi-pyrayloi-megalou-velinekous-sto",
+          "title": "ΗΠΑ : Έχουν χρησιμοποιηθεί όλοι οι πύραυλοι μεγάλου βεληνεκούς στον πόλεμο με το Ιράν",
+          "domain": "sofokleousin.gr",
+          "seendate": "20260804T201500Z"
+        },
+        {
+          "url": "https://mizonews.net/world/16391/",
+          "title": "في إيران ، يبدو أن الولايات المتحدة متجهة نحو هزيمة استراتيجية ، يخشى الحلفاء",
+          "domain": "mizonews.net",
+          "seendate": "20260803T051500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8vJFjfR0aPt",
+          "title": "多面受敌 ， 沙特为何仍相对  克制 ？_ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260804T034500Z"
+        },
+        {
+          "url": "https://www.huxiu.com/article/4880512.html",
+          "title": "多面受敌 ， 沙特为何仍相对  克制 ？- 虎嗅网",
+          "domain": "huxiu.com",
+          "seendate": "20260804T103000Z"
+        },
+        {
+          "url": "https://www.news247.gr/kosmos/to-adiexodo-tou-trab-sto-iran-enas-sintomos-polemos-xoris-stratigiki-exodou/",
+          "title": "Ο Τραμπ εγκλωβίστηκε στο Ιράν χωρίς σχέδιο εξόδου",
+          "domain": "news247.gr",
+          "seendate": "20260806T204500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/351/apokalypsi-apo-to-Reuters-oi-ipa-echoun-chrisimopoiisei-schedon-olous-tous-diathesimous-pyravlous-megalou-velinekous.htm",
+          "title": "Αποκάλυψη από το Reuters : Οι ΗΠΑ έχουν χρησιμοποιήσει « σχεδόν όλους » τους διαθέσιμους πυραύλους μεγάλου βεληνεκούς",
+          "domain": "inewsgr.com",
+          "seendate": "20260804T160000Z"
+        },
+        {
+          "url": "https://www.tanea.gr/print/2026/08/04/world/synomilies-pou-den-eginan-polemos-pou-synexizetai/",
+          "title": "Μέση Ανατολή : Συνομιλίες που δεν έγιναν , πόλεμος που συνεχίζεται",
+          "domain": "tanea.gr",
+          "seendate": "20260804T150000Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/columns/view.aspx?cdate=02082026&id=521b6b75-e8c9-44d6-84c9-5d96f92ac7de",
+          "title": "حرب الخليج الثالثة .. استنزافٌ بلا حسم ... ومَن يجنى الأرباح ؟ - سمير العيطة",
+          "domain": "shorouknews.com",
+          "seendate": "20260802T173000Z"
+        },
+        {
+          "url": "https://www.kathimerini.gr/world/564389137/to-dilimma-toy-tramp-gia-to-iran-egklovismenos-se-enan-polemo-choris-orati-diexodo/",
+          "title": "Το δίλημμα του Τραμπ για το Ιράν : Εγκλωβισμένος σε έναν πόλεμο χωρίς ορατή διέξοδο",
+          "domain": "kathimerini.gr",
+          "seendate": "20260807T064500Z"
+        },
+        {
+          "url": "https://www.arkansasonline.com/news/2026/aug/06/sources-say-us-stock-of-accurate-missiles-draining/",
+          "title": "Sources say U stock of accurate missiles draining | The Arkansas Democrat - Gazette",
+          "domain": "arkansasonline.com",
+          "seendate": "20260806T103000Z"
+        },
+        {
+          "url": "https://www.protagon.gr/epikairotita/eksantlountai-oi-pyravloi-akriveias-megalou-velinekous-twn-ipa-44343418558",
+          "title": "Εξαντλούνται οι πύραυλοι ακριβείας μεγάλου βεληνεκούς των ΗΠΑ ; ",
+          "domain": "protagon.gr",
+          "seendate": "20260804T160000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202608033829237960.html",
+          "title": "早报丨美伊或将明日举行谈判 ， 三大美股期指齐涨 ， WTI原油跌近5 %； 贝森特称上周五与日本协调干预日元 ； 亚马逊完成对OpenAI总计500亿美元全额投资 ； Palantir财报今日美股盘后将发布 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260803T041500Z"
+        },
+        {
+          "url": "https://www.vava8.com/index.php?app=index&act=view&id=121250",
+          "title": "从  狠打  到  不打  特朗普叫停大规模攻击伊朗 为何总  临门收手 ？ ",
+          "domain": "vava8.com",
+          "seendate": "20260803T044500Z"
+        },
+        {
+          "url": "https://www.foxnews.com/us/half-us-weapons-stockpiles-used-iran-war-raising-concerns-china-threat",
+          "title": "Pentagon requests billions for munitions as Iran war drains supply",
+          "domain": "foxnews.com",
+          "seendate": "20260805T000000Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/08/04/us-military-iran-missiles-atacms-prsm-stockpile-pentagon",
+          "title": "تقرير : واشنطن استهلكت  تقريبًا  كامل مخزونها من الصواريخ الدقيقة بعيدة المدى في حرب إيران",
+          "domain": "arabic.euronews.com",
+          "seendate": "20260804T193000Z"
+        },
+        {
+          "url": "https://www.homelandsecuritynewswire.com/dr20260804-trump-keeps-making-threats-the-world-has-stopped-flinching-central-asia-s-critical-minerals-rush-iran-and-ukraine-war",
+          "title": "Trump Keeps Making Threats . The World Has Stopped Flinching | Central Asia Critical Minerals Rush | Iran and Ukraine Wars Became One Energy Shock , and more",
+          "domain": "homelandsecuritynewswire.com",
+          "seendate": "20260805T000000Z"
+        },
+        {
+          "url": "https://www.protagon.gr/apopseis/ena-neo-systima-asfaleias-sti-mesi-anatoli-44343416797",
+          "title": "Ενα νέο σύστημα ασφαλείας στη Μέση Ανατολή",
+          "domain": "protagon.gr",
+          "seendate": "20260804T044500Z"
+        },
+        {
+          "url": "http://orientaldaily.on.cc/content/%E5%85%A9%E5%B2%B8%E5%9C%8B%E9%9A%9B/odn-20260802-0802_00192_001/%E5%8F%8D%E6%88%B0%E7%82%BA%E6%8C%BD%E6%95%91%E6%B0%91%E7%94%9F--%E6%B0%91%E4%B8%BB%E9%BB%A8%E9%81%B8%E8%88%89%E7%AD%96%E7%95%A5",
+          "title": "反戰為挽救民生 民主黨選舉策略",
+          "domain": "orientaldaily.on.cc",
+          "seendate": "20260802T000000Z"
+        },
+        {
+          "url": "https://bworldonline.com/world/2026/08/05/768204/us-has-used-virtually-all-of-its-long-range-precision-missiles-during-iran-war-sources-say/",
+          "title": "US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+          "domain": "bworldonline.com",
+          "seendate": "20260805T033000Z"
+        },
+        {
+          "url": "https://www.americanthinker.com/blog/2026/08/the-real-reason-trump-agreed-to-the-mou/",
+          "title": "The real reason Trump agreed to the MOU",
+          "domain": "americanthinker.com",
+          "seendate": "20260805T154500Z"
+        },
+        {
+          "url": "https://anna-news.info/svodka-sobytij-v-irane-i-stranah-blizhnego-vostoka-za-5-avgusta-2026-g/",
+          "title": "Сводка событий в Иране и странах Ближнего Востока за 5 августа 2026 г . ",
+          "domain": "anna-news.info",
+          "seendate": "20260806T044500Z"
+        },
+        {
+          "url": "https://original.antiwar.com/trita-parsi/2026/08/05/before-hormuz-there-was-suez-what-trump-can-learn-from-eisenhower/",
+          "title": "Before Hormuz , There Was Suez : What Trump Can Learn From Eisenhower",
+          "domain": "original.antiwar.com",
+          "seendate": "20260806T051500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8vHtwIWAJrH",
+          "title": "美伊战火越打越贵 ： 从海峡到K线 ， 谁在悄悄买单 ？ ",
+          "domain": "news.ifeng.com",
+          "seendate": "20260803T064500Z"
+        },
+        {
+          "url": "https://www.alwatan.com.sa/article/1183714",
+          "title": "أقصى تضامن خليجي لمواجهة المرحلة الفاصلة",
+          "domain": "alwatan.com.sa",
+          "seendate": "20260803T104500Z"
+        },
+        {
+          "url": "https://sputniknews.cn/20260807/1072677373.html",
+          "title": "伊朗与阿曼临时通航协议将动摇美国在中东的影响",
+          "domain": "sputniknews.cn",
+          "seendate": "20260807T084500Z"
+        },
+        {
+          "url": "https://alhurra.com/32059",
+          "title": "الرهانات الكبرى",
+          "domain": "alhurra.com",
+          "seendate": "20260807T004500Z"
+        },
+        {
+          "url": "https://www.durangoherald.com/articles/associated-press/irans-leaders-think-they-have-trump-cornered-but-their-strategy-carries-great-risks/",
+          "title": "Iran leaders think they have Trump cornered , but their strategy carries great risks",
+          "domain": "durangoherald.com",
+          "seendate": "20260808T101500Z"
+        },
+        {
+          "url": "https://www.newsbeast.gr/world/arthro/13275649/oi-ipa-xemenoun-apo-pyravlous-megalou-velinekous-logo-tou-polemou-me-to-iran-anisychia-gia-ti-stratiotiki-etoimotita",
+          "title": "Οι ΗΠΑ ξεμένουν από πυραύλους μεγάλου βεληνεκούς λόγω του πολέμου με το Ιράν – Ανησυχία για τη στρατιωτική ετοιμότητα",
+          "domain": "newsbeast.gr",
+          "seendate": "20260804T130000Z"
+        },
+        {
+          "url": "https://www.ironmountaindailynews.com/opinion/editorials/2026/08/us-saudi-nuclear-agreement-further-erodes-safeguards/",
+          "title": "US - Saudi nuclear agreement further erodes safeguards",
+          "domain": "ironmountaindailynews.com",
+          "seendate": "20260803T090000Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/davar-rishon/yossi-chaim-maimon-new-shidduchim-podcast",
+          "title": "יוסי חיים מימון משיק תוכנית שידוכים חדשה - הפודקאסט שכולם מדברים עליו",
+          "domain": "kikar.co.il",
+          "seendate": "20260802T174500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/saray-rejimi-atesle-oynuyor-728182%20class=slide-link%20target=_blank",
+          "title": "Saray rejimi ateşle oynuyor",
+          "domain": "birgun.net",
+          "seendate": "20260808T041500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/saray-rejimi-atesle-oynuyor-728182%20target=_blank%20class=stretched-link",
+          "title": "Saray rejimi ateşle oynuyor",
+          "domain": "birgun.net",
+          "seendate": "20260808T041500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/saray-rejimi-atesle-oynuyor-728182%20class=slide-legend-link%20target=_blank",
+          "title": "Saray rejimi ateşle oynuyor",
+          "domain": "birgun.net",
+          "seendate": "20260808T041500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/saray-rejimi-atesle-oynuyor-728182%20target=_blank",
+          "title": "Saray rejimi ateşle oynuyor",
+          "domain": "birgun.net",
+          "seendate": "20260808T041500Z"
+        },
+        {
+          "url": "https://www.military.com/cia-assessment-flags-risks-of-permanent-us-israel-defense-ties-security-impact-looms-large",
+          "title": "CIA Flags Risks of Permanent US - Israel Defense Ties as Security Impact Looms Large",
+          "domain": "military.com",
+          "seendate": "20260806T104500Z"
+        },
+        {
+          "url": "https://www.newsbeast.gr/world/arthro/13279118/i-evropi-antimetopi-me-diadochikes-kriseis-polemoi-klimatiki-allagi-metanasteftiko-kai-i-machi-gia-ton-geopolitiko-tis-rolo",
+          "title": "Η Ευρώπη αντιμέτωπη με διαδοχικές κρίσεις : Πόλεμοι , κλιματική αλλαγή , μεταναστευτικό και η μάχη για τον γεωπολιτικό της ρόλο",
+          "domain": "newsbeast.gr",
+          "seendate": "20260806T083000Z"
+        },
+        {
+          "url": "https://news.cnr.cn/sq/20260802/t20260802_527742478.shtml",
+          "title": "美计划本周末发动  猛烈轰炸  伊朗 ： 全面反击方案已就绪 _ 央广网",
+          "domain": "news.cnr.cn",
+          "seendate": "20260802T040000Z"
+        },
+        {
+          "url": "https://zn.ua/ukr/WORLD/iran-vvazhaje-shcho-peremozhe-u-vijni-z-ssha-na-shcho-robit-stavku-teheran-ap.html",
+          "title": "Війна з Іраном - Тегеран впевнений у своїй перемозі",
+          "domain": "zn.ua",
+          "seendate": "20260808T083000Z"
+        },
+        {
+          "url": "https://theconversation.com/with-its-new-leverage-over-the-strait-of-hormuz-does-iran-want-or-need-a-nuclear-weapon-288702",
+          "title": "With its new leverage over the Strait of Hormuz , does Iran want – or need – a nuclear weapon ? ",
+          "domain": "theconversation.com",
+          "seendate": "20260804T071500Z"
+        },
+        {
+          "url": "https://crooksandliars.com/2026/08/americas-missile-stockpile-almost-empty",
+          "title": "America Missile Stockpile Is Almost Empty White House Says Everything Fine",
+          "domain": "crooksandliars.com",
+          "seendate": "20260805T000000Z"
+        },
+        {
+          "url": "https://www.news247.gr/kosmos/reuters-oi-ipa-exoun-xrisimopoiisei-sxedon-olous-tous-piravlous-megalou-velinekous-sto-iran/",
+          "title": "Reuters : Οι ΗΠΑ έχουν χρησιμοποιήσει σχεδόν όλους τους πυραύλους μεγάλου βεληνεκούς στο Ιράν",
+          "domain": "news247.gr",
+          "seendate": "20260804T170000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/stocks-set-firmer-open-brent-sinks-6-iran-de-escalation-jpy-extends-gains-intervention",
+          "title": "Stocks set for a firmer open as Brent sinks ~6 % on Iran de - escalation ; JPY extends gains on intervention threats - Newsquawk EU Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20260803T081500Z"
+        },
+        {
+          "url": "https://www.forbes.com/sites/kensilverstein/2026/08/02/washington-wants-iraq-but-tehran-and-beijing-wont-let-go/",
+          "title": "Washington Wants Iraq , But Tehran And Beijing Wont Let Go",
+          "domain": "forbes.com",
+          "seendate": "20260802T144500Z"
+        },
+        {
+          "url": "https://www.siasat.com/does-iran-still-need-nuclear-weapon-after-hormuz-leverage-3518413/",
+          "title": "Does Iran still need nuclear weapon after Hormuz leverage ? ",
+          "domain": "siasat.com",
+          "seendate": "20260804T081500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1872462980489079075",
+          "title": "观察早报丨深化扫黑除恶专项斗争举报途径公布 ； 央行 ： 下半年继续实施适度宽松的货币政策 ； 特朗普称美伊将举行谈判",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260803T103000Z"
+        },
+        {
+          "url": "https://www.berkshireeagle.com/opinion/wire/the-war-that-could-swallow-the-world/article_aea5bc8b-314f-538f-b5f2-68aa18b49f2f.html",
+          "title": "The war that could swallow the world",
+          "domain": "berkshireeagle.com",
+          "seendate": "20260804T113000Z"
+        },
+        {
+          "url": "https://www.tanea.gr/print/2026/08/02/world/oi-dyo-polemoi-ginontai-enas/",
+          "title": "Ιράν - Ουκρανία : Οι δύο πόλεμοι γίνονται ένας",
+          "domain": "tanea.gr",
+          "seendate": "20260802T190000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/geopolitical/fresh-panic-pentagon-has-used-virtually-all-its-long-range-precision-missiles-iran",
+          "title": "Fresh Panic As Pentagon Has Used  Virtually All  Its Long - Range Precision Missiles On Iran",
+          "domain": "zerohedge.com",
+          "seendate": "20260806T011500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/08/why-does-the-us-want-to-spread-its-wars-to-the-caspian.html",
+          "title": "Why Does the US Want to Spread Its Wars to the Caspian ? ",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260805T104500Z"
+        },
+        {
+          "url": "https://nypost.com/2026/08/01/lifestyle/living-nostradamus-takes-credit-for-predicting-world-cup-outcome-iran-conflict/",
+          "title": "  Living Nostradamu takes credit for predicting World Cup outcome , Iran conflict",
+          "domain": "nypost.com",
+          "seendate": "20260801T141500Z"
+        },
+        {
+          "url": "https://cpa.org.au/guardian/issue-2200/editorial/",
+          "title": "EDITORIAL - CPA",
+          "domain": "cpa.org.au",
+          "seendate": "20260803T054500Z"
+        },
+        {
+          "url": "https://www.aboluowang.com/2026/0803/2416070.html",
+          "title": "千百度 ： 中共是否向伊朗出售肩射防空导弹 ？ ",
+          "domain": "aboluowang.com",
+          "seendate": "20260803T020000Z"
+        },
+        {
+          "url": "https://www.justsecurity.org/150631/the-trump-administration-throws-gulf-ai-a-lifeline/",
+          "title": "The Trump Administration Throws Gulf AI a Lifeline",
+          "domain": "justsecurity.org",
+          "seendate": "20260807T151500Z"
+        },
+        {
+          "url": "https://home.nzcity.co.nz/news/article.aspx?id=451372",
+          "title": "With its new leverage over the Strait of Hormuz , does Iran want – or need – a nuclear weapon ? - 05 - Aug - 2026",
+          "domain": "home.nzcity.co.nz",
+          "seendate": "20260805T043000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202608023829118423.html",
+          "title": "东方财富期货早餐 8月3日 周一 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260803T031500Z"
+        },
+        {
+          "url": "https://kathimerini.com.cy/gr/kosmos/dilimma-tramp-gia-iran-egklobismenos-se-polemo-xoris-orati-diexodo",
+          "title": "Δίλημμα Τραμπ για Ιράν : Εγκλωβισμένος σε πόλεμο χωρίς ορατή διέξοδο",
+          "domain": "kathimerini.com.cy",
+          "seendate": "20260807T113000Z"
+        },
+        {
+          "url": "https://www.kathimerini.com.cy/gr/kosmos/dilimma-tramp-gia-iran-egklobismenos-se-polemo-xoris-orati-diexodo",
+          "title": "Δίλημμα Τραμπ για Ιράν : Εγκλωβισμένος σε πόλεμο χωρίς ορατή διέξοδο",
+          "domain": "kathimerini.com.cy",
+          "seendate": "20260807T131500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/891845/the-persian-gulf-after-the-us-saudi-arabia-puts-brakes-on-trump-over-large-scale-attack-on-iran-and-gives-role-to-china-and-russia",
+          "title": "The Persian Gulf after the US : Saudi Arabia puts brakes on Trump over large scale attack on Iran and gives role to China and Russia",
+          "domain": "bankingnews.gr",
+          "seendate": "20260802T144500Z"
+        },
+        {
+          "url": "https://www.reporter.gr/diethnh/diethneis-eidhseis/682476-reuters-adeiasan-oi-amerikanikes-apothikes-apo-pyraylous-megalou-velinekoys",
+          "title": "Reuters : « Άδειασαν » οι αμερικανικές αποθήκες από πυραύλους μεγάλου βεληνεκούς",
+          "domain": "reporter.gr",
+          "seendate": "20260804T150000Z"
+        },
+        {
+          "url": "https://www.hurriyetdailynews.com/europe-struggles-for-influence-amid-mounting-crises-225322",
+          "title": "Europe struggles for influence amid mounting crises",
+          "domain": "hurriyetdailynews.com",
+          "seendate": "20260807T083000Z"
+        },
+        {
+          "url": "https://conservativehq.com/post/xis-red-chinese-strategic-arson-ignited-americas-acute-defense-shortfalls",
+          "title": "Xi Red Chinese  Strategic Arson  Ignited America Acute Defense Shortfalls",
+          "domain": "conservativehq.com",
+          "seendate": "20260806T163000Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/brazilian-psychic-2026-predictions-arctic-missile-threats-1811893",
+          "title": "  Living Nostradamu Warns of Dark Prophecy as Russia Moves Missile Systems to Strategic Arctic Areas",
+          "domain": "ibtimes.co.uk",
+          "seendate": "20260802T121500Z"
+        },
+        {
+          "url": "https://kar-online.com/117915-2/",
+          "title": "توافق با ایالات متحده بی معنی است ! ",
+          "domain": "kar-online.com",
+          "seendate": "20260804T033000Z"
+        },
+        {
+          "url": "http://news.cnnb.com.cn/system/2026/08/06/030800910.shtml",
+          "title": "协议接近达成 伊朗披露海峡新航道通行细节 - 新闻中心 - 中国宁波网",
+          "domain": "news.cnnb.com.cn",
+          "seendate": "20260806T024500Z"
+        },
+        {
+          "url": "https://www.efsyn.gr/kosmos/1443446/i-steni-shesi-ipa-marokoy-kai-ta-erotimata-gyro-apo-tin-krisi-sti-theoyta/",
+          "title": "Θέουτα : Η στενή σχέση ΗΠΑ - Μαρόκου και τα ερωτήματα για τους υπαίτιους της φονικής μεταναστευτικής κρίσης",
+          "domain": "efsyn.gr",
+          "seendate": "20260806T183000Z"
+        },
+        {
+          "url": "https://www.chinesepress.com/2026/190725.html",
+          "title": "阿拉格齐 ： 太阳底下卖雪 - 华侨网",
+          "domain": "chinesepress.com",
+          "seendate": "20260805T040000Z"
+        },
+        {
+          "url": "https://www.news-bulletin.com/opinion/letters-to-the-editor/3096066",
+          "title": "Letters to the Editor",
+          "domain": "news-bulletin.com",
+          "seendate": "20260806T160000Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20260805-what-happened-to-the-gaza-board-of-peace/",
+          "title": "What happened to the Gaza Board of Peace ? ",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20260805T123000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2621584/the-conflict-with-iran-wont-stay-in-iran",
+          "title": "The conflict with Iran wont stay in Iran",
+          "domain": "tribune.com.pk",
+          "seendate": "20260802T081500Z"
+        },
+        {
+          "url": "https://freerepublic.com/tag/*/index?more=4390748",
+          "title": "Latest Articles",
+          "domain": "freerepublic.com",
+          "seendate": "20260806T024500Z"
+        },
+        {
+          "url": "https://www.ostro.org/news/nihto-ne-prognozuvav-defitsyt-raket-dlya-patriot-ye-ob-yektyvnoyu-problemoyu-a-ne-naslidkom-i563733",
+          "title": "  Ніхто не прогнозував …. Дефіцит ракет для Patriot є об  єктивною проблемою , а не наслідком позиції Трампа – Володимир Фесенко",
+          "domain": "ostro.org",
+          "seendate": "20260805T161500Z"
+        },
+        {
+          "url": "https://www.wenweipo.com/a/202608/07/AP6a753950e4b0c1e50023ded5.html",
+          "title": "伊阿霍峽協議進入最終審議 料賦予伊朗進波斯灣船隻管轄權 - 國際",
+          "domain": "wenweipo.com",
+          "seendate": "20260807T060000Z"
+        },
+        {
+          "url": "https://townhall.com/columnists/wesmartin/2026/08/08/the-icc-has-a-corruption-problem-n2680831",
+          "title": "The ICC Has a Corruption Problem",
+          "domain": "townhall.com",
+          "seendate": "20260808T070000Z"
+        },
+        {
+          "url": "https://news.youth.cn/gj/202608/t20260805_16799848.htm",
+          "title": "美沙核协议 ： 中东  核竞赛  的发令枪 ？_ 新闻频道 _ 中国青年网",
+          "domain": "news.youth.cn",
+          "seendate": "20260805T040000Z"
+        },
+        {
+          "url": "https://www.bbc.com/persian/articles/c74g1gw59zjo",
+          "title": "موشک‌های دوش‌پرتاب ایران چقدر خطرناک‌اند ؟ ",
+          "domain": "bbc.com",
+          "seendate": "20260803T073000Z"
+        },
+        {
+          "url": "https://www.singtaousa.com/2026/08/02/news/world/oil-tanker-attacked-hormuz-strait/",
+          "title": "一艘油輪在霍爾木茲海峽入口遇襲 - 星島日報",
+          "domain": "singtaousa.com",
+          "seendate": "20260802T154500Z"
+        },
+        {
+          "url": "https://kathimerini.com.cy/gr/kosmos/to-kayto-kalokairi-tis-eyrwpis",
+          "title": "Το καυτό καλοκαίρι της Ευρώπης",
+          "domain": "kathimerini.com.cy",
+          "seendate": "20260806T194500Z"
+        },
+        {
+          "url": "https://www.skaikritis.gr/i-antiparathesi-tou-trab-me-to-iran-paravlepei-ti-genikoteri-pragmatikotita/",
+          "title": "Η αντιπαράθεση του Τραμπ με το Ιράν παραβλέπει τη γενικότερη πραγματικότητα",
+          "domain": "skaikritis.gr",
+          "seendate": "20260805T021500Z"
+        },
+        {
+          "url": "https://foxwilmington.com/trump-is-winning-every-battle-in-iran-and-risking-the-war-that-matters/",
+          "title": "Trump is winning every battle in Iran and risking the war that matters",
+          "domain": "foxwilmington.com",
+          "seendate": "20260803T150000Z"
+        },
+        {
+          "url": "https://www.rawstory.com/raw-investigates/trump-iran-wall-street/",
+          "title": "Trump lightning - fast decline is confirmed by this ironic betrayal",
+          "domain": "rawstory.com",
+          "seendate": "20260801T153000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8vGiSAPKXQ8",
+          "title": "胡锡进 ： 菲律宾需要好好掂量自己几斤几两 ， 别作死",
+          "domain": "news.ifeng.com",
+          "seendate": "20260802T131500Z"
+        },
+        {
+          "url": "http://www.srugim.co.il/101007540-%D7%9E%D7%A1%D7%A8%D7%92%D7%94-%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%A2%D7%99%D7%A0%D7%99%D7%99%D7%9D-%D7%9C%D7%9B%D7%95%D7%AA%D7%A8%D7%95%D7%AA-%D7%94%D7%A9%D7%91%D7%95%D7%A2-%D7%94%D7%A7%D7%A8%D7%95%D7%91",
+          "title": "  מסרגה : עושים עיניים לכותרות השבוע הקרוב בסרוגים",
+          "domain": "srugim.co.il",
+          "seendate": "20260802T124500Z"
+        },
+        {
+          "url": "https://stanradar.com/news/full/59674-zachem-kazahstanu-i-uzbekistanu-sovet-mira-trampa.html",
+          "title": "Зачем Казахстану и Узбекистану Совет мира Трампа ? ",
+          "domain": "stanradar.com",
+          "seendate": "20260803T150000Z"
+        },
+        {
+          "url": "https://capitolhillblue.com/node/103431",
+          "title": "Defeats mount on the corrupt presidency of Trump",
+          "domain": "capitolhillblue.com",
+          "seendate": "20260801T150000Z"
+        },
+        {
+          "url": "https://nypost.com/2026/08/01/opinion/the-uns-latest-embarrassment-shows-the-need-for-punishment/",
+          "title": "The UN latest embarrassment shows the need for punishment",
+          "domain": "nypost.com",
+          "seendate": "20260801T150000Z"
+        },
+        {
+          "url": "https://gordonua.com/ukr/section-war/news-perekhoplyuvachiv-do-systemy-ppo-yaku-khotila-ukrayina-mayzhe-ne-zalyshylosya-yak-ssha-vysnazhyly-svoyi-arsenaly-05-08-2026.html",
+          "title": "Перехоплювачів до системи ППО , яку хотіла Україна , майже не залишилося . Як США виснажили свої арсенали",
+          "domain": "gordonua.com",
+          "seendate": "20260805T174500Z"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/aug/06/trump-influence-morocco-spotlight-ceuta-border-disaster",
+          "title": "  Morocco feels emboldened : Trump influence in spotlight after Ceuta disaster | Morocco",
+          "domain": "theguardian.com",
+          "seendate": "20260806T101500Z"
+        },
+        {
+          "url": "https://www.capital.gr/diethni/4009572/sumfonia-iran-oman-proigoumena-kai-parepomena/",
+          "title": "Συμφωνία Ιράν - Ομάν : Προηγούμενα και παρεπόμενα",
+          "domain": "capital.gr",
+          "seendate": "20260806T150000Z"
+        },
+        {
+          "url": "https://calgaryherald.com:443/opinion/columnists/opinion-what-chinas-oil-fortress-means-for-canadas-west-coast-bet",
+          "title": "Opinion : What China  oil fortress  means for Canada West Coast bet",
+          "domain": "calgaryherald.com",
+          "seendate": "20260805T130000Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/351/i-steni-schesi-ipa--marokou-kai-ta-erotimata-gyro-apo-tin-krisi-sti-theouta.htm",
+          "title": "Η στενή σχέση ΗΠΑ – Μαρόκου και τα ερωτήματα γύρω από την κρίση στη Θέουτα",
+          "domain": "inewsgr.com",
+          "seendate": "20260806T180000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8vOzr19CfFi",
+          "title": "伊朗最高领袖给总统下了  最后警告 ？_ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260807T143000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/8/5/us-officials-push-back-on-reports-of-dangerously-low-munitions-supplies",
+          "title": "US officials push back on reports of dangerously low munitions supplies",
+          "domain": "aljazeera.com",
+          "seendate": "20260805T234500Z"
+        },
+        {
+          "url": "https://original.antiwar.com/james-carden/2026/08/04/the-new-big-three/",
+          "title": "The New Big Three",
+          "domain": "original.antiwar.com",
+          "seendate": "20260805T051500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/08/iran-war-us-again-fabricates-talks-on-deal-is-nigh-as-reuters-reports-even-greater-weapons-depletion-iran-debunks-media-reports-on-oman-negotiations-v-opening.html",
+          "title": "Iran War : US Again Fabricates Talks On ,  Deal Is Nigh  As Reuters Reports Even Greater Weapons Depletion ; Iran Debunks Media Reports on Oman Negotiations v .  Opening  ",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260805T124500Z"
+        },
+        {
+          "url": "https://newsbusters.org/blogs/nb/nicholas-spinnato/2026/08/03/ms-now-parrots-el-sayed-points-michigan-election-preview",
+          "title": "MS NOW Parrots El - Sayed Points in Michigan Election Preview Focused on Israel",
+          "domain": "newsbusters.org",
+          "seendate": "20260804T043000Z"
+        },
+        {
+          "url": "https://www.newsbusters.org/blogs/nb/nicholas-spinnato/2026/08/03/ms-now-parrots-el-sayed-points-michigan-election-preview",
+          "title": "MS NOW Parrots El - Sayed Points in Michigan Election Preview Focused on Israel",
+          "domain": "newsbusters.org",
+          "seendate": "20260804T033000Z"
+        },
+        {
+          "url": "https://www.presstv.co.uk/Detail/2026/08/04/773732/Iran-US-Trump-Israel-TACMS",
+          "title": "US Army depletes long - range missile stockpile in war of aggression against Iran : Report",
+          "domain": "presstv.co.uk",
+          "seendate": "20260805T203000Z"
+        },
+        {
+          "url": "https://www.greanvillepost.com/author/kevin-barrett/",
+          "title": "Kevin Barrett – The Greanville Post",
+          "domain": "greanvillepost.com",
+          "seendate": "20260801T200000Z"
+        },
+        {
+          "url": "https://www.greanvillepost.com/narcissism-and-psychopathy-on-display-in-the-oval-office/",
+          "title": "Narcissism and Psychopathy on Display in the Oval Office",
+          "domain": "greanvillepost.com",
+          "seendate": "20260801T200000Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3778524",
+          "title": "华尔街见闻早餐FM - Radio | 2026年8月3日",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260803T014500Z"
+        },
+        {
+          "url": "https://www.sowetan.co.za/news/world/2026-08-06-analysis-trumps-iran-dilemma-hes-stuck-in-a-war-with-no-exit-in-sight/",
+          "title": "ANALYSIS | Trump Iran dilemma : he stuck in a war with no exit in sight",
+          "domain": "sowetan.co.za",
+          "seendate": "20260806T200000Z"
+        },
+        {
+          "url": "https://kathmandupost.com/world/2026/08/07/trump-s-iran-dilemma-he-s-stuck-in-war-with-no-exit-in-sight",
+          "title": "Trump Iran dilemma : He stuck in war with no exit in sight",
+          "domain": "kathmandupost.com",
+          "seendate": "20260807T071500Z"
+        },
+        {
+          "url": "https://www.huxiu.com/article/4880896.html",
+          "title": "李零 ：《 孙子兵法 》 与当代战争 （ 下 ）- 虎嗅网",
+          "domain": "huxiu.com",
+          "seendate": "20260805T171500Z"
+        },
+        {
+          "url": "https://www.justsecurity.org/151837/early-edition-august-5-2026/",
+          "title": "Early Edition : August 5 , 2026",
+          "domain": "justsecurity.org",
+          "seendate": "20260805T154500Z"
+        },
+        {
+          "url": "https://www.pravda.sk/nazory/komentare/clanok/2018691-maroko-schengen-migranti-afrika",
+          "title": "Marocký kráľ vyslal Európe signál . Čo sa naozaj stalo v Ceute ? - Komentáre - Názory",
+          "domain": "pravda.sk",
+          "seendate": "20260804T194500Z"
+        },
+        {
+          "url": "https://www.wrganews.com/2026/08/04/more-than-half-of-some-us-weapons-stockpiles-used-in-iran-war-raising-concerns-about-china-threat/",
+          "title": "More than half of some US weapons stockpiles used in Iran war , raising concerns about China threat",
+          "domain": "wrganews.com",
+          "seendate": "20260805T091500Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-08-04/4532171.html",
+          "title": "伊朗 ： 与阿曼就霍尔木兹海峡谈判取得  积极进展 ； SpaceX上市后首份财报发布 ， 盘后大跌8 %； 道指 、 标普500指数创新高|每经早参",
+          "domain": "nbd.com.cn",
+          "seendate": "20260805T003000Z"
+        }
+      ]
     },
     {
       "id": "military_strike",
@@ -72,7 +1577,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     }
@@ -81,29 +1586,7 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.7429,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -111,7 +1594,7 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -125,7 +1608,7 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.6175,
+      "composite_score": 0.4583,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -133,7 +1616,29 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9551,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4583,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -147,15 +1652,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.4712,
+      "composite_score": 0.2083,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -169,15 +1674,15 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.2941,
+      "composite_score": 0.0417,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9371,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -193,29 +1698,7 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.7783,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.9255
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.6666,
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -223,8 +1706,8 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.9993
+        "source_diversity": 0.0,
+        "tone": 0.5
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -237,7 +1720,7 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.6637,
+      "composite_score": 0.4583,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -245,8 +1728,30 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.9646
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4583,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -259,15 +1764,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.4712,
+      "composite_score": 0.2083,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -281,16 +1786,16 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.3409,
+      "composite_score": 0.0417,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.9361
+        "source_diversity": 0.0,
+        "tone": 0.5
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -307,11 +1812,11 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 250,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 149,
+      "unique_domains_total": 0,
       "tone_mean": null
     },
     "window_21d": {
@@ -319,15 +1824,15 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 250,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 159,
-      "tone_mean": -3.2455
+      "unique_domains_total": 0,
+      "tone_mean": null
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 3 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 5 in 21d). Scores are provisional."
   ]
 }
