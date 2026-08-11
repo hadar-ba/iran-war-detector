@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-11T01:32:32.099588+00:00",
+  "updated_at": "2026-08-11T13:06:09.455570+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
+    "score": 62,
+    "status_he": "מתוח",
     "avg_7day": 55,
-    "delta_vs_avg": -9
+    "delta_vs_avg": 7
   },
   "archive_comparison": {
-    "score": 62,
+    "score": 67,
     "status_he": "דמיון גבולי",
     "reference_events": [
       "פברואר 2026"
@@ -57,10 +57,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-07-25T13:26:33.320112+00:00",
-        "score": 61
-      },
       {
         "ts": "2026-07-26T13:22:10.275439+00:00",
         "score": 46
@@ -112,13 +108,13 @@
       {
         "ts": "2026-08-11T01:32:32.095093+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-08-11T13:06:09.454202+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-05-26T15:27:20.466421+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-05-29T03:06:40.008803+00:00",
         "score": 46
@@ -354,27 +350,31 @@
       {
         "ts": "2026-08-11T01:32:32.095093+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-08-11T13:06:09.454202+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
-        "label": "שקט ינו' 2026",
-        "score": 62,
-        "is_pre_conflict": false
-      },
-      {
         "label": "טרום פבר' 2026",
-        "score": 62,
+        "score": 67,
         "is_pre_conflict": true
       },
       {
+        "label": "שקט ינו' 2026",
+        "score": 66,
+        "is_pre_conflict": false
+      },
+      {
         "label": "אחרי פבר' 2026",
-        "score": 54,
+        "score": 58,
         "is_pre_conflict": false
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 21,
+        "score": 24,
         "is_pre_conflict": true
       },
       {
@@ -385,24 +385,8 @@
     ]
   },
   "sources": {
-    "list": [
-      "163.com",
-      "902.gr",
-      "aa.com.tr",
-      "abc.net.au",
-      "abcnews.com",
-      "aboluowang.com",
-      "adevarul.ro",
-      "ahaber.com.tr",
-      "aksalser.com",
-      "aksam.com.tr",
-      "al-monitor.com",
-      "albiladpress.com",
-      "algemeiner.com",
-      "alhurra.com",
-      "Al Jazeera"
-    ],
-    "total_count": 343,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
