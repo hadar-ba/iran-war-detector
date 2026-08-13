@@ -1,16 +1,18 @@
 {
-  "updated_at": "2026-08-11T13:06:09.455570+00:00",
+  "updated_at": "2026-08-13T01:52:01.038621+00:00",
   "short_term": {
     "score": 62,
     "status_he": "מתוח",
-    "avg_7day": 55,
-    "delta_vs_avg": 7
+    "avg_7day": 53,
+    "delta_vs_avg": 9
   },
   "archive_comparison": {
-    "score": 67,
-    "status_he": "דמיון גבולי",
+    "score": 46,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -57,10 +59,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-07-26T13:22:10.275439+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-07-28T14:07:35.839177+00:00",
         "score": 46
@@ -112,13 +110,13 @@
       {
         "ts": "2026-08-11T13:06:09.454202+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-08-13T01:52:01.037312+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-05-29T03:06:40.008803+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-05-31T13:46:19.674073+00:00",
         "score": 50
@@ -354,31 +352,35 @@
       {
         "ts": "2026-08-11T13:06:09.454202+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-08-13T01:52:01.037312+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
-        "label": "טרום פבר' 2026",
-        "score": 67,
-        "is_pre_conflict": true
+        "label": "שקט ינו' 2026",
+        "score": 46,
+        "is_pre_conflict": false
       },
       {
-        "label": "שקט ינו' 2026",
-        "score": 66,
-        "is_pre_conflict": false
+        "label": "טרום פבר' 2026",
+        "score": 46,
+        "is_pre_conflict": true
       },
       {
         "label": "אחרי פבר' 2026",
-        "score": 58,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
-        "label": "טרום אוק' 2024",
-        "score": 24,
+        "label": "טרום אפר' 2024",
+        "score": 21,
         "is_pre_conflict": true
       },
       {
-        "label": "טרום אפר' 2024",
+        "label": "טרום אוק' 2024",
         "score": 4,
         "is_pre_conflict": true
       }
@@ -387,6 +389,6 @@
   "sources": {
     "list": [],
     "total_count": 0,
-    "articles_72h": null
+    "articles_72h": 250
   }
 }
