@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-13T01:52:01.038621+00:00",
+  "updated_at": "2026-08-13T13:11:11.172657+00:00",
   "short_term": {
     "score": 62,
     "status_he": "מתוח",
-    "avg_7day": 53,
-    "delta_vs_avg": 9
+    "avg_7day": 55,
+    "delta_vs_avg": 7
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-07-28T14:07:35.839177+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-07-29T14:11:31.614381+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-08-13T01:52:01.037312+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-08-13T13:11:11.166583+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-05-31T13:46:19.674073+00:00",
-        "score": 50
-      },
       {
         "ts": "2026-06-01T03:51:56.582393+00:00",
         "score": 50
@@ -356,6 +352,10 @@
       {
         "ts": "2026-08-13T01:52:01.037312+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-08-13T13:11:11.166583+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
@@ -387,8 +387,24 @@
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
-    "articles_72h": 250
+    "list": [
+      "10news.com",
+      "163.com",
+      "902.gr",
+      "960weli.iheart.com",
+      "9tv.co.il",
+      "aa.com.tr",
+      "abc.net.au",
+      "abc15.com",
+      "addiyar.com",
+      "affaritaliani.it",
+      "afrique-asie.fr",
+      "aksalser.com",
+      "aktuale.mk",
+      "al-monitor.com",
+      "albiladpress.com"
+    ],
+    "total_count": 400,
+    "articles_72h": null
   }
 }
