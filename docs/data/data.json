@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-17T01:12:18.847714+00:00",
+  "updated_at": "2026-08-18T01:10:33.677904+00:00",
   "short_term": {
-    "score": 62,
-    "status_he": "מתוח",
+    "score": 46,
+    "status_he": "שקט",
     "avg_7day": 59,
-    "delta_vs_avg": 3
+    "delta_vs_avg": -13
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-08-01T02:39:40.781826+00:00",
-        "score": 50
-      },
-      {
         "ts": "2026-08-01T13:21:01.941322+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-08-17T01:12:18.845390+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-08-18T01:10:33.676594+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-03T03:56:36.000311+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-03T16:50:34.580292+00:00",
         "score": 46
@@ -356,6 +352,10 @@
       {
         "ts": "2026-08-17T01:12:18.845390+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-08-18T01:10:33.676594+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -387,24 +387,8 @@
     ]
   },
   "sources": {
-    "list": [
-      "163.com",
-      "aa.com.tr",
-      "abcnews.com",
-      "aksalser.com",
-      "aktuale.mk",
-      "al-monitor.com",
-      "albiladpress.com",
-      "Al Jazeera",
-      "aninews.in",
-      "anlatilaninotesi.com.tr",
-      "ansa.it",
-      "aol.co.uk",
-      "arabnews.com",
-      "arkansasonline.com",
-      "asiaone.com"
-    ],
-    "total_count": 179,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
