@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-18T12:47:05.350195+00:00",
+  "updated_at": "2026-08-20T01:10:46.401811+00:00",
   "short_term": {
     "score": 50,
     "status_he": "שקט",
-    "avg_7day": 59,
-    "delta_vs_avg": -9
+    "avg_7day": 58,
+    "delta_vs_avg": -8
   },
   "archive_comparison": {
-    "score": 61,
+    "score": 62,
     "status_he": "דמיון גבולי",
     "reference_events": [
       "פברואר 2026"
@@ -57,10 +57,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-08-04T02:19:59.774051+00:00",
-        "score": 66
-      },
       {
         "ts": "2026-08-04T14:11:51.288283+00:00",
         "score": 62
@@ -112,13 +108,13 @@
       {
         "ts": "2026-08-18T12:47:05.345260+00:00",
         "score": 50
+      },
+      {
+        "ts": "2026-08-20T01:10:46.400563+00:00",
+        "score": 50
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-04T03:50:36.742935+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-06-04T15:00:40.250473+00:00",
         "score": 62
@@ -354,55 +350,43 @@
       {
         "ts": "2026-08-18T12:47:05.345260+00:00",
         "score": 50
+      },
+      {
+        "ts": "2026-08-20T01:10:46.400563+00:00",
+        "score": 50
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
-        "score": 74,
-        "is_pre_conflict": false
-      },
-      {
-        "label": "אחרי פבר' 2026",
         "score": 62,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 61,
+        "score": 62,
+        "is_pre_conflict": true
+      },
+      {
+        "label": "אחרי פבר' 2026",
+        "score": 53,
+        "is_pre_conflict": false
+      },
+      {
+        "label": "טרום אוק' 2024",
+        "score": 19,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 47,
-        "is_pre_conflict": true
-      },
-      {
-        "label": "טרום אוק' 2024",
-        "score": 29,
+        "score": 4,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "15min.lt",
-      "163.com",
-      "960weli.iheart.com",
-      "aa.com.tr",
-      "abc6onyourside.com",
-      "abc7amarillo.com",
-      "abendblatt.de",
-      "addiyar.com",
-      "addustour.com",
-      "adevarul.ro",
-      "adnkronos.com",
-      "afghanistannews.net",
-      "afghanistansun.com",
-      "afghanpaper.com",
-      "akhbarelyom.com"
-    ],
-    "total_count": 452,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
