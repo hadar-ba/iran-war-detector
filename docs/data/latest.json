@@ -1,9 +1,9 @@
 {
-  "timestamp_utc": "2026-08-21T12:47:51.192457+00:00",
+  "timestamp_utc": "2026-08-22T01:10:33.644003+00:00",
   "status": "green",
   "headline_score_7day": 46,
   "headline_score_21day": 46,
-  "score_jump": -4,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
@@ -24,7 +24,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -40,9 +40,1514 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "example_urls": [
+        "https://www.sozcu.com.tr/israil-secim-oncesi-afisler-dikkat-cekti-p349944",
+        "https://www.siasat.com/hormuz-defenders-will-break-your-legs-says-iran-army-to-trump-3525845/",
+        "https://www.albawaba.com/news/netanyahu-promotes-likud-billboard-1635168"
+      ],
+      "articles": [
+        {
+          "url": "https://www.sozcu.com.tr/israil-secim-oncesi-afisler-dikkat-cekti-p349944",
+          "title": "Netanyahudan Erdoğanlı seçim afişi",
+          "domain": "sozcu.com.tr",
+          "seendate": "20260816T220000Z"
+        },
+        {
+          "url": "https://www.siasat.com/hormuz-defenders-will-break-your-legs-says-iran-army-to-trump-3525845/",
+          "title": "Hormuz defenders will break your legs , says Iran army to Trump",
+          "domain": "siasat.com",
+          "seendate": "20260816T183000Z"
+        },
+        {
+          "url": "https://www.albawaba.com/news/netanyahu-promotes-likud-billboard-1635168",
+          "title": "Netanyahu promotes Likud billboard targeting foreign leaders",
+          "domain": "albawaba.com",
+          "seendate": "20260816T203000Z"
+        },
+        {
+          "url": "http://www.albawaba.com/news/netanyahu-promotes-likud-billboard-1635168",
+          "title": "Netanyahu promotes Likud billboard targeting foreign leaders",
+          "domain": "albawaba.com",
+          "seendate": "20260816T203000Z"
+        },
+        {
+          "url": "https://www.ahaber.com.tr/gundem/2026/08/18/omer-celikten-netanyahunun-baskan-erdogani-hedef-alan-skandal-afisine-tepki",
+          "title": "Ömer Çelikten Netanyahunun skandal afişine tepki : Başkan Erdoğan soykırım şebekesini mahkum ediyor",
+          "domain": "ahaber.com.tr",
+          "seendate": "20260818T151500Z"
+        },
+        {
+          "url": "https://www.cp24.com/news/canada/2026/08/20/conservative-leader-invites-irans-exiled-crown-prince-to-canada/",
+          "title": "Iran news : Poilievre invites prince Reza Pahlavi to Canada",
+          "domain": "cp24.com",
+          "seendate": "20260820T141500Z"
+        },
+        {
+          "url": "https://www.haberturk.com/dunya/israil-de-erdogan-i-hedef-alan-afis-3906035",
+          "title": "İsrailde Erdoğan  ı hedef alan afiş - Güncel Dünya Haberleri",
+          "domain": "haberturk.com",
+          "seendate": "20260816T174500Z"
+        },
+        {
+          "url": "https://www.libertatea.ro/stiri/iranul-ii-transmite-lui-donald-trump-sa-accepte-ca-a-fost-invins-si-ca-stramtoarea-ormuz-va-ramane-inchisa-5852029",
+          "title": "Iran îi transmite lui Donald Trump că a fost învins și că Strâmtoarea Ormuz va rămâne închisă",
+          "domain": "libertatea.ro",
+          "seendate": "20260815T183000Z"
+        },
+        {
+          "url": "https://www.milliyet.com.tr/dunya/israilde-cirkin-secim-afisi-7642731",
+          "title": "İsrailde çirkin seçim afişi - Güncel Haberler Milliyet",
+          "domain": "milliyet.com.tr",
+          "seendate": "20260817T043000Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/israil-de-netanyahu-nun-partisinin-secim-afisinde-20150294-haberi/",
+          "title": "Likuddan Erdoğanlı Seçim Afişi",
+          "domain": "haberler.com",
+          "seendate": "20260816T170000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-08-20/live-updates-906053",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260820T040000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-08-17/live-updates-905724",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260817T043000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-08-18/live-updates-905838",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260818T044500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-08-21/live-updates-906178",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260821T070000Z"
+        },
+        {
+          "url": "http://www.jpost.com/israel-election-2026/article-905804",
+          "title": "What Netanyahu new billboard says about Donald Trump , Zohran Mamdani , the 2026 election race",
+          "domain": "jpost.com",
+          "seendate": "20260817T194500Z"
+        },
+        {
+          "url": "https://news.walla.co.il/item/3861224",
+          "title": "איראן נערכת לעימות הבא מול ארה  ב - לקראת מערכה רחבה",
+          "domain": "news.walla.co.il",
+          "seendate": "20260817T073000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/bj5hiabvgl",
+          "title": "טראמפ פרסם  מפת סיפוח  להורמוז - איראן לעגה :  נתקן את האשליות שלו , בקרוב  ",
+          "domain": "ynet.co.il",
+          "seendate": "20260818T134500Z"
+        },
+        {
+          "url": "https://www.bangkokpost.com/world/3304955/whos-who-in-irans-new-hardline-security-leadership",
+          "title": "Bangkok Post - Who who in Iran new hardline security leadership",
+          "domain": "bangkokpost.com",
+          "seendate": "20260820T053000Z"
+        },
+        {
+          "url": "https://www.turktime.com/haber/netanyahu-secim-afisinde-cumhurbaskani-erdogan-in-fotografini-kullandi/751979",
+          "title": "Netanyahu seçim afişinde Cumhurbaşkanı Erdoğan  ın fotoğrafını kullandı – Güncel Haberler , Son Dakika Haberleri , Turktime Haber Portalı",
+          "domain": "turktime.com",
+          "seendate": "20260816T184500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-08-15/live-updates-905570",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20260815T061500Z"
+        },
+        {
+          "url": "https://www.ensonhaber.com/netanyahudan-alcak-hamle-secim-propagandasinda-erdogani-hedef-aldi-h1558171",
+          "title": "Netanyahudan alçak hamle : Seçim propagandasında Erdoğan  ı hedef aldı",
+          "domain": "ensonhaber.com",
+          "seendate": "20260817T031500Z"
+        },
+        {
+          "url": "https://newtalk.tw/news/view/2026-08-17/1053975",
+          "title": " ( 影 ) 「 抓捕美軍懸賞令 」! 擊斃俘虜獎3萬美元 伊總統公布見最高領袖影片 | 國際",
+          "domain": "newtalk.tw",
+          "seendate": "20260817T110000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/b1hpef1pge",
+          "title": "Conversion therapy , fertility treatment in London and disputed succession : who is Moj",
+          "domain": "ynetnews.com",
+          "seendate": "20260816T194500Z"
+        },
+        {
+          "url": "https://www.bursadabugun.com/haber/netanyahu-siniri-asti-cumhurbaskani-erdogan-i-hedef-gosterdi-1942491.html",
+          "title": "Netanyahu sınırı aştı ! Cumhurbaşkanı Erdoğan  ı hedef gösterdi",
+          "domain": "bursadabugun.com",
+          "seendate": "20260817T074500Z"
+        },
+        {
+          "url": "https://www.f5haber.com/dunya/netanyahu-siniri-asti-cumhurbaskani-erdogani-hedef-gosterdi-6962164",
+          "title": "Netanyahu sınırı aştı ! Cumhurbaşkanı Erdoğan  ı hedef gösterdi",
+          "domain": "f5haber.com",
+          "seendate": "20260817T060000Z"
+        },
+        {
+          "url": "https://hu.euronews.com/2026/08/16/libanoni-elnok-a-11-halalos-aldozatot-kovetelo-izraeli-csapasok-egyertelmu-uzenet-a-targya",
+          "title": "Libanoni elnök : a 11 halálos áldozatot követelő izraeli csapások „ egyértelmű üzenet  a tárgyalásokra",
+          "domain": "hu.euronews.com",
+          "seendate": "20260816T131500Z"
+        },
+        {
+          "url": "https://anlatilaninotesi.com.tr/20260821/trump-iranla-muzakereler-liderlik-belirsizligi-nedeniyle-zorlasiyor-1108137862.html",
+          "title": "Trump : İranla müzakereler liderlik belirsizliği nedeniyle zorlaşıyor",
+          "domain": "anlatilaninotesi.com.tr",
+          "seendate": "20260821T043000Z"
+        },
+        {
+          "url": "https://www.hurriyet.com.tr/dunya/netanyahudan-cirkin-propaganda-43275508",
+          "title": "Netanyahudan çirkin propaganda - Hürriyet Haberler",
+          "domain": "hurriyet.com.tr",
+          "seendate": "20260817T053000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/8/17/iran-signals-readiness-for-us-ground-operations-as-mou-expires",
+          "title": "Iran signals readiness for  US ground operation as MoU expires | Donald Trump News",
+          "domain": "aljazeera.com",
+          "seendate": "20260817T170000Z"
+        },
+        {
+          "url": "https://www.gatestoneinstitute.org/22796/iran-agha-absence",
+          "title": "Iran : The Painful Absence of the  Agha  ",
+          "domain": "gatestoneinstitute.org",
+          "seendate": "20260816T110000Z"
+        },
+        {
+          "url": "https://www.turkiyegazetesi.com.tr/gundem/likudun-secim-afisinde-cumhurbaskani-erdogan-hedef-alindi-netanyahunun-kaybetmesini-i-1809585",
+          "title": "Likudun seçim afişinde Cumhurbaşkanı Erdoğan hedef alındı :  Netanyahunun kaybetmesini istiyor  ",
+          "domain": "turkiyegazetesi.com.tr",
+          "seendate": "20260816T193000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/rkkysxevfl",
+          "title": "התוכנית הסודית של מוג  תבא להסלמה : כך איראן נערכת לעימות הבא , בזמן המו  מ",
+          "domain": "ynet.co.il",
+          "seendate": "20260817T063000Z"
+        },
+        {
+          "url": "https://www.haber7.com/dunya/haber/3651800-israilden-alcak-secim-hamlesi-tel-aviv-sokaklarina-astilar-baskan-erdogan-hedef-alindi",
+          "title": "İsrailden alçak seçim hamlesi ! Tel Aviv sokaklarına astılar : Başkan Erdoğan hedef alındı",
+          "domain": "haber7.com",
+          "seendate": "20260816T170000Z"
+        },
+        {
+          "url": "https://www.turkiyegazetesi.com.tr/haberler/israil-secimleri-ne-zaman-netanyahu-aday-mi-ebu-zuhur-askeri-hava-ussune-saldirisi-il-1810581",
+          "title": "İsrail seçimleri ne zaman , Netanyahu aday mı ? Ebu Zuhur Askeri Hava Üssü saldırısı ile gündemde ! ",
+          "domain": "turkiyegazetesi.com.tr",
+          "seendate": "20260820T214500Z"
+        },
+        {
+          "url": "https://www.ensonhaber.com/israilde-cumhurbaskani-erdogan-tedirginligi-israil-guvenligini-tehdit-ediyor-h1558982",
+          "title": "Netanyahu hükümeti seçim öncesi Cumhurbaşkanı Erdoğan karşıtlığını artırdı :  Güvenliğimizi tehdit ediyor  ",
+          "domain": "ensonhaber.com",
+          "seendate": "20260820T074500Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5716777",
+          "title": "أمريكا تضع خطة لاستهداف شبكات تمويل إيران التي تدعم  حزب الله  ",
+          "domain": "vetogate.com",
+          "seendate": "20260820T221500Z"
+        },
+        {
+          "url": "https://www.eremnews.com/news/arab-world/w2wns3z",
+          "title": "أمريكا تضع خطة لاستهداف شبكات تمويل إيران التي تدعم  حزب الله  ",
+          "domain": "eremnews.com",
+          "seendate": "20260820T214500Z"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/canada/article-poilievre-invites-exiled-iran-prince-to-canada/",
+          "title": "Poilievre invites Iran exiled crown prince to visit Canada",
+          "domain": "theglobeandmail.com",
+          "seendate": "20260820T113000Z"
+        },
+        {
+          "url": "https://www.yeniakit.com.tr/haber/netanyahudan-baskan-erdoganli-secim-afisi-kazanmasina-izin-vermeyin-2017874.html",
+          "title": "Netanyahudan Başkan Erdoğanlı seçim afişi : Kazanmasına izin vermeyin ! ",
+          "domain": "yeniakit.com.tr",
+          "seendate": "20260816T180000Z"
+        },
+        {
+          "url": "https://nypost.com/2026/08/18/opinion/michael-goodwin-regime-change-in-iran-remains-a-pipe-dream-but-trump-has-still-achieved-meaningful-change/",
+          "title": "Michael Goodwin : Regime change in Iran remains a pipe dream but Trump has still achieved meaningful change",
+          "domain": "nypost.com",
+          "seendate": "20260819T024500Z"
+        },
+        {
+          "url": "https://www.haberturk.com/dunya/mucteba-hamaney-ortada-yok-eski-kurtlar-gorevde-iran-abdye-karsi-savas-kadrosunu-kurdu-3906987",
+          "title": "Mücteba Hamaney ortada yok ,  eski kurtlar  görevde : İran ABDye karşı savaş kadrosunu kurdu - Güncel Dünya Haberleri",
+          "domain": "haberturk.com",
+          "seendate": "20260820T144500Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/israel-news/iran-escalation-preparations-israel",
+          "title": "איראן נערכת להסלמה : סימנים למהלך התקפי נגד ישראל",
+          "domain": "kikar.co.il",
+          "seendate": "20260817T133000Z"
+        },
+        {
+          "url": "https://www.almasryalyoum.com/news/details/4338146",
+          "title": " « سيد الخواتم » وترامب فى تابوت والبيت الأبيض يحترق .. إيران تصعد حرب الدعاية ضد أمريكا بالـ AI",
+          "domain": "almasryalyoum.com",
+          "seendate": "20260815T124500Z"
+        },
+        {
+          "url": "https://www.channelnewsasia.com/world/iran-military-threatens-offensive-strikes-us-diplomacy-stalls-6330121",
+          "title": "Iran goes on offensive as diplomacy with US stalls",
+          "domain": "channelnewsasia.com",
+          "seendate": "20260820T041500Z"
+        },
+        {
+          "url": "https://www.internethaber.com/likudun-secim-afislerinde-erdogan-hedef-alindi-2455496h.htm",
+          "title": "Likudun seçim afişlerinde Erdoğan hedef alındı",
+          "domain": "internethaber.com",
+          "seendate": "20260816T190000Z"
+        },
+        {
+          "url": "https://www.presstv.co.uk/Detail/2026/08/18/774618/Press-TV-s-news-headlines",
+          "title": "Press TVs news headlines",
+          "domain": "presstv.co.uk",
+          "seendate": "20260818T210000Z"
+        },
+        {
+          "url": "https://www.lrytas.lt/pasaulis/konfliktai-ir-saugumas/2026/08/20/news/analitikai-iranas-pereina-i-puolima-43614084/",
+          "title": "Analitikai : Iranas pereina į puolimą",
+          "domain": "lrytas.lt",
+          "seendate": "20260820T091500Z"
+        },
+        {
+          "url": "https://www.lrytas.lt/pasaulis/konfliktai-ir-saugumas/2026/08/20/news/analitikai-iranas-pereina-i-puolima-43614084",
+          "title": "Analitikai : Iranas pereina į puolimą",
+          "domain": "lrytas.lt",
+          "seendate": "20260820T120000Z"
+        },
+        {
+          "url": "https://leadership.ng/iran-mulls-more-offensive-approach-to-war-with-us/",
+          "title": "Iran Mulls More Offensive Approach To War With US",
+          "domain": "leadership.ng",
+          "seendate": "20260817T210000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/canada/2026/08/20/poilievre-invites-irans-exiled-crown-prince-reza-pahlavi-to-visit-canada",
+          "title": "Poilievre invites Iran exiled crown prince Reza Pahlavi to visit Canada – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260820T091500Z"
+        },
+        {
+          "url": "https://www.yenisafak.com/dunya/secim-yaklasinca-korku-sardi-netanyahunun-partisinden-erdogani-da-hedef-alan-propaganda-afisi-4848567",
+          "title": "Seçim yaklaşınca korku sardı : Netanyahunun partisinden Erdoğan  ı da hedef alan propaganda afişi",
+          "domain": "yenisafak.com",
+          "seendate": "20260816T194500Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/news/2026/8/16/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D9%88%D8%B8%D9%81-%D8%A3%D8%B1%D8%AF%D9%88%D8%BA%D8%A7%D9%86-%D9%88%D9%85%D9%85%D8%AF%D8%A7%D9%86%D9%8A-%D9%88%D8%AE%D8%A7%D9%85%D9%86%D8%A6%D9%8A",
+          "title": "نتنياهو يوظف أردوغان وممداني وخامنئي وقاسم في حملته الانتخابية",
+          "domain": "aljazeera.net",
+          "seendate": "20260816T210000Z"
+        },
+        {
+          "url": "https://gulfnews.com/world/mena/what-uae-residents-need-to-know-this-evening-as-us-iran-standoff-disrupt-regional-travel-and-shipping-1.500642785",
+          "title": "US - Iran Standoff Impact on UAE : Strait of Hormuz , Flight Disruptions , Shipping Routes and What Residents Should Know Today",
+          "domain": "gulfnews.com",
+          "seendate": "20260816T174500Z"
+        },
+        {
+          "url": "https://www.milliyet.com.tr/dunya/israilde-erdogan-kompleksi-7644614",
+          "title": "İsrailde Erdoğan kompleksi - Güncel Haberler Milliyet",
+          "domain": "milliyet.com.tr",
+          "seendate": "20260820T061500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=15082026&id=db9565a8-9bc8-46c0-8b47-7b38f710aeca",
+          "title": "الرئيس اللبناني يدين الاعتداءات الإسرائيلية المستمرة على مناطق الجنوب",
+          "domain": "shorouknews.com",
+          "seendate": "20260815T110000Z"
+        },
+        {
+          "url": "https://www.haberler.com/dunya/netanyahu-siniri-asti-cumhurbaskani-erdogani-20150839-haberi/",
+          "title": "Netanyahu sınırı aştı ! Cumhurbaşkanı Erdoğan  ı hedef gösterdi",
+          "domain": "haberler.com",
+          "seendate": "20260817T043000Z"
+        },
+        {
+          "url": "https://www.dw.com/en/lebanon-says-11-killed-in-israeli-airstrikes/a-78383713",
+          "title": "Lebanon says 11 killed in Israeli airstrikes",
+          "domain": "dw.com",
+          "seendate": "20260815T160000Z"
+        },
+        {
+          "url": "http://www.koreatimes.com/article/20260816/1625828",
+          "title": "  美 , 지난 5월 이란 혁수대 사령관과 비밀 접촉 … 회담은 무산  ",
+          "domain": "koreatimes.com",
+          "seendate": "20260817T000000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/us/fake-iran-nuclear-post-how-a-fabricated-x-claim-by-indian-account-created-panic-in-israel-us/articleshow/133287465.cms",
+          "title": "Fake Iran nuclear post : How a fabricated X claim by Indian account created panic in Israel , US",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20260817T061500Z"
+        },
+        {
+          "url": "https://www.albawaba.net/news/netanyahu-promotes-likud-billboard-1635168",
+          "title": "Netanyahu promotes Likud billboard targeting foreign leaders",
+          "domain": "albawaba.net",
+          "seendate": "20260816T181500Z"
+        },
+        {
+          "url": "https://www.yeniakit.com.tr/haber/pezeskiyandan-teroristleri-heveslendirecek-sozler-sorunlarimiz-artti-gelirimiz-azaldi-2017616.html",
+          "title": "Pezeşkiyandan teröristleri heveslendirecek sözler !  Sorunlarimiz arttı , gelirimiz azaldı  ",
+          "domain": "yeniakit.com.tr",
+          "seendate": "20260815T074500Z"
+        },
+        {
+          "url": "https://www.internethaber.com/israilde-olay-erdogan-afisleri-israil-savunma-bakani-katzin-erdogani-hedef-almasina-ak-partiden-yanit-2455999h.htm",
+          "title": "İsrailde olay Erdoğan afişleri İsrail Savunma Bakanı Katz  ın Erdoğan  ı hedef almasına AK Partiden yanıt",
+          "domain": "internethaber.com",
+          "seendate": "20260820T114500Z"
+        },
+        {
+          "url": "https://alhurra.com/35102",
+          "title": "يوم ترامب الحاسم",
+          "domain": "alhurra.com",
+          "seendate": "20260821T041500Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/iran-offers-usd-30-000-for-killing-or-capturing-us-soldiers-double-if-done-by-women-us-iran-war-irgc-west-asia-101786888910412.html",
+          "title": "Iran offers $30 , 000 for killing or capturing US soldiers , double if done by women",
+          "domain": "hindustantimes.com",
+          "seendate": "20260816T153000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/world/5309021-iran-goes-offensive-diplomacy-us-stalls",
+          "title": "Iran Goes on Offensive as Diplomacy with US Stalls",
+          "domain": "english.aawsat.com",
+          "seendate": "20260820T071500Z"
+        },
+        {
+          "url": "https://www.aol.co.uk/articles/netanyahu-party-campaign-billboard-likens-195403000.html",
+          "title": "Netanyahu party campaign billboard likens Mamdani to leaders of Iran and Hezbollah",
+          "domain": "aol.co.uk",
+          "seendate": "20260817T210000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/articles/iran-gutted-ranks-leave-loyalists-162256603.html",
+          "title": "Iran gutted ranks leave loyalists filling critical posts with one glaring problem",
+          "domain": "yahoo.com",
+          "seendate": "20260819T043000Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20260819-irans-supreme-leader-is-back-in-control-that-may-be-why-diplomacy-with-washington-just-collapsed/",
+          "title": "Iran supreme leader is back in control . That may be why diplomacy with Washington just collapsed – Middle East Monitor",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20260819T134500Z"
+        },
+        {
+          "url": "https://tr.euronews.com/2026/08/19/netanyahudan-suriye-aciklamasi-mesaji-daha-iyi-anlamalarini-sagladik",
+          "title": "Netanyahudan Suriye açıklaması :  Mesajı daha iyi anlamalarını sağladık  ",
+          "domain": "tr.euronews.com",
+          "seendate": "20260819T224500Z"
+        },
+        {
+          "url": "https://www.twincities.com/2026/08/17/iran-war-peace-deal-deadline-expiring/",
+          "title": "60 - day deadline for Iran peace deal is expiring . Where things stand",
+          "domain": "twincities.com",
+          "seendate": "20260817T131500Z"
+        },
+        {
+          "url": "https://www.dailysabah.com/world/mid-east/with-us-diplomacy-at-standstill-iran-shifts-to-offensive-posturing",
+          "title": "With US diplomacy at standstill Iran shifts to offensive posturing",
+          "domain": "dailysabah.com",
+          "seendate": "20260820T113000Z"
+        },
+        {
+          "url": "https://shasha.ps/home/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D8%AC%D9%85%D8%B9-%D9%85%D9%85%D8%AF%D8%A7%D9%86%D9%8A-%D8%A8%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87",
+          "title": "نتنياهو يجمع ممداني بحزب الله وخامنئي .. بصورة في تل أبيب",
+          "domain": "shasha.ps",
+          "seendate": "20260818T201500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/b1ubpywdgl",
+          "title": "פוטין שולח גם TNT לאיראן - ב  אקספרס הימי  שישראל הפציצה",
+          "domain": "ynet.co.il",
+          "seendate": "20260818T103000Z"
+        },
+        {
+          "url": "https://www.cnnturk.com/dunya/israilin-buyuk-kompleksi-erdoganin-hamleleri-nasil-rahatsiz-etti-3456740",
+          "title": "İsrailin büyük kompleksi : Erdoğan  ın hamleleri nasıl rahatsız etti ? - Son Dakika Dünya Haberleri CNN Türk",
+          "domain": "cnnturk.com",
+          "seendate": "20260820T071500Z"
+        },
+        {
+          "url": "http://www.srugim.co.il/101008623-%D7%9E%D7%A1%D7%A8%D7%92%D7%94-%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%A2%D7%99%D7%A0%D7%99%D7%99%D7%9D-%D7%9C%D7%9B%D7%95%D7%AA%D7%A8%D7%95%D7%AA-%D7%94%D7%A9%D7%91%D7%95%D7%A2-%D7%94%D7%A7%D7%A8%D7%95%D7%91",
+          "title": "מסרגה : הכותרות הצפויות השבוע - פוליטיקה ותרבות",
+          "domain": "srugim.co.il",
+          "seendate": "20260816T134500Z"
+        },
+        {
+          "url": "https://www.jns.org/news/u-s-news/anti-israel-journalist-sues-homeland-security-over-seizure-of-phones-upon-return-from-iran",
+          "title": "Anti - Israel journalist sues Homeland Security over seizure of phones upon return from Iran",
+          "domain": "jns.org",
+          "seendate": "20260819T214500Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/08/21/mossad-iran-israel-dismissal-middle-east-conflict-regime-change-demonstrations",
+          "title": "إقالات نادرة تهزّ الموساد .. هل تكشف إخفاق الرهان الإسرائيلي على إسقاط النظام الإيراني ؟ ",
+          "domain": "arabic.euronews.com",
+          "seendate": "20260821T123000Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20260816-the-third-phase-of-the-iranian-revolution/",
+          "title": "The Third Phase of the Iranian Revolution",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20260816T113000Z"
+        },
+        {
+          "url": "https://adevarul.ro/stiri-externe/sua/canalul-secret-al-lui-trump-pentru-a-ajunge-la-2550248.html",
+          "title": "Canalul secret al lui Trump pentru a ajunge la Gardienii Revoluției din Iran",
+          "domain": "adevarul.ro",
+          "seendate": "20260817T043000Z"
+        },
+        {
+          "url": "https://www.nbcnewyork.com/news/national-international/revenge-inevitable-iran-ramps-up-propaganda-war-violent-billboards/6537172/",
+          "title": "Iran ramps up propaganda war with violent billboards – NBC New York",
+          "domain": "nbcnewyork.com",
+          "seendate": "20260815T123000Z"
+        },
+        {
+          "url": "https://www.nbcdfw.com/news/national-international/revenge-inevitable-iran-ramps-up-propaganda-war-violent-billboards/4063063/",
+          "title": "Iran ramps up propaganda war with violent billboards – NBC 5 Dallas - Fort Worth",
+          "domain": "nbcdfw.com",
+          "seendate": "20260815T143000Z"
+        },
+        {
+          "url": "https://www.nbcwashington.com/news/national-international/revenge-inevitable-iran-ramps-up-propaganda-war-violent-billboards/4142597/",
+          "title": "Iran ramps up propaganda war with violent billboards – NBC4 Washington",
+          "domain": "nbcwashington.com",
+          "seendate": "20260815T133000Z"
+        },
+        {
+          "url": "https://www.nbclosangeles.com/news/national-international/revenge-inevitable-iran-ramps-up-propaganda-war-violent-billboards/3929923/",
+          "title": "Iran ramps up propaganda war with violent billboards – NBC Los Angeles",
+          "domain": "nbclosangeles.com",
+          "seendate": "20260815T111500Z"
+        },
+        {
+          "url": "https://hu.euronews.com/2026/08/21/az-irani-elnok-eropoziciobol-a-haboru-lezarasat-surgeti-az-usa-fokozodo-nyomasa-mellett",
+          "title": "Az iráni elnök erőpozícióból a háború lezárását sürgeti az united states fokozódó nyomása mellett",
+          "domain": "hu.euronews.com",
+          "seendate": "20260821T144500Z"
+        },
+        {
+          "url": "https://www.nbcchicago.com/news/national-international/revenge-inevitable-iran-ramps-up-propaganda-war-violent-billboards/3975736/",
+          "title": "Iran ramps up propaganda war with violent billboards – NBC Chicago",
+          "domain": "nbcchicago.com",
+          "seendate": "20260815T103000Z"
+        },
+        {
+          "url": "https://www.nbcconnecticut.com/news/national-international/revenge-inevitable-iran-ramps-up-propaganda-war-violent-billboards/3765437/",
+          "title": "Iran ramps up propaganda war with violent billboards – NBC Connecticut",
+          "domain": "nbcconnecticut.com",
+          "seendate": "20260815T123000Z"
+        },
+        {
+          "url": "https://www.channelnewsasia.com/commentary/iran-war-peace-what-us-wants-irgc-6325586",
+          "title": "Commentary : For Iran new leaders , peace is more dangerous than war",
+          "domain": "channelnewsasia.com",
+          "seendate": "20260819T020000Z"
+        },
+        {
+          "url": "http://www.jpost.com/diaspora/antisemitism/article-906098",
+          "title": "Jewish custodian of tomb of Esther in Iran faces antisemitic abuse",
+          "domain": "jpost.com",
+          "seendate": "20260820T124500Z"
+        },
+        {
+          "url": "https://www.nbcphiladelphia.com/news/national-international/revenge-inevitable-iran-ramps-up-propaganda-war-violent-billboards/4448646/",
+          "title": "Iran ramps up propaganda war with violent billboards – NBC10 Philadelphia",
+          "domain": "nbcphiladelphia.com",
+          "seendate": "20260815T134500Z"
+        },
+        {
+          "url": "https://www.newindianexpress.com/world/2026/Aug/21/iran-president-says-time-to-end-war-while-in-position-of-strength",
+          "title": "Iran president says time to end war while in position of strength",
+          "domain": "newindianexpress.com",
+          "seendate": "20260821T223000Z"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000003477&code=11141100&sid1=int",
+          "title": "日 1리터 배급 이란 vs 4달러 재돌파 미국 … 휘발유  치킨 게임 - 국민일보",
+          "domain": "kmib.co.kr",
+          "seendate": "20260816T174500Z"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000003477&code=11141100&stg=wm_rank",
+          "title": "日 1리터 배급 이란 vs 4달러 재돌파 미국 … 휘발유  치킨 게임 - 국민일보",
+          "domain": "kmib.co.kr",
+          "seendate": "20260816T174500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/ortakligin-ustunu-hamasetle-orttuler-730004%20target=_blank%20class=stretched-link",
+          "title": "Ortaklığın üstünü hamasetle örttüler",
+          "domain": "birgun.net",
+          "seendate": "20260819T023000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/ortakligin-ustunu-hamasetle-orttuler-730004",
+          "title": "Ortaklığın üstünü hamasetle örttüler",
+          "domain": "birgun.net",
+          "seendate": "20260819T034500Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/ortakligin-ustunu-hamasetle-orttuler-730004%20class=slide-link%20target=_blank",
+          "title": "Ortaklığın üstünü hamasetle örttüler",
+          "domain": "birgun.net",
+          "seendate": "20260819T073000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/ortakligin-ustunu-hamasetle-orttuler-730004%20class=slide-legend-link%20target=_blank",
+          "title": "Ortaklığın üstünü hamasetle örttüler",
+          "domain": "birgun.net",
+          "seendate": "20260819T073000Z"
+        },
+        {
+          "url": "https://www.birgun.net/haber/ortakligin-ustunu-hamasetle-orttuler-730004%20target=_blank",
+          "title": "Ortaklığın üstünü hamasetle örttüler",
+          "domain": "birgun.net",
+          "seendate": "20260819T073000Z"
+        },
+        {
+          "url": "https://english.news.cn/20260820/9826b66644934963b57aa975d1ec36b0/c.html",
+          "title": "Iran IRGC says more  devastating  weapons to be used if new war begins - Xinhua",
+          "domain": "english.news.cn",
+          "seendate": "20260820T134500Z"
+        },
+        {
+          "url": "https://www.chicoer.com/2026/08/17/iran-war-peace-deal-deadline-expiring/",
+          "title": "60 - day deadline for Iran peace deal is expiring . Where things stand",
+          "domain": "chicoer.com",
+          "seendate": "20260817T131500Z"
+        },
+        {
+          "url": "https://www.kristeligt-dagblad.dk/udland/syv-meldes-draebt-i-israelsk-angreb-i-sydlibanon",
+          "title": "Syv meldes dræbt i israelsk angreb i Sydlibanon",
+          "domain": "kristeligt-dagblad.dk",
+          "seendate": "20260815T083000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/articles/iran-set-impose-longer-prison-135427894.html",
+          "title": "Iran set to impose longer prison terms for any contact with foreign media",
+          "domain": "yahoo.com",
+          "seendate": "20260821T211500Z"
+        },
+        {
+          "url": "https://www.haksozhaber.net/netanyahunun-dusman-listesi-bolgeye-ne-soyluyor-258866h.htm",
+          "title": "Netanyahunun düşman listesi bölgeye ne söylüyor ? ",
+          "domain": "haksozhaber.net",
+          "seendate": "20260821T211500Z"
+        },
+        {
+          "url": "http://www.china.org.cn/2026-08/18/content_118652403.shtml",
+          "title": "As 60 - day deadline for peace deal expires , US , Iran further apart over way forward",
+          "domain": "china.org.cn",
+          "seendate": "20260818T060000Z"
+        },
+        {
+          "url": "https://www.alquds.co.uk/%D8%AD%D8%B1%D8%A8-%D9%87%D8%B1%D9%85%D8%B2-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A3%D8%A8%D9%88%D8%A7%D8%A8/",
+          "title": "حرب « هرمز » الأخيرة على الأبواب",
+          "domain": "alquds.co.uk",
+          "seendate": "20260821T203000Z"
+        },
+        {
+          "url": "https://www.eremnews.com/news/arab-world/uudimqn",
+          "title": "قاليباف من بغداد : نهدف لتقوية النظام الجديد في المنطقة دون تدخل أجنبي",
+          "domain": "eremnews.com",
+          "seendate": "20260819T144500Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/world-news/tjtosa",
+          "title": "האיום המוזר של טראמפ על הורמוז - והמשמעויות הדרמטיות של מהלך כזה",
+          "domain": "kikar.co.il",
+          "seendate": "20260815T201500Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/news/2026/8/16/%D9%87%D9%85%D8%B3-%D8%AA%D9%84-%D8%A3%D8%A8%D9%8A%D8%A8-%D9%81%D9%8A-%D8%A3%D8%B0%D9%86-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%83%D9%8A%D9%81-%D8%AA%D8%AF%D8%AE%D9%84",
+          "title": "همس تل أبيب في أذن واشنطن .. كيف تدخل معلومات إسرائيلية حسابات ترمب بشأن إيران ؟ | أخبار",
+          "domain": "aljazeera.net",
+          "seendate": "20260815T234500Z"
+        },
+        {
+          "url": "https://newtalk.tw/news/view/2026-08-19/1054337",
+          "title": "不懼美 、 以斬首 穆傑塔巴要公開現身了 ? 傳將主持主麻日聚禮 發表重大講話 | 國際",
+          "domain": "newtalk.tw",
+          "seendate": "20260819T054500Z"
+        },
+        {
+          "url": "https://www.albiladpress.com/news/2026/6515/arab-and-world/1014226.html",
+          "title": "جريدة البلاد | نزوح المئات من جنوب لبنان .. وحزب الله يلوح بالرد على إسرائيل",
+          "domain": "albiladpress.com",
+          "seendate": "20260815T170000Z"
+        },
+        {
+          "url": "https://www.cp24.com/news/world/2026/08/19/iran-and-uae-ties-sour-and-other-major-developments-in-the-middle-east/",
+          "title": "Iran war : Tehran and UAE sour , Iran politicians visit Iraq",
+          "domain": "cp24.com",
+          "seendate": "20260819T150000Z"
+        },
+        {
+          "url": "https://english.aawsat.com/world/5309049-nato-prepared-address-iranian-threats-extending-europe",
+          "title": "NATO Prepared to Address Iranian Threats Extending to Europe",
+          "domain": "english.aawsat.com",
+          "seendate": "20260820T071500Z"
+        },
+        {
+          "url": "https://www.breitbart.com/latin-america/2026/08/19/iranian-envoy-joins-ceremony-mexico-honor-communist-mass-murderer-fidel-castro/",
+          "title": "Iranian Envoy Joins Ceremony in Mexico to Honor Communist Mass Murderer Fidel Castro",
+          "domain": "breitbart.com",
+          "seendate": "20260819T234500Z"
+        },
+        {
+          "url": "https://www.ensonhaber.com/cumhurbaskani-erdogan-karsitligindan-prim-toplamaya-calisanlar-netanyahu-micotakis-wilders-h1558531",
+          "title": "Cumhurbaşkanı Erdoğan karşıtlığından prim toplamaya çalışanlar : Netanyahu , Miçotakis , Wilders , Biden",
+          "domain": "ensonhaber.com",
+          "seendate": "20260818T101500Z"
+        },
+        {
+          "url": "https://www.algemeiner.com/2026/08/20/trump-warns-economic-consequences-any-country-supports-iran/",
+          "title": "Trump Warns of Economic Consequences for Any Country That Supports Iran",
+          "domain": "algemeiner.com",
+          "seendate": "20260820T231500Z"
+        },
+        {
+          "url": "https://www.algemeiner.com/2026/08/21/michigan-rabbi-announces-vote-mike-rogers-wolverine-state-jews-fret-el-sayed/",
+          "title": "Michigan Rabbi Says Hell Vote for Mike Rogers as Wolverine State Jews Fret Over El - Sayed",
+          "domain": "algemeiner.com",
+          "seendate": "20260821T224500Z"
+        },
+        {
+          "url": "https://www.themarysue.com/netanyahu-is-betting-his-reelection-on-a-smear-campaign-against-nyc-mayor-mamdani-but-the-strategy-is-backfiring-in-unexpected-ways/",
+          "title": "Netanyahu smear campaign against Mamdani is backfiring",
+          "domain": "themarysue.com",
+          "seendate": "20260819T041500Z"
+        },
+        {
+          "url": "https://www.newsweek.com/donald-trumps-apocalyptic-threats-fall-flat-with-iran-12346940",
+          "title": "Donald Trump Apocalyptic Threats Fall Flat with Iran",
+          "domain": "newsweek.com",
+          "seendate": "20260820T214500Z"
+        },
+        {
+          "url": "https://www.brandonsun.com/local/2026/08/20/poilievre-invites-irans-exiled-crown-prince-reza-pahlavi-to-visit-canada",
+          "title": "Poilievre invites Iran exiled crown prince Reza Pahlavi to visit Canada – Brandon Sun",
+          "domain": "brandonsun.com",
+          "seendate": "20260820T180000Z"
+        },
+        {
+          "url": "https://www.pentictonherald.ca/news/national_news/article_1a483bff-476c-52ba-94ba-5536726c8ec8.html",
+          "title": "Poilievre invites Iran exiled crown prince Reza Pahlavi to visit Canada",
+          "domain": "pentictonherald.ca",
+          "seendate": "20260820T103000Z"
+        },
+        {
+          "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/po-skambiu-pazadu-kraujo-balos-stai-ka-kalba-trumpu-patikeje-irano-zmones-57-2744872",
+          "title": "Po skambių pažadų – kraujo balos : štai ką kalba Trumpu patikėję Irano žmonės",
+          "domain": "15min.lt",
+          "seendate": "20260817T210000Z"
+        },
+        {
+          "url": "https://news.az/news/irgc-deputy-chief-iran-downed-more-than-200-enemy-aircraft-during-war-with-us-israel",
+          "title": "IRGC deputy chief : Iran downed more than 200 enemy aircraft during war with US , Israel",
+          "domain": "news.az",
+          "seendate": "20260818T151500Z"
+        },
+        {
+          "url": "https://www.theguardian.com/commentisfree/2026/aug/17/trump-tough-guy-image-catering-truck",
+          "title": "Trump tough - guy image has been undone by his own actions | Mohamad Bazzi",
+          "domain": "theguardian.com",
+          "seendate": "20260817T103000Z"
+        },
+        {
+          "url": "https://shasha.ps/home/%D9%86%D8%B2%D9%88%D8%AD-%D8%A7%D9%84%D9%85%D8%A6%D8%A7%D8%AA-%D9%85%D9%86-%D8%AC%D9%86%D9%88%D8%A8-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%88%D8%AD%D8%B2%D8%A8",
+          "title": "نزوح المئات من جنوب لبنان .. وحزب الله يلوح بالرد على إسرائيل",
+          "domain": "shasha.ps",
+          "seendate": "20260815T181500Z"
+        },
+        {
+          "url": "https://www.jutarnji.hr/vijesti/svijet/iran-razmatra-udare-na-americke-objekte-u-europi-i-sabotazu-kabela-15738322",
+          "title": "Jutarnji list - Ekskluziva FT - a : Iran razmatra gađanje ciljeva u Europi , ovo su potencijalne mete ! ",
+          "domain": "jutarnji.hr",
+          "seendate": "20260819T081500Z"
+        },
+        {
+          "url": "https://www.larazon.es/internacional/sucesion-hipotecada-nueva-cupula-seguridad-teheran_202608166a81031da5690f04737c386a.html",
+          "title": "La sucesión hipotecada : la nueva cúpula de seguridad de Teherán",
+          "domain": "larazon.es",
+          "seendate": "20260816T014500Z"
+        },
+        {
+          "url": "https://lethbridgeherald.com/news/national-news/2026/08/20/poilievre-invites-irans-exiled-crown-prince-reza-pahlavi-to-visit-canada/",
+          "title": "Poilievre invites Iran exiled crown prince Reza Pahlavi to visit Canada",
+          "domain": "lethbridgeherald.com",
+          "seendate": "20260820T103000Z"
+        },
+        {
+          "url": "https://toronto.citynews.ca/2026/08/20/poilievre-invites-irans-exiled-crown-prince-reza-pahlavi-to-visit-canada/",
+          "title": "Poilievre invites Iran exiled crown prince Reza Pahlavi to visit Canada",
+          "domain": "toronto.citynews.ca",
+          "seendate": "20260820T120000Z"
+        },
+        {
+          "url": "https://www.albiladpress.com/news/2026/6516/arab-and-world/1014399.html",
+          "title": "جريدة البلاد | تقرير : ترامب لجأ لبارزاني للتواصل مباشرة مع الحرس الثوري خلال الحرب",
+          "domain": "albiladpress.com",
+          "seendate": "20260816T140000Z"
+        },
+        {
+          "url": "https://www.kul-alarab.com/Article/1127381",
+          "title": "",
+          "domain": "kul-alarab.com",
+          "seendate": "20260816T200000Z"
+        },
+        {
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/08/21/iran-s-president-says-time-to-end-war-while-in-position-of-strength",
+          "title": "Iran president says it is time to end war while in position of strength",
+          "domain": "freemalaysiatoday.com",
+          "seendate": "20260821T134500Z"
+        },
+        {
+          "url": "https://tr.euronews.com/2026/08/17/netanyahudan-erdogan-karsiti-secim-afisi-yaklasan-israil-secimlerinde-tablo-ne-durumda",
+          "title": "Netanyahudan Erdoğan karşıtı seçim afişi : Yaklaşan İsrail seçimlerinde tablo ne durumda ? ",
+          "domain": "tr.euronews.com",
+          "seendate": "20260817T181500Z"
+        },
+        {
+          "url": "https://www.digitaljournal.com/article/iran-president-says-time-to-end-war-while-in-position-of-strength/",
+          "title": "Iran president says time to end war while in position of strength",
+          "domain": "digitaljournal.com",
+          "seendate": "20260821T163000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-tehran-adopt-074458959.html",
+          "title": "Iran live updates : Trump threatens to bomb Oman over Strait of Hormuz",
+          "domain": "yahoo.com",
+          "seendate": "20260817T134500Z"
+        },
+        {
+          "url": "https://www.cnn.com/2026/08/19/middleeast/iran-hardliners-just-getting-started-intl",
+          "title": "Iran latest warning to the US signals the hardliners are just getting started",
+          "domain": "cnn.com",
+          "seendate": "20260819T051500Z"
+        },
+        {
+          "url": "https://us.cnn.com/2026/08/19/middleeast/iran-hardliners-just-getting-started-intl",
+          "title": "Iran latest warning to the US signals the hardliners are just getting started",
+          "domain": "us.cnn.com",
+          "seendate": "20260819T073000Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/08/21/irans-president-calls-for-an-end-to-the-war-from-a-position-of-power-as-the-us-increases-p",
+          "title": "رئيس إيران يدعو لإنهاء الحرب من موقع قوة مع تصاعد ضغط الولايات المتحدة",
+          "domain": "arabic.euronews.com",
+          "seendate": "20260821T150000Z"
+        },
+        {
+          "url": "https://netinternethaber.com/netanyahudan-baskan-erdogani-hedef-alan-alcak-secim-afisi/",
+          "title": "Netanyahudan Başkan Erdoğan  ı Hedef Alan Alçak Seçim Afişi ! – Netinternet Haber",
+          "domain": "netinternethaber.com",
+          "seendate": "20260817T080000Z"
+        },
+        {
+          "url": "https://news.webindia123.com/news/Articles/World/20260818/4488239.html",
+          "title": "  Took full advantage of ceasefire : Iran prepares for bigger fight with US and Israel , eyes Kuwait ground raid",
+          "domain": "news.webindia123.com",
+          "seendate": "20260818T063000Z"
+        },
+        {
+          "url": "https://islam-today.ru/islam_v_mire/islam-tudej-obzor-novostej-za-24-casa18August2026/",
+          "title": "Обзор новостей . 18 августа 2026",
+          "domain": "islam-today.ru",
+          "seendate": "20260818T083000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/hkxdknzvmx",
+          "title": "Trump labels Strait of Hormuz  new American territory  as Iran mocks claim",
+          "domain": "ynetnews.com",
+          "seendate": "20260818T134500Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/us/took-full-advantage-of-ceasefire-iran-prepares-for-bigger-fight-with-us-and-israel-eyes-kuwait-ground-raid20260818103022/",
+          "title": "  Took full advantage of ceasefire : Iran prepares for bigger fight with US and Israel , eyes Kuwait ground raid",
+          "domain": "aninews.in",
+          "seendate": "20260818T053000Z"
+        },
+        {
+          "url": "https://www.digi24.ro/stiri/externe/mapamond/trump-pune-din-nou-presiune-economica-pe-iran-analistii-avertizeaza-teheranul-ar-putea-raspunde-prin-escaladarea-conflictului-3913097",
+          "title": "Trump pune din nou presiune economică pe Iran . Analiștii avertizează : Teheranul ar putea răspunde prin escaladarea conflictului",
+          "domain": "digi24.ro",
+          "seendate": "20260819T203000Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/explainers/explainer-have-european-countries-been-involved-us-israeli-war-iran",
+          "title": "Explainer : Have European countries been involved in the US - Israeli war on Iran ? ",
+          "domain": "middleeasteye.net",
+          "seendate": "20260820T084500Z"
+        },
+        {
+          "url": "https://www.newyorker.com/news/global-notes/after-six-months-of-war-trump-is-still-losing-to-iran",
+          "title": "After Six Months of War , Trump Is Still Losing to Iran",
+          "domain": "newyorker.com",
+          "seendate": "20260820T103000Z"
+        },
+        {
+          "url": "https://www.pressian.com/pages/articles/2026081818004493048",
+          "title": "미 · 이란 , 양해각서 연장 일축 … 출구 없는 대치  치닫는 이란전",
+          "domain": "pressian.com",
+          "seendate": "20260818T161500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/894040/us-sought-direct-irgc-backchannel-as-secret-iraq-talks-faltered",
+          "title": "US sought direct IRGC backchannel as secret Iraq talks faltered",
+          "domain": "bankingnews.gr",
+          "seendate": "20260816T130000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-08-19-iraq-on-steroids-how-trumps-iran-war-is-becoming-americas-new-quagmire.html",
+          "title": "Iraq on steroids : How Trump Iran War Is becoming America new Quagmire – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260819T190000Z"
+        },
+        {
+          "url": "https://naharnet.com/stories/en/321971-trump-pledges-economic-warfare-on-iran-prompting-tehran-derision",
+          "title": "Trump pledges  economic warfare  on Iran , prompting Tehran derision",
+          "domain": "naharnet.com",
+          "seendate": "20260820T113000Z"
+        },
+        {
+          "url": "https://spectator.org/trumps-ceasefire-trap-iran-gaza-and-the-politics-of-peace/",
+          "title": "Trump Ceasefire Trap : Iran , Gaza , and the Politics of Peace | The American Spectator",
+          "domain": "spectator.org",
+          "seendate": "20260815T041500Z"
+        },
+        {
+          "url": "https://www.algemeiner.com/2026/08/19/how-iran-extended-ideological-influence-pakistan-kashmir/",
+          "title": "How Iran Extended Its Ideological Influence Into Pakistan and Kashmir",
+          "domain": "algemeiner.com",
+          "seendate": "20260819T234500Z"
+        },
+        {
+          "url": "https://www.dw.com/tr/i%CC%87srail-t%C3%BCrkiye-gerilimi-ankara-temkinli/a-78442380",
+          "title": "İsrail - Türkiye gerilimi : Ankara temkinli",
+          "domain": "dw.com",
+          "seendate": "20260820T113000Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/08/19/iran-adopts-an-offensive-military-doctrine-how-does-it-plan-to-continue-its-confrontati",
+          "title": "طهران تتجه نحو عقيدة عسكرية هجومية .. كيف تخطّط لمواصلة المواجهة مع واشنطن ؟ ",
+          "domain": "arabic.euronews.com",
+          "seendate": "20260819T173000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/8/19/irans-hardline-parliament-raises-concerns-with-foreign-infiltration-plan",
+          "title": "Iran hardline parliament raises concerns with  foreign infiltration  plan | US - Israel war on Iran News",
+          "domain": "aljazeera.com",
+          "seendate": "20260819T210000Z"
+        },
+        {
+          "url": "https://www.haber7.com/yazarlar/mehmet-ali-bal/3651866-iran-savasi-uzerine-spekulatif-sorular",
+          "title": "İran Savaşı üzerine spekülatif sorular",
+          "domain": "haber7.com",
+          "seendate": "20260817T073000Z"
+        },
+        {
+          "url": "https://www.sozcu.com.tr/vahim-tehdit-fuzeler-kibris-a-dogrultuldu-p350696",
+          "title": "Vahim tehdit : Füzeler Kıbrısa doğrultuldu",
+          "domain": "sozcu.com.tr",
+          "seendate": "20260819T070000Z"
+        },
+        {
+          "url": "https://www.presstv.co.uk/Detail/2026/08/17/774559/Iran-switching-offensive-mode-US-diplomacy",
+          "title": "Iran switching to offensive mode amid US disregard for diplomacy : Report",
+          "domain": "presstv.co.uk",
+          "seendate": "20260817T210000Z"
+        },
+        {
+          "url": "https://www.newsweek.com/donald-trumps-economic-war-pushes-iran-toward-a-dangerous-limit-12350672",
+          "title": "Donald Trump Economic War Pushes Iran Toward a Dangerous Limit",
+          "domain": "newsweek.com",
+          "seendate": "20260821T211500Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/opinion/how-iran-and-ukraine-are-strategically-sinking-their-rivals-sea",
+          "title": "How Iran and Ukraine are strategically sinking their rivals at sea",
+          "domain": "middleeasteye.net",
+          "seendate": "20260815T154500Z"
+        },
+        {
+          "url": "https://www.manilatimes.net/2026/08/22/opinion/columns/a-way-out-of-the-us-israel-war-against-iran/2410085",
+          "title": "A way out of the US - Israel war against Iran",
+          "domain": "manilatimes.net",
+          "seendate": "20260821T163000Z"
+        },
+        {
+          "url": "https://whdh.com/news/iranian-families-struggle-to-afford-the-basics-as-us-ratchets-up-economic-warfare/",
+          "title": "Iranian families struggle to afford the basics as US ratchets up economic warfare - Boston News , Weather , Sports",
+          "domain": "whdh.com",
+          "seendate": "20260821T133000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/hykkj3hwml",
+          "title": "הציוץ של קאליבאף שעורר ויכוח על שם המפרץ , והעימות בין איראן לעיראק",
+          "domain": "ynet.co.il",
+          "seendate": "20260821T170000Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-news-trump-qatar-pilot-detention-b3033790.html",
+          "title": "Iran - US war latest : Qatar denies detaining Iranian fighter pilots after downing jets",
+          "domain": "independent.co.uk",
+          "seendate": "20260816T114500Z"
+        },
+        {
+          "url": "https://news.az/news/us-interference-is-source-of-regional-instability-iran-s-qalibaf-t-ells-iraqi-speaker",
+          "title": "US interference is source of regional instability , Iran Qalibaf tells Iraqi speaker",
+          "domain": "news.az",
+          "seendate": "20260820T141500Z"
+        },
+        {
+          "url": "https://www.ksat.com/news/world/2026/08/21/iranian-families-struggle-to-afford-the-basics-as-us-ratchets-up-economic-warfare/",
+          "title": "Iranian families struggle to afford the basics as US ratchets up economic warfare",
+          "domain": "ksat.com",
+          "seendate": "20260821T123000Z"
+        },
+        {
+          "url": "https://www.presstv.co.uk/Detail/2026/08/18/774631/Iran-Qalibaf-rejects-US-pressure-efforts-obtain-concessions-mock-clown-crew-",
+          "title": "Squeezing Iran wont work , Qalibaf says as he mocks US  clown crew  ",
+          "domain": "presstv.co.uk",
+          "seendate": "20260818T210000Z"
+        },
+        {
+          "url": "https://patriotpost.us/alexander/130099-mr-president-can-you-get-iran-right-2026-08-19",
+          "title": "Mark Alexander : Mr . President , Can You Get Iran Right ? ",
+          "domain": "patriotpost.us",
+          "seendate": "20260819T204500Z"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/world/2026/08/21/iranian-families-struggle-to-afford-the-basics-as-us-ratchets-up-economic-warfare/",
+          "title": "Iranian families struggle to afford the basics as US ratchets up economic warfare",
+          "domain": "clickorlando.com",
+          "seendate": "20260821T113000Z"
+        },
+        {
+          "url": "https://www.chronicle.lu/category/international/62959-trump-warns-of-economic-consequences-for-any-country-that-supports-iran",
+          "title": "Trump Warns of Economic Consequences for Any Country that Supports Iran",
+          "domain": "chronicle.lu",
+          "seendate": "20260820T100000Z"
+        },
+        {
+          "url": "https://www.presstv.co.uk/Detail/2026/08/17/774565/Iran-China-Gharibabadi-relations",
+          "title": "Iran - China ties built on mutual respect , opposition to unilateralism : Deputy FM",
+          "domain": "presstv.co.uk",
+          "seendate": "20260817T210000Z"
+        },
+        {
+          "url": "https://hotair.com/generalissimo/2026/08/18/goodbye-mou-we-hardly-knew-you-n3818121",
+          "title": "Goodbye , M . O . U ., We Hardly Knew You",
+          "domain": "hotair.com",
+          "seendate": "20260819T024500Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/opinions/2026/8/19/%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%A9-%D9%8A%D8%B4%D9%83%D9%84%D9%88%D9%86-%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%A8%D8%AF%D9%84%D8%A7-%D9%85%D9%86",
+          "title": "قادة الخليج هم صنّاع أمنه .. ليست الجغرافيا ولا المؤسسات | سياسة",
+          "domain": "aljazeera.net",
+          "seendate": "20260819T183000Z"
+        },
+        {
+          "url": "https://www.wsbradio.com/news/business/iranian-families/T3ELG54W6IZ3RBK54V2IEHTM3U/",
+          "title": "Iran economic crisis deepens as hard - line leaders dig in on war",
+          "domain": "wsbradio.com",
+          "seendate": "20260821T134500Z"
+        },
+        {
+          "url": "https://isp.netscape.com:443/pf/story/0001/20260821/73b0278a0307030588cac9f47b3443e0",
+          "title": "Iranian families struggle to afford the basics as US ratchets up economic warfare",
+          "domain": "isp.netscape.com",
+          "seendate": "20260821T101500Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20260821-the-strait-that-broke-washingtons-illusion-of-control/",
+          "title": "The strait that broke Washington illusion of control – Middle East Monitor",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20260821T153000Z"
+        },
+        {
+          "url": "http://www.idahopress.com/news/world/iranian-families-struggle-to-afford-the-basics-as-us-ratchets-up-economic-warfare/article_9c09c280-fdb3-564b-b1b2-739ca3dc33af.html",
+          "title": "Iranian families struggle to afford the basics as US ratchets up economic warfare",
+          "domain": "idahopress.com",
+          "seendate": "20260821T110000Z"
+        },
+        {
+          "url": "https://www.presstv.co.uk/Detail/2026/08/15/774392/Qalibaf-halted-talks-warned-immediate-strike-after-Israeli-assault-Dahiyeh",
+          "title": "Qalibaf says he halted talks , warned of immediate strike after Israeli assault on Beirut Dahiyeh",
+          "domain": "presstv.co.uk",
+          "seendate": "20260815T131500Z"
+        },
+        {
+          "url": "https://www.islamicinvitationturkey.com/qalibaf-claims-suspension-of-talks-warns-of-swift-retaliation-following-israeli-attack-on-beiruts-dahiyeh/",
+          "title": "Qalibaf Claims Suspension of Talks , Warns of Swift Retaliation Following  israeli  Attack on Beirut Dahiyeh",
+          "domain": "islamicinvitationturkey.com",
+          "seendate": "20260815T143000Z"
+        },
+        {
+          "url": "https://anna-news.info/svodka-sobytij-v-irane-i-na-blizhnem-vostoke-za-16-avgusta-2026-g/",
+          "title": "Сводка событий в Иране и на Ближнем Востоке за 16 августа 2026 г . ",
+          "domain": "anna-news.info",
+          "seendate": "20260817T180000Z"
+        },
+        {
+          "url": "https://www.middle-east-online.com/en/likud-casts-mamdani-alongside-israel%E2%80%99s-foes-campaign-billboard",
+          "title": "Likud casts Mamdani alongside Israel foes in campaign billboard",
+          "domain": "middle-east-online.com",
+          "seendate": "20260818T064500Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/8/17/us-iran-memorandum-of-understanding-expires-how-and-why-it-fell-apart",
+          "title": "US - Iran Memorandum of Understanding expires : How and why it fell apart",
+          "domain": "aljazeera.com",
+          "seendate": "20260817T124500Z"
+        },
+        {
+          "url": "https://www.pilotonline.com/2026/08/21/iran-economy-struggles/",
+          "title": "Iranian families struggle to afford basics as US ratchets up sanctions",
+          "domain": "pilotonline.com",
+          "seendate": "20260821T213000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/geopolitical/escobar-new-great-game-revisited",
+          "title": "Escobar : The New Great Game , Revisited",
+          "domain": "zerohedge.com",
+          "seendate": "20260815T051500Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/8/16/why-has-israel-escalated-attacks-in-southern-lebanon-despite-ceasefire",
+          "title": "Why has Israel escalated attacks in southern Lebanon despite ceasefire ? ",
+          "domain": "aljazeera.com",
+          "seendate": "20260816T113000Z"
+        },
+        {
+          "url": "https://www.livemint.com/news/world/iran-may-target-us-assets-in-europe-if-trump-escalates-war-what-are-the-potential-targets-report-reveals-11787130469715.html",
+          "title": "Iran may target US assets in Europe if Trump escalates war : What are the potential targets ? Report reveals ... ",
+          "domain": "livemint.com",
+          "seendate": "20260819T101500Z"
+        },
+        {
+          "url": "https://www.haksozhaber.net/mucteba-hameney-uzun-bir-savas-planliyor-258581h.htm",
+          "title": "Mücteba Hameney uzun bir savaş planlıyor",
+          "domain": "haksozhaber.net",
+          "seendate": "20260815T124500Z"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/08/19/middleeast/iran-hardliners-just-getting-started-intl",
+          "title": "Iran latest warning to the US signals the hardliners are just getting started",
+          "domain": "edition.cnn.com",
+          "seendate": "20260819T044500Z"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/us-news/weekend-rundown-august-16-rcna592701",
+          "title": "Deadly storms in Hawaii and Indiana and Blanche open to legal fight over voter rolls : Weekend Rundown",
+          "domain": "nbcnews.com",
+          "seendate": "20260816T224500Z"
+        },
+        {
+          "url": "http://www.middleeaststar.com/news/279244222/qatar-denies-detaining-iranian-pilots-after-iran-accuses-doha",
+          "title": "Qatar Denies Detaining Iranian Pilots After Iran Accuses Doha",
+          "domain": "middleeaststar.com",
+          "seendate": "20260816T010000Z"
+        },
+        {
+          "url": "http://www.pakistantelegraph.com/news/279244222/qatar-denies-detaining-iranian-pilots-after-iran-accuses-doha",
+          "title": "Qatar Denies Detaining Iranian Pilots After Iran Accuses Doha",
+          "domain": "pakistantelegraph.com",
+          "seendate": "20260816T013000Z"
+        },
+        {
+          "url": "https://www.presstv.co.uk/Detail/2026/08/18/774575/Trump",
+          "title": "Trump approval rating plunges to historic low as Americans reject war of aggression against Iran",
+          "domain": "presstv.co.uk",
+          "seendate": "20260818T061500Z"
+        },
+        {
+          "url": "https://news.az/news/iran-army-chief-announces-30-000-reward-for-killing-or-capturing-us-troops",
+          "title": "Iran Army chief announces $30 , 000 reward for killing or capturing US troops",
+          "domain": "news.az",
+          "seendate": "20260817T110000Z"
+        },
+        {
+          "url": "https://www.elwatannews.com/news/details/8341830",
+          "title": " « صفقة الأمر الواقع » بين « واشنطن وطهران ».. من إسقاط النظام الإيراني إلى تقسيم النفوذ",
+          "domain": "elwatannews.com",
+          "seendate": "20260818T174500Z"
+        },
+        {
+          "url": "http://en.people.cn/n3/2026/0818/c90000-20489541.html",
+          "title": "As 60 - day deadline for peace deal expires , U . S ., Iran further apart over way forward",
+          "domain": "en.people.cn",
+          "seendate": "20260818T011500Z"
+        },
+        {
+          "url": "https://www.islamicinvitationturkey.com/irans-military-pledges-relentless-pursuit-until-total-defeat-of-us-israel/",
+          "title": "Iran Military Pledges Relentless Pursuit Until  Total Defeat  of US ,  israel  ",
+          "domain": "islamicinvitationturkey.com",
+          "seendate": "20260816T133000Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279244222/qatar-denies-detaining-iranian-pilots-after-iran-accuses-doha",
+          "title": "Qatar Denies Detaining Iranian Pilots After Iran Accuses Doha",
+          "domain": "iranherald.com",
+          "seendate": "20260815T234500Z"
+        },
+        {
+          "url": "https://www.hispantv.com/noticias/opinion/649022/frente-integrado-iran-vincula-acuerdo-fin-guerra-todos-frentes",
+          "title": "El frente integrado : ¿ Por qué Irán vincula cualquier acuerdo para poner fin a la guerra con el fin de la agresión estadounidense - israelí en todos los frentes ? ",
+          "domain": "hispantv.com",
+          "seendate": "20260820T143000Z"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/08/18/politics/trump-iran-war-south-korea-oman-strait-of-hormuz",
+          "title": "Trump swings hard at Oman and South Korea , but his foreign policy misses are piling up",
+          "domain": "edition.cnn.com",
+          "seendate": "20260818T054500Z"
+        },
+        {
+          "url": "https://www.cnn.com/2026/08/18/politics/trump-iran-war-south-korea-oman-strait-of-hormuz",
+          "title": "Trump swings hard at Oman and South Korea , but his foreign policy misses are piling up",
+          "domain": "cnn.com",
+          "seendate": "20260818T053000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/hjyf7jlpfe",
+          "title": "Iran - Iraq tensions boil over in viral Gulf name dispute",
+          "domain": "ynetnews.com",
+          "seendate": "20260821T170000Z"
+        },
+        {
+          "url": "https://grenadachronicle.com/seven-decades-of-us-regime-change-efforts-what-have-they-achieved/",
+          "title": "Seven decades of US regime change efforts : What have they achieved ? - Grenada Chronicle – Daily Grenada And Caribbean News",
+          "domain": "grenadachronicle.com",
+          "seendate": "20260819T180000Z"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/08/16/israel-condemned-for-obstructing-peace-effort-in-gaza/",
+          "title": "Israel condemned for obstructing peace effort in Gaza",
+          "domain": "thenationalnews.com",
+          "seendate": "20260816T194500Z"
+        },
+        {
+          "url": "https://aawsat.com/files/pdf/issue17431/",
+          "title": "issue17431",
+          "domain": "aawsat.com",
+          "seendate": "20260819T010000Z"
+        },
+        {
+          "url": "http://www.newyorkstatesman.com/news/279244938/iran-demands-access-to-qatar-in-dispute-over-downed-pilots",
+          "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+          "domain": "newyorkstatesman.com",
+          "seendate": "20260816T120000Z"
+        },
+        {
+          "url": "http://www.southeastasiapost.com/news/279244938/iran-demands-access-to-qatar-in-dispute-over-downed-pilots",
+          "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+          "domain": "southeastasiapost.com",
+          "seendate": "20260816T120000Z"
+        },
+        {
+          "url": "http://www.beijingbulletin.com/news/279244938/iran-demands-access-to-qatar-in-dispute-over-downed-pilots",
+          "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+          "domain": "beijingbulletin.com",
+          "seendate": "20260816T140000Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279244938/iran-demands-access-to-qatar-in-dispute-over-downed-pilots",
+          "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+          "domain": "iranherald.com",
+          "seendate": "20260816T130000Z"
+        },
+        {
+          "url": "http://www.newyorktelegraph.com/news/279244938/iran-demands-access-to-qatar-in-dispute-over-downed-pilots",
+          "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+          "domain": "newyorktelegraph.com",
+          "seendate": "20260816T134500Z"
+        },
+        {
+          "url": "https://slguardian.org/a-muslim-nato-middle-powers-begin-to-break-with-washington/",
+          "title": "A Muslim NATO ? Middle Powers Begin to Break with Washington",
+          "domain": "slguardian.org",
+          "seendate": "20260819T233000Z"
+        },
+        {
+          "url": "https://www.raya.ps/articles/1223298.html",
+          "title": "العملية تمت بنجاح",
+          "domain": "raya.ps",
+          "seendate": "20260818T220000Z"
+        },
+        {
+          "url": "http://www.europesun.com/news/279242419/trump-says-he-will-soon-declare-strait-of-hormuz-us-territory",
+          "title": "Trump Says He Will  Soon  Declare Strait Of Hormuz US Territory",
+          "domain": "europesun.com",
+          "seendate": "20260815T020000Z"
+        },
+        {
+          "url": "http://www.theuknews.com/news/279242419/trump-says-he-will-soon-declare-strait-of-hormuz-us-territory",
+          "title": "Trump Says He Will  Soon  Declare Strait Of Hormuz US Territory",
+          "domain": "theuknews.com",
+          "seendate": "20260815T020000Z"
+        },
+        {
+          "url": "http://www.southeastasiapost.com/news/279242419/trump-says-he-will-soon-declare-strait-of-hormuz-us-territory",
+          "title": "Trump Says He Will  Soon  Declare Strait Of Hormuz US Territory",
+          "domain": "southeastasiapost.com",
+          "seendate": "20260815T123000Z"
+        },
+        {
+          "url": "http://www.pakistantelegraph.com/news/279242419/trump-says-he-will-soon-declare-strait-of-hormuz-us-territory",
+          "title": "Trump Says He Will  Soon  Declare Strait Of Hormuz US Territory",
+          "domain": "pakistantelegraph.com",
+          "seendate": "20260815T154500Z"
+        },
+        {
+          "url": "http://www.chinanationalnews.com/news/279242419/trump-says-he-will-soon-declare-strait-of-hormuz-us-territory",
+          "title": "Trump Says He Will  Soon  Declare Strait Of Hormuz US Territory",
+          "domain": "chinanationalnews.com",
+          "seendate": "20260815T201500Z"
+        },
+        {
+          "url": "https://www.justiceinfo.net/en/163621-iran-president-says-time-to-end-war-while-in-position-of-strength.html",
+          "title": "Iran president says time to end war while in position of strength",
+          "domain": "justiceinfo.net",
+          "seendate": "20260821T163000Z"
+        },
+        {
+          "url": "https://www.siasat.com/mecca-defence-pact-for-modi-govt-op-sindoor-2-0-is-impossible-3526140/",
+          "title": "Mecca defence pact : For Modi govt , Op Sindoor 2 . 0 is impossible",
+          "domain": "siasat.com",
+          "seendate": "20260817T124500Z"
+        },
+        {
+          "url": "https://www.egyptindependent.com/irans-latest-warning-to-the-us-signals-the-hardliners-are-just-getting-started/",
+          "title": "Iran latest warning to the US signals the hardliners are just getting started",
+          "domain": "egyptindependent.com",
+          "seendate": "20260819T100000Z"
+        },
+        {
+          "url": "https://city.udn.com/2976/7247690?raid=7297866",
+          "title": "中東風雲錄 -- 開欄文 ： 埃及的加薩重建方案 -- Al Jazeera - 時事論壇",
+          "domain": "city.udn.com",
+          "seendate": "20260818T041500Z"
+        },
+        {
+          "url": "https://aawsat.com/files/pdf/issue17430/",
+          "title": "issue17430",
+          "domain": "aawsat.com",
+          "seendate": "20260818T001500Z"
+        },
+        {
+          "url": "https://www.critic.co.nz/features/article/12210/wwiii-for-dummies-",
+          "title": "WWIII For Dummies",
+          "domain": "critic.co.nz",
+          "seendate": "20260816T153000Z"
+        },
+        {
+          "url": "http://www.greekherald.com/news/279248628/took-full-advantage-of-ceasefire-iran-prepares-for-bigger-fight-with-us-and-israel-eyes-kuwait-ground-raid",
+          "title": "  Took full advantage of ceasefire : Iran prepares for bigger fight with US and Israel , eyes Kuwait ground raid",
+          "domain": "greekherald.com",
+          "seendate": "20260818T063000Z"
+        },
+        {
+          "url": "http://www.austinglobe.com/news/279248628/took-full-advantage-of-ceasefire-iran-prepares-for-bigger-fight-with-us-and-israel-eyes-kuwait-ground-raid",
+          "title": "  Took full advantage of ceasefire : Iran prepares for bigger fight with US and Israel , eyes Kuwait ground raid",
+          "domain": "austinglobe.com",
+          "seendate": "20260818T080000Z"
+        },
+        {
+          "url": "http://www.middleeaststar.com/news/279248628/took-full-advantage-of-ceasefire-iran-prepares-for-bigger-fight-with-us-and-israel-eyes-kuwait-ground-raid",
+          "title": "  Took full advantage of ceasefire : Iran prepares for bigger fight with US and Israel , eyes Kuwait ground raid",
+          "domain": "middleeaststar.com",
+          "seendate": "20260818T063000Z"
+        },
+        {
+          "url": "http://www.batonrougepost.com/news/279248628/took-full-advantage-of-ceasefire-iran-prepares-for-bigger-fight-with-us-and-israel-eyes-kuwait-ground-raid",
+          "title": "  Took full advantage of ceasefire : Iran prepares for bigger fight with US and Israel , eyes Kuwait ground raid",
+          "domain": "batonrougepost.com",
+          "seendate": "20260818T090000Z"
+        },
+        {
+          "url": "https://wcbm.com/national-headline/iran-hardliners-ditch-trump-peace-deal-to-prepare-for-all-out-war/",
+          "title": "Iran Hardliners Ditch Trump Peace Deal to Prepare for All - Out War",
+          "domain": "wcbm.com",
+          "seendate": "20260818T190000Z"
+        },
+        {
+          "url": "https://middle-east-online.com/%D9%87%D9%84-%D8%AA%D9%88%D8%B3%D9%91%D8%B9-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86-%D8%B1%D9%82%D8%B9%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D9%89-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7%D8%9F",
+          "title": "هل توسّع ايران رقعة الحرب الى أوروبا ؟ ",
+          "domain": "middle-east-online.com",
+          "seendate": "20260820T151500Z"
+        },
+        {
+          "url": "https://kesq.com/news/national-world/cnn-world/2026/08/17/irans-nuclear-capabilities-fast-facts-6/",
+          "title": "Iran Nuclear Capabilities Fast Facts",
+          "domain": "kesq.com",
+          "seendate": "20260818T031500Z"
+        },
+        {
+          "url": "https://aawsat.com/files/pdf/issue17429/",
+          "title": "issue17429",
+          "domain": "aawsat.com",
+          "seendate": "20260816T210000Z"
+        },
+        {
+          "url": "https://slguardian.org/iran-weighs-strikes-on-us-military-targets-in-europe/",
+          "title": "Iran Weighs Strikes on US Military Targets in Europe",
+          "domain": "slguardian.org",
+          "seendate": "20260819T100000Z"
+        },
+        {
+          "url": "http://www.reflector.com/news/national/iranian-families-struggle-to-afford-the-basics-as-us-ratchets-up-economic-warfare/article_8741162b-d727-5dec-b9c2-cb34df89c4c4.html",
+          "title": "Iranian families struggle to afford the basics as US ratchets up economic warfare",
+          "domain": "reflector.com",
+          "seendate": "20260821T103000Z"
+        },
+        {
+          "url": "https://www.messenger-inquirer.com/ap/ap_international_news/iranian-families-struggle-to-afford-the-basics-as-us-ratchets-up-economic-warfare/article_ce2c49ee-8592-50c3-bdec-f86d2a627783.html",
+          "title": "Iranian families struggle to afford the basics as US ratchets up economic warfare",
+          "domain": "messenger-inquirer.com",
+          "seendate": "20260821T103000Z"
+        },
+        {
+          "url": "https://krmg.com/2026/08/21/iranian-families-struggle-to-afford-the-basics-as-us-ratchets-up-economic-warfare/",
+          "title": "Iranian families struggle to afford the basics as US ratchets up economic warfare",
+          "domain": "krmg.com",
+          "seendate": "20260821T111500Z"
+        },
+        {
+          "url": "http://www.beijingbulletin.com/news/279245809/trump-welcomes-saudi-turkey-pakistan-defense-pact",
+          "title": "Trump Welcomes Saudi , Turkey , Pakistan Defense Pact",
+          "domain": "beijingbulletin.com",
+          "seendate": "20260817T040000Z"
+        },
+        {
+          "url": "http://www.chinanationalnews.com/news/279245809/trump-welcomes-saudi-turkey-pakistan-defense-pact",
+          "title": "Trump Welcomes Saudi , Turkey , Pakistan Defense Pact",
+          "domain": "chinanationalnews.com",
+          "seendate": "20260817T053000Z"
+        },
+        {
+          "url": "http://www.pakistantelegraph.com/news/279245809/trump-welcomes-saudi-turkey-pakistan-defense-pact",
+          "title": "Trump Welcomes Saudi , Turkey , Pakistan Defense Pact",
+          "domain": "pakistantelegraph.com",
+          "seendate": "20260817T004500Z"
+        },
+        {
+          "url": "https://tradearabia.com:443/News/466590/Iran-defiant-on-strait-as-Trump-warns-Americans-of-prolonged-fuel-pain",
+          "title": "Iran defiant on strait as Trump warns Americans of prolonged fuel pain",
+          "domain": "tradearabia.com",
+          "seendate": "20260818T083000Z"
+        },
+        {
+          "url": "https://grenadachronicle.com/why-has-israel-escalated-attacks-in-southern-lebanon-despite-ceasefire/",
+          "title": "Why has Israel escalated attacks in southern Lebanon despite ceasefire ? - Grenada Chronicle – Daily Grenada And Caribbean News",
+          "domain": "grenadachronicle.com",
+          "seendate": "20260816T140000Z"
+        },
+        {
+          "url": "https://dominicanrepublicpost.com/why-has-israel-escalated-attacks-in-southern-lebanon-despite-ceasefire/",
+          "title": "Why has Israel escalated attacks in southern Lebanon despite ceasefire ? - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+          "domain": "dominicanrepublicpost.com",
+          "seendate": "20260816T131500Z"
+        },
+        {
+          "url": "http://www.heraldglobe.com/news/279246654/hormuz-traffic-grinds-to-near-halt-again-as-talks-stall",
+          "title": "Hormuz Traffic Grinds To Near Halt Again As Talks Stall",
+          "domain": "heraldglobe.com",
+          "seendate": "20260817T133000Z"
+        },
+        {
+          "url": "http://www.southeastasiapost.com/news/279246654/hormuz-traffic-grinds-to-near-halt-again-as-talks-stall",
+          "title": "Hormuz Traffic Grinds To Near Halt Again As Talks Stall",
+          "domain": "southeastasiapost.com",
+          "seendate": "20260817T123000Z"
+        },
+        {
+          "url": "http://www.arabherald.com/news/279246654/hormuz-traffic-grinds-to-near-halt-again-as-talks-stall",
+          "title": "Hormuz Traffic Grinds To Near Halt Again As Talks Stall",
+          "domain": "arabherald.com",
+          "seendate": "20260817T124500Z"
+        },
+        {
+          "url": "http://www.iraqsun.com/news/279246654/hormuz-traffic-grinds-to-near-halt-again-as-talks-stall",
+          "title": "Hormuz Traffic Grinds To Near Halt Again As Talks Stall",
+          "domain": "iraqsun.com",
+          "seendate": "20260817T124500Z"
+        },
+        {
+          "url": "http://www.israelherald.com/news/279246654/hormuz-traffic-grinds-to-near-halt-again-as-talks-stall",
+          "title": "Hormuz Traffic Grinds To Near Halt Again As Talks Stall",
+          "domain": "israelherald.com",
+          "seendate": "20260817T100000Z"
+        },
+        {
+          "url": "https://www.forbes.com/sites/marktemnycky/2026/08/20/us-and-eu-welcome-peace-progress-between-armenia-and-azerbaijan/",
+          "title": "U . S . And EU Welcome Peace Progress Between Armenia And Azerbaijan",
+          "domain": "forbes.com",
+          "seendate": "20260820T111500Z"
+        },
+        {
+          "url": "https://www.hispantv.com/noticias/opinion/648899/golpes-estado-sanciones-guerras-abrumador-balance-reparaciones-eeuu-debe-iran",
+          "title": "El abrumador balance de reparaciones que EEUU debe a Irán por décadas de hostilidad",
+          "domain": "hispantv.com",
+          "seendate": "20260818T003000Z"
+        },
+        {
+          "url": "http://www.beijingbulletin.com/news/279246896/iranian-parliamentary-deputy-apologizes-to-mahsa-amini-family",
+          "title": "Iranian Parliamentary Deputy Apologizes To Mahsa Amini Family",
+          "domain": "beijingbulletin.com",
+          "seendate": "20260817T181500Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279246896/iranian-parliamentary-deputy-apologizes-to-mahsa-amini-family",
+          "title": "Iranian Parliamentary Deputy Apologizes To Mahsa Amini Family",
+          "domain": "iranherald.com",
+          "seendate": "20260817T190000Z"
+        },
+        {
+          "url": "http://www.arabherald.com/news/279246896/iranian-parliamentary-deputy-apologizes-to-mahsa-amini-family",
+          "title": "Iranian Parliamentary Deputy Apologizes To Mahsa Amini Family",
+          "domain": "arabherald.com",
+          "seendate": "20260817T124500Z"
+        },
+        {
+          "url": "https://anbaaonline.com/news/338646",
+          "title": "ماذا تعني عودة اليونيفيل إلى لبنان ؟ | جريدة الأنباء الإلكترونية",
+          "domain": "anbaaonline.com",
+          "seendate": "20260818T061500Z"
+        },
+        {
+          "url": "https://www.siasat.com/world-photography-day-photos-that-have-defined-2026-so-far-3527138/",
+          "title": "World Photography Day : Photos that have defined 2026 so far",
+          "domain": "siasat.com",
+          "seendate": "20260819T134500Z"
+        }
+      ]
     },
     {
       "id": "trump_china",
@@ -56,7 +1561,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     },

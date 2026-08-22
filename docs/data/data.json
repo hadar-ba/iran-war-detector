@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-21T12:47:51.193684+00:00",
+  "updated_at": "2026-08-22T01:10:33.646945+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
-    "avg_7day": 55,
-    "delta_vs_avg": -9
+    "avg_7day": 52,
+    "delta_vs_avg": -6
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-08-05T02:18:59.114659+00:00",
-        "score": 62
-      },
-      {
         "ts": "2026-08-08T12:48:28.698623+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-08-21T12:47:51.192457+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-08-22T01:10:33.644003+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-05T03:38:24.235457+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-05T14:52:08.859812+00:00",
         "score": 46
@@ -356,6 +352,10 @@
       {
         "ts": "2026-08-21T12:47:51.192457+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-08-22T01:10:33.644003+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -387,8 +387,24 @@
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
+    "list": [
+      "15min.lt",
+      "aawsat.com",
+      "adevarul.ro",
+      "ahaber.com.tr",
+      "albawaba.com",
+      "albawaba.net",
+      "albiladpress.com",
+      "algemeiner.com",
+      "alhurra.com",
+      "Al Jazeera",
+      "Al Jazeera",
+      "almasryalyoum.com",
+      "alquds.co.uk",
+      "anbaaonline.com",
+      "aninews.in"
+    ],
+    "total_count": 166,
     "articles_72h": null
   }
 }
