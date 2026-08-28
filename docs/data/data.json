@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-25T01:13:28.001540+00:00",
+  "updated_at": "2026-08-28T21:51:19.033164+00:00",
   "short_term": {
-    "score": 62,
-    "status_he": "מתוח",
+    "score": 46,
+    "status_he": "שקט",
     "avg_7day": 52,
-    "delta_vs_avg": 10
+    "delta_vs_avg": -6
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-08-11T13:06:09.454202+00:00",
-        "score": 62
-      },
-      {
         "ts": "2026-08-13T01:52:01.037312+00:00",
         "score": 62
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-08-25T01:13:27.998477+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-08-28T21:51:19.028092+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-11T16:02:10.297708+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-13T03:35:35.505462+00:00",
         "score": 46
@@ -356,6 +352,10 @@
       {
         "ts": "2026-08-25T01:13:27.998477+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-08-28T21:51:19.028092+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -387,24 +387,8 @@
     ]
   },
   "sources": {
-    "list": [
-      "aa.com.tr",
-      "aftonbladet.se",
-      "al-monitor.com",
-      "aletihad.ae",
-      "algemeiner.com",
-      "Al Jazeera",
-      "alquds.co.uk",
-      "arabnews.com",
-      "arynews.tv",
-      "asiaone.com",
-      "avaz.ba",
-      "azernews.az",
-      "baijiahao.baidu.com",
-      "bangordailynews.com",
-      "bankingnews.gr"
-    ],
-    "total_count": 187,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
