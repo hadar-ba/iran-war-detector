@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-04T02:57:43.943180+00:00",
+  "updated_at": "2026-09-04T15:51:31.396351+00:00",
   "short_term": {
-    "score": 62,
-    "status_he": "מתוח",
-    "avg_7day": 54,
-    "delta_vs_avg": 8
+    "score": 46,
+    "status_he": "שקט",
+    "avg_7day": 51,
+    "delta_vs_avg": -5
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-08-13T13:11:11.166583+00:00",
-        "score": 62
-      },
-      {
         "ts": "2026-08-14T13:07:41.202497+00:00",
         "score": 67
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-09-04T02:57:43.940224+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-04T15:51:31.395104+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-13T13:59:53.153083+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-14T14:04:01.026926+00:00",
         "score": 46
@@ -356,6 +352,10 @@
       {
         "ts": "2026-09-04T02:57:43.940224+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-04T15:51:31.395104+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -387,24 +387,8 @@
     ]
   },
   "sources": {
-    "list": [
-      "163.com",
-      "24heures.ch",
-      "2news.com",
-      "81.cn",
-      "abc7news.com",
-      "abcnews.com",
-      "airforcetimes.com",
-      "al-monitor.com",
-      "albiladpress.com",
-      "Al Jazeera",
-      "alwatan.com.sa",
-      "aninews.in",
-      "aol.co.uk",
-      "aol.com",
-      "applevalleynewsnow.com"
-    ],
-    "total_count": 186,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
