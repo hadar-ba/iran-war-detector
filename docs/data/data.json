@@ -1,16 +1,18 @@
 {
-  "updated_at": "2026-09-07T02:55:34.697349+00:00",
+  "updated_at": "2026-09-07T17:19:39.298809+00:00",
   "short_term": {
     "score": 62,
     "status_he": "מתוח",
-    "avg_7day": 57,
-    "delta_vs_avg": 5
+    "avg_7day": 58,
+    "delta_vs_avg": 4
   },
   "archive_comparison": {
-    "score": 62,
-    "status_he": "דמיון גבולי",
+    "score": 50,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -57,10 +59,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-08-16T01:14:40.838293+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-08-17T01:12:18.845390+00:00",
         "score": 62
@@ -112,13 +110,13 @@
       {
         "ts": "2026-09-07T02:55:34.694401+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-07T17:19:39.295870+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-15T04:06:30.752438+00:00",
-        "score": 61
-      },
       {
         "ts": "2026-06-18T03:46:05.063020+00:00",
         "score": 46
@@ -354,55 +352,59 @@
       {
         "ts": "2026-09-07T02:55:34.694401+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-07T17:19:39.295870+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
-        "label": "שקט ינו' 2026",
-        "score": 74,
+        "label": "אחרי פבר' 2026",
+        "score": 50,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 62,
+        "score": 50,
         "is_pre_conflict": true
       },
       {
-        "label": "אחרי פבר' 2026",
-        "score": 62,
+        "label": "שקט ינו' 2026",
+        "score": 49,
         "is_pre_conflict": false
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 47,
+        "score": 21,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 30,
+        "score": 8,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
     "list": [
-      "20minutes.fr",
-      "24tv.ua",
-      "2news.com",
+      "163.com",
+      "24heures.ch",
       "aa.com.tr",
-      "africanmanager.com",
+      "aboluowang.com",
+      "adn.com",
+      "afrique-asie.fr",
+      "airforcetimes.com",
+      "aktuality.sk",
       "al-monitor.com",
-      "alhurra.com",
-      "aljadeed.tv",
       "Al Jazeera",
       "Al Jazeera",
-      "americanthinker.com",
-      "aol.com",
-      "arabic.euronews.com",
-      "arabnews.com",
-      "asiaone.com"
+      "alwatan.com.sa",
+      "aninews.in",
+      "aol.co.uk",
+      "aol.com"
     ],
-    "total_count": 183,
-    "articles_72h": null
+    "total_count": 188,
+    "articles_72h": 250
   }
 }
