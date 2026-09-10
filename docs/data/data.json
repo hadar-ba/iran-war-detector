@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-08T03:06:09.485251+00:00",
+  "updated_at": "2026-09-10T03:07:58.293201+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
-    "avg_7day": 56,
-    "delta_vs_avg": -10
+    "avg_7day": 54,
+    "delta_vs_avg": -8
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-08-18T01:10:33.676594+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-08-18T12:47:05.345260+00:00",
         "score": 50
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-09-08T03:06:09.482312+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-10T03:07:58.289151+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-18T15:24:40.919548+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-20T14:03:50.829700+00:00",
         "score": 50
@@ -356,6 +352,10 @@
       {
         "ts": "2026-09-08T03:06:09.482312+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-10T03:07:58.289151+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -388,23 +388,23 @@
   },
   "sources": {
     "list": [
-      "163.com",
-      "24heures.ch",
+      "13wham.com",
+      "20minutes.fr",
+      "24tv.ua",
+      "2news.com",
       "aa.com.tr",
       "abc.net.au",
-      "aboluowang.com",
+      "abc6onyourside.com",
+      "abccolumbia.com",
+      "abcnews.com",
+      "adevarul.ro",
       "adn.com",
-      "afrique-asie.fr",
-      "airforcetimes.com",
-      "aktuality.sk",
+      "africanmanager.com",
       "al-monitor.com",
-      "Al Jazeera",
-      "Al Jazeera",
-      "aninews.in",
-      "aol.co.uk",
-      "aol.com"
+      "albawaba.com",
+      "albayan.ae"
     ],
-    "total_count": 188,
+    "total_count": 279,
     "articles_72h": null
   }
 }
