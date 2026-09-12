@@ -1,18 +1,16 @@
 {
-  "updated_at": "2026-09-10T15:56:04.430797+00:00",
+  "updated_at": "2026-09-12T03:09:40.557514+00:00",
   "short_term": {
     "score": 62,
     "status_he": "מתוח",
-    "avg_7day": 55,
-    "delta_vs_avg": 7
+    "avg_7day": 57,
+    "delta_vs_avg": 5
   },
   "archive_comparison": {
-    "score": 46,
-    "status_he": "דמיון נמוך",
+    "score": 62,
+    "status_he": "דמיון גבולי",
     "reference_events": [
-      "אפריל 2024",
-      "אוקטובר 2024",
-      "יוני 2025"
+      "פברואר 2026"
     ]
   },
   "signals": [
@@ -59,10 +57,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-08-20T01:10:46.400563+00:00",
-        "score": 50
-      },
       {
         "ts": "2026-08-21T12:47:51.192457+00:00",
         "score": 46
@@ -114,13 +108,13 @@
       {
         "ts": "2026-09-10T15:56:04.428256+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-12T03:09:40.554510+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-21T04:02:00.282113+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-21T14:11:32.834447+00:00",
         "score": 62
@@ -356,31 +350,35 @@
       {
         "ts": "2026-09-10T15:56:04.428256+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-12T03:09:40.554510+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
         "label": "טרום פבר' 2026",
-        "score": 46,
+        "score": 62,
         "is_pre_conflict": true
-      },
-      {
-        "label": "אחרי פבר' 2026",
-        "score": 46,
-        "is_pre_conflict": false
       },
       {
         "label": "שקט ינו' 2026",
-        "score": 46,
+        "score": 61,
         "is_pre_conflict": false
       },
       {
-        "label": "טרום אפר' 2024",
-        "score": 21,
-        "is_pre_conflict": true
+        "label": "אחרי פבר' 2026",
+        "score": 51,
+        "is_pre_conflict": false
       },
       {
         "label": "טרום אוק' 2024",
+        "score": 16,
+        "is_pre_conflict": true
+      },
+      {
+        "label": "טרום אפר' 2024",
         "score": 4,
         "is_pre_conflict": true
       }
@@ -388,23 +386,23 @@
   },
   "sources": {
     "list": [
-      "abc.net.au",
-      "abccolumbia.com",
-      "abcnews.com",
-      "adevarul.ro",
-      "adn.com",
+      "163.com",
+      "aa.com.tr",
+      "akhbarelyoum.dz",
+      "alanba.com.kw",
       "albayan.ae",
-      "alfajertv.com",
       "alhurra.com",
       "Al Jazeera",
-      "arabherald.com",
+      "aol.co.uk",
       "arabi21.com",
       "arabic.cnn.com",
       "arabic.euronews.com",
-      "arabnews.com",
-      "asiaone.com"
+      "arkansasonline.com",
+      "armstrongeconomics.com",
+      "arynews.tv",
+      "asahi.com"
     ],
-    "total_count": 127,
-    "articles_72h": 250
+    "total_count": 185,
+    "articles_72h": null
   }
 }

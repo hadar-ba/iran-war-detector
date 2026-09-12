@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-09-10T15:56:04.428256+00:00",
+  "timestamp_utc": "2026-09-12T03:09:40.554510+00:00",
   "status": "yellow",
   "headline_score_7day": 62,
-  "headline_score_21day": 46,
-  "score_jump": 16,
+  "headline_score_21day": 62,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
   "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 7-day reading is 17 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to the period before Operation Lion's Roar (February 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). הקריאה ל-7 ימים גבוהה ב-17 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 21-day picture is similar at 62% similarity to the period before Operation Lion's Roar (February 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). התמונה ל-21 יום דומה עם 62% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -24,7 +24,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     },
@@ -41,1075 +41,8 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [
-        "https://www.kikar.co.il/world-news/iran-ballistic-missiles-us-bases-jordan-oil-tanker",
-        "https://timesofindia.indiatimes.com/world/us/theyre-desperate-to-affect-election-trump-declares-iran-war-will-end-after-us-midterms/articleshow/133982252.cms",
-        "https://www.theamericanconservative.com/tehrans-pragmatists-are-still-open-to-diplomacy/"
-      ],
-      "articles": [
-        {
-          "url": "https://www.kikar.co.il/world-news/iran-ballistic-missiles-us-bases-jordan-oil-tanker",
-          "title": "איראן שיגרה עשרות טילים לעבר בסיסים אמריקניים בירדן",
-          "domain": "kikar.co.il",
-          "seendate": "20260909T054500Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/us/theyre-desperate-to-affect-election-trump-declares-iran-war-will-end-after-us-midterms/articleshow/133982252.cms",
-          "title": "  Theyre desperate to affect election : Trump declares Iran war will end after US midterms",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260909T201500Z"
-        },
-        {
-          "url": "https://www.theamericanconservative.com/tehrans-pragmatists-are-still-open-to-diplomacy/",
-          "title": "Tehran Pragmatists Are Still Open to Diplomacy - The American Conservative",
-          "domain": "theamericanconservative.com",
-          "seendate": "20260909T081500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-06/live-updates-907659",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260906T050000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-09/live-updates-908017",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260909T050000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-10/live-updates-908183",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260910T060000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/article-908080",
-          "title": "Kurdish group kills Sunni  traitor  working with IRGC , source tells  Post  ",
-          "domain": "jpost.com",
-          "seendate": "20260909T123000Z"
-        },
-        {
-          "url": "https://nypost.com/2026/09/05/world-news/iran-plotting-new-oct-7-style-attack-against-israel-report/",
-          "title": "Iran plotting new Oct . 7 - style attack against Israel : report",
-          "domain": "nypost.com",
-          "seendate": "20260906T003000Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/world-news/white-house-warns-trump-iran-conflict-2029",
-          "title": "בכירי הבית הלבן הזהירו את טראמפ : העימות עם איראן עד 2029",
-          "domain": "kikar.co.il",
-          "seendate": "20260910T054500Z"
-        },
-        {
-          "url": "https://newtalk.tw/news/view/2026-09-04/1056407",
-          "title": "伊朗沒打以色列 ？ 納坦雅胡 ： 這個政權比以往更虛弱 、 垮台指日可待 | 政治",
-          "domain": "newtalk.tw",
-          "seendate": "20260904T041500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-04/live-updates-907568",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260904T060000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-05/live-updates-907625",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260905T053000Z"
-        },
-        {
-          "url": "https://www.arabnews.com/middle-east/israel-defense-minister-hails-capture-of-hezbollah-highland-in-lebanon-3000463",
-          "title": "Arab News | Israel defense minister hails capture of Hezbollah highland in Lebanon",
-          "domain": "arabnews.com",
-          "seendate": "20260904T091500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/rkf300f2uml",
-          "title": "IDF enters decisive phase in south Lebanon as Hezbollah clashes threaten ceasefire",
-          "domain": "ynetnews.com",
-          "seendate": "20260907T233000Z"
-        },
-        {
-          "url": "https://www.bssnews.net/international/421496",
-          "title": "Iran arrests alleged opposition supporters after video circulates",
-          "domain": "bssnews.net",
-          "seendate": "20260906T134500Z"
-        },
-        {
-          "url": "https://arabic.euronews.com/2026/09/09/after-accusing-him-of-collaborating-with-the-irgc-kurdish-group-assassinates-sunni-cleric",
-          "title": "بعد اتهامه بالتعاون مع الحرس الثوري .. جماعة كردية تغتال رجل دين سنّيًا في إيران",
-          "domain": "arabic.euronews.com",
-          "seendate": "20260909T193000Z"
-        },
-        {
-          "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/charity-regulator-probes-cheetham-hill-34563043",
-          "title": "Charity regulator probes Cheetham Hill mosque where speakers praised Ayatollah",
-          "domain": "manchestereveningnews.co.uk",
-          "seendate": "20260907T174500Z"
-        },
-        {
-          "url": "https://www.inn.co.il/news/706041",
-          "title": "שר הביטחון מזהיר : נכה באיראן פעם נוספת",
-          "domain": "inn.co.il",
-          "seendate": "20260909T164500Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/article-907636",
-          "title": "Iran rebuilding its axis of resistance for attack , Israeli intelligence . suggests",
-          "domain": "jpost.com",
-          "seendate": "20260905T144500Z"
-        },
-        {
-          "url": "https://alfajertv.com/news/worldnews/741389.html",
-          "title": "نتنياهو من الأراضي السورية :  قريبون جدًا من حسم المواجهة مع إيران  – تلفزيون الفجر",
-          "domain": "alfajertv.com",
-          "seendate": "20260909T190000Z"
-        },
-        {
-          "url": "https://www.haberler.com/guncel/analiz-israil-secimleri-ve-netanyahu-nun-dusman-20224738-haberi/",
-          "title": "ANALİZ - İsrail seçimleri ve Netanyahunun düşman siyaseti",
-          "domain": "haberler.com",
-          "seendate": "20260910T091500Z"
-        },
-        {
-          "url": "https://www.jpost.com/israel-news/defense-news/article-908221",
-          "title": "IDF Inteligence Chief Shlomi Binder crusade to block Iran from getting nukes",
-          "domain": "jpost.com",
-          "seendate": "20260910T141500Z"
-        },
-        {
-          "url": "https://www.euronews.com/2026/09/05/three-killed-in-israeli-strikes-on-lebanon-health-ministry-says",
-          "title": "Three killed in Israeli strikes on Lebanon , health ministry says",
-          "domain": "euronews.com",
-          "seendate": "20260905T094500Z"
-        },
-        {
-          "url": "https://www.clevelandjewishnews.com/jns/katz-any-iranian-attack-will-bring-blows-tehran-has-not-yet-suffered/article_7ba52edf-e09c-5353-8936-471036466b10.html",
-          "title": "Katz : Any Iranian attack will bring blows Tehran  has not yet suffered  | JNS",
-          "domain": "clevelandjewishnews.com",
-          "seendate": "20260910T151500Z"
-        },
-        {
-          "url": "https://www.naharnet.com/stories/en/322283-2-killed-many-hurt-in-airstrikes-as-israel-says-hezbollah-launched-drone-in-security-zone",
-          "title": "3 killed , many hurt in airstrikes as Israel says Hezbollah launched drone in security zone",
-          "domain": "naharnet.com",
-          "seendate": "20260904T214500Z"
-        },
-        {
-          "url": "https://www.naharnet.com:443/stories/en/322283-3-killed-many-hurt-in-airstrikes-as-israel-says-hezbollah-launched-drone-in-security-zone",
-          "title": "3 killed , many hurt in airstrikes as Israel says Hezbollah launched drone in security zone",
-          "domain": "naharnet.com",
-          "seendate": "20260904T224500Z"
-        },
-        {
-          "url": "https://www.naharnet.com/stories/en/322283-3-killed-many-hurt-in-airstrikes-as-israel-says-hezbollah-launched-drone-in-security-zone",
-          "title": "3 killed , many hurt in airstrikes as Israel says Hezbollah launched drone in security zone",
-          "domain": "naharnet.com",
-          "seendate": "20260905T090000Z"
-        },
-        {
-          "url": "https://www.thejournal.ie/four-killed-israeli-strikes-southern-lebanon-7154209-Sep2026/",
-          "title": "Four killed in Israeli strikes on southern Lebanon , health ministry says",
-          "domain": "thejournal.ie",
-          "seendate": "20260906T093000Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/arab-news/iranian-officers-trapped-lebanon-tunnels",
-          "title": "מלכודת האדמה : קצינים איראניים נצורים במנהרות - טהרן מאיימת",
-          "domain": "kikar.co.il",
-          "seendate": "20260906T093000Z"
-        },
-        {
-          "url": "https://www.ziarulnational.md/netanyahu-sustine-ca-rasturnarea-regimului-iranian-este-la-indemana/",
-          "title": "Netanyahu susține că răsturnarea regimului iranian este „ la îndemână  ",
-          "domain": "ziarulnational.md",
-          "seendate": "20260903T223000Z"
-        },
-        {
-          "url": "https://www.albayan.ae/news/middle-east/lebanon/1550140",
-          "title": "26 قتيلاً ومصاباً في غارات إسرائيلية على جنوب لبنان وشرقه",
-          "domain": "albayan.ae",
-          "seendate": "20260905T074500Z"
-        },
-        {
-          "url": "https://english.aawsat.com/arab-world/5314519-israel-defense-minister-hails-capture-ali-al-taher-ridge-hezbollah",
-          "title": "Israel Defense Minister Hails Capture of Ali Al - Taher Ridge from Hezbollah",
-          "domain": "english.aawsat.com",
-          "seendate": "20260904T093000Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/9/4/israel-frees-four-more-lebanese-prisoners-in-red-cross-mediated-handover",
-          "title": "Israel frees four more Lebanese prisoners in Red Cross - mediated handover",
-          "domain": "aljazeera.com",
-          "seendate": "20260904T161500Z"
-        },
-        {
-          "url": "https://www.pc.co.il/news/security/458088/",
-          "title": "סיכום סייבר תשפ  ו : איראן  נתנה בראש  - ישראל החזירה - ",
-          "domain": "pc.co.il",
-          "seendate": "20260910T130000Z"
-        },
-        {
-          "url": "https://sonara.net/%D9%83%D8%A7%D8%AA%D8%B3-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A8%D8%B1%D8%AF-%D8%BA%D9%8A%D8%B1-%D9%85%D8%B3%D8%A8%D9%88%D9%82-%D8%A3%D9%8A-%D9%87%D8%AC%D9%88%D9%85-%D8%B9/",
-          "title": "كاتس يهدد إيران برد غير مسبوق : أي هجوم على إسرائيل سيحررنا من كل القيود",
-          "domain": "sonara.net",
-          "seendate": "20260903T161500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/syttgtf00fg",
-          "title": "Israel sees rising risk of Iranian attack as Tehran weighs escalation before US midte",
-          "domain": "ynetnews.com",
-          "seendate": "20260905T184500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/opinions-analysis/article/hybhnavogg",
-          "title": "How stable oil flows could leave Israel trapped in a war with Iran",
-          "domain": "ynetnews.com",
-          "seendate": "20260904T094500Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/trumps-top-advisors-warn-him-iran-war-could-drag-through-end-of-his-term-report/articleshow/133991247.cms",
-          "title": "Trump top advisors warn him Iran war could drag through end of his term : Report",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260910T040000Z"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/un-nuclear-watchdog-board-reports-iran-to-the-un-security-council-for-the-first-time-in-two-decades-101788974306008.html",
-          "title": "UN nuclear watchdog board  report Iran to the UN Security Council for the first time in two decades",
-          "domain": "hindustantimes.com",
-          "seendate": "20260909T174500Z"
-        },
-        {
-          "url": "https://www.hurriyetdailynews.com/iran-hits-us-targets-as-washington-says-probing-wedding-strike-226438",
-          "title": "Iran hits US targets as Washington says probing wedding strike",
-          "domain": "hurriyetdailynews.com",
-          "seendate": "20260904T070000Z"
-        },
-        {
-          "url": "https://www.khaberni.com/news/845243-%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D8%B9%D8%B3%D9%83%D8%B1%D9%8A-%D9%84%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%B6%D8%B1%D8%A8-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86",
-          "title": "تقييم عسكري لاستئناف ضرب إيران",
-          "domain": "khaberni.com",
-          "seendate": "20260905T084500Z"
-        },
-        {
-          "url": "https://www.thestar.com.my/news/world/2026/09/04/iran-hits-us-targets-as-washington-says-probing-wedding-strike",
-          "title": "Iran hits US targets as Washington says probing wedding strike",
-          "domain": "thestar.com.my",
-          "seendate": "20260904T020000Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/sjpilxyozg",
-          "title": "סופגת ושותקת : השכנה של ישראל מכילה ירי טילים מאיראן . זו כנראה הסיבה",
-          "domain": "ynet.co.il",
-          "seendate": "20260905T091500Z"
-        },
-        {
-          "url": "https://www.jacarandafm.com/news/news/iran-hits-us-as-washington-probing-wedding-strike/",
-          "title": "Iran hits US targets as Washington says probing wedding strike",
-          "domain": "jacarandafm.com",
-          "seendate": "20260904T080000Z"
-        },
-        {
-          "url": "https://www.manilatimes.net/2026/09/04/world/americas-emea/iran-hits-us-targets-as-washington-says-probing-wedding-strike/2418475",
-          "title": "Iran hits US targets as Washington says probing wedding strike",
-          "domain": "manilatimes.net",
-          "seendate": "20260904T014500Z"
-        },
-        {
-          "url": "https://arabic.cnn.com/middle-east/article/2026/09/07/trumps-blockade-pushes-iran-toward-military-escalation",
-          "title": "تحليل : حصار ترامب يدفع إيران نحو التصعيد العسكري",
-          "domain": "arabic.cnn.com",
-          "seendate": "20260907T191500Z"
-        },
-        {
-          "url": "https://arabi21.com/story/1786643/%D8%AD%D8%B1%D8%A8-%D9%87%D8%B1%D9%85%D8%B2-%D9%88%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84",
-          "title": "حرب هرمز وإسرائيل",
-          "domain": "arabi21.com",
-          "seendate": "20260905T053000Z"
-        },
-        {
-          "url": "https://www.jns.org/news/israel-news/katz-any-iranian-attack-will-bring-blows-tehran-has-not-yet-suffered",
-          "title": "Katz : Any Iranian attack will bring blows Tehran  has not yet suffered  - Israel & Jewish News",
-          "domain": "jns.org",
-          "seendate": "20260910T141500Z"
-        },
-        {
-          "url": "https://www.yahoo.com/news/politics/articles/trump-blockade-pushes-iran-toward-171923775.html",
-          "title": "Trump blockade pushes Iran toward military escalation",
-          "domain": "yahoo.com",
-          "seendate": "20260907T201500Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279284533/iran-chief-justice-mohseni-ejei-calls-for-global-unity-peace-condemns-us-israel-strikes-on-islamic-republic",
-          "title": "Iran Chief Justice Mohseni - Ejei calls for global unity , peace ; condemns US - Israel strikes on Islamic Republic",
-          "domain": "middleeaststar.com",
-          "seendate": "20260903T223000Z"
-        },
-        {
-          "url": "http://www.iranherald.com/news/279284533/iran-chief-justice-mohseni-ejei-calls-for-global-unity-peace-condemns-us-israel-strikes-on-islamic-republic",
-          "title": "Iran Chief Justice Mohseni - Ejei calls for global unity , peace ; condemns US - Israel strikes on Islamic Republic",
-          "domain": "iranherald.com",
-          "seendate": "20260903T223000Z"
-        },
-        {
-          "url": "http://www.jpost.com/opinion/article-907970",
-          "title": "Trump Iran war leaves him struggling to find a way out",
-          "domain": "jpost.com",
-          "seendate": "20260909T153000Z"
-        },
-        {
-          "url": "https://thechronicle.com.gh/feature-six-months-on-iran-is-still-standing-but-survival-is-becoming-more-costly/",
-          "title": "Feature : Six months on , Iran is still standing , but survival is becoming more costly",
-          "domain": "thechronicle.com.gh",
-          "seendate": "20260909T094500Z"
-        },
-        {
-          "url": "https://edition.cnn.com/2026/09/07/middleeast/trump-blockade-iran-military-escalation-intl-latam",
-          "title": "Iran threatens Gulf escalation over Trump maritime blockade",
-          "domain": "edition.cnn.com",
-          "seendate": "20260907T220000Z"
-        },
-        {
-          "url": "https://us.cnn.com/2026/09/07/middleeast/trump-blockade-iran-military-escalation-intl-latam",
-          "title": "Iran threatens Gulf escalation over Trump maritime blockade",
-          "domain": "us.cnn.com",
-          "seendate": "20260907T201500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/09/07/middleeast/trump-blockade-iran-military-escalation-intl-latam",
-          "title": "Iran threatens Gulf escalation over Trump maritime blockade",
-          "domain": "cnn.com",
-          "seendate": "20260907T211500Z"
-        },
-        {
-          "url": "https://nationalpost.com/news/world/south-korea-iran-strait-hormuz",
-          "title": "South Korea prepares to send navy ship to Strait of Hormuz : reports",
-          "domain": "nationalpost.com",
-          "seendate": "20260904T060000Z"
-        },
-        {
-          "url": "https://www.abc.net.au/news/2026-09-08/lebanon-israel-hezbollah-shadow-war/107111986",
-          "title": "Lebanon thrown into crisis in shadow of Iran war",
-          "domain": "abc.net.au",
-          "seendate": "20260907T210000Z"
-        },
-        {
-          "url": "https://www.haber7.com/yazarlar/ertugrul-cingil/3657806-netanyahunun-kanli-secim-kumari",
-          "title": "Netanyahunun kanlı seçim kumarı - Haber 7 Yazarı Ertuğrul Cingil",
-          "domain": "haber7.com",
-          "seendate": "20260908T071500Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/bkziqcudfe",
-          "title": "המודיעין בארה  ב :  איראן נחושה להמשיך במלחמה ושוקלת הסלמה משמעותית  ",
-          "domain": "ynet.co.il",
-          "seendate": "20260905T041500Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/education/news/sco-summit-2026-a-look-at-what-the-bishkek-declaration-says/articleshow/133760129.cms",
-          "title": "SCO summit 2026 : A look at what the Bishkek declaration says",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260904T130000Z"
-        },
-        {
-          "url": "https://yalibnan.com/2026/09/04/israeli-army-confirm-seizing-lebanons-key-ali-al-taher-ridge-from-hezbollah/",
-          "title": "Israeli army confirm seizing Lebanon key Ali al - Taher ridge from Hezbollah – Ya Libnan",
-          "domain": "yalibnan.com",
-          "seendate": "20260904T204500Z"
-        },
-        {
-          "url": "https://www.isracast.com/are-israel-and-the-us-on-the-same-page-when-it-comes-to-the-iranian-nuclear-threat/",
-          "title": "ARE ISRAEL AND THE US ON THE SAME PAGE WHEN IT COMES TO THE IRANIAN NUCLEAR THREAT ? ",
-          "domain": "isracast.com",
-          "seendate": "20260906T101500Z"
-        },
-        {
-          "url": "https://english.elpais.com/international/2026-09-07/israel-bombs-southern-lebanon-despite-the-truce-we-feel-like-we-are-still-at-war.html",
-          "title": "Israel bombs southern Lebanon despite the truce :  We feel like we are still at war  | International",
-          "domain": "english.elpais.com",
-          "seendate": "20260908T020000Z"
-        },
-        {
-          "url": "https://nypost.com/2026/09/08/opinion/iran-and-ukraine-are-the-last-conflicts-of-the-cold-war-and-their-end-could-spur-an-open-future-for-the-world/",
-          "title": "Iran and Ukraine are the last conflicts of the Cold War -- and their end could spur an open future for the world",
-          "domain": "nypost.com",
-          "seendate": "20260909T023000Z"
-        },
-        {
-          "url": "https://www.omandaily.om/article/1209951",
-          "title": "حزب الله : الإفراج عن ألاسرى لا يمكن أن يكون غطاء للتغاضي عن استمرار العدوان",
-          "domain": "omandaily.om",
-          "seendate": "20260905T200000Z"
-        },
-        {
-          "url": "https://www.hindustantimes.com/india-news/twin-sisters-jailed-in-iran-taraneh-rahimi-romina-over-anti-regime-protests-irgc-ripped-hair-broken-elbows-rape-threat-101788704877720.html",
-          "title": "Twin sisters jailed in Iran over anti - regime protests : Ripped - out hair , broken elbows , and a  rape threat  ",
-          "domain": "hindustantimes.com",
-          "seendate": "20260906T160000Z"
-        },
-        {
-          "url": "https://www.fairobserver.com/politics/iran-trapped-between-authoritarian-rule-and-foreign-bombs/",
-          "title": "Iran Trapped Between Authoritarian Rule and Foreign Bombs",
-          "domain": "fairobserver.com",
-          "seendate": "20260904T180000Z"
-        },
-        {
-          "url": "https://www.yahoo.com/news/world/articles/israel-war-leaves-lebanon-schools-053611505.html",
-          "title": "Israel war leaves Lebanon schools balancing students and the displaced",
-          "domain": "yahoo.com",
-          "seendate": "20260909T070000Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/features/2026/9/9/israels-war-leaves-lebanons-schools-balancing-students-and-the-displaced",
-          "title": "Israel war leaves Lebanon schools balancing students and the displaced | Israel attacks Lebanon News",
-          "domain": "aljazeera.com",
-          "seendate": "20260909T083000Z"
-        },
-        {
-          "url": "https://www.jns.org/news/israel-news/netanyahu-toppling-irans-regime-within-reach",
-          "title": "Netanyahu : Toppling Iran regime  within reach  - Israel & Jewish News",
-          "domain": "jns.org",
-          "seendate": "20260904T084500Z"
-        },
-        {
-          "url": "https://news.az/news/iran-army-says-us-failed-to-achieve-war-objectives",
-          "title": "Iran Army says US failed to achieve war objectives",
-          "domain": "news.az",
-          "seendate": "20260904T151500Z"
-        },
-        {
-          "url": "https://www.livemint.com/global/time-is-no-longer-on-iran-s-side-in-the-battle-of-the-blockades-11788572605206.html",
-          "title": "Time is no longer on Iran side in the battle of the blockades",
-          "domain": "livemint.com",
-          "seendate": "20260905T041500Z"
-        },
-        {
-          "url": "https://www.hispantv.com/noticias/politica/659891/iran-guerra-militar-alista-economica",
-          "title": "Vicepresidente : Irán ganó la guerra y se alista para la económica",
-          "domain": "hispantv.com",
-          "seendate": "20260905T180000Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=453573&fm=psp,tst",
-          "title": "Lebanon thrown into crisis in shadow of Iran war - 08 - Sep - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260907T193000Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=453573",
-          "title": "Lebanon thrown into crisis in shadow of Iran war - 08 - Sep - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260908T003000Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=453573&fm=psp,tsf",
-          "title": "Lebanon thrown into crisis in shadow of Iran war - 08 - Sep - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260907T193000Z"
-        },
-        {
-          "url": "https://ktbb.com/post/?p=1539298",
-          "title": "US hits Iranian oil tankers , and other key Mideast developments – KTBB News , Weather , Talk",
-          "domain": "ktbb.com",
-          "seendate": "20260905T183000Z"
-        },
-        {
-          "url": "https://reason.com/2026/09/05/pundits-got-the-iran-war-wrong/",
-          "title": "The pro - war pundits who got Iraq wrong are also getting Iran wrong",
-          "domain": "reason.com",
-          "seendate": "20260905T111500Z"
-        },
-        {
-          "url": "https://alhurra.com/39014",
-          "title": "التصعيد | الحرة",
-          "domain": "alhurra.com",
-          "seendate": "20260910T024500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/09/10/middleeast/yemen-perim-houthis-saudi-iran-war-intl",
-          "title": "This small island off Yemen is now a strategic prize in the widening Iran war",
-          "domain": "cnn.com",
-          "seendate": "20260910T061500Z"
-        },
-        {
-          "url": "https://adevarul.ro/stiri-externe/sua/jd-vance-evita-sa-numeasca-razboi-conflictul-cu-2554008.html",
-          "title": "JD Vance evită să numească „ război  conflictul cu Iranul . „ Nu au loc schimburi de focuri active  ",
-          "domain": "adevarul.ro",
-          "seendate": "20260904T041500Z"
-        },
-        {
-          "url": "https://www.latimes.com/world-nation/story/2026-09-04/vance-says-iran-fight-isnt-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "latimes.com",
-          "seendate": "20260904T201500Z"
-        },
-        {
-          "url": "https://www.asiaone.com/world/vance-says-iran-fight-isnt-war-trump-tries-navigate-unpopular-conflict-election-nears",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "asiaone.com",
-          "seendate": "20260904T033000Z"
-        },
-        {
-          "url": "https://www.asiaone.com:443/world/vance-says-iran-fight-isnt-war-trump-tries-navigate-unpopular-conflict-election-nears",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "asiaone.com",
-          "seendate": "20260904T033000Z"
-        },
-        {
-          "url": "https://www.asiaone.com/world/vance-says-iran-fight-isnt-war-trump-tries-navigate-unpopular-conflict-election-nears-0",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "asiaone.com",
-          "seendate": "20260905T084500Z"
-        },
-        {
-          "url": "https://www.asiaone.com:443/world/vance-says-iran-fight-isnt-war-trump-tries-navigate-unpopular-conflict-election-nears-0",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "asiaone.com",
-          "seendate": "20260905T084500Z"
-        },
-        {
-          "url": "https://abcnews.com/Business/wireStory/vance-iran-fight-war-trump-navigate-unpopular-conflict-136191116",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "abcnews.com",
-          "seendate": "20260904T090000Z"
-        },
-        {
-          "url": "https://www.stcatharinesstandard.ca/business/vance-says-iran-fight-isn-t-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/article_dbae1335-09ed-562c-afcf-ea53b283d909.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "stcatharinesstandard.ca",
-          "seendate": "20260904T020000Z"
-        },
-        {
-          "url": "https://hotair.com/generalissimo/2026/09/08/the-laboring-iranian-regime-had-another-rough-week-n3818754",
-          "title": "The Laboring Iranian Regime Had Another Rough Week",
-          "domain": "hotair.com",
-          "seendate": "20260908T143000Z"
-        },
-        {
-          "url": "https://www.digi24.ro/stiri/externe/jd-vance-afirma-ca-disputa-cu-iranul-nu-este-un-razboi-3934431",
-          "title": "JD Vance afirmă că disputa cu Iranul nu este un „ război  ",
-          "domain": "digi24.ro",
-          "seendate": "20260904T051500Z"
-        },
-        {
-          "url": "https://www.yahoo.com/news/politics/articles/vance-says-iran-fight-isnt-003010115.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "yahoo.com",
-          "seendate": "20260904T011500Z"
-        },
-        {
-          "url": "https://www.wral.com/news/ap/7ab86-vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "wral.com",
-          "seendate": "20260904T033000Z"
-        },
-        {
-          "url": "https://ziare.com/razboi-iran/jd-vance-responsabilitate-sua-razboi-2033489",
-          "title": "JD Vance susține că SUA aveau „ responsabilitatea  de a ataca Iranul . „ Nu l - aș numi război  ",
-          "domain": "ziare.com",
-          "seendate": "20260904T050000Z"
-        },
-        {
-          "url": "https://nypost.com/2026/09/06/opinion/democrats-hoping-to-appear-normal-as-they-roll-out-their-blue-wave-of-weirdos-ahead-of-critical-midterms/",
-          "title": "Democrats hoping to appear  normal  as they roll out their blue wave of weirdos ahead of critical midterms",
-          "domain": "nypost.com",
-          "seendate": "20260907T033000Z"
-        },
-        {
-          "url": "https://www.clickondetroit.com/news/politics/2026/09/04/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "clickondetroit.com",
-          "seendate": "20260904T020000Z"
-        },
-        {
-          "url": "https://dailytrust.com/iran-hits-us-targets-as-washington-probes-wedding-strike/",
-          "title": "Iran hits US targets as Washington probes wedding strike",
-          "domain": "dailytrust.com",
-          "seendate": "20260904T060000Z"
-        },
-        {
-          "url": "https://www.citynewsokc.com/townnews/politics/iran-hits-us-targets-as-washington-says-probing-wedding-strike/article_3b51bd52-d4e8-5993-aef7-8e9423497a29.html",
-          "title": "Iran hits US targets as Washington says probing wedding strike",
-          "domain": "citynewsokc.com",
-          "seendate": "20260903T234500Z"
-        },
-        {
-          "url": "https://www.twincities.com/2026/09/04/jd-vance-iran-war/",
-          "title": "Vance says Iran fight isnt  war  as Trump tries to navigate conflict",
-          "domain": "twincities.com",
-          "seendate": "20260904T144500Z"
-        },
-        {
-          "url": "https://www.adn.com/nation-world/2026/09/04/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "adn.com",
-          "seendate": "20260904T200000Z"
-        },
-        {
-          "url": "https://www.mcall.com/2026/09/04/jd-vance-iran-war/",
-          "title": "Vance says Iran fight isnt  war  as Trump tries to navigate conflict",
-          "domain": "mcall.com",
-          "seendate": "20260904T183000Z"
-        },
-        {
-          "url": "https://www.siasat.com/us-rejects-war-label-as-iran-conflict-weighs-on-midterms-3536014/",
-          "title": "US rejects  war  label as Iran conflict weighs on midterms",
-          "domain": "siasat.com",
-          "seendate": "20260904T030000Z"
-        },
-        {
-          "url": "https://www.winnipegfreepress.com/business/2026/09/03/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears – Winnipeg Free Press",
-          "domain": "winnipegfreepress.com",
-          "seendate": "20260904T011500Z"
-        },
-        {
-          "url": "https://www.clickorlando.com/news/politics/2026/09/04/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "clickorlando.com",
-          "seendate": "20260904T020000Z"
-        },
-        {
-          "url": "https://www.news-gazette.com/news/nation-world/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_f1a09f33-0975-5211-b87a-adf46de195fc.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "news-gazette.com",
-          "seendate": "20260904T084500Z"
-        },
-        {
-          "url": "https://www.raya.ps/news/1224461.html",
-          "title": "إصابة جنديين إسرائيليين : 12 شهيدا في غارات على جنوب لبنان",
-          "domain": "raya.ps",
-          "seendate": "20260907T174500Z"
-        },
-        {
-          "url": "https://www.naharnet.com/stories/en/322259-iran-war-is-not-a-war-us-vp-vance-says",
-          "title": "Iran war is not a war , US VP Vance says",
-          "domain": "naharnet.com",
-          "seendate": "20260904T084500Z"
-        },
-        {
-          "url": "https://www.naharnet.com:443/stories/en/322259-iran-war-is-not-a-war-us-vp-vance-says",
-          "title": "Iran war is not a war , US VP Vance says",
-          "domain": "naharnet.com",
-          "seendate": "20260904T090000Z"
-        },
-        {
-          "url": "https://euobserver.com/234129/zawtar-al-gharbiyah-the-lebanese-safe-zone-under-israeli-surveillance-and-fire/",
-          "title": "Zawtar al - Gharbiyah : the Lebanese  safe zone  under Israeli surveillance and fire – EUobserver",
-          "domain": "euobserver.com",
-          "seendate": "20260906T114500Z"
-        },
-        {
-          "url": "https://www.wsbradio.com/news/politics/vance-says-iran/RHPFWUXTQE3HVME3SBAMC4MEPQ/",
-          "title": "Vance says Iran fight isnt a  war  ",
-          "domain": "wsbradio.com",
-          "seendate": "20260904T094500Z"
-        },
-        {
-          "url": "https://www.wfmj.com/news/consumer/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_8a011319-6380-5bbd-b0b5-6b8ed7107c2d.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "wfmj.com",
-          "seendate": "20260904T144500Z"
-        },
-        {
-          "url": "http://www.dailyadvance.com/news/national/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_ce041b25-dd71-5b5b-a398-b5565d41000c.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "dailyadvance.com",
-          "seendate": "20260904T101500Z"
-        },
-        {
-          "url": "https://www.khqa.com/news/nation-world/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_b64090b5-0b1a-5254-9a97-4b0fdd523777.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "khqa.com",
-          "seendate": "20260904T043000Z"
-        },
-        {
-          "url": "https://weeklyblitz.net/2026/09/10/irans-fragmentation-gamble-is-backfiring-how-the-gulf-turned-escalation-into-unity/",
-          "title": "Iran fragmentation gamble is backfiring : How the Gulf turned escalation into unity",
-          "domain": "weeklyblitz.net",
-          "seendate": "20260909T221500Z"
-        },
-        {
-          "url": "https://www.durangoherald.com/articles/associated-press/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "durangoherald.com",
-          "seendate": "20260904T071500Z"
-        },
-        {
-          "url": "https://www.gjsentinel.com/news/us/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_73037a25-bd3d-5ede-8127-fcb242f00c01.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "gjsentinel.com",
-          "seendate": "20260904T043000Z"
-        },
-        {
-          "url": "https://www.eurasiareview.com/10092026-how-the-gulf-foiled-irans-fragmentation-plan-oped/",
-          "title": "How The Gulf Foiled Iran Fragmentation Plan - OpEd",
-          "domain": "eurasiareview.com",
-          "seendate": "20260910T024500Z"
-        },
-        {
-          "url": "https://www.greanvillepost.com/the-iran-war-gets-hot-again-sep-sitrep/",
-          "title": "The Iran War Gets Hot Again ( Sep SITREP ) ",
-          "domain": "greanvillepost.com",
-          "seendate": "20260909T194500Z"
-        },
-        {
-          "url": "https://www.thepeterboroughexaminer.com/business/vance-says-iran-fight-isn-t-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/article_72743bb2-13b7-535a-8bc2-f3b7b7fff6ca.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "thepeterboroughexaminer.com",
-          "seendate": "20260904T030000Z"
-        },
-        {
-          "url": "https://www.clevelandjewishnews.com/news/world_news/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_94dbfeca-1a5d-5c5e-afab-e312c5b8bc06.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "clevelandjewishnews.com",
-          "seendate": "20260904T193000Z"
-        },
-        {
-          "url": "https://www.winknews.com/news/international/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_75cb3e8d-c31b-5ec4-b232-ceeaabfd0798.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "winknews.com",
-          "seendate": "20260904T033000Z"
-        },
-        {
-          "url": "https://middle-east-online.com/%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A3%D9%8A%D9%91%D9%8F-%D8%AC%D8%AF%D9%88%D9%89-%D9%85%D9%86-%D8%AD%D8%B1%D8%A8%D9%8D-%D9%84%D8%A7-%D9%8A%D8%B1%D8%A8%D8%AD%D9%87%D8%A7-%D8%A3%D8%AD%D8%AF%D8%9F",
-          "title": "لبنان .. أيُّ جدوى من حربٍ لا يربحها أحد ؟ ",
-          "domain": "middle-east-online.com",
-          "seendate": "20260907T101500Z"
-        },
-        {
-          "url": "https://www.jns.org/opinion/erfan-fard/twenty-five-years-after-9-11-americas-war-on-terror-is-not-over",
-          "title": "Twenty - five years after 9 / 11 , America war on terror is not over - Israel & Jewish News",
-          "domain": "jns.org",
-          "seendate": "20260909T101500Z"
-        },
-        {
-          "url": "https://www.miamitimesonline.com/news/world_national/vance-says-iran-fight-isn-t-a-war-as-trump-tries-to-navigate-unpopular-conflict/article_f9b38c58-6d66-4080-861b-18d4c6075f70.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears | National & World News",
-          "domain": "miamitimesonline.com",
-          "seendate": "20260904T210000Z"
-        },
-        {
-          "url": "https://www.abccolumbia.com/2026/09/04/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "abccolumbia.com",
-          "seendate": "20260904T183000Z"
-        },
-        {
-          "url": "https://www.theatlantic.com/ideas/2026/09/pentagon-military-newspaper-independence-supression/688547/",
-          "title": "The Inside Story of What Happened at Stars and Stripes",
-          "domain": "theatlantic.com",
-          "seendate": "20260909T210000Z"
-        },
-        {
-          "url": "http://www.postregister.com/businessreport/business/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_0f6b0df2-c451-5368-a47d-0ee8e5e8cee5.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "postregister.com",
-          "seendate": "20260904T074500Z"
-        },
-        {
-          "url": "https://www.dailygazette.com/leader_herald/ap/business/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_2c517541-a3ff-5278-9297-ab1bde7695aa.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "dailygazette.com",
-          "seendate": "20260904T040000Z"
-        },
-        {
-          "url": "https://www.dailygazette.com/hv360/ap/business/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_2c517541-a3ff-5278-9297-ab1bde7695aa.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "dailygazette.com",
-          "seendate": "20260904T020000Z"
-        },
-        {
-          "url": "https://www.wvgazettemail.com/ap/business/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_c78c365a-c71b-53e3-a5d3-2db24743b2b8.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "wvgazettemail.com",
-          "seendate": "20260905T020000Z"
-        },
-        {
-          "url": "http://www.jamaicantimes.com/news/279287809/blasts-reported-near-kharg-island-oil-hub",
-          "title": "Blasts Reported Near Kharg Island Oil Hub",
-          "domain": "jamaicantimes.com",
-          "seendate": "20260905T084500Z"
-        },
-        {
-          "url": "http://www.austinglobe.com/news/279287809/blasts-reported-near-kharg-island-oil-hub",
-          "title": "Blasts Reported Near Kharg Island Oil Hub",
-          "domain": "austinglobe.com",
-          "seendate": "20260905T084500Z"
-        },
-        {
-          "url": "http://www.laosnews.net/news/279287809/blasts-reported-near-kharg-island-oil-hub",
-          "title": "Blasts Reported Near Kharg Island Oil Hub",
-          "domain": "laosnews.net",
-          "seendate": "20260905T120000Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279287809/blasts-reported-near-kharg-island-oil-hub",
-          "title": "Blasts Reported Near Kharg Island Oil Hub",
-          "domain": "middleeaststar.com",
-          "seendate": "20260905T120000Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279287809/blasts-reported-near-kharg-island-oil-hub",
-          "title": "Blasts Reported Near Kharg Island Oil Hub",
-          "domain": "heraldglobe.com",
-          "seendate": "20260905T090000Z"
-        },
-        {
-          "url": "http://www.arabherald.com/news/279287809/blasts-reported-near-kharg-island-oil-hub",
-          "title": "Blasts Reported Near Kharg Island Oil Hub",
-          "domain": "arabherald.com",
-          "seendate": "20260905T094500Z"
-        },
-        {
-          "url": "http://www.caribbeanherald.com/news/279287809/blasts-reported-near-kharg-island-oil-hub",
-          "title": "Blasts Reported Near Kharg Island Oil Hub",
-          "domain": "caribbeanherald.com",
-          "seendate": "20260905T094500Z"
-        },
-        {
-          "url": "http://www.vietnamtribune.com/news/279287809/blasts-reported-near-kharg-island-oil-hub",
-          "title": "Blasts Reported Near Kharg Island Oil Hub",
-          "domain": "vietnamtribune.com",
-          "seendate": "20260905T094500Z"
-        },
-        {
-          "url": "http://www.bignewsnetwork.com/news/279287809/blasts-reported-near-kharg-island-oil-hub",
-          "title": "Blasts Reported Near Kharg Island Oil Hub",
-          "domain": "bignewsnetwork.com",
-          "seendate": "20260905T084500Z"
-        },
-        {
-          "url": "https://www.egyptindependent.com/exclusive-this-small-island-off-yemen-is-now-a-strategic-prize-in-the-widening-iran-war/",
-          "title": "Exclusive : This small island off Yemen is now a strategic prize in the widening Iran war",
-          "domain": "egyptindependent.com",
-          "seendate": "20260910T153000Z"
-        },
-        {
-          "url": "https://www.wokv.com/news/politics/vance-says-iran/RHPFWUXTQE3HVME3SBAMC4MEPQ/",
-          "title": "Vance says Iran fight isnt a  war  ",
-          "domain": "wokv.com",
-          "seendate": "20260904T011500Z"
-        },
-        {
-          "url": "https://www.wdbo.com/news/politics/vance-says-iran/RHPFWUXTQE3HVME3SBAMC4MEPQ/",
-          "title": "Vance says Iran fight isnt a  war  ",
-          "domain": "wdbo.com",
-          "seendate": "20260904T051500Z"
-        },
-        {
-          "url": "http://www.gazettextra.com/news/nation_world/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_3b6dc268-7448-5db1-8715-09e2585eacff.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "gazettextra.com",
-          "seendate": "20260904T021500Z"
-        },
-        {
-          "url": "https://www.kxl.com/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "kxl.com",
-          "seendate": "20260904T021500Z"
-        },
-        {
-          "url": "http://www.bozemandailychronicle.com/wire/business/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_565405d6-a1fc-5ab6-ba27-fd356fff4a61.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "bozemandailychronicle.com",
-          "seendate": "20260904T031500Z"
-        },
-        {
-          "url": "https://www.messenger-inquirer.com/news/national/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as/article_9e833a50-db8a-50f3-8296-c1751f642300.html",
-          "title": "Vance says Iran fight isnt a  war  as Trump tries to navigate unpopular conflict as election nears",
-          "domain": "messenger-inquirer.com",
-          "seendate": "20260904T071500Z"
-        },
-        {
-          "url": "https://www.greeleytribune.com/2026/09/04/jd-vance-iran-war/",
-          "title": "Vance says Iran fight isnt  war  as Trump tries to navigate conflict",
-          "domain": "greeleytribune.com",
-          "seendate": "20260904T164500Z"
-        },
-        {
-          "url": "http://www.southeastasiapost.com/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "southeastasiapost.com",
-          "seendate": "20260905T134500Z"
-        },
-        {
-          "url": "http://www.mexicostar.com/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "mexicostar.com",
-          "seendate": "20260905T111500Z"
-        },
-        {
-          "url": "http://www.jamaicantimes.com/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "jamaicantimes.com",
-          "seendate": "20260905T133000Z"
-        },
-        {
-          "url": "http://www.laosnews.net/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "laosnews.net",
-          "seendate": "20260905T120000Z"
-        },
-        {
-          "url": "http://www.arabherald.com/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "arabherald.com",
-          "seendate": "20260905T094500Z"
-        },
-        {
-          "url": "http://www.caribbeanherald.com/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "caribbeanherald.com",
-          "seendate": "20260905T094500Z"
-        },
-        {
-          "url": "http://www.vietnamtribune.com/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "vietnamtribune.com",
-          "seendate": "20260905T094500Z"
-        },
-        {
-          "url": "http://www.chinanationalnews.com/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "chinanationalnews.com",
-          "seendate": "20260905T184500Z"
-        },
-        {
-          "url": "http://www.shanghainews.net/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "shanghainews.net",
-          "seendate": "20260905T190000Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "middleeaststar.com",
-          "seendate": "20260905T120000Z"
-        },
-        {
-          "url": "http://www.shanghaisun.com/news/279287938/iranian-media-report-tanker-hit-near-key-oil-hub",
-          "title": "Iranian Media Report Tanker Hit Near Key Oil Hub",
-          "domain": "shanghaisun.com",
-          "seendate": "20260905T190000Z"
-        },
-        {
-          "url": "http://www.iranherald.com/news/279286925/trump-calls-iran-war-small-potatoes-and-not-a-big-thing",
-          "title": "Trump Calls Iran War  Small Potatoe And  Not A Big Thing  ",
-          "domain": "iranherald.com",
-          "seendate": "20260904T223000Z"
-        },
-        {
-          "url": "http://www.europesun.com/news/279286925/trump-calls-iran-war-small-potatoes-and-not-a-big-thing",
-          "title": "Trump Calls Iran War  Small Potatoe And  Not A Big Thing  ",
-          "domain": "europesun.com",
-          "seendate": "20260905T020000Z"
-        },
-        {
-          "url": "http://www.israelherald.com/news/279286925/trump-calls-iran-war-small-potatoes-and-not-a-big-thing",
-          "title": "Trump Calls Iran War  Small Potatoe And  Not A Big Thing  ",
-          "domain": "israelherald.com",
-          "seendate": "20260905T011500Z"
-        },
-        {
-          "url": "http://www.iraqsun.com/news/279286925/trump-calls-iran-war-small-potatoes-and-not-a-big-thing",
-          "title": "Trump Calls Iran War  Small Potatoe And  Not A Big Thing  ",
-          "domain": "iraqsun.com",
-          "seendate": "20260905T001500Z"
-        },
-        {
-          "url": "http://www.vietnamtribune.com/news/279286925/trump-calls-iran-war-small-potatoes-and-not-a-big-thing",
-          "title": "Trump Calls Iran War  Small Potatoe And  Not A Big Thing  ",
-          "domain": "vietnamtribune.com",
-          "seendate": "20260905T003000Z"
-        },
-        {
-          "url": "http://www.cambodiantimes.com/news/279286925/trump-calls-iran-war-small-potatoes-and-not-a-big-thing",
-          "title": "Trump Calls Iran War  Small Potatoe And  Not A Big Thing  ",
-          "domain": "cambodiantimes.com",
-          "seendate": "20260905T001500Z"
-        },
-        {
-          "url": "http://www.venezuelastar.com/news/279286925/trump-calls-iran-war-small-potatoes-and-not-a-big-thing",
-          "title": "Trump Calls Iran War  Small Potatoe And  Not A Big Thing  ",
-          "domain": "venezuelastar.com",
-          "seendate": "20260905T010000Z"
-        },
-        {
-          "url": "http://www.caribbeanherald.com/news/279286925/trump-calls-iran-war-small-potatoes-and-not-a-big-thing",
-          "title": "Trump Calls Iran War  Small Potatoe And  Not A Big Thing  ",
-          "domain": "caribbeanherald.com",
-          "seendate": "20260905T003000Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279286925/trump-calls-iran-war-small-potatoes-and-not-a-big-thing",
-          "title": "Trump Calls Iran War  Small Potatoe And  Not A Big Thing  ",
-          "domain": "middleeaststar.com",
-          "seendate": "20260905T021500Z"
-        },
-        {
-          "url": "https://links.org.au/joseph-daher-siyavash-shahabi-axis-states-resistance-below",
-          "title": "Axis of states or resistance from below ? ",
-          "domain": "links.org.au",
-          "seendate": "20260909T063000Z"
-        },
-        {
-          "url": "https://www.madinamerica.com/2026/09/from-helplessness-to-power-collective-phantasy-and-politics-in-contemporary-iran/",
-          "title": "From Helplessness to Power : Collective Phantasy and Politics in Contemporary Iran",
-          "domain": "madinamerica.com",
-          "seendate": "20260908T130000Z"
-        },
-        {
-          "url": "https://www.fairobserver.com/region/asia_pacific/regime-change-what-we-dont-understand-about-both-words/",
-          "title": "Regime Change : What We Dont Understand About Both Words",
-          "domain": "fairobserver.com",
-          "seendate": "20260907T173000Z"
-        },
-        {
-          "url": "https://niacouncil.org/war-erupts-again-with-tragedy-in-kuhestak-iranian-civil-society-debates-war-and-repression-and-more/",
-          "title": "War Erupts Again with Tragedy in Kuhestak , Iranian Civil Society Debates War and Repression , and More – NIAC",
-          "domain": "niacouncil.org",
-          "seendate": "20260910T030000Z"
-        },
-        {
-          "url": "https://www.independent.co.uk/news/world/europe/hayden-panettiere-dolly-parton-yayoi-kusama-kennedy-robert-duvall-b3045008.html",
-          "title": "The year in review : Influential people who have died in 2026",
-          "domain": "independent.co.uk",
-          "seendate": "20260904T214500Z"
-        },
-        {
-          "url": "https://www.wral.com/news/ap/7943a-the-year-in-review-influential-people-who-have-died-in-2026/",
-          "title": "The year in review : Influential people who have died in 2026",
-          "domain": "wral.com",
-          "seendate": "20260904T224500Z"
-        },
-        {
-          "url": "https://www.arabnews.com/lifestyle/the-year-in-review-influential-people-who-have-died-in-2026-3000551",
-          "title": "Arab News | The year in review : Influential people who have died in 2026",
-          "domain": "arabnews.com",
-          "seendate": "20260904T223000Z"
-        },
-        {
-          "url": "https://www.winnipegfreepress.com/arts-and-life/entertainment/2026/09/04/the-year-in-review-influential-people-who-have-died-in-2026-8",
-          "title": "The year in review : Influential people who have died in 2026 – Winnipeg Free Press",
-          "domain": "winnipegfreepress.com",
-          "seendate": "20260904T191500Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/entertainment/the-year-in-review-influential-people-who-have-died-in-2026/article_128255d1-d81f-520f-8d44-b2ddce4677de.html",
-          "title": "The year in review : Influential people who have died in 2026",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260904T204500Z"
-        },
-        {
-          "url": "https://mymotherlode.com/entertainment/11115964/the-year-in-review-influential-people-who-have-died-in-2026-2.html",
-          "title": "The year in review : Influential people who have died in 2026",
-          "domain": "mymotherlode.com",
-          "seendate": "20260905T053000Z"
-        }
-      ]
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "trump_china",
@@ -1124,8 +57,1513 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.kikar.co.il/security-news/katz-rosh-hashana-iran-jews-warning",
+        "https://www.ynetnews.com/article/rjdvhx1fme",
+        "https://www.ynet.co.il/news/article/byfy6mytmx"
+      ],
+      "articles": [
+        {
+          "url": "https://www.kikar.co.il/security-news/katz-rosh-hashana-iran-jews-warning",
+          "title": "כ  ץ בברכה ליהודי איראן ואזהרה למשטר :  בשנה הבאה בטהרן המשוחררת  ",
+          "domain": "kikar.co.il",
+          "seendate": "20260910T114500Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/rjdvhx1fme",
+          "title": "Trump says Iran war will end  immediately  after US midterms",
+          "domain": "ynetnews.com",
+          "seendate": "20260909T231500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/byfy6mytmx",
+          "title": "טראמפ : המלחמה באיראן תסתיים מיד אחרי בחירות האמצע",
+          "domain": "ynet.co.il",
+          "seendate": "20260909T200000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/sko5o8wtge",
+          "title": "סביבת טראמפ בשולי הוועידה החשאית :  אכזבה מנתניהו , הסבלנות כלפיו אוזלת  ",
+          "domain": "ynet.co.il",
+          "seendate": "20260911T121500Z"
+        },
+        {
+          "url": "http://h21.hani.co.kr/arti/world/world_general/59894.html",
+          "title": "이란 전쟁 파병은 잘해야  허튼짓 , 까딱하면  미친 짓  ",
+          "domain": "h21.hani.co.kr",
+          "seendate": "20260911T044500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/opinion/et-commentary/summer-of-summitry-indias-global-south-credentials-get-a-new-test/articleshow/133847944.cms",
+          "title": "Summer of Summitry : India Global South credentials get a new test",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260906T190000Z"
+        },
+        {
+          "url": "https://www.businesstoday.in/world/story/fresh-threat-to-red-sea-shipping-iran-backed-houthis-seize-yemen-port-city-mocha-554694-2026-09-10",
+          "title": "Fresh threat to Red Sea shipping ? Iran backed Houthis seize Yemen port city Mocha",
+          "domain": "businesstoday.in",
+          "seendate": "20260910T151500Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/opinion-regime-change-only-real-140000569.html",
+          "title": "Opinion - Regime change is the only real solution to the Iran problem",
+          "domain": "yahoo.com",
+          "seendate": "20260909T063000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087356288-trump-renews-threat-against-iran-s-nuclear-sites-calls-war-small-potatoes",
+          "title": "Trump again threatens Iran nuclear sites , calls war  small potatoes  ",
+          "domain": "samaa.tv",
+          "seendate": "20260905T064500Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202609090458290654",
+          "title": "후티  사우디 공격  에 … 美 국무  배후에 이란 손길 있어  ",
+          "domain": "fnnews.com",
+          "seendate": "20260909T030000Z"
+        },
+        {
+          "url": "https://www.livehindustan.com/international/us-president-donald-trump-said-if-he-bomb-iran-with-b2-nuclear-weapons-supreme-leader-as-sir-midterm-election-201789037769502.html",
+          "title": "ईरान के पास परमाणु बम होता तो सुप्रीम लीडर को सर कहते ट्रंप , पूछते - मेरे लायक कोई काम है",
+          "domain": "livehindustan.com",
+          "seendate": "20260910T150000Z"
+        },
+        {
+          "url": "https://arabi21.com/story/1786643/%D8%AD%D8%B1%D8%A8-%D9%87%D8%B1%D9%85%D8%B2-%D9%88%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84",
+          "title": "حرب هرمز وإسرائيل",
+          "domain": "arabi21.com",
+          "seendate": "20260905T053000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/hyzllcyfml",
+          "title": "Trump was warned : Iran war could last until end of his term in 2029",
+          "domain": "ynetnews.com",
+          "seendate": "20260910T040000Z"
+        },
+        {
+          "url": "http://news.cnnb.com.cn/system/2026/09/06/030811668.shtml",
+          "title": "美国被曝谋划  战后遏制伊朗  指望中东国家配合 - 新闻中心 - 中国宁波网",
+          "domain": "news.cnnb.com.cn",
+          "seendate": "20260906T141500Z"
+        },
+        {
+          "url": "http://www.china.com.cn/opinion2020/2026-09/09/content_118685531.shtml",
+          "title": "秘鲁与伊朗断交 ： 小算盘  背后的  大考量 _ 中国网",
+          "domain": "china.com.cn",
+          "seendate": "20260909T010000Z"
+        },
+        {
+          "url": "http://www.idahopress.com/ap_news/us/houthis-seize-strategic-red-sea-port-in-yemen-and-other-mideast-developments/article_a7cacb2b-0f16-5987-9654-62439ee22fab.html",
+          "title": "Houthis seize strategic Red Sea port in Yemen , and other Mideast developments",
+          "domain": "idahopress.com",
+          "seendate": "20260911T064500Z"
+        },
+        {
+          "url": "https://lb.ua/world/2026/09/09/764944_ssha_proveli_cherez_magate.html",
+          "title": "МАГАТЕ ухвалило резолюцію щодо Ірану та передає питання в Радбез ООН",
+          "domain": "lb.ua",
+          "seendate": "20260909T181500Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10869650",
+          "title": "FT  美 · 독일서 토마호크 대체 저비용 미사일 양산 예정  ",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20260910T100000Z"
+        },
+        {
+          "url": "https://www.timesfreepress.com/news/2026/sep/11/houthis-seize-strategic-red-sea-port-in-yemen-and-other-mideast-developments/",
+          "title": "Houthis seize strategic Red Sea port in Yemen , and other Mideast developments",
+          "domain": "timesfreepress.com",
+          "seendate": "20260911T120000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/houthis-seize-key-yemeni-red-sea-port-sources-say-threatening-global-energy-flows/articleshow/134012590.cms",
+          "title": "Houthis seize key Yemeni Red Sea port , sources say , threatening global energy flows",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260910T140000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1875900930085476065",
+          "title": "早AI大众｜商务部就对美蒸馏活动答记者问 ； 麻精药品管理新规下月实施",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260910T003000Z"
+        },
+        {
+          "url": "https://www.deccanchronicle.com/world/houthis-seize-key-yemeni-red-sea-port-sources-say-threatening-global-energy-flows-1986430",
+          "title": "Houthis Seize Key Yemeni Red Sea Port , Sources Say ; Energy Flows at Risk",
+          "domain": "deccanchronicle.com",
+          "seendate": "20260910T153000Z"
+        },
+        {
+          "url": "https://www.mirror.co.uk/news/uk-news/andy-burnham-israel-sanctions-palestine-37645394",
+          "title": "Vladimir Putin , Iran and China  will be impressed by Andy Burnham showing backbone  with Israel sanctions",
+          "domain": "mirror.co.uk",
+          "seendate": "20260909T204500Z"
+        },
+        {
+          "url": "https://www.armstrongeconomics.com/uncategorized/the-neocon-cancer-endless-wars-economic-ruin-and-the-collapse-of-the-west/",
+          "title": "The Neocon Cancer : Endless Wars , Economic Ruin , And The Collapse Of The West",
+          "domain": "armstrongeconomics.com",
+          "seendate": "20260911T080000Z"
+        },
+        {
+          "url": "https://alhurra.com/38619",
+          "title": "نهاية الصيف | الحرة",
+          "domain": "alhurra.com",
+          "seendate": "20260908T221500Z"
+        },
+        {
+          "url": "https://navbharattimes.indiatimes.com/world/china/brics-delhi-summit-is-g3-summit-idea-with-trump-putin-overshadowing-xi-jinping-india-visit/articleshow/133954176.cms",
+          "title": "Brics Summit China , भारत आ रहे चीनी राष्ट्रपति या बना रहे दूरी , BRICS से पहले जिनपिंग की चुप्पी के पीछे क्या G3 की बड़ी चाल ? - brics delhi summit is g3 summit idea with trump putin overshadowing xi jinping india visit - China News",
+          "domain": "navbharattimes.indiatimes.com",
+          "seendate": "20260909T061500Z"
+        },
+        {
+          "url": "https://www.cnn.com/2026/09/10/politics/iran-nuclear-program-inspections-iaea",
+          "title": "Cameras disabled , inspectors blocked : Nuclear watchdog asks for help with Iran",
+          "domain": "cnn.com",
+          "seendate": "20260910T061500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L6ET0L7E0530JPVV.html",
+          "title": "特朗普称美伊战事将在中期选举后  立即结束 ， 伊朗开出停战条件 、 将设立新的海上  制裁区域 ， 美伊最新局势一文速览|也门|唐纳 · 川普|美国选民档案",
+          "domain": "163.com",
+          "seendate": "20260910T024500Z"
+        },
+        {
+          "url": "https://www.spokesman.com/stories/2026/sep/09/baumgartner-and-conroy-face-off-on-iran-israel-and/",
+          "title": "Baumgartner and Conroy face off on Iran , Israel and tariffs at Spokesman debate",
+          "domain": "spokesman.com",
+          "seendate": "20260910T043000Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/allies-foes-foes-allies-whats-070052379.html",
+          "title": "Allies into foes . Foes into allies . What behind Trump world order assault ? ",
+          "domain": "yahoo.com",
+          "seendate": "20260905T074500Z"
+        },
+        {
+          "url": "https://metrohk.com.hk/%E5%9C%8B%E9%9A%9B/%E7%89%B9%E6%9C%97%E6%99%AE%E8%AD%A6%E5%91%8A%E4%BC%8A%E6%9C%97%E5%8B%BF%E8%BC%95%E8%88%89%E5%A6%84%E5%8B%95-%E7%9E%84%E6%BA%96-%E9%8B%A4%E9%A0%AD%E5%B1%B1-f80848",
+          "title": "特朗普警告伊朗勿輕舉妄動 瞄準 「 鋤頭山 」 ｜METROHK . com . hk",
+          "domain": "metrohk.com.hk",
+          "seendate": "20260910T060000Z"
+        },
+        {
+          "url": "https://www.mako.co.il/pzm-soldiers/Article-8953f83433b80a1026.htm",
+          "title": "המכה מאיראן - שנדרשו ארבעה חודשים כדי להסיר",
+          "domain": "mako.co.il",
+          "seendate": "20260911T051500Z"
+        },
+        {
+          "url": "https://www.chinatechnews.com/2026/09/07/128609-summer-of-summitry-indias-global-south-credentials-get-a-new-test",
+          "title": "Summer of Summitry : India Global South credentials get a new test",
+          "domain": "chinatechnews.com",
+          "seendate": "20260907T031500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/defence/costly-war-far-from-over-even-as-us-loosens-irans-grip-on-strait-of-hormuz/articleshow/134045453.cms",
+          "title": "Costly war far from over even as US loosens Iran grip on Strait of Hormuz",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260911T050000Z"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03322646645578480&mediaCodeNo=257",
+          "title": "  이란 땡큐 … 브라질 , 원유 생산 · 수출 사상 최대  반사이익  ",
+          "domain": "edaily.co.kr",
+          "seendate": "20260909T031500Z"
+        },
+        {
+          "url": "https://www.ibtimes.com/new-report-shows-flurry-activity-suspected-iranian-nuclear-site-trump-issued-stark-warning-3807319",
+          "title": "A New Report Shows a Flurry Of Activity At a Suspected Iranian Nuclear Site . Trump Issued a Stark Warning . ",
+          "domain": "ibtimes.com",
+          "seendate": "20260910T130000Z"
+        },
+        {
+          "url": "https://www.deccanchronicle.com/opinion/columnists/can-india-salvage-a-fractured-brics-1986557",
+          "title": "Can India Salvage A Fractured Brics ? ",
+          "domain": "deccanchronicle.com",
+          "seendate": "20260910T211500Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/labor-day-news-roundup-newsquawk-daily-asia-pac-market-open",
+          "title": "Labor Day News Roundup - Newsquawk Daily Asia - Pac Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20260907T234500Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/world/morning-briefing-sept-5-2026/4047911",
+          "title": "Morning Briefing : Sept . 5 , 2026",
+          "domain": "aa.com.tr",
+          "seendate": "20260905T100000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L6FQGHMG0514R9OJ.html",
+          "title": "美媒 ： 万斯 、 鲁比奥等人私下警告特朗普 ， 美伊冲突可能持续到其总统任期结束",
+          "domain": "163.com",
+          "seendate": "20260910T100000Z"
+        },
+        {
+          "url": "https://www.omanobserver.om/article/1195956/world/asia/ansar-allah-seize-key-yemeni-red-sea-port",
+          "title": "Ansar Allah seize key Yemeni Red Sea port",
+          "domain": "omanobserver.om",
+          "seendate": "20260910T194500Z"
+        },
+        {
+          "url": "https://www.albayan.ae/opinions/articles/1551041",
+          "title": "سمة هذه الحقبة الصعبة",
+          "domain": "albayan.ae",
+          "seendate": "20260909T220000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L6ERERAA05199NPP.html",
+          "title": "国际油价大涨3 %， 美股芯片股强势拉升 ， SK海力士涨7 % 创新高 ， Meta涨6 . 5 %， 中概股下挫 ， 特朗普预告战事将终结",
+          "domain": "163.com",
+          "seendate": "20260909T233000Z"
+        },
+        {
+          "url": "https://knpr.org/npr/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-and-the-smithsonian-head-resigns",
+          "title": "U . S . military destroys 5 Iranian oil tankers . And , the Smithsonian head resigns",
+          "domain": "knpr.org",
+          "seendate": "20260909T123000Z"
+        },
+        {
+          "url": "https://www.wsws.org/en/articles/2026/09/06/tfok-s06.html",
+          "title": "Peru President Fujimori backs US war drive , breaking diplomatic ties with Tehran",
+          "domain": "wsws.org",
+          "seendate": "20260907T064500Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/satellite-images-shows-surge-in-construction-at-irans-nuclear-site-on-pickaxe-mountain-natanz-as-war-with-us-reignites-101788970864443.html",
+          "title": "Satellite images show surge in construction at Iran nuclear site on Pickaxe mountain as war with US reignites",
+          "domain": "hindustantimes.com",
+          "seendate": "20260909T174500Z"
+        },
+        {
+          "url": "https://www.livemint.com/news/us-news/iran-nuclear-impasse-deepens-after-us-wins-un-watchdog-vote-11788981453559.html",
+          "title": "Iran Nuclear Impasse Deepens After US Wins UN Watchdog Vote",
+          "domain": "livemint.com",
+          "seendate": "20260909T204500Z"
+        },
+        {
+          "url": "https://www.ibtimes.com/un-watchdog-says-iran-not-cooperating-investigation-uranium-traces-undeclared-sites-its-3807301",
+          "title": "UN Watchdog Says Iran Is Not Cooperating With Investigation Into Uranium Traces At Undeclared Sites . It Reporting It . ",
+          "domain": "ibtimes.com",
+          "seendate": "20260909T181500Z"
+        },
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2026091008550001061",
+          "title": "20년만에 유엔 안보리에 회부된  이란 … 커지는 국제사회 압박 - 국제ㅣ한국일보",
+          "domain": "hankookilbo.com",
+          "seendate": "20260910T081500Z"
+        },
+        {
+          "url": "https://politicaldog101.com/tag/irantrumpwar-conflictevening9-9-2026/",
+          "title": "Iran … Trump … War / Conflict … Evening … 9 / 9 / 2026",
+          "domain": "politicaldog101.com",
+          "seendate": "20260910T040000Z"
+        },
+        {
+          "url": "https://politicaldog101.com/tag/oil-thru-the-strait-of-hormuz/",
+          "title": "Oil thru the Strait of Hormuz",
+          "domain": "politicaldog101.com",
+          "seendate": "20260910T040000Z"
+        },
+        {
+          "url": "https://politicaldog101.com/tag/china-russia-support-to-iran/",
+          "title": "China / Russia support to Iran",
+          "domain": "politicaldog101.com",
+          "seendate": "20260910T040000Z"
+        },
+        {
+          "url": "https://www.theguardian.com/commentisfree/2026/sep/06/world-brink-thugs-dictators-brighter-future-ordinary-people",
+          "title": "The world is being driven to the brink by thugs and dictators , but there is a route to a brighter future | Simon Tisdall",
+          "domain": "theguardian.com",
+          "seendate": "20260906T053000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8wIW15Ig8a4",
+          "title": "美伊海上  报复循环  加剧 ， 特朗普预告战事将终结 ， 伊朗开出条件 _ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260910T001500Z"
+        },
+        {
+          "url": "https://arabic.cnn.com/middle-east/article/2026/09/10/cameras-disabled-inspectors-blocked-nuclear-watchdog-asks-for-help-with-iran",
+          "title": "كاميرات معطلة ومفتشون ممنوعون .. كيف تراجعت الرقابة على برنامج إيران النووي ؟ | CNN Arabic",
+          "domain": "arabic.cnn.com",
+          "seendate": "20260910T070000Z"
+        },
+        {
+          "url": "https://www.nzherald.co.nz/world/iran-strikes-ships-expands-no-go-zone-outside-the-strait-of-hormuz/P5LQTEGQTNBCBIFBT5LFSRPXQA/",
+          "title": "Iran strikes ships , expands no - go zone outside the Strait of Hormuz",
+          "domain": "nzherald.co.nz",
+          "seendate": "20260910T021500Z"
+        },
+        {
+          "url": "https://www.isracast.com/are-israel-and-the-us-on-the-same-page-when-it-comes-to-the-iranian-nuclear-threat/",
+          "title": "ARE ISRAEL AND THE US ON THE SAME PAGE WHEN IT COMES TO THE IRANIAN NUCLEAR THREAT ? ",
+          "domain": "isracast.com",
+          "seendate": "20260906T101500Z"
+        },
+        {
+          "url": "https://www.arkansasonline.com/news/2026/sep/11/houthis-seize-yemeni-port-city-forge-ahead/",
+          "title": "Houthis seize Yemeni port city , forge ahead | The Arkansas Democrat - Gazette",
+          "domain": "arkansasonline.com",
+          "seendate": "20260911T094500Z"
+        },
+        {
+          "url": "https://www.ecr.co.za/news/news/oil-prices-flare-as-iran-tightens-grip-on-hormuz/",
+          "title": "Oil prices flare as Iran tightens grip on Hormuz",
+          "domain": "ecr.co.za",
+          "seendate": "20260910T061500Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/7/could-trumps-iran-trade-war-threaten-spains-saffron-infused-paella",
+          "title": "Could Trump Iran trade war threaten Spain saffron - infused paella ? | Business and Economy News",
+          "domain": "aljazeera.com",
+          "seendate": "20260907T154500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202609123872678555.html",
+          "title": "特朗普 ： 不后悔  发动伊朗战争 胜选每人发5000美元 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260912T020000Z"
+        },
+        {
+          "url": "https://www.dostor.org/5693407",
+          "title": "هل تستطيع القاهرة وإسلام آباد التأثير في مسار التفاوض بين أمريكا وإيران ؟.. أستاذ علاقات دولية يجيب",
+          "domain": "dostor.org",
+          "seendate": "20260906T171500Z"
+        },
+        {
+          "url": "https://www.berkshireeagle.com/opinion/wire/democracy-is-on-the-ballot-in-both-americas-and-israels-elections/article_e4b95b75-fbf2-5795-ae7a-375c089ee470.html",
+          "title": "Democracy is on the ballot in both America and Israel elections",
+          "domain": "berkshireeagle.com",
+          "seendate": "20260910T081500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/09/links-9-5-2026.html",
+          "title": "Links 9 / 5 / 2026 | naked capitalism",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260905T133000Z"
+        },
+        {
+          "url": "https://www.bbc.com/persian/articles/cwy533vw3x1o",
+          "title": "۹ کشور دارای سلاح هسته‌ای کدام‌اند و چگونه به آن دست یافتند ؟ ",
+          "domain": "bbc.com",
+          "seendate": "20260909T024500Z"
+        },
+        {
+          "url": "https://reason.com/2026/09/05/pundits-got-the-iran-war-wrong/",
+          "title": "The pro - war pundits who got Iraq wrong are also getting Iran wrong",
+          "domain": "reason.com",
+          "seendate": "20260905T111500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1875902288817635285",
+          "title": "美伊冲突 ， 再传大消息 ！ 特朗普确认  结束时间  ",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260910T010000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/small-biz/trade/exports/insights/shipping-nations-warn-global-trade-is-fracturing-and-everyone-pays/articleshow/133952515.cms",
+          "title": "Shipping nations warn global trade is fracturing and everyone pays",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260909T050000Z"
+        },
+        {
+          "url": "https://forsal.pl/finanse/surowce/artykuly/11300973,ropa-tanieje-ale-rynek-ma-powazny-problem-cena-znow-przekracza-100-dolarow.html",
+          "title": "Ropa tanieje , ale rynek ma poważny problem . Cena znów przekracza 100 dolarów",
+          "domain": "forsal.pl",
+          "seendate": "20260911T124500Z"
+        },
+        {
+          "url": "http://news.cnnb.com.cn/system/2026/09/10/030812904.shtml",
+          "title": "美伊海上  报复循环  加剧 特朗普预告战事将终结 伊朗开出条件 - 新闻中心 - 中国宁波网",
+          "domain": "news.cnnb.com.cn",
+          "seendate": "20260910T024500Z"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=03473526645579136&mediaCodeNo=257",
+          "title": "  중국에 10년 뒤졌다 … 美 군용 드론 , 예산 240배 늘려 추격",
+          "domain": "edaily.co.kr",
+          "seendate": "20260911T024500Z"
+        },
+        {
+          "url": "https://zn.ua/ukr/WORLD/lideri-ssha-kitaju-i-rosija-bilshe-ne-pidtrimujut-jaderne-strimuvannja-the-economist.html",
+          "title": "Ядерна війна можлива – США , Китай і Росія уникають контролю над озброєнням і нарощують арсенал",
+          "domain": "zn.ua",
+          "seendate": "20260909T103000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1875980592217320737",
+          "title": "埃及 、 卡塔尔 、 约旦 、 阿联酋 、 印尼 、 巴基斯坦 、 土耳其 、 沙特 ， 发表联合声明｜晨报来了",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260910T221500Z"
+        },
+        {
+          "url": "https://www.athensvoice.gr/epikairotita/diethni/984611/trab-uposhetai-5000-dolaria-se-kathe-amerikano-an-kerdisei-tis-endiameses-ekloges/",
+          "title": "Τραμπ : Υπόσχεται 5 . 000 δολάρια σε κάθε Αμερικανό αν κερδίσει τις ενδιάμεσες εκλογές",
+          "domain": "athensvoice.gr",
+          "seendate": "20260910T101500Z"
+        },
+        {
+          "url": "https://www.timesfreepress.com/news/2026/sep/11/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war-is-far-from-over/",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "timesfreepress.com",
+          "seendate": "20260911T120000Z"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/09/08/politics/us-sanctions-iran-airlines-pressure-campaign",
+          "title": "US targets Iran airline industry as part of pressure campaign",
+          "domain": "edition.cnn.com",
+          "seendate": "20260909T033000Z"
+        },
+        {
+          "url": "https://www.aol.co.uk/articles/vladimir-putin-iran-china-impressed-200637000.html",
+          "title": "Vladimir Putin , Iran and China  will be impressed by Andy Burnham showing backbone  with Israel sanctions",
+          "domain": "aol.co.uk",
+          "seendate": "20260909T210000Z"
+        },
+        {
+          "url": "https://www.arkansasonline.com/news/2026/sep/10/iaea-board-reports-iran-to-un-council/",
+          "title": "IAEA board reports Iran to UN council | The Arkansas Democrat - Gazette",
+          "domain": "arkansasonline.com",
+          "seendate": "20260910T101500Z"
+        },
+        {
+          "url": "https://www.clevelandjewishnews.com/jns/republicans-trump-shouldn-t-hide-from-iran-war-messaging-florida-legislators-say/article_a65dbfb2-dec9-5da0-8261-b9fddea5efcd.html",
+          "title": "Republicans , Trump shouldnt hide from Iran war messaging , Florida legislators say | JNS",
+          "domain": "clevelandjewishnews.com",
+          "seendate": "20260911T174500Z"
+        },
+        {
+          "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/06/2003863755",
+          "title": "China paper - tiger alliance shows the US cannot isolate Iran",
+          "domain": "taipeitimes.com",
+          "seendate": "20260905T193000Z"
+        },
+        {
+          "url": "https://www.sandiegouniontribune.com/2026/09/11/us-iran-war-costly-stalemate/",
+          "title": "US makes progress in reopening Hormuz , but Iran war far from over",
+          "domain": "sandiegouniontribune.com",
+          "seendate": "20260911T164500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/bkziqcudfe",
+          "title": "המודיעין בארה  ב :  איראן נחושה להמשיך במלחמה ושוקלת הסלמה משמעותית  ",
+          "domain": "ynet.co.il",
+          "seendate": "20260905T041500Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/09/11/eyal-zamir-israeli-military-iran-hezbollah-gaza-hamas-west-bank-jewish-extremists",
+          "title": "الجيش الإسرائيلي يدخل مرحلة جديدة من الاستعدادات .. فما التهديدات التي لم تحسمها تل أبيب بعد ؟ ",
+          "domain": "arabic.euronews.com",
+          "seendate": "20260911T231500Z"
+        },
+        {
+          "url": "https://theconversation.com/iran-war-tehrans-assertive-rhetoric-signals-a-new-and-dangerous-phase-in-conflict-291478",
+          "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict",
+          "domain": "theconversation.com",
+          "seendate": "20260908T190000Z"
+        },
+        {
+          "url": "https://www.skai.gr/news/finance/ypoxoroun-oi-times-tou-petrelaiou-meta-to-xthesino-alma-ano-tou-6",
+          "title": "Υποχωρούν οι τιμές του πετρελαίου μετά το χθεσινό άλμα άνω του 6 % ",
+          "domain": "skai.gr",
+          "seendate": "20260911T114500Z"
+        },
+        {
+          "url": "https://www.wnp.pl/rynki/ceny-ropy-w-usa-spadaja-jednak-moga-zakonczyc-tydzien-najwyzej-od-maja,1098240.html",
+          "title": "Ceny ropy w united states spadają , jednak mogą zakończyć tydzień najwyżej od maja",
+          "domain": "wnp.pl",
+          "seendate": "20260911T081500Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/business/2026/09/10/the-us-has-loosened-irans-grip-on-the-strait-of-hormuz-but-the-costly-war-is-far-from-over",
+          "title": "The US has loosened Iran grip on the Strait of Hormuz , but the costly war is far from over – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260911T051500Z"
+        },
+        {
+          "url": "https://www.newsweek.com/trump-midterms-iran-nixon-war-lincoln-opinion-12412345",
+          "title": "Trump Midterms Dodge Over Iran Is More Nixon Than Lincoln | Opinion",
+          "domain": "newsweek.com",
+          "seendate": "20260907T183000Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_de734a4f-5f3f-5fa6-9b01-2015cf1af450.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "thegazette.com",
+          "seendate": "20260911T080000Z"
+        },
+        {
+          "url": "https://www.siasat.com/us-weakens-irans-hold-on-strait-of-hormuz-as-war-drags-on-3540194/",
+          "title": "US weakens Iran hold on Strait of Hormuz as war drags on",
+          "domain": "siasat.com",
+          "seendate": "20260911T064500Z"
+        },
+        {
+          "url": "https://www.akhbarelyoum.dz/ar/200243/200292/346358-2026-09-09-16-29-37",
+          "title": "الثنائي الأعظم الذي يقود نحو الانهيار",
+          "domain": "akhbarelyoum.dz",
+          "seendate": "20260909T184500Z"
+        },
+        {
+          "url": "https://www.omanobserver.om/article/1195859/world/region/us-hits-5-iranian-oil-tankers-citing-attempted-strikes-on-warship",
+          "title": "US hits 5 Iranian oil tankers , citing attempted strikes on warship",
+          "domain": "omanobserver.om",
+          "seendate": "20260909T103000Z"
+        },
+        {
+          "url": "https://www.orissapost.com/challenges-opportunities/",
+          "title": "CHALLENGES & OPPORTUNITIES - OrissaPOST",
+          "domain": "orissapost.com",
+          "seendate": "20260910T030000Z"
+        },
+        {
+          "url": "https://www.asahi.com/articles/ASV972VCMV97UHBI01KM.html",
+          "title": "米軍のミサイル消耗 「 私たちは弱体化した 」 元国防副次官が語る懸念 [ トランプ再来 ]： 朝日新聞",
+          "domain": "asahi.com",
+          "seendate": "20260909T044500Z"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/sep/06/iran-war-trump-leon-panetta-interview",
+          "title": "Iran war likely to drag on for another six months , ex - US defense secretary warns",
+          "domain": "theguardian.com",
+          "seendate": "20260906T111500Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3781452",
+          "title": "美伊海上  报复循环  加剧 特朗普预告战事将终结 伊朗开出条件",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260910T010000Z"
+        },
+        {
+          "url": "https://nypost.com/2026/09/06/opinion/democrats-hoping-to-appear-normal-as-they-roll-out-their-blue-wave-of-weirdos-ahead-of-critical-midterms/",
+          "title": "Democrats hoping to appear  normal  as they roll out their blue wave of weirdos ahead of critical midterms",
+          "domain": "nypost.com",
+          "seendate": "20260907T033000Z"
+        },
+        {
+          "url": "http://www.thejakartapost.com/world/2026/09/12/modi-putin-seek-stronger-ties-as-russia-calls-for-brics-to-counter-west",
+          "title": "Modi , Putin seek stronger ties as Russia calls for BRICS to counter West - Asia & Pacific",
+          "domain": "thejakartapost.com",
+          "seendate": "20260912T021500Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/6/putin-meets-us-envoys-whats-behind-latest-diplomacy-on-russia-ukraine-war",
+          "title": "US envoys meet Putin : What behind latest diplomacy on Russia - Ukraine war ? | Russia - Ukraine war News",
+          "domain": "aljazeera.com",
+          "seendate": "20260906T161500Z"
+        },
+        {
+          "url": "https://www.blisty.cz/art/135989-channel-4-news-trumpovo-vitezstvi-nad-iranem-nebo-svetova-hospodarska-krize.html",
+          "title": "Channel 4 News : Trumpovo vítězství nad Íránem , nebo světová hospodářská krize ? | 9 . 9 . 2026",
+          "domain": "blisty.cz",
+          "seendate": "20260909T210000Z"
+        },
+        {
+          "url": "https://fondsk.ru/news/2026/09/05/islamskaya-nato-ili-novye-alyansy-perekraivayut-geopoliticheskuyu-kartu.html",
+          "title": "Исламская НАТО , или Новые альянсы перекраивают геополитическую карту Фонд стратегической культуры",
+          "domain": "fondsk.ru",
+          "seendate": "20260905T131500Z"
+        },
+        {
+          "url": "https://www.naharnet.com:443/stories/en/322413-us-makes-progress-in-reopening-strait-of-hormuz-but-iran-war-is-far-from-over",
+          "title": "US makes progress in reopening Strait of Hormuz , but Iran war is far from over",
+          "domain": "naharnet.com",
+          "seendate": "20260911T080000Z"
+        },
+        {
+          "url": "https://www.topontiki.gr/2026/09/08/giati-to-israil-tassete-sto-plevro-tis-argentinis-stin-amfisvitisi-ton-vretanikon-diekdikiseon-sta-foklant/",
+          "title": "Γιατί το Ισραήλ τάσσεται στο πλευρό της Αργεντινής στην αμφισβήτηση των βρετανικών διεκδικήσεων στα Φώκλαντ ; ",
+          "domain": "topontiki.gr",
+          "seendate": "20260908T173000Z"
+        },
+        {
+          "url": "https://pch24.pl/wiadomosci/jakub-majewski-iranska-hustawka-trwa,734008",
+          "title": "Jakub Majewski : Irańska huśtawka trwa",
+          "domain": "pch24.pl",
+          "seendate": "20260911T114500Z"
+        },
+        {
+          "url": "https://www.asiaone.com/asia/india-hosts-brics-summit-iran-war-tests-bloc-unity",
+          "title": "India hosts BRICS summit as Iran war tests bloc unity",
+          "domain": "asiaone.com",
+          "seendate": "20260911T030000Z"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/Ceny-ropy-w-USA-spadaja-jednak-moga-zakonczyc-tydzien-najwyzej-od-maja-9195499.html",
+          "title": "Ceny ropy w united states spadają , jednak mogą zakończyć tydzień najwyżej od maja",
+          "domain": "bankier.pl",
+          "seendate": "20260911T080000Z"
+        },
+        {
+          "url": "https://www.capitalgazette.com/2026/09/11/us-iran-war-costly-stalemate/",
+          "title": "US makes progress in reopening Hormuz , but Iran war far from over",
+          "domain": "capitalgazette.com",
+          "seendate": "20260911T160000Z"
+        },
+        {
+          "url": "https://home.nzcity.co.nz/news/article.aspx?id=453637&fm=psp,tsf",
+          "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict - 09 - Sep - 2026",
+          "domain": "home.nzcity.co.nz",
+          "seendate": "20260908T234500Z"
+        },
+        {
+          "url": "https://home.nzcity.co.nz/news/article.aspx?id=453637",
+          "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict - 09 - Sep - 2026",
+          "domain": "home.nzcity.co.nz",
+          "seendate": "20260909T003000Z"
+        },
+        {
+          "url": "https://home.nzcity.co.nz/news/article.aspx?id=453637&fm=psp,tst",
+          "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict - 09 - Sep - 2026",
+          "domain": "home.nzcity.co.nz",
+          "seendate": "20260908T234500Z"
+        },
+        {
+          "url": "https://hotair.com/generalissimo/2026/09/08/the-laboring-iranian-regime-had-another-rough-week-n3818754",
+          "title": "The Laboring Iranian Regime Had Another Rough Week",
+          "domain": "hotair.com",
+          "seendate": "20260908T143000Z"
+        },
+        {
+          "url": "https://www.chinatechnews.com/2026/09/07/128644-saudi-arabia-splits-the-israel-link-nuclear-deal-with-washington-tests-trumps-middle-east-strategy",
+          "title": "Saudi Arabia Splits the Israel Link : Nuclear Deal With Washington Tests Trump Middle East Strategy",
+          "domain": "chinatechnews.com",
+          "seendate": "20260907T031500Z"
+        },
+        {
+          "url": "https://www.bjnews.com.cn/detail/1788999179129895.html",
+          "title": "美伊海上  报复循环  加剧 特朗普预告战事将终结 伊朗开出条件 新京报",
+          "domain": "bjnews.com.cn",
+          "seendate": "20260910T010000Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/national/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_bd5c4b27-bde9-59f7-a827-97091c3b68c3.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "dailyadvance.com",
+          "seendate": "20260911T101500Z"
+        },
+        {
+          "url": "http://gold.cnfol.com/jinshizhibo/20260908/32362733.shtml",
+          "title": "黄金交易提醒 ： 多空  激战  4400关口 ， 加息预期压制金价 ， 大国增持能否扭转乾坤 ？_ 金市直播 _ 黄金网 _ 中金在线",
+          "domain": "gold.cnfol.com",
+          "seendate": "20260908T013000Z"
+        },
+        {
+          "url": "https://www.smh.com.au/business/markets/as-trump-s-iran-war-drags-on-we-re-facing-the-next-oil-crunch-20260909-p60vo6.html",
+          "title": "As Trump Iran war drags on , were facing the next oil crunch",
+          "domain": "smh.com.au",
+          "seendate": "20260909T024500Z"
+        },
+        {
+          "url": "https://www.theage.com.au/business/markets/as-trump-s-iran-war-drags-on-we-re-facing-the-next-oil-crunch-20260909-p60vo6.html",
+          "title": "As Trump Iran war drags on , were facing the next oil crunch",
+          "domain": "theage.com.au",
+          "seendate": "20260909T024500Z"
+        },
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2026090710570004319",
+          "title": "  호르무즈 파병  부른 한미동맹 비대칭성 …  자율성 확대  정치적 의지 천명해야 - 정치ㅣ한국일보",
+          "domain": "hankookilbo.com",
+          "seendate": "20260907T230000Z"
+        },
+        {
+          "url": "https://www.jagranjosh.com/articles/school-assembly-news-headlines-september-11-2026-pm-modi-iss-address-imd-odisha-heavy-rain-neet-ug-counselling-round-2-other-news-1800016419-1",
+          "title": "School Assembly News Headlines ( September 11 , 2026 ): PM Modi ISS Address , IMD Odisha Heavy Rain , NEET UG Counselling Round 2 & Other News",
+          "domain": "jagranjosh.com",
+          "seendate": "20260910T153000Z"
+        },
+        {
+          "url": "https://www.union-bulletin.com/news/national/houthis-seize-strategic-red-sea-port-in-yemen-and-other-mideast-developments/article_9b8dd868-ef9d-538d-aa4e-009a1eb338bf.html",
+          "title": "Houthis seize strategic Red Sea port in Yemen , and other Mideast developments",
+          "domain": "union-bulletin.com",
+          "seendate": "20260911T054500Z"
+        },
+        {
+          "url": "http://www.rockymounttelegram.com/news/national/houthis-seize-strategic-red-sea-port-in-yemen-and-other-mideast-developments/article_63c9c811-4259-5c2a-9ea7-5a2e84f4cbd6.html",
+          "title": "Houthis seize strategic Red Sea port in Yemen , and other Mideast developments",
+          "domain": "rockymounttelegram.com",
+          "seendate": "20260911T054500Z"
+        },
+        {
+          "url": "https://kdhnews.com/news/nation/houthis-seize-strategic-red-sea-port-in-yemen-and-other-mideast-developments/article_8c383787-2a93-5478-8794-faad28905a73.html",
+          "title": "Houthis seize strategic Red Sea port in Yemen , and other Mideast developments",
+          "domain": "kdhnews.com",
+          "seendate": "20260911T050000Z"
+        },
+        {
+          "url": "http://www.goskagit.com/news/nation/houthis-seize-strategic-red-sea-port-in-yemen-and-other-mideast-developments/article_18f2b057-72ea-5c6e-a06a-6ecc3c0c5f9f.html",
+          "title": "Houthis seize strategic Red Sea port in Yemen , and other Mideast developments",
+          "domain": "goskagit.com",
+          "seendate": "20260911T051500Z"
+        },
+        {
+          "url": "https://www.brisbanetimes.com.au/business/markets/as-trump-s-iran-war-drags-on-we-re-facing-the-next-oil-crunch-20260909-p60vo6.html",
+          "title": "As Trump Iran war drags on , were facing the next oil crunch",
+          "domain": "brisbanetimes.com.au",
+          "seendate": "20260909T024500Z"
+        },
+        {
+          "url": "https://www.gjsentinel.com/news/us/ap-news-in-brief-at-6-04-a-m-edt/article_c78cb3d2-a9de-53d7-9ae7-8db0ece886ba.html",
+          "title": "AP News in Brief at 6 : 04 a . m . EDT",
+          "domain": "gjsentinel.com",
+          "seendate": "20260905T133000Z"
+        },
+        {
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1276478.html",
+          "title": "예멘 내전 , 휴전 4년 만에  최대 교전 … 국제물류 차지질 우려↑",
+          "domain": "hani.co.kr",
+          "seendate": "20260906T111500Z"
+        },
+        {
+          "url": "https://cbgc.scol.com.cn/news/7927600",
+          "title": "川观早8点丨交通运输部发布新一批水路旅游精品航线案例 ； 8家中央金融企业迎来增资 ； 伊朗将宣布霍尔木兹海峡  禁区  ",
+          "domain": "cbgc.scol.com.cn",
+          "seendate": "20260907T030000Z"
+        },
+        {
+          "url": "https://www.in.gr/2026/09/10/world/otan-oi-megaloi-igetes-epapsan-na-fovountai-ton-pyriniko-polemo-o-kosmos-egine-akoma-pio-epikindynos/",
+          "title": "Όταν οι μεγάλοι ηγέτες έπαψαν να φοβούνται τον πυρηνικό πόλεμο , ο κόσμος έγινε ακόμα πιο επικίνδυνος",
+          "domain": "in.gr",
+          "seendate": "20260910T043000Z"
+        },
+        {
+          "url": "https://www.bbc.com/persian/articles/ckg72xv3xr3o",
+          "title": "جنگ و محاصره دریایی با اقتصاد ایران چه کرده است ؟ ",
+          "domain": "bbc.com",
+          "seendate": "20260907T081500Z"
+        },
+        {
+          "url": "https://www.watoday.com.au/business/markets/as-trump-s-iran-war-drags-on-we-re-facing-the-next-oil-crunch-20260909-p60vo6.html",
+          "title": "Oil prices : As Trump Iran war drags on , were facing the next oil crunch",
+          "domain": "watoday.com.au",
+          "seendate": "20260909T041500Z"
+        },
+        {
+          "url": "https://english.elpais.com/international/2026-09-07/morocco-grows-bolder-thanks-to-trumps-and-israels-support.html",
+          "title": "Morocco grows bolder thanks to Trump ( and Israel ) support | International",
+          "domain": "english.elpais.com",
+          "seendate": "20260908T020000Z"
+        },
+        {
+          "url": "https://www.clevelandjewishnews.com/news/world_news/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_b70d63f6-c9bc-5453-a070-99c6346c5005.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "clevelandjewishnews.com",
+          "seendate": "20260911T174500Z"
+        },
+        {
+          "url": "https://www.wenweipo.com/a/202609/10/AP6aa1eb33e4b01d54a2828be1.html",
+          "title": "美伊海上 「 報復循環 」 加劇 特朗普預告戰事將終結 伊朗開出條件 - 國際",
+          "domain": "wenweipo.com",
+          "seendate": "20260910T033000Z"
+        },
+        {
+          "url": "https://www.idnes.cz/zpravy/zahranicni/witkoff-a-kushner-pricestovali-do-kyjeva-na-prvni-oficialni-navstevu-pise-reuters-se-zelenskym-maji.A260906_122215_zahranicni_kurl",
+          "title": "Trumpovi vyjednavači přicestovali do Kyjeva",
+          "domain": "idnes.cz",
+          "seendate": "20260906T124500Z"
+        },
+        {
+          "url": "https://www.in.gr/2026/09/11/world/minyma-poutin-stous-brics-telos-i-ieri-agelada-tou-eleytherou-antagonismou-i-dysi-epitithetai-se-agogous/",
+          "title": "Μήνυμα Πούτιν στους BRICS : Τέλος η « ιερή αγελάδα » του ελεύθερου ανταγωνισμού - Η Δύση επιτίθεται σε αγωγούς",
+          "domain": "in.gr",
+          "seendate": "20260911T193000Z"
+        },
+        {
+          "url": "https://inosmi.ru/20260909/ukraina-280063650.html",
+          "title": "Обзор событий Зорана Метера : Суэцкий кризис уничтожил европейские колониальные державы , иранский США . А Украина ? ( Geopolitika . news , Хорватия ) ",
+          "domain": "inosmi.ru",
+          "seendate": "20260909T053000Z"
+        },
+        {
+          "url": "https://www.livemint.com/global/time-is-no-longer-on-iran-s-side-in-the-battle-of-the-blockades-11788572605206.html",
+          "title": "Time is no longer on Iran side in the battle of the blockades",
+          "domain": "livemint.com",
+          "seendate": "20260905T041500Z"
+        },
+        {
+          "url": "https://www.wsws.org/en/articles/2026/09/08/ussk-s08.html",
+          "title": "Madrid Forum seeks to strengthen Vox hand amid Ceuta fallout - World Socialist Web Site",
+          "domain": "wsws.org",
+          "seendate": "20260908T064500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L6I2D5A5051481US.html",
+          "title": "对话霍政欣 ： 美国禁了中企 ， 我们就赶走苹果 ？ 不可取",
+          "domain": "163.com",
+          "seendate": "20260911T053000Z"
+        },
+        {
+          "url": "https://dailypioneer.com/news/brics-at-a-crossroads",
+          "title": "BRICS Summit : Can the Global South Bloc Deliver Results ? ",
+          "domain": "dailypioneer.com",
+          "seendate": "20260911T034500Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/editorials/an-alliance-for-nonalignment-101789142413225.html",
+          "title": "An alliance for non - alignment",
+          "domain": "hindustantimes.com",
+          "seendate": "20260911T174500Z"
+        },
+        {
+          "url": "https://www.yahoo.com/news/politics/articles/argentina-milei-vows-tougher-falklands-060959912.html",
+          "title": "Argentina ratchets up Falklands tensions after Trump casts doubt on support for Britain",
+          "domain": "yahoo.com",
+          "seendate": "20260906T120000Z"
+        },
+        {
+          "url": "https://hnonline.sk/svet/96300810-americki-vyjednavaci-witkoff-a-kushner-su-v-kyjeve-na-prvej-navsteve-budu-rokovat-so-zelenskym",
+          "title": "Americkí vyjednávači Witkoff a Kushner sú v Kyjeve na prvej návšteve , budú rokovať so Zelenským",
+          "domain": "hnonline.sk",
+          "seendate": "20260906T134500Z"
+        },
+        {
+          "url": "https://www.bbc.com/persian/articles/c93egyldpw9o",
+          "title": "اگر صادرات نفت ایران متوقف شود ، چه اتفاقی برای میدان‌های نفت و گاز می‌افتد ؟ ",
+          "domain": "bbc.com",
+          "seendate": "20260905T081500Z"
+        },
+        {
+          "url": "https://nypost.com/2026/09/08/opinion/iran-and-ukraine-are-the-last-conflicts-of-the-cold-war-and-their-end-could-spur-an-open-future-for-the-world/",
+          "title": "Iran and Ukraine are the last conflicts of the Cold War -- and their end could spur an open future for the world",
+          "domain": "nypost.com",
+          "seendate": "20260909T023000Z"
+        },
+        {
+          "url": "https://www.gdnonline.com:443/Details/1405418",
+          "title": "World News : IAEA board must report Iran to Security Council says US",
+          "domain": "gdnonline.com",
+          "seendate": "20260905T041500Z"
+        },
+        {
+          "url": "https://arynews.tv/oil-rises-to-six-week-high-following-houthi-attack-on-saudi-sites",
+          "title": "Oil rises to six - week high following Houthi attack on Saudi sites",
+          "domain": "arynews.tv",
+          "seendate": "20260908T200000Z"
+        },
+        {
+          "url": "https://war.obozrevatel.com/ukr/shtati-na-porozi-velikih-zmin-tramp-pide-scho-bude-z-vijnoyu-v-ukraini-intervyu-z-obuhovim.htm",
+          "title": "Президент США Дональд Трамп піде у відсатвку , війна закінчиться - антиросійський активіст Герман Обухов озвучив прогноз",
+          "domain": "war.obozrevatel.com",
+          "seendate": "20260909T133000Z"
+        },
+        {
+          "url": "http://www.israelherald.com/news/279297857/trump-iran-war-will-end-immediately-after-us-midterm-elections",
+          "title": "Trump : Iran War Will End  Immediately  After US Midterm Elections",
+          "domain": "israelherald.com",
+          "seendate": "20260910T083000Z"
+        },
+        {
+          "url": "http://www.iraqsun.com/news/279297857/trump-iran-war-will-end-immediately-after-us-midterm-elections",
+          "title": "Trump : Iran War Will End  Immediately  After US Midterm Elections",
+          "domain": "iraqsun.com",
+          "seendate": "20260910T083000Z"
+        },
+        {
+          "url": "http://www.middleeaststar.com/news/279297857/trump-iran-war-will-end-immediately-after-us-midterm-elections",
+          "title": "Trump : Iran War Will End  Immediately  After US Midterm Elections",
+          "domain": "middleeaststar.com",
+          "seendate": "20260910T100000Z"
+        },
+        {
+          "url": "http://www.kenyastar.com/news/279297857/trump-iran-war-will-end-immediately-after-us-midterm-elections",
+          "title": "Trump : Iran War Will End  Immediately  After US Midterm Elections",
+          "domain": "kenyastar.com",
+          "seendate": "20260910T100000Z"
+        },
+        {
+          "url": "http://www.heraldglobe.com/news/279297857/trump-iran-war-will-end-immediately-after-us-midterm-elections",
+          "title": "Trump : Iran War Will End  Immediately  After US Midterm Elections",
+          "domain": "heraldglobe.com",
+          "seendate": "20260910T081500Z"
+        },
+        {
+          "url": "https://www.bbc.com/ukrainian/articles/clyml3ynl4zo",
+          "title": "Шпигуни , стратегії та втрачені можливості : чого нас досі вчать події 11 вересня",
+          "domain": "bbc.com",
+          "seendate": "20260911T101500Z"
+        },
+        {
+          "url": "https://www.islamicinvitationturkey.com/panetta-us-war-on-iran-could-become-another-failed-aggression-in-west-asia/",
+          "title": "Panetta : US War on Iran Could Become  Another Failed  Aggression in West Asia",
+          "domain": "islamicinvitationturkey.com",
+          "seendate": "20260907T190000Z"
+        },
+        {
+          "url": "https://metrohk.com.hk/%E5%9C%8B%E9%9A%9B/%E7%89%B9%E6%9C%97%E6%99%AE%E4%B9%98%E5%8D%A1%E5%A1%94%E7%88%BE%E7%A9%BA%E8%BB%8D%E4%B8%80%E8%99%9F%E8%A8%AA%E6%84%9B%E7%88%BE%E8%98%AD-%E4%BF%9D%E5%AE%89%E5%8D%87%E7%B4%9A%E5%BB%B6%E5%BE%8C-0767d1",
+          "title": "特朗普乘卡塔爾空軍一號訪愛爾蘭 保安升級延後｜METROHK . com . hk",
+          "domain": "metrohk.com.hk",
+          "seendate": "20260905T091500Z"
+        },
+        {
+          "url": "https://www.ceskenoviny.cz/zpravy/witkoff-a-kushner-jsou-v-kyjeve-budou-jednat-se-zelenskym/2870773",
+          "title": "Witkoff a Kushner jsou v Kyjevě , budou jednat se Zelenským",
+          "domain": "ceskenoviny.cz",
+          "seendate": "20260906T124500Z"
+        },
+        {
+          "url": "https://www.iowapublicradio.org/news-from-npr/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-and-the-smithsonian-head-resigns",
+          "title": "U . S . military destroys 5 Iranian oil tankers . And , the Smithsonian head resigns",
+          "domain": "iowapublicradio.org",
+          "seendate": "20260909T120000Z"
+        },
+        {
+          "url": "https://www.kasu.org/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-and-the-smithsonian-head-resigns",
+          "title": "U . S . military destroys 5 Iranian oil tankers . And , the Smithsonian head resigns",
+          "domain": "kasu.org",
+          "seendate": "20260909T120000Z"
+        },
+        {
+          "url": "https://www.kgou.org/world/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-and-the-smithsonian-head-resigns",
+          "title": "U . S . military destroys 5 Iranian oil tankers . And , the Smithsonian head resigns",
+          "domain": "kgou.org",
+          "seendate": "20260909T121500Z"
+        },
+        {
+          "url": "https://www.wwno.org/npr-news/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-and-the-smithsonian-head-resigns",
+          "title": "U . S . military destroys 5 Iranian oil tankers . And , the Smithsonian head resigns",
+          "domain": "wwno.org",
+          "seendate": "20260909T121500Z"
+        },
+        {
+          "url": "https://www.wknofm.org/up-first-npr/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-and-the-smithsonian-head-resigns",
+          "title": "U . S . military destroys 5 Iranian oil tankers . And , the Smithsonian head resigns",
+          "domain": "wknofm.org",
+          "seendate": "20260909T133000Z"
+        },
+        {
+          "url": "https://www.southcarolinapublicradio.org/news/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-and-the-smithsonian-head-resigns",
+          "title": "U . S . military destroys 5 Iranian oil tankers . And , the Smithsonian head resigns",
+          "domain": "southcarolinapublicradio.org",
+          "seendate": "20260909T150000Z"
+        },
+        {
+          "url": "https://www.wgcu.org/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-and-the-smithsonian-head-resigns",
+          "title": "U . S . military destroys 5 Iranian oil tankers . And , the Smithsonian head resigns",
+          "domain": "wgcu.org",
+          "seendate": "20260909T123000Z"
+        },
+        {
+          "url": "https://www.wsiu.org/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-and-the-smithsonian-head-resigns",
+          "title": "U . S . military destroys 5 Iranian oil tankers . And , the Smithsonian head resigns",
+          "domain": "wsiu.org",
+          "seendate": "20260909T123000Z"
+        },
+        {
+          "url": "https://www.union-bulletin.com/news/national/us-turns-diplomatic-screws-on-iran-for-atomic-non-compliance/article_d061181f-ccd6-55a3-961b-2001d0ef5555.html",
+          "title": "US turns diplomatic screws on Iran for atomic non - compliance",
+          "domain": "union-bulletin.com",
+          "seendate": "20260907T224500Z"
+        },
+        {
+          "url": "https://themedialine.org/mideast-daily-news/power-shifts-from-tehran-to-baku-on-facing-the-middle-east/",
+          "title": "Power Shifts From Tehran to Baku on  Facing the Middle East  ",
+          "domain": "themedialine.org",
+          "seendate": "20260907T161500Z"
+        },
+        {
+          "url": "https://www.nile.eg/%D8%A7%D9%84%D8%AC%D8%B1%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%86%D8%B9%D9%8A%D8%B4-%D8%A3%D9%83%D8%AB%D8%B1-%D9%81%D9%89-%D8%A7",
+          "title": "قناة النيل للأخبار |  الجريدة  الكويتية : لماذا نعيش أكثر فى الصيف ؟ ",
+          "domain": "nile.eg",
+          "seendate": "20260906T080000Z"
+        },
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/c99dg718vg2o/trad",
+          "title": "間諜 、 戰略與錯失的機會 ： 9 / 11的教訓至今仍在消化 - BBC News 中文",
+          "domain": "bbc.com",
+          "seendate": "20260911T083000Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/227/11i-septemvriou-ta-didagmata-apo-ta-megala-lathi-ton-mystikon-ypiresion--to-neo-chtypima-etoimazetai-ekei-pou-den-koitame.htm",
+          "title": "11η Σεπτεμβρίου : Τα διδάγματα από τα μεγάλα λάθη των μυστικών υπηρεσιών - « Το νέο χτύπημα ετοιμάζεται εκεί που δεν κοιτάμε » ",
+          "domain": "inewsgr.com",
+          "seendate": "20260911T054500Z"
+        },
+        {
+          "url": "https://www.pressian.com/pages/articles/2026090914215961972",
+          "title": "與 김병주  파병 신중해야 … 명분 없는 침략전쟁 휘말려선 안돼  ",
+          "domain": "pressian.com",
+          "seendate": "20260909T111500Z"
+        },
+        {
+          "url": "https://www.newsbeast.gr/financial/arthro/13348986/rekor-anthraka-2026-polemos-mesi-anatoli-energeia",
+          "title": "Ρεκόρ 8 , 94 δισ . τόνοι άνθρακα το 2026 – Ο πόλεμος στη Μέση Ανατολή « αναζωπυρώνει » το πιο ρυπογόνο καύσιμο",
+          "domain": "newsbeast.gr",
+          "seendate": "20260910T211500Z"
+        },
+        {
+          "url": "https://www.livemint.com/opinion/online-views/911-horrific-attacks-how-9-11-impacted-global-geopolitics-al-quaeda-11-september-2001-11789049575690.html",
+          "title": "The horrific attacks that shook the world : how 9 / 11 may have impacted how this century is playing out",
+          "domain": "livemint.com",
+          "seendate": "20260911T050000Z"
+        },
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/c99dg718vg2o/simp",
+          "title": "间谍 、 战略与错失的机会 ： 9 / 11的教训至今仍在消化 - BBC News 中文",
+          "domain": "bbc.com",
+          "seendate": "20260911T071500Z"
+        },
+        {
+          "url": "https://www.theamericanconservative.com/christian-conservatives-draw-a-hard-line-against-iran-war/",
+          "title": "Christian Conservatives Draw a Hard Line Against Iran War",
+          "domain": "theamericanconservative.com",
+          "seendate": "20260907T044500Z"
+        },
+        {
+          "url": "https://www.nakedcapitalism.com/2026/09/colonel-wilkerson-trump-admin-preparing-insurrection-act-martial-law-ahead-of-midterms.html",
+          "title": "Colonel Wilkerson : Trump Admin Preparing Insurrection Act , Martial Law Ahead of Midterms",
+          "domain": "nakedcapitalism.com",
+          "seendate": "20260905T083000Z"
+        },
+        {
+          "url": "https://www.protagon.gr/themata/11i-septemvriou-ta-pathimata-pou-den-eginan-mathimata-44343437054",
+          "title": "11η Σεπτεμβρίου : Τα παθήματα που δεν έγιναν μαθήματα",
+          "domain": "protagon.gr",
+          "seendate": "20260911T143000Z"
+        },
+        {
+          "url": "https://foreignpolicy.com/2026/09/10/top-signs-youre-heading-for-a-quagmire/",
+          "title": "Top Signs Youre Heading for a Quagmire",
+          "domain": "foreignpolicy.com",
+          "seendate": "20260910T110000Z"
+        },
+        {
+          "url": "https://www.pressian.com/pages/articles/2026090914324709387",
+          "title": "  호르무즈 파병 , 정권 파탄 나 … 尹보다 심한 편승 외교  통일부 자문회의서 쓴소리",
+          "domain": "pressian.com",
+          "seendate": "20260909T111500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1875792954439241997",
+          "title": "伊朗称在霍尔木兹海峡捕获美无人潜航器 ， 阿联酋启动替代物流通道应对海峡受阻",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260909T030000Z"
+        },
+        {
+          "url": "https://talkingpointsmemo.com/news/donald-trump-just-basically-bribed-americans-to-vote-for-republicans",
+          "title": "Donald Trump Just Basically Bribed Americans to Vote for Republicans",
+          "domain": "talkingpointsmemo.com",
+          "seendate": "20260910T061500Z"
+        },
+        {
+          "url": "https://blog.wenxuecity.com/myblog/70246/202609/3712.html",
+          "title": "从 《 欢迎来到龙餐馆 》 看伊朗战争 - 博客",
+          "domain": "blog.wenxuecity.com",
+          "seendate": "20260906T171500Z"
+        },
+        {
+          "url": "http://www.nigeriasun.com/news/279298102/iran-using-executions-to-deter-dissent-rights-groups-say",
+          "title": "Iran Using Executions To Deter Dissent , Rights Groups Say",
+          "domain": "nigeriasun.com",
+          "seendate": "20260910T101500Z"
+        },
+        {
+          "url": "http://www.middleeaststar.com/news/279298102/iran-using-executions-to-deter-dissent-rights-groups-say",
+          "title": "Iran Using Executions To Deter Dissent , Rights Groups Say",
+          "domain": "middleeaststar.com",
+          "seendate": "20260910T100000Z"
+        },
+        {
+          "url": "http://www.shanghainews.net/news/279298102/iran-using-executions-to-deter-dissent-rights-groups-say",
+          "title": "Iran Using Executions To Deter Dissent , Rights Groups Say",
+          "domain": "shanghainews.net",
+          "seendate": "20260910T151500Z"
+        },
+        {
+          "url": "http://www.heraldglobe.com/news/279298102/iran-using-executions-to-deter-dissent-rights-groups-say",
+          "title": "Iran Using Executions To Deter Dissent , Rights Groups Say",
+          "domain": "heraldglobe.com",
+          "seendate": "20260910T110000Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/javier-milei-s-outburst-over-the-falklands-is-a-mark-of-weakness-101788660249525.html",
+          "title": "Javier Milei outburst over the Falklands is a mark of weakness",
+          "domain": "hindustantimes.com",
+          "seendate": "20260906T093000Z"
+        },
+        {
+          "url": "https://foreignpolicy.com/2026/09/09/hal-brands-rules-based-order-great-power-politics-geopolitics/",
+          "title": "How to Survive in a World Without Rules",
+          "domain": "foreignpolicy.com",
+          "seendate": "20260909T044500Z"
+        },
+        {
+          "url": "https://foreignpolicy.com/2026/09/09/hal-brands-rules-based-order-great-power-politics-geopolitics/?tpcc=recirc_trending062921",
+          "title": "How to Survive in a World Without Rules",
+          "domain": "foreignpolicy.com",
+          "seendate": "20260909T050000Z"
+        },
+        {
+          "url": "https://www.newsbeast.gr/world/arthro/13349619/25-chronia-meta-i-frikti-alitheia-pou-kryvei-i-11i-septemvriou-ta-stoicheia-pou-ypirchan-alla-kaneis-den-enose",
+          "title": "25 χρόνια μετά : Η φρικτή αλήθεια που κρύβει η 11η Σεπτεμβρίου – Τα στοιχεία που υπήρχαν αλλά , κανείς δεν ένωσε",
+          "domain": "newsbeast.gr",
+          "seendate": "20260911T083000Z"
+        },
+        {
+          "url": "https://bbs.wenxuecity.com/currentevent/4067821.html",
+          "title": "从 《 欢迎来到龙餐馆 》 看伊朗战争 - 朱头山发表于 时事述评 - 论坛",
+          "domain": "bbs.wenxuecity.com",
+          "seendate": "20260909T170000Z"
+        },
+        {
+          "url": "https://www.washingtoninstitute.org/policy-analysis/twenty-five-years-after-sept-11-were-losing-sight-threat",
+          "title": "Twenty - Five Years After Sept . 11 , Were Losing Sight of the Threat",
+          "domain": "washingtoninstitute.org",
+          "seendate": "20260911T054500Z"
+        },
+        {
+          "url": "https://www.wenxuecity.com/blog/202609/70246/3712.html",
+          "title": "从 《 欢迎来到龙餐馆 》 看伊朗战争 | www . wenxuecity . com",
+          "domain": "wenxuecity.com",
+          "seendate": "20260906T181500Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/editorial-roundup-united-states/article_522d0434-c7ec-5b12-b884-4d7bf3e82fa3.html",
+          "title": "Editorial Roundup : United States",
+          "domain": "idahostatejournal.com",
+          "seendate": "20260909T001500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/351/olotachos-pros-tin-apolyti-kataigida.htm",
+          "title": "Ολοταχώς προς την απόλυτη καταιγίδα",
+          "domain": "inewsgr.com",
+          "seendate": "20260905T150000Z"
+        },
+        {
+          "url": "https://www.fairobserver.com/world-news/fo-explainers-the-donroe-doctrine-the-future-of-the-western-hemisphere/",
+          "title": "FO Explainers : The Donroe Doctrine The Future of the Western Hemisphere ? ",
+          "domain": "fairobserver.com",
+          "seendate": "20260907T173000Z"
+        },
+        {
+          "url": "https://www.huxiu.com/article/4889184.html",
+          "title": "迈克尔 · 哈特 ： 后霸权时代的全球战争体制与政治想象 - 虎嗅网",
+          "domain": "huxiu.com",
+          "seendate": "20260907T111500Z"
+        },
+        {
+          "url": "https://peoplesreview.com.np/2026/09/09/preparing-for-a-new-world-order/",
+          "title": "Preparing For A New World Order - People Review",
+          "domain": "peoplesreview.com.np",
+          "seendate": "20260909T153000Z"
+        },
+        {
+          "url": "https://www.singtaousa.com/2026/09/10/news/usa/jd-vance-pitches-himself-as-trumps-political-heir-on-day-two-of-republican-midterm-convention/",
+          "title": "共和黨大會閉幕 萬斯模仿特朗普風格獲熱捧",
+          "domain": "singtaousa.com",
+          "seendate": "20260911T081500Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/the-latest-us-destroys-5-iranian-crude-oil-tankers-following-attacks-on-us-warship/article_51f2e7f9-76d1-5028-b2e0-b3afba343c41.html",
+          "title": "The Latest : US destroys 5 Iranian crude oil tankers following attacks on US warship",
+          "domain": "idahostatejournal.com",
+          "seendate": "20260909T001500Z"
+        },
+        {
+          "url": "https://www.dailyadvertiser.com.au/story/9344265/us-sanctions-on-turkish-bank-puts-more-pressure-on-iran/",
+          "title": "US sanctions on Turkish bank puts more pressure on Iran",
+          "domain": "dailyadvertiser.com.au",
+          "seendate": "20260905T033000Z"
+        },
+        {
+          "url": "https://www.naroomanewsonline.com.au/story/9344265/us-sanctions-on-turkish-bank-puts-more-pressure-on-iran/",
+          "title": "US sanctions on Turkish bank puts more pressure on Iran",
+          "domain": "naroomanewsonline.com.au",
+          "seendate": "20260905T041500Z"
+        },
+        {
+          "url": "https://www.thehindu.com/opinion/lead/indias-opportunity-to-put-brics-back-together/article71439875.ece",
+          "title": "India opportunity to put BRICS back together",
+          "domain": "thehindu.com",
+          "seendate": "20260907T194500Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/under-siege-iran-strategy-crossroads-war-attrition",
+          "title": "Under siege : Iran faces strategic dilemma as war of attrition drags on",
+          "domain": "middleeasteye.net",
+          "seendate": "20260911T074500Z"
+        },
+        {
+          "url": "https://www.eurasiareview.com/10092026-the-sco-comes-out-of-the-shadows-oped/",
+          "title": "The SCO Comes Out Of The Shadows - OpEd - Eurasia Review",
+          "domain": "eurasiareview.com",
+          "seendate": "20260910T234500Z"
+        },
+        {
+          "url": "https://www.canoncitydailyrecord.com/2026/09/11/us-iran-war-costly-stalemate/",
+          "title": "US makes progress in reopening Hormuz , but Iran war far from over",
+          "domain": "canoncitydailyrecord.com",
+          "seendate": "20260911T160000Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/ap-news-in-brief-at-12-04-a-m-edt/article_5d032e46-5e94-5a96-bd4e-9a707b2b3684.html",
+          "title": "AP News in Brief at 12 : 04 a . m . EDT",
+          "domain": "thegazette.com",
+          "seendate": "20260905T091500Z"
+        },
+        {
+          "url": "https://www.dailygazette.com/ap/business/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_338b7470-2e09-5e2d-a7fe-018da7d82032.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "dailygazette.com",
+          "seendate": "20260911T080000Z"
+        },
+        {
+          "url": "https://www.dailygazette.com/hv360/ap/business/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_338b7470-2e09-5e2d-a7fe-018da7d82032.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "dailygazette.com",
+          "seendate": "20260911T084500Z"
+        },
+        {
+          "url": "http://www.goskagit.com/news/ap_business/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_e33c4a74-27c0-5f1e-8812-953157ebc8ad.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "goskagit.com",
+          "seendate": "20260911T074500Z"
+        },
+        {
+          "url": "https://mymotherlode.com/news/world/11131028/the-us-has-loosened-irans-grip-on-the-strait-of-hormuz-but-the-costly-war-is-far-from-over.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "mymotherlode.com",
+          "seendate": "20260911T074500Z"
+        },
+        {
+          "url": "https://www.yumasun.com/news/national_news/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_9bb7c425-200c-5d6a-9d62-c0741c0a44e3.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "yumasun.com",
+          "seendate": "20260911T090000Z"
+        },
+        {
+          "url": "http://www.leadertelegram.com/news/nation-world/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_3de59c5a-d555-5652-be73-c39ba6da5054.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "leadertelegram.com",
+          "seendate": "20260911T090000Z"
+        },
+        {
+          "url": "https://krmg.com/2026/09/11/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war-is-far-from-over-2/",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "krmg.com",
+          "seendate": "20260911T114500Z"
+        },
+        {
+          "url": "https://www.mankatofreepress.com/news/state_national_news/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_a054552d-f330-5030-b4a2-7a5df8faa442.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "mankatofreepress.com",
+          "seendate": "20260911T080000Z"
+        },
+        {
+          "url": "https://www.dailygazette.com/the_recorder/ap/business/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_338b7470-2e09-5e2d-a7fe-018da7d82032.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "dailygazette.com",
+          "seendate": "20260911T090000Z"
+        },
+        {
+          "url": "https://www.dailygazette.com/ade/ap/business/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_338b7470-2e09-5e2d-a7fe-018da7d82032.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "dailygazette.com",
+          "seendate": "20260911T084500Z"
+        },
+        {
+          "url": "http://www.hngnews.com/nation_world/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_ddd33aea-b511-5df7-8c27-b8e2f9fe6908.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "hngnews.com",
+          "seendate": "20260911T083000Z"
+        },
+        {
+          "url": "http://www.cecildaily.com/ap/nation/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_967cacbc-6ae7-525c-8a21-9911e0b44062.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "cecildaily.com",
+          "seendate": "20260911T101500Z"
+        },
+        {
+          "url": "https://www.union-bulletin.com/news/national/the-us-has-made-progress-in-reopening-the-strait-of-hormuz-but-the-iran-war/article_2e2bf549-2c8a-5ee5-b05f-91afdd735a80.html",
+          "title": "The US has made progress in reopening the Strait of Hormuz , but the Iran war is far from over",
+          "domain": "union-bulletin.com",
+          "seendate": "20260911T101500Z"
+        },
+        {
+          "url": "https://inosmi.ru/20260909/ukraina-280071074.html",
+          "title": "Кусок украинского каравая . Соседи как коты облизываются на наши границы ? ( Украiна молода , Украина ) ",
+          "domain": "inosmi.ru",
+          "seendate": "20260909T053000Z"
+        },
+        {
+          "url": "http://www.averyjournal.com/ap/national/ap-news-in-brief-at-6-04-a-m-edt/article_5a927e95-734a-5774-a7c0-30d41adb30ed.html",
+          "title": "AP News in Brief at 6 : 04 a . m . EDT",
+          "domain": "averyjournal.com",
+          "seendate": "20260905T120000Z"
+        },
+        {
+          "url": "https://www.salon.com/2026/09/10/our-world-map-is-wrong-maga-likes-it-that-way/",
+          "title": "Our world map is wrong . MAGA likes it that way",
+          "domain": "salon.com",
+          "seendate": "20260910T181500Z"
+        },
+        {
+          "url": "https://www.alanba.com.kw/BBCNews/19234/",
+          "title": "إسرائيل تغلق القنصلية البريطانية في القدس رداً على حظر لندن استيراد السلع من المستوطنات | جريدة الأنباء",
+          "domain": "alanba.com.kw",
+          "seendate": "20260908T220000Z"
+        },
+        {
+          "url": "https://www.newstalkzb.co.nz/news/world/iran-strikes-ships-expands-no-go-zone-outside-the-strait-of-hormuz/",
+          "title": "Iran strikes ships , expands no - go zone outside the Strait of Hormuz",
+          "domain": "newstalkzb.co.nz",
+          "seendate": "20260910T060000Z"
+        },
+        {
+          "url": "https://www.independent.co.uk/news/world/europe/donald-trump-canada-strait-of-hormuz-ken-paxton-republican-party-b3046920.html",
+          "title": "The Latest : Canada strikes back with tariffs on about $20 billion worth of US goods",
+          "domain": "independent.co.uk",
+          "seendate": "20260909T033000Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-09-05/4573786.html",
+          "title": "普京与美总统特使会见超3小时 ； 郑钦文惊天大逆转晋级美网16强 ； 莴笋收购环节染色 ， 6家企业遭查处 ； Kimi 、 MiniMax将开网店丨每经早参",
+          "domain": "nbd.com.cn",
+          "seendate": "20260906T003000Z"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/us/2026/09/09/911-us-military-middle-east-wars/",
+          "title": "No easy exit : 25 years after 9 / 11 , the US military has no way out of the Middle East",
+          "domain": "thenationalnews.com",
+          "seendate": "20260909T054500Z"
+        },
+        {
+          "url": "https://www.ksat.com/news/politics/2026/09/08/the-latest-canada-strikes-back-with-tariffs-on-about-20-billion-worth-of-us-goods/",
+          "title": "The Latest : Canada strikes back with tariffs on about $20 billion worth of US goods",
+          "domain": "ksat.com",
+          "seendate": "20260908T173000Z"
+        },
+        {
+          "url": "https://grenadachronicle.com/us-envoys-meet-putin-whats-behind-latest-diplomacy-on-russia-ukraine-war/",
+          "title": "US envoys meet Putin : What behind latest diplomacy on Russia - Ukraine war ? - Grenada Chronicle – Daily Grenada And Caribbean News",
+          "domain": "grenadachronicle.com",
+          "seendate": "20260906T171500Z"
+        },
+        {
+          "url": "https://krytykapolityczna.pl/swiat/relacje-turcja-izrael-jak-wplyna-na-uklad-sil-w-azji-zachodniej/",
+          "title": "Czy Turcja będzie „ drugim Iranem  i co na to NATO ? • Krytyka Polityczna",
+          "domain": "krytykapolityczna.pl",
+          "seendate": "20260909T054500Z"
+        },
+        {
+          "url": "https://www.wfmj.com/news/national/the-latest-us-destroys-5-iranian-crude-oil-tankers-following-attacks-on-us-warship/article_2f659a23-473b-5985-b235-96d90d5e0de3.html",
+          "title": "The Latest : US destroys 5 Iranian crude oil tankers following attacks on US warship",
+          "domain": "wfmj.com",
+          "seendate": "20260909T041500Z"
+        },
+        {
+          "url": "https://www.chinesepress.com/2026/205201.html",
+          "title": "美伊海上 「 報復循環 」 加劇 特朗普預告戰事將終結 伊朗開出條件 - 华侨网",
+          "domain": "chinesepress.com",
+          "seendate": "20260910T143000Z"
+        },
+        {
+          "url": "https://www.aol.co.uk/articles/conscription-age-uk-europe-amid-202600000.html",
+          "title": "Conscription age in united kingdom and Europe amid  fears of World War 3  and  new escalation  ",
+          "domain": "aol.co.uk",
+          "seendate": "20260907T211500Z"
+        },
+        {
+          "url": "https://carnegieendowment.org/research/2026/09/america-walks-away-from-global-democracy",
+          "title": "America Walks Away from Global Democracy",
+          "domain": "carnegieendowment.org",
+          "seendate": "20260911T201500Z"
+        },
+        {
+          "url": "https://www.yakimaherald.com/news/nation_and_world/nation/the-latest-us-destroys-5-iranian-crude-oil-tankers-following-attacks-on-us-warship/article_ed79269f-dd08-5a36-9085-79d56837ec91.html",
+          "title": "The Latest : US destroys 5 Iranian crude oil tankers following attacks on US warship",
+          "domain": "yakimaherald.com",
+          "seendate": "20260909T033000Z"
+        },
+        {
+          "url": "https://hotair.com/ed-morrissey/2026/09/08/tuesdays-final-word-n3818770",
+          "title": "Tuesday Final Word",
+          "domain": "hotair.com",
+          "seendate": "20260909T040000Z"
+        },
+        {
+          "url": "https://www.wnp.pl/rynki/wielka-ucieczka-z-chin-zaczela-sie-epokowa-zmiana,1094552.html",
+          "title": "Wielka ucieczka z Chin . Zaczęła się epokowa zmiana",
+          "domain": "wnp.pl",
+          "seendate": "20260906T141500Z"
+        },
+        {
+          "url": "https://www.local10.com/news/national/2026/09/08/the-latest-canada-strikes-back-with-tariffs-on-about-20-billion-worth-of-us-goods/",
+          "title": "The Latest : Canada strikes back with tariffs on about $20 billion worth of US goods",
+          "domain": "local10.com",
+          "seendate": "20260908T180000Z"
+        },
+        {
+          "url": "https://www.kiro7.com/news/national/latest-canada/AM5FTVPK6U5U3GMZJFJTZUEUYY/",
+          "title": "The Latest : Canada aims to show world how to stand up to Trump",
+          "domain": "kiro7.com",
+          "seendate": "20260908T184500Z"
+        },
+        {
+          "url": "https://www.hani.co.kr/arti/english_edition/e_international/1276940.html",
+          "title": "War starts when deterrence stops working",
+          "domain": "hani.co.kr",
+          "seendate": "20260909T033000Z"
+        },
+        {
+          "url": "https://www.thehindubusinessline.com/economy/brics-summit-whats-on-the-agenda/article71455597.ece",
+          "title": "BRICS Summit : What on the agenda ? - The HinduBusinessLine",
+          "domain": "thehindubusinessline.com",
+          "seendate": "20260911T120000Z"
+        },
+        {
+          "url": "https://athina984.gr/2026/09/11/proelaynoyn-oi-choythi-pros-to-steno-mpamp-el-mantemp-megali-i-anisychia-gia-to-petrelaio/",
+          "title": "Προελαύνουν οι Χούθι προς το στενό Μπαμπ ελ - Μαντέμπ – Μεγάλη η ανησυχία για το πετρέλαιο",
+          "domain": "athina984.gr",
+          "seendate": "20260911T084500Z"
+        },
+        {
+          "url": "http://www.shanghaisun.com/news/279299404/us-military-aircraft-damaged-in-iranian-strikes-on-base-in-jordan",
+          "title": "US Military Aircraft Damaged In Iranian Strikes On Base In Jordan",
+          "domain": "shanghaisun.com",
+          "seendate": "20260911T021500Z"
+        },
+        {
+          "url": "http://www.europesun.com/news/279299404/us-military-aircraft-damaged-in-iranian-strikes-on-base-in-jordan",
+          "title": "US Military Aircraft Damaged In Iranian Strikes On Base In Jordan",
+          "domain": "europesun.com",
+          "seendate": "20260911T020000Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279299404/us-military-aircraft-damaged-in-iranian-strikes-on-base-in-jordan",
+          "title": "US Military Aircraft Damaged In Iranian Strikes On Base In Jordan",
+          "domain": "iranherald.com",
+          "seendate": "20260910T233000Z"
+        },
+        {
+          "url": "https://www.ceskenoviny.cz/zpravy/zelenskyj-uzemni-otazku-lze-vyresit-pouze-pri-jednani-prezidentu/2870773",
+          "title": "Zelenskyj : Územní otázku lze vyřešit pouze při jednání prezidentů",
+          "domain": "ceskenoviny.cz",
+          "seendate": "20260906T173000Z"
+        },
+        {
+          "url": "https://kassioun.org/world-news/item/86660:altsd-at-fy-aljysh-alamryky-whrb-aljbhat-almt-ddt-alty-tkhsrha-washntn",
+          "title": "التصدعات في الجيش الأمريكي وحرب الجبهات المتعددة التي تخسرها واشنطن",
+          "domain": "kassioun.org",
+          "seendate": "20260906T184500Z"
+        },
+        {
+          "url": "https://www.rnz.co.nz/news/world/1269679/argentina-ratchets-up-falklands-tensions-after-trump-casts-doubt-on-support-for-britain",
+          "title": "Argentina ratchets up Falklands tensions after Trump casts doubt on support for Britain",
+          "domain": "rnz.co.nz",
+          "seendate": "20260905T213000Z"
+        },
+        {
+          "url": "http://www.cambodiantimes.com/news/279292643/something-remarkable-happened-in-germany-on-sunday",
+          "title": "Something remarkable happened in Germany on Sunday . ",
+          "domain": "cambodiantimes.com",
+          "seendate": "20260908T013000Z"
+        }
+      ]
     },
     {
       "id": "military_strike",
@@ -1146,28 +1584,6 @@
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.7429,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
       "composite_score": 0.625,
@@ -1177,8 +1593,8 @@
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -1199,8 +1615,8 @@
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -1212,17 +1628,17 @@
       }
     },
     {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.4712,
-      "is_pre_round": true,
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.625,
+      "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -1235,96 +1651,6 @@
     },
     {
       "reference_id": "PRE_OCT24",
-      "reference_type": "pre-round",
-      "composite_score": 0.3046,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    }
-  ],
-  "comparison_table_21day": [
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.4583,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
       "composite_score": 0.2083,
       "is_pre_round": true,
@@ -1346,7 +1672,119 @@
       }
     },
     {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.0417,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    }
+  ],
+  "comparison_table_21day": [
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.625,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.6106,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.9137,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.5121,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.3225,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.1554,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.6825,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
       "composite_score": 0.0417,
       "is_pre_round": true,
@@ -1370,22 +1808,22 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
-      "articles_en": 250,
+      "volume_total": 104.8755,
+      "volume_mean_daily": 0.6596,
+      "volume_peak": 1.7429,
+      "days_active": 159,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 165,
+      "unique_domains_total": 0,
       "tone_mean": null
     },
     "window_21d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
+      "volume_total": 13.3042,
+      "volume_mean_daily": 0.6335,
+      "volume_peak": 0.9124,
+      "days_active": 21,
       "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
@@ -1395,6 +1833,6 @@
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }

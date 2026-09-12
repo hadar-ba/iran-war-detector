@@ -1,0 +1,287 @@
+{
+  "run_at": "2026-09-12T03:09:40.553235+00:00",
+  "window_21d": {
+    "current": {
+      "period_id": "CURRENT_21D",
+      "start": "20260822030129",
+      "end": "20260912030129",
+      "extracted_at": "2026-09-12T03:01:29.569626+00:00",
+      "volume_total": 13.3042,
+      "volume_mean_daily": 0.6335,
+      "volume_peak": 0.9124,
+      "days_active": 21,
+      "articles_en": 0,
+      "articles_he": 0,
+      "articles_fa": 0,
+      "confluence_score": 0.0,
+      "unique_domains_en": 0,
+      "unique_domains_he": 0,
+      "unique_domains_fa": 0,
+      "unique_domains_total": 0,
+      "tone_mean": null,
+      "tone_min": null,
+      "tone_max": null,
+      "silent_signals": null,
+      "errors": [
+        "tone: 429 rate-limited",
+        "artlist/english: 429 rate-limited",
+        "artlist/hebrew: 429 rate-limited",
+        "artlist/persian: 429 rate-limited"
+      ]
+    },
+    "similarities": [
+      {
+        "reference_id": "PRE_FEB26",
+        "reference_type": "pre-round",
+        "composite_score": 0.625,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 1.0,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "QUIET_JAN26",
+        "reference_type": "quiet",
+        "composite_score": 0.6106,
+        "is_pre_round": false,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 0.9137,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "POST_FEB26",
+        "reference_type": "post-ceasefire",
+        "composite_score": 0.5121,
+        "is_pre_round": false,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 0.3225,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "PRE_OCT24",
+        "reference_type": "pre-round",
+        "composite_score": 0.1554,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 0.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 0.6825,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "PRE_APR24",
+        "reference_type": "pre-round",
+        "composite_score": 0.0417,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 0.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 0.0,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      }
+    ]
+  },
+  "window_7d": {
+    "current": {
+      "period_id": "CURRENT_7D",
+      "start": "20260905030352",
+      "end": "20260912030352",
+      "extracted_at": "2026-09-12T03:03:52.869232+00:00",
+      "volume_total": 104.8755,
+      "volume_mean_daily": 0.6596,
+      "volume_peak": 1.7429,
+      "days_active": 159,
+      "articles_en": 0,
+      "articles_he": 0,
+      "articles_fa": 0,
+      "confluence_score": 0.0,
+      "unique_domains_en": 0,
+      "unique_domains_he": 0,
+      "unique_domains_fa": 0,
+      "unique_domains_total": 0,
+      "tone_mean": null,
+      "tone_min": null,
+      "tone_max": null,
+      "silent_signals": null,
+      "errors": [
+        "tone: 429 rate-limited",
+        "artlist/english: 429 rate-limited",
+        "artlist/hebrew: 429 rate-limited",
+        "artlist/persian: 429 rate-limited"
+      ]
+    },
+    "similarities": [
+      {
+        "reference_id": "PRE_FEB26",
+        "reference_type": "pre-round",
+        "composite_score": 0.625,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 1.0,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "POST_FEB26",
+        "reference_type": "post-ceasefire",
+        "composite_score": 0.625,
+        "is_pre_round": false,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 1.0,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "QUIET_JAN26",
+        "reference_type": "quiet",
+        "composite_score": 0.625,
+        "is_pre_round": false,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 1.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 1.0,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "PRE_OCT24",
+        "reference_type": "pre-round",
+        "composite_score": 0.2083,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 0.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 1.0,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      },
+      {
+        "reference_id": "PRE_APR24",
+        "reference_type": "pre-round",
+        "composite_score": 0.0417,
+        "is_pre_round": true,
+        "warn": false,
+        "sub_scores": {
+          "silent_signals": null,
+          "confluence": 0.0,
+          "cross_lang_correlation": 0.0,
+          "raw_volume": 0.0,
+          "source_diversity": 0.0,
+          "tone": 0.5
+        },
+        "weights_applied": {
+          "confluence": 0.4167,
+          "cross_lang_correlation": 0.1667,
+          "raw_volume": 0.1667,
+          "source_diversity": 0.1667,
+          "tone": 0.0833
+        }
+      }
+    ]
+  }
+}
