@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-09-13T03:10:22.955608+00:00",
+  "timestamp_utc": "2026-09-13T15:42:17.983324+00:00",
   "status": "green",
   "headline_score_7day": 46,
-  "headline_score_21day": 46,
-  "score_jump": -16,
+  "headline_score_21day": 62,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "News patterns are within the normal range — no elevated signals detected.",
   "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to the period before Operation Lion's Roar (February 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 62% similarity to the period before Operation Lion's Roar (February 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 62% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -40,7 +40,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [
         "https://www.kikar.co.il/world-news/iran-ballistic-missiles-us-bases-jordan-oil-tanker",
         "https://timesofindia.indiatimes.com/world/us/theyre-desperate-to-affect-election-trump-declares-iran-war-will-end-after-us-midterms/articleshow/133982252.cms",
@@ -76,12 +76,6 @@
           "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
           "domain": "jpost.com",
           "seendate": "20260909T050000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-06/live-updates-907659",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260906T050000Z"
         },
         {
           "url": "http://www.jpost.com/middle-east/iran-news/2026-09-11/live-updates-908363",
@@ -130,12 +124,6 @@
           "title": "美國與以色列白忙一場 ？ 華爾街日報 ： 伊朗地下設施復工重啟生產彈道飛彈 | 國際",
           "domain": "newtalk.tw",
           "seendate": "20260911T064500Z"
-        },
-        {
-          "url": "https://www.bssnews.net/international/421496",
-          "title": "Iran arrests alleged opposition supporters after video circulates",
-          "domain": "bssnews.net",
-          "seendate": "20260906T134500Z"
         },
         {
           "url": "https://arabic.euronews.com/2026/09/09/after-accusing-him-of-collaborating-with-the-irgc-kurdish-group-assassinates-sunni-cleric",
@@ -220,18 +208,6 @@
           "title": "No . 34 : Tomer Bar , Omer Tishler , and Shlomi Binder",
           "domain": "jpost.com",
           "seendate": "20260912T080000Z"
-        },
-        {
-          "url": "https://www.thejournal.ie/four-killed-israeli-strikes-southern-lebanon-7154209-Sep2026/",
-          "title": "Four killed in Israeli strikes on southern Lebanon , health ministry says",
-          "domain": "thejournal.ie",
-          "seendate": "20260906T093000Z"
-        },
-        {
-          "url": "https://www.kikar.co.il/arab-news/iranian-officers-trapped-lebanon-tunnels",
-          "title": "מלכודת האדמה : קצינים איראניים נצורים במנהרות - טהרן מאיימת",
-          "domain": "kikar.co.il",
-          "seendate": "20260906T093000Z"
         },
         {
           "url": "https://assabeel.net/84317",
@@ -444,10 +420,28 @@
           "seendate": "20260907T211500Z"
         },
         {
+          "url": "https://economictimes.indiatimes.com/news/defence/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace/articleshow/134178565.cms",
+          "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260913T061500Z"
+        },
+        {
+          "url": "https://news.webindia123.com/news/Articles/World/20260913/4498060.html",
+          "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+          "domain": "news.webindia123.com",
+          "seendate": "20260913T061500Z"
+        },
+        {
           "url": "https://www.abc.net.au/news/2026-09-08/lebanon-israel-hezbollah-shadow-war/107111986",
           "title": "Lebanon thrown into crisis in shadow of Iran war",
           "domain": "abc.net.au",
           "seendate": "20260907T210000Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/europe/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace20260913100024/",
+          "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+          "domain": "aninews.in",
+          "seendate": "20260913T061500Z"
         },
         {
           "url": "https://www.haber7.com/yazarlar/ertugrul-cingil/3657806-netanyahunun-kanli-secim-kumari",
@@ -466,12 +460,6 @@
           "title": "Israel bombs southern Lebanon despite the truce :  We feel like we are still at war  | International",
           "domain": "english.elpais.com",
           "seendate": "20260908T020000Z"
-        },
-        {
-          "url": "https://www.isracast.com/are-israel-and-the-us-on-the-same-page-when-it-comes-to-the-iranian-nuclear-threat/",
-          "title": "ARE ISRAEL AND THE US ON THE SAME PAGE WHEN IT COMES TO THE IRANIAN NUCLEAR THREAT ? ",
-          "domain": "isracast.com",
-          "seendate": "20260906T101500Z"
         },
         {
           "url": "https://www.jpost.com/influencers-26/50jews-26/article-907930",
@@ -594,12 +582,6 @@
           "seendate": "20260907T033000Z"
         },
         {
-          "url": "https://euobserver.com/234129/zawtar-al-gharbiyah-the-lebanese-safe-zone-under-israeli-surveillance-and-fire/",
-          "title": "Zawtar al - Gharbiyah : the Lebanese  safe zone  under Israeli surveillance and fire – EUobserver",
-          "domain": "euobserver.com",
-          "seendate": "20260906T114500Z"
-        },
-        {
           "url": "https://www.raya.ps/news/1224461.html",
           "title": "إصابة جنديين إسرائيليين : 12 شهيدا في غارات على جنوب لبنان",
           "domain": "raya.ps",
@@ -610,6 +592,42 @@
           "title": "Iran fragmentation gamble is backfiring : How the Gulf turned escalation into unity",
           "domain": "weeklyblitz.net",
           "seendate": "20260909T221500Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279304105/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace",
+          "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+          "domain": "iranherald.com",
+          "seendate": "20260913T084500Z"
+        },
+        {
+          "url": "http://www.kenyastar.com/news/279304105/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace",
+          "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+          "domain": "kenyastar.com",
+          "seendate": "20260913T081500Z"
+        },
+        {
+          "url": "http://www.heraldglobe.com/news/279304105/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace",
+          "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+          "domain": "heraldglobe.com",
+          "seendate": "20260913T060000Z"
+        },
+        {
+          "url": "http://www.austinglobe.com/news/279304105/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace",
+          "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+          "domain": "austinglobe.com",
+          "seendate": "20260913T061500Z"
+        },
+        {
+          "url": "http://www.arabherald.com/news/279304105/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace",
+          "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+          "domain": "arabherald.com",
+          "seendate": "20260913T073000Z"
+        },
+        {
+          "url": "http://www.russiaherald.com/news/279304105/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace",
+          "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+          "domain": "russiaherald.com",
+          "seendate": "20260913T073000Z"
         },
         {
           "url": "https://www.eurasiareview.com/10092026-how-the-gulf-foiled-irans-fragmentation-plan-oped/",
@@ -697,7 +715,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -713,1514 +731,9 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
-      "example_urls": [
-        "http://www.thegazette.com/news/national/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/article_8f0cec50-ee67-596a-a129-885a3a5ea0ca.html",
-        "https://www.theyeshivaworld.com/news/israel-news/2595551/iran-escalates-tehran-unveils-new-doctrine-threatens-preemptive-action-against-any-threat.html",
-        "https://www.standardmedia.co.ke/america/article/2001557108/lebanon-says-4-dead-in-strikes-that-israel-calls-response-to-hezbollah-drones"
-      ],
-      "articles": [
-        {
-          "url": "http://www.thegazette.com/news/national/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/article_8f0cec50-ee67-596a-a129-885a3a5ea0ca.html",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "thegazette.com",
-          "seendate": "20260910T030000Z"
-        },
-        {
-          "url": "https://www.theyeshivaworld.com/news/israel-news/2595551/iran-escalates-tehran-unveils-new-doctrine-threatens-preemptive-action-against-any-threat.html",
-          "title": "IRAN ESCALATES : Tehran Unveils New Doctrine , Threatens Preemptive Action Against Any Threat",
-          "domain": "theyeshivaworld.com",
-          "seendate": "20260908T181500Z"
-        },
-        {
-          "url": "https://www.standardmedia.co.ke/america/article/2001557108/lebanon-says-4-dead-in-strikes-that-israel-calls-response-to-hezbollah-drones",
-          "title": "Lebanon says 4 dead in strikes that Israel calls response to Hezbollah drones",
-          "domain": "standardmedia.co.ke",
-          "seendate": "20260906T110000Z"
-        },
-        {
-          "url": "https://www.haberler.com/dunya/suudi-arabistan-dan-husi-saldirilarina-karsilik-20220383-haberi/",
-          "title": "Suudi Arabistandan Husi saldırılarına karşılık yemini",
-          "domain": "haberler.com",
-          "seendate": "20260908T230000Z"
-        },
-        {
-          "url": "https://www.hngn.com/articles/273103/20260907/israeli-strikes-kill-11-lebanon-iran-wars-second-front-flares.htm",
-          "title": "Israeli Strikes Kill 11 in Lebanon as Iran War Second Front Flares",
-          "domain": "hngn.com",
-          "seendate": "20260907T183000Z"
-        },
-        {
-          "url": "https://www.thejournal.ie/four-killed-israeli-strikes-southern-lebanon-7154209-Sep2026/",
-          "title": "Four killed in Israeli strikes on southern Lebanon , health ministry says",
-          "domain": "thejournal.ie",
-          "seendate": "20260906T093000Z"
-        },
-        {
-          "url": "https://www.livemint.com/news/world/iran-claims-us-missile-hit-tanker-near-kharg-island-irgc-says-mq-1-drone-downed-over-strait-of-hormuz-11788898120584.html",
-          "title": "US strikes Iranian tankers after attempted missile attacks on its Navy warship : Report",
-          "domain": "livemint.com",
-          "seendate": "20260908T220000Z"
-        },
-        {
-          "url": "https://www.naharnet.com:443/stories/en/322293-4-dead-20-hurt-as-israel-strikes-nabatieh-region-in-response-to-hezbollah-drones",
-          "title": "4 dead , 20 hurt as Israel strikes Nabatieh region in response to  Hezbollah drones  ",
-          "domain": "naharnet.com",
-          "seendate": "20260906T124500Z"
-        },
-        {
-          "url": "https://www.naharnet.com/stories/en/322293-4-dead-20-hurt-as-israel-strikes-nabatieh-region-in-response-to-hezbollah-drones",
-          "title": "4 dead , 20 hurt as Israel strikes Nabatieh region in response to  Hezbollah drones  ",
-          "domain": "naharnet.com",
-          "seendate": "20260906T111500Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/national/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/article_4e5370aa-bd29-585d-a77b-2d89a5d0a5f7.html",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260910T043000Z"
-        },
-        {
-          "url": "https://www.theyeshivaworld.com/news/general/2595579/houthi-attacks-on-saudi-arabia-ignite-fires-at-oil-facilities-and-wound-73-people.html",
-          "title": "Houthi Attacks On Saudi Arabia Ignite Fires At Oil Facilities And Wound 73 People",
-          "domain": "theyeshivaworld.com",
-          "seendate": "20260908T181500Z"
-        },
-        {
-          "url": "http://www.idahopress.com/ap_news/us/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/article_c5dce2a0-8c83-59ac-9c66-08dd5e8d177e.html",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "idahopress.com",
-          "seendate": "20260909T213000Z"
-        },
-        {
-          "url": "https://weeklyblitz.net/2026/09/10/irans-fragmentation-gamble-is-backfiring-how-the-gulf-turned-escalation-into-unity/",
-          "title": "Iran fragmentation gamble is backfiring : How the Gulf turned escalation into unity",
-          "domain": "weeklyblitz.net",
-          "seendate": "20260909T221500Z"
-        },
-        {
-          "url": "https://stirileprotv.ro/mesaj-comun-al-brics-dupa-sase-luni-de-razboi-si-blocarea-stramtorii-ormuz-evitati-actiunile-care-pot-agrava-situatia.html",
-          "title": "Mesaj comun al BRICS după șase luni de război și blocarea Strâmtorii Ormuz : „ Evitați acțiunile care pot agrava situația  ",
-          "domain": "stirileprotv.ro",
-          "seendate": "20260912T143000Z"
-        },
-        {
-          "url": "https://www.freemalaysiatoday.com/category/world/2026/09/06/lebanon-s-president-calls-for-us-help-after-4-killed-in-israeli-strikes",
-          "title": "Lebanon president calls for US help after 4 killed in Israeli strikes",
-          "domain": "freemalaysiatoday.com",
-          "seendate": "20260906T161500Z"
-        },
-        {
-          "url": "https://www.businesstoday.in/world/story/us-strikes-iranian-oil-tankers-iran-retaliates-with-attack-on-us-base-in-jordan-brent-crude-climbs-usd-1-57-554122-2026-09-09",
-          "title": "US strikes Iranian oil tankers , Iran retaliates with attack on US base in Jordan ; Brent crude climbs $1 . 57",
-          "domain": "businesstoday.in",
-          "seendate": "20260909T030000Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202609111117240198",
-          "title": "美  보충할 능력 없다  더니 … 이란 , 지하서 미사일 다시 만든다",
-          "domain": "fnnews.com",
-          "seendate": "20260911T090000Z"
-        },
-        {
-          "url": "https://www.wcvb.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "wcvb.com",
-          "seendate": "20260909T000000Z"
-        },
-        {
-          "url": "https://www.wyff4.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "wyff4.com",
-          "seendate": "20260909T001500Z"
-        },
-        {
-          "url": "https://www.koat.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "koat.com",
-          "seendate": "20260909T004500Z"
-        },
-        {
-          "url": "https://www.wmur.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "wmur.com",
-          "seendate": "20260909T034500Z"
-        },
-        {
-          "url": "https://www.pressian.com/pages/articles/2026090917590102760",
-          "title": "호르무즈 · 예멘 충돌 동시 격화 … 중동 , 장기전으로 돌입하나",
-          "domain": "pressian.com",
-          "seendate": "20260909T161500Z"
-        },
-        {
-          "url": "https://www.antena3.ro/externe/brics-organizatie-din-care-face-parte-si-iranul-indeamna-la-retinere-maxima-in-razboiul-din-orient-802996.html",
-          "title": "BRICS , organizație din care face parte și Iranul , „ îndeamnă  la „ reținere maximă  în războiul din Orient",
-          "domain": "antena3.ro",
-          "seendate": "20260912T153000Z"
-        },
-        {
-          "url": "https://www.wgal.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "wgal.com",
-          "seendate": "20260909T000000Z"
-        },
-        {
-          "url": "https://www.singtaousa.com/2026/09/08/news/world/us-military-says-it-destroyed-5-more-iranian-oil-tankers-after-missile-attacks-on-navy-warship/",
-          "title": "美軍摧毀五艘伊朗油輪 報復海軍軍艦遭導彈襲擊",
-          "domain": "singtaousa.com",
-          "seendate": "20260909T041500Z"
-        },
-        {
-          "url": "https://isp.netscape.com:443/news/world/story/0001/20260907/691deb2ccb571ec83c552efb794568cd",
-          "title": "Israeli airstrikes hit a Lebanese village , killing 9 , and other Mideast developments",
-          "domain": "isp.netscape.com",
-          "seendate": "20260907T131500Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1875837835935175450",
-          "title": "打击美国航母 、 公开新型导弹 ， 伊朗转向  主动威慑  对局势有何影响 ？ ",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20260909T143000Z"
-        },
-        {
-          "url": "https://theconversation.com/iran-war-tehrans-assertive-rhetoric-signals-a-new-and-dangerous-phase-in-conflict-291478",
-          "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict",
-          "domain": "theconversation.com",
-          "seendate": "20260908T190000Z"
-        },
-        {
-          "url": "https://www.lapresse.ca/international/moyen-orient/2026-09-08/apres-des-attaques-sur-des-petroliers-iraniens/l-iran-frappe-une-base-militaire-americaine-en-jordanie.php",
-          "title": "Après des attaques sur des pétroliers iraniens | LIran frappe une base militaire américaine en Jordanie",
-          "domain": "lapresse.ca",
-          "seendate": "20260909T020000Z"
-        },
-        {
-          "url": "https://www.oneindia.com/international/us-military-says-it-destroyed-5-iranian-oil-tankers-after-missile-attacks-on-navy-warship-8199941.html",
-          "title": "US Military Says It Destroyed 5 Iranian Oil Tankers After Missile Attacks on Navy Warship",
-          "domain": "oneindia.com",
-          "seendate": "20260909T053000Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202609091046016558",
-          "title": "또 시작된 보복전 … 美 이란 유조선 공격에 이란  요르단 기지 타격 ( 종합 ) ",
-          "domain": "fnnews.com",
-          "seendate": "20260909T030000Z"
-        },
-        {
-          "url": "https://www.wdsu.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "wdsu.com",
-          "seendate": "20260908T231500Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=453637&fm=psp,tsf",
-          "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict - 09 - Sep - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260908T234500Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=453637",
-          "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict - 09 - Sep - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260909T003000Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=453637&fm=psp,tst",
-          "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict - 09 - Sep - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260908T234500Z"
-        },
-        {
-          "url": "https://newtalk.tw/news/view/2026-09-11/1059173",
-          "title": "美國與以色列白忙一場 ？ 華爾街日報 ： 伊朗地下設施復工重啟生產彈道飛彈 | 國際",
-          "domain": "newtalk.tw",
-          "seendate": "20260911T064500Z"
-        },
-        {
-          "url": "https://news.webindia123.com/news/Articles/World/20260912/4497587.html",
-          "title": "Iran has successfully stood against Israel , USpeople of Iran will not surrender : Iranian President Pezeshkian",
-          "domain": "news.webindia123.com",
-          "seendate": "20260911T211500Z"
-        },
-        {
-          "url": "https://aninews.in/news/world/asia/8220iran-has-successfully-stood-against-israel-us8230people-of-iran-will-not-surrender8221-iranian-president-pezeshkian20260912001936/",
-          "title": "  Iran has successfully stood against Israel , US … people of Iran will not surrender : Iranian President Pezeshkian",
-          "domain": "aninews.in",
-          "seendate": "20260911T194500Z"
-        },
-        {
-          "url": "https://mymotherlode.com/news/world/11125631/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news.html",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "mymotherlode.com",
-          "seendate": "20260909T191500Z"
-        },
-        {
-          "url": "https://www.koco.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "koco.com",
-          "seendate": "20260909T001500Z"
-        },
-        {
-          "url": "https://www.asahi.com/articles/ASV9632Z6V96UHBI00CM.html",
-          "title": "米国とイランがタンカーへの攻撃で応酬 ホルムズ海峡の緊張続く [ 米 ・ イスラエルのイラン攻撃 イラン情勢 ]： 朝日新聞",
-          "domain": "asahi.com",
-          "seendate": "20260906T144500Z"
-        },
-        {
-          "url": "http://www.econotimes.com/Israel-Strikes-Southern-Lebanon-After-Hezbollah-Drone-Attack-1751331",
-          "title": "Israel Strikes Southern Lebanon After Hezbollah Drone Attack",
-          "domain": "econotimes.com",
-          "seendate": "20260906T130000Z"
-        },
-        {
-          "url": "https://www.stiripesurse.ro/brics-apel-de-urgenta-dupa-reaprinderea-conflictului-din-orientul-mijlociu-retinere-maxima-avertisment-privind-instalatiile-nucleare_3919482",
-          "title": "BRICS , apel de urgență după reaprinderea conflictului din Orientul Mijlociu : „ Reținere maximă . Avertisment privind instalațiile nucleare",
-          "domain": "stiripesurse.ro",
-          "seendate": "20260912T214500Z"
-        },
-        {
-          "url": "https://www.newsday.com/news/nation/mideast-iran-us-hormuz-lebanon-israel-j55616",
-          "title": "US denies Iran claim to have struck an unmanned ship , and other Mideast news",
-          "domain": "newsday.com",
-          "seendate": "20260906T134500Z"
-        },
-        {
-          "url": "https://www.winnipegfreepress.com/world/2026/09/06/iran-says-it-hit-a-us-ship-in-a-week-of-renewed-hostilities-and-other-mideast-news",
-          "title": "Iran says it hit a US ship in a week of renewed hostilities , and other Mideast news – Winnipeg Free Press",
-          "domain": "winnipegfreepress.com",
-          "seendate": "20260906T100000Z"
-        },
-        {
-          "url": "https://www.wsbradio.com/news/houthi-strikes-set/NL5WMGVM3M3CPHJKXYJ7HTB6AE/",
-          "title": "US strikes Iranian tankers after attempted attacks on Navy warship",
-          "domain": "wsbradio.com",
-          "seendate": "20260909T080000Z"
-        },
-        {
-          "url": "https://n.yam.com/Article/20260911791160",
-          "title": "中東緊張升級 ： 伊朗襲擊美軍基地與油輪 美機受損",
-          "domain": "n.yam.com",
-          "seendate": "20260911T020000Z"
-        },
-        {
-          "url": "https://www.boursorama.com/actualite-economique/actualites/teheran-frappe-en-jordanie-apres-des-attaques-sur-des-petroliers-iraniens-d7564a84cf39072af9b3060ce09bb05b",
-          "title": "Téhéran frappe en Jordanie après des attaques sur des pétroliers iraniens - 09 / 09 / 2026 à 02 : 14",
-          "domain": "boursorama.com",
-          "seendate": "20260909T020000Z"
-        },
-        {
-          "url": "https://isp.netscape.com:443/news/world/story/0001/20260909/3a2a047784c920cadf6e3911bb8969ac",
-          "title": "US strikes Iranian tankers plus other key Mideast news",
-          "domain": "isp.netscape.com",
-          "seendate": "20260909T023000Z"
-        },
-        {
-          "url": "https://www.wboc.com/news/international/us-strikes-iranian-tankers-plus-other-key-mideast-news/article_8df95bb9-fbbf-56af-a83d-4b4a39fb8d02.html",
-          "title": "US strikes Iranian tankers plus other key Mideast news",
-          "domain": "wboc.com",
-          "seendate": "20260909T043000Z"
-        },
-        {
-          "url": "https://www.naturalnews.com/2026-09-11-yemeni-strikes-could-trigger-mecca-defense-pact.html",
-          "title": "Pakistan Warns Yemeni Strikes on Saudi Arabia Could Trigger Mecca Defense Pact – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "seendate": "20260912T014500Z"
-        },
-        {
-          "url": "http://www.indiagazette.com/news/279301806/iran-has-successfully-stood-against-israel-uspeople-of-iran-will-not-surrender-iranian-president-pezeshkian",
-          "title": "  Iran has successfully stood against Israel , US ... people of Iran will not surrender : Iranian President Pezeshkian",
-          "domain": "indiagazette.com",
-          "seendate": "20260911T233000Z"
-        },
-        {
-          "url": "http://www.israelherald.com/news/279301806/iran-has-successfully-stood-against-israel-uspeople-of-iran-will-not-surrender-iranian-president-pezeshkian",
-          "title": "  Iran has successfully stood against Israel , US ... people of Iran will not surrender : Iranian President Pezeshkian",
-          "domain": "israelherald.com",
-          "seendate": "20260911T231500Z"
-        },
-        {
-          "url": "http://www.iraqsun.com/news/279301806/iran-has-successfully-stood-against-israel-uspeople-of-iran-will-not-surrender-iranian-president-pezeshkian",
-          "title": "  Iran has successfully stood against Israel , US ... people of Iran will not surrender : Iranian President Pezeshkian",
-          "domain": "iraqsun.com",
-          "seendate": "20260911T223000Z"
-        },
-        {
-          "url": "http://www.iranherald.com/news/279301806/iran-has-successfully-stood-against-israel-uspeople-of-iran-will-not-surrender-iranian-president-pezeshkian",
-          "title": "  Iran has successfully stood against Israel , US ... people of Iran will not surrender : Iranian President Pezeshkian",
-          "domain": "iranherald.com",
-          "seendate": "20260912T043000Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279301806/iran-has-successfully-stood-against-israel-uspeople-of-iran-will-not-surrender-iranian-president-pezeshkian",
-          "title": "  Iran has successfully stood against Israel , US ... people of Iran will not surrender : Iranian President Pezeshkian",
-          "domain": "middleeaststar.com",
-          "seendate": "20260911T230000Z"
-        },
-        {
-          "url": "http://www.bignewsnetwork.com/news/279301806/iran-has-successfully-stood-against-israel-uspeople-of-iran-will-not-surrender-iranian-president-pezeshkian",
-          "title": "  Iran has successfully stood against Israel , US ... people of Iran will not surrender : Iranian President Pezeshkian",
-          "domain": "bignewsnetwork.com",
-          "seendate": "20260911T213000Z"
-        },
-        {
-          "url": "http://www.greekherald.com/news/279301806/iran-has-successfully-stood-against-israel-uspeople-of-iran-will-not-surrender-iranian-president-pezeshkian",
-          "title": "  Iran has successfully stood against Israel , US ... people of Iran will not surrender : Iranian President Pezeshkian",
-          "domain": "greekherald.com",
-          "seendate": "20260911T224500Z"
-        },
-        {
-          "url": "https://www.khqa.com/news/nation-world/us-strikes-iranian-tankers-plus-other-key-mideast-news/article_5ab1407a-0ac7-5c35-9cff-3d9100fd6a26.html",
-          "title": "US strikes Iranian tankers plus other key Mideast news",
-          "domain": "khqa.com",
-          "seendate": "20260909T041500Z"
-        },
-        {
-          "url": "https://www.cna.com.tw:443/news/aopl/202609110110.aspx",
-          "title": "華爾街日報 ： 伊朗地下設施復工 重啟生產彈道飛彈 | 國際",
-          "domain": "cna.com.tw",
-          "seendate": "20260911T054500Z"
-        },
-        {
-          "url": "https://www.cna.com.tw/news/aopl/202609110110.aspx",
-          "title": "華爾街日報 ： 伊朗地下設施復工 重啟生產彈道飛彈 | 國際",
-          "domain": "cna.com.tw",
-          "seendate": "20260911T080000Z"
-        },
-        {
-          "url": "https://www.euro2day.gr/news/world/article/2367887/neos-synagermos-ston-livano-to-israhl-proeidopoihs.html",
-          "title": "Νέος συναγερμός στον Λίβανο : Το Ισραήλ προειδοποίησε για βομβαρδισμό",
-          "domain": "euro2day.gr",
-          "seendate": "20260907T064500Z"
-        },
-        {
-          "url": "https://www.gjsentinel.com/news/us/us-strikes-iranian-tankers-plus-other-key-mideast-news/article_da441c0a-ebed-5986-b8bf-81100b841177.html",
-          "title": "US strikes Iranian tankers plus other key Mideast news",
-          "domain": "gjsentinel.com",
-          "seendate": "20260909T040000Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/they-blew-the-hell-out-of-bahrain-us-official-admits-iran-damaged-us-base/articleshow/134039389.cms",
-          "title": "  They blew the hell out of Bahrain : US official admits Iran damaged US base",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260911T021500Z"
-        },
-        {
-          "url": "https://www.protothema.gr/world/article/1874846/israilini-epidromi-ston-livano-meta-apo-epithesi-tis-hezbolah-me-drone/",
-          "title": "Ισραηλινή επιδρομή στον Λίβανο μετά από επίθεση της Χεζμπολάχ με drone",
-          "domain": "protothema.gr",
-          "seendate": "20260907T031500Z"
-        },
-        {
-          "url": "https://www.in.gr/2026/09/07/world/livanos-oi-israilines-dynameis-diatassoun-katoikous-na-apomakrynthoun-espeysmena-enopsei-vomvardismon/",
-          "title": "Λίβανος : Οι ισραηλινές δυνάμεις διατάσσουν κατοίκους να απομακρυνθούν εσπευσμένα ενόψει βομβαρδισμών",
-          "domain": "in.gr",
-          "seendate": "20260907T020000Z"
-        },
-        {
-          "url": "http://www.koreatimes.com/article/20260910/1629224",
-          "title": "  이란 , 탄도미사일 생산 재개 … 지하기지서 비축부품 조립  ",
-          "domain": "koreatimes.com",
-          "seendate": "20260910T234500Z"
-        },
-        {
-          "url": "https://www.wsls.com/news/world/2026/09/09/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "wsls.com",
-          "seendate": "20260909T103000Z"
-        },
-        {
-          "url": "https://www.zazoom.it/2026-09-09/iran-i-pasdaran-attaccano-la-base-usa-in-giordania-e-israele-rompe-con-trump/19659413/",
-          "title": "Iran i Pasdaran attaccano la base united states in Giordania e Israele rompe con Trump",
-          "domain": "zazoom.it",
-          "seendate": "20260909T084500Z"
-        },
-        {
-          "url": "https://finance.jrj.com.cn/2026/09/11082658408744.shtml",
-          "title": "伊朗突传重磅 ！ 华尔街日报 ： 伊朗已恢复生产弹道导弹",
-          "domain": "finance.jrj.com.cn",
-          "seendate": "20260911T024500Z"
-        },
-        {
-          "url": "https://www.perthnow.com.au/news/world/the-new-york-times-us-strikes-three-iranian-shadow-network-oil-tankers-military-says-c-22830584",
-          "title": "THE NEW YORK TIMES : U . S . strikes three Iranian  shadow network  oil tankers , military says",
-          "domain": "perthnow.com.au",
-          "seendate": "20260906T031500Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/227/vrochi-pyravlon-pano-apo-to-ormouz-oi-ipa-eplixan-5-iranika-tanker--antipoina-tis-techeranis-me-epitheseis-se-10-ploia-kai-stin-iordania.htm",
-          "title": "Βροχή πυραύλων πάνω από το Ορμούζ : Οι ΗΠΑ έπληξαν 5 ιρανικά τάνκερ – Αντίποινα της Τεχεράνης με επιθέσεις σε 10 πλοία και στην Ιορδανία",
-          "domain": "inewsgr.com",
-          "seendate": "20260909T054500Z"
-        },
-        {
-          "url": "https://www.cbc.ca/news/world/israeli-strikes-southern-lebanon-9.7334203",
-          "title": "Israeli strikes kill 4 in southern Lebanon",
-          "domain": "cbc.ca",
-          "seendate": "20260906T144500Z"
-        },
-        {
-          "url": "http://www.china.org.cn/2026-09/07/content_118683164.shtml",
-          "title": "Netanyahu threatens Iran with major strike",
-          "domain": "china.org.cn",
-          "seendate": "20260907T050000Z"
-        },
-        {
-          "url": "https://www.aboluowang.com/2026/0907/2430276.html",
-          "title": "伊朗只剩这点原油了 ＊ 阿波罗新闻网",
-          "domain": "aboluowang.com",
-          "seendate": "20260907T064500Z"
-        },
-        {
-          "url": "https://www.philenews.com/kosmos/article/1767263/epidromi-tou-israil-ston-livano-proigithike-epithesi-tis-chezmpolach-me-drone-ke-ekriktika/",
-          "title": "Επιδρομή Ισραήλ στον Λίβανο μετά την επίθεση της Χεζμπολάχ",
-          "domain": "philenews.com",
-          "seendate": "20260907T064500Z"
-        },
-        {
-          "url": "https://www.asiaone.com:443/world/us-denies-iran-struck-uncrewed-us-military-ship-strait-hormuz",
-          "title": "US denies that Iran struck an uncrewed US military ship in the Strait of Hormuz",
-          "domain": "asiaone.com",
-          "seendate": "20260907T063000Z"
-        },
-        {
-          "url": "https://www.obozrevatel.com/ukr/novosti-mir/iran-vidnoviv-virobnitstvo-balistichnih-raket-na-pidzemnih-obektah-pislya-udariv-ssha-ta-izrailyu-wsj.htm",
-          "title": "Іран відновив виробництво балістичних ракет на підземних об  єктах після ударів США та Ізраїлю – війна на Близькому Сході",
-          "domain": "obozrevatel.com",
-          "seendate": "20260912T091500Z"
-        },
-        {
-          "url": "https://www.wfmz.com/news/ap/ap-national/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/article_3bc388ee-172a-5284-b642-7930dc9b5c27.html",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "wfmz.com",
-          "seendate": "20260909T113000Z"
-        },
-        {
-          "url": "https://www.twincities.com/2026/09/06/us-denies-that-iran-struck-an-uncrewed-us-military-ship-in-the-strait-of-hormuz/",
-          "title": "US denies that Iran struck an uncrewed US military ship in the Strait of Hormuz",
-          "domain": "twincities.com",
-          "seendate": "20260907T041500Z"
-        },
-        {
-          "url": "http://www.thegazette.com/news/national/us-denies-that-iran-struck-an-uncrewed-us-military-ship-in-the-strait-of-hormuz/article_91becde9-8521-5789-a78b-c37ce31686d1.html",
-          "title": "US denies that Iran struck an uncrewed US military ship in the Strait of Hormuz",
-          "domain": "thegazette.com",
-          "seendate": "20260907T041500Z"
-        },
-        {
-          "url": "https://www.wfmz.com/news/ap/ap-national/us-denies-that-iran-struck-an-uncrewed-us-military-ship-in-the-strait-of-hormuz/article_6cfb7f6b-65dd-5583-8786-d571129e597f.html",
-          "title": "US denies that Iran struck an uncrewed US military ship in the Strait of Hormuz",
-          "domain": "wfmz.com",
-          "seendate": "20260907T040000Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/news/iran-used-chinese-satellite-images-attack-us-base-jordan",
-          "title": "Iran used Chinese satellite images for attack on US base in Jordan , says report",
-          "domain": "middleeasteye.net",
-          "seendate": "20260912T133000Z"
-        },
-        {
-          "url": "https://www.news-gazette.com/news/nation-world/us-denies-that-iran-struck-an-uncrewed-us-military-ship-in-the-strait-of-hormuz/article_ad8011ab-6513-5131-9d1e-529a8f6b1f8c.html",
-          "title": "US denies that Iran struck an uncrewed US military ship in the Strait of Hormuz",
-          "domain": "news-gazette.com",
-          "seendate": "20260907T031500Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/defence/israeli-strikes-kill-seven-in-southern-lebanon/articleshow/133850057.cms",
-          "title": "Israeli strikes kill seven in southern Lebanon",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260906T194500Z"
-        },
-        {
-          "url": "https://www.edaily.co.kr/News/Read?newsId=02660086645579136&mediaCodeNo=257",
-          "title": "미사일 능력 파괴됐다더니 … 이란 , 지하 시설서 조립 재개",
-          "domain": "edaily.co.kr",
-          "seendate": "20260910T231500Z"
-        },
-        {
-          "url": "https://www.cbc.ca/news/world/us-military-5-oil-tankers-iran-strikes-jordan-9.7336574",
-          "title": "U . S . military says it destroyed 5 more Iranian oil tankers in latest escalation",
-          "domain": "cbc.ca",
-          "seendate": "20260909T010000Z"
-        },
-        {
-          "url": "http://forex.cnfol.com/jingjiyaowen/20260911/32366880.shtml",
-          "title": "伊朗突传重磅 ！ 华尔街日报独家 ： 伊朗已恢复生产弹道导弹 _ 汇市观察 _ 外汇 _ 中金在线",
-          "domain": "forex.cnfol.com",
-          "seendate": "20260911T051500Z"
-        },
-        {
-          "url": "https://www.winnipegfreepress.com/world/2026/09/09/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news – Winnipeg Free Press",
-          "domain": "winnipegfreepress.com",
-          "seendate": "20260909T101500Z"
-        },
-        {
-          "url": "https://lasvegassun.com/news/2026/sep/06/us-denies-irans-claim-to-have-struck-an-unmanned-s/",
-          "title": "US denies Iran claim to have struck an unmanned ship , and other Mideast news - Las Vegas Sun News",
-          "domain": "lasvegassun.com",
-          "seendate": "20260907T060000Z"
-        },
-        {
-          "url": "https://www.ziuaconstanta.ro/stiri/externe/brics-indeamna-la-retinere-maxima-in-conflictul-din-orientul-mijlociu-si-avertizeaza-asupra-atacurilor-asupra-infrastructurii-civile-952853.html",
-          "title": "BRICS îndeamnă la „ reținere maximă  în conflictul din Orientul Mijlociu și avertizează asupra atacurilor asupra infrastructurii civile",
-          "domain": "ziuaconstanta.ro",
-          "seendate": "20260912T153000Z"
-        },
-        {
-          "url": "https://www.thehindu.com/opinion/editorial/bogged-down-on-the-us-iran-conflict-escalation/article71435336.ece",
-          "title": "Bogged down : On the U . S .- Iran conflict escalation",
-          "domain": "thehindu.com",
-          "seendate": "20260906T191500Z"
-        },
-        {
-          "url": "https://www.nvdaily.com/associated_press_national/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/article_2396ee2b-6997-599e-9286-37cb1b7c4c39.html",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "nvdaily.com",
-          "seendate": "20260910T061500Z"
-        },
-        {
-          "url": "http://www.rockymounttelegram.com/news/national/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/article_e5116afa-7530-57ba-80a6-3c2fc0a6c729.html",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "rockymounttelegram.com",
-          "seendate": "20260910T024500Z"
-        },
-        {
-          "url": "https://www.taylorvilledailynews.com/us-strikes-iranian-tankers-after-more-attempted-missile-attacks-on-navy-warship/",
-          "title": "US strikes Iranian tankers after more attempted missile attacks on Navy warship – Taylorville Daily News",
-          "domain": "taylorvilledailynews.com",
-          "seendate": "20260908T234500Z"
-        },
-        {
-          "url": "https://www.idahostatejournal.com/news/national/us-denies-that-iran-struck-an-uncrewed-us-military-ship-in-the-strait-of-hormuz/article_13044e70-815b-5d4c-8f5a-fd5c7bdc2209.html",
-          "title": "US denies that Iran struck an uncrewed US military ship in the Strait of Hormuz",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260907T041500Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/national/us-denies-that-iran-struck-an-uncrewed-us-military-ship-in-the-strait-of-hormuz/article_13044e70-815b-5d4c-8f5a-fd5c7bdc2209.html",
-          "title": "US denies that Iran struck an uncrewed US military ship in the Strait of Hormuz",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260907T050000Z"
-        },
-        {
-          "url": "https://foreignpolicy.com/2026/09/09/iran-strikes-shipping-strait-hormuz-jordan-us-oil-prices/?tpcc=recirc_trending062921",
-          "title": "Iran Targets 10 Ships in Strait of Hormuz in Massive Attack on Global Shipping",
-          "domain": "foreignpolicy.com",
-          "seendate": "20260909T233000Z"
-        },
-        {
-          "url": "https://foreignpolicy.com/2026/09/09/iran-strikes-shipping-strait-hormuz-jordan-us-oil-prices/",
-          "title": "Iran Targets 10 Ships in Strait of Hormuz in Massive Attack on Global Shipping",
-          "domain": "foreignpolicy.com",
-          "seendate": "20260909T221500Z"
-        },
-        {
-          "url": "https://www.aol.com/articles/israeli-military-says-strikes-southern-041522000.html",
-          "title": "Israeli strikes kill four in southern Lebanon",
-          "domain": "aol.com",
-          "seendate": "20260906T141500Z"
-        },
-        {
-          "url": "https://www.theglobeandmail.com/world/article-israeli-strikes-in-southern-lebanon-kill-four/",
-          "title": "Israeli strikes in southern Lebanon kill four",
-          "domain": "theglobeandmail.com",
-          "seendate": "20260906T144500Z"
-        },
-        {
-          "url": "https://biz.heraldcorp.com/article/10870008",
-          "title": "이란 , 지하서 탄도미사일 생산 재개 … 진짜 장기전 되나",
-          "domain": "biz.heraldcorp.com",
-          "seendate": "20260911T011500Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/09/israeli-strikes-kill-four-southern-lebanon",
-          "title": "Israeli strikes kill four in southern Lebanon",
-          "domain": "al-monitor.com",
-          "seendate": "20260906T163000Z"
-        },
-        {
-          "url": "https://fr.euronews.com/2026/09/06/netanyahu-assume-la-frappe-sur-doha-et-qualifie-le-qatar-d-etat-hostile",
-          "title": "Netanyahu assume la frappe sur Doha et qualifie le Qatar d  État hostile  ",
-          "domain": "fr.euronews.com",
-          "seendate": "20260906T144500Z"
-        },
-        {
-          "url": "https://krmg.com/2026/09/09/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "krmg.com",
-          "seendate": "20260910T024500Z"
-        },
-        {
-          "url": "https://www.irishtimes.com/world/middle-east/2026/09/09/iran-attacks-us-base-in-jordan-ships-near-hormuz-after-tankers-sunk/",
-          "title": "Iran attacks US base in Jordan , ships near Hormuz after tankers sunk",
-          "domain": "irishtimes.com",
-          "seendate": "20260909T070000Z"
-        },
-        {
-          "url": "https://fortune.com/2026/09/06/iran-exclusion-zone-us-naval-blockade-line-strait-of-hormuz-persian-gulf/",
-          "title": "Iran plans an  exclusion zone  that runs from the U . S . blockade , through Hormuz , and into the Gulf",
-          "domain": "fortune.com",
-          "seendate": "20260907T041500Z"
-        },
-        {
-          "url": "https://www.dhnet.be/dernieres-depeches/2026/09/12/xi-est-arrive-en-inde-pour-le-sommet-des-brics-en-plein-conflit-au-moyen-orient-7QEP3VJL65C3RBQMZHMDFZTH4M/",
-          "title": "Les pays des Brics exhortent à la  retenue maximale  dans le conflit au Moyen - Orient",
-          "domain": "dhnet.be",
-          "seendate": "20260913T003000Z"
-        },
-        {
-          "url": "https://www.hkcna.hk/docDetail.jsp?id=101417339&channel=2810",
-          "title": "中東局勢急劇升溫 ： 胡塞襲擊沙特 美伊持續對抗 | 國際",
-          "domain": "hkcna.hk",
-          "seendate": "20260909T121500Z"
-        },
-        {
-          "url": "https://www.stiripesurse.ro/iranul-ameninta-sua-si-lanseaza-o-racheta-asupra-navelor-americane-escaladeaza-conflictul-militar-si-economic_3918139",
-          "title": "Iranul amenință SUA și lansează o rachetă asupra navelor americane : Escaladează conflictul militar și economic",
-          "domain": "stiripesurse.ro",
-          "seendate": "20260908T053000Z"
-        },
-        {
-          "url": "https://www.business-standard.com/world-news/us-destroys-5-iranian-oil-tankers-after-missile-attacks-on-navy-warship-126090900083_1.html",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship",
-          "domain": "business-standard.com",
-          "seendate": "20260909T043000Z"
-        },
-        {
-          "url": "https://www.albawaba.com/news/saudi-arabia-vows-response-after-houthi-1636676",
-          "title": "Saudi Arabia vows response after Houthi attacks wound 73 and hit energy facilities",
-          "domain": "albawaba.com",
-          "seendate": "20260908T173000Z"
-        },
-        {
-          "url": "https://www.deccanchronicle.com/west-asia/us-says-it-destroyed-5-iranian-oil-tankers-after-attacks-on-navy-warship-1985965",
-          "title": "US Says it Destroyed 5 Iranian Oil Tankers After Attacks on Navy Warship",
-          "domain": "deccanchronicle.com",
-          "seendate": "20260909T020000Z"
-        },
-        {
-          "url": "http://www.econotimes.com/Iran-Threatens-US-With-Economic-Warfare-as-Gulf-Tensions-Rise-1751480",
-          "title": "Iran Threatens US With  Economic Warfare  as Gulf Tensions Rise",
-          "domain": "econotimes.com",
-          "seendate": "20260908T060000Z"
-        },
-        {
-          "url": "https://isp.netscape.com:443/news/world/story/0001/20260909/ae03ad7a30b113a8acca045ea10ad8b2",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "isp.netscape.com",
-          "seendate": "20260909T121500Z"
-        },
-        {
-          "url": "https://www.nydailynews.com/2026/09/08/iran-us-tanker-strike/",
-          "title": "US strikes Iranian tankers after more attempted missile attacks on Navy warship",
-          "domain": "nydailynews.com",
-          "seendate": "20260909T010000Z"
-        },
-        {
-          "url": "https://www.sandiegouniontribune.com/2026/09/08/iran-us-tanker-strike/",
-          "title": "US strikes Iranian tankers after more attempted missile attacks on Navy warship",
-          "domain": "sandiegouniontribune.com",
-          "seendate": "20260908T234500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-10/live-updates-908183",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260910T060000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-09/live-updates-908017",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260909T050000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-06/live-updates-907659",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260906T050000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-11/live-updates-908363",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260911T054500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-12/live-updates-908405",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260912T030000Z"
-        },
-        {
-          "url": "https://www.union-bulletin.com/news/national/yemens-houthi-rebels-say-saudi-backed-forces-launched-airstrikes-and-other-key-mideast-news/article_81d45c12-5789-5c83-a587-4db4651e4f4e.html",
-          "title": "Yemen Houthi rebels say Saudi - backed forces launched airstrikes , and other key Mideast news",
-          "domain": "union-bulletin.com",
-          "seendate": "20260910T033000Z"
-        },
-        {
-          "url": "https://www.dailysabah.com/world/mid-east/israel-kills-4-including-2-girls-in-fresh-s-lebanon-truce-violation",
-          "title": "Israel kills 4 , including 2 girls , in fresh S . Lebanon truce violation",
-          "domain": "dailysabah.com",
-          "seendate": "20260906T110000Z"
-        },
-        {
-          "url": "https://www.ironmountaindailynews.com/news/2026/09/us-strikes-iranian-tankers-after-navy-warship-targeted/",
-          "title": "US strikes Iranian tankers after Navy warship targeted",
-          "domain": "ironmountaindailynews.com",
-          "seendate": "20260909T043000Z"
-        },
-        {
-          "url": "https://arabic.euronews.com/2026/09/06/iran-rearranges-its-fronts-is-it-preparing-for-a-coordinated-regional-war",
-          "title": "عاجل . - من اليمن إلى العراق ولبنان .. هل تحضّر إيران لـ  الضربة الكبرى  ضد إسرائيل ؟ ",
-          "domain": "arabic.euronews.com",
-          "seendate": "20260906T130000Z"
-        },
-        {
-          "url": "https://www.arkansasonline.com/news/2026/sep/11/houthis-seize-yemeni-port-city-forge-ahead/",
-          "title": "Houthis seize Yemeni port city , forge ahead | The Arkansas Democrat - Gazette",
-          "domain": "arkansasonline.com",
-          "seendate": "20260911T094500Z"
-        },
-        {
-          "url": "https://www.siasat.com/iran-launches-missiles-at-us-targets-in-jordan-after-us-strikes-3538862/",
-          "title": "Iran launches missiles at US targets in Jordan after US strikes",
-          "domain": "siasat.com",
-          "seendate": "20260909T050000Z"
-        },
-        {
-          "url": "https://www.aol.com/articles/us-strikes-iranian-tankers-more-204556000.html",
-          "title": "US military says it has destroyed 5 Iranian oil tankers after missile attacks on Navy warship",
-          "domain": "aol.com",
-          "seendate": "20260908T231500Z"
-        },
-        {
-          "url": "https://www.newsday.com/news/nation/iran-tanker-navy-warship-v36308",
-          "title": "US military says it has destroyed 5 Iranian oil tankers after missile attacks on Navy warship",
-          "domain": "newsday.com",
-          "seendate": "20260908T233000Z"
-        },
-        {
-          "url": "https://www.standard.net.au/story/9344706/four-killed-in-israeli-strikes-on-southern-lebanon/",
-          "title": "Four killed in Israeli strikes on southern Lebanon",
-          "domain": "standard.net.au",
-          "seendate": "20260906T154500Z"
-        },
-        {
-          "url": "https://www.arabnews.com/middle-east/us-military-says-it-has-destroyed-5-iranian-oil-tankers-after-missile-attacks-on-navy-warship-3000974",
-          "title": "Arab News | US military says it has destroyed 5 Iranian oil tankers after missile attacks on Navy warship",
-          "domain": "arabnews.com",
-          "seendate": "20260908T233000Z"
-        },
-        {
-          "url": "https://www.clickorlando.com/news/world/2026/09/10/israeli-strike-in-gaza-kills-4-including-children-and-other-mideast-developments/",
-          "title": "Israeli strike in Gaza kills 4 including children and other Mideast developments",
-          "domain": "clickorlando.com",
-          "seendate": "20260910T081500Z"
-        },
-        {
-          "url": "https://www.cubaheadlines.com/articles/339675",
-          "title": "Escalation in Hormuz : Iran Claims Strikes on Six U . S . Vessels Following Tanker Destruction",
-          "domain": "cubaheadlines.com",
-          "seendate": "20260906T031500Z"
-        },
-        {
-          "url": "https://dailypioneer.com/news/iran-missiles-us-targets-jordan-us-destroys-five-iranian-tankers",
-          "title": "Iran Fires Missiles at US Targets in Jordan After Tanker Strikes",
-          "domain": "dailypioneer.com",
-          "seendate": "20260909T044500Z"
-        },
-        {
-          "url": "https://www.dailypress.com/2026/09/08/iran-us-tanker-strike/",
-          "title": "US strikes Iranian tankers after more attempted missile attacks on Navy warship",
-          "domain": "dailypress.com",
-          "seendate": "20260909T003000Z"
-        },
-        {
-          "url": "https://www.koreatimes.co.kr/world/20260909/iran-retaliates-against-us-allies-after-its-oil-tankers-destroyed",
-          "title": "Iran retaliates against US allies after its oil tankers destroyed",
-          "domain": "koreatimes.co.kr",
-          "seendate": "20260909T041500Z"
-        },
-        {
-          "url": "https://www.newspim.com/news/view/20260910001206",
-          "title": "美 방산 스타트업  코버넌트 , 내년 사거리 2000㎞ 순항미사일 양산 … 토마호크 대안 될까",
-          "domain": "newspim.com",
-          "seendate": "20260910T111500Z"
-        },
-        {
-          "url": "https://lasvegassun.com/news/2026/sep/08/us-military-says-it-has-destroyed-5-iranian-oil-ta/",
-          "title": "US military says it has destroyed 5 Iranian oil tankers after missile attacks on Navy warship - Las Vegas Sun News",
-          "domain": "lasvegassun.com",
-          "seendate": "20260909T021500Z"
-        },
-        {
-          "url": "https://www.mankatofreepress.com/news/state_national_news/israeli-airstrikes-hit-a-lebanese-village-killing-9-and-other-mideast-developments/article_bab08053-24f0-5a21-b286-e3f9f384f45e.html",
-          "title": "Israeli airstrikes hit a Lebanese village , killing 9 , and other Mideast developments",
-          "domain": "mankatofreepress.com",
-          "seendate": "20260907T124500Z"
-        },
-        {
-          "url": "https://www.wral.com/news/ap/b4f64-iran-says-it-hit-a-us-ship-in-a-week-of-renewed-hostilities-and-other-mideast-news/",
-          "title": "US denies Iran claim to have struck an unmanned ship , and other Mideast news",
-          "domain": "wral.com",
-          "seendate": "20260906T173000Z"
-        },
-        {
-          "url": "https://www.chicoer.com/2026/09/09/yemen-houthi-rebels-saudi-backed-forces-airstrikes-mideast-news/",
-          "title": "Yemen Houthis say Saudi - backed forces launched airstrikes , more news",
-          "domain": "chicoer.com",
-          "seendate": "20260909T124500Z"
-        },
-        {
-          "url": "https://www.ksbw.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "ksbw.com",
-          "seendate": "20260908T231500Z"
-        },
-        {
-          "url": "https://www.wapt.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "wapt.com",
-          "seendate": "20260908T233000Z"
-        },
-        {
-          "url": "https://www.mynbc5.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "mynbc5.com",
-          "seendate": "20260908T233000Z"
-        },
-        {
-          "url": "https://www.wisn.com/article/us-strikes-iranian-tankers-missile-attacks-navy-warship/73645182",
-          "title": "US destroys 5 Iranian oil tankers after missile attacks on Navy warship , military says",
-          "domain": "wisn.com",
-          "seendate": "20260909T003000Z"
-        },
-        {
-          "url": "https://alanbatnews.net/article/482931",
-          "title": "أزمة مضيق هرمز مستمرة .. وإيران تهدد أميركا بـ  حرب اقتصادية  ",
-          "domain": "alanbatnews.net",
-          "seendate": "20260908T143000Z"
-        },
-        {
-          "url": "https://edition.cnn.com/2026/09/07/middleeast/trump-blockade-iran-military-escalation-intl-latam",
-          "title": "Iran threatens Gulf escalation over Trump maritime blockade",
-          "domain": "edition.cnn.com",
-          "seendate": "20260907T220000Z"
-        },
-        {
-          "url": "https://us.cnn.com/2026/09/07/middleeast/trump-blockade-iran-military-escalation-intl-latam",
-          "title": "Iran threatens Gulf escalation over Trump maritime blockade",
-          "domain": "us.cnn.com",
-          "seendate": "20260907T201500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/09/07/middleeast/trump-blockade-iran-military-escalation-intl-latam",
-          "title": "Iran threatens Gulf escalation over Trump maritime blockade",
-          "domain": "cnn.com",
-          "seendate": "20260907T211500Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/227/WSJ-to-iran-paragei-xana-vallistikous-pyravlous--chrisimopoiei-yfistamena-exartimata-se-ypogeies-egkatastaseis.htm",
-          "title": "WSJ : Το Ιράν παράγει ξανά βαλλιστικούς πυραύλους – Χρησιμοποιεί υφιστάμενα εξαρτήματα σε υπόγειες εγκαταστάσεις",
-          "domain": "inewsgr.com",
-          "seendate": "20260910T194500Z"
-        },
-        {
-          "url": "http://www.thegazette.com/news/national/ap-news-in-brief-at-6-04-p-m-edt/article_ad845877-707d-5675-bbe2-6a9ee29924a3.html",
-          "title": "AP News in Brief at 6 : 04 p . m . EDT",
-          "domain": "thegazette.com",
-          "seendate": "20260907T234500Z"
-        },
-        {
-          "url": "https://www.standard.net.au/story/9346602/war-expands-as-iran-backed-houthis-attack-saudi-cities/",
-          "title": "War expands as Iran - backed Houthis attack Saudi cities",
-          "domain": "standard.net.au",
-          "seendate": "20260908T233000Z"
-        },
-        {
-          "url": "https://www.koreatimes.co.kr/world/20260909/us-military-says-it-has-destroyed-5-iranian-oil-tankers-after-missile-attacks-on-navy-warship",
-          "title": "US military says it has destroyed 5 Iranian oil tankers after missile attacks on Navy warship",
-          "domain": "koreatimes.co.kr",
-          "seendate": "20260909T041500Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/09/10/iran-between-resistance-and-diplomacy",
-          "title": "The real legacy of the wars of 2025 and 2026",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260910T183000Z"
-        },
-        {
-          "url": "https://www.cp24.com/news/world/2026/09/08/us-military-says-it-has-destroyed-5-iranian-oil-tankers-after-missile-attacks-on-navy-warship/",
-          "title": "U . S . military : 5 Iranian tankers hit after warship attack",
-          "domain": "cp24.com",
-          "seendate": "20260908T234500Z"
-        },
-        {
-          "url": "https://www.albawaba.com/node/iranian-missiles-strike-oil-refinery-1636718",
-          "title": "Iranian missiles strike oil refinery in Haifa : New 2025 footage leaked",
-          "domain": "albawaba.com",
-          "seendate": "20260909T080000Z"
-        },
-        {
-          "url": "https://www.the-star.co.ke/news/world/2026-09-10-yemens-houthis-reportedly-seize-strategic-red-sea-port-of-mokha",
-          "title": "Yemen Houthis reportedly seize strategic Red Sea port of Mokha",
-          "domain": "the-star.co.ke",
-          "seendate": "20260910T221500Z"
-        },
-        {
-          "url": "https://isp.netscape.com:443/news/world/story/0001/20260910/4de45665de2221865501a4c512daa86d",
-          "title": "Israeli strike in Gaza kills 4 including children and other Mideast developments",
-          "domain": "isp.netscape.com",
-          "seendate": "20260910T081500Z"
-        },
-        {
-          "url": "https://www.news-gazette.com/news/nation-world/us-denies-irans-claim-to-have-struck-an-unmanned-ship-and-other-mideast-news/article_ad8011ab-6513-5131-9d1e-529a8f6b1f8c.html",
-          "title": "US denies Iran claim to have struck an unmanned ship , and other Mideast news",
-          "domain": "news-gazette.com",
-          "seendate": "20260906T181500Z"
-        },
-        {
-          "url": "https://www.wenweipo.com/a/202609/08/AP6a9f4c4be4b01d54a2823f7b.html",
-          "title": "伊朗多線釋放強硬信號 美軍基地因移動設備陷 「 暴露 」 危機 - 國際",
-          "domain": "wenweipo.com",
-          "seendate": "20260908T020000Z"
-        },
-        {
-          "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/09/gli-houthi-in-yemen-lultima-linea-difensiva-delliran_074c325d-3cfa-4260-8d70-5aa170cf22ab.html",
-          "title": "Gli Houthi in Yemen , lultima linea difensiva dellIran - Medio Oriente",
-          "domain": "ansa.it",
-          "seendate": "20260909T210000Z"
-        },
-        {
-          "url": "https://www.canberratimes.com.au/story/9344706/israeli-strikes-lebanon-after-hezbollah-launched-drones/",
-          "title": "Israeli strikes Lebanon after Hezbollah launched drones",
-          "domain": "canberratimes.com.au",
-          "seendate": "20260906T051500Z"
-        },
-        {
-          "url": "https://www.larepubliquedespyrenees.fr:443/societe/afp/les-pays-des-brics-exhortent-a-la-retenue-maximale-dans-le-conflit-au-moyen-orient-30590712.php",
-          "title": "Les pays des Brics exhortent à la",
-          "domain": "larepubliquedespyrenees.fr",
-          "seendate": "20260912T164500Z"
-        },
-        {
-          "url": "https://www.illawarramercury.com.au/story/9346602/war-expands-as-iran-backed-houthis-attack-saudi-cities/",
-          "title": "War expands as Iran - backed Houthis attack Saudi cities",
-          "domain": "illawarramercury.com.au",
-          "seendate": "20260908T234500Z"
-        },
-        {
-          "url": "http://www.idahopress.com/ap_news/us/us-denies-irans-claim-to-have-struck-an-unmanned-ship-and-other-mideast-news/article_48ca062d-53b0-525c-8ff8-0adbc47b0e65.html",
-          "title": "US denies Iran claim to have struck an unmanned ship , and other Mideast news",
-          "domain": "idahopress.com",
-          "seendate": "20260906T170000Z"
-        },
-        {
-          "url": "https://wallstreetcn.com/articles/3781165",
-          "title": "伊朗革命卫队称打击了美航母和驱逐舰 - 华尔街见闻",
-          "domain": "wallstreetcn.com",
-          "seendate": "20260906T064500Z"
-        },
-        {
-          "url": "http://forex.cnfol.com/jingjiyaowen/20260909/32364228.shtml",
-          "title": "美伊重磅 ！ 伊朗20枚导弹射向美军基地 伊朗革命卫队称袭击两艘美国驱逐舰 _ 汇市观察 _ 外汇 _ 中金在线",
-          "domain": "forex.cnfol.com",
-          "seendate": "20260909T063000Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/national/ap-news-in-brief-at-6-04-p-m-edt/article_998ede55-ca4d-5d00-b966-ac3a9761b714.html",
-          "title": "AP News in Brief at 6 : 04 p . m . EDT",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260908T003000Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/national/ap-news-in-brief-at-11-04-p-m-edt/article_998ede55-ca4d-5d00-b966-ac3a9761b714.html",
-          "title": "AP News in Brief at 11 : 04 p . m . EDT",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260908T053000Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/national/ap-news-in-brief-at-12-04-a-m-edt/article_32869f98-5ac2-5e64-aeb0-92951b60d451.html",
-          "title": "AP News in Brief at 12 : 04 a . m . EDT",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260908T053000Z"
-        },
-        {
-          "url": "https://www.idahostatejournal.com/news/national/ap-news-in-brief-at-11-04-p-m-edt/article_998ede55-ca4d-5d00-b966-ac3a9761b714.html",
-          "title": "AP News in Brief at 11 : 04 p . m . EDT",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260908T041500Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202609063866059770.html",
-          "title": "集体异动 ！ 伊朗发动袭击 美国中央司令部发布最新声明 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20260906T034500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/byofsf0uzg",
-          "title": "US destroys 5 Iranian tankers after attacks on warship ; Iran fires missiles at Jordan",
-          "domain": "ynetnews.com",
-          "seendate": "20260909T040000Z"
-        },
-        {
-          "url": "https://www.israelnationalnews.com/news/432917",
-          "title": "Iran hits Jordan bases after US strikes Iranian oil tankers",
-          "domain": "israelnationalnews.com",
-          "seendate": "20260909T000000Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L6FQGHMG0514R9OJ.html",
-          "title": "美媒 ： 万斯 、 鲁比奥等人私下警告特朗普 ， 美伊冲突可能持续到其总统任期结束",
-          "domain": "163.com",
-          "seendate": "20260910T100000Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/total-lie-us-rejects-irans-claim-of-hitting-american-vessel-in-strait-of-hormuz/articleshow/133845877.cms",
-          "title": "  Total lie : US rejects Iran claim of hitting American vessel in Strait of Hormuz",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260906T181500Z"
-        },
-        {
-          "url": "https://www.etoday.co.kr/news/view/2624428",
-          "title": "이란 , 탄도미사일 생산 재개 … 지하 시설서 비축 부품 활용",
-          "domain": "etoday.co.kr",
-          "seendate": "20260911T021500Z"
-        },
-        {
-          "url": "https://www.boursorama.com/actualite-economique/actualites/l-iran-menace-d-intensifier-sa-riposte-aux-attaques-americaines-f23b48dd3701b8e882ec6ffb2577aa19",
-          "title": "LIran menace dintensifier sa riposte aux attaques américaines - 06 / 09 / 2026 à 12 : 42",
-          "domain": "boursorama.com",
-          "seendate": "20260906T141500Z"
-        },
-        {
-          "url": "https://www.mediafax.ro/externe/sua-acordul-nuclear-cu-iranul-s-ar-putea-sa-nu-fie-incheiat-niciodata-trebuie-sa-le-distrugem-capacitatile-23802770",
-          "title": "SUA : Acordul nuclear cu Iranul s - ar putea să nu fie încheiat niciodată . „ Trebuie să le distrugem capacitățile  ",
-          "domain": "mediafax.ro",
-          "seendate": "20260906T173000Z"
-        },
-        {
-          "url": "https://www.albiladpress.com/news/2026/6539/arab-and-world/1018547.html",
-          "title": "جريدة البلاد | أزمة مضيق هرمز مستمرة .. وإيران تهدد أميركا بـ  حرب اقتصادية  ",
-          "domain": "albiladpress.com",
-          "seendate": "20260908T073000Z"
-        },
-        {
-          "url": "https://www.stcn.com/article/detail/4173831.html",
-          "title": "集体异动 ！ 伊朗发动袭击 ， 美国中央司令部发布最新声明",
-          "domain": "stcn.com",
-          "seendate": "20260906T034500Z"
-        },
-        {
-          "url": "https://www.hispantv.com/noticias/defensa/660088/iran-atacar-bases-eeuu-agrede-petroleros",
-          "title": "Irán amenaza con atacar bases de EEUU si agrede a sus petroleros",
-          "domain": "hispantv.com",
-          "seendate": "20260908T230000Z"
-        },
-        {
-          "url": "https://tg.la7.it/esteri/israele-idf-raid-libano-attacco-hezbollah-drone-usa-stretto-hormuz-06-09-2026-262144",
-          "title": "Israele , Idf : Raid in Libano dopo un attacco di Hezbollah a un drone united states nello stretto di Hormuz",
-          "domain": "tg.la7.it",
-          "seendate": "20260906T080000Z"
-        },
-        {
-          "url": "https://www.hngn.com/articles/273091/20260907/us-strikes-3-iranian-tankers-after-iran-fires-missiles-navy-warships.htm",
-          "title": "Iran to Declare New Hormuz Restricted Zone After Tanker Strikes",
-          "domain": "hngn.com",
-          "seendate": "20260907T183000Z"
-        },
-        {
-          "url": "https://www.madhyamam.com/world/us-attacks-5-iranian-oil-tankers-irgc-retaliates-with-strikes-on-jordan-1552807",
-          "title": "അഞ്ച് എണ്ണക്കപ്പൽ യു . എസ് ആക്രമിച്ചു ; യു . എസ് പടക്കപ്പലിനും സൈനിക താവളത്തിനും നേരെ ഇറാൻ മിസൈൽ ; എണ്ണവില കുതിക്കുന്നു | US attacks 5 Iranian oil tankers , IRGC retaliates with strikes on Jordan",
-          "domain": "madhyamam.com",
-          "seendate": "20260909T050000Z"
-        },
-        {
-          "url": "https://www.abc.net.au/news/2026-09-08/lebanon-israel-hezbollah-shadow-war/107111986",
-          "title": "Lebanon thrown into crisis in shadow of Iran war",
-          "domain": "abc.net.au",
-          "seendate": "20260907T210000Z"
-        },
-        {
-          "url": "http://www.koreatimes.com/article/20260909/1629104",
-          "title": "사우디 정유시설까지 불길 … 유가 150불 갈수도  ",
-          "domain": "koreatimes.com",
-          "seendate": "20260910T090000Z"
-        },
-        {
-          "url": "https://theshillongtimes.com/2026/09/11/yemens-houthi-missiles-drones-target-three-cities/",
-          "title": "Yemen Houthi missiles , drones target three cities",
-          "domain": "theshillongtimes.com",
-          "seendate": "20260911T051500Z"
-        },
-        {
-          "url": "https://www.iefimerida.gr/kosmos/nea-israilini-epidromi-libano-entoli-ekkenosis",
-          "title": "Νέα ισραηλινή επιδρομή στον Λίβανο - Εντολή εκκένωσης σε κατοίκους",
-          "domain": "iefimerida.gr",
-          "seendate": "20260907T041500Z"
-        },
-        {
-          "url": "https://www.ettoday.net/news/20260911/3235471.htm",
-          "title": "伊朗地下軍工廠 「 悄悄復工 」！ 重啟組裝彈道飛彈 美以重大戰果成空 | ETtoday國際新聞",
-          "domain": "ettoday.net",
-          "seendate": "20260911T041500Z"
-        },
-        {
-          "url": "https://www.dw.com/en/middle-east-israeli-strikes-kill-a-dozen-in-lebanon/live-79133242",
-          "title": "Middle East : Israeli strikes kill a dozen in Lebanon",
-          "domain": "dw.com",
-          "seendate": "20260907T174500Z"
-        },
-        {
-          "url": "https://newtalk.tw/news/view/2026-09-11/1059175",
-          "title": "被阿爾及利亞斷交 ! 挺胡塞 、 介入5國內戰還親以色列 「 這國 」 遭非洲 、 中東多國記恨 | 國際",
-          "domain": "newtalk.tw",
-          "seendate": "20260911T061500Z"
-        },
-        {
-          "url": "https://www.topontiki.gr/2026/09/10/stena-tou-ormouz-to-neo-iraniko-oplo-ston-polemo-me-tis-ipa-piravli-akrivias-me-ilektrooptiki-kathodigisi/",
-          "title": "Στενά του Ορμούζ : Το νέο ιρανικό όπλο στον πόλεμο με τις ΗΠΑ – Πύραυλοι ακριβείας με ηλεκτροοπτική καθοδήγηση",
-          "domain": "topontiki.gr",
-          "seendate": "20260910T043000Z"
-        },
-        {
-          "url": "https://www.euronews.com/2026/09/06/netanyahu-calls-qatar-hostile-state-as-doha-pushes-back-against-iran",
-          "title": "Netanyahu calls Qatar  hostile state  as Doha pushes back against Iran",
-          "domain": "euronews.com",
-          "seendate": "20260906T123000Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L6A6E3NL0530JPVV.html",
-          "title": "伊朗对美连出三招 ， 美军却还在为  自己人泄密  头疼|军事",
-          "domain": "163.com",
-          "seendate": "20260908T071500Z"
-        },
-        {
-          "url": "https://lancasteronline.com/news/world/us-denies-irans-claim-to-have-struck-an-unmanned-ship-and-other-mideast-news/article_35a1d618-4cde-5302-8444-87f6f06e53d1.html",
-          "title": "US denies Iran claim to have struck an unmanned ship , and other Mideast news",
-          "domain": "lancasteronline.com",
-          "seendate": "20260906T200000Z"
-        },
-        {
-          "url": "https://aa.com.tr/en/us-israel-iran-war/netanyahu-vows-to-strike-iran-as-popularity-declines-50-days-before-elections/4049045",
-          "title": "Netanyahu vows to strike Iran as popularity declines 50 days before elections",
-          "domain": "aa.com.tr",
-          "seendate": "20260906T191500Z"
-        },
-        {
-          "url": "https://townhall.com/columnists/alexmcfarland/2026/09/06/a-cease-fire-is-not-peace-america-must-understand-iran-n2682524",
-          "title": "A Cease - Fire Is Not Peace : America Must Understand Iran",
-          "domain": "townhall.com",
-          "seendate": "20260906T080000Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/national/houthi-rebels-reach-a-strategic-port-city-in-yemen-and-other-mideast-developments/article_18c68e64-36e5-5a62-95b4-70bcef7d85d4.html",
-          "title": "Houthi rebels reach a strategic port city in Yemen and other Mideast developments",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260910T143000Z"
-        },
-        {
-          "url": "https://aa.com.tr/en/us-israel-iran-war/iran-s-revolutionary-guards-claim-us-surveillance-aerostat-destroyed-in-iraq-drone-strike/4049021",
-          "title": "Iran Revolutionary Guards claim US surveillance aerostat destroyed in Iraq drone strike",
-          "domain": "aa.com.tr",
-          "seendate": "20260906T191500Z"
-        },
-        {
-          "url": "https://www.omanobserver.om/article/1195859/world/region/us-hits-5-iranian-oil-tankers-citing-attempted-strikes-on-warship",
-          "title": "US hits 5 Iranian oil tankers , citing attempted strikes on warship",
-          "domain": "omanobserver.om",
-          "seendate": "20260909T103000Z"
-        },
-        {
-          "url": "https://military.china.com/news/13004177/20260910/49732585.html",
-          "title": "美伊海上  报复循环  加剧 油轮成袭击目标 _ 军事频道 _ 中华网",
-          "domain": "military.china.com",
-          "seendate": "20260910T081500Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1875715236271167547",
-          "title": "视频丨伊朗多线释放强硬信号 美军基地因移动设备陷  暴露  危机",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20260908T003000Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1875716896216263923",
-          "title": "伊朗多线释放强硬信号 美军基地因移动设备陷  暴露  危机",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20260908T003000Z"
-        },
-        {
-          "url": "http://news.china.com.cn/2026-09/08/content_118684827.shtml",
-          "title": "伊朗多线释放强硬信号 美军基地因移动设备陷  暴露  危机 _ 中国网",
-          "domain": "news.china.com.cn",
-          "seendate": "20260908T031500Z"
-        },
-        {
-          "url": "https://www.la-croix.com/international/direct-guerre-iran-israel-usa-jour-186-moyen-orient-bilan-resume-aujourdhui-20260906",
-          "title": "Guerre au Moyen - Orient  : riposte de lIran après une frappe des États - Unis contre trois pétroliers",
-          "domain": "la-croix.com",
-          "seendate": "20260906T100000Z"
-        },
-        {
-          "url": "https://www.martinique.franceantilles.fr/actualite/international/iran-les-gardiens-annoncent-quils-vont-viser-des-tankers-au-koweit-et-a-bahrein-1092381.php",
-          "title": "Téhéran frappe en Jordanie après des attaques sur des pétroliers iraniens",
-          "domain": "martinique.franceantilles.fr",
-          "seendate": "20260909T030000Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/351/epikindyni-klimakosi-stin-erythra-thalassa-oi-chouthi-katelavan-stratigiki-poli-kai-limani.htm",
-          "title": "Επικίνδυνη κλιμάκωση στην Ερυθρά Θάλασσα : Οι Χούθι κατέλαβαν στρατηγική πόλη και λιμάνι",
-          "domain": "inewsgr.com",
-          "seendate": "20260910T143000Z"
-        },
-        {
-          "url": "https://original.antiwar.com/jon_reynolds/2026/09/06/americas-war-on-iran-has-always-been-a-bipartisan-effort-2/",
-          "title": "America War on Iran Has Always Been a Bipartisan Effort",
-          "domain": "original.antiwar.com",
-          "seendate": "20260907T063000Z"
-        },
-        {
-          "url": "https://www.zerohedge.com/geopolitical/report-sounds-alarm-over-return-iranian-mass-ballistic-missile-production",
-          "title": "Report Sounds Alarm Over Return Of Iranian Mass Ballistic Missile Production",
-          "domain": "zerohedge.com",
-          "seendate": "20260912T131500Z"
-        },
-        {
-          "url": "https://cbn.com/news/israel/iran-attempts-exclusion-zone-around-hormuz-idf-drills-prep-october-7th-style-attacks",
-          "title": "Iran Attempts  Exclusion Zone  around Hormuz ; IDF Drills Prep for October 7th - Style Attacks",
-          "domain": "cbn.com",
-          "seendate": "20260908T130000Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1875677079552336946",
-          "title": "日本将AI用于军事 日媒批其或违背  专守防卫  原则",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20260908T023000Z"
-        },
-        {
-          "url": "https://www.dailygazette.com/ade/ap/national/us-strikes-iranian-tankers-plus-other-key-mideast-news/article_49225765-ea65-5744-a20b-9aeccd1a8d53.html",
-          "title": "US strikes Iranian tankers plus other key Mideast news",
-          "domain": "dailygazette.com",
-          "seendate": "20260909T033000Z"
-        },
-        {
-          "url": "https://www.post-gazette.com/news/world/2026/09/07/middle-east-latest-today-september-7-2026/stories/202609070023",
-          "title": "Israeli airstrikes on Lebanese village kill 12 , plus other key Mideast developments",
-          "domain": "post-gazette.com",
-          "seendate": "20260907T190000Z"
-        },
-        {
-          "url": "https://www.newsit.gr/kosmos/iran-flegontai-ta-stena-tou-ormouz-allepalliles-antallages-pyron-ksepernaei-ta-100-dolaria-to-petrelaio/4770586/",
-          "title": "Ιράν : « Φλέγονται » τα Στενά του Ορμούζ , αλλεπάλληλες ανταλλαγές πυρών - Ξεπερνάει τα 100 δολάρια το πετρέλαιο",
-          "domain": "newsit.gr",
-          "seendate": "20260910T044500Z"
-        },
-        {
-          "url": "https://military.china.com/news/13004177/20260909/49728294.html",
-          "title": "美再袭哈尔克岛伊朗警告将反击 局势升级引发关注 _ 军事频道 _ 中华网",
-          "domain": "military.china.com",
-          "seendate": "20260909T030000Z"
-        },
-        {
-          "url": "https://www.examiner.com.au/story/9344706/four-killed-in-israeli-strikes-on-southern-lebanon/",
-          "title": "Four killed in Israeli strikes on southern Lebanon",
-          "domain": "examiner.com.au",
-          "seendate": "20260906T114500Z"
-        },
-        {
-          "url": "https://nypost.com/2026/09/08/opinion/iran-and-ukraine-are-the-last-conflicts-of-the-cold-war-and-their-end-could-spur-an-open-future-for-the-world/",
-          "title": "Iran and Ukraine are the last conflicts of the Cold War -- and their end could spur an open future for the world",
-          "domain": "nypost.com",
-          "seendate": "20260909T023000Z"
-        },
-        {
-          "url": "https://www.habervitrini.com/haber/abdnin-harg-adasi-saldirilarinin-ardindan-iran-urdundeki-abd-askeri-ussune-saldirdi-1788910064439",
-          "title": "ABDnin Harg Adası saldırılarının ardından İran Ürdündeki ABD askeri üssüne saldırdı",
-          "domain": "habervitrini.com",
-          "seendate": "20260909T000000Z"
-        },
-        {
-          "url": "https://www.israelnationalnews.com/news/432874",
-          "title": "Iran threatens US with  economic warfare , new Persian Gulf exclusion zone",
-          "domain": "israelnationalnews.com",
-          "seendate": "20260908T060000Z"
-        },
-        {
-          "url": "https://gcaptain.com/iran-us-trade-tit-for-tat-tanker-attacks-as-war-drags-on/",
-          "title": "Iran , US Trade Tit - for - Tat Tanker Attacks As War Drags On",
-          "domain": "gcaptain.com",
-          "seendate": "20260906T163000Z"
-        },
-        {
-          "url": "https://dunyanews.tv/en/World/971997-iran-retaliates-against-us-allies-after-its-oil-tankers-destroyed",
-          "title": "Iran retaliates against US allies after its oil tankers destroyed",
-          "domain": "dunyanews.tv",
-          "seendate": "20260909T053000Z"
-        },
-        {
-          "url": "https://www.linternaute.com/actualite/depeches/11297001-liban-quatre-morts-dans-des-frappes-israeliennes-selon-beyrouth/",
-          "title": "Liban : quatre morts dans des frappes israéliennes , selon Beyrouth",
-          "domain": "linternaute.com",
-          "seendate": "20260906T130000Z"
-        },
-        {
-          "url": "https://www.stiripesurse.ro/sua-pregatite-pentru-un-scenariu-de-forta-in-iran-washingtonul-ameninta-ca-va-distruge-capacitatile-nucleare-ale-teheranului_3917790",
-          "title": "SUA , pregătite pentru un scenariu de forță în Iran : Washingtonul amenință că va distruge capacitățile nucleare ale Teheranului",
-          "domain": "stiripesurse.ro",
-          "seendate": "20260907T050000Z"
-        },
-        {
-          "url": "https://news.antiwar.com/2026/09/10/multiple-us-aircraft-reported-damaged-in-irans-tuesday-night-strikes-on-us-base-in-jordan/",
-          "title": "Multiple US Aircraft Reported Damaged in Iran Tuesday Night Strikes on US Base in Jordan",
-          "domain": "news.antiwar.com",
-          "seendate": "20260910T220000Z"
-        },
-        {
-          "url": "https://www.omanobserver.om/article/1195858/world/region/iran-signals-readiness-to-escalate-fight-in-us",
-          "title": "Iran signals readiness to escalate fight in US",
-          "domain": "omanobserver.om",
-          "seendate": "20260909T103000Z"
-        },
-        {
-          "url": "https://www.larepubliquedespyrenees.fr:443/societe/afp/liban-quatre-morts-dans-des-frappes-israeliennes-selon-beyrouth-30507204.php",
-          "title": "Liban : quatre morts dans des frappes israéliennes , selon Beyrouth",
-          "domain": "larepubliquedespyrenees.fr",
-          "seendate": "20260906T130000Z"
-        },
-        {
-          "url": "https://www.albawaba.com/business/1200-km-range-half-ton-warhead-iran-1636897",
-          "title": "1 , 200 KM range , Half - ton warhead : Iran brings  Qassem Basir  into the fight",
-          "domain": "albawaba.com",
-          "seendate": "20260911T174500Z"
-        },
-        {
-          "url": "https://www.odt.co.nz/news/world/iran-retaliates-against-us-allies-after-oil-tankers-destroyed-lpbt88es",
-          "title": "Iran retaliates against US allies after oil tankers destroyed",
-          "domain": "odt.co.nz",
-          "seendate": "20260909T030000Z"
-        },
-        {
-          "url": "https://military.china.com/news/13004177/20260908/49728019.html",
-          "title": "阿联酋 ： 能源出口不会被伊朗战事挟持 确保经济自主安全 _ 军事频道 _ 中华网",
-          "domain": "military.china.com",
-          "seendate": "20260908T130000Z"
-        },
-        {
-          "url": "https://www.epochtimes.com/gb/26/9/9/n14845747.htm",
-          "title": "美军 ： 美舰遭击中是谎言 已摧毁10艘伊朗油轮",
-          "domain": "epochtimes.com",
-          "seendate": "20260909T164500Z"
-        },
-        {
-          "url": "https://www.sandiegouniontribune.com/2026/09/10/houthi-rebels-yemen-port-city-mideast-news/",
-          "title": "Houthi rebels reach strategic port city in Yemen , other Mideast news",
-          "domain": "sandiegouniontribune.com",
-          "seendate": "20260910T130000Z"
-        },
-        {
-          "url": "https://www.straitstimes.com/world/middle-east/iran-says-it-plans-new-gulf-exclusion-zone-threatens-us-with-new-missiles",
-          "title": "Iran threatens US with new  economic warfare  and missiles as Houthis attack Saudi Arabia",
-          "domain": "straitstimes.com",
-          "seendate": "20260908T060000Z"
-        },
-        {
-          "url": "https://www.notizie.it/attacco-a-drone-americano-liran-rafforza-la-presenza-nello-stretto-di-hormuz/",
-          "title": "Attacco a drone americano : lIran rafforza la presenza nello Stretto di Hormuz",
-          "domain": "notizie.it",
-          "seendate": "20260906T083000Z"
-        },
-        {
-          "url": "https://www.stiripesurse.ro/iran-ataca-nave-sua-stramtoarea-hormuz-risc-razboi_3919074",
-          "title": "Conflict SUA - Iran : atacuri în Strâmtoarea Hormuz și risc major de război amplu",
-          "domain": "stiripesurse.ro",
-          "seendate": "20260911T021500Z"
-        },
-        {
-          "url": "https://www.thehindubusinessline.com/news/world/iran-says-it-plans-new-gulf-exclusion-zone-threatens-us-with-new-missiles/article71441119.ece",
-          "title": "Iran says it plans new Gulf  exclusion zone , threatens US with new missiles",
-          "domain": "thehindubusinessline.com",
-          "seendate": "20260908T040000Z"
-        },
-        {
-          "url": "https://www.businesstimes.com.sg/international/iran-threatens-us-new-economic-warfare-and-missiles-houthis-attack-saudi-arabia",
-          "title": "Iran threatens US with new  economic warfare  and missiles as Houthis attack Saudi Arabia",
-          "domain": "businesstimes.com.sg",
-          "seendate": "20260908T073000Z"
-        },
-        {
-          "url": "http://forex.cnfol.com/jingjiyaowen/20260910/32365560.shtml",
-          "title": "伊朗释放重大信号 ！ 彭博独家 ： 伊朗高官称德黑兰已准备好应对更激烈战争 _ 汇市观察 _ 外汇 _ 中金在线",
-          "domain": "forex.cnfol.com",
-          "seendate": "20260910T060000Z"
-        },
-        {
-          "url": "https://www.algemeiner.com/2026/09/09/how-israel-used-its-failures-2006-war-effectively-fight-hezbollah-oct-7/",
-          "title": "How Israel Used Its Failures in the 2006 War to Effectively Fight Hezbollah After Oct . 7",
-          "domain": "algemeiner.com",
-          "seendate": "20260909T200000Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/93/iran-flegontai-ta-stena-tou-ormouz-allepalliles-antallages-pyron--xepernaei-ta-100-dolaria-to-petrelaio.htm",
-          "title": "Ιράν : « Φλέγονται » τα Στενά του Ορμούζ , αλλεπάλληλες ανταλλαγές πυρών – Ξεπερνάει τα 100 δολάρια το πετρέλαιο",
-          "domain": "inewsgr.com",
-          "seendate": "20260910T043000Z"
-        },
-        {
-          "url": "http://www.econotimes.com/Trumps-Iran-War-Draws-Forever-War-Comparisons-1751710",
-          "title": "Trump Iran War Draws  Forever War  Comparisons",
-          "domain": "econotimes.com",
-          "seendate": "20260910T101500Z"
-        },
-        {
-          "url": "https://www.zerohedge.com/geopolitical/iran-vows-faster-more-painful-response-us-attacks-after-weekend-sea-battle",
-          "title": "Iran Vows  Faster , More Painful  Response To US Attacks After Weekend Sea Battle",
-          "domain": "zerohedge.com",
-          "seendate": "20260906T174500Z"
-        },
-        {
-          "url": "https://www.hispantv.com/noticias/defensa/660092/iran-ordena-evacuar-petroleros-kuwait-barein-ataques-eeuu",
-          "title": "Irán responderá a ataques de EEUU y ordena evacuar a petroleros en Kuwait y Baréin",
-          "domain": "hispantv.com",
-          "seendate": "20260908T230000Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/227/iran-neo-amyntiko-dogma-me-proliptika-pligmata-me-ton-pyravlo-Qassem-Basir--sto-stochastro-ton-chouthi-i-saoudiki-aravia.htm",
-          "title": "Ιράν : Νέο αμυντικό δόγμα με προληπτικά πλήγματα με τον πύραυλο Qassem Basir – Στο στόχαστρο των Χούθι η Σαουδική Αραβία",
-          "domain": "inewsgr.com",
-          "seendate": "20260908T064500Z"
-        },
-        {
-          "url": "https://www.nvdaily.com/associated_press_national/us-strikes-iranian-tankers-plus-other-key-mideast-news/article_1b558ee2-00ad-553b-8027-17bed4035ff9.html",
-          "title": "US strikes Iranian tankers plus other key Mideast news",
-          "domain": "nvdaily.com",
-          "seendate": "20260908T221500Z"
-        },
-        {
-          "url": "https://www.protagon.gr/epikairotita/ston-aera-i-ekexeiria-ston-livano-drones-tis-xezbolax-kai-israilina-antipoina-me-nekrous-44343433527",
-          "title": "Στον « αέρα » η εκεχειρία στον Λίβανο : Drones της Χεζμπολάχ και ισραηλινά αντίποινα με νεκρούς",
-          "domain": "protagon.gr",
-          "seendate": "20260906T103000Z"
-        },
-        {
-          "url": "https://www.omanobserver.om/article/1195703/world/region/lebanon-president-calls-us-to-stop-israeli-strikes",
-          "title": "Lebanon president calls US to stop Israeli strikes",
-          "domain": "omanobserver.om",
-          "seendate": "20260906T171500Z"
-        },
-        {
-          "url": "https://www.yahoo.com/news/politics/articles/trump-blockade-pushes-iran-toward-171923775.html",
-          "title": "Trump blockade pushes Iran toward military escalation",
-          "domain": "yahoo.com",
-          "seendate": "20260907T201500Z"
-        },
-        {
-          "url": "https://gulfnews.com/world/mena/is-iran-planning-an-october-7-style-multi-front-attack-on-israel-1.500665041",
-          "title": "Is Iran Planning an October 7 - Style Multi - Front Attack on Israel ? Inside Tehran New Coordinated Strategy with Hezbollah , Hamas , Houthis and Iraqi Militias",
-          "domain": "gulfnews.com",
-          "seendate": "20260906T190000Z"
-        }
-      ]
+      "error": "429 rate-limited",
+      "example_urls": [],
+      "articles": []
     }
   ],
   "comparison_table_7day": [
@@ -2339,78 +852,12 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.4583,
+      "composite_score": 0.625,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.2083,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
         "source_diversity": 0.0,
@@ -2425,7 +872,73 @@
       }
     },
     {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.6117,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.9201,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.5125,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.3248,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.1562,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.6873,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
       "composite_score": 0.0417,
       "is_pre_round": true,
@@ -2461,10 +974,10 @@
       "tone_mean": null
     },
     "window_21d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
+      "volume_total": 13.3972,
+      "volume_mean_daily": 0.638,
+      "volume_peak": 0.9124,
+      "days_active": 21,
       "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
@@ -2474,6 +987,6 @@
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }
