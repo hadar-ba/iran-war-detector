@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-17T03:28:08.861701+00:00",
+  "updated_at": "2026-09-17T16:19:50.712952+00:00",
   "short_term": {
-    "score": 62,
-    "status_he": "מתוח",
-    "avg_7day": 56,
-    "delta_vs_avg": 6
+    "score": 46,
+    "status_he": "שקט",
+    "avg_7day": 52,
+    "delta_vs_avg": -6
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-08-24T01:13:49.470330+00:00",
-        "score": 62
-      },
-      {
         "ts": "2026-08-25T01:13:27.998477+00:00",
         "score": 62
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-09-17T03:28:08.860475+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-17T16:19:50.708355+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-25T14:33:58.315234+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-06-26T03:33:50.123721+00:00",
         "score": 46
@@ -356,6 +352,10 @@
       {
         "ts": "2026-09-17T03:28:08.860475+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-17T16:19:50.708355+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -387,8 +387,24 @@
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
-    "articles_72h": 250
+    "list": [
+      "163.com",
+      "20minutes.fr",
+      "aa.com.tr",
+      "abc7.com",
+      "aboluowang.com",
+      "afghanistannews.net",
+      "afr.net",
+      "aksam.com.tr",
+      "aktuality.sk",
+      "alanbatnews.net",
+      "albiladpress.com",
+      "algemeiner.com",
+      "alhurra.com",
+      "Al Jazeera",
+      "Al Jazeera"
+    ],
+    "total_count": 270,
+    "articles_72h": null
   }
 }

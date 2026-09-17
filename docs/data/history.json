@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp_utc": "2026-06-25T14:33:58.315234+00:00",
-      "headline_score_7day": 62,
-      "headline_score_21day": 46,
-      "status": "yellow"
-    },
-    {
       "timestamp_utc": "2026-06-26T03:33:50.123721+00:00",
       "headline_score_7day": 46,
       "headline_score_21day": 50,
@@ -359,6 +353,12 @@
       "headline_score_7day": 62,
       "headline_score_21day": 46,
       "status": "yellow"
+    },
+    {
+      "timestamp_utc": "2026-09-17T16:19:50.708355+00:00",
+      "headline_score_7day": 46,
+      "headline_score_21day": 46,
+      "status": "green"
     }
   ]
 }
