@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T03:10:10.617683+00:00",
+  "updated_at": "2026-09-20T03:25:46.590041+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
@@ -7,7 +7,7 @@
     "delta_vs_avg": -3
   },
   "archive_comparison": {
-    "score": 62,
+    "score": 61,
     "status_he": "דמיון גבולי",
     "reference_events": [
       "פברואר 2026"
@@ -57,10 +57,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-08-28T21:51:19.028092+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-09-04T02:57:43.940224+00:00",
         "score": 62
@@ -112,13 +108,13 @@
       {
         "ts": "2026-09-19T03:10:10.616878+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-20T03:25:46.588734+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-27T02:57:06.984232+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-06-28T03:39:39.961557+00:00",
         "score": 62
@@ -354,6 +350,10 @@
       {
         "ts": "2026-09-19T03:10:10.616878+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-20T03:25:46.588734+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -369,7 +369,7 @@
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 62,
+        "score": 61,
         "is_pre_conflict": true
       },
       {
@@ -385,8 +385,24 @@
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
+    "list": [
+      "business-standard.com",
+      "economictimes.indiatimes.com",
+      "hngn.com",
+      "J.Post",
+      "livehindustan.com",
+      "moneycontrol.com",
+      "naturalnews.com",
+      "news.israelinfo.co.il",
+      "newswithviews.com",
+      "pressian.com",
+      "rp.pl",
+      "stcatharinesstandard.ca",
+      "thegazette.com",
+      "wallstreetcn.com",
+      "yumasun.com"
+    ],
+    "total_count": 15,
     "articles_72h": null
   }
 }
