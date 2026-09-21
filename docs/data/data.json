@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-20T03:25:46.590041+00:00",
+  "updated_at": "2026-09-21T17:58:17.560607+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 49,
-    "delta_vs_avg": -3
+    "score": 62,
+    "status_he": "מתוח",
+    "avg_7day": 52,
+    "delta_vs_avg": 10
   },
   "archive_comparison": {
-    "score": 61,
+    "score": 62,
     "status_he": "דמיון גבולי",
     "reference_events": [
       "פברואר 2026"
@@ -57,10 +57,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-09-04T02:57:43.940224+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-09-04T15:51:31.395104+00:00",
         "score": 46
@@ -112,13 +108,13 @@
       {
         "ts": "2026-09-20T03:25:46.588734+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-21T17:58:17.559374+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-06-28T03:39:39.961557+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-06-28T13:47:37.509641+00:00",
         "score": 46
@@ -354,6 +350,10 @@
       {
         "ts": "2026-09-20T03:25:46.588734+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-21T17:58:17.559374+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
@@ -369,7 +369,7 @@
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 61,
+        "score": 62,
         "is_pre_conflict": true
       },
       {
@@ -379,30 +379,14 @@
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 29,
+        "score": 30,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "business-standard.com",
-      "economictimes.indiatimes.com",
-      "hngn.com",
-      "J.Post",
-      "livehindustan.com",
-      "moneycontrol.com",
-      "naturalnews.com",
-      "news.israelinfo.co.il",
-      "newswithviews.com",
-      "pressian.com",
-      "rp.pl",
-      "stcatharinesstandard.ca",
-      "thegazette.com",
-      "wallstreetcn.com",
-      "yumasun.com"
-    ],
-    "total_count": 15,
-    "articles_72h": null
+    "list": [],
+    "total_count": 0,
+    "articles_72h": 250
   }
 }

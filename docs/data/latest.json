@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-09-20T03:25:46.588734+00:00",
-  "status": "green",
-  "headline_score_7day": 46,
-  "headline_score_21day": 61,
-  "score_jump": 0,
+  "timestamp_utc": "2026-09-21T17:58:17.559374+00:00",
+  "status": "yellow",
+  "headline_score_7day": 62,
+  "headline_score_21day": 62,
+  "score_jump": 16,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
-  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 61% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 61% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
+  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 21-day picture is similar at 62% similarity to a relatively quiet period (January 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). התמונה ל-21 יום דומה עם 62% דמיון לתקופה יחסית שקטה (ינואר 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -56,104 +56,9 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
-      "example_urls": [
-        "https://www.livehindustan.com/national/brics-supports-iran-attacks-us-tariff-and-cracks-down-on-israel-is-india-s-policy-changing-201789283595730.html",
-        "https://www.pressian.com/pages/articles/2026091309494995000",
-        "http://www.jpost.com/jerusalem-report/article-908036"
-      ],
-      "articles": [
-        {
-          "url": "https://www.livehindustan.com/national/brics-supports-iran-attacks-us-tariff-and-cracks-down-on-israel-is-india-s-policy-changing-201789283595730.html",
-          "title": "BRICS ईरान के साथ , US पर वार , इजरायल पर भी सख्ती ! क्या बदल रही भारत की नीति ? ",
-          "domain": "livehindustan.com",
-          "seendate": "20260913T081500Z"
-        },
-        {
-          "url": "https://www.pressian.com/pages/articles/2026091309494995000",
-          "title": "호르무즈 파병할 때 하더라도 전쟁 끝난 이후에 , 다른 나라와 같이 해야",
-          "domain": "pressian.com",
-          "seendate": "20260913T064500Z"
-        },
-        {
-          "url": "http://www.jpost.com/jerusalem-report/article-908036",
-          "title": "Should the US keep paying billions to the United Nations ? ",
-          "domain": "jpost.com",
-          "seendate": "20260913T073000Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/india/brics-2026-india-cracks-the-code-in-a-divided-room-with-4-am-talks-diplomatic-heavy-lifting/articleshow/134183728.cms",
-          "title": "BRICS 2026 : India cracks the code in a divided room with 4 AM talks & diplomatic heavy lifting",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260913T073000Z"
-        },
-        {
-          "url": "https://news.israelinfo.co.il/147861",
-          "title": "Хуситы атакуют Саудовскую Аравию и закрепляются у Баб - эль - Мандеба",
-          "domain": "news.israelinfo.co.il",
-          "seendate": "20260913T071500Z"
-        },
-        {
-          "url": "https://wallstreetcn.com/articles/3781644",
-          "title": "也门局势骤然升温 ！ 胡塞武装与沙特互相袭击 ， 伊朗 ： 我们与沙特  并不处于战争状态  ",
-          "domain": "wallstreetcn.com",
-          "seendate": "20260913T081500Z"
-        },
-        {
-          "url": "https://newswithviews.com/communism-by-proxy-not-just-another-midterm/",
-          "title": "Communism by Proxy : Not Just Another Midterm",
-          "domain": "newswithviews.com",
-          "seendate": "20260920T001500Z"
-        },
-        {
-          "url": "https://www.stcatharinesstandard.ca/news/world/trump-says-he-has-a-deal-with-denmark-to-bolster-us-military-presence-in-greenland/article_8c2060a0-05cc-544a-ab83-f9aa650c50f3.html",
-          "title": "Trump has a deal to build US military presence in Greenland while leaving island in Denmark hands",
-          "domain": "stcatharinesstandard.ca",
-          "seendate": "20260920T003000Z"
-        },
-        {
-          "url": "https://www.naturalnews.com/2026-09-19-brics-summit-adopts-statement-seeking-financial-reforms.html",
-          "title": "BRICS Summit Adopts 140 - Point Statement Seeking Financial Reforms , Avoids Naming U . S . – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "seendate": "20260920T001500Z"
-        },
-        {
-          "url": "https://www.rp.pl/przeglad-wydarzen-z-nocy/art45132211-atak-rosji-na-ukraine-polska-poderwala-mysliwce-zaginal-prom-z-243-osobami",
-          "title": "Przegląd wydarzeń z nocy : Alert RCB , Polska poderwała myśliwce , dramat na Morzu Jawajskim",
-          "domain": "rp.pl",
-          "seendate": "20260913T064500Z"
-        },
-        {
-          "url": "http://www.thegazette.com/news/national/ap-news-in-brief-at-9-04-p-m-edt/article_ee2f8513-22c2-5f65-81da-cbcd9e5d89ff.html",
-          "title": "AP News in Brief at 9 : 04 p . m . EDT",
-          "domain": "thegazette.com",
-          "seendate": "20260920T023000Z"
-        },
-        {
-          "url": "https://www.yumasun.com/news/national_news/ap-news-summary-at-9-47-p-m-edt/article_f6fe6325-100d-510e-8d27-6326a68121e2.html",
-          "title": "AP News Summary at 9 : 47 p . m . EDT",
-          "domain": "yumasun.com",
-          "seendate": "20260920T030000Z"
-        },
-        {
-          "url": "https://www.hngn.com/articles/273170/20260912/oil-tops-100-iran-widens-hormuz-zone-iaea-refers-tehran-un.htm",
-          "title": "Iran Says Oman Hormuz Route Deal Comes Monday as Bahrain Base Damaged",
-          "domain": "hngn.com",
-          "seendate": "20260913T041500Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/all-eyes-on-kevin-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-article-14028837.html",
-          "title": "All eyes on Kevin Warsh as rate - hike fever spreads across G7 central banks",
-          "domain": "moneycontrol.com",
-          "seendate": "20260913T084500Z"
-        },
-        {
-          "url": "https://www.business-standard.com/world-news/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-126091300050_1.html",
-          "title": "All eyes on Warsh as rate - hike fever spreads across G7 central banks",
-          "domain": "business-standard.com",
-          "seendate": "20260913T041500Z"
-        }
-      ]
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "military_strike",
@@ -174,9 +79,31 @@
   ],
   "comparison_table_7day": [
     {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.7429,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.7071,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.4583,
+      "composite_score": 0.625,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -184,7 +111,7 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -198,7 +125,7 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
+      "composite_score": 0.625,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -206,29 +133,7 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -242,15 +147,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.2083,
+      "composite_score": 0.4712,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -264,15 +169,15 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.3046,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -310,7 +215,7 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.6227,
+      "composite_score": 0.625,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -318,7 +223,7 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9863,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -332,7 +237,7 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.6122,
+      "composite_score": 0.6197,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -340,7 +245,7 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9231,
+        "source_diversity": 0.9679,
         "tone": 0.5
       },
       "weights_applied": {
@@ -376,7 +281,7 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.2888,
+      "composite_score": 0.2962,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -384,7 +289,7 @@
         "confluence": 0.0,
         "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.9057,
+        "source_diversity": 0.9497,
         "tone": 0.5
       },
       "weights_applied": {
@@ -402,11 +307,11 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 0,
+      "articles_en": 250,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 0,
+      "unique_domains_total": 184,
       "tone_mean": null
     },
     "window_21d": {
@@ -418,11 +323,11 @@
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 144,
+      "unique_domains_total": 151,
       "tone_mean": null
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 4 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }
