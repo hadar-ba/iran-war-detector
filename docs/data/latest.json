@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-09-22T03:20:48.525394+00:00",
+  "timestamp_utc": "2026-09-22T16:23:22.177506+00:00",
   "status": "green",
   "headline_score_7day": 46,
-  "headline_score_21day": 62,
-  "score_jump": -16,
+  "headline_score_21day": 50,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "News patterns are within the normal range — no elevated signals detected.",
   "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 62% similarity to the period before Operation Lion's Roar (February 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 62% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 50% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 50% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -24,11 +24,11 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [
         "https://www.aa.com.tr/tr/dunya/uluslararasi-baris-gununde-dunyadaki-ateskes-tablosu-kalici-baris-icin-umut-vermiyor/4063034",
-        "https://aa.com.tr/en/europe/france-seeks-indias-role-on-hormuz-strait-welcomes-pakistans-iran-us-mediation/4063742",
-        "https://aa.com.tr/en/middle-east/iran-s-revolutionary-guards-say-will-change-geography-of-war-if-attacked-again/4062973"
+        "https://wallstreetcn.com/articles/3782286",
+        "https://aa.com.tr/en/europe/france-seeks-indias-role-on-hormuz-strait-welcomes-pakistans-iran-us-mediation/4063742"
       ],
       "articles": [
         {
@@ -36,6 +36,12 @@
           "title": "Uluslararası Barış Günü  nde dünyadaki ateşkes tablosu kalıcı barış için umut vermiyor",
           "domain": "aa.com.tr",
           "seendate": "20260921T091500Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3782286",
+          "title": "油价五连跌后首次反弹 ， 市场静待美伊谈判信号",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260922T074500Z"
         },
         {
           "url": "https://aa.com.tr/en/europe/france-seeks-indias-role-on-hormuz-strait-welcomes-pakistans-iran-us-mediation/4063742",
@@ -48,6 +54,18 @@
           "title": "Iran Revolutionary Guards say will change  geography of war  if attacked again",
           "domain": "aa.com.tr",
           "seendate": "20260921T091500Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/article-909240",
+          "title": "Israel : Iraqi pro - Iran Shiite militias may attack amid disarmament efforts",
+          "domain": "jpost.com",
+          "seendate": "20260922T071500Z"
+        },
+        {
+          "url": "https://countercurrents.org/2026/09/might-makes-right-will-end-pax-americana/",
+          "title": "Might Makes Right Will End Pax Americana",
+          "domain": "countercurrents.org",
+          "seendate": "20260922T071500Z"
         },
         {
           "url": "https://ayna.az/iran-telebleri-yerine-yetirilene-qeder-abs-ile-hec-bir-danisiqlar-aparmayacaq",
@@ -74,16 +92,16 @@
           "seendate": "20260920T154500Z"
         },
         {
-          "url": "https://www.prokerala.com/news/articles/a1814357.html",
-          "title": "Iran decision on NPT withdrawal depends on US behavior , top security official says",
-          "domain": "prokerala.com",
-          "seendate": "20260920T030000Z"
-        },
-        {
           "url": "https://aa.com.tr/en/us-israel-iran-war/pakistans-interior-minister-leaves-for-crucial-iran-visit-to-discuss-regional-situation-houthi-attacks-sources/4063025",
           "title": "Pakistan interior minister leaves for crucial Iran visit to discuss regional situation , Houthi attacks : Sources",
           "domain": "aa.com.tr",
           "seendate": "20260921T091500Z"
+        },
+        {
+          "url": "https://www.prokerala.com/news/articles/a1814357.html",
+          "title": "Iran decision on NPT withdrawal depends on US behavior , top security official says",
+          "domain": "prokerala.com",
+          "seendate": "20260920T030000Z"
         },
         {
           "url": "https://www.al-monitor.com/originals/2026/09/uaes-gargash-expects-prolonged-war-calls-iran-gulf-security-talks",
@@ -110,16 +128,28 @@
           "seendate": "20260920T170000Z"
         },
         {
+          "url": "https://fr.euronews.com/2026/09/22/les-etats-unis-ouverts-a-une-rencontre-avec-liran-a-lonu-sur-fond-de-rumeurs-daccord-de-pa",
+          "title": "Les États - Unis ouverts à une rencontre avec lIran à lONU , sur fond de rumeurs daccord de paix",
+          "domain": "fr.euronews.com",
+          "seendate": "20260922T153000Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=22092026&id=9c396456-4566-4401-a8bb-ce2b13c2a045",
+          "title": "خام برنت يفاقم خسائره وينخفض إلى 98 دولارا للبرميل",
+          "domain": "shorouknews.com",
+          "seendate": "20260922T110000Z"
+        },
+        {
           "url": "http://www.jpost.com/middle-east/iran-news/2026-09-21/live-updates-909207",
           "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
           "domain": "jpost.com",
           "seendate": "20260921T221500Z"
         },
         {
-          "url": "https://www.163.com/dy/article/L7B69QFH05345ARG.html",
-          "title": "美以伊局势 ： 特朗普称考虑是否  彻底摧毁伊朗 ， 正处于决策阶段 ； 卡塔尔称美国希望与伊朗达成协议 ； 伊朗在边境部署大规模部队|也门|沙特|高级官员|唐纳 · 川普",
-          "domain": "163.com",
-          "seendate": "20260921T030000Z"
+          "url": "https://www.hs.fi/politiikka/art-2000012286694.html",
+          "title": "Vihreät aikoo esitt epäluottamusta puolustusministeri Antti Häkkäselle Israelin - vierailun takia",
+          "domain": "hs.fi",
+          "seendate": "20260920T230000Z"
         },
         {
           "url": "https://www.khaama.com/iran-warns-us-ships-in-indian-ocean-will-be-attacked-if-war-resumes/",
@@ -128,16 +158,16 @@
           "seendate": "20260920T194500Z"
         },
         {
+          "url": "https://www.163.com/dy/article/L7B69QFH05345ARG.html",
+          "title": "美以伊局势 ： 特朗普称考虑是否  彻底摧毁伊朗 ， 正处于决策阶段 ； 卡塔尔称美国希望与伊朗达成协议 ； 伊朗在边境部署大规模部队|也门|沙特|高级官员|唐纳 · 川普",
+          "domain": "163.com",
+          "seendate": "20260921T030000Z"
+        },
+        {
           "url": "https://aninews.in/news/world/middle-east/irans-ghalibaf-says-there-will-be-no-opening-of-strait-of-hormuz-until-conditions-are-met20260920140026/",
           "title": "Iran Ghalibaf says  there will be no opening  of Strait of Hormuz until conditions are met",
           "domain": "aninews.in",
           "seendate": "20260920T091500Z"
-        },
-        {
-          "url": "https://www.hs.fi/politiikka/art-2000012286694.html",
-          "title": "Vihreät aikoo esitt epäluottamusta puolustusministeri Antti Häkkäselle Israelin - vierailun takia",
-          "domain": "hs.fi",
-          "seendate": "20260920T230000Z"
         },
         {
           "url": "https://finance.sina.com.cn/roll/2026-09-20/doc-inismvpc2530393.shtml",
@@ -152,6 +182,12 @@
           "seendate": "20260920T110000Z"
         },
         {
+          "url": "https://www.ensonhaber.com/israilde-olasi-iran-saldirisina-karsi-hazirlik-h1567663",
+          "title": "İsrailde olası İran saldırısına karşı hazırlık",
+          "domain": "ensonhaber.com",
+          "seendate": "20260922T110000Z"
+        },
+        {
           "url": "https://www.moneycontrol.com/world/iran-denies-us-message-via-pakistan-what-is-mohsin-naqvi-s-tehran-visit-about-article-14033755.html",
           "title": "Iran denies US message via Pakistan : What is Mohsin Naqvi Tehran visit about ? ",
           "domain": "moneycontrol.com",
@@ -162,6 +198,12 @@
           "title": "Egyptian president meets CIA chief , calls for agreement to resolve Iranian crisis",
           "domain": "middleeastmonitor.com",
           "seendate": "20260920T141500Z"
+        },
+        {
+          "url": "https://www.eremnews.com/news/arab-world/c61fjdx",
+          "title": "  جبهة جديدة .. كيف تراقب إسرائيل مسار نزع سلاح الميليشيات العراقية ؟ ",
+          "domain": "eremnews.com",
+          "seendate": "20260922T064500Z"
         },
         {
           "url": "https://www.rte.ie/news/middle-east/2026/0920/1592251-iran-us-war/",
@@ -188,22 +230,34 @@
           "seendate": "20260921T103000Z"
         },
         {
-          "url": "https://aa.com.tr/en/americas/us-says-door-is-open-for-iran-to-return-to-negotiations/4062902",
-          "title": "US says  door is open  for Iran to return to negotiations",
-          "domain": "aa.com.tr",
-          "seendate": "20260921T091500Z"
-        },
-        {
           "url": "https://www.aa.com.tr/tr/dunya/israilin-bm-temsilcisinden-iranin-saldirisi-halinde-sert-karsilik-verecekleri-tehdidi/4063040",
           "title": "İsrailin BM Temsilcisinden , İran  ın saldırısı halinde sert karşılık verecekleri tehdidi",
           "domain": "aa.com.tr",
           "seendate": "20260921T091500Z"
         },
         {
+          "url": "https://aa.com.tr/en/americas/us-says-door-is-open-for-iran-to-return-to-negotiations/4062902",
+          "title": "US says  door is open  for Iran to return to negotiations",
+          "domain": "aa.com.tr",
+          "seendate": "20260921T091500Z"
+        },
+        {
+          "url": "https://www.ksat.com/news/world/2026/09/22/middle-east-wars-loom-over-un-general-assembly-and-other-mideast-developments/",
+          "title": "Middle East wars loom over UN General Assembly , and other Mideast developments",
+          "domain": "ksat.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
           "url": "https://www.saidaonline.com/320705",
           "title": "واشنطن تدقّ ناقوس الحرب … ولبنان داخل دائرة التصعيد السريع ! ",
           "domain": "saidaonline.com",
           "seendate": "20260920T161500Z"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/world/2026/09/22/as-mideast-leaders-gather-in-new-york-regional-wars-top-the-agenda-and-other-mideast-developments/",
+          "title": "Middle East wars loom over UN General Assembly , and other Mideast developments",
+          "domain": "clickorlando.com",
+          "seendate": "20260922T144500Z"
         },
         {
           "url": "https://arynews.tv/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict",
@@ -236,10 +290,22 @@
           "seendate": "20260921T030000Z"
         },
         {
+          "url": "https://www.cp24.com/news/world/2026/09/22/middle-east-wars-loom-over-un-general-assembly-and-other-mideast-developments/",
+          "title": "Mideast news : Leaders gather in New York for UNGA",
+          "domain": "cp24.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
           "url": "https://www.al-monitor.com/originals/2026/09/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict",
           "title": "Iran and US trade threats after Houthi attacks escalate regional conflict",
           "domain": "al-monitor.com",
           "seendate": "20260920T191500Z"
+        },
+        {
+          "url": "https://bworldonline.com/world/2026/09/21/780003/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict/",
+          "title": "Iran and US trade threats after Houthi attacks escalate regional conflict – BusinessWorld Online",
+          "domain": "bworldonline.com",
+          "seendate": "20260921T130000Z"
         },
         {
           "url": "https://www.birgun.net/haber/riyada-askeri-destek-sinyali-735912%20target=_blank",
@@ -248,10 +314,10 @@
           "seendate": "20260921T041500Z"
         },
         {
-          "url": "https://bworldonline.com/world/2026/09/21/780003/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict/",
-          "title": "Iran and US trade threats after Houthi attacks escalate regional conflict – BusinessWorld Online",
-          "domain": "bworldonline.com",
-          "seendate": "20260921T130000Z"
+          "url": "https://isp.netscape.com:443/news/world/story/0001/20260922/f1ef966c0f89e8dd13806768e3af4a0f",
+          "title": "Middle East wars loom over UN General Assembly , and other Mideast developments",
+          "domain": "isp.netscape.com",
+          "seendate": "20260922T153000Z"
         },
         {
           "url": "https://www.koreatimes.co.kr/world/20260921/iran-us-trade-threats-after-houthi-attacks-escalate-regional-conflict",
@@ -266,16 +332,16 @@
           "seendate": "20260920T041500Z"
         },
         {
-          "url": "https://lanouvelletribune.info/2026/09/tensions-avec-paris-liran-ferme-un-centre-culturel-francais-et-devoile-les-raisons-de-sa-colere/",
-          "title": "Tensions avec Paris : lIran ferme un centre culturel français et dévoile les raisons de sa colère",
-          "domain": "lanouvelletribune.info",
-          "seendate": "20260920T200000Z"
+          "url": "https://www.svd.se/a/L4zPz4/varldsledare-anlander-till-fn-for-arlig-debatt",
+          "title": "Världsledare anländer till FN för årlig debatt",
+          "domain": "svd.se",
+          "seendate": "20260922T074500Z"
         },
         {
-          "url": "https://www.vetogate.com/5735465",
-          "title": "إيران : لدينا معلومات بهجوم أمريكي مرتقب وجاهزون لقصف قواعدها في المنطقة",
-          "domain": "vetogate.com",
-          "seendate": "20260920T171500Z"
+          "url": "https://www.channelnewsasia.com/world/iran-us-peace-talk-revival-trump-un-general-assembly-6402351",
+          "title": "Iran , US hint at revival of talks as Trump , Pezeshkian due to attend UN",
+          "domain": "channelnewsasia.com",
+          "seendate": "20260922T144500Z"
         },
         {
           "url": "https://www.arkansasonline.com/news/2026/sep/20/saudis-affirm-houthis-fired-missile-at-capital/",
@@ -284,16 +350,40 @@
           "seendate": "20260920T113000Z"
         },
         {
-          "url": "https://jowhar.com/iran-and-us-exchange-trade-threats-as-regional-conflict-intensifies/",
-          "title": "Iran and US exchange trade threats as regional conflict intensifies",
-          "domain": "jowhar.com",
-          "seendate": "20260921T164500Z"
+          "url": "https://www.vetogate.com/5735465",
+          "title": "إيران : لدينا معلومات بهجوم أمريكي مرتقب وجاهزون لقصف قواعدها في المنطقة",
+          "domain": "vetogate.com",
+          "seendate": "20260920T171500Z"
         },
         {
           "url": "https://www.aol.com/articles/saudi-arabia-issues-alerts-across-071122000.html",
           "title": "Saudi Arabia says Houthis tried to attack its capital , and other Mideast developments",
           "domain": "aol.com",
           "seendate": "20260920T030000Z"
+        },
+        {
+          "url": "https://lanouvelletribune.info/2026/09/tensions-avec-paris-liran-ferme-un-centre-culturel-francais-et-devoile-les-raisons-de-sa-colere/",
+          "title": "Tensions avec Paris : lIran ferme un centre culturel français et dévoile les raisons de sa colère",
+          "domain": "lanouvelletribune.info",
+          "seendate": "20260920T200000Z"
+        },
+        {
+          "url": "https://jowhar.com/iran-and-us-exchange-trade-threats-as-regional-conflict-intensifies/",
+          "title": "Iran and US exchange trade threats as regional conflict intensifies",
+          "domain": "jowhar.com",
+          "seendate": "20260921T164500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=22092026&id=38787ff5-5438-4f10-ad9b-f35c03292735",
+          "title": "الحرس الثوري الإيراني : مستعدون لحرب طويلة الأمد .. والتفاوض مرحلة أخرى من الحرب",
+          "domain": "shorouknews.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260922/49760525.html",
+          "title": "歼 - 35卖给沙特的可能性有多大 地缘博弈下的阶段性结果 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260922T144500Z"
         },
         {
           "url": "https://wz.lviv.ua/news/558922-iran-nazvav-umovy-dlia-vidkryttia-ormuzkoi-protoky",
@@ -308,6 +398,12 @@
           "seendate": "20260920T193000Z"
         },
         {
+          "url": "https://www.chinatimes.com/realtimenews/20260922003068-260410",
+          "title": " 《 國際經濟 》 油價急彈 ！ 貝森特嗆伊朗1句 市場心慌了 - 財經",
+          "domain": "chinatimes.com",
+          "seendate": "20260922T071500Z"
+        },
+        {
           "url": "https://tribune.com.pk/story/2630570/houthis-push-for-control-of-yemen-highlands-as-trump-reported-to-have-called-off-airstrikes",
           "title": "Houthis push for control of Yemen highlands as Trump reported to have called off airstrikes",
           "domain": "tribune.com.pk",
@@ -320,10 +416,10 @@
           "seendate": "20260920T031500Z"
         },
         {
-          "url": "https://tribune.com.pk/story/2630516/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict",
-          "title": "Iran and US trade threats after Houthi attacks escalate regional conflict",
-          "domain": "tribune.com.pk",
-          "seendate": "20260921T080000Z"
+          "url": "https://isp.netscape.com:443/news/world/story/0001/20260920/24211a3b34731a669f3e7ab93314afdf",
+          "title": "Saudi Arabia says Houthis tried to attack its capital , and other Mideast developments",
+          "domain": "isp.netscape.com",
+          "seendate": "20260920T073000Z"
         },
         {
           "url": "https://www.dostor.org/5710693",
@@ -332,22 +428,34 @@
           "seendate": "20260922T003000Z"
         },
         {
-          "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D9%80-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AD/",
-          "title": "الولايات المتحدة الأمريكية ـ إيران : « حرب تحت الرماد » ",
-          "domain": "alquds.co.uk",
-          "seendate": "20260921T230000Z"
+          "url": "https://www.bankingnews.gr/diethni/articles/900764/us-iran-conflict-concerns-grow-in-washington-over-drone-warfare-toll%20title=",
+          "title": "US - Iran conflict : Concerns grow in Washington over drone warfare toll",
+          "domain": "bankingnews.gr",
+          "seendate": "20260922T074500Z"
         },
         {
-          "url": "https://isp.netscape.com:443/news/world/story/0001/20260920/24211a3b34731a669f3e7ab93314afdf",
-          "title": "Saudi Arabia says Houthis tried to attack its capital , and other Mideast developments",
-          "domain": "isp.netscape.com",
-          "seendate": "20260920T073000Z"
+          "url": "https://www.bankingnews.gr/diethni/articles/900764/us-iran-conflict-concerns-grow-in-washington-over-drone-warfare-toll",
+          "title": "US - Iran conflict : Concerns grow in Washington over drone warfare toll",
+          "domain": "bankingnews.gr",
+          "seendate": "20260922T074500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2630516/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict",
+          "title": "Iran and US trade threats after Houthi attacks escalate regional conflict",
+          "domain": "tribune.com.pk",
+          "seendate": "20260921T080000Z"
         },
         {
           "url": "https://news.bigmir.net/ua/world/10433614-iran-visunuv-ssha-tri-umovi-dlya-peregovoriv",
           "title": "Іран висунув США три умови для переговорів",
           "domain": "news.bigmir.net",
           "seendate": "20260920T023000Z"
+        },
+        {
+          "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D9%80-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AD/",
+          "title": "الولايات المتحدة الأمريكية ـ إيران : « حرب تحت الرماد » ",
+          "domain": "alquds.co.uk",
+          "seendate": "20260921T230000Z"
         },
         {
           "url": "https://www.wxii12.com/article/saudi-arabia-yemen-houthi-rebels-ballistic-missile/73804217",
@@ -362,16 +470,34 @@
           "seendate": "20260920T063000Z"
         },
         {
+          "url": "https://www.newsbeast.gr/world/arthro/13372320/o-epikefalis-tis-diplomatias-tou-iran-stis-ipa-gia-ti-geniki-synelefsi-tou-oie",
+          "title": "Ο επικεφαλής της διπλωματίας του Ιράν στις ΗΠΑ για τη Γενική Συνέλευση του ΟΗΕ",
+          "domain": "newsbeast.gr",
+          "seendate": "20260922T061500Z"
+        },
+        {
           "url": "https://www.index.hr/vijesti/clanak/iran-postavio-americi-sedam-uvjeta-za-pregovore-objavio-tri/2836464.aspx",
           "title": "Iran postavio Americi sedam uvjeta :  Spremni smo za odlučujući rat  ",
           "domain": "index.hr",
           "seendate": "20260920T061500Z"
         },
         {
-          "url": "https://www.ettoday.net/news/20260920/3240683.htm",
-          "title": "全球 「 外交超級週 」 登場 ！ 川普聯大談美伊戰 習近平訪美聚焦台灣 | ETtoday國際新聞",
-          "domain": "ettoday.net",
-          "seendate": "20260920T043000Z"
+          "url": "https://www.jpost.com/diaspora/antisemitism/article-909235",
+          "title": "Palestinian activist Mahmoud Khalil speaks against Israel at Yom Kippur event",
+          "domain": "jpost.com",
+          "seendate": "20260922T071500Z"
+        },
+        {
+          "url": "https://www.ntdtv.com/b5/2026/09/22/a104135045.html",
+          "title": "伊朗外長抵紐約 出席聯合國大會 | 古特瑞斯 | 裴澤斯基安 | 阿拉奇",
+          "domain": "ntdtv.com",
+          "seendate": "20260922T074500Z"
+        },
+        {
+          "url": "https://www.yakimaherald.com/news/nation_and_world/nation/saudi-arabia-says-houthis-tried-to-attack-its-capital-and-other-mideast-developments/article_a09da88d-c9c7-5219-8fb7-cd4374108cb0.html",
+          "title": "Saudi Arabia says Houthis tried to attack its capital , and other Mideast developments",
+          "domain": "yakimaherald.com",
+          "seendate": "20260920T041500Z"
         },
         {
           "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/09/iran-260919-sputnik01.htm",
@@ -380,10 +506,16 @@
           "seendate": "20260920T153000Z"
         },
         {
-          "url": "https://www.yakimaherald.com/news/nation_and_world/nation/saudi-arabia-says-houthis-tried-to-attack-its-capital-and-other-mideast-developments/article_a09da88d-c9c7-5219-8fb7-cd4374108cb0.html",
-          "title": "Saudi Arabia says Houthis tried to attack its capital , and other Mideast developments",
-          "domain": "yakimaherald.com",
-          "seendate": "20260920T041500Z"
+          "url": "https://www.ettoday.net/news/20260920/3240683.htm",
+          "title": "全球 「 外交超級週 」 登場 ！ 川普聯大談美伊戰 習近平訪美聚焦台灣 | ETtoday國際新聞",
+          "domain": "ettoday.net",
+          "seendate": "20260920T043000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L7E838E30549BAP0.html",
+          "title": "法媒 ： 马赛危机加深 ， 俱乐部可能面向波斯湾寻找资金",
+          "domain": "163.com",
+          "seendate": "20260922T041500Z"
         },
         {
           "url": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-ordusu-yeni-saldiri-olursa-savasin-cografyasini-degistirecegiz-957497.html",
@@ -440,10 +572,22 @@
           "seendate": "20260920T153000Z"
         },
         {
-          "url": "https://www.konhaber.com/guncel/iran_devrim_muhafizlari_ordusu_yeni_saldiri_olursa_savasin_cografyasini_degistirecegiz-2009581h",
-          "title": "İran Devrim Muhafızları Ordusu : Yeni saldırı olursa savaşın coğrafyasını değiştireceğiz",
-          "domain": "konhaber.com",
-          "seendate": "20260921T091500Z"
+          "url": "https://www.asiaone.com:443/asia/houthis-push-control-yemen-highlands-trump-said-have-called-strikes",
+          "title": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes",
+          "domain": "asiaone.com",
+          "seendate": "20260922T034500Z"
+        },
+        {
+          "url": "https://www.asiaone.com/asia/houthis-push-control-yemen-highlands-trump-said-have-called-strikes",
+          "title": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes",
+          "domain": "asiaone.com",
+          "seendate": "20260922T050000Z"
+        },
+        {
+          "url": "https://www.koreaherald.com/article/10882090",
+          "title": "Houthis push for control of Yemen highlands",
+          "domain": "koreaherald.com",
+          "seendate": "20260922T044500Z"
         },
         {
           "url": "https://www.dostor.org/5708431",
@@ -458,16 +602,40 @@
           "seendate": "20260920T041500Z"
         },
         {
-          "url": "https://www.haberturk.com/dunya/iran-dan-yeni-tehdit-yeni-saldiri-olursa-savasin-cografyasini-degistirecegiz-3913933",
-          "title": "İrandan yeni tehdit : Yeni saldırı olursa savaşın coğrafyasını değiştireceğiz - Dünya Haberleri",
-          "domain": "haberturk.com",
-          "seendate": "20260921T080000Z"
+          "url": "https://www.konhaber.com/guncel/iran_devrim_muhafizlari_ordusu_yeni_saldiri_olursa_savasin_cografyasini_degistirecegiz-2009581h",
+          "title": "İran Devrim Muhafızları Ordusu : Yeni saldırı olursa savaşın coğrafyasını değiştireceğiz",
+          "domain": "konhaber.com",
+          "seendate": "20260921T091500Z"
+        },
+        {
+          "url": "https://www.sabah.com.tr/gundem/2026/09/22/baris-diplomasisi",
+          "title": "Barış diplomasisi",
+          "domain": "sabah.com.tr",
+          "seendate": "20260922T064500Z"
+        },
+        {
+          "url": "https://countercurrents.org/author/pedro-abramovay-and-julia-sakr-tierney/",
+          "title": "Pedro Abramovay and Julia Sakr - Tierney | Countercurrents",
+          "domain": "countercurrents.org",
+          "seendate": "20260922T071500Z"
         },
         {
           "url": "https://www.nwaonline.com/news/2026/sep/20/saudis-affirm-houthis-fired-missile-at-capital/",
           "title": "Saudis affirm Houthis fired missile at capital | Northwest Arkansas Democrat - Gazette",
           "domain": "nwaonline.com",
           "seendate": "20260920T094500Z"
+        },
+        {
+          "url": "https://www.haberturk.com/dunya/iran-dan-yeni-tehdit-yeni-saldiri-olursa-savasin-cografyasini-degistirecegiz-3913933",
+          "title": "İrandan yeni tehdit : Yeni saldırı olursa savaşın coğrafyasını değiştireceğiz - Dünya Haberleri",
+          "domain": "haberturk.com",
+          "seendate": "20260921T080000Z"
+        },
+        {
+          "url": "https://bworldonline.com/world/2026/09/22/780390/houthis-push-for-control-of-yemen-highlands-as-trump-is-said-to-have-called-off-strikes/",
+          "title": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes",
+          "domain": "bworldonline.com",
+          "seendate": "20260922T054500Z"
         },
         {
           "url": "https://www.haberler.com/guncel/devrim-muhafizlari-sozcusu-yeni-saldirida-savas-20256250-haberi/",
@@ -494,22 +662,16 @@
           "seendate": "20260921T061500Z"
         },
         {
-          "url": "http://www.kenyastar.com/news/279318995/iran-ghalibaf-says-there-will-be-no-opening-of-strait-of-hormuz-until-conditions-are-met",
-          "title": "Iran Ghalibaf says",
-          "domain": "kenyastar.com",
-          "seendate": "20260920T124500Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279318995/iran-ghalibaf-says-there-will-be-no-opening-of-strait-of-hormuz-until-conditions-are-met",
-          "title": "Iran Ghalibaf says",
-          "domain": "middleeaststar.com",
-          "seendate": "20260920T161500Z"
-        },
-        {
           "url": "https://www.aol.com/articles/houthis-push-control-yemen-highlands-110616000.html",
           "title": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes",
           "domain": "aol.com",
           "seendate": "20260922T020000Z"
+        },
+        {
+          "url": "https://www.advance.hr/telegrafska-zica/bliski-istok/iran/2026/09/22/trumpov-iranski-meni-razoriti-zemlju-pustiti-je-da-propada-ili-se-dogovoriti",
+          "title": "Trumpov iranski meni : razoriti zemlju , pustiti je da propada ili se dogovoriti",
+          "domain": "advance.hr",
+          "seendate": "20260922T071500Z"
         },
         {
           "url": "https://www.alquds.co.uk/%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D9%8A/",
@@ -524,16 +686,22 @@
           "seendate": "20260922T011500Z"
         },
         {
-          "url": "https://www.bankier.pl/wiadomosc/Iran-stawia-warunki-Nie-otworzy-ciesniny-Ormuz-dopoki-USA-ich-nie-spelnia-9199743.html",
-          "title": "Iran stawia warunki . Nie otworzy cieśniny Ormuz , dopóki united states ich nie spełnią",
-          "domain": "bankier.pl",
-          "seendate": "20260920T110000Z"
+          "url": "http://www.kenyastar.com/news/279318995/iran-ghalibaf-says-there-will-be-no-opening-of-strait-of-hormuz-until-conditions-are-met",
+          "title": "Iran Ghalibaf says",
+          "domain": "kenyastar.com",
+          "seendate": "20260920T124500Z"
         },
         {
-          "url": "https://hotair.com/headlines/2026/09/19/time-for-mbs-to-finish-off-the-houthis-n3819117",
-          "title": "Time for MBS to Finish Off the Houthis",
-          "domain": "hotair.com",
-          "seendate": "20260920T001500Z"
+          "url": "http://www.middleeaststar.com/news/279318995/iran-ghalibaf-says-there-will-be-no-opening-of-strait-of-hormuz-until-conditions-are-met",
+          "title": "Iran Ghalibaf says",
+          "domain": "middleeaststar.com",
+          "seendate": "20260920T161500Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/article-909234",
+          "title": "Houthis advance in Yemen as Donald Trump weighs military action",
+          "domain": "jpost.com",
+          "seendate": "20260922T071500Z"
         },
         {
           "url": "https://www.shorouknews.com/news/view.aspx?cdate=21092026&id=cc8b9920-5253-4e44-bf64-32b7656b76fd",
@@ -542,10 +710,28 @@
           "seendate": "20260921T130000Z"
         },
         {
+          "url": "https://www.bankier.pl/wiadomosc/Iran-stawia-warunki-Nie-otworzy-ciesniny-Ormuz-dopoki-USA-ich-nie-spelnia-9199743.html",
+          "title": "Iran stawia warunki . Nie otworzy cieśniny Ormuz , dopóki united states ich nie spełnią",
+          "domain": "bankier.pl",
+          "seendate": "20260920T110000Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260922/49759952.html",
+          "title": "把F35卖给沙特美国顾不上以色列了 以色列顾虑未消 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260922T074500Z"
+        },
+        {
           "url": "https://www.24heures.ch/direct-moyen-orient-trump-affirme-que-les-houthis-du-yemen-ne-s-en-prendront-pas-aux-etats-unis-186267002168",
           "title": "DIRECT . Moyen - Orient : Trump affirme que les Houthis du Yémen ne sen prendront pas aux États - Unis",
           "domain": "24heures.ch",
           "seendate": "20260920T213000Z"
+        },
+        {
+          "url": "https://hotair.com/headlines/2026/09/19/time-for-mbs-to-finish-off-the-houthis-n3819117",
+          "title": "Time for MBS to Finish Off the Houthis",
+          "domain": "hotair.com",
+          "seendate": "20260920T001500Z"
         },
         {
           "url": "http://www.middleeaststar.com/news/279319095/iran-warns-of-painful-strikes-if-us-regional-countries-make-any-mistake",
@@ -584,10 +770,10 @@
           "seendate": "20260920T221500Z"
         },
         {
-          "url": "https://www.163.com/dy/article/L7BK8JAI05199DKK.html",
-          "title": "伟伟道来 | 还剩43天 ， 美国伊朗原地踏步 ， 沙特胡塞激烈冲突",
-          "domain": "163.com",
-          "seendate": "20260921T053000Z"
+          "url": "https://aa.com.tr/en/middle-east/iran-says-strait-of-hormuz-to-remain-closed-until-us-fulfills-commitments/4062345",
+          "title": "Iran says Strait of Hormuz to remain closed until US fulfills commitments",
+          "domain": "aa.com.tr",
+          "seendate": "20260920T091500Z"
         },
         {
           "url": "https://www.deccanchronicle.com/west-asia/iran-sets-seven-conditions-for-talks-with-us-to-end-war-1988926",
@@ -596,22 +782,16 @@
           "seendate": "20260920T031500Z"
         },
         {
-          "url": "https://aa.com.tr/en/middle-east/iran-says-strait-of-hormuz-to-remain-closed-until-us-fulfills-commitments/4062345",
-          "title": "Iran says Strait of Hormuz to remain closed until US fulfills commitments",
-          "domain": "aa.com.tr",
-          "seendate": "20260920T091500Z"
-        },
-        {
           "url": "https://news.webindia123.com/news/Articles/World/20260920/4500867.html",
           "title": "Iran sets 7 conditions for talks with US through Qatar , warns of  decisive war  if Trump rejects demands",
           "domain": "news.webindia123.com",
           "seendate": "20260920T001500Z"
         },
         {
-          "url": "https://bangla.bdnews24.com/world/91q972pnmq",
-          "title": "আঞ্চলিক সংঘাত বাড়ার মধ্যে পরস্পরকে হুমকি যুক্তরাষ্ট্র ও ইরানের",
-          "domain": "bangla.bdnews24.com",
-          "seendate": "20260921T060000Z"
+          "url": "https://www.163.com/dy/article/L7BK8JAI05199DKK.html",
+          "title": "伟伟道来 | 还剩43天 ， 美国伊朗原地踏步 ， 沙特胡塞激烈冲突",
+          "domain": "163.com",
+          "seendate": "20260921T053000Z"
         },
         {
           "url": "https://www.albiladpress.com/news/2026/6551/arab-and-world/1020753.html",
@@ -620,10 +800,22 @@
           "seendate": "20260920T080000Z"
         },
         {
+          "url": "https://bangla.bdnews24.com/world/91q972pnmq",
+          "title": "আঞ্চলিক সংঘাত বাড়ার মধ্যে পরস্পরকে হুমকি যুক্তরাষ্ট্র ও ইরানের",
+          "domain": "bangla.bdnews24.com",
+          "seendate": "20260921T060000Z"
+        },
+        {
           "url": "https://www.sankei.com/article/20260921-KL32WKTTFJFCNL74ZN5K2HW4ZI/",
           "title": "米攻撃下のイランで死刑相次ぐ 「 もうヘジャブだけじゃない 」 自由求める在日イラン人デモ",
           "domain": "sankei.com",
           "seendate": "20260921T130000Z"
+        },
+        {
+          "url": "https://www.theamericanconservative.com/why-riyadh-wont-be-forced-into-israels-arms/",
+          "title": "Why Riyadh Wont Be Forced Into Israel Arms - The American Conservative",
+          "domain": "theamericanconservative.com",
+          "seendate": "20260922T044500Z"
         },
         {
           "url": "https://www.middleeastmonitor.com/20260920-iran-says-strait-of-hormuz-to-remain-closed-until-us-fulfills-commitments/",
@@ -632,10 +824,10 @@
           "seendate": "20260920T091500Z"
         },
         {
-          "url": "https://economictimes.indiatimes.com/news/defence/iran-sets-7-conditions-for-talks-with-us-through-qatar-warns-of-decisive-war-if-trump-rejects-demands/articleshow/134362584.cms",
-          "title": "Iran sets 7 conditions for talks with US through Qatar , warns of  decisive war  if Trump rejects demands",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260920T023000Z"
+          "url": "https://www.kathimerini.gr/world/564472759/stis-ipa-o-ypoyrgos-exoterikon-toy-iran/",
+          "title": "Στις ΗΠΑ ο υπουργός Εξωτερικών του Ιράν",
+          "domain": "kathimerini.gr",
+          "seendate": "20260922T071500Z"
         },
         {
           "url": "https://www.hispantv.com/noticias/defensa/660820/ffaa-iran-infligir-nuevas-derrotas-eeuu-israel",
@@ -644,27 +836,21 @@
           "seendate": "20260921T163000Z"
         },
         {
+          "url": "https://economictimes.indiatimes.com/news/defence/iran-sets-7-conditions-for-talks-with-us-through-qatar-warns-of-decisive-war-if-trump-rejects-demands/articleshow/134362584.cms",
+          "title": "Iran sets 7 conditions for talks with US through Qatar , warns of  decisive war  if Trump rejects demands",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260920T023000Z"
+        },
+        {
           "url": "https://www.shorouknews.com/news/view.aspx?cdate=21092026&id=e3585692-8375-4072-8188-3719bc20e649",
           "title": "النفط يهبط دون 100 دولار وسط مساعٍ لخفض التصعيد بالمنطقة",
           "domain": "shorouknews.com",
           "seendate": "20260921T163000Z"
         },
         {
-          "url": "https://www.protagon.gr/epikairotita/o-fintan-thelei-amerikaniko-xalinari-ston-netaniaxou-44343442956",
-          "title": "Ο Φιντάν θέλει « αμερικανικό χαλινάρι » στον Νετανιάχου",
-          "domain": "protagon.gr",
-          "seendate": "20260921T210000Z"
-        },
-        {
           "url": "https://aninews.in/news/world/middle-east/war-not-over-irgc-says-prepared-for-long-term-conflict-with-us20260921142445/",
           "title": "  War not over : IRGC says prepared for  long - term  conflict with US",
           "domain": "aninews.in",
-          "seendate": "20260921T091500Z"
-        },
-        {
-          "url": "https://www.habervitrini.com/haber/irandan-abd-ve-israile-uyari-saldirirsaniz-savasin-cografyasini-degistirecegiz-1789980728371",
-          "title": "İrandan ABD ve İsraile uyarı : Saldırırsanız savaşın coğrafyasını değiştireceğiz",
-          "domain": "habervitrini.com",
           "seendate": "20260921T091500Z"
         },
         {
@@ -698,10 +884,28 @@
           "seendate": "20260920T153000Z"
         },
         {
-          "url": "https://www.internethaber.com/hakan-fidandan-abdye-israil-uzerinde-nufuzunu-daha-fazla-kullanmali-2460447h.htm",
-          "title": "Hakan Fidandan ABDye : İsrail üzerinde nüfuzunu daha fazla kullanmalı",
-          "domain": "internethaber.com",
-          "seendate": "20260921T174500Z"
+          "url": "https://www.ilpost.it/2026/09/19/houthi-yemen-guerra-civile-storia/?homepagePosition=8.1&referrerPost=3684925",
+          "title": "Da dove arrivano gli Houthi , e come cominciò la guerra civile in Yemen",
+          "domain": "ilpost.it",
+          "seendate": "20260922T110000Z"
+        },
+        {
+          "url": "https://www.ilpost.it/2026/09/19/houthi-yemen-guerra-civile-storia/?homepagePosition=15.2&referrerPost=3684120",
+          "title": "Da dove arrivano gli Houthi , e come cominciò la guerra civile in Yemen",
+          "domain": "ilpost.it",
+          "seendate": "20260922T110000Z"
+        },
+        {
+          "url": "https://www.protagon.gr/epikairotita/o-fintan-thelei-amerikaniko-xalinari-ston-netaniaxou-44343442956",
+          "title": "Ο Φιντάν θέλει « αμερικανικό χαλινάρι » στον Νετανιάχου",
+          "domain": "protagon.gr",
+          "seendate": "20260921T210000Z"
+        },
+        {
+          "url": "https://www.habervitrini.com/haber/irandan-abd-ve-israile-uyari-saldirirsaniz-savasin-cografyasini-degistirecegiz-1789980728371",
+          "title": "İrandan ABD ve İsraile uyarı : Saldırırsanız savaşın coğrafyasını değiştireceğiz",
+          "domain": "habervitrini.com",
+          "seendate": "20260921T091500Z"
         },
         {
           "url": "https://politicaldog101.com/2026/09/the-houthis-and-saudi-arabia-and-more-in-the-middle-east-sept-20-2026/",
@@ -710,22 +914,16 @@
           "seendate": "20260920T204500Z"
         },
         {
-          "url": "https://www.rediff.com/news/report/accept-7-conditions-or-face-decisive-war-iran-tells-trump/20260920.htm",
-          "title": "Accept 7 conditions or face  decisive war : Iran tells Trump",
-          "domain": "rediff.com",
-          "seendate": "20260920T124500Z"
-        },
-        {
           "url": "https://www.bbc.com/persian/articles/cwgk52m6kyg6o",
           "title": "آیا نتانیاهو پیش از انتخابات اسرائیل دوباره به ایران حمله میکند ؟ ",
           "domain": "bbc.com",
           "seendate": "20260921T063000Z"
         },
         {
-          "url": "https://news.tvbs.com.tw/world/4025417",
-          "title": "美國打伊朗半年燒1 . 43兆元 ！ 川普仍可能發動新一輪軍事行動",
-          "domain": "news.tvbs.com.tw",
-          "seendate": "20260921T181500Z"
+          "url": "https://www.internethaber.com/hakan-fidandan-abdye-israil-uzerinde-nufuzunu-daha-fazla-kullanmali-2460447h.htm",
+          "title": "Hakan Fidandan ABDye : İsrail üzerinde nüfuzunu daha fazla kullanmalı",
+          "domain": "internethaber.com",
+          "seendate": "20260921T174500Z"
         },
         {
           "url": "https://n.yam.com/Article/20260921387798",
@@ -734,16 +932,22 @@
           "seendate": "20260921T050000Z"
         },
         {
+          "url": "https://news.tvbs.com.tw/world/4025417",
+          "title": "美國打伊朗半年燒1 . 43兆元 ！ 川普仍可能發動新一輪軍事行動",
+          "domain": "news.tvbs.com.tw",
+          "seendate": "20260921T181500Z"
+        },
+        {
           "url": "https://dunyanews.tv/en/World/973541-as-iran-war-grinds-on-trump-to-face-skeptical-world-leaders-at-un",
           "title": "As Iran war grinds on , Trump to face skeptical world leaders at UN",
           "domain": "dunyanews.tv",
           "seendate": "20260920T083000Z"
         },
         {
-          "url": "https://www.ibtimes.com/iran-war-escalation-imminent-speculation-grows-trump-cuts-camp-david-trip-short-3807663",
-          "title": "Is Iran War Escalation Imminent ? Speculation Grows As Trump Cuts Camp David Trip Short . ",
-          "domain": "ibtimes.com",
-          "seendate": "20260920T191500Z"
+          "url": "https://www.rediff.com/news/report/accept-7-conditions-or-face-decisive-war-iran-tells-trump/20260920.htm",
+          "title": "Accept 7 conditions or face  decisive war : Iran tells Trump",
+          "domain": "rediff.com",
+          "seendate": "20260920T124500Z"
         },
         {
           "url": "https://www.al-monitor.com/originals/2026/09/iran-threatens-expand-war-new-weapons-if-us-attacks-resume",
@@ -756,6 +960,12 @@
           "title": "Houthi escalating attacks on Saudi Arabia give Iran leverage in the Middle East",
           "domain": "abcnews.com",
           "seendate": "20260922T011500Z"
+        },
+        {
+          "url": "https://www.ibtimes.com/iran-war-escalation-imminent-speculation-grows-trump-cuts-camp-david-trip-short-3807663",
+          "title": "Is Iran War Escalation Imminent ? Speculation Grows As Trump Cuts Camp David Trip Short . ",
+          "domain": "ibtimes.com",
+          "seendate": "20260920T191500Z"
         },
         {
           "url": "https://koran-jakarta.com/2026-09-20/negosiasi-as-iran-buntu-trump-berada-di-persimpangan-keputusan-besar",
@@ -794,16 +1004,16 @@
           "seendate": "20260920T121500Z"
         },
         {
-          "url": "https://kibrisgazetesi.com/konu/gokhanguler/masada-esitlik-masa-disinda-hiyerarsi-3/",
-          "title": "Masada eşitlik , masa dışında hiyerarşi – 3 - Kıbrıs Gazetesi - Kıbrıs Haber , KKTC Son Dakika ve Gündem Haberleri",
-          "domain": "kibrisgazetesi.com",
-          "seendate": "20260921T110000Z"
-        },
-        {
           "url": "https://lancasteronline.com/news/world/an-israeli-is-shot-dead-in-the-occupied-west-bank-and-other-mideast-developments/article_06fbbd7a-04c5-51e9-ae5f-3596a87837bd.html",
           "title": "An Israeli is shot dead in the occupied West Bank , and other Mideast developments",
           "domain": "lancasteronline.com",
           "seendate": "20260920T153000Z"
+        },
+        {
+          "url": "https://kibrisgazetesi.com/konu/gokhanguler/masada-esitlik-masa-disinda-hiyerarsi-3/",
+          "title": "Masada eşitlik , masa dışında hiyerarşi – 3 - Kıbrıs Gazetesi - Kıbrıs Haber , KKTC Son Dakika ve Gündem Haberleri",
+          "domain": "kibrisgazetesi.com",
+          "seendate": "20260921T110000Z"
         },
         {
           "url": "https://www.vetogate.com/5735540",
@@ -812,28 +1022,16 @@
           "seendate": "20260920T193000Z"
         },
         {
-          "url": "https://www.tanea.gr/2026/09/20/politics/f-35-sti-saoudiki-aravia-o-kindynos-na-mathei-i-tourkia-ta-aorata-mystika-tou-ellinikou-maxitikou/",
-          "title": "F - 35 στη Σαουδική Αραβία : Ο κίνδυνος να μάθει η Τουρκία τα « αόρατα » μυστικά του ελληνικού μαχητικού",
-          "domain": "tanea.gr",
-          "seendate": "20260920T170000Z"
+          "url": "https://www.azernews.az/analysis/264227.html",
+          "title": "Iran - US talks hang in balance as Hormuz remains Tehran key leverage [ EXCLUSIVE ] ",
+          "domain": "azernews.az",
+          "seendate": "20260922T030000Z"
         },
         {
-          "url": "https://www.posta.com.tr/yazarlar/hakan-celik/new-yorkta-cok-kritik-hafta-3041947",
-          "title": "New Yorkta çok kritik hafta - Hakan Çelik",
-          "domain": "posta.com.tr",
-          "seendate": "20260921T063000Z"
-        },
-        {
-          "url": "https://www.ntv.com.tr/turkiye/bakan-fidandan-abdye-cagri-isbirligini-sinirlayan-kisitlamalari-kaldirmaliyiz-1742890",
-          "title": "Bakan Fidandan ABDye çağrı .  İşbirliğini sınırlayan kısıtlamaları kaldırmalıyız  ",
-          "domain": "ntv.com.tr",
-          "seendate": "20260921T181500Z"
-        },
-        {
-          "url": "https://www.f5haber.com/gundem/bakan-fidandan-abdye-cagri-isbirligini-sinirlayan-kisitlamalari-kaldirmaliyiz-6979321",
-          "title": "Bakan Fidandan ABDye çağrı !  İşbirliğini sınırlayan kısıtlamaları kaldırmalıyız  ",
-          "domain": "f5haber.com",
-          "seendate": "20260922T000000Z"
+          "url": "https://www.juancole.com/2026/09/yemen-returned-conflict.html",
+          "title": "Why Yemen has returned to Conflict",
+          "domain": "juancole.com",
+          "seendate": "20260920T063000Z"
         },
         {
           "url": "https://www.ottopagine.it/mondo/attualita/438793/guerra-usa-iran-trump-valuta-nuovi-attacchi-contatti-con-gli-houthi.shtml",
@@ -842,16 +1040,40 @@
           "seendate": "20260920T153000Z"
         },
         {
+          "url": "https://www.tanea.gr/2026/09/20/politics/f-35-sti-saoudiki-aravia-o-kindynos-na-mathei-i-tourkia-ta-aorata-mystika-tou-ellinikou-maxitikou/",
+          "title": "F - 35 στη Σαουδική Αραβία : Ο κίνδυνος να μάθει η Τουρκία τα « αόρατα » μυστικά του ελληνικού μαχητικού",
+          "domain": "tanea.gr",
+          "seendate": "20260920T170000Z"
+        },
+        {
+          "url": "https://www.ntv.com.tr/turkiye/bakan-fidandan-abdye-cagri-isbirligini-sinirlayan-kisitlamalari-kaldirmaliyiz-1742890",
+          "title": "Bakan Fidandan ABDye çağrı .  İşbirliğini sınırlayan kısıtlamaları kaldırmalıyız  ",
+          "domain": "ntv.com.tr",
+          "seendate": "20260921T181500Z"
+        },
+        {
+          "url": "https://www.posta.com.tr/yazarlar/hakan-celik/new-yorkta-cok-kritik-hafta-3041947",
+          "title": "New Yorkta çok kritik hafta - Hakan Çelik",
+          "domain": "posta.com.tr",
+          "seendate": "20260921T063000Z"
+        },
+        {
           "url": "https://www.inewsgr.com/27/F-35-sti-saoudiki-aravia-o-kindynos-na-mathei-i-tourkia-ta-aorata-mystika-tou-ellinikou-machitikou.htm",
           "title": "F - 35 στη Σαουδική Αραβία : Ο κίνδυνος να μάθει η Τουρκία τα « αόρατα » μυστικά του ελληνικού μαχητικού",
           "domain": "inewsgr.com",
           "seendate": "20260920T170000Z"
         },
         {
-          "url": "https://www.juancole.com/2026/09/yemen-returned-conflict.html",
-          "title": "Why Yemen has returned to Conflict",
-          "domain": "juancole.com",
-          "seendate": "20260920T063000Z"
+          "url": "https://www.f5haber.com/gundem/bakan-fidandan-abdye-cagri-isbirligini-sinirlayan-kisitlamalari-kaldirmaliyiz-6979321",
+          "title": "Bakan Fidandan ABDye çağrı !  İşbirliğini sınırlayan kısıtlamaları kaldırmalıyız  ",
+          "domain": "f5haber.com",
+          "seendate": "20260922T000000Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3782238",
+          "title": "胡塞武装攻占战略高地 ！ 特朗普据报临时叫停空袭 ， 中东能源风险再升级",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260921T190000Z"
         },
         {
           "url": "https://www.ariananews.af/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict/",
@@ -866,16 +1088,10 @@
           "seendate": "20260921T061500Z"
         },
         {
-          "url": "https://wallstreetcn.com/articles/3782238",
-          "title": "胡塞武装攻占战略高地 ！ 特朗普据报临时叫停空袭 ， 中东能源风险再升级",
-          "domain": "wallstreetcn.com",
-          "seendate": "20260921T190000Z"
-        },
-        {
-          "url": "https://www.skynewsarabia.com/world/1893423-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B6%D8%BA%D8%B7-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B6%D8%B1%D8%A8%D8%A9-%D9%85%D8%AD%D8%AF%D9%88%D8%AF%D8%A9-%D8%AD%D8%B1%D8%A8-%D8%B4%D8%A7%D9%85%D9%84%D8%A9",
-          "title": "ترامب يضغط على إيران .. ضربة محدودة أم حرب شاملة ؟ ",
-          "domain": "skynewsarabia.com",
-          "seendate": "20260921T101500Z"
+          "url": "https://www.ariananews.af/g7-foreign-ministers-call-on-iran-to-stop-arming-houthis/",
+          "title": "G7 foreign ministers call on Iran to stop arming Houthis | Ariana News",
+          "domain": "ariananews.af",
+          "seendate": "20260922T073000Z"
         },
         {
           "url": "https://www.twincities.com/2026/09/20/houthis-say-they-wont-attack-us-vessels-in-red-sea-and-other-mideast-developments/",
@@ -890,6 +1106,12 @@
           "seendate": "20260920T131500Z"
         },
         {
+          "url": "https://www.skynewsarabia.com/world/1893423-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B6%D8%BA%D8%B7-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B6%D8%B1%D8%A8%D8%A9-%D9%85%D8%AD%D8%AF%D9%88%D8%AF%D8%A9-%D8%AD%D8%B1%D8%A8-%D8%B4%D8%A7%D9%85%D9%84%D8%A9",
+          "title": "ترامب يضغط على إيران .. ضربة محدودة أم حرب شاملة ؟ ",
+          "domain": "skynewsarabia.com",
+          "seendate": "20260921T101500Z"
+        },
+        {
           "url": "http://www.thegazette.com/news/national/houthis-say-they-wont-attack-us-vessels-in-red-sea-and-other-mideast-developments/article_43c7f87b-e560-570e-b7e6-8fda69ee8045.html",
           "title": "Houthis say they wont attack US vessels in Red Sea , and other Mideast developments",
           "domain": "thegazette.com",
@@ -900,6 +1122,12 @@
           "title": "Туреччина може прийти на допомогу Саудівській Аравії",
           "domain": "zn.ua",
           "seendate": "20260920T000000Z"
+        },
+        {
+          "url": "https://ctmirror.org/2026/09/22/aipac-and-the-israel-lobby/",
+          "title": "Opinion : AIPAC and the Israel lobby",
+          "domain": "ctmirror.org",
+          "seendate": "20260922T053000Z"
         },
         {
           "url": "https://www.memurlar.net/haber/1178799/bakan-fidan-dan-abd-ye-cagri-muttefikler-arasinda-kisitlama-olmaz.html",
@@ -914,10 +1142,10 @@
           "seendate": "20260920T041500Z"
         },
         {
-          "url": "https://www.orientaldaily.com.my/news/international/2026/09/20/849285",
-          "title": "美中情局局长罕见访开罗 会见埃及总统 | 国际",
-          "domain": "orientaldaily.com.my",
-          "seendate": "20260920T160000Z"
+          "url": "https://finance.sina.com.cn/tech/roll/2026-09-22/doc-inisspzc6988194.shtml",
+          "title": "伊朗代表团抵美 ， 其总统安全由美特勤局负责",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260922T054500Z"
         },
         {
           "url": "https://www.bankingnews.gr/diethni/articles/900564/asyllipti-proeidopoiisi-irgc-se-ipa-sas-perimenei-terastio-sok-ean-mas-epitetheite-exoume-nea-opla-tha-allaksei-o-kosmos",
@@ -930,6 +1158,12 @@
           "title": "Pen Power Australia : Activist group using AI to flood ABC with thousands of bias complaints",
           "domain": "brisbanetimes.com.au",
           "seendate": "20260920T064500Z"
+        },
+        {
+          "url": "https://www.orientaldaily.com.my/news/international/2026/09/20/849285",
+          "title": "美中情局局长罕见访开罗 会见埃及总统 | 国际",
+          "domain": "orientaldaily.com.my",
+          "seendate": "20260920T160000Z"
         },
         {
           "url": "https://www.news.cn/20260920/6220f4fc5f4542348efacab971a84ea6/c.html",
@@ -956,12 +1190,6 @@
           "seendate": "20260920T001500Z"
         },
         {
-          "url": "https://news.china.com/socialgd/10000169/20260921/49756954.html",
-          "title": "纽约进入联大时间 全球领袖齐聚辩论 _ 新闻频道 _ 中华网",
-          "domain": "news.china.com",
-          "seendate": "20260921T044500Z"
-        },
-        {
           "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inisrhfz2677616.shtml",
           "title": "胡塞武装攻占战略高地 ！ 特朗普据报临时叫停空袭 ， 中东能源风险再升级",
           "domain": "finance.sina.com.cn",
@@ -972,6 +1200,30 @@
           "title": "An Israeli is shot dead in the occupied West Bank , and other Mideast developments",
           "domain": "yakimaherald.com",
           "seendate": "20260920T153000Z"
+        },
+        {
+          "url": "https://hotair.com/john-s-2/2026/09/21/whats-next-in-iran-n3819220",
+          "title": "What Next in Iran ? ",
+          "domain": "hotair.com",
+          "seendate": "20260922T050000Z"
+        },
+        {
+          "url": "https://news.china.com/socialgd/10000169/20260921/49756954.html",
+          "title": "纽约进入联大时间 全球领袖齐聚辩论 _ 新闻频道 _ 中华网",
+          "domain": "news.china.com",
+          "seendate": "20260921T044500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/900734/o-polemos-den-aresei-proedre-trump-tha-diasyrthoyn-oi-ipa-min-epitetheis-ksana-sto-iran-drones-lygizoun-aftokratories",
+          "title": "Ο πόλεμος δεν αρέσει - « Πρόεδρε Trump θα διασυρθούν οι ΗΠΑ , μην επιτεθείς ξανά στο Ιράν » - Φθηνά drones λυγίζουν αυτοκρατορίες",
+          "domain": "bankingnews.gr",
+          "seendate": "20260922T054500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/900734/o-polemos-den-aresei-proedre-trump-tha-diasyrthoyn-oi-ipa-min-epitetheis-ksana-sto-iran-drones-lygizoun-aftokratories%20title=",
+          "title": "Ο πόλεμος δεν αρέσει - « Πρόεδρε Trump θα διασυρθούν οι ΗΠΑ , μην επιτεθείς ξανά στο Ιράν » - Φθηνά drones λυγίζουν αυτοκρατορίες",
+          "domain": "bankingnews.gr",
+          "seendate": "20260922T054500Z"
         },
         {
           "url": "http://en.ce.cn/main/latest/202609/t20260920_3225601.shtml",
@@ -992,6 +1244,12 @@
           "seendate": "20260920T171500Z"
         },
         {
+          "url": "https://arabi21.com/story/1790404/%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AD%D8%AC%D9%8A%D8%AC-%D8%A7%D9%84%D8%B3%D9%86%D9%88%D9%8A-%D8%A5%D9%84%D9%89-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83",
+          "title": "موسم الحجيج السنوي إلى نيويورك",
+          "domain": "arabi21.com",
+          "seendate": "20260922T054500Z"
+        },
+        {
           "url": "https://www.hngn.com/articles/273316/20260921/pezeshkian-heads-un-trump-warns-iran-no-deal-consequences.htm",
           "title": "Pezeshkian Heads to UN as Trump Warns Iran of No - Deal Consequences",
           "domain": "hngn.com",
@@ -1002,6 +1260,12 @@
           "title": "Іран висунув США три умови для завершення війни : Тегеран чекає на відповідь Трампа",
           "domain": "kontrakty.ua",
           "seendate": "20260920T120000Z"
+        },
+        {
+          "url": "https://mustaqila.com/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%AA%D8%A3%D9%87%D8%A8-%D8%AE%D8%B4%D9%8A%D8%A9-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%85%D8%B9/",
+          "title": "إسرائيل ترفع التأهب خشية تصعيد جديد مع إيران وسط تعثر المسار الأميركي – الإيراني",
+          "domain": "mustaqila.com",
+          "seendate": "20260922T061500Z"
         },
         {
           "url": "https://www.tdg.ch/direct-moyen-orient-trump-affirme-que-les-houthis-du-yemen-ne-s-en-prendront-pas-aux-etats-unis-186267002168",
@@ -1058,6 +1322,18 @@
           "seendate": "20260920T154500Z"
         },
         {
+          "url": "https://www.thenationalnews.com/news/mena/2026/09/22/unifil-counts-eight-fortified-bases-among-30-israeli-military-positions-in-south-lebanon/",
+          "title": "Unifil counts eight fortified bases among 30 Israeli military positions in south Lebanon",
+          "domain": "thenationalnews.com",
+          "seendate": "20260922T044500Z"
+        },
+        {
+          "url": "https://mondafrique.com/moyen-orient/abou-douhour-le-face-a-face-turco-israelien-en-syrie/",
+          "title": "Abou Douhour , le face - à - face turco - israélien en Syrie",
+          "domain": "mondafrique.com",
+          "seendate": "20260922T070000Z"
+        },
+        {
           "url": "https://www.presstv.co.uk/Detail/2026/09/21/776755/Press-TV-s-news-headlines",
           "title": "Press TVs news headlines",
           "domain": "presstv.co.uk",
@@ -1068,6 +1344,12 @@
           "title": "考验麦加共同防务协议的时候到了",
           "domain": "news.sina.com.cn",
           "seendate": "20260921T044500Z"
+        },
+        {
+          "url": "https://www.tayyar.org/News/Lebanon/742133/_guid=742133",
+          "title": "tayyar . org - الصين ستبقى حليفاً استراتيجياً لإيران ولن تشارك في الحصار والعقوبات الأميركية عليها",
+          "domain": "tayyar.org",
+          "seendate": "20260922T043000Z"
         },
         {
           "url": "https://www.livemint.com/market/oil-drops-below-100-as-iran-diplomacy-hormuz-flows-stunt-rally-11790015876956.html",
@@ -1086,6 +1368,18 @@
           "title": "防空火力告急 沙特多方求援",
           "domain": "baijiahao.baidu.com",
           "seendate": "20260920T171500Z"
+        },
+        {
+          "url": "https://www.thenationalnews.com/opinion/comment/2026/09/22/lebanon-us-hezbollah-israel-joseph-aoun-donald-trump/",
+          "title": "Lebanon Joseph Aoun is learning the limits of US influence over Israel",
+          "domain": "thenationalnews.com",
+          "seendate": "20260922T153000Z"
+        },
+        {
+          "url": "https://www.presstv.co.uk/Detail/2026/09/21/776745/exhibition-Minab-children-drawings-UN-Geneva",
+          "title": "Drawings of Minab children killed in US attack exhibited outside UN office in Geneva",
+          "domain": "presstv.co.uk",
+          "seendate": "20260921T171500Z"
         },
         {
           "url": "https://www.wfae.org/world/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
@@ -1154,22 +1448,16 @@
           "seendate": "20260921T100000Z"
         },
         {
-          "url": "https://www.presstv.co.uk/Detail/2026/09/21/776745/exhibition-Minab-children-drawings-UN-Geneva",
-          "title": "Drawings of Minab children killed in US attack exhibited outside UN office in Geneva",
-          "domain": "presstv.co.uk",
-          "seendate": "20260921T171500Z"
-        },
-        {
           "url": "https://www.radiofarda.com/a/qatar-no-clear-master-strategy-that-we-are-following-iran-us/33860260.html",
           "title": "نخست وزیر قطر : برای پایان دادن به درگیری در منطقه استراتژی فراگیرِ روشنی نداریم",
           "domain": "radiofarda.com",
           "seendate": "20260921T130000Z"
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us",
-          "title": "What are Iran latest conditions to end its war with the US ? | US - Israel war on Iran News",
-          "domain": "aljazeera.com",
-          "seendate": "20260920T143000Z"
+          "url": "https://dailycaller.com/2026/09/21/dwight-eisenhower-israel-suez-canal-anthony-eden-palestine-ww2/",
+          "title": "When The US Ordered Israel To Stop And Tel Aviv Listened",
+          "domain": "dailycaller.com",
+          "seendate": "20260921T230000Z"
         },
         {
           "url": "https://www.4029tv.com/article/saudi-arabia-yemen-houthi-rebels-ballistic-missile/73804217",
@@ -1190,28 +1478,22 @@
           "seendate": "20260920T064500Z"
         },
         {
-          "url": "https://dailycaller.com/2026/09/21/dwight-eisenhower-israel-suez-canal-anthony-eden-palestine-ww2/",
-          "title": "When The US Ordered Israel To Stop And Tel Aviv Listened",
-          "domain": "dailycaller.com",
-          "seendate": "20260921T230000Z"
+          "url": "https://www.interfax.ru/russia/1117613",
+          "title": "Рынок акций РФ открылся в утреннюю сессию ростом индекса IMOEX2 на 0 , 3 % ",
+          "domain": "interfax.ru",
+          "seendate": "20260922T064500Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us",
+          "title": "What are Iran latest conditions to end its war with the US ? | US - Israel war on Iran News",
+          "domain": "aljazeera.com",
+          "seendate": "20260920T143000Z"
         },
         {
           "url": "http://www.newstomato.com/ReadNews.aspx?no=1314426",
           "title": "  트럼프 · 시진핑  담판 … 중동전도  분수령  ",
           "domain": "newstomato.com",
           "seendate": "20260921T164500Z"
-        },
-        {
-          "url": "http://www.koreatimes.com/article/20260920/1630539",
-          "title": "내일 유엔총회 개막 … 트럼프 · 이재명 연설 - 미주 한국일보",
-          "domain": "koreatimes.com",
-          "seendate": "20260921T080000Z"
-        },
-        {
-          "url": "https://www.money.pl/mobility/trump-skomentowal-ataki-ukrainy-rosja-niestety-stracila-kontrole-7331837205076224a.html",
-          "title": "Trump skomentował ataki Ukrainy .  Rosja niestety straciła kontrolę  ",
-          "domain": "money.pl",
-          "seendate": "20260921T201500Z"
         },
         {
           "url": "https://www.arabstoday.net/w-2635/201418-%D8%A7%D9%84%D8%AA%D8%B5%D9%88%D9%8A%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8",
@@ -1232,304 +1514,22 @@
           "seendate": "20260921T193000Z"
         },
         {
+          "url": "https://www.money.pl/mobility/trump-skomentowal-ataki-ukrainy-rosja-niestety-stracila-kontrole-7331837205076224a.html",
+          "title": "Trump skomentował ataki Ukrainy .  Rosja niestety straciła kontrolę  ",
+          "domain": "money.pl",
+          "seendate": "20260921T201500Z"
+        },
+        {
+          "url": "http://www.koreatimes.com/article/20260920/1630539",
+          "title": "내일 유엔총회 개막 … 트럼프 · 이재명 연설 - 미주 한국일보",
+          "domain": "koreatimes.com",
+          "seendate": "20260921T080000Z"
+        },
+        {
           "url": "https://mansethaber.com/gundem/hakan-fidandan-abdye-israil-mesaji-nufuzunuzu-daha-fazla-kullanmanizi-bekliyoruz",
           "title": "Hakan Fidandan ABDye dikkat çeken İsrail mesajı",
           "domain": "mansethaber.com",
           "seendate": "20260921T194500Z"
-        },
-        {
-          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D8%A3%D9%8A/5321013-%D8%AD%D8%B5%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%AD-%D8%A7%D9%84%D9%84%D8%A7%D8%B4%D8%B1%D8%B9%D9%8A-%D9%8A%D8%AD%D8%AF%D8%AF-%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA",
-          "title": " « حصاد » السلاح اللاشرعي يحدد الخيارات",
-          "domain": "aawsat.com",
-          "seendate": "20260922T010000Z"
-        },
-        {
-          "url": "https://www.saidaonline.com/320691",
-          "title": "لبنان بين الحرب وأهوال التضخم ... وانفجار ؟ ",
-          "domain": "saidaonline.com",
-          "seendate": "20260920T054500Z"
-        },
-        {
-          "url": "https://www.sabah.com.tr/gundem/2026/09/21/bakan-fidandan-abdde-kritik-aciklamalar-israil-uzerindeki-baski-artirilmali",
-          "title": "Bakan Fidandan ABDde kritik açıklamalar : İsrail üzerindeki baskı artırılmalı",
-          "domain": "sabah.com.tr",
-          "seendate": "20260921T190000Z"
-        },
-        {
-          "url": "https://www.sabah.com.tr/gundem/2026/09/21/bakan-fidandan-abdde-kritik-aciklamalar-abdnin-israil-uzerindeki-nufuzu-artirilmali",
-          "title": "Bakan Fidandan ABDde kritik açıklamalar : ABDnin İsrail üzerindeki nüfuzu artırılmalı",
-          "domain": "sabah.com.tr",
-          "seendate": "20260921T181500Z"
-        },
-        {
-          "url": "https://www.dan.co.me/globus/svijet/uzivo-1045611/",
-          "title": "ДАН - ( UŽIVO ) IRGC :  Kasapin iz Kandahara  uništen iznad Ormuskog moreuza ; SAD : Iran ne smije imati  nuklearni kišobran  ",
-          "domain": "dan.co.me",
-          "seendate": "20260921T103000Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1876813679710404067",
-          "title": "特朗普突然提前结束周末行程返回白宫 ， 据称  审议和评估了打击也门胡塞武装的各项方案 ； 美驻中东多国使馆发布安全警示",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20260920T043000Z"
-        },
-        {
-          "url": "https://www.theguardian.com/world/2026/sep/20/middle-east-braces-for-more-violence-as-iran-claims-us-is-planning-to-renew-bombing-campaign",
-          "title": "Middle East braces for more violence as Iran claims US is planning to renew bombing campaign",
-          "domain": "theguardian.com",
-          "seendate": "20260920T200000Z"
-        },
-        {
-          "url": "https://www.presstv.co.uk/Detail/2026/09/21/776746/Iran-Judiciary-12-fishermen-killed-760-vessels-damaged-Hormozgan",
-          "title": "Judiciary : 12 Iranian fishermen killed , 760 vessels damaged in US attacks on Hormozgan",
-          "domain": "presstv.co.uk",
-          "seendate": "20260921T171500Z"
-        },
-        {
-          "url": "https://www.aol.co.uk/articles/middle-east-braces-more-violence-185645000.html",
-          "title": "Middle East braces for more violence as Iran claims US is planning to renew bombing campaign",
-          "domain": "aol.co.uk",
-          "seendate": "20260920T193000Z"
-        },
-        {
-          "url": "https://www.naturalnews.com/2026-09-20-the-economic-fallout-from-the-failed-iran-war-could-lead-to-a-false-flag.html",
-          "title": "The economic fallout from the failed Iran War could lead to a false flag operation under Trump to unify the country before the midterms – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "seendate": "20260920T134500Z"
-        },
-        {
-          "url": "https://www.theguardian.com/us-news/2026/sep/21/democrats-joe-biden-kamala-harris-book-gaza",
-          "title": "Democrat Gaza reckoning : how failing to give Palestinians a voice came back to bite the party | Democrats",
-          "domain": "theguardian.com",
-          "seendate": "20260921T223000Z"
-        },
-        {
-          "url": "https://kibrisgazetesi.com/konu/akaycemal/erdogan-bmdeki-konusmasinda-haksiz-ambargolari-dile-getirecek/",
-          "title": "Erdoğan BMdeki konuşmasında haksız ambargoları dile getirecek - Kıbrıs Gazetesi - Kıbrıs Haber , KKTC Son Dakika ve Gündem Haberleri",
-          "domain": "kibrisgazetesi.com",
-          "seendate": "20260921T110000Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/economy/2026/9/20/whats-behind-iranian-authorities-push-for-a-mass-mobilisation-campaign",
-          "title": "What behind Iranian authoritie push for a mass mobilisation campaign ? | Islamic Revolutionary Guard Corps News",
-          "domain": "aljazeera.com",
-          "seendate": "20260920T143000Z"
-        },
-        {
-          "url": "https://www.investmentwatchblog.com/the-war-reached-riyadh-on-saturday-washington-said-its-staying-out/",
-          "title": "The War Reached Riyadh on Saturday . Washington Said It Staying Out . ",
-          "domain": "investmentwatchblog.com",
-          "seendate": "20260922T010000Z"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/09/21/un-ready-to-investigate-use-of-chemical-weapons-in-sudan-civil-war/",
-          "title": "UN ready to investigate use of chemical weapons in Sudan civil war",
-          "domain": "thenationalnews.com",
-          "seendate": "20260921T190000Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L7C2AOI40514EGPO.html",
-          "title": "敢介入就打 ， 给地区大国划红线 ， 胡塞武装凭什么",
-          "domain": "163.com",
-          "seendate": "20260921T080000Z"
-        },
-        {
-          "url": "https://www.presstv.co.uk/Detail/2026/09/21/776765/US-aggression-economic-war-crimes-humanity-",
-          "title": "US aggression , economic warfare amount to crimes against humanity : Irans UN envoy",
-          "domain": "presstv.co.uk",
-          "seendate": "20260921T221500Z"
-        },
-        {
-          "url": "https://www.ilpost.it/2026/09/12/bab-el-mandeb-stretto-cosa-e/?homepagePosition=17.1&referrerPost=3680584",
-          "title": "Che posto è lo stretto di Bab el Mandeb",
-          "domain": "ilpost.it",
-          "seendate": "20260920T113000Z"
-        },
-        {
-          "url": "https://www.ilpost.it/2026/09/12/bab-el-mandeb-stretto-cosa-e/?homepagePosition=22.1&referrerPost=3680584",
-          "title": "Che posto è lo stretto di Bab el Mandeb",
-          "domain": "ilpost.it",
-          "seendate": "20260920T153000Z"
-        },
-        {
-          "url": "https://news.china.com/socialgd/10000169/20260920/49755291.html",
-          "title": "防空火力告急 沙特多方求援 盟友支援成疑 _ 新闻频道 _ 中华网",
-          "domain": "news.china.com",
-          "seendate": "20260920T090000Z"
-        },
-        {
-          "url": "https://news.ifeng.com/c/8wZFhAJi9Pc",
-          "title": "事关美伊 ， 中东传来一个好消息",
-          "domain": "news.ifeng.com",
-          "seendate": "20260920T031500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/09/21/middleeast/iran-president-un-general-assembly-new-york-intl",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "cnn.com",
-          "seendate": "20260921T194500Z"
-        },
-        {
-          "url": "https://www.khabaragency.net/news253153.html",
-          "title": "ترامب يقطع إقامته في كامب ديفيد وسط تصاعد التوتر مع إيران ومليشيا الحوثي",
-          "domain": "khabaragency.net",
-          "seendate": "20260920T091500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/article-909179",
-          "title": "Analyst warns Israel - Saudi security coordination against Houthis remains limited",
-          "domain": "jpost.com",
-          "seendate": "20260920T124500Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/article-909179",
-          "title": "Analyst warns Israel - Saudi security coordination against Houthis remains limited",
-          "domain": "jpost.com",
-          "seendate": "20260920T133000Z"
-        },
-        {
-          "url": "https://newsroomamerica.com/tag/saudi_arabia",
-          "title": "Tag : saudi _ arabia",
-          "domain": "newsroomamerica.com",
-          "seendate": "20260921T063000Z"
-        },
-        {
-          "url": "https://www.aksam.com.tr/guncel/bakan-fidandan-israilin-kirli-politikalarina-karsi-abdye-acik-cagri-nufuzunuzu-daha-fazla-/haber-1700206",
-          "title": "Bakan Fidandan Ýsrailin kirli politikalarýna kar ABDye ak çarý : Nüfuzunuzu daha fazla kullanmanýz bekliyoruz",
-          "domain": "aksam.com.tr",
-          "seendate": "20260921T190000Z"
-        },
-        {
-          "url": "https://nczas.info/2026/09/20/ghalibaf-nie-otworzymy-ciesniny-ormuz-usa-musza-wypelnic-swoje-zobowiazania/",
-          "title": "Ghalibaf : Nie otworzymy cieśniny Ormuz . united states muszą wypełnić swoje zobowiązania",
-          "domain": "nczas.info",
-          "seendate": "20260920T110000Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/L7A7S3P80534A4SC.html",
-          "title": "特朗普称将对伊朗作出重大决定",
-          "domain": "163.com",
-          "seendate": "20260920T164500Z"
-        },
-        {
-          "url": "https://www.dunya.com/gundem/bakan-fidandan-abdye-israil-mesaji-nufuzunu-daha-fazla-kullanmasini-bekliyoruz-haberi-840896",
-          "title": "Bakan Fidandan ABDye İsrail mesajı : Nüfuzunu daha fazla kullanmasını bekliyoruz",
-          "domain": "dunya.com",
-          "seendate": "20260921T190000Z"
-        },
-        {
-          "url": "https://theconversation.com/as-war-in-the-middle-east-widens-saudi-arabias-new-defence-pact-could-face-a-major-test-292357",
-          "title": "As war in the Middle East widens , Saudi Arabia new defence pact could face a major test",
-          "domain": "theconversation.com",
-          "seendate": "20260921T070000Z"
-        },
-        {
-          "url": "https://www.epikaira.gr/iran-aftoi-einai-oi-oroi-gia-na-archisoun-xana-oi-diapragmatefseis-me-tis-ipa/",
-          "title": "Ιράν : Αυτοί είναι οι όροι για να αρχίσουν ξανά οι διαπραγματεύσεις με τις ΗΠΑ",
-          "domain": "epikaira.gr",
-          "seendate": "20260920T071500Z"
-        },
-        {
-          "url": "https://www.famigliacristiana.it/attualita/mondo/roma-beirut-il-ponte-che-puo-rilanciare-la-speranza-del-libano-swydj9s7",
-          "title": "Roma - Beirut , il ponte che può rilanciare la speranza del Libano",
-          "domain": "famigliacristiana.it",
-          "seendate": "20260920T140000Z"
-        },
-        {
-          "url": "https://24-ore.com/derguari-amerikan-ne-okb-irani-smund-te-kete-kurre-arme-berthamore-por-dera-per-bisedime-mbetet-e-hapur/",
-          "title": "Dërguari amerikan në OKB : Irani smund të ketë kurrë armë bërthamore , por dera për bisedime mbetet e hapur – 24 ore",
-          "domain": "24-ore.com",
-          "seendate": "20260921T050000Z"
-        },
-        {
-          "url": "https://www.washingtoninstitute.org/policy-analysis/trumps-gcc-meeting-path-out-conflict",
-          "title": "Trump GCC Meeting : A Path Out of the Conflict | The Washington Institute",
-          "domain": "washingtoninstitute.org",
-          "seendate": "20260921T210000Z"
-        },
-        {
-          "url": "https://www.ntv.com.tr/dunya/cin-devlet-baskani-si-carsamba-gunu-abdye-gidiyor-1742814",
-          "title": "Çin Devlet Başkanı Şi , çarşamba günü ABDye gidiyor",
-          "domain": "ntv.com.tr",
-          "seendate": "20260921T103000Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/900525/adieksodo-kai-tromos-eno-o-trump-thelei-synantisi-me-iran-ston-oie-to-irgc-etoimazetai-gia-efialti-to-hormuz-den-tha-anoiksei",
-          "title": "Αδιέξοδο και τρόμος – Ενώ ο Trump θέλει συνάντηση με Ιράν στον ΟΗΕ , το IRGC ετοιμάζει εφιάλτη , θα σκοτώσει 20 . 000 Αμερικανούς",
-          "domain": "bankingnews.gr",
-          "seendate": "20260921T040000Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/900525/adieksodo-kai-tromos-eno-o-trump-thelei-synantisi-me-iran-ston-oie-to-irgc-etoimazetai-gia-efialti-to-hormuz-den-tha-anoiksei%20title=",
-          "title": "Αδιέξοδο και τρόμος – Ενώ ο Trump θέλει συνάντηση με Ιράν στον ΟΗΕ , το IRGC ετοιμάζει εφιάλτη , θα σκοτώσει 20 . 000 Αμερικανούς",
-          "domain": "bankingnews.gr",
-          "seendate": "20260921T040000Z"
-        },
-        {
-          "url": "https://www.singtaousa.com/2026/09/19/news/world/iran-says-conditions-to-re-engage-in-talks-end-war-sent-to-us-via-qatar/",
-          "title": "伊朗透過卡塔爾向美提停戰三條件 稱已為決定性戰爭做好準備",
-          "domain": "singtaousa.com",
-          "seendate": "20260920T041500Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/900475/nea-fotia-ston-persiko-synagermos-sto-iran-gia-nea-amerikanika-pligmata-sto-stoxastro-oi-pyrinikes-egkatastaseis%20title=",
-          "title": "Νέα φωτιά στον Περσικό - Συναγερμός στο Ιράν για νέα αμερικανικά πλήγματα , στο στόχαστρο οι πυρηνικές εγκαταστάσεις",
-          "domain": "bankingnews.gr",
-          "seendate": "20260920T140000Z"
-        },
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/900475/nea-fotia-ston-persiko-synagermos-sto-iran-gia-nea-amerikanika-pligmata-sto-stoxastro-oi-pyrinikes-egkatastaseis",
-          "title": "Νέα φωτιά στον Περσικό - Συναγερμός στο Ιράν για νέα αμερικανικά πλήγματα , στο στόχαστρο οι πυρηνικές εγκαταστάσεις",
-          "domain": "bankingnews.gr",
-          "seendate": "20260920T140000Z"
-        },
-        {
-          "url": "https://www.nile.eg/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%89-%D9%8A%D9%83%D8%B4%D9%81-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%AE%D8%B7%D8%A9-%D9%86",
-          "title": "قناة النيل للأخبار | رئيس الوزراء العراقى يكشف تفاصيل خطة نزع سلاح الميليشيات بحلول يونيو 2027",
-          "domain": "nile.eg",
-          "seendate": "20260921T223000Z"
-        },
-        {
-          "url": "https://www.elwatannews.com/news/details/8362152",
-          "title": "العميد طارق العكاري : مصر حذرت من تداعيات التوتر في الممرات الملاحية وأمن البحر الأحمر",
-          "domain": "elwatannews.com",
-          "seendate": "20260920T173000Z"
-        },
-        {
-          "url": "https://ziare.com/nicusor-dan/adunare-onu-tensionata-romania-discutii-razboaie-2036506",
-          "title": "Începe cea mai tensionată adunare a ONU din ultimii ani . Nicușor Dan reprezintă România la discuțiile despre războaie și viitorul organizației",
-          "domain": "ziare.com",
-          "seendate": "20260921T071500Z"
-        },
-        {
-          "url": "https://www.lebanon24.com/news/lebanon/1573956/%d9%85%d9%82%d8%af%d9%85%d8%a7%d8%aa-%d9%86%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%ae%d8%a8%d8%a7%d8%b1-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d8%a6%d9%8a%d8%a9",
-          "title": "مقدمات نشرات الأخبار المسائية",
-          "domain": "lebanon24.com",
-          "seendate": "20260920T221500Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=454492&fm=psp,tst",
-          "title": "As war in the Middle East widens , Saudi Arabia new defence pact could face a major test - 22 - Sep - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260921T214500Z"
-        },
-        {
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=454492&fm=psp,tsf",
-          "title": "As war in the Middle East widens , Saudi Arabia new defence pact could face a major test - 22 - Sep - 2026",
-          "domain": "home.nzcity.co.nz",
-          "seendate": "20260921T214500Z"
-        },
-        {
-          "url": "https://aa.com.tr/en/world/mecca-alliance-will-be-game-changing-platform-turkish-foreign-minister/4062212",
-          "title": "Mecca Alliance will be  game - changing platform : Turkish foreign minister",
-          "domain": "aa.com.tr",
-          "seendate": "20260920T041500Z"
-        },
-        {
-          "url": "https://news.ifeng.com/c/8wap25XyVa4",
-          "title": "全球核风险多点升温 _ 凤凰网",
-          "domain": "news.ifeng.com",
-          "seendate": "20260921T023000Z"
         }
       ]
     },
@@ -1546,259 +1546,8 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [
-        "http://www.jpost.com/middle-east/iran-news/2026-09-21/live-updates-909207",
-        "https://www.al-monitor.com/originals/2026/09/uaes-gargash-expects-prolonged-war-calls-iran-gulf-security-talks",
-        "https://www.wnp.pl/rynki/iran-prezydent-pezeszkian-poleci-do-nowego-jorku-na-zgromadzenie-ogolne-onz,1101244.html"
-      ],
-      "articles": [
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-21/live-updates-909207",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260921T221500Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/09/uaes-gargash-expects-prolonged-war-calls-iran-gulf-security-talks",
-          "title": "UAE Gargash expects  prolonged  war , calls for Iran - Gulf security talks",
-          "domain": "al-monitor.com",
-          "seendate": "20260921T181500Z"
-        },
-        {
-          "url": "https://www.wnp.pl/rynki/iran-prezydent-pezeszkian-poleci-do-nowego-jorku-na-zgromadzenie-ogolne-onz,1101244.html",
-          "title": "Iran : Prezydent Pezeszkian poleci do Nowego Jorku na Zgromadzenie Ogólne ONZ",
-          "domain": "wnp.pl",
-          "seendate": "20260921T151500Z"
-        },
-        {
-          "url": "https://www.prokerala.com/news/articles/a1814357.html",
-          "title": "Iran decision on NPT withdrawal depends on US behavior , top security official says",
-          "domain": "prokerala.com",
-          "seendate": "20260920T030000Z"
-        },
-        {
-          "url": "https://www.canyon-news.com/?p=203991",
-          "title": "US - Israel Strikes On Iran Leave Ayatollah Khamenei Dead",
-          "domain": "canyon-news.com",
-          "seendate": "20260921T214500Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/city/delhi/the-hindi-writer-from-delhi-who-interviewed-khomeini-and-khamenei/articleshow/134362840.cms",
-          "title": "The Hindi writer from Delhi who interviewed Khomeini and Khamenei",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260920T030000Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/explainers/war-iran-islamic-revolutionary-guard-corps",
-          "title": "War on Iran : How the Islamic Revolutionary Guard Corps underpins the republic",
-          "domain": "middleeasteye.net",
-          "seendate": "20260920T210000Z"
-        },
-        {
-          "url": "https://www.vetogate.com/5735465",
-          "title": "إيران : لدينا معلومات بهجوم أمريكي مرتقب وجاهزون لقصف قواعدها في المنطقة",
-          "domain": "vetogate.com",
-          "seendate": "20260920T171500Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/india/nasera-sharma-the-journalist-who-interviewed-khomeini-and-khamenei-then-found-her-voice-in-fiction/articleshow/134366219.cms",
-          "title": "Nasera Sharma : The journalist who interviewed Khomeini and Khamenei , then found her voice in fiction",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260920T104500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/09/21/middleeast/iran-president-un-general-assembly-new-york-intl",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "cnn.com",
-          "seendate": "20260921T194500Z"
-        },
-        {
-          "url": "https://www.singtaousa.com/2026/09/19/news/world/iran-says-conditions-to-re-engage-in-talks-end-war-sent-to-us-via-qatar/",
-          "title": "伊朗透過卡塔爾向美提停戰三條件 稱已為決定性戰爭做好準備",
-          "domain": "singtaousa.com",
-          "seendate": "20260920T041500Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/09/20/its-all-about-oil",
-          "title": "Trump Iran war , oil ambitions and Israel role come under",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260920T204500Z"
-        },
-        {
-          "url": "https://www.abendblatt.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "abendblatt.de",
-          "seendate": "20260920T161500Z"
-        },
-        {
-          "url": "https://www.morgenpost.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "morgenpost.de",
-          "seendate": "20260920T153000Z"
-        },
-        {
-          "url": "https://www.thueringer-allgemeine.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "thueringer-allgemeine.de",
-          "seendate": "20260920T173000Z"
-        },
-        {
-          "url": "http://en.ce.cn/main/latest/202609/t20260920_3225601.shtml",
-          "title": "Iran decision on NPT withdrawal depends on U . S . behavior , top security official says -- China Economic Net",
-          "domain": "en.ce.cn",
-          "seendate": "20260920T070000Z"
-        },
-        {
-          "url": "http://www.pakistantelegraph.com/news/279317568/iran-decision-on-npt-withdrawal-depends-on-us-behavior-top-security-official-says",
-          "title": "Iran decision on NPT withdrawal depends on U . S . behavior , top security official says",
-          "domain": "pakistantelegraph.com",
-          "seendate": "20260920T001500Z"
-        },
-        {
-          "url": "https://krdo.com/news/national-world/cnn-world/2026/09/21/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "krdo.com",
-          "seendate": "20260921T224500Z"
-        },
-        {
-          "url": "https://www.notimerica.com/politica/noticia-argentina-procesados-ocho-cargos-iranies-hezbola-acusados-atentado-amia-buenos-aires-20260921212329.html",
-          "title": "Procesados ocho cargos iraníes y de Hezbolá acusados del atentado de la AMIA de Buenos Aires",
-          "domain": "notimerica.com",
-          "seendate": "20260921T230000Z"
-        },
-        {
-          "url": "https://localnews8.com/news/national-world/cnn-world/2026/09/21/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive - LocalNews8 . com",
-          "domain": "localnews8.com",
-          "seendate": "20260921T221500Z"
-        },
-        {
-          "url": "https://ktvz.com/news/national-world/cnn-world/2026/09/21/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "ktvz.com",
-          "seendate": "20260921T223000Z"
-        },
-        {
-          "url": "https://jowhar.com/iran-and-us-exchange-trade-threats-as-regional-conflict-intensifies/",
-          "title": "Iran and US exchange trade threats as regional conflict intensifies",
-          "domain": "jowhar.com",
-          "seendate": "20260921T164500Z"
-        },
-        {
-          "url": "https://www.naturalnews.com/2026-09-20-the-economic-fallout-from-the-failed-iran-war-could-lead-to-a-false-flag.html",
-          "title": "The economic fallout from the failed Iran War could lead to a false flag operation under Trump to unify the country before the midterms – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "seendate": "20260920T134500Z"
-        },
-        {
-          "url": "https://www.presstv.co.uk/Detail/2026/09/21/776745/exhibition-Minab-children-drawings-UN-Geneva",
-          "title": "Drawings of Minab children killed in US attack exhibited outside UN office in Geneva",
-          "domain": "presstv.co.uk",
-          "seendate": "20260921T171500Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279321907/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering  blowing up  Iran",
-          "domain": "heraldglobe.com",
-          "seendate": "20260921T191500Z"
-        },
-        {
-          "url": "http://www.israelherald.com/news/279321892/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering blowing up Iran Fox News",
-          "domain": "israelherald.com",
-          "seendate": "20260921T193000Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279321892/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering blowing up Iran Fox News",
-          "domain": "heraldglobe.com",
-          "seendate": "20260921T191500Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279321892/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering blowing up Iran Fox News",
-          "domain": "middleeaststar.com",
-          "seendate": "20260921T200000Z"
-        },
-        {
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-update-oil-houthis-riyadh-b3053306.html",
-          "title": "Iran - US war live : Trump threatens to  blow the entire nation up  after Tehran warns of  painful strikes  ",
-          "domain": "independent.co.uk",
-          "seendate": "20260921T163000Z"
-        },
-        {
-          "url": "https://www.braunschweiger-zeitung.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "braunschweiger-zeitung.de",
-          "seendate": "20260920T161500Z"
-        },
-        {
-          "url": "https://www.harzkurier.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "harzkurier.de",
-          "seendate": "20260920T160000Z"
-        },
-        {
-          "url": "https://www.tlz.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "tlz.de",
-          "seendate": "20260920T143000Z"
-        },
-        {
-          "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20260921212328/procesados-ocho-cargos-iranies-hezbola-acusados-atentado-amia-buenos-aires",
-          "title": "Procesados ocho cargos iraníes y de Hezbolá acusados del atentado de la AMIA de Buenos Aires",
-          "domain": "diariosigloxxi.com",
-          "seendate": "20260921T220000Z"
-        },
-        {
-          "url": "https://www.dailykos.com/stories/2026/9/20/800100961/community/its-official-the-tables-have-turned-in-the-us-versus-russia-china-nor-diplomatic-rivalry/",
-          "title": "It Official : The Tables Have Turned in the US - versus - Russia , China , North Korea , and Iran diplomatic rivalry",
-          "domain": "dailykos.com",
-          "seendate": "20260921T053000Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us",
-          "title": "What are Iran latest conditions to end its war with the US ? | US - Israel war on Iran News",
-          "domain": "aljazeera.com",
-          "seendate": "20260920T143000Z"
-        },
-        {
-          "url": "https://www.eurasiareview.com/21092026-americas-miscalculation-has-unleashed-a-region-it-can-no-longer-control-oped/",
-          "title": "America Miscalculation Has Unleashed A Region It Can No Longer Control - OpEd",
-          "domain": "eurasiareview.com",
-          "seendate": "20260921T040000Z"
-        },
-        {
-          "url": "https://www.juancole.com/2026/09/yemen-returned-conflict.html",
-          "title": "Why Yemen has returned to Conflict",
-          "domain": "juancole.com",
-          "seendate": "20260920T063000Z"
-        },
-        {
-          "url": "https://www.alternet.org/alternet-exclusives/gop-reckoning-trump/",
-          "title": "The GOP faces a reckoning for letting MAGA take the reins",
-          "domain": "alternet.org",
-          "seendate": "20260920T141500Z"
-        },
-        {
-          "url": "https://www.elwatannews.com/news/details/8362805",
-          "title": "نائبة مدير برنامج السياسة الخارجية في « بروكينجز »: واشنطن لم تحسم المعركة في إيران استراتيجيا و « هرمز » أصبح ورقة ضغط",
-          "domain": "elwatannews.com",
-          "seendate": "20260921T181500Z"
-        },
-        {
-          "url": "https://dominicanrepublicpost.com/what-are-irans-latest-conditions-to-end-its-war-with-the-us/",
-          "title": "What are Iran latest conditions to end its war with the US ? - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-          "domain": "dominicanrepublicpost.com",
-          "seendate": "20260920T143000Z"
-        },
-        {
-          "url": "https://peakoil.com/generalideas/heres-all-the-dumb-oil-wars-that-electric-cars-have-nothing-to-do-with",
-          "title": "Here all the dumb oil wars that electric cars have nothing to do with  | Peak Oil News and Message Boards",
-          "domain": "peakoil.com",
-          "seendate": "20260920T031500Z"
-        }
-      ]
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "trump_china",
@@ -1812,9 +1561,1514 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
-      "example_urls": [],
-      "articles": []
+      "error": "429 rate-limited",
+      "example_urls": [
+        "https://military.china.com/news/13004177/20260922/49759952.html",
+        "https://www.abc.net.au/news/2026-09-22/un-general-assembly-meets-amid-changed-world-and-trump-xi-meet/107179452",
+        "http://www.newstomato.com/ReadNews.aspx?no=1314426"
+      ],
+      "articles": [
+        {
+          "url": "https://military.china.com/news/13004177/20260922/49759952.html",
+          "title": "把F35卖给沙特美国顾不上以色列了 以色列顾虑未消 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260922T074500Z"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2026-09-22/un-general-assembly-meets-amid-changed-world-and-trump-xi-meet/107179452",
+          "title": "As leaders meet in New York , the fate of the world may rest on Trump and Xi",
+          "domain": "abc.net.au",
+          "seendate": "20260922T034500Z"
+        },
+        {
+          "url": "http://www.newstomato.com/ReadNews.aspx?no=1314426",
+          "title": "  트럼프 · 시진핑  담판 … 중동전도  분수령  ",
+          "domain": "newstomato.com",
+          "seendate": "20260921T164500Z"
+        },
+        {
+          "url": "https://www.theamericanconservative.com/why-riyadh-wont-be-forced-into-israels-arms/",
+          "title": "Why Riyadh Wont Be Forced Into Israel Arms - The American Conservative",
+          "domain": "theamericanconservative.com",
+          "seendate": "20260922T044500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/hynxhyk5fx",
+          "title": "בשל החשש ממדאני , נתניהו לא ינחת בניו יורק :  בנאום צפויות הפתעות  ",
+          "domain": "ynet.co.il",
+          "seendate": "20260921T210000Z"
+        },
+        {
+          "url": "https://news.gooya.com/2026/09/post-113337.php",
+          "title": "هفت روز سرنوشت‌ساز ؛ ترامپ در آستانه تصمیم نهایی درباره ایران",
+          "domain": "news.gooya.com",
+          "seendate": "20260920T064500Z"
+        },
+        {
+          "url": "https://espreso.tv/svit-zavershennya-voen-cherez-domovlenosti-pro-sferi-vplivu-ekskerivnik-viddilu-tsru-rozpoviv-pro-shcho-mozhut-domovlyatisya-putin-si-ta-tramp",
+          "title": "Путін , Сі та Трамп можуть домовлятися про новий розподіл сфер впливу",
+          "domain": "espreso.tv",
+          "seendate": "20260920T064500Z"
+        },
+        {
+          "url": "https://www.radiofarda.com/a/us-treasury-chief-says-iran-airlines-to-be-shut-down-sept-23/33860410.html",
+          "title": "وزیر خزانه‌داری آمریکا : همه پروازهای خارجی هواپیماهای ایرانی از اول مهر متوقف می‌شود",
+          "domain": "radiofarda.com",
+          "seendate": "20260921T181500Z"
+        },
+        {
+          "url": "https://www.asiaone.com:443/world/oil-prices-high-could-be-much-worse-trump-chinas-xi-thank",
+          "title": "Oil prices are high but could be much worse . Trump has China Xi to thank for that",
+          "domain": "asiaone.com",
+          "seendate": "20260920T111500Z"
+        },
+        {
+          "url": "https://www.asiaone.com/world/oil-prices-high-could-be-much-worse-trump-chinas-xi-thank",
+          "title": "Oil prices are high but could be much worse . Trump has China Xi to thank for that",
+          "domain": "asiaone.com",
+          "seendate": "20260920T111500Z"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/politics/2026/09/22/the-latest-trump-returns-to-un-at-moment-of-anxiety-about-iran-ai-and-future-of-world-body-itself/",
+          "title": "The Latest : Trump returns to UN at moment of anxiety about Iran , AI and future of world body itself",
+          "domain": "clickorlando.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
+          "url": "https://www.livemint.com/opinion/are-we-seeing-the-return-of-an-age-of-bloody-wars-11789912412669.html",
+          "title": "Are we seeing the return of an age of bloody wars ? ",
+          "domain": "livemint.com",
+          "seendate": "20260921T003000Z"
+        },
+        {
+          "url": "http://allkharkov.ua/news/state/zavershennia-von-cherez-domovlenost-pro-sferi-vplivy.html",
+          "title": "  Завершення воєн через домовленості про сфери впливу  | Новости державы в Харькове , Украине . Весь Харьков",
+          "domain": "allkharkov.ua",
+          "seendate": "20260921T071500Z"
+        },
+        {
+          "url": "https://english.hani.co.kr/arti/english_edition/e_international/1278639.html",
+          "title": "Best case , Korea gets nothing from a Hormuz deployment . Worst case , it loses everything . ",
+          "domain": "english.hani.co.kr",
+          "seendate": "20260920T041500Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260922/49760525.html",
+          "title": "歼 - 35卖给沙特的可能性有多大 地缘博弈下的阶段性结果 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/trump-address-united-nations-general-assembly-meetings-world-leaders-iran-ukraine/",
+          "title": "Trump to address U . N . General Assembly and meet with world leaders as he navigates Iran , Gaza , Ukraine conflicts",
+          "domain": "cbsnews.com",
+          "seendate": "20260922T110000Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/trump-suggests-iran-not-doing-well-whilst-pakistan-continues-mediate-european-equity",
+          "title": "Trump suggests that Iran is not doing well , whilst Pakistan continues to mediate ; European equity futures set to open slightly higher - Newsquawk EU Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20260922T084500Z"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/world/watch-live-trump-addresses-2026-united-nations-general-assembly",
+          "title": "WATCH LIVE : Trump addresses 2026 United Nations General Assembly",
+          "domain": "pbs.org",
+          "seendate": "20260922T154500Z"
+        },
+        {
+          "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1232019-0/",
+          "title": "כמה שעות בלבד : כך יראה הביקור של נתניהו בעצרת באו  ם",
+          "domain": "kipa.co.il",
+          "seendate": "20260922T084500Z"
+        },
+        {
+          "url": "https://www.tayyar.org/News/Lebanon/742133/_guid=742133",
+          "title": "tayyar . org - الصين ستبقى حليفاً استراتيجياً لإيران ولن تشارك في الحصار والعقوبات الأميركية عليها",
+          "domain": "tayyar.org",
+          "seendate": "20260922T043000Z"
+        },
+        {
+          "url": "https://www.ksat.com/news/world/2026/09/22/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future-of-world-body-itself/",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "ksat.com",
+          "seendate": "20260922T051500Z"
+        },
+        {
+          "url": "https://www.news4jax.com/news/world/2026/09/22/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future-of-world-body-itself/",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "news4jax.com",
+          "seendate": "20260922T064500Z"
+        },
+        {
+          "url": "https://www.newspim.com/news/view/20260920000241",
+          "title": " [ 중국증시 주간 포인트 ] 미중 정상회담 , 유엔총회 , 알리바바 압사라 콘퍼런스 , GMIF 2026 , 컬컴 스냅드래곤 서밋 , 메타 커넥트 , AI 4대 축 이벤트 등",
+          "domain": "newspim.com",
+          "seendate": "20260920T160000Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_98358f88-497c-5dc6-9fd9-00cb1760b43a.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of the world body itself",
+          "domain": "idahostatejournal.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20260921/49755943.html",
+          "title": "伊朗小学被炸是因为美军用了AI AI误判酿成悲剧 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260921T044500Z"
+        },
+        {
+          "url": "http://www.koreatimes.com/article/20260920/1630539",
+          "title": "내일 유엔총회 개막 … 트럼프 · 이재명 연설 - 미주 한국일보",
+          "domain": "koreatimes.com",
+          "seendate": "20260921T080000Z"
+        },
+        {
+          "url": "https://isp.netscape.com:443/news/world/story/0001/20260922/f7cb0b3ebc492446c0be97ed3a6843aa",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "isp.netscape.com",
+          "seendate": "20260922T054500Z"
+        },
+        {
+          "url": "https://www.wsbradio.com/news/world/trump-returns-un/RX6UZAKIOQZBTJDKYM3RRWJBWU/",
+          "title": "Trump returns to UN at moment of anxiety about Iran , AI and world body future",
+          "domain": "wsbradio.com",
+          "seendate": "20260922T084500Z"
+        },
+        {
+          "url": "https://www.jutarnji.hr/vijesti/svijet/kina-bi-da-zeli-mogla-zaustaviti-rat-u-ukrajini-ima-samo-jedna-stvar-koje-se-komunisticka-partija-boji-vise-od-rata-s-amerikom-15748623",
+          "title": "Jutarnji list -  Kinezi ne žele stisnuti Putina , dobili bi golemi problem ! Rat sa SAD - om ? Samo se jedne stvari Komunistička partija više plaši ... ",
+          "domain": "jutarnji.hr",
+          "seendate": "20260921T201500Z"
+        },
+        {
+          "url": "https://www.wboc.com/news/international/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_bd580ade-6aa7-57a7-9089-91048a4a56f9.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "wboc.com",
+          "seendate": "20260922T051500Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/markets/us-stocks-rallied-led-strength-tech-and-communications-while-oil-prices-and-yields-declined",
+          "title": "US stocks rallied led by strength in tech and communications , while oil prices and yields declined - Newsquawk Daily Asia - Pac Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20260922T003000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L7BK8JAI05199DKK.html",
+          "title": "伟伟道来 | 还剩43天 ， 美国伊朗原地踏步 ， 沙特胡塞激烈冲突",
+          "domain": "163.com",
+          "seendate": "20260921T053000Z"
+        },
+        {
+          "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D9%80-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AD/",
+          "title": "الولايات المتحدة الأمريكية ـ إيران : « حرب تحت الرماد » ",
+          "domain": "alquds.co.uk",
+          "seendate": "20260921T230000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L7A7S3P80534A4SC.html",
+          "title": "特朗普称将对伊朗作出重大决定",
+          "domain": "163.com",
+          "seendate": "20260920T164500Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/explainers/war-iran-islamic-revolutionary-guard-corps",
+          "title": "War on Iran : How the Islamic Revolutionary Guard Corps underpins the republic",
+          "domain": "middleeasteye.net",
+          "seendate": "20260920T210000Z"
+        },
+        {
+          "url": "https://www.gjsentinel.com/news/us/ap-news-summary-at-2-02-a-m-edt/article_a5d701bd-ce59-5319-8550-a72fdc26230b.html",
+          "title": "AP News Summary at 2 : 02 a . m . EDT",
+          "domain": "gjsentinel.com",
+          "seendate": "20260920T071500Z"
+        },
+        {
+          "url": "https://www.winknews.com/news/international/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_e28374f7-9a70-57eb-a3a6-c8647b35d318.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "winknews.com",
+          "seendate": "20260922T060000Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/the-latest-trump-returns-to-un-at-moment-of-anxiety-about-iran-ai-and-future/article_93ec7352-086f-5ef8-bf61-d2d0168f3564.html",
+          "title": "The Latest : Trump returns to UN at moment of anxiety about Iran , AI and future of world body itself",
+          "domain": "idahostatejournal.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
+          "url": "https://metrohk.com.hk/%E5%9C%8B%E9%9A%9B/%E7%BE%8E%E4%BC%8A%E4%BA%92%E5%A8%81%E8%84%85-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A8%B1%E4%B8%8D%E8%AB%87%E5%88%A4%E4%BC%8A%E6%9C%97%E7%B6%93%E6%BF%9F%E5%B4%A9%E6%BD%B0-fd63b2",
+          "title": "美伊互威脅 特朗普稱不談判伊朗經濟崩潰｜METROHK . com . hk",
+          "domain": "metrohk.com.hk",
+          "seendate": "20260920T193000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202609203879296396.html",
+          "title": "局势突变 ！ 美驻中东多国使馆发布安全警示 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260920T041500Z"
+        },
+        {
+          "url": "https://www.perthnow.com.au/news/politics/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine-c-22897942",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "perthnow.com.au",
+          "seendate": "20260920T063000Z"
+        },
+        {
+          "url": "https://www.wnp.pl/rynki/usa-axios-trump-znowu-prosil-zelenskiego-o-zaprzestanie-atakow-na-rosyjskie-rafinerie,1101201.html",
+          "title": "USA : Axios : Trump znowu prosił Zełenskiego o zaprzestanie ataków na rosyjskie rafinerie",
+          "domain": "wnp.pl",
+          "seendate": "20260921T111500Z"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/us/2026/09/21/trump-set-for-washington-summit-with-xi-focused-on-trade-taiwan-and-ai/",
+          "title": "Trump set for Washington summit with Xi focused on trade , Taiwan and AI",
+          "domain": "thenationalnews.com",
+          "seendate": "20260922T044500Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2630237/energy-frontlines-russia-and-iran",
+          "title": "Energy frontlines : Russia and Iran",
+          "domain": "tribune.com.pk",
+          "seendate": "20260920T063000Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/ap-news-in-brief-at-6-04-a-m-edt/article_9404a974-689d-5687-a45e-06742dc7013d.html",
+          "title": "AP News in Brief at 6 : 04 a . m . EDT",
+          "domain": "thegazette.com",
+          "seendate": "20260922T110000Z"
+        },
+        {
+          "url": "https://www.lifo.gr/now/world/simera-i-omilia-tramp-sti-synodo-tis-genikis-syneleysis-toy-oie-ti-anamenetai-na-pei-kai",
+          "title": "Σήμερα η ομιλία Τραμπ στη Γενική Συνέλευση του ΟΗΕ - Τι αναμένεται να πει και με ποιους θα συναντηθεί",
+          "domain": "lifo.gr",
+          "seendate": "20260922T054500Z"
+        },
+        {
+          "url": "https://www.in.gr/2026/09/22/world/omilia-tramp-sti-synodos-tou-oie-sto-epikentro-iran-oukrania-kai-groilandia/",
+          "title": "Ομιλία Τραμπ στη σύνοδο του ΟΗΕ : Στο επίκεντρο Ιράν , Ουκρανία και Γροιλανδία",
+          "domain": "in.gr",
+          "seendate": "20260922T043000Z"
+        },
+        {
+          "url": "https://www.capital.gr/diethni/4018587/sunodos-oie-sto-epikentro-o-tramp-iran-oukrania-groilandia-kai-oi-krisimes-epafes-sti-nea-uorki/",
+          "title": "Σύνοδος ΟΗΕ : Στο επίκεντρο ο Τραμπ - Ιράν , Ουκρανία , Γροιλανδία και οι ... ",
+          "domain": "capital.gr",
+          "seendate": "20260922T054500Z"
+        },
+        {
+          "url": "https://newswithviews.com/communism-by-proxy-not-just-another-midterm/",
+          "title": "Communism by Proxy : Not Just Another Midterm",
+          "domain": "newswithviews.com",
+          "seendate": "20260920T001500Z"
+        },
+        {
+          "url": "https://www.money.pl/gospodarka/trump-powtarza-absurdalna-prosbe-chce-by-zelenski-zaprzestal-atakow-na-rosyjskie-rafinerie-7331793288820992a.html",
+          "title": "Trump powtarza absurdalną prośbę . Chce , by Zełenski zaprzestał ataków na rosyjskie rafinerie",
+          "domain": "money.pl",
+          "seendate": "20260921T151500Z"
+        },
+        {
+          "url": "https://www.dailykos.com/stories/2026/9/20/800100961/community/its-official-the-tables-have-turned-in-the-us-versus-russia-china-nor-diplomatic-rivalry/",
+          "title": "It Official : The Tables Have Turned in the US - versus - Russia , China , North Korea , and Iran diplomatic rivalry",
+          "domain": "dailykos.com",
+          "seendate": "20260921T053000Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/tech/roll/2026-09-20/doc-inismzva9325341.shtml",
+          "title": "局势显著升级 ！ 胡塞武装 ： 用大量弹道导弹 、 巡航导弹和无人机袭击沙特首都",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260920T061500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/182/xekinoun-oi-ergasies-tis-gs-tou-oie--sto-epikentro-i-omilia-trab-kai-oi-epafes-ton-igeton.htm",
+          "title": "Ξεκινούν οι εργασίες της Γ . Σ . του ΟΗΕ – Στο επίκεντρο η ομιλία Τραμπ και οι επαφές των ηγετών",
+          "domain": "inewsgr.com",
+          "seendate": "20260922T043000Z"
+        },
+        {
+          "url": "https://www.sofokleousin.gr/epikairotita/diethni/synodos-oie-sto-epikentro-o-tramp-iran-oukrania-groilandia",
+          "title": "Σύνοδος ΟΗΕ : Στο επίκεντρο ο Τραμπ – Ιράν , Ουκρανία , Γροιλανδία",
+          "domain": "sofokleousin.gr",
+          "seendate": "20260922T071500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L798LUK6051492T3.html",
+          "title": "局势显著升级 ！ 胡塞武装 ： 用大量弹道导弹 、 巡航导弹和无人机袭击沙特首都",
+          "domain": "163.com",
+          "seendate": "20260920T063000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8wZFhAJi9Pc",
+          "title": "事关美伊 ， 中东传来一个好消息",
+          "domain": "news.ifeng.com",
+          "seendate": "20260920T031500Z"
+        },
+        {
+          "url": "https://www.iefimerida.gr/kosmos/synodos-oie-tramp-iran-oykrania-groilandia",
+          "title": "Οι πόλεμοι σε Ουκρανία και Ιράν στο επίκεντρο της Συνόδου του ΟΗΕ - Στη Νέα Υόρκη Ζελένσκι , Λαβρόφ , Πεζεσκιάν , συναγερμός για τα ενεργειακά",
+          "domain": "iefimerida.gr",
+          "seendate": "20260922T050000Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/the-latest-trump-returns-to-un-at-moment-of-anxiety-about-iran-ai-and-future/article_958c09bc-1049-5b31-b461-ed486d9efec6.html",
+          "title": "The Latest : Trump returns to UN at moment of anxiety about Iran , AI and future of world body itself",
+          "domain": "thegazette.com",
+          "seendate": "20260922T160000Z"
+        },
+        {
+          "url": "https://www.nydailynews.com/2026/09/21/readers-sound-off-on-anti-mamdani-sanctimony-social-media-risks-and-gayle-king/",
+          "title": "Readers sound off on anti - Mamdani sanctimony , social media risks and Gayle King",
+          "domain": "nydailynews.com",
+          "seendate": "20260921T111500Z"
+        },
+        {
+          "url": "https://www.mikrometoxos.gr/oie-xekinoun-oi-ergasies-tis-gs-sti-nea-yorki-iran-oukrania-trab-kai-groilandia-sto-epikentro/",
+          "title": "ΟΗΕ : Ξεκινούν οι εργασίες της ΓΣ στη Νέα Υόρκη – Ιράν , Ουκρανία , Τραμπ και Γροιλανδία στο επίκεντρο",
+          "domain": "mikrometoxos.gr",
+          "seendate": "20260922T053000Z"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/international/1330321/synodos-ohe-diplomatikos-piretos-sti-nea-yorki-me-fonto-iran-kai-oykrania",
+          "title": "Σύνοδος ΟΗΕ : Διπλωματικός « πυρετός » στη Νέα Υόρκη με φόντο Ιράν και Ουκρανία",
+          "domain": "sigmalive.com",
+          "seendate": "20260922T054500Z"
+        },
+        {
+          "url": "https://www.naftemporiki.gr/kosmos/2164755/tramp-ston-oie-me-anoichta-metopa-ta-krisima-rantevoy-poy-mporoyn-na-allaxoyn-tis-isorropies/",
+          "title": "Τραμπ στον ΟΗΕ με ανοιχτά μέτωπα : Τα κρίσιμα ραντεβού που μπορούν να αλλάξουν τις ισορροπίες",
+          "domain": "naftemporiki.gr",
+          "seendate": "20260922T043000Z"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/sep/22/trump-united-nations-address",
+          "title": "Trump bizarre social media blitz leaves world guessing ahead of UN address | United Nations",
+          "domain": "theguardian.com",
+          "seendate": "20260922T064500Z"
+        },
+        {
+          "url": "https://www.skai.gr/news/world/oie-oi-kokkines-grammes-tis-athinas-apenanti-stin-agkyra",
+          "title": "ΟΗΕ : Οι κόκκινες γραμμές της Αθήνας απέναντι στην Άγκυρα",
+          "domain": "skai.gr",
+          "seendate": "20260921T200000Z"
+        },
+        {
+          "url": "https://www.wnd.com/2026/09/curious-timing-i-panic/",
+          "title": "The curious timing of the A . I . panic * WorldNetDaily * by Robert Knight",
+          "domain": "wnd.com",
+          "seendate": "20260922T024500Z"
+        },
+        {
+          "url": "https://www.aol.co.uk/articles/whiplashed-middle-powers-seek-alliances-040034000.html",
+          "title": "Whiplashed middle powers seek new alliances as Trump rages on world stage",
+          "domain": "aol.co.uk",
+          "seendate": "20260921T050000Z"
+        },
+        {
+          "url": "https://townhall.com/columnists/alanjosephbauer/2026/09/20/american-professionalism-n2683221",
+          "title": "American Professionalism",
+          "domain": "townhall.com",
+          "seendate": "20260920T043000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/900557/while-trump-wants-a-meeting-with-iran-at-the-un-the-irgc-is-preparing-a-nightmare-20-000-americans-will-be-killed%20title=",
+          "title": "While Trump wants a meeting with Iran at the UN , the IRGC is preparing a nightmare : 20 , 000 Americans will be killed",
+          "domain": "bankingnews.gr",
+          "seendate": "20260921T070000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/900557/while-trump-wants-a-meeting-with-iran-at-the-un-the-irgc-is-preparing-a-nightmare-20-000-americans-will-be-killed",
+          "title": "While Trump wants a meeting with Iran at the UN , the IRGC is preparing a nightmare : 20 , 000 Americans will be killed",
+          "domain": "bankingnews.gr",
+          "seendate": "20260921T070000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1876857952208206143",
+          "title": "深度｜近130位领导人齐聚纽约 ， 美伊总统同台 ， 联大最有火药味时刻将至 ？ ",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260921T040000Z"
+        },
+        {
+          "url": "https://edmontonsun.com/opinion/columnists/while-the-world-burns-the-un-looks-away/wcm/af1eaf50-2dad-4f8f-a02e-b232f6e1daea",
+          "title": "LILLEY : While the world burns , the UN looks away",
+          "domain": "edmontonsun.com",
+          "seendate": "20260921T181500Z"
+        },
+        {
+          "url": "https://cheknews.ca/trump-to-address-un-general-assembly-as-carney-becomes-voice-of-multilateralism-1349269/",
+          "title": "Trump defends Iran war in address to UN General Assembly",
+          "domain": "cheknews.ca",
+          "seendate": "20260922T153000Z"
+        },
+        {
+          "url": "https://www.prokerala.com/news/articles/a1814705.html",
+          "title": "World leaders to meet at UN amid wars , global crises",
+          "domain": "prokerala.com",
+          "seendate": "20260921T061500Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/us-news/britains-burnham-to-meet-trump-and-make-un-debut-after-offering-uk-military-support-for-saudis-101790026264894.html",
+          "title": "Britain Burnham to meet Trump and make UN debut after offering united kingdom military support for Saudis",
+          "domain": "hindustantimes.com",
+          "seendate": "20260922T000000Z"
+        },
+        {
+          "url": "https://www.winnipegfreepress.com/world/2026/09/19/ap-news-in-brief-at-1204-a-m-edt-987",
+          "title": "AP News in Brief at 12 : 04 a . m . EDT – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20260920T043000Z"
+        },
+        {
+          "url": "https://zn.ua/ukr/WORLD/zupiniti-hodinnik-prohresu-choho-prahnut-novi-pravi-ssha.html",
+          "title": "Нові праві США - світ поділять на сфери впливу - новини світу",
+          "domain": "zn.ua",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://www.wnp.pl/bezpieczenstwo/trump-znowu-prosi-zelenskiego-o-zaprzestanie-atakow-na-rosyjskie-rafinerie,1101224.html",
+          "title": "Trump znowu prosi Zełenskiego o zaprzestanie ataków na rosyjskie rafinerie",
+          "domain": "wnp.pl",
+          "seendate": "20260921T151500Z"
+        },
+        {
+          "url": "https://www.illawarramercury.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "illawarramercury.com.au",
+          "seendate": "20260920T061500Z"
+        },
+        {
+          "url": "https://www.stcatharinesstandard.ca/news/world/trump-says-he-has-a-deal-with-denmark-to-bolster-us-military-presence-in-greenland/article_8c2060a0-05cc-544a-ab83-f9aa650c50f3.html",
+          "title": "Trump has a deal to build US military presence in Greenland while leaving island in Denmark hands",
+          "domain": "stcatharinesstandard.ca",
+          "seendate": "20260920T003000Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-09-19-brics-summit-adopts-statement-seeking-financial-reforms.html",
+          "title": "BRICS Summit Adopts 140 - Point Statement Seeking Financial Reforms , Avoids Naming U . S . – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20260920T001500Z"
+        },
+        {
+          "url": "https://lasvegassun.com/news/2026/sep/21/britains-burnham-to-meet-trump-and-make-un-debut-a/",
+          "title": "Britain Burnham to meet Trump and make UN debut after offering united kingdom military support for Saudis - Las Vegas Sun News",
+          "domain": "lasvegassun.com",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://bworldonline.com/world/2026/09/20/778548/world-leaders-return-to-un-amid-wars-in-middle-east-and-ukraine/",
+          "title": "World leaders return to UN amid wars in Middle East and Ukraine",
+          "domain": "bworldonline.com",
+          "seendate": "20260920T121500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/columns/view.aspx?cdate=20092026&id=4c467835-9136-450f-b3e5-43b62f730a56",
+          "title": "باب المندب وما حوله .. الحسابات الحرجة ! - عبد الله السناوي",
+          "domain": "shorouknews.com",
+          "seendate": "20260920T154500Z"
+        },
+        {
+          "url": "https://www.shfanews.net/post/325154",
+          "title": "هل ترمب ذاهب الى سحق النظام الإيراني ...؟؟ بقلم : راسم عبيدات - شبكة فلسطين للأنباء",
+          "domain": "shfanews.net",
+          "seendate": "20260920T113000Z"
+        },
+        {
+          "url": "https://www.omandaily.om/article/1210927",
+          "title": "قادة العالم يجتمعون بـ  الأمم المتحدة  مع استمرار الحرب بالشرق الأوسط وأوكرانيا",
+          "domain": "omandaily.om",
+          "seendate": "20260920T174500Z"
+        },
+        {
+          "url": "https://nuclear-news.net/2026/09/21/5-a-the-peril-of-trumps-final-act-would-he-use-a-tactical-nuclear-weapon-in-iran/",
+          "title": "The Peril of Trump Final Act : Would He Use a Tactical Nuclear Weapon in Iran ? « nuclear - news",
+          "domain": "nuclear-news.net",
+          "seendate": "20260921T063000Z"
+        },
+        {
+          "url": "https://www.investmentwatchblog.com/the-war-reached-riyadh-on-saturday-washington-said-its-staying-out/",
+          "title": "The War Reached Riyadh on Saturday . Washington Said It Staying Out . ",
+          "domain": "investmentwatchblog.com",
+          "seendate": "20260922T010000Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/world/morning-briefing-sept-21-2026/4062870",
+          "title": "Morning Briefing : Sept . 21 , 2026",
+          "domain": "aa.com.tr",
+          "seendate": "20260921T091500Z"
+        },
+        {
+          "url": "https://newsroomamerica.com/category/israel",
+          "title": "Category : israel",
+          "domain": "newsroomamerica.com",
+          "seendate": "20260921T063000Z"
+        },
+        {
+          "url": "https://www.aol.com/articles/world-leaders-return-un-amid-050429000.html",
+          "title": "World leaders return to UN amid wars in Middle East and Ukraine",
+          "domain": "aol.com",
+          "seendate": "20260920T121500Z"
+        },
+        {
+          "url": "https://www.bendigoadvertiser.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "bendigoadvertiser.com.au",
+          "seendate": "20260920T084500Z"
+        },
+        {
+          "url": "http://www.thejakartapost.com/world/2026/09/21/world-leaders-return-to-un-amid-wars-in-middle-east-ukraine",
+          "title": "World leaders return to UN amid wars in Middle East , Ukraine - Americas",
+          "domain": "thejakartapost.com",
+          "seendate": "20260921T003000Z"
+        },
+        {
+          "url": "https://arynews.tv/world-leaders-return-to-un-amid-wars-in-middle-east-and-ukraine",
+          "title": "World leaders return to UN amid wars in Middle East and Ukraine",
+          "domain": "arynews.tv",
+          "seendate": "20260920T144500Z"
+        },
+        {
+          "url": "https://newsroomamerica.com/tag/saudi_arabia",
+          "title": "Tag : saudi _ arabia",
+          "domain": "newsroomamerica.com",
+          "seendate": "20260921T063000Z"
+        },
+        {
+          "url": "https://www.pakistantoday.com.pk/2026/09/20/world-leaders-return-to-un-amid-wars-in-middle-east-and-ukraine",
+          "title": "UN General Assembly opens with nearly 130 leaders confrontin",
+          "domain": "pakistantoday.com.pk",
+          "seendate": "20260920T204500Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/hyozdexczg",
+          "title": "סילמן תלווה את נתניהו לאו  ם : טסה לארה  ב עם כובע קש ומשקפי שמש",
+          "domain": "ynet.co.il",
+          "seendate": "20260922T153000Z"
+        },
+        {
+          "url": "https://www.theadvocate.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "theadvocate.com.au",
+          "seendate": "20260920T104500Z"
+        },
+        {
+          "url": "https://www.24sata.hr/news/svjetski-celnici-vracaju-se-u-un-ratovi-i-dalje-traju-a-umjetna-inteligencija-je-novi-izazov-1155550",
+          "title": "Svjetski čelnici vraćaju se u UN : Ratovi i dalje traju , a umjetna inteligencija je novi izazov",
+          "domain": "24sata.hr",
+          "seendate": "20260920T114500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8wavKvVLNkW",
+          "title": "沙特首都遭袭 、 美国发布中东安全警报 ， 胡塞武装究竟想要什么 ？ ",
+          "domain": "news.ifeng.com",
+          "seendate": "20260921T023000Z"
+        },
+        {
+          "url": "http://www.hngnews.com/nation_world/ap-news-summary-at-10-40-p-m-edt/article_95969125-3421-5760-b663-7ea8f12809a5.html",
+          "title": "AP News Summary at 10 : 40 p . m . EDT",
+          "domain": "hngnews.com",
+          "seendate": "20260920T031500Z"
+        },
+        {
+          "url": "https://www.yumasun.com/news/national_news/ap-news-summary-at-9-47-p-m-edt/article_f6fe6325-100d-510e-8d27-6326a68121e2.html",
+          "title": "AP News Summary at 9 : 47 p . m . EDT",
+          "domain": "yumasun.com",
+          "seendate": "20260920T030000Z"
+        },
+        {
+          "url": "https://www.taipeitimes.com/News/world/archives/2026/09/21/2003864635",
+          "title": "Leaders return to UN amid wars - Taipei Times",
+          "domain": "taipeitimes.com",
+          "seendate": "20260920T193000Z"
+        },
+        {
+          "url": "https://tribune.com.pk/story/2630360/world-leaders-return-to-un-amid-wars-in-middle-east-and-ukraine",
+          "title": "World leaders return to UN amid wars in Middle East and Ukraine",
+          "domain": "tribune.com.pk",
+          "seendate": "20260920T104500Z"
+        },
+        {
+          "url": "https://calgarysun.com/opinion/columnists/while-the-world-burns-the-un-looks-away/wcm/60ec1de8-c2a5-4382-8708-5f85edba3013",
+          "title": "LILLEY : While the world burns , the UN looks away",
+          "domain": "calgarysun.com",
+          "seendate": "20260921T091500Z"
+        },
+        {
+          "url": "https://www.alquds.co.uk/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%85%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7/",
+          "title": "ترامب أمام الأمم المتحدة : دمّرنا قدرات إيران و  مجلس السلام  يقود إعادة إعمار غزة",
+          "domain": "alquds.co.uk",
+          "seendate": "20260922T160000Z"
+        },
+        {
+          "url": "https://www.rollingstone.com/politics/political-commentary/trump-maga-destroyed-global-order-1235629022/",
+          "title": "Trump and MAGA Have Destroyed the Global Order",
+          "domain": "rollingstone.com",
+          "seendate": "20260920T143000Z"
+        },
+        {
+          "url": "https://www.edp24.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "edp24.co.uk",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/ap-news-in-brief-at-9-04-p-m-edt/article_ee2f8513-22c2-5f65-81da-cbcd9e5d89ff.html",
+          "title": "AP News in Brief at 9 : 04 p . m . EDT",
+          "domain": "thegazette.com",
+          "seendate": "20260920T023000Z"
+        },
+        {
+          "url": "https://santamariatimes.com/ap/national/the-latest-trump-returns-to-un-at-moment-of-anxiety-about-iran-ai-and-future/article_14e9195c-4873-5e72-b8a8-18b2fed52cc8.html",
+          "title": "The Latest : Trump returns to UN at moment of anxiety about Iran , AI and future of world body itself",
+          "domain": "santamariatimes.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
+          "url": "https://www.thehindu.com/newsletter/newsletter-international/the-view-from-india-newsletter-punished-for-importing-russian-oil/article71490391.ece",
+          "title": "The View From India newsletter : Punished for importing Russian oil",
+          "domain": "thehindu.com",
+          "seendate": "20260921T091500Z"
+        },
+        {
+          "url": "http://www.wdtimes.com/news/national/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_82256dda-2d2b-5968-8534-31eeba40fb04.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "wdtimes.com",
+          "seendate": "20260922T054500Z"
+        },
+        {
+          "url": "https://www.wokv.com/news/world/trump-returns-un/RX6UZAKIOQZBTJDKYM3RRWJBWU/",
+          "title": "Trump returns to UN at moment of anxiety about Iran , AI and world body future",
+          "domain": "wokv.com",
+          "seendate": "20260922T084500Z"
+        },
+        {
+          "url": "http://www.bozemandailychronicle.com/wire/news/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_107a6c5b-ce6a-56d3-afc0-b8dd39562b8f.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "bozemandailychronicle.com",
+          "seendate": "20260922T060000Z"
+        },
+        {
+          "url": "https://www.nvdaily.com/associated_press_national/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_1963507b-ffb3-5ad8-8699-6d10fcf060b9.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "nvdaily.com",
+          "seendate": "20260922T054500Z"
+        },
+        {
+          "url": "http://www.cecildaily.com/ap/nation/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_7b8a60b6-af74-5f1c-987e-f059fd093607.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "cecildaily.com",
+          "seendate": "20260922T071500Z"
+        },
+        {
+          "url": "https://www.kxl.com/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future-of-world-body-itself/",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "kxl.com",
+          "seendate": "20260922T050000Z"
+        },
+        {
+          "url": "http://www.sitkasentinel.com/stories/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future-of-world-body-itself,172834",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "sitkasentinel.com",
+          "seendate": "20260922T070000Z"
+        },
+        {
+          "url": "https://www.thetelegraphandargus.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "thetelegraphandargus.co.uk",
+          "seendate": "20260921T223000Z"
+        },
+        {
+          "url": "https://www.dailygazette.com/the_recorder/ap/national/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_93278ade-a307-50b5-9f7f-85e77e55a632.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "dailygazette.com",
+          "seendate": "20260922T074500Z"
+        },
+        {
+          "url": "https://kdhnews.com/news/nation/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_b59e4d35-4ece-5560-a94d-5ed5562f7a73.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "kdhnews.com",
+          "seendate": "20260922T054500Z"
+        },
+        {
+          "url": "https://www.dailygazette.com/hv360/ap/national/trump-returns-to-un-at-a-moment-of-anxiety-about-iran-ai-and-the-future/article_93278ade-a307-50b5-9f7f-85e77e55a632.html",
+          "title": "Trump returns to UN at a moment of anxiety about Iran , AI and the future of world body itself",
+          "domain": "dailygazette.com",
+          "seendate": "20260922T071500Z"
+        },
+        {
+          "url": "https://www.kentonline.co.uk/news/national/andy-burnham-to-meet-donald-trump-for-first-time-as-world-leaders-gather-at-un-171987/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "kentonline.co.uk",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://www.ostro.org/articles/dlya-rosiyi-tramp-zrobyv-vynyatok-navit-koly-zaprovadyv-taryfy-proty-vsogo-svitu-ukrayina-u-fokusi-i568163",
+          "title": " « Для Росії Трамп зробив виняток , навіть коли запровадив тарифи проти всього світу ». Україна у фокусі світових ЗМІ",
+          "domain": "ostro.org",
+          "seendate": "20260922T084500Z"
+        },
+        {
+          "url": "https://www.interfax.ru/russia/1117613",
+          "title": "Рынок акций РФ открылся в утреннюю сессию ростом индекса IMOEX2 на 0 , 3 % ",
+          "domain": "interfax.ru",
+          "seendate": "20260922T064500Z"
+        },
+        {
+          "url": "https://www.theboltonnews.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "theboltonnews.co.uk",
+          "seendate": "20260921T220000Z"
+        },
+        {
+          "url": "http://www.gazettextra.com/news/nation_world/ap-news-summary-at-2-02-a-m-edt/article_25ca0c65-d123-5257-bbf3-1a03aea9b259.html",
+          "title": "AP News Summary at 2 : 02 a . m . EDT",
+          "domain": "gazettextra.com",
+          "seendate": "20260920T064500Z"
+        },
+        {
+          "url": "https://www.ktvo.com/news/nation-world/ap-news-summary-at-2-02-a-m-edt/article_6c4ac33c-1320-5ba6-89b4-9ddfa4393f84.html",
+          "title": "AP News Summary at 2 : 02 a . m . EDT",
+          "domain": "ktvo.com",
+          "seendate": "20260920T090000Z"
+        },
+        {
+          "url": "https://www.thecitizen.in/opinion/mbs-in-a-quagmire-1363896",
+          "title": "MBS In A Quagmire",
+          "domain": "thecitizen.in",
+          "seendate": "20260921T053000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/un-general-assembly-2026-trump-returns-to-the-world-stage-as-ukraine-middle-east-wars-and-ai-risks-dominate-agenda/articleshow/134363890.cms",
+          "title": "general assembly : UN General Assembly 2026 : Trump returns to the world stage as Ukraine , Middle East wars and AI risks dominate agenda",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20260920T071500Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-20/doc-inisnnkw9264612.shtml",
+          "title": "AI巨头 ， 爆雷 ！ 长鑫科技 ， 重磅发布 ！ 上交所出手 ： 暂停 ！ 本周申购  光  和  芯 ， 影响一周市场的十大消息 _ 新浪财经 _ 新浪网",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260920T111500Z"
+        },
+        {
+          "url": "https://finance.ifeng.com/c/8wZtSJsWWoY",
+          "title": "AI巨头爆雷 ， 本周申购  光  和  芯 ， 影响一周市场的十大消息 _ 凤凰网",
+          "domain": "finance.ifeng.com",
+          "seendate": "20260920T113000Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=20092026&id=09efe4b2-3e91-4320-80f7-7bca0b276bf8",
+          "title": "الصراعات الدائرة ومخاطر الذكاء الاصطناعي على طاولة مباحثات قادة العالم بالأمم المتحدة",
+          "domain": "shorouknews.com",
+          "seendate": "20260920T071500Z"
+        },
+        {
+          "url": "https://www.nvdaily.com/associated_press_national/the-latest-trump-returns-to-un-at-moment-of-anxiety-about-iran-ai-and-future/article_dcd77e46-80e8-5f21-a970-092aa0c6db7f.html",
+          "title": "The Latest : Trump returns to UN at moment of anxiety about Iran , AI and future of world body itself",
+          "domain": "nvdaily.com",
+          "seendate": "20260922T153000Z"
+        },
+        {
+          "url": "https://www.smh.com.au/business/markets/trump-s-war-is-strangling-the-world-20260921-p60z1f.html",
+          "title": "Trump war is strangling the world",
+          "domain": "smh.com.au",
+          "seendate": "20260921T023000Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnnky6594647.shtml",
+          "title": "胡塞猛攻沙特 ， 美国警告  迅速升级 ， 沙特紧急向多国求援 _ 新浪财经 _ 新浪网",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260920T111500Z"
+        },
+        {
+          "url": "https://www.brisbanetimes.com.au/business/markets/trump-s-war-is-strangling-the-world-20260921-p60z1f.html",
+          "title": "Trump war is strangling the world",
+          "domain": "brisbanetimes.com.au",
+          "seendate": "20260921T023000Z"
+        },
+        {
+          "url": "https://foreignpolicy.com/2026/09/21/unga-conflict-trump-guterres-secretary-general-uncertainty/",
+          "title": "UNGA Convenes With Uncertainty on the Horizon",
+          "domain": "foreignpolicy.com",
+          "seendate": "20260922T020000Z"
+        },
+        {
+          "url": "http://www.wdtimes.com/news/national/ap-news-summary-at-2-02-a-m-edt/article_8dd9843a-2905-58ca-9fbc-407de548c1a1.html",
+          "title": "AP News Summary at 2 : 02 a . m . EDT",
+          "domain": "wdtimes.com",
+          "seendate": "20260920T064500Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8wap25XyVa4",
+          "title": "全球核风险多点升温 _ 凤凰网",
+          "domain": "news.ifeng.com",
+          "seendate": "20260921T023000Z"
+        },
+        {
+          "url": "https://www.oxfordmail.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "oxfordmail.co.uk",
+          "seendate": "20260922T001500Z"
+        },
+        {
+          "url": "http://www.reflector.com/news/national/the-latest-trump-returns-to-un-at-moment-of-anxiety-about-iran-ai-and-future/article_9500145a-9cd3-50db-bc62-a0ff2fdd5566.html",
+          "title": "The Latest : Trump returns to UN at moment of anxiety about Iran , AI and future of world body itself",
+          "domain": "reflector.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
+          "url": "https://www.stcn.com/article/detail/4192147.html",
+          "title": "长鑫科技 ， 重磅发布 ！ 本周申购  光  和  芯 ， 影响一周市场的十大消息",
+          "domain": "stcn.com",
+          "seendate": "20260920T111500Z"
+        },
+        {
+          "url": "https://worldtribune.com/trust-deficit-un-assembly-convenes-sept-22-with-maritime-conflict-an-urgent-priority/",
+          "title": "  Trust deficit : UN Assembly convenes Sept . 22 with maritime conflict an urgent priority – World Tribune : U . S . Politics and Culture , Geostrategy , China , North Korea , Corporate Watch , Media Watch",
+          "domain": "worldtribune.com",
+          "seendate": "20260921T003000Z"
+        },
+        {
+          "url": "https://www.idahostatejournal.com/news/national/ap-news-in-brief-at-6-04-a-m-edt/article_7def3700-61a1-5c0a-9645-98a675fefbce.html",
+          "title": "AP News in Brief at 6 : 04 a . m . EDT",
+          "domain": "idahostatejournal.com",
+          "seendate": "20260921T164500Z"
+        },
+        {
+          "url": "https://www.salon.com/2026/09/20/vances-frankenstein-ai-defense-is-a-blueprint-for-2028/",
+          "title": "Vance  Frankenstein  AI defense is a blueprint for 2028",
+          "domain": "salon.com",
+          "seendate": "20260920T151500Z"
+        },
+        {
+          "url": "https://www.woonsocketcall.com/news/national_and_world_news/the-latest-trump-returns-to-un-at-moment-of-anxiety-about-iran-ai-and-future/article_617bd453-ebb9-566a-acf4-803379c5f26b.html",
+          "title": "The Latest : Trump returns to UN at moment of anxiety about Iran , AI and future of world body itself",
+          "domain": "woonsocketcall.com",
+          "seendate": "20260922T144500Z"
+        },
+        {
+          "url": "https://www.wfae.org/world/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "wfae.org",
+          "seendate": "20260921T093000Z"
+        },
+        {
+          "url": "https://www.wqcs.org/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "wqcs.org",
+          "seendate": "20260921T130000Z"
+        },
+        {
+          "url": "https://news.prairiepublic.org/news-from-npr/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "news.prairiepublic.org",
+          "seendate": "20260921T130000Z"
+        },
+        {
+          "url": "https://www.knau.org/npr-news/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "knau.org",
+          "seendate": "20260921T103000Z"
+        },
+        {
+          "url": "https://www.krcu.org/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "krcu.org",
+          "seendate": "20260921T101500Z"
+        },
+        {
+          "url": "https://www.kunm.org/npr-news/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "kunm.org",
+          "seendate": "20260921T101500Z"
+        },
+        {
+          "url": "https://www.kacu.org/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "kacu.org",
+          "seendate": "20260921T111500Z"
+        },
+        {
+          "url": "https://news.wjct.org/national-news/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "news.wjct.org",
+          "seendate": "20260921T111500Z"
+        },
+        {
+          "url": "https://www.kwit.org/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "kwit.org",
+          "seendate": "20260921T111500Z"
+        },
+        {
+          "url": "https://www.wuky.org/npr-news/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "wuky.org",
+          "seendate": "20260921T130000Z"
+        },
+        {
+          "url": "https://www.wuwf.org/2026-09-21/what-to-know-as-world-leaders-converge-at-the-united-nations-this-week",
+          "title": "What to know as world leaders converge at the United Nations this week",
+          "domain": "wuwf.org",
+          "seendate": "20260921T100000Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3782155",
+          "title": "胡塞新一轮袭击 ， 美国警告  迅速升级 ， 沙特紧急向多国求援",
+          "domain": "wallstreetcn.com",
+          "seendate": "20260920T104500Z"
+        },
+        {
+          "url": "https://newsroomamerica.com/category/conflict",
+          "title": "Category : conflict",
+          "domain": "newsroomamerica.com",
+          "seendate": "20260921T063000Z"
+        },
+        {
+          "url": "http://www.hngnews.com/nation_world/the-latest-trump-returns-to-un-at-moment-of-anxiety-about-iran-ai-and-future/article_596b26a4-9ab6-53d1-8578-4fd29243e1d4.html",
+          "title": "The Latest : Trump returns to UN at moment of anxiety about Iran , AI and future of world body itself",
+          "domain": "hngnews.com",
+          "seendate": "20260922T153000Z"
+        },
+        {
+          "url": "https://sofokleous10.gr/2026/09/21/%CF%80%CF%8C%CE%BB%CE%B5%CE%BC%CE%BF%CF%82-%CF%83%CF%84o-%CE%BF%CF%81%CE%BC%CE%BF%CF%8D%CE%B6-%CE%B3%CE%B9%CE%B1%CF%84%CE%AF-%CE%B7-%CF%85%CF%80%CE%BF%CF%87%CF%8E%CF%81%CE%B7%CF%83%CE%B7-%CF%84%CE%B7/",
+          "title": "Πόλεμος στo Ορμούζ : Γιατί η υποχώρηση της Δύσης θα ήταν ιστορικό λάθος",
+          "domain": "sofokleous10.gr",
+          "seendate": "20260921T100000Z"
+        },
+        {
+          "url": "https://www.dorsetecho.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "dorsetecho.co.uk",
+          "seendate": "20260922T011500Z"
+        },
+        {
+          "url": "https://www.jns.org/analysis/qatars-propaganda-machine-could-be-first-casualty-of-lng-collapse",
+          "title": "Qatar propaganda machine could be  first casualty  of LNG collapse - Israel & Jewish News",
+          "domain": "jns.org",
+          "seendate": "20260922T074500Z"
+        },
+        {
+          "url": "https://www.yumasun.com/news/national_news/ap-news-in-brief-at-6-04-a-m-edt/article_d18d979d-a194-5e6c-847a-d8e00b828189.html",
+          "title": "AP News in Brief at 6 : 04 a . m . EDT",
+          "domain": "yumasun.com",
+          "seendate": "20260920T110000Z"
+        },
+        {
+          "url": "https://newsroomamerica.com/tag/iran",
+          "title": "Tag : iran newsroomamerica . com",
+          "domain": "newsroomamerica.com",
+          "seendate": "20260921T111500Z"
+        },
+        {
+          "url": "https://www.woonsocketcall.com/news/national_and_world_news/ap-news-summary-at-11-26-a-m-edt/article_df031250-49d2-5083-8493-77a7c4de5512.html",
+          "title": "AP News Summary at 11 : 26 a . m . EDT",
+          "domain": "woonsocketcall.com",
+          "seendate": "20260920T160000Z"
+        },
+        {
+          "url": "https://www.maitlandmercury.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "maitlandmercury.com.au",
+          "seendate": "20260920T073000Z"
+        },
+        {
+          "url": "https://www.goulburnpost.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "goulburnpost.com.au",
+          "seendate": "20260920T061500Z"
+        },
+        {
+          "url": "https://www.easternriverinachronicle.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "easternriverinachronicle.com.au",
+          "seendate": "20260920T061500Z"
+        },
+        {
+          "url": "https://www.queanbeyanage.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "queanbeyanage.com.au",
+          "seendate": "20260920T063000Z"
+        },
+        {
+          "url": "https://www.edenmagnet.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "edenmagnet.com.au",
+          "seendate": "20260920T064500Z"
+        },
+        {
+          "url": "https://www.northerndailyleader.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "northerndailyleader.com.au",
+          "seendate": "20260920T064500Z"
+        },
+        {
+          "url": "https://www.thecourier.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "thecourier.com.au",
+          "seendate": "20260920T080000Z"
+        },
+        {
+          "url": "https://www.yasstribune.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "yasstribune.com.au",
+          "seendate": "20260920T104500Z"
+        },
+        {
+          "url": "https://www.westernadvocate.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "westernadvocate.com.au",
+          "seendate": "20260920T104500Z"
+        },
+        {
+          "url": "https://www.bordermail.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "bordermail.com.au",
+          "seendate": "20260920T101500Z"
+        },
+        {
+          "url": "https://www.singletonargus.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "singletonargus.com.au",
+          "seendate": "20260920T101500Z"
+        },
+        {
+          "url": "https://www.merimbulanewsweekly.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "merimbulanewsweekly.com.au",
+          "seendate": "20260920T093000Z"
+        },
+        {
+          "url": "https://www.dailyliberal.com.au/story/9353778/world-leaders-meet-at-un-amid-wars-in-mideast-ukraine/",
+          "title": "World leaders meet at UN , amid wars in Mideast , Ukraine",
+          "domain": "dailyliberal.com.au",
+          "seendate": "20260920T091500Z"
+        },
+        {
+          "url": "https://middle-east-online.com/%D8%B7%D9%82-%D8%AD%D9%86%D9%83-%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%A5%D9%84%D9%89-%D8%A3%D9%8A%D9%86%D8%9F",
+          "title": "  طق حنك .. تهديدات إيران وواشنطن إلى أين ؟ | معتز أبو سمرة",
+          "domain": "middle-east-online.com",
+          "seendate": "20260921T174500Z"
+        },
+        {
+          "url": "https://www.elwatannews.com/news/details/8362805",
+          "title": "نائبة مدير برنامج السياسة الخارجية في « بروكينجز »: واشنطن لم تحسم المعركة في إيران استراتيجيا و « هرمز » أصبح ورقة ضغط",
+          "domain": "elwatannews.com",
+          "seendate": "20260921T181500Z"
+        },
+        {
+          "url": "https://aa.com.tr/en/world/mecca-alliance-will-be-game-changing-platform-turkish-foreign-minister/4062212",
+          "title": "Mecca Alliance will be  game - changing platform : Turkish foreign minister",
+          "domain": "aa.com.tr",
+          "seendate": "20260920T041500Z"
+        },
+        {
+          "url": "https://www.azattyqasia.org/a/vyhod-k-moryu-pod-sanktsiyami-pochemu-mery-ssha-protiv-irana-mogut-usilit-pozitsii-kitaya-v-tsentralnoy-azii/33860307.html",
+          "title": "Выход к морю под санкциями . Почему меры США против Ирана могут усилить позиции Китая в Центральной Азии ? ",
+          "domain": "azattyqasia.org",
+          "seendate": "20260922T050000Z"
+        },
+        {
+          "url": "https://ianslive.in/under-shadow-of-intractable-crises-world-leaders-meet-this-week-at-un--20260921100902",
+          "title": "World leaders to meet at UN amid wars , global crises",
+          "domain": "ianslive.in",
+          "seendate": "20260921T074500Z"
+        },
+        {
+          "url": "http://www.wdtimes.com/news/national/ap-news-in-brief-at-12-04-a-m-edt/article_3422382b-5ff7-5090-9ea3-8072e531fdae.html",
+          "title": "AP News in Brief at 12 : 04 a . m . EDT",
+          "domain": "wdtimes.com",
+          "seendate": "20260920T064500Z"
+        },
+        {
+          "url": "https://santamariatimes.com/ap/national/ap-news-in-brief-at-12-04-a-m-edt/article_78ec42c5-ed37-586f-be09-ab34783ebde6.html",
+          "title": "AP News in Brief at 12 : 04 a . m . EDT",
+          "domain": "santamariatimes.com",
+          "seendate": "20260920T054500Z"
+        },
+        {
+          "url": "http://www.rockymounttelegram.com/news/world/britain-s-burnham-to-meet-trump-and-make-un-debut-after-offering-uk-military-support/article_3413abbe-3a48-52c3-a063-fea49010c6bb.html",
+          "title": "Britain Burnham to meet Trump and make UN debut after offering united kingdom military support for Saudis | World",
+          "domain": "rockymounttelegram.com",
+          "seendate": "20260921T224500Z"
+        },
+        {
+          "url": "https://www.freemalaysiatoday.com/category/opinion/2026/09/22/after-making-a-killing-with-ai-are-we-at-the-end-times",
+          "title": "After making a killing with AI , are we at the end times ? ",
+          "domain": "freemalaysiatoday.com",
+          "seendate": "20260922T020000Z"
+        },
+        {
+          "url": "https://24tv.ua/ru/nehvatka-raket-dlja-pjetriot-plany-rossii-na-zimu-peregovory-intervju-s-sergeem-rahmaninym_n3146236",
+          "title": "Нехватка ракет для Patriot , планы России на зиму , переговоры – интервью с Сергеем Рахманиным",
+          "domain": "24tv.ua",
+          "seendate": "20260921T181500Z"
+        },
+        {
+          "url": "https://www.ariananews.af/world-leaders-return-to-un-amid-wars-in-middle-east-and-ukraine/",
+          "title": "World leaders return to UN amid wars in Middle East and Ukraine | Ariana News",
+          "domain": "ariananews.af",
+          "seendate": "20260920T140000Z"
+        },
+        {
+          "url": "https://www.middle-east-online.com/en/world-leaders-gather-un-amid-wars-ai-risks-global-strains",
+          "title": "World leaders gather at UN amid wars , AI risks , global strains",
+          "domain": "middle-east-online.com",
+          "seendate": "20260920T160000Z"
+        },
+        {
+          "url": "https://newsroomamerica.com/category/russia",
+          "title": "Category : russia",
+          "domain": "newsroomamerica.com",
+          "seendate": "20260920T230000Z"
+        },
+        {
+          "url": "https://www.huntspost.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "huntspost.co.uk",
+          "seendate": "20260921T220000Z"
+        },
+        {
+          "url": "https://www.impartialreporter.com/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "impartialreporter.com",
+          "seendate": "20260921T220000Z"
+        },
+        {
+          "url": "https://www.barryanddistrictnews.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "barryanddistrictnews.co.uk",
+          "seendate": "20260921T220000Z"
+        },
+        {
+          "url": "https://www.greenocktelegraph.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "greenocktelegraph.co.uk",
+          "seendate": "20260921T220000Z"
+        },
+        {
+          "url": "https://www.warringtonguardian.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "warringtonguardian.co.uk",
+          "seendate": "20260921T220000Z"
+        },
+        {
+          "url": "https://www.brentwoodlive.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "brentwoodlive.co.uk",
+          "seendate": "20260921T220000Z"
+        },
+        {
+          "url": "https://www.worcesternews.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "worcesternews.co.uk",
+          "seendate": "20260921T220000Z"
+        },
+        {
+          "url": "https://www.surreycomet.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "surreycomet.co.uk",
+          "seendate": "20260921T220000Z"
+        },
+        {
+          "url": "https://www.braintreeandwithamtimes.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "braintreeandwithamtimes.co.uk",
+          "seendate": "20260922T010000Z"
+        },
+        {
+          "url": "https://www.timesandstar.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "timesandstar.co.uk",
+          "seendate": "20260922T010000Z"
+        },
+        {
+          "url": "https://www.london-now.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "london-now.co.uk",
+          "seendate": "20260922T000000Z"
+        },
+        {
+          "url": "https://www.glasgowtimes.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "glasgowtimes.co.uk",
+          "seendate": "20260922T003000Z"
+        },
+        {
+          "url": "https://www.thetottenhamindependent.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "thetottenhamindependent.co.uk",
+          "seendate": "20260922T003000Z"
+        },
+        {
+          "url": "https://www.clactonandfrintongazette.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "clactonandfrintongazette.co.uk",
+          "seendate": "20260922T003000Z"
+        },
+        {
+          "url": "https://www.thewestonmercury.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "thewestonmercury.co.uk",
+          "seendate": "20260922T003000Z"
+        },
+        {
+          "url": "https://www.halesowennews.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "halesowennews.co.uk",
+          "seendate": "20260922T003000Z"
+        },
+        {
+          "url": "https://www.freepressseries.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "freepressseries.co.uk",
+          "seendate": "20260922T003000Z"
+        },
+        {
+          "url": "https://www.halsteadgazette.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "halsteadgazette.co.uk",
+          "seendate": "20260922T003000Z"
+        },
+        {
+          "url": "https://www.leighjournal.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "leighjournal.co.uk",
+          "seendate": "20260922T010000Z"
+        },
+        {
+          "url": "https://www.falmouthpacket.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "falmouthpacket.co.uk",
+          "seendate": "20260922T010000Z"
+        },
+        {
+          "url": "https://www.bicesteradvertiser.net/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "bicesteradvertiser.net",
+          "seendate": "20260922T010000Z"
+        },
+        {
+          "url": "https://www.cotswoldjournal.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "cotswoldjournal.co.uk",
+          "seendate": "20260922T010000Z"
+        },
+        {
+          "url": "https://www.eppingforestguardian.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "eppingforestguardian.co.uk",
+          "seendate": "20260922T000000Z"
+        },
+        {
+          "url": "https://www.eastlondonadvertiser.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "eastlondonadvertiser.co.uk",
+          "seendate": "20260922T000000Z"
+        },
+        {
+          "url": "https://www.southwalesargus.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "southwalesargus.co.uk",
+          "seendate": "20260922T000000Z"
+        },
+        {
+          "url": "https://www.northsomersettimes.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "northsomersettimes.co.uk",
+          "seendate": "20260922T001500Z"
+        },
+        {
+          "url": "https://www.ealingtimes.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "ealingtimes.co.uk",
+          "seendate": "20260922T001500Z"
+        },
+        {
+          "url": "https://www.northwalespioneer.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "northwalespioneer.co.uk",
+          "seendate": "20260922T000000Z"
+        },
+        {
+          "url": "https://www.wimbledonguardian.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "wimbledonguardian.co.uk",
+          "seendate": "20260922T000000Z"
+        },
+        {
+          "url": "https://www.hackneygazette.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "hackneygazette.co.uk",
+          "seendate": "20260922T003000Z"
+        },
+        {
+          "url": "https://www.hamhigh.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "hamhigh.co.uk",
+          "seendate": "20260921T223000Z"
+        },
+        {
+          "url": "https://www.eveshamjournal.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "eveshamjournal.co.uk",
+          "seendate": "20260921T223000Z"
+        },
+        {
+          "url": "https://www.basingstokegazette.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "basingstokegazette.co.uk",
+          "seendate": "20260921T223000Z"
+        },
+        {
+          "url": "https://www.asianimage.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "asianimage.co.uk",
+          "seendate": "20260921T223000Z"
+        },
+        {
+          "url": "https://www.penarthtimes.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "penarthtimes.co.uk",
+          "seendate": "20260921T224500Z"
+        },
+        {
+          "url": "https://www.ludlowadvertiser.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "ludlowadvertiser.co.uk",
+          "seendate": "20260921T224500Z"
+        },
+        {
+          "url": "https://www.cravenherald.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "cravenherald.co.uk",
+          "seendate": "20260921T224500Z"
+        },
+        {
+          "url": "https://www.burytimes.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "burytimes.co.uk",
+          "seendate": "20260921T230000Z"
+        },
+        {
+          "url": "https://www.wirralglobe.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "wirralglobe.co.uk",
+          "seendate": "20260921T223000Z"
+        },
+        {
+          "url": "https://www.hampshirechronicle.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "hampshirechronicle.co.uk",
+          "seendate": "20260921T223000Z"
+        },
+        {
+          "url": "https://www.bridportnews.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "bridportnews.co.uk",
+          "seendate": "20260921T230000Z"
+        },
+        {
+          "url": "https://www.northwichguardian.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "northwichguardian.co.uk",
+          "seendate": "20260921T230000Z"
+        },
+        {
+          "url": "https://www.keighleynews.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "keighleynews.co.uk",
+          "seendate": "20260921T230000Z"
+        },
+        {
+          "url": "https://www.runcornandwidnesworld.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "runcornandwidnesworld.co.uk",
+          "seendate": "20260921T230000Z"
+        },
+        {
+          "url": "https://www.thisiswiltshire.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "thisiswiltshire.co.uk",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://www.readingchronicle.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "readingchronicle.co.uk",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://www.stourbridgenews.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "stourbridgenews.co.uk",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://www.andoveradvertiser.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "andoveradvertiser.co.uk",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://www.somersetcountygazette.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "somersetcountygazette.co.uk",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://www.gazetteherald.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "gazetteherald.co.uk",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://www.tivysideadvertiser.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "tivysideadvertiser.co.uk",
+          "seendate": "20260921T221500Z"
+        },
+        {
+          "url": "https://www.bracknellnews.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "bracknellnews.co.uk",
+          "seendate": "20260922T011500Z"
+        },
+        {
+          "url": "https://www.messengernewspapers.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "messengernewspapers.co.uk",
+          "seendate": "20260922T011500Z"
+        },
+        {
+          "url": "https://www.milfordmercury.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "milfordmercury.co.uk",
+          "seendate": "20260922T020000Z"
+        },
+        {
+          "url": "https://www.harrowtimes.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "harrowtimes.co.uk",
+          "seendate": "20260922T021500Z"
+        },
+        {
+          "url": "https://www.wisbechstandard.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "wisbechstandard.co.uk",
+          "seendate": "20260922T021500Z"
+        },
+        {
+          "url": "https://www.wharfedaleobserver.co.uk/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "wharfedaleobserver.co.uk",
+          "seendate": "20260922T011500Z"
+        },
+        {
+          "url": "https://www.eastlothiancourier.com/news/national/26569752.andy-burnham-meet-donald-trump-first-time-world-leaders-gather-un/",
+          "title": "Andy Burnham to meet Donald Trump for first time as world leaders gather at UN",
+          "domain": "eastlothiancourier.com",
+          "seendate": "20260922T011500Z"
+        }
+      ]
     },
     {
       "id": "military_strike",
@@ -1947,18 +3201,40 @@
   ],
   "comparison_table_21day": [
     {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4988,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.9856
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.6211,
+      "composite_score": 0.4959,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.7483,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.9564
+        "tone": 0.9509
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -1971,60 +3247,16 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.6061,
+      "composite_score": 0.4949,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.6696,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.9336
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.5387,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.2363,
-        "source_diversity": 0.0,
-        "tone": 0.9912
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_OCT24",
-      "reference_type": "pre-round",
-      "composite_score": 0.162,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.5001,
-        "source_diversity": 0.0,
-        "tone": 0.9442
+        "tone": 0.9392
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -2037,7 +3269,29 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.2083,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 1.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.0791,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -2046,7 +3300,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9497
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -2071,19 +3325,19 @@
       "tone_mean": null
     },
     "window_21d": {
-      "volume_total": 9.7488,
-      "volume_mean_daily": 0.6499,
-      "volume_peak": 0.9118,
-      "days_active": 15,
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
       "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
       "unique_domains_total": 0,
-      "tone_mean": -3.4078
+      "tone_mean": -3.5181
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 3 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }
