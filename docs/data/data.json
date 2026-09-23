@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-22T16:23:22.182227+00:00",
+  "updated_at": "2026-09-23T16:12:40.573634+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 51,
-    "delta_vs_avg": -5
+    "score": 62,
+    "status_he": "מתוח",
+    "avg_7day": 52,
+    "delta_vs_avg": 10
   },
   "archive_comparison": {
-    "score": 50,
+    "score": 46,
     "status_he": "דמיון נמוך",
     "reference_events": [
       "אפריל 2024",
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-09-07T17:19:39.295870+00:00",
-        "score": 62
-      },
-      {
         "ts": "2026-09-08T03:06:09.482312+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-09-22T16:23:22.177506+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-23T16:12:40.571658+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-07-02T14:02:09.342116+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-07-05T13:31:56.223687+00:00",
         "score": 50
@@ -356,22 +352,26 @@
       {
         "ts": "2026-09-22T16:23:22.177506+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-23T16:12:40.571658+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
-        "label": "אחרי פבר' 2026",
-        "score": 50,
-        "is_pre_conflict": false
-      },
-      {
         "label": "טרום פבר' 2026",
-        "score": 50,
+        "score": 46,
         "is_pre_conflict": true
       },
       {
+        "label": "אחרי פבר' 2026",
+        "score": 46,
+        "is_pre_conflict": false
+      },
+      {
         "label": "שקט ינו' 2026",
-        "score": 49,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
@@ -381,30 +381,30 @@
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 8,
+        "score": 4,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
     "list": [
-      "163.com",
-      "24heures.ch",
-      "24sata.hr",
-      "24tv.ua",
-      "4029tv.com",
-      "aa.com.tr",
-      "abc.net.au",
-      "abcnews.com",
-      "advance.hr",
-      "akhbarelyom.com",
+      "abendblatt.de",
       "al-monitor.com",
-      "albiladpress.com",
       "Al Jazeera",
-      "allkharkov.ua",
-      "alquds.co.uk"
+      "alternet.org",
+      "arabi21.com",
+      "arabnews.com",
+      "bankier.pl",
+      "bokra.net",
+      "bracknellnews.co.uk",
+      "braunschweiger-zeitung.de",
+      "burytimes.co.uk",
+      "canyon-news.com",
+      "cavalierdaily.com",
+      "channelnewsasia.com",
+      "clactonandfrintongazette.co.uk"
     ],
-    "total_count": 346,
+    "total_count": 85,
     "articles_72h": null
   }
 }
