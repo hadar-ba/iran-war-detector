@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-09-23T16:12:40.571658+00:00",
+  "timestamp_utc": "2026-09-25T16:37:25.520305+00:00",
   "status": "yellow",
   "headline_score_7day": 62,
   "headline_score_21day": 46,
-  "score_jump": 16,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
   "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 7-day reading is 17 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to the period before Operation Lion's Roar (February 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). הקריאה ל-7 ימים גבוהה ב-17 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 7-day reading is 17 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to the post-Lion's Roar period (April–May 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). הקריאה ל-7 ימים גבוהה ב-17 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -24,7 +24,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -41,553 +41,8 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [
-        "https://news.walla.co.il:443/news/military/383955068",
-        "https://www.walla.co.il:443/news/military/383955068",
-        "http://www.jpost.com/middle-east/iran-news/2026-09-21/live-updates-909207"
-      ],
-      "articles": [
-        {
-          "url": "https://news.walla.co.il:443/news/military/383955068",
-          "title": "מפת האיומים : המזרח התיכון יציב - אך קרוב להסלמה רחבה",
-          "domain": "news.walla.co.il",
-          "seendate": "20260923T070000Z"
-        },
-        {
-          "url": "https://www.walla.co.il:443/news/military/383955068",
-          "title": "מפת האיומים : המזרח התיכון יציב - אך קרוב להסלמה רחבה",
-          "domain": "walla.co.il",
-          "seendate": "20260923T073000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-21/live-updates-909207",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260921T221500Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=23092026&id=d7a9596c-ddac-4722-801c-01c3a234f9fa",
-          "title": "رافعا صورة خامنئي .. بزشكيان أمام الأمم المتحدة : ترامب وصفنا بالإرهابيين لكننا وقعنا ضحية الإرهاب",
-          "domain": "shorouknews.com",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/09/uaes-gargash-expects-prolonged-war-calls-iran-gulf-security-talks",
-          "title": "UAE Gargash expects  prolonged  war , calls for Iran - Gulf security talks",
-          "domain": "al-monitor.com",
-          "seendate": "20260921T181500Z"
-        },
-        {
-          "url": "https://www.wnp.pl/rynki/iran-prezydent-pezeszkian-poleci-do-nowego-jorku-na-zgromadzenie-ogolne-onz,1101244.html",
-          "title": "Iran : Prezydent Pezeszkian poleci do Nowego Jorku na Zgromadzenie Ogólne ONZ",
-          "domain": "wnp.pl",
-          "seendate": "20260921T151500Z"
-        },
-        {
-          "url": "https://www.oxfordmail.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "oxfordmail.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.prokerala.com/news/articles/a1814357.html",
-          "title": "Iran decision on NPT withdrawal depends on US behavior , top security official says",
-          "domain": "prokerala.com",
-          "seendate": "20260920T030000Z"
-        },
-        {
-          "url": "https://www.canyon-news.com/?p=203991",
-          "title": "US - Israel Strikes On Iran Leave Ayatollah Khamenei Dead",
-          "domain": "canyon-news.com",
-          "seendate": "20260921T214500Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/city/delhi/the-hindi-writer-from-delhi-who-interviewed-khomeini-and-khamenei/articleshow/134362840.cms",
-          "title": "The Hindi writer from Delhi who interviewed Khomeini and Khamenei",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260920T030000Z"
-        },
-        {
-          "url": "https://en.dailypakistan.com.pk/23-Sep-2026/pezeshkian-says-iran-will-not-surrender-to-us-military-pressure-backs-diplomacy",
-          "title": "Pezeshkian says Iran will not surrender to US military pressure , backs diplomacy",
-          "domain": "en.dailypakistan.com.pk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/explainers/war-iran-islamic-revolutionary-guard-corps",
-          "title": "War on Iran : How the Islamic Revolutionary Guard Corps underpins the republic",
-          "domain": "middleeasteye.net",
-          "seendate": "20260920T210000Z"
-        },
-        {
-          "url": "https://www.vetogate.com/5735465",
-          "title": "إيران : لدينا معلومات بهجوم أمريكي مرتقب وجاهزون لقصف قواعدها في المنطقة",
-          "domain": "vetogate.com",
-          "seendate": "20260920T171500Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/india/nasera-sharma-the-journalist-who-interviewed-khomeini-and-khamenei-then-found-her-voice-in-fiction/articleshow/134366219.cms",
-          "title": "Nasera Sharma : The journalist who interviewed Khomeini and Khamenei , then found her voice in fiction",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260920T104500Z"
-        },
-        {
-          "url": "https://www.newindianexpress.com/world/2026/Sep/23/we-have-been-victims-of-terrorism-irans-president-in-wartime-address-at-un",
-          "title": "We have been  victims of terrorism : Iran president in wartime address at UN",
-          "domain": "newindianexpress.com",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://arabi21.com/story/1790404/%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AD%D8%AC%D9%8A%D8%AC-%D8%A7%D9%84%D8%B3%D9%86%D9%88%D9%8A-%D8%A5%D9%84%D9%89-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83",
-          "title": "موسم الحجيج السنوي إلى نيويورك",
-          "domain": "arabi21.com",
-          "seendate": "20260922T054500Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/09/21/middleeast/iran-president-un-general-assembly-new-york-intl",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "cnn.com",
-          "seendate": "20260921T194500Z"
-        },
-        {
-          "url": "https://bokra.net/Article-1604120",
-          "title": "موقع بكرا - كاتس يحذر حماس وطهران وأردوغان : سنخلي مدينة غزة بالكامل إذا اختُطف إسرائيلي",
-          "domain": "bokra.net",
-          "seendate": "20260922T153000Z"
-        },
-        {
-          "url": "https://www.singtaousa.com/2026/09/19/news/world/iran-says-conditions-to-re-engage-in-talks-end-war-sent-to-us-via-qatar/",
-          "title": "伊朗透過卡塔爾向美提停戰三條件 稱已為決定性戰爭做好準備",
-          "domain": "singtaousa.com",
-          "seendate": "20260920T041500Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/international/world-news/irans-president-in-wartime-address-at-un-we-have-been-victims-of-terrorism/articleshow/134441013.cms",
-          "title": "Iran president UN speech : Iran big UN message to Trump : Pezeshkian says America does not understand a country it seeks to  bully  ",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/09/20/its-all-about-oil",
-          "title": "Trump Iran war , oil ambitions and Israel role come under",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260920T204500Z"
-        },
-        {
-          "url": "https://www.abendblatt.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "abendblatt.de",
-          "seendate": "20260920T161500Z"
-        },
-        {
-          "url": "https://www.morgenpost.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "morgenpost.de",
-          "seendate": "20260920T153000Z"
-        },
-        {
-          "url": "https://wiadomosci.onet.pl/swiat/prezydent-iranu-w-nowym-jorku-precedensowy-ruch-wladz-usa/z56r13d",
-          "title": "Prezydent Iranu w Nowym Jorku . Precedensowy ruch władz united states ",
-          "domain": "wiadomosci.onet.pl",
-          "seendate": "20260923T064500Z"
-        },
-        {
-          "url": "https://www.channelnewsasia.com/world/iran-us-peace-talk-revival-trump-un-general-assembly-6402351",
-          "title": "Iran , US hint at revival of talks as Trump , Pezeshkian due to attend UN",
-          "domain": "channelnewsasia.com",
-          "seendate": "20260922T144500Z"
-        },
-        {
-          "url": "https://www.rte.ie/news/world/2026/0923/1592691-iran-us-talks/",
-          "title": "Fresh talks between US and Iran described as  productive  ",
-          "domain": "rte.ie",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.burytimes.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "burytimes.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.ledburyreporter.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "ledburyreporter.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.messengernewspapers.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "messengernewspapers.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.heraldseries.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "heraldseries.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.timesandstar.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "timesandstar.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.bracknellnews.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "bracknellnews.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.tivysideadvertiser.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "tivysideadvertiser.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.wharfedaleobserver.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "wharfedaleobserver.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.westerntelegraph.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "westerntelegraph.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.warringtonguardian.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "warringtonguardian.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.wimbledonguardian.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "wimbledonguardian.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.clactonandfrintongazette.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "clactonandfrintongazette.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.thueringer-allgemeine.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "thueringer-allgemeine.de",
-          "seendate": "20260920T173000Z"
-        },
-        {
-          "url": "https://krdo.com/news/national-world/cnn-world/2026/09/21/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "krdo.com",
-          "seendate": "20260921T224500Z"
-        },
-        {
-          "url": "http://en.ce.cn/main/latest/202609/t20260920_3225601.shtml",
-          "title": "Iran decision on NPT withdrawal depends on U . S . behavior , top security official says -- China Economic Net",
-          "domain": "en.ce.cn",
-          "seendate": "20260920T070000Z"
-        },
-        {
-          "url": "http://www.pakistantelegraph.com/news/279317568/iran-decision-on-npt-withdrawal-depends-on-us-behavior-top-security-official-says",
-          "title": "Iran decision on NPT withdrawal depends on U . S . behavior , top security official says",
-          "domain": "pakistantelegraph.com",
-          "seendate": "20260920T001500Z"
-        },
-        {
-          "url": "https://www.notimerica.com/politica/noticia-argentina-procesados-ocho-cargos-iranies-hezbola-acusados-atentado-amia-buenos-aires-20260921212329.html",
-          "title": "Procesados ocho cargos iraníes y de Hezbolá acusados del atentado de la AMIA de Buenos Aires",
-          "domain": "notimerica.com",
-          "seendate": "20260921T230000Z"
-        },
-        {
-          "url": "https://www.journal-advocate.com/2026/09/23/iran-president-un-address/",
-          "title": "Iran president in address at UN : We have been  victims of terrorism  ",
-          "domain": "journal-advocate.com",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3047154/klaida-gali-iziebti-pavojinga-kibirksti-kas-vyksta-tarp-turkijos-ir-izraelio",
-          "title": "Klaida gali įžiebti pavojingą kibirkštį : kas vyksta tarp Turkijos ir Izraelio ? ",
-          "domain": "lrt.lt",
-          "seendate": "20260923T080000Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=22092026&id=9c396456-4566-4401-a8bb-ce2b13c2a045",
-          "title": "خام برنت يفاقم خسائره وينخفض إلى 98 دولارا للبرميل",
-          "domain": "shorouknews.com",
-          "seendate": "20260922T110000Z"
-        },
-        {
-          "url": "https://dominicanrepublicpost.com/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks/",
-          "title": "  Annihilate  vs  crushing  attacks : Why Iran , US up rhetoric amid talks - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-          "domain": "dominicanrepublicpost.com",
-          "seendate": "20260923T123000Z"
-        },
-        {
-          "url": "https://grenadachronicle.com/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks/",
-          "title": "  Annihilate  vs  crushing  attacks : Why Iran , US up rhetoric amid talks - Grenada Chronicle – Daily Grenada And Caribbean News",
-          "domain": "grenadachronicle.com",
-          "seendate": "20260923T124500Z"
-        },
-        {
-          "url": "https://localnews8.com/news/national-world/cnn-world/2026/09/21/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive - LocalNews8 . com",
-          "domain": "localnews8.com",
-          "seendate": "20260921T221500Z"
-        },
-        {
-          "url": "https://ktvz.com/news/national-world/cnn-world/2026/09/21/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "ktvz.com",
-          "seendate": "20260921T223000Z"
-        },
-        {
-          "url": "https://middle-east-online.com/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%87%D8%AF%D8%AF-%D8%A8%D8%A7%D8%BA%D8%AA%D9%8A%D8%A7%D9%84-%D8%AC%D9%85%D9%8A%D8%B9-%D9%82%D8%A7%D8%AF%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
-          "title": "إسرائيل تهدد باغتيال جميع قادة إيران",
-          "domain": "middle-east-online.com",
-          "seendate": "20260923T074500Z"
-        },
-        {
-          "url": "https://www.moonofalabama.org/2026/09/new-york-times-misreports-guterres-un-speech.html",
-          "title": "New York Times Misreports Gen . Sec . Guterre UN Speech – Moon of Alabama",
-          "domain": "moonofalabama.org",
-          "seendate": "20260922T193000Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/iran-news/article-909319",
-          "title": "UN report : Iran committed crimes against humanity during protest crackdown",
-          "domain": "jpost.com",
-          "seendate": "20260922T160000Z"
-        },
-        {
-          "url": "https://www.bankier.pl/wiadomosc/Iran-zaostrzyl-warunki-dotyczace-zakonczenia-wojny-z-USA-9201062.html",
-          "title": "Iran zaostrzył warunki dotyczące zakończenia wojny z united states ",
-          "domain": "bankier.pl",
-          "seendate": "20260923T064500Z"
-        },
-        {
-          "url": "https://jowhar.com/iran-and-us-exchange-trade-threats-as-regional-conflict-intensifies/",
-          "title": "Iran and US exchange trade threats as regional conflict intensifies",
-          "domain": "jowhar.com",
-          "seendate": "20260921T164500Z"
-        },
-        {
-          "url": "https://www.naturalnews.com/2026-09-20-the-economic-fallout-from-the-failed-iran-war-could-lead-to-a-false-flag.html",
-          "title": "The economic fallout from the failed Iran War could lead to a false flag operation under Trump to unify the country before the midterms – NaturalNews . com",
-          "domain": "naturalnews.com",
-          "seendate": "20260920T134500Z"
-        },
-        {
-          "url": "https://www.presstv.co.uk/Detail/2026/09/21/776745/exhibition-Minab-children-drawings-UN-Geneva",
-          "title": "Drawings of Minab children killed in US attack exhibited outside UN office in Geneva",
-          "domain": "presstv.co.uk",
-          "seendate": "20260921T171500Z"
-        },
-        {
-          "url": "https://torontosun.com/news/world/trump-un-iran-deal-possible-us-midterm-elections-nuclear-weapon",
-          "title": "Trump tells UN Iran deal possible after US midterm elections",
-          "domain": "torontosun.com",
-          "seendate": "20260922T194500Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279321907/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering  blowing up  Iran",
-          "domain": "heraldglobe.com",
-          "seendate": "20260921T191500Z"
-        },
-        {
-          "url": "https://www.wxow.com/news/international/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/article_a9a465ef-e8ac-5885-962c-650682f48d66.html",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "wxow.com",
-          "seendate": "20260922T030000Z"
-        },
-        {
-          "url": "http://www.israelherald.com/news/279321892/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering blowing up Iran Fox News",
-          "domain": "israelherald.com",
-          "seendate": "20260921T193000Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279321892/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering blowing up Iran Fox News",
-          "domain": "heraldglobe.com",
-          "seendate": "20260921T191500Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279321892/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering blowing up Iran Fox News",
-          "domain": "middleeaststar.com",
-          "seendate": "20260921T200000Z"
-        },
-        {
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-update-oil-houthis-riyadh-b3053306.html",
-          "title": "Iran - US war live : Trump threatens to  blow the entire nation up  after Tehran warns of  painful strikes  ",
-          "domain": "independent.co.uk",
-          "seendate": "20260921T163000Z"
-        },
-        {
-          "url": "http://www.goskagit.com/news/world/irans-president-delivers-wartime-address-at-un-we-have-been-victims-of-terrorism/article_663abe11-0c05-5905-9849-4a1d908846c9.html",
-          "title": "Iran president delivers wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "goskagit.com",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.braunschweiger-zeitung.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "braunschweiger-zeitung.de",
-          "seendate": "20260920T161500Z"
-        },
-        {
-          "url": "https://www.harzkurier.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "harzkurier.de",
-          "seendate": "20260920T160000Z"
-        },
-        {
-          "url": "https://www.tlz.de/politik/article413113098/wichtiger-als-dutzende-atombomben-irans-xxl-hardliner-machen-gegen-trump-mobil.html",
-          "title": "Iran : Wichtiger als „ Dutzende Atombomben  – Hardliner machen gegen Trump mobil",
-          "domain": "tlz.de",
-          "seendate": "20260920T143000Z"
-        },
-        {
-          "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20260921212328/procesados-ocho-cargos-iranies-hezbola-acusados-atentado-amia-buenos-aires",
-          "title": "Procesados ocho cargos iraníes y de Hezbolá acusados del atentado de la AMIA de Buenos Aires",
-          "domain": "diariosigloxxi.com",
-          "seendate": "20260921T220000Z"
-        },
-        {
-          "url": "https://www.dailykos.com/stories/2026/9/20/800100961/community/its-official-the-tables-have-turned-in-the-us-versus-russia-china-nor-diplomatic-rivalry/",
-          "title": "It Official : The Tables Have Turned in the US - versus - Russia , China , North Korea , and Iran diplomatic rivalry",
-          "domain": "dailykos.com",
-          "seendate": "20260921T053000Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us",
-          "title": "What are Iran latest conditions to end its war with the US ? | US - Israel war on Iran News",
-          "domain": "aljazeera.com",
-          "seendate": "20260920T143000Z"
-        },
-        {
-          "url": "https://wiadomosci.gazeta.pl/swiat/7,198075,33039350,iran-zaostrza-warunki-porozumienia-z-usa-waszyngton-nie-ma.html",
-          "title": "Iran zaostrza warunki zakończenia wojny z united states .  Waszyngton nie ma innego wyboru  ",
-          "domain": "wiadomosci.gazeta.pl",
-          "seendate": "20260923T061500Z"
-        },
-        {
-          "url": "https://www.arabnews.com/middle-east/analysis-why-us-withdrawal-might-not-end-iraqs-militia-problem-3002638",
-          "title": "Arab News | Analysis : Why US withdrawal might not end Iraq militia problem",
-          "domain": "arabnews.com",
-          "seendate": "20260922T214500Z"
-        },
-        {
-          "url": "https://www.eurasiareview.com/23092026-has-trumps-failure-to-bomb-iran-into-capitulation-backfired-prompting-netanyahu-and-mbs-to-pull-washington-in-the-opposite-direction-oped/",
-          "title": "Has Trump Failure To Bomb Iran Into Capitulation Backfired , Prompting Netanyahu And MBS To Pull Washington In The Opposite Direction ? - OpEd",
-          "domain": "eurasiareview.com",
-          "seendate": "20260923T043000Z"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/09/22/unifil-counts-eight-fortified-bases-among-30-israeli-military-positions-in-south-lebanon/",
-          "title": "Unifil counts eight fortified bases among 30 Israeli military positions in south Lebanon",
-          "domain": "thenationalnews.com",
-          "seendate": "20260922T044500Z"
-        },
-        {
-          "url": "https://www.eurasiareview.com/21092026-americas-miscalculation-has-unleashed-a-region-it-can-no-longer-control-oped/",
-          "title": "America Miscalculation Has Unleashed A Region It Can No Longer Control - OpEd",
-          "domain": "eurasiareview.com",
-          "seendate": "20260921T040000Z"
-        },
-        {
-          "url": "https://www.juancole.com/2026/09/yemen-returned-conflict.html",
-          "title": "Why Yemen has returned to Conflict",
-          "domain": "juancole.com",
-          "seendate": "20260920T063000Z"
-        },
-        {
-          "url": "https://www.alternet.org/alternet-exclusives/gop-reckoning-trump/",
-          "title": "The GOP faces a reckoning for letting MAGA take the reins",
-          "domain": "alternet.org",
-          "seendate": "20260920T141500Z"
-        },
-        {
-          "url": "https://ktvz.com/news/national-world/cnn-world/2026/09/21/gulf-leaders-meet-trump-with-two-fears-more-war-and-less-us-protection/",
-          "title": "Gulf leaders meet Trump with two fears : more war and less US protection",
-          "domain": "ktvz.com",
-          "seendate": "20260922T071500Z"
-        },
-        {
-          "url": "https://www.nakedcapitalism.com/2026/09/the-urgency-of-recognizing-the-ansar-allah-government-in-yemen.html",
-          "title": "The Urgency of Recognizing the Ansar Allah Government in Yemen",
-          "domain": "nakedcapitalism.com",
-          "seendate": "20260923T071500Z"
-        },
-        {
-          "url": "https://www.elwatannews.com/news/details/8362805",
-          "title": "نائبة مدير برنامج السياسة الخارجية في « بروكينجز »: واشنطن لم تحسم المعركة في إيران استراتيجيا و « هرمز » أصبح ورقة ضغط",
-          "domain": "elwatannews.com",
-          "seendate": "20260921T181500Z"
-        },
-        {
-          "url": "https://dominicanrepublicpost.com/what-are-irans-latest-conditions-to-end-its-war-with-the-us/",
-          "title": "What are Iran latest conditions to end its war with the US ? - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-          "domain": "dominicanrepublicpost.com",
-          "seendate": "20260920T143000Z"
-        },
-        {
-          "url": "https://www.komu.com/news/nationworld/gulf-leaders-meet-trump-with-two-fears-more-war-and-less-us-protection/article_032d2521-1ebe-5bba-9eb0-49d91d26bf6b.html",
-          "title": "Gulf leaders meet Trump fearing more war and less protection | Nation & World News",
-          "domain": "komu.com",
-          "seendate": "20260922T160000Z"
-        },
-        {
-          "url": "https://www.news8000.com/news/politics/national-politics/gulf-leaders-meet-trump-with-two-fears-more-war-and-less-us-protection/article_bfe10825-208b-5c73-9270-cfe26bac4804.html",
-          "title": "Gulf leaders meet Trump with two fears : more war and less US protection",
-          "domain": "news8000.com",
-          "seendate": "20260922T160000Z"
-        },
-        {
-          "url": "https://www.cavalierdaily.com/article/2026/09/with-midterm-elections-approaching-miller-center-experts-share-foresight",
-          "title": "With midterm elections approaching , Miller Center experts share foresight",
-          "domain": "cavalierdaily.com",
-          "seendate": "20260923T034500Z"
-        },
-        {
-          "url": "https://peakoil.com/generalideas/heres-all-the-dumb-oil-wars-that-electric-cars-have-nothing-to-do-with",
-          "title": "Here all the dumb oil wars that electric cars have nothing to do with  | Peak Oil News and Message Boards",
-          "domain": "peakoil.com",
-          "seendate": "20260920T031500Z"
-        },
-        {
-          "url": "https://www.pressenza.com/2026/09/the-urgency-of-recognizing-the-ansar-allah-government-in-yemen/",
-          "title": "The Urgency of Recognizing the Ansar Allah Government in Yemen",
-          "domain": "pressenza.com",
-          "seendate": "20260923T021500Z"
-        },
-        {
-          "url": "https://www.woonsocketcall.com/news/national_and_world_news/the-latest-china-s-xi-to-kick-off-visit-to-washington-with-a-rare-planeside/article_ce51ba2a-b244-56ad-9150-597053e8ef34.html",
-          "title": "The Latest : China Xi to kick off visit to Washington with a rare planeside welcome from Trump | National And World News",
-          "domain": "woonsocketcall.com",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "http://www.iraqsun.com/news/279324923/the-urgency-of-recognizing-the-ansar-allah-government-in-yemen",
-          "title": "The Urgency of Recognizing the Ansar Allah Government in Yemen",
-          "domain": "iraqsun.com",
-          "seendate": "20260923T031500Z"
-        },
-        {
-          "url": "https://www.union-bulletin.com/news/national/the-latest-china-s-xi-to-kick-off-visit-to-washington-with-a-rare-planeside/article_198256d2-cb3f-56e4-bab5-c8cbad8c90cd.html",
-          "title": "The Latest : China Xi to kick off visit to Washington with a rare planeside welcome from Trump | National",
-          "domain": "union-bulletin.com",
-          "seendate": "20260923T151500Z"
-        }
-      ]
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "trump_china",
@@ -624,17 +79,17 @@
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.625,
-      "is_pre_round": true,
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.7429,
+      "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "cross_lang_correlation": 0.7071,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -655,8 +110,8 @@
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -668,39 +123,17 @@
       }
     },
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
       "composite_score": 0.625,
-      "is_pre_round": false,
+      "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_OCT24",
-      "reference_type": "pre-round",
-      "composite_score": 0.2083,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -714,15 +147,37 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.4712,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 1.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.3046,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -736,10 +191,10 @@
   ],
   "comparison_table_21day": [
     {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
       "composite_score": 0.4583,
-      "is_pre_round": true,
+      "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
@@ -758,10 +213,10 @@
       }
     },
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
       "composite_score": 0.4583,
-      "is_pre_round": false,
+      "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
@@ -848,15 +303,15 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 47.5684,
-      "volume_mean_daily": 0.6428,
-      "volume_peak": 1.4778,
-      "days_active": 74,
-      "articles_en": 0,
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
+      "articles_en": 250,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 0,
+      "unique_domains_total": 160,
       "tone_mean": null
     },
     "window_21d": {

@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-23T16:12:40.573634+00:00",
+  "updated_at": "2026-09-25T16:37:25.521706+00:00",
   "short_term": {
     "score": 62,
     "status_he": "מתוח",
-    "avg_7day": 52,
-    "delta_vs_avg": 10
+    "avg_7day": 53,
+    "delta_vs_avg": 9
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-09-08T03:06:09.482312+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-09-10T03:07:58.289151+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-09-23T16:12:40.571658+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-25T16:37:25.520305+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-07-05T13:31:56.223687+00:00",
-        "score": 50
-      },
       {
         "ts": "2026-07-06T03:01:49.680240+00:00",
         "score": 46
@@ -356,18 +352,22 @@
       {
         "ts": "2026-09-23T16:12:40.571658+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-09-25T16:37:25.520305+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
-        "label": "טרום פבר' 2026",
-        "score": 46,
-        "is_pre_conflict": true
-      },
-      {
         "label": "אחרי פבר' 2026",
         "score": 46,
         "is_pre_conflict": false
+      },
+      {
+        "label": "טרום פבר' 2026",
+        "score": 46,
+        "is_pre_conflict": true
       },
       {
         "label": "שקט ינו' 2026",
@@ -387,24 +387,8 @@
     ]
   },
   "sources": {
-    "list": [
-      "abendblatt.de",
-      "al-monitor.com",
-      "Al Jazeera",
-      "alternet.org",
-      "arabi21.com",
-      "arabnews.com",
-      "bankier.pl",
-      "bokra.net",
-      "bracknellnews.co.uk",
-      "braunschweiger-zeitung.de",
-      "burytimes.co.uk",
-      "canyon-news.com",
-      "cavalierdaily.com",
-      "channelnewsasia.com",
-      "clactonandfrintongazette.co.uk"
-    ],
-    "total_count": 85,
-    "articles_72h": null
+    "list": [],
+    "total_count": 0,
+    "articles_72h": 250
   }
 }
