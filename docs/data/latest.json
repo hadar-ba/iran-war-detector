@@ -1,9 +1,9 @@
 {
-  "timestamp_utc": "2026-09-28T19:20:42.327963+00:00",
+  "timestamp_utc": "2026-09-29T04:15:02.975062+00:00",
   "status": "green",
   "headline_score_7day": 46,
   "headline_score_21day": 46,
-  "score_jump": -16,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
@@ -24,7 +24,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [
         "https://www.arkansasonline.com/news/2026/sep/28/us-iran-talks-go-on-despite-rejected-offer/",
         "https://www.is.fi/ulkomaat/art-2000012303643.html",
@@ -62,6 +62,18 @@
           "seendate": "20260924T053000Z"
         },
         {
+          "url": "https://www.163.com/dy/article/L7URNGML053469LG.html",
+          "title": "伊朗最高领袖 ： 伊朗现已变得独立 、 强大",
+          "domain": "163.com",
+          "seendate": "20260929T004500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1877611485209758012",
+          "title": "总台记者观察丨伊朗已失去对美信任 但伊美间接沟通渠道仍存",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20260928T214500Z"
+        },
+        {
           "url": "http://www.idahostatejournal.com/news/national/palestinian-death-toll-in-gaza-war-passes-74-000-and-other-mideast-news/article_52c9b6a0-d2ad-5acb-9fda-7f699666b089.html",
           "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
           "domain": "idahostatejournal.com",
@@ -86,12 +98,6 @@
           "seendate": "20260923T070000Z"
         },
         {
-          "url": "https://www.elwatannews.com/news/details/8364077",
-          "title": "عاجل .. بزشكيان في الأمم المتحدة : إسرائيل تقتل وإيران تُفرض عليها العقوبات",
-          "domain": "elwatannews.com",
-          "seendate": "20260923T153000Z"
-        },
-        {
           "url": "https://www.hindustantimes.com/world-news/iran-pressed-to-make-nuclear-concessions-to-revive-peace-talks-with-us-101790593651962.html",
           "title": "Iran Pressed to Make Nuclear Concessions to Revive Peace Talks With U . S . ",
           "domain": "hindustantimes.com",
@@ -104,16 +110,22 @@
           "seendate": "20260928T041500Z"
         },
         {
-          "url": "https://nationnews.com/2026/09/23/us-and-iran-hold-first-talks-since-june-after-trumps-annihilation-threat/",
-          "title": "US and Iran hold first talks since June after Trump  annihilation  threat",
-          "domain": "nationnews.com",
-          "seendate": "20260925T014500Z"
-        },
-        {
           "url": "https://www.yakimaherald.com/news/nation_and_world/nation/palestinian-death-toll-in-gaza-war-passes-74-000-and-other-mideast-news/article_77395658-3356-5821-b0fb-843e91a58d81.html",
           "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
           "domain": "yakimaherald.com",
           "seendate": "20260927T201500Z"
+        },
+        {
+          "url": "https://www.elwatannews.com/news/details/8364077",
+          "title": "عاجل .. بزشكيان في الأمم المتحدة : إسرائيل تقتل وإيران تُفرض عليها العقوبات",
+          "domain": "elwatannews.com",
+          "seendate": "20260923T153000Z"
+        },
+        {
+          "url": "https://nationnews.com/2026/09/23/us-and-iran-hold-first-talks-since-june-after-trumps-annihilation-threat/",
+          "title": "US and Iran hold first talks since June after Trump  annihilation  threat",
+          "domain": "nationnews.com",
+          "seendate": "20260925T014500Z"
         },
         {
           "url": "https://www.middleeasteye.net/news/iran-and-us-held-direct-un-talks-islamic-republic-terms-reopen-hormuz-hardening",
@@ -140,10 +152,22 @@
           "seendate": "20260927T211500Z"
         },
         {
+          "url": "http://www.cfi.net.cn/p20260929000129.html",
+          "title": "伊朗私下悲观 ： 11月前难达协议 ， 特朗普否认愿给制裁和资产让步 - CFi . CN 中财网",
+          "domain": "cfi.net.cn",
+          "seendate": "20260929T020000Z"
+        },
+        {
           "url": "https://www.journalgazette.net/news/national/iranian-president-masoud-pezeshkian-delivers-wartime-address-at-united-nations-we-have-been-victims-of/article_40fa863d-3276-5be5-917b-869a022c1b41.html",
           "title": "Iranian President Masoud Pezeshkian delivers wartime address at United Nations : We have been  victims of terrorism  ",
           "domain": "journalgazette.net",
           "seendate": "20260923T180000Z"
+        },
+        {
+          "url": "https://www.pasadenastarnews.com/2026/09/27/palestinian-death-toll-in-gaza-war-passes-74000-and-other-mideast-news/",
+          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
+          "domain": "pasadenastarnews.com",
+          "seendate": "20260927T211500Z"
         },
         {
           "url": "http://global.chinadaily.com.cn/a/202609/24/WS6ab4805fe4b06d4aa055fef5.html",
@@ -158,22 +182,16 @@
           "seendate": "20260924T024500Z"
         },
         {
-          "url": "https://www.ibtimes.co.uk/pezeshkian-un-speech-us-delegation-walkout-1821672",
-          "title": "US Delegate Walks Out as Iran President Pezeshkian Says at UN :  We Have Been the Victims of Terrorism  ",
-          "domain": "ibtimes.co.uk",
-          "seendate": "20260924T100000Z"
-        },
-        {
-          "url": "https://www.pasadenastarnews.com/2026/09/27/palestinian-death-toll-in-gaza-war-passes-74000-and-other-mideast-news/",
-          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
-          "domain": "pasadenastarnews.com",
-          "seendate": "20260927T211500Z"
-        },
-        {
           "url": "https://news.webindia123.com/news/Articles/World/20260927/4503984.html",
           "title": "Iran FM Araghchi says  waiting for definitive opinions  from mediators on 7 - day ceasefire proposal to US",
           "domain": "news.webindia123.com",
           "seendate": "20260927T093000Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/pezeshkian-un-speech-us-delegation-walkout-1821672",
+          "title": "US Delegate Walks Out as Iran President Pezeshkian Says at UN :  We Have Been the Victims of Terrorism  ",
+          "domain": "ibtimes.co.uk",
+          "seendate": "20260924T100000Z"
         },
         {
           "url": "https://musavat.com/news/iran-noyabra-qeder-birlesmis-statlara-vaxt-verdi-ne-deyisecek_1291735.html",
@@ -188,6 +206,12 @@
           "seendate": "20260923T223000Z"
         },
         {
+          "url": "https://www.zaobao.com.sg/news/world/story20260927-9744947",
+          "title": "特朗普回拒伊朗方案 霍尔木兹海峡条件绝不妥协",
+          "domain": "zaobao.com.sg",
+          "seendate": "20260927T140000Z"
+        },
+        {
           "url": "https://wallstreetcn.com/articles/3782286",
           "title": "油价五连跌后首次反弹 ， 市场静待美伊谈判信号",
           "domain": "wallstreetcn.com",
@@ -198,12 +222,6 @@
           "title": "Iran president defies Trump at UNGA , vows not to  bend the knee  ",
           "domain": "siasat.com",
           "seendate": "20260924T054500Z"
-        },
-        {
-          "url": "https://www.zaobao.com.sg/news/world/story20260927-9744947",
-          "title": "特朗普回拒伊朗方案 霍尔木兹海峡条件绝不妥协",
-          "domain": "zaobao.com.sg",
-          "seendate": "20260927T140000Z"
         },
         {
           "url": "https://www.stiripesurse.ro/teheranul-vine-cu-o-oferta-surpriza-catre-sua-stramtoarea-hormuz-ar-putea-fi-redeschisa-in-7-zile-ce-conditie-pun-iranienii_3922181",
@@ -224,10 +242,16 @@
           "seendate": "20260927T171500Z"
         },
         {
-          "url": "https://aa.com.tr/en/europe/france-seeks-indias-role-on-hormuz-strait-welcomes-pakistans-iran-us-mediation/4063742",
-          "title": "France seeks India role on Hormuz Strait , welcomes Pakistan Iran - US mediation",
-          "domain": "aa.com.tr",
-          "seendate": "20260922T000000Z"
+          "url": "https://news.obozrevatel.com/ukr/abroad/novi-zayavi-trampa-pro-rosijsko-ukrainsku-vijnu-abo-yak-zakinchuyutsya-vijni.htm",
+          "title": "Ігор Айзенберг : Нові заяви Трампа про російсько - українську війну , або Як закінчуються війни Блоги",
+          "domain": "news.obozrevatel.com",
+          "seendate": "20260927T171500Z"
+        },
+        {
+          "url": "https://www.endtime.com/prophecy-news/u-s-iran-talks-resume-as-war-hangs-in-the-balance/",
+          "title": "U . S .- Iran Talks Resume as War Hangs in the Balance – Endtime Ministries",
+          "domain": "endtime.com",
+          "seendate": "20260928T164500Z"
         },
         {
           "url": "https://www.military.com/in-defiant-speech-pezeshkian-calls-out-trump-and-says-iran-will-fight-until-our-last-breath",
@@ -248,40 +272,10 @@
           "seendate": "20260923T211500Z"
         },
         {
-          "url": "https://news.obozrevatel.com/ukr/abroad/novi-zayavi-trampa-pro-rosijsko-ukrainsku-vijnu-abo-yak-zakinchuyutsya-vijni.htm",
-          "title": "Ігор Айзенберг : Нові заяви Трампа про російсько - українську війну , або Як закінчуються війни Блоги",
-          "domain": "news.obozrevatel.com",
-          "seendate": "20260927T171500Z"
-        },
-        {
           "url": "https://www.kob.com/ap-top-news/ap-top-news-international/in-defiant-speech-pezeshkian-calls-out-trump-and-says-iran-will-fight-until-our-last-breath/",
           "title": "In defiant speech , Pezeshkian calls out Trump and says Iran will fight  until our last breath  ",
           "domain": "kob.com",
           "seendate": "20260923T194500Z"
-        },
-        {
-          "url": "https://www.ukrinform.ua/rubric-world/4167300-prezident-iranu-zapevnae-so-kraina-ne-pragne-mati-adernu-zbrou.html",
-          "title": "Президент Ірану запевняє , що країна не прагне мати ядерну зброю",
-          "domain": "ukrinform.ua",
-          "seendate": "20260923T181500Z"
-        },
-        {
-          "url": "https://news.ifeng.com/c/8wfXawVnnVs",
-          "title": "多国领导人联大聚焦中东局势 ， 特朗普 ： 面临重大抉择",
-          "domain": "news.ifeng.com",
-          "seendate": "20260925T041500Z"
-        },
-        {
-          "url": "https://wsvn.com/news/politics/in-defiant-speech-pezeshkian-calls-out-trump-and-says-iran-will-fight-until-our-last-breath/",
-          "title": "In defiant speech , Pezeshkian calls out Trump and says Iran will fight  until our last breath  - WSVN 7News | Miami News , Weather , Sports",
-          "domain": "wsvn.com",
-          "seendate": "20260923T223000Z"
-        },
-        {
-          "url": "https://www.endtime.com/prophecy-news/u-s-iran-talks-resume-as-war-hangs-in-the-balance/",
-          "title": "U . S .- Iran Talks Resume as War Hangs in the Balance – Endtime Ministries",
-          "domain": "endtime.com",
-          "seendate": "20260928T164500Z"
         },
         {
           "url": "https://www.sudouest.fr:443/international/iran/moyen-orient-ils-sont-en-train-de-mechamment-perdre-l-iran-maintient-ses-conditions-pour-rouvrir-le-detroit-d-ormuz-malgre-le-refus-de-donald-trump-30800982.php",
@@ -296,6 +290,42 @@
           "seendate": "20260927T063000Z"
         },
         {
+          "url": "https://www.ukrinform.ua/rubric-world/4167300-prezident-iranu-zapevnae-so-kraina-ne-pragne-mati-adernu-zbrou.html",
+          "title": "Президент Ірану запевняє , що країна не прагне мати ядерну зброю",
+          "domain": "ukrinform.ua",
+          "seendate": "20260923T181500Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/palestinian-death-toll-in-gaza-war-passes-74-000-and-other-mideast-news/article_7bf996cd-8163-50c8-ae77-750e4e39cf3e.html",
+          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
+          "domain": "thegazette.com",
+          "seendate": "20260927T143000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8wfXawVnnVs",
+          "title": "多国领导人联大聚焦中东局势 ， 特朗普 ： 面临重大抉择",
+          "domain": "news.ifeng.com",
+          "seendate": "20260925T041500Z"
+        },
+        {
+          "url": "https://wsvn.com/news/politics/in-defiant-speech-pezeshkian-calls-out-trump-and-says-iran-will-fight-until-our-last-breath/",
+          "title": "In defiant speech , Pezeshkian calls out Trump and says Iran will fight  until our last breath  - WSVN 7News | Miami News , Weather , Sports",
+          "domain": "wsvn.com",
+          "seendate": "20260923T223000Z"
+        },
+        {
+          "url": "https://www.slobodna-bosna.ba/vijest/507405/slijepa_ulica_ili_novi_rat_hoce_li_odbijanje_diplomatije_gurnuti_bliski_istok_u_jos_dublji_sukob.html",
+          "title": "SLIJEPA ULICA ILI NOVI RAT ?: Hoće li odbijanje diplomatije gurnuti Bliski istok u još dublji sukob ? ",
+          "domain": "slobodna-bosna.ba",
+          "seendate": "20260927T080000Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/96b10-palestinian-death-toll-in-gaza-war-rises-above-74-000-since-the-war-began-and-other-mideast-news/",
+          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
+          "domain": "wral.com",
+          "seendate": "20260927T161500Z"
+        },
+        {
           "url": "https://lasvegassun.com/news/2026/sep/23/in-defiant-speech-pezeshkian-calls-out-trump-and-s/",
           "title": "In defiant speech , Pezeshkian calls out Trump and says Iran will fight  until our last breath  - Las Vegas Sun News",
           "domain": "lasvegassun.com",
@@ -308,28 +338,28 @@
           "seendate": "20260923T181500Z"
         },
         {
-          "url": "https://www.slobodna-bosna.ba/vijest/507405/slijepa_ulica_ili_novi_rat_hoce_li_odbijanje_diplomatije_gurnuti_bliski_istok_u_jos_dublji_sukob.html",
-          "title": "SLIJEPA ULICA ILI NOVI RAT ?: Hoće li odbijanje diplomatije gurnuti Bliski istok u još dublji sukob ? ",
-          "domain": "slobodna-bosna.ba",
-          "seendate": "20260927T080000Z"
+          "url": "https://aninews.in/news/world/middle-east/will-stand-until-our-last-breath8221-prez-pezeshkian-says-iran-will-not-retreat-as-trump-rejects-ceasefire-proposal20260927080143/",
+          "title": "  Will stand until our last breath : Prez Pezeshkian says Iran will not retreat as Trump rejects ceasefire proposal",
+          "domain": "aninews.in",
+          "seendate": "20260927T040000Z"
         },
         {
-          "url": "http://www.thegazette.com/news/national/palestinian-death-toll-in-gaza-war-passes-74-000-and-other-mideast-news/article_7bf996cd-8163-50c8-ae77-750e4e39cf3e.html",
-          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
-          "domain": "thegazette.com",
-          "seendate": "20260927T143000Z"
+          "url": "https://www.presstv.co.uk/Detail/2026/09/28/777206/iranian-delegation-will-hold-talks-with-mediators-in-new-york--report",
+          "title": "Iranian delegation will hold talks with mediators in New York : Report",
+          "domain": "presstv.co.uk",
+          "seendate": "20260928T190000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/seven-conditions-one-chokepoint-and-no-talks-iran-shuts-door-on-us-negotiations-over-hormuz-article-14040097.html",
+          "title": "Seven conditions , one chokepoint and no talks : Iran shuts door on US negotiations over Hormuz",
+          "domain": "moneycontrol.com",
+          "seendate": "20260928T110000Z"
         },
         {
           "url": "https://lb.ua/world/2026/09/23/768394_prezident_iranu_zayaviv_scho.html",
           "title": "Президент Ірану Пезешкіан : Тегеран не прагне ядерної зброї новини LB . ua",
           "domain": "lb.ua",
           "seendate": "20260923T191500Z"
-        },
-        {
-          "url": "https://www.wral.com/news/ap/96b10-palestinian-death-toll-in-gaza-war-rises-above-74-000-since-the-war-began-and-other-mideast-news/",
-          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
-          "domain": "wral.com",
-          "seendate": "20260927T161500Z"
         },
         {
           "url": "https://www.trthaber.com/haber/dunya/pezeskiyan-bmde-diplomasiye-haziriz-ancak-savastan-korkmuyoruz-mesaji-verdi-957870.html",
@@ -342,18 +372,6 @@
           "title": "Pezeşkiyandan ABD ve İsraile sert mesajlar :  Kabul etmiyoruz  ",
           "domain": "bursahakimiyet.com.tr",
           "seendate": "20260923T220000Z"
-        },
-        {
-          "url": "https://aninews.in/news/world/middle-east/will-stand-until-our-last-breath8221-prez-pezeshkian-says-iran-will-not-retreat-as-trump-rejects-ceasefire-proposal20260927080143/",
-          "title": "  Will stand until our last breath : Prez Pezeshkian says Iran will not retreat as Trump rejects ceasefire proposal",
-          "domain": "aninews.in",
-          "seendate": "20260927T040000Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/seven-conditions-one-chokepoint-and-no-talks-iran-shuts-door-on-us-negotiations-over-hormuz-article-14040097.html",
-          "title": "Seven conditions , one chokepoint and no talks : Iran shuts door on US negotiations over Hormuz",
-          "domain": "moneycontrol.com",
-          "seendate": "20260928T110000Z"
         },
         {
           "url": "https://www.163.com/dy/article/L7I6N4NP0514R9P4.html",
@@ -374,10 +392,40 @@
           "seendate": "20260923T200000Z"
         },
         {
+          "url": "http://www.jpost.com/middle-east/iran-news/article-909922",
+          "title": "Mediators pressing Iran for nuclear program concessions for US peace talks",
+          "domain": "jpost.com",
+          "seendate": "20260928T073000Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/iran-news/article-909922",
+          "title": "Mediators pressing Iran for nuclear program concessions for US peace talks",
+          "domain": "jpost.com",
+          "seendate": "20260928T073000Z"
+        },
+        {
+          "url": "https://www.moonofalabama.org/2026/09/war-on-iran-economic-pressure-is-not-a-one-way-road.html/comment-page-3",
+          "title": "War On Iran : Economic Pressure Is Not A One - Way Road – Moon of Alabama",
+          "domain": "moonofalabama.org",
+          "seendate": "20260927T144500Z"
+        },
+        {
           "url": "https://lb.ua/world/2026/09/23/768174_rubio_vvazhaie_scho_viyna_rosiyi.html",
           "title": "Марко Рубіо : війна РФ проти України завершиться переговорами",
           "domain": "lb.ua",
           "seendate": "20260923T053000Z"
+        },
+        {
+          "url": "https://www.humanite.fr/monde/cisjordanie/les-joueurs-irlandais-en-brassards-noirs-contre-israel-trump-impose-son-agenda-a-liran-le-president-serbe-demissionne-tel-aviv-sattaque-aux-diplomates-neerlandais-notre-r",
+          "title": "Les joueurs irlandais en brassard noir contre Israël , Trump impose son agenda à lIran , le président serbe démissionne , Tel - Aviv sattaque aux diplomates néerlandais … Notre récap de lactualité internationale",
+          "domain": "humanite.fr",
+          "seendate": "20260928T070000Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/national/palestinian-death-toll-in-gaza-war-passes-74-000-and-other-mideast-news/article_f9ab7ac4-8137-5c26-b044-3bb3caea3a50.html",
+          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
+          "domain": "dailyadvance.com",
+          "seendate": "20260927T161500Z"
         },
         {
           "url": "https://tr.euronews.com/2026/09/23/pezeskiyandan-bm-kursusunde-trumpa-sert-yanit-abd-heyeti-salonu-terk-etti",
@@ -392,28 +440,16 @@
           "seendate": "20260924T104500Z"
         },
         {
-          "url": "https://www.jpost.com/middle-east/iran-news/article-909922",
-          "title": "Mediators pressing Iran for nuclear program concessions for US peace talks",
-          "domain": "jpost.com",
-          "seendate": "20260928T073000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/article-909922",
-          "title": "Mediators pressing Iran for nuclear program concessions for US peace talks",
-          "domain": "jpost.com",
-          "seendate": "20260928T073000Z"
-        },
-        {
           "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvumx0996195.shtml",
           "title": "伊朗总统佩泽希齐扬在联合国大会讲话要点一览",
           "domain": "finance.sina.com.cn",
           "seendate": "20260923T151500Z"
         },
         {
-          "url": "https://www.moonofalabama.org/2026/09/war-on-iran-economic-pressure-is-not-a-one-way-road.html/comment-page-3",
-          "title": "War On Iran : Economic Pressure Is Not A One - Way Road – Moon of Alabama",
-          "domain": "moonofalabama.org",
-          "seendate": "20260927T144500Z"
+          "url": "https://www.thenationalnews.com/news/us/2026/09/27/iran-apocalyptic-war/",
+          "title": "Iran steadfast even if it comes to  apocalyptic war , Foreign Minister says",
+          "domain": "thenationalnews.com",
+          "seendate": "20260927T214500Z"
         },
         {
           "url": "https://www.pilotonline.com/2026/09/23/iran-president-un-address/",
@@ -422,16 +458,16 @@
           "seendate": "20260923T170000Z"
         },
         {
-          "url": "https://www.humanite.fr/monde/cisjordanie/les-joueurs-irlandais-en-brassards-noirs-contre-israel-trump-impose-son-agenda-a-liran-le-president-serbe-demissionne-tel-aviv-sattaque-aux-diplomates-neerlandais-notre-r",
-          "title": "Les joueurs irlandais en brassard noir contre Israël , Trump impose son agenda à lIran , le président serbe démissionne , Tel - Aviv sattaque aux diplomates néerlandais … Notre récap de lactualité internationale",
-          "domain": "humanite.fr",
-          "seendate": "20260928T070000Z"
-        },
-        {
           "url": "https://www.middleeasteye.net/news/we-will-never-bow-our-head-irans-president-strikes-defiant-tone-un-speech",
           "title": "  We will never bow our head : Iran president strikes defiant tone in UN speech",
           "domain": "middleeasteye.net",
           "seendate": "20260923T190000Z"
+        },
+        {
+          "url": "https://www.prokerala.com/news/articles/a1817956.html",
+          "title": "Gulf War : UAE stresses diplomacy to resolve disputes",
+          "domain": "prokerala.com",
+          "seendate": "20260928T210000Z"
         },
         {
           "url": "https://www.ilgiornale.it/diretta/guerra/pezeshkian-allonu-liran-e-vittima-di-terrorismo-ma-teheran-minaccia-attacchi-ai-paesi-vicini-che-sostengono-sanzioni-usa/",
@@ -444,12 +480,6 @@
           "title": "美伊间接谈判完成一轮 ， 油价中的风险溢价还剩多少 ？_ 期市动态 _ 期货 _ 中金在线",
           "domain": "futures.cnfol.com",
           "seendate": "20260923T064500Z"
-        },
-        {
-          "url": "http://www.dailyadvance.com/news/national/palestinian-death-toll-in-gaza-war-passes-74-000-and-other-mideast-news/article_f9ab7ac4-8137-5c26-b044-3bb3caea3a50.html",
-          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
-          "domain": "dailyadvance.com",
-          "seendate": "20260927T161500Z"
         },
         {
           "url": "http://gold.cnfol.com/guojiyuanyousc/20260924/32379820.shtml",
@@ -470,10 +500,22 @@
           "seendate": "20260924T071500Z"
         },
         {
-          "url": "https://www.thenationalnews.com/news/us/2026/09/27/iran-apocalyptic-war/",
-          "title": "Iran steadfast even if it comes to  apocalyptic war , Foreign Minister says",
-          "domain": "thenationalnews.com",
-          "seendate": "20260927T214500Z"
+          "url": "https://www.haksozhaber.net/iran-hurmuzun-acilmasi-icin-sundugumuz-sartlara-arabuluculardan-henuz-kesin-yanit-261689h.htm",
+          "title": "İran : Hürmüz  ün açılması için sunduğumuz şartlara arabuluculardan henüz kesin yanıt gelmedi",
+          "domain": "haksozhaber.net",
+          "seendate": "20260927T140000Z"
+        },
+        {
+          "url": "https://zn.ua/ukr/WORLD/iran-znovu-napoljahaje-na-diplomatiji-pislja-toho-jak-tramp-vidkhiliv-joho-mirnij-plan.html",
+          "title": "Війна США з Іраном - Тегеран прокоментував відмову Трампа від мирної пропозиції",
+          "domain": "zn.ua",
+          "seendate": "20260927T083000Z"
+        },
+        {
+          "url": "http://www.econotimes.com/Iran-Says-Diplomacy-Only-Path-to-End-US-Israel-Conflict-1753154",
+          "title": "Iran Says Diplomacy Only Path to End U . S .- Israel Conflict",
+          "domain": "econotimes.com",
+          "seendate": "20260927T051500Z"
         },
         {
           "url": "https://countercurrents.org/2026/09/might-makes-right-will-end-pax-americana/",
@@ -494,12 +536,6 @@
           "seendate": "20260923T223000Z"
         },
         {
-          "url": "https://www.haksozhaber.net/iran-hurmuzun-acilmasi-icin-sundugumuz-sartlara-arabuluculardan-henuz-kesin-yanit-261689h.htm",
-          "title": "İran : Hürmüz  ün açılması için sunduğumuz şartlara arabuluculardan henüz kesin yanıt gelmedi",
-          "domain": "haksozhaber.net",
-          "seendate": "20260927T140000Z"
-        },
-        {
           "url": "https://www.journalgazette.net/news/world/iranian-president-delivers-wartime-address-at-un-we-have-been-victims-of-terrorism/article_40fa863d-3276-5be5-917b-869a022c1b41.html",
           "title": "Iranian president delivers wartime address at UN : We have been  victims of terrorism  ",
           "domain": "journalgazette.net",
@@ -512,16 +548,10 @@
           "seendate": "20260923T181500Z"
         },
         {
-          "url": "https://zn.ua/ukr/WORLD/iran-znovu-napoljahaje-na-diplomatiji-pislja-toho-jak-tramp-vidkhiliv-joho-mirnij-plan.html",
-          "title": "Війна США з Іраном - Тегеран прокоментував відмову Трампа від мирної пропозиції",
-          "domain": "zn.ua",
-          "seendate": "20260927T083000Z"
-        },
-        {
-          "url": "http://www.econotimes.com/Iran-Says-Diplomacy-Only-Path-to-End-US-Israel-Conflict-1753154",
-          "title": "Iran Says Diplomacy Only Path to End U . S .- Israel Conflict",
-          "domain": "econotimes.com",
-          "seendate": "20260927T051500Z"
+          "url": "https://www.hurriyet.com.tr/dunya/bm-kursusunden-cozum-cikmadi-liderler-gitti-krizler-kaldi-43320809",
+          "title": "BM kürsüsnden züm çıkmadı … Liderler gitti krizler kaldı",
+          "domain": "hurriyet.com.tr",
+          "seendate": "20260927T050000Z"
         },
         {
           "url": "https://www.inewsgr.com/351/pezeskian-ston-oie-to-iran-einai-thyma-tromokratias--ipa-kai-israil-dolofonisan-tous-polites-mas.htm",
@@ -542,10 +572,28 @@
           "seendate": "20260923T060000Z"
         },
         {
-          "url": "https://www.hurriyet.com.tr/dunya/bm-kursusunden-cozum-cikmadi-liderler-gitti-krizler-kaldi-43320809",
-          "title": "BM kürsüsnden züm çıkmadı … Liderler gitti krizler kaldı",
-          "domain": "hurriyet.com.tr",
-          "seendate": "20260927T050000Z"
+          "url": "https://www.dailybulletin.com/2026/09/27/palestinian-death-toll-in-gaza-war-passes-74000-and-other-mideast-news/",
+          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
+          "domain": "dailybulletin.com",
+          "seendate": "20260927T174500Z"
+        },
+        {
+          "url": "https://www.sbsun.com/2026/09/27/palestinian-death-toll-in-gaza-war-passes-74000-and-other-mideast-news/",
+          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
+          "domain": "sbsun.com",
+          "seendate": "20260927T200000Z"
+        },
+        {
+          "url": "https://www.islamicinvitationturkey.com/pezeshkian-iran-no-longer-trusts-us-after-being-attacked-twice-during-talks/",
+          "title": "Pezeshkian : Iran  No Longer  Trusts US After Being Attacked Twice During Talks",
+          "domain": "islamicinvitationturkey.com",
+          "seendate": "20260927T140000Z"
+        },
+        {
+          "url": "https://www.theyeshivaworld.com/news/israel-news/2603718/israel-attack-guarantee-iran-wants-assurances-before-making-nuclear-concessions-report-says.html",
+          "title": "ISRAEL ATTACK GUARANTEE : Iran Wants Assurances Before Making Nuclear Concessions , Report Says",
+          "domain": "theyeshivaworld.com",
+          "seendate": "20260928T224500Z"
         },
         {
           "url": "https://www1.pluska.sk/spravy/teheran-navrhol-usa-7-dnovy-plan-podmienky-na-koniec-vojny",
@@ -566,6 +614,24 @@
           "seendate": "20260923T161500Z"
         },
         {
+          "url": "https://www.oneindia.com/international/iran-offers-7-day-plan-to-reopen-strait-of-hormuz-us-rejects-offer-8218015.html",
+          "title": "Iran Offers 7 - Day Plan To Reopen Strait Of Hormuz , US Rejects Offer",
+          "domain": "oneindia.com",
+          "seendate": "20260928T053000Z"
+        },
+        {
+          "url": "https://www.alquds.co.uk/%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%AE%D8%B7%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D8%AF-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%A9-%D9%85%D8%B9%D9%82%D9%88%D9%84%D8%A9-%D8%AC%D8%AF%D8%A7-%D9%88%D8%B1%D9%81/",
+          "title": "طهران : خطة البنود السبعة معقولة جدا ورفضها سيكون خطأ أمريكيا",
+          "domain": "alquds.co.uk",
+          "seendate": "20260927T191500Z"
+        },
+        {
+          "url": "http://thepeninsulaqatar.com/article/27/09/2026/indirect-us-iran-talks-make-some-positive-progress-pm",
+          "title": "Indirect US - Iran talks make  some positive progres : PM | The Peninsula Qatar",
+          "domain": "thepeninsulaqatar.com",
+          "seendate": "20260927T081500Z"
+        },
+        {
           "url": "https://www.siasat.com/iran-proposes-seven-day-roadmap-to-reopen-strait-of-hormuz-3547899/",
           "title": "Iran proposes seven - day roadmap to reopen Strait of Hormuz",
           "domain": "siasat.com",
@@ -584,12 +650,6 @@
           "seendate": "20260923T151500Z"
         },
         {
-          "url": "https://www.islamicinvitationturkey.com/pezeshkian-iran-no-longer-trusts-us-after-being-attacked-twice-during-talks/",
-          "title": "Pezeshkian : Iran  No Longer  Trusts US After Being Attacked Twice During Talks",
-          "domain": "islamicinvitationturkey.com",
-          "seendate": "20260927T140000Z"
-        },
-        {
           "url": "https://www.edp24.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
           "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
           "domain": "edp24.co.uk",
@@ -602,28 +662,10 @@
           "seendate": "20260923T190000Z"
         },
         {
-          "url": "https://www.dailybulletin.com/2026/09/27/palestinian-death-toll-in-gaza-war-passes-74000-and-other-mideast-news/",
-          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
-          "domain": "dailybulletin.com",
-          "seendate": "20260927T174500Z"
-        },
-        {
-          "url": "https://www.sbsun.com/2026/09/27/palestinian-death-toll-in-gaza-war-passes-74000-and-other-mideast-news/",
-          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
-          "domain": "sbsun.com",
-          "seendate": "20260927T200000Z"
-        },
-        {
           "url": "https://www.pressdemocrat.com/2026/09/23/iran-president-un-address/",
           "title": "Iran president in address at UN : We have been  victims of terrorism  ",
           "domain": "pressdemocrat.com",
           "seendate": "20260923T193000Z"
-        },
-        {
-          "url": "https://www.oneindia.com/international/iran-offers-7-day-plan-to-reopen-strait-of-hormuz-us-rejects-offer-8218015.html",
-          "title": "Iran Offers 7 - Day Plan To Reopen Strait Of Hormuz , US Rejects Offer",
-          "domain": "oneindia.com",
-          "seendate": "20260928T053000Z"
         },
         {
           "url": "https://guba.eastmoney.com/o/news,ufnymexcl00y,1776842763.html",
@@ -632,9 +674,15 @@
           "seendate": "20260924T010000Z"
         },
         {
-          "url": "https://www.alquds.co.uk/%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%AE%D8%B7%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D8%AF-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%A9-%D9%85%D8%B9%D9%82%D9%88%D9%84%D8%A9-%D8%AC%D8%AF%D8%A7-%D9%88%D8%B1%D9%81/",
-          "title": "طهران : خطة البنود السبعة معقولة جدا ورفضها سيكون خطأ أمريكيا",
-          "domain": "alquds.co.uk",
+          "url": "https://www.siasat.com/iran-offers-to-reopen-hormuz-on-sixth-day-of-proposed-seven-day-plan-3549205/",
+          "title": "Iran offers to reopen Hormuz on sixth day of proposed seven - day plan",
+          "domain": "siasat.com",
+          "seendate": "20260928T024500Z"
+        },
+        {
+          "url": "https://truthout.org/articles/iran-pushes-for-a-negotiated-end-to-war-after-trump-rejects-ceasefire-proposal/",
+          "title": "Iran Pushes for A Negotiated End to War After Trump Rejects Ceasefire Proposal",
+          "domain": "truthout.org",
           "seendate": "20260927T191500Z"
         },
         {
@@ -650,10 +698,10 @@
           "seendate": "20260923T164500Z"
         },
         {
-          "url": "http://thepeninsulaqatar.com/article/27/09/2026/indirect-us-iran-talks-make-some-positive-progress-pm",
-          "title": "Indirect US - Iran talks make  some positive progres : PM | The Peninsula Qatar",
-          "domain": "thepeninsulaqatar.com",
-          "seendate": "20260927T081500Z"
+          "url": "https://www.la-croix.com/international/direct-guerre-iran-israel-usa-jour-108-moyen-orient-bilan-resume-aujourdhui-20260928",
+          "title": "Guerre au Moyen - Orient  : Téhéran dément la reprise des négociations  ; frappes meurtrières au Yémen",
+          "domain": "la-croix.com",
+          "seendate": "20260928T110000Z"
         },
         {
           "url": "https://www.advance.hr/telegrafska-zica/bliski-istok/iran/2026/09/27/trump-odbio-plan-teheran-porucuje-hormuz-se-otvara-samo-pregovorima",
@@ -662,34 +710,10 @@
           "seendate": "20260928T054500Z"
         },
         {
-          "url": "https://www.siasat.com/iran-offers-to-reopen-hormuz-on-sixth-day-of-proposed-seven-day-plan-3549205/",
-          "title": "Iran offers to reopen Hormuz on sixth day of proposed seven - day plan",
-          "domain": "siasat.com",
-          "seendate": "20260928T024500Z"
-        },
-        {
           "url": "https://www.mediafax.ro/externe/presedintele-iranului-ii-raspunde-lui-trump-de-la-tribuna-onu-nu-ne-vom-pleca-niciodata-capul-23812722",
           "title": "Președintele Iranului îi răspunde lui Trump de la tribuna ONU : „ Nu ne vom pleca niciodată capul  ",
           "domain": "mediafax.ro",
           "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://truthout.org/articles/iran-pushes-for-a-negotiated-end-to-war-after-trump-rejects-ceasefire-proposal/",
-          "title": "Iran Pushes for A Negotiated End to War After Trump Rejects Ceasefire Proposal",
-          "domain": "truthout.org",
-          "seendate": "20260927T191500Z"
-        },
-        {
-          "url": "https://www.la-croix.com/international/direct-guerre-iran-israel-usa-jour-108-moyen-orient-bilan-resume-aujourdhui-20260928",
-          "title": "Guerre au Moyen - Orient  : Téhéran dément la reprise des négociations  ; frappes meurtrières au Yémen",
-          "domain": "la-croix.com",
-          "seendate": "20260928T110000Z"
-        },
-        {
-          "url": "https://guba.eastmoney.com/o/news,ufipeb00y,1776834076.html",
-          "title": " 【 重磅 】 特朗普积极评价美伊会晤 ！ 伊朗批准新法案限制通行 ！？ 美伊局势及双方会晤最新报道09231 _ 布伦特原油 ( ufipeb00y ) 股吧 _ 东方财富网股吧",
-          "domain": "guba.eastmoney.com",
-          "seendate": "20260923T044500Z"
         },
         {
           "url": "https://www.koreatimes.co.kr/world/20260928/trump-expects-new-iran-talks-despite-rejecting-deal-offer",
@@ -704,6 +728,12 @@
           "seendate": "20260927T064500Z"
         },
         {
+          "url": "https://guba.eastmoney.com/o/news,ufipeb00y,1776834076.html",
+          "title": " 【 重磅 】 特朗普积极评价美伊会晤 ！ 伊朗批准新法案限制通行 ！？ 美伊局势及双方会晤最新报道09231 _ 布伦特原油 ( ufipeb00y ) 股吧 _ 东方财富网股吧",
+          "domain": "guba.eastmoney.com",
+          "seendate": "20260923T044500Z"
+        },
+        {
           "url": "https://www.orientaldaily.com.my/news/international/2026/09/24/850073",
           "title": "佩泽希齐扬联大演说喊话特朗普 伊朗绝对不会向美国  屈服  | 国际",
           "domain": "orientaldaily.com.my",
@@ -716,10 +746,46 @@
           "seendate": "20260923T151500Z"
         },
         {
+          "url": "https://www.arkansasonline.com/news/2026/sep/27/trump-rejects-iranian-proposal-to-open-strait/",
+          "title": "Trump rejects Iranian proposal to open strait | The Arkansas Democrat - Gazette",
+          "domain": "arkansasonline.com",
+          "seendate": "20260927T123000Z"
+        },
+        {
           "url": "https://www.tagesschau.de/ausland/peseschkian-rede-un-100.html",
           "title": "Iran wehrt sich vor UN gegen Trump - Drohungen",
           "domain": "tagesschau.de",
           "seendate": "20260923T210000Z"
+        },
+        {
+          "url": "https://www.tanea.gr/2026/09/27/world/to-iran-epimenei-stin-protasi-tou-gia-anoigma-ton-stenon-tou-ormouz-i-epilogi-epafietai-ston-tramp/",
+          "title": "Το Ιράν επιμένει στην πρότασή του για άνοιγμα των Στενών του Ορμούζ - « Η επιλογή επαφίεται » στον Τραμπ",
+          "domain": "tanea.gr",
+          "seendate": "20260927T073000Z"
+        },
+        {
+          "url": "http://www.iraqsun.com/news/279335038/iran-fm-araghchi-says-waiting-for-definitive-opinions-from-mediators-on-7-day-ceasefire-proposal-to-us",
+          "title": "Iran FM Araghchi says",
+          "domain": "iraqsun.com",
+          "seendate": "20260927T073000Z"
+        },
+        {
+          "url": "http://www.heraldglobe.com/news/279335038/iran-fm-araghchi-says-waiting-for-definitive-opinions-from-mediators-on-7-day-ceasefire-proposal-to-us",
+          "title": "Iran FM Araghchi says",
+          "domain": "heraldglobe.com",
+          "seendate": "20260927T093000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/433798",
+          "title": "Trump on Iran : I stopped them from having a nuclear weapon",
+          "domain": "israelnationalnews.com",
+          "seendate": "20260928T224500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/27/to-iran-epimenei-stin-protasi-tou-gia-anoigma-ton-stenon-tou-ormouz--i-epilogi-epafietai-ston-trab.htm",
+          "title": "Το Ιράν επιμένει στην πρότασή του για άνοιγμα των Στενών του Ορμούζ – « Η επιλογή επαφίεται » στον Τραμπ",
+          "domain": "inewsgr.com",
+          "seendate": "20260927T070000Z"
         },
         {
           "url": "https://www.turkiyegazetesi.com.tr/dunya/bmde-trumpa-cevap-gecikmedi-pezeskiyan-fotograflari-gosterdi-1818058",
@@ -734,16 +800,10 @@
           "seendate": "20260925T063000Z"
         },
         {
-          "url": "https://www.tanea.gr/2026/09/27/world/to-iran-epimenei-stin-protasi-tou-gia-anoigma-ton-stenon-tou-ormouz-i-epilogi-epafietai-ston-tramp/",
-          "title": "Το Ιράν επιμένει στην πρότασή του για άνοιγμα των Στενών του Ορμούζ - « Η επιλογή επαφίεται » στον Τραμπ",
-          "domain": "tanea.gr",
-          "seendate": "20260927T073000Z"
-        },
-        {
-          "url": "https://www.arkansasonline.com/news/2026/sep/27/trump-rejects-iranian-proposal-to-open-strait/",
-          "title": "Trump rejects Iranian proposal to open strait | The Arkansas Democrat - Gazette",
-          "domain": "arkansasonline.com",
-          "seendate": "20260927T123000Z"
+          "url": "https://www.boursorama.com/actualite-economique/actualites/l-iran-maintient-ses-conditions-pour-rouvrir-le-detroit-d-ormuz-5c9e2545ee90b5cf4e957f9309a5dcf0",
+          "title": "LIran maintient ses conditions pour rouvrir le détroit dOrmuz - 27 / 09 / 2026 à 04 : 38",
+          "domain": "boursorama.com",
+          "seendate": "20260927T050000Z"
         },
         {
           "url": "http://www.middleeaststar.com/news/279330417/iran-offers-trump-deal-before-us-election",
@@ -758,10 +818,10 @@
           "seendate": "20260925T070000Z"
         },
         {
-          "url": "https://www.inewsgr.com/27/to-iran-epimenei-stin-protasi-tou-gia-anoigma-ton-stenon-tou-ormouz--i-epilogi-epafietai-ston-trab.htm",
-          "title": "Το Ιράν επιμένει στην πρότασή του για άνοιγμα των Στενών του Ορμούζ – « Η επιλογή επαφίεται » στον Τραμπ",
-          "domain": "inewsgr.com",
-          "seendate": "20260927T070000Z"
+          "url": "https://finance.eastmoney.com/a/202609293885631032.html",
+          "title": "特朗普证实美伊代表已交换信息 普京签署总统令再次扩编俄军 | 环球市场 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260929T004500Z"
         },
         {
           "url": "https://www.24hod.sk/trump-dal-iranu-tvrde-ultimatum-a-okrem-ineho-chvalil-bezkonkurencnu-silu-usa-pod-svojim-vedenim-cl831422.html",
@@ -776,16 +836,10 @@
           "seendate": "20260922T110000Z"
         },
         {
-          "url": "http://www.iraqsun.com/news/279335038/iran-fm-araghchi-says-waiting-for-definitive-opinions-from-mediators-on-7-day-ceasefire-proposal-to-us",
-          "title": "Iran FM Araghchi says",
-          "domain": "iraqsun.com",
-          "seendate": "20260927T073000Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279335038/iran-fm-araghchi-says-waiting-for-definitive-opinions-from-mediators-on-7-day-ceasefire-proposal-to-us",
-          "title": "Iran FM Araghchi says",
-          "domain": "heraldglobe.com",
-          "seendate": "20260927T093000Z"
+          "url": "https://www.nouvelobs.com/monde/20260927.OBS118640/nous-n-avons-jamais-renonce-a-nos-droits-l-iran-maintient-ses-conditions-pour-rouvrir-le-detroit-d-ormuz.html",
+          "title": "  Nous navons jamais renoncé à nos droits    : LIran maintient ses conditions pour rouvrir le détroit dOrmuz",
+          "domain": "nouvelobs.com",
+          "seendate": "20260927T081500Z"
         },
         {
           "url": "https://www.oann.com/newsroom/iranian-president-addresses-un-prompting-lone-u-s-delegate-to-walk-out-iran-has-never-ever-been-an-aggressor/",
@@ -836,10 +890,10 @@
           "seendate": "20260924T014500Z"
         },
         {
-          "url": "https://www.boursorama.com/actualite-economique/actualites/l-iran-maintient-ses-conditions-pour-rouvrir-le-detroit-d-ormuz-5c9e2545ee90b5cf4e957f9309a5dcf0",
-          "title": "LIran maintient ses conditions pour rouvrir le détroit dOrmuz - 27 / 09 / 2026 à 04 : 38",
-          "domain": "boursorama.com",
-          "seendate": "20260927T050000Z"
+          "url": "https://military.china.com/important/64/20260928/49768007.html",
+          "title": "张思南 ： 为什么美伊冲突停不下来 ？_ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20260928T033000Z"
         },
         {
           "url": "https://fr.euronews.com/2026/09/22/les-etats-unis-ouverts-a-une-rencontre-avec-liran-a-lonu-sur-fond-de-rumeurs-daccord-de-pa",
@@ -860,16 +914,16 @@
           "seendate": "20260923T200000Z"
         },
         {
-          "url": "https://www.nouvelobs.com/monde/20260927.OBS118640/nous-n-avons-jamais-renonce-a-nos-droits-l-iran-maintient-ses-conditions-pour-rouvrir-le-detroit-d-ormuz.html",
-          "title": "  Nous navons jamais renoncé à nos droits    : LIran maintient ses conditions pour rouvrir le détroit dOrmuz",
-          "domain": "nouvelobs.com",
-          "seendate": "20260927T081500Z"
-        },
-        {
           "url": "https://www.independent.co.uk/news/world/middle-east/iran-president-speech-un-general-assembly-b3055162.html",
           "title": "Iranian president accuses US of  terrorism  and flouting international law in defiant UN speech",
           "domain": "independent.co.uk",
           "seendate": "20260923T213000Z"
+        },
+        {
+          "url": "https://stirileprotv.ro/stiri/international/donald-trump-refuza-propunerea-de-pace-a-iranului-care-ar-fi-putut-duce-la-redeschiderea-stramtorii-ormuz-motivul-e-uimitor.html",
+          "title": "Donald Trump refuză propunerea de pace a Iranului , care ar fi putut duce la redeschiderea Strâmtorii Ormuz . Motivul e uimitor",
+          "domain": "stirileprotv.ro",
+          "seendate": "20260927T103000Z"
         },
         {
           "url": "https://www.digi24.ro/stiri/externe/mapamond/sua-si-iranul-au-avut-primele-discutii-din-iunie-dupa-amenintarea-lui-donald-trump-cu-anihilarea-republicii-islamice-3960319",
@@ -914,18 +968,6 @@
           "seendate": "20260923T071500Z"
         },
         {
-          "url": "https://military.china.com/important/64/20260928/49768007.html",
-          "title": "张思南 ： 为什么美伊冲突停不下来 ？_ 军事频道 _ 中华网",
-          "domain": "military.china.com",
-          "seendate": "20260928T033000Z"
-        },
-        {
-          "url": "https://stirileprotv.ro/stiri/international/donald-trump-refuza-propunerea-de-pace-a-iranului-care-ar-fi-putut-duce-la-redeschiderea-stramtorii-ormuz-motivul-e-uimitor.html",
-          "title": "Donald Trump refuză propunerea de pace a Iranului , care ar fi putut duce la redeschiderea Strâmtorii Ormuz . Motivul e uimitor",
-          "domain": "stirileprotv.ro",
-          "seendate": "20260927T103000Z"
-        },
-        {
           "url": "https://www.aljazeera.com/news/2026/9/23/irans-president-slams-trumps-bullying-in-defiant-unga-speech",
           "title": "Iran Pezeshkian slams  terrorist  US but extols diplomacy in UN speech | US - Israel war on Iran News",
           "domain": "aljazeera.com",
@@ -962,6 +1004,18 @@
           "seendate": "20260922T201500Z"
         },
         {
+          "url": "https://www.inewsgr.com/374/to-iran-epimenei-stous-orous-tou-gia-na-xananoixei-to-steno-tou-ormouz.htm",
+          "title": "Το Ιράν επιμένει στους όρους του για να ξανανοίξει το στενό του Ορμούζ",
+          "domain": "inewsgr.com",
+          "seendate": "20260927T123000Z"
+        },
+        {
+          "url": "https://www.protothema.gr/world/article/1885325/to-iran-epimenei-stous-orous-tou-gia-to-anoigma-tou-stenou-tou-ormouz-para-tin-aporripsi-tous-apo-ton-donald-trab/",
+          "title": "Το Ιράν επιμένει στους όρους του για το άνοιγμα του Στενού του Ορμούζ , παρά την απόρριψή τους από τον Ντόναλντ Τραμπ",
+          "domain": "protothema.gr",
+          "seendate": "20260927T070000Z"
+        },
+        {
           "url": "https://salinapost.com/posts/15074cb3-e2b7-4b47-8cdd-625f408625ce",
           "title": "Iran president calls out Trump , says nation will fight  until our last breath  ",
           "domain": "salinapost.com",
@@ -992,16 +1046,10 @@
           "seendate": "20260925T094500Z"
         },
         {
-          "url": "https://www.inewsgr.com/374/to-iran-epimenei-stous-orous-tou-gia-na-xananoixei-to-steno-tou-ormouz.htm",
-          "title": "Το Ιράν επιμένει στους όρους του για να ξανανοίξει το στενό του Ορμούζ",
-          "domain": "inewsgr.com",
-          "seendate": "20260927T123000Z"
-        },
-        {
-          "url": "https://www.protothema.gr/world/article/1885325/to-iran-epimenei-stous-orous-tou-gia-to-anoigma-tou-stenou-tou-ormouz-para-tin-aporripsi-tous-apo-ton-donald-trab/",
-          "title": "Το Ιράν επιμένει στους όρους του για το άνοιγμα του Στενού του Ορμούζ , παρά την απόρριψή τους από τον Ντόναλντ Τραμπ",
-          "domain": "protothema.gr",
-          "seendate": "20260927T070000Z"
+          "url": "https://www.news.gr/kosmos/article/4219697/to-iran-epimeni-stous-orous-tou-gia-na-xananixi-ta-stena-tou-ormouz-para-tin-aporripsi-tous-apo-tis-ipa.html",
+          "title": "Ο Τραμπ απορρίπτει το ιρανικό σχέδιο και η Τεχεράνη επιμένει στους όρους της για να ανοίξει ξανά τα Στενά του Ορμούζ",
+          "domain": "news.gr",
+          "seendate": "20260927T073000Z"
         },
         {
           "url": "https://www.ynetnews.com/article/b1tx11w11qzl",
@@ -1028,16 +1076,16 @@
           "seendate": "20260923T193000Z"
         },
         {
+          "url": "https://www.inewsgr.com/227/krisimes-ores-gia-ta-stena-tou-ormouz--i-techerani-epimenei-sto-schedio-pou-aperripse-o-trab.htm",
+          "title": "Κρίσιμες ώρες για τα Στενά του Ορμούζ – Η Τεχεράνη επιμένει στο σχέδιο που απέρριψε ο Τραμπ",
+          "domain": "inewsgr.com",
+          "seendate": "20260927T063000Z"
+        },
+        {
           "url": "https://www.capitalgazette.com/2026/09/23/iran-indirect-talks-us-mideast-news/",
           "title": "Iran downplays indirect talks with US , and other Mideast developments",
           "domain": "capitalgazette.com",
           "seendate": "20260923T123000Z"
-        },
-        {
-          "url": "https://www.news.gr/kosmos/article/4219697/to-iran-epimeni-stous-orous-tou-gia-na-xananixi-ta-stena-tou-ormouz-para-tin-aporripsi-tous-apo-tis-ipa.html",
-          "title": "Ο Τραμπ απορρίπτει το ιρανικό σχέδιο και η Τεχεράνη επιμένει στους όρους της για να ανοίξει ξανά τα Στενά του Ορμούζ",
-          "domain": "news.gr",
-          "seendate": "20260927T073000Z"
         },
         {
           "url": "https://anlatilaninotesi.com.tr/20260924/prof-dr-ali-fuat-gokce-iran-abd-anlasmasi-ortadogudaki-catismalari-bitirmeyebilir-1108997829.html",
@@ -1046,10 +1094,16 @@
           "seendate": "20260924T123000Z"
         },
         {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-21/live-updates-909207",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260921T221500Z"
+          "url": "https://finance.jrj.com.cn/2026/09/29081458572413.shtml",
+          "title": "  这是骗局 ！ 立即撤回报道 ！ 特朗普刚刚重磅表态 否认给伊朗  经济大礼包 - 财经 - 金融界",
+          "domain": "finance.jrj.com.cn",
+          "seendate": "20260929T021500Z"
+        },
+        {
+          "url": "https://telegrafi.com/trump-pret-qe-bisedimet-shba-iran-te-rifillojne-kete-jave-pavaresisht-refuzimit-te-planit-per-armepushim/",
+          "title": "Trump pret që bisedimet SHBA - Iran të rifillojnë këtë javë , pavarësisht refuzimit të planit për armëpushim",
+          "domain": "telegrafi.com",
+          "seendate": "20260928T074500Z"
         },
         {
           "url": "https://www.boursorama.com/actualite-economique/actualites/l-iran-et-l-ia-au-menu-de-l-assemblee-generale-de-l-onu-318f8ced0c16ad21dcce22773e2c5e81",
@@ -1058,16 +1112,22 @@
           "seendate": "20260923T051500Z"
         },
         {
+          "url": "https://www.in.gr/2026/09/28/world/aragtsi-to-iran-etoimo-akomi-kai-gia-polemo-apokalypsis/",
+          "title": "Αραγτσί : Το Ιράν έτοιμο ακόμη και για « πόλεμο Αποκάλυψης » ",
+          "domain": "in.gr",
+          "seendate": "20260928T071500Z"
+        },
+        {
+          "url": "https://www.topky.sk/cl/11/9504515/Kriza-na-Blizkom-vychode-eskaluje--Iran-odmietol-schodzku-s-Trumpom-a-diktuje-7-PODMIENOK",
+          "title": "Irán v súčasnosti neplánuje žiadne rokovania s united states ",
+          "domain": "topky.sk",
+          "seendate": "20260928T101500Z"
+        },
+        {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-pezeshkian-says-iran-would-not-bend-knee-us-threats-un-speech",
           "title": "Watch : Pezeshkian says Iran would not  bend the knee  to US threats in UN speech",
           "domain": "middleeasteye.net",
           "seendate": "20260924T050000Z"
-        },
-        {
-          "url": "https://www.inewsgr.com/227/krisimes-ores-gia-ta-stena-tou-ormouz--i-techerani-epimenei-sto-schedio-pou-aperripse-o-trab.htm",
-          "title": "Κρίσιμες ώρες για τα Στενά του Ορμούζ – Η Τεχεράνη επιμένει στο σχέδιο που απέρριψε ο Τραμπ",
-          "domain": "inewsgr.com",
-          "seendate": "20260927T063000Z"
         },
         {
           "url": "https://www.greeleytribune.com/2026/09/23/iran-president-un-address/",
@@ -1094,28 +1154,16 @@
           "seendate": "20260923T181500Z"
         },
         {
-          "url": "https://www.topky.sk/cl/11/9504515/Kriza-na-Blizkom-vychode-eskaluje--Iran-odmietol-schodzku-s-Trumpom-a-diktuje-7-PODMIENOK",
-          "title": "Irán v súčasnosti neplánuje žiadne rokovania s united states ",
-          "domain": "topky.sk",
-          "seendate": "20260928T101500Z"
-        },
-        {
-          "url": "https://telegrafi.com/trump-pret-qe-bisedimet-shba-iran-te-rifillojne-kete-jave-pavaresisht-refuzimit-te-planit-per-armepushim/",
-          "title": "Trump pret që bisedimet SHBA - Iran të rifillojnë këtë javë , pavarësisht refuzimit të planit për armëpushim",
-          "domain": "telegrafi.com",
-          "seendate": "20260928T074500Z"
-        },
-        {
-          "url": "https://www.in.gr/2026/09/28/world/aragtsi-to-iran-etoimo-akomi-kai-gia-polemo-apokalypsis/",
-          "title": "Αραγτσί : Το Ιράν έτοιμο ακόμη και για « πόλεμο Αποκάλυψης » ",
-          "domain": "in.gr",
-          "seendate": "20260928T071500Z"
-        },
-        {
           "url": "https://www.zerohedge.com/markets/us-stocks-were-mixed-and-oil-declined-amid-diplomacy-hopes-attention-meetings-un-general",
           "title": "US stocks were mixed and oil declined amid diplomacy hopes with the attention on meetings at the UN General Assembly - Newsquawk Daily Asia - Pac Market Open",
           "domain": "zerohedge.com",
           "seendate": "20260923T014500Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202609271645451953",
+          "title": "이란 , 트럼프 거부에도  외교만이 해법 … 핵협상 의향도 밝혀 ( 종합 ) ",
+          "domain": "fnnews.com",
+          "seendate": "20260927T090000Z"
         },
         {
           "url": "https://www.havadiskibris.com/iran-cumhurbaskani-bm-genel-kurulunda-diplomasiye-haziriz-ancak-savastan-korkmuyoruz-mesaji-verdi/",
@@ -1124,16 +1172,34 @@
           "seendate": "20260923T164500Z"
         },
         {
+          "url": "https://whdh.com/news/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/",
+          "title": "Trump rejects Iran proposal to reopen the Strait of Hormuz and other Mideast news - Boston News , Weather , Sports",
+          "domain": "whdh.com",
+          "seendate": "20260927T010000Z"
+        },
+        {
           "url": "https://it.euronews.com/2026/09/23/iran-allonu-pezeshkian-risponde-a-trump-siamo-vittime-del-terrorismo-non-ci-piegheremo",
           "title": "Iran allOnu , Pezeshkian risponde a Trump :  Siamo vittime del terrorismo , non ci piegheremo  ",
           "domain": "it.euronews.com",
           "seendate": "20260923T221500Z"
         },
         {
+          "url": "https://mil.ifeng.com/c/8wj6RUA4jAC",
+          "title": "伊朗提出七日内重开霍尔木兹海峡计划 ， 美方拒绝",
+          "domain": "mil.ifeng.com",
+          "seendate": "20260927T023000Z"
+        },
+        {
           "url": "https://www.ensonhaber.com/israilde-olasi-iran-saldirisina-karsi-hazirlik-h1567663",
           "title": "İsrailde olası İran saldırısına karşı hazırlık",
           "domain": "ensonhaber.com",
           "seendate": "20260922T110000Z"
+        },
+        {
+          "url": "https://www.cp24.com/news/world/2026/09/26/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz/",
+          "title": "Mideast news : Trump rejects Iran proposal to reopen strait",
+          "domain": "cp24.com",
+          "seendate": "20260927T040000Z"
         },
         {
           "url": "https://www.kurv.com/in-defiant-speech-pezeshkian-calls-out-trump-and-says-iran-will-fight-until-our-last-breath/",
@@ -1166,112 +1232,22 @@
           "seendate": "20260923T193000Z"
         },
         {
-          "url": "https://www.163.com/dy/article/L7I8OIRJ0519DDQ2.html",
-          "title": "伊朗总统佩泽希齐扬在联大发表演讲 ， 美国代表中途离场",
-          "domain": "163.com",
-          "seendate": "20260924T014500Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202609271645451953",
-          "title": "이란 , 트럼프 거부에도  외교만이 해법 … 핵협상 의향도 밝혀 ( 종합 ) ",
-          "domain": "fnnews.com",
-          "seendate": "20260927T090000Z"
-        },
-        {
-          "url": "https://www.163.com/news/article/L7J1HGUM0001899O.html",
-          "title": "毫无疑问 ， 这是今年联大最悲愤的一次演讲",
-          "domain": "163.com",
-          "seendate": "20260924T014500Z"
-        },
-        {
-          "url": "https://finance.sina.com.cn/wm/2026-09-24/doc-iniswrri8193173.shtml",
-          "title": "毫无疑问 ， 这是今年联大最悲愤的一次演讲",
-          "domain": "finance.sina.com.cn",
-          "seendate": "20260924T014500Z"
-        },
-        {
-          "url": "https://news.sina.com.cn/w/2026-09-24/doc-iniswrrm4965729.shtml",
-          "title": "毫无疑问 ， 这是今年联大最悲愤的一次演讲",
-          "domain": "news.sina.com.cn",
-          "seendate": "20260924T051500Z"
-        },
-        {
-          "url": "https://news.ifeng.com/c/8wfp52ammtB",
-          "title": "这是今年联大最悲愤的一次演讲",
-          "domain": "news.ifeng.com",
-          "seendate": "20260924T011500Z"
-        },
-        {
-          "url": "https://www.eremnews.com/news/arab-world/c61fjdx",
-          "title": "  جبهة جديدة .. كيف تراقب إسرائيل مسار نزع سلاح الميليشيات العراقية ؟ ",
-          "domain": "eremnews.com",
-          "seendate": "20260922T064500Z"
-        },
-        {
-          "url": "https://mil.ifeng.com/c/8wj6RUA4jAC",
-          "title": "伊朗提出七日内重开霍尔木兹海峡计划 ， 美方拒绝",
-          "domain": "mil.ifeng.com",
-          "seendate": "20260927T023000Z"
-        },
-        {
-          "url": "https://whdh.com/news/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/",
-          "title": "Trump rejects Iran proposal to reopen the Strait of Hormuz and other Mideast news - Boston News , Weather , Sports",
-          "domain": "whdh.com",
-          "seendate": "20260927T010000Z"
-        },
-        {
-          "url": "https://www.ilfattoquotidiano.it/2026/09/25/iran-piano-tregua-hormuz-notizie/8517542/",
-          "title": "Iran propone piano 7 giorni per tregua con united states : riapre Hormuz",
-          "domain": "ilfattoquotidiano.it",
-          "seendate": "20260925T083000Z"
-        },
-        {
           "url": "https://www.theguardian.com/us-news/live/2026/sep/28/donald-trump-iran-negotiations-fuel-deportations-media-china-latest-news-updates",
           "title": "Iran says it  has no plans to negotiate with U despite Trump claims – US politics live | US news",
           "domain": "theguardian.com",
           "seendate": "20260928T110000Z"
         },
         {
-          "url": "https://www.houstonpublicmedia.org/npr/2026/09/26/nx-s1-5981990/trump-calls-iranian-plan-to-reopen-strait-of-hormuz-not-acceptable/",
-          "title": "Trump calls Iranian plan to reopen Strait of Hormuz not  acceptable  ",
-          "domain": "houstonpublicmedia.org",
-          "seendate": "20260927T001500Z"
+          "url": "https://www.163.com/dy/article/L7I8OIRJ0519DDQ2.html",
+          "title": "伊朗总统佩泽希齐扬在联大发表演讲 ， 美国代表中途离场",
+          "domain": "163.com",
+          "seendate": "20260924T014500Z"
         },
         {
-          "url": "https://www.hngn.com/articles/273331/20260923/us-iran-hold-first-talks-since-july-tehran-floats-hormuz-deal.htm",
-          "title": "US , Iran Trade Walkouts at UN as Mediated Hormuz Talks Continue",
-          "domain": "hngn.com",
-          "seendate": "20260923T193000Z"
-        },
-        {
-          "url": "https://www.cp24.com/news/world/2026/09/26/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz/",
-          "title": "Mideast news : Trump rejects Iran proposal to reopen strait",
-          "domain": "cp24.com",
-          "seendate": "20260927T040000Z"
-        },
-        {
-          "url": "https://www.euronews.com/2026/09/23/pezeshkian-tells-un-iran-will-not-be-bullied-but-will-negotiate",
-          "title": "Pezeshkian tells UN Iran will not be bullied but will negotiate",
-          "domain": "euronews.com",
-          "seendate": "20260923T194500Z"
-        },
-        {
-          "url": "https://www.teraz.sk/zahranicie/irna-iran-v-sucasnosti-neplanuje-z/995504-clanok.html",
-          "title": "IRNA : Irán v súčasnosti neplánuje žiadne rokovania s united states ",
-          "domain": "teraz.sk",
-          "seendate": "20260928T094500Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202609283884569489.html",
-          "title": "特朗普预计美伊将在未来一周内重启谈判 伊朗 ： 已为与美战事重开做好准备 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20260928T024500Z"
-        },
-        {
-          "url": "https://www.philenews.com/apopsis/arthra-apo-f/article/1774084/zitite-tsampoukas-ochi-prothimia/",
-          "title": "Ζητείται τσαμπουκάς , όχι προθυμία",
-          "domain": "philenews.com",
-          "seendate": "20260925T061500Z"
+          "url": "https://www.163.com/news/article/L7J1HGUM0001899O.html",
+          "title": "毫无疑问 ， 这是今年联大最悲愤的一次演讲",
+          "domain": "163.com",
+          "seendate": "20260924T014500Z"
         },
         {
           "url": "http://www.goskagit.com/news/nation/palestinian-death-toll-in-gaza-war-passes-74-000-and-other-mideast-news/article_72566084-d61f-519d-ad53-9c3919742370.html",
@@ -1292,28 +1268,34 @@
           "seendate": "20260927T143000Z"
         },
         {
-          "url": "http://www.somdnews.com/ap/world/irans-president-to-speak-at-the-united-nations-in-rare-wartime-address/article_18675035-2aa3-5777-99c6-87c759e088ab.html",
-          "title": "Iran president to speak at the United Nations in rare wartime address",
-          "domain": "somdnews.com",
-          "seendate": "20260923T180000Z"
+          "url": "https://finance.sina.com.cn/wm/2026-09-24/doc-iniswrri8193173.shtml",
+          "title": "毫无疑问 ， 这是今年联大最悲愤的一次演讲",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20260924T014500Z"
         },
         {
-          "url": "http://www.washingtonexaminer.com/news/world/4739002/united-nations-pezeshkian-genocide-terrorism-iran/",
-          "title": "At UNGA , Iranian president decries  genocide  and  terrorism  against Iran",
-          "domain": "washingtonexaminer.com",
-          "seendate": "20260923T201500Z"
+          "url": "https://news.sina.com.cn/w/2026-09-24/doc-iniswrrm4965729.shtml",
+          "title": "毫无疑问 ， 这是今年联大最悲愤的一次演讲",
+          "domain": "news.sina.com.cn",
+          "seendate": "20260924T051500Z"
         },
         {
-          "url": "https://www.hkcna.hk/hk/content/s6aba5ad1e4b06bb2a4c7c7b7.html",
-          "title": "內塔尼亞胡密訪阿聯酋釋放出什麼訊息 ？ ",
-          "domain": "hkcna.hk",
-          "seendate": "20260928T140000Z"
+          "url": "https://news.ifeng.com/c/8wfp52ammtB",
+          "title": "这是今年联大最悲愤的一次演讲",
+          "domain": "news.ifeng.com",
+          "seendate": "20260924T011500Z"
         },
         {
-          "url": "https://www.dunya.com/dunya/erakciden-almanyaya-israile-destek-elestirisi-haberi-841218",
-          "title": "Erakçiden Almanyaya  İsraile destek  eleştirisi",
-          "domain": "dunya.com",
-          "seendate": "20260923T210000Z"
+          "url": "https://www.houstonpublicmedia.org/npr/2026/09/26/nx-s1-5981990/trump-calls-iranian-plan-to-reopen-strait-of-hormuz-not-acceptable/",
+          "title": "Trump calls Iranian plan to reopen Strait of Hormuz not  acceptable  ",
+          "domain": "houstonpublicmedia.org",
+          "seendate": "20260927T001500Z"
+        },
+        {
+          "url": "https://www.eremnews.com/news/arab-world/c61fjdx",
+          "title": "  جبهة جديدة .. كيف تراقب إسرائيل مسار نزع سلاح الميليشيات العراقية ؟ ",
+          "domain": "eremnews.com",
+          "seendate": "20260922T064500Z"
         },
         {
           "url": "https://www.krgv.com/news/trump-rejects-iran-s-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/",
@@ -1322,16 +1304,22 @@
           "seendate": "20260927T051500Z"
         },
         {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=23092026&id=1a1d582a-3bfa-4951-8b84-0dff122ce2a0",
-          "title": "رئيس إيران : نؤمن بالدبلوماسية ولن نستسلم تحت ضغط القوة العسكرية",
-          "domain": "shorouknews.com",
-          "seendate": "20260923T151500Z"
+          "url": "https://www.hkcna.hk/hk/content/s6aba5ad1e4b06bb2a4c7c7b7.html",
+          "title": "內塔尼亞胡密訪阿聯酋釋放出什麼訊息 ？ ",
+          "domain": "hkcna.hk",
+          "seendate": "20260928T140000Z"
         },
         {
-          "url": "https://www.aa.com.tr/tr/dunya/iran-disisleri-bakani-erakci-den-almanya-ya-israil-e-destek-elestirisi/4067005",
-          "title": "İran Dışişleri Bakanı Erakçiden Almanyaya  İsraile destek  eleştirisi",
-          "domain": "aa.com.tr",
-          "seendate": "20260923T213000Z"
+          "url": "https://finance.eastmoney.com/a/202609283884569489.html",
+          "title": "特朗普预计美伊将在未来一周内重启谈判 伊朗 ： 已为与美战事重开做好准备 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20260928T024500Z"
+        },
+        {
+          "url": "https://www.ilfattoquotidiano.it/2026/09/25/iran-piano-tregua-hormuz-notizie/8517542/",
+          "title": "Iran propone piano 7 giorni per tregua con united states : riapre Hormuz",
+          "domain": "ilfattoquotidiano.it",
+          "seendate": "20260925T083000Z"
         },
         {
           "url": "https://www.brisbanetimes.com.au/world/middle-east/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan-20260927-p610s2.html",
@@ -1340,40 +1328,22 @@
           "seendate": "20260927T001500Z"
         },
         {
-          "url": "http://www.jpost.com/opinion/article-908954",
-          "title": "Hamas , Hezbollah , and Iran proxies are hoping for Netanyahu defeat",
-          "domain": "jpost.com",
-          "seendate": "20260924T203000Z"
+          "url": "https://www.teraz.sk/zahranicie/irna-iran-v-sucasnosti-neplanuje-z/995504-clanok.html",
+          "title": "IRNA : Irán v súčasnosti neplánuje žiadne rokovania s united states ",
+          "domain": "teraz.sk",
+          "seendate": "20260928T094500Z"
         },
         {
-          "url": "https://www.newsweekjapan.jp/articles/-/335176",
-          "title": "トランプ氏 、 イラン提示のホルムズ海峡開放案拒否 | ニューズウィーク日本版 オフィシャルサイト",
-          "domain": "newsweekjapan.jp",
-          "seendate": "20260927T001500Z"
+          "url": "https://www.hngn.com/articles/273331/20260923/us-iran-hold-first-talks-since-july-tehran-floats-hormuz-deal.htm",
+          "title": "US , Iran Trade Walkouts at UN as Mediated Hormuz Talks Continue",
+          "domain": "hngn.com",
+          "seendate": "20260923T193000Z"
         },
         {
-          "url": "https://www.yenisafak.com/dunya/iran-disisleri-bakani-erakciden-almanyaya-sert-tepki-suc-ortakligina-son-verin-4858479",
-          "title": "İran Dışişleri Bakanı Erakçiden Almanyaya sert tepki :  Suç ortaklığına son verin  ",
-          "domain": "yenisafak.com",
-          "seendate": "20260923T204500Z"
-        },
-        {
-          "url": "https://www.skai.gr/news/world/iran-epimenei-stous-orous-tou-gia-na-ksananoiksei-to-steno-tou-ormouz",
-          "title": "Ιράν : Επιμένει στους όρους του για να ξανανοίξει το Στενό του Ορμούζ",
-          "domain": "skai.gr",
-          "seendate": "20260927T070000Z"
-        },
-        {
-          "url": "https://arabic.cnn.com/middle-east/article/2026/09/23/pezeshkian-trump-iran-gcc-nuclear-energy",
-          "title": "بزشكيان :  لن نركع .. ماذا قال عن ترامب وجيران إيران ؟ | CNN Arabic",
-          "domain": "arabic.cnn.com",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.bloomberght.com/erakci-den-almanya-ya-israil-e-destek-tepkisi-3789243",
-          "title": "Erakçiden Almanyaya  İsraile destek  tepkisi",
-          "domain": "bloomberght.com",
-          "seendate": "20260923T221500Z"
+          "url": "https://www.euronews.com/2026/09/23/pezeshkian-tells-un-iran-will-not-be-bullied-but-will-negotiate",
+          "title": "Pezeshkian tells UN Iran will not be bullied but will negotiate",
+          "domain": "euronews.com",
+          "seendate": "20260923T194500Z"
         },
         {
           "url": "http://www.rockymounttelegram.com/news/national/palestinian-death-toll-in-gaza-war-passes-74-000-and-other-mideast-news/article_41569bd3-dec8-512d-a2e1-a734daa198e3.html",
@@ -1394,22 +1364,40 @@
           "seendate": "20260927T171500Z"
         },
         {
-          "url": "https://www.yeniakit.com.tr/haber/pezeskiyandan-katil-israil-ve-abdye-rest-saldirilara-direndik-direnmeye-devam-edecegiz-2025147.html",
-          "title": "Pezeşkiyandan katil İsrail ve ABDye rest : Saldırılara direndik , direnmeye devam edeceğiz",
-          "domain": "yeniakit.com.tr",
-          "seendate": "20260927T123000Z"
+          "url": "https://www.newsweekjapan.jp/articles/-/335176",
+          "title": "トランプ氏 、 イラン提示のホルムズ海峡開放案拒否 | ニューズウィーク日本版 オフィシャルサイト",
+          "domain": "newsweekjapan.jp",
+          "seendate": "20260927T001500Z"
         },
         {
-          "url": "https://finance.ifeng.com/c/8wdL4Y5krWN",
-          "title": "这一次 ， 会历史重演吗 ？ ",
-          "domain": "finance.ifeng.com",
-          "seendate": "20260922T160000Z"
+          "url": "https://www.philenews.com/apopsis/arthra-apo-f/article/1774084/zitite-tsampoukas-ochi-prothimia/",
+          "title": "Ζητείται τσαμπουκάς , όχι προθυμία",
+          "domain": "philenews.com",
+          "seendate": "20260925T061500Z"
         },
         {
-          "url": "https://www.ettoday.net/news/20260924/3243505.htm",
-          "title": "美媒踢爆 ！ 中國撐腰伊朗 「 密送1300批軍工零件 」 航班暴增近10倍 | ETtoday國際新聞",
-          "domain": "ettoday.net",
-          "seendate": "20260924T090000Z"
+          "url": "https://www.skai.gr/news/world/iran-epimenei-stous-orous-tou-gia-na-ksananoiksei-to-steno-tou-ormouz",
+          "title": "Ιράν : Επιμένει στους όρους του για να ξανανοίξει το Στενό του Ορμούζ",
+          "domain": "skai.gr",
+          "seendate": "20260927T070000Z"
+        },
+        {
+          "url": "http://www.somdnews.com/ap/world/irans-president-to-speak-at-the-united-nations-in-rare-wartime-address/article_18675035-2aa3-5777-99c6-87c759e088ab.html",
+          "title": "Iran president to speak at the United Nations in rare wartime address",
+          "domain": "somdnews.com",
+          "seendate": "20260923T180000Z"
+        },
+        {
+          "url": "http://www.washingtonexaminer.com/news/world/4739002/united-nations-pezeshkian-genocide-terrorism-iran/",
+          "title": "At UNGA , Iranian president decries  genocide  and  terrorism  against Iran",
+          "domain": "washingtonexaminer.com",
+          "seendate": "20260923T201500Z"
+        },
+        {
+          "url": "https://www.dunya.com/dunya/erakciden-almanyaya-israile-destek-elestirisi-haberi-841218",
+          "title": "Erakçiden Almanyaya  İsraile destek  eleştirisi",
+          "domain": "dunya.com",
+          "seendate": "20260923T210000Z"
         },
         {
           "url": "http://www.middleeaststar.com/news/279334870/will-stand-until-our-last-breath-prez-pezeshkian-says-iran-will-not-retreat-as-trump-rejects-ceasefire-proposal",
@@ -1460,16 +1448,22 @@
           "seendate": "20260927T074500Z"
         },
         {
-          "url": "https://metrohk.com.hk/%E5%9C%8B%E9%9A%9B/%E5%85%A7%E5%A1%94%E5%B0%BC%E4%BA%9E%E8%83%A1%E6%96%99%E8%81%AF%E5%9C%8B%E7%99%BC%E8%A8%80%E6%8A%A8%E6%93%8A%E7%B4%90%E7%B4%84%E5%B8%82%E9%95%B7-8c8f06",
-          "title": "內塔尼亞胡料聯國發言抨擊紐約市長｜METROHK . com . hk",
-          "domain": "metrohk.com.hk",
-          "seendate": "20260924T100000Z"
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=23092026&id=1a1d582a-3bfa-4951-8b84-0dff122ce2a0",
+          "title": "رئيس إيران : نؤمن بالدبلوماسية ولن نستسلم تحت ضغط القوة العسكرية",
+          "domain": "shorouknews.com",
+          "seendate": "20260923T151500Z"
         },
         {
-          "url": "https://www.middleeastmonitor.com/20260922-trump-says-he-expects-iran-deal-after-us-midterm-elections/",
-          "title": "Trump says he expects Iran deal after US midterm elections",
-          "domain": "middleeastmonitor.com",
-          "seendate": "20260922T193000Z"
+          "url": "https://www.aa.com.tr/tr/dunya/iran-disisleri-bakani-erakci-den-almanya-ya-israil-e-destek-elestirisi/4067005",
+          "title": "İran Dışişleri Bakanı Erakçiden Almanyaya  İsraile destek  eleştirisi",
+          "domain": "aa.com.tr",
+          "seendate": "20260923T213000Z"
+        },
+        {
+          "url": "https://www.yeniakit.com.tr/haber/pezeskiyandan-katil-israil-ve-abdye-rest-saldirilara-direndik-direnmeye-devam-edecegiz-2025147.html",
+          "title": "Pezeşkiyandan katil İsrail ve ABDye rest : Saldırılara direndik , direnmeye devam edeceğiz",
+          "domain": "yeniakit.com.tr",
+          "seendate": "20260927T123000Z"
         },
         {
           "url": "http://www.idahopress.com/ap_news/us/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/article_fe91838c-fcea-5d70-a7ff-03a2afa5fd16.html",
@@ -1478,34 +1472,52 @@
           "seendate": "20260927T003000Z"
         },
         {
-          "url": "https://www.globes.co.il/news/article.aspx?did=1001557078",
-          "title": "הפנייה החריגה של מנכ  ל רש  ת לחיל האוויר ולסגן הרמטכ  ל",
-          "domain": "globes.co.il",
-          "seendate": "20260922T201500Z"
+          "url": "https://news.cnyes.com/news/id/6617405",
+          "title": " 〈 能源盤後 〉 川普拒絕伊朗方案 油價小漲 Brent站回105美元",
+          "domain": "news.cnyes.com",
+          "seendate": "20260928T221500Z"
         },
         {
-          "url": "https://www.yeniakit.com.tr/haber/almanyadan-insanliga-ihanet-2024558.html",
-          "title": "Almanyadan insanlığa ihanet ! ",
-          "domain": "yeniakit.com.tr",
-          "seendate": "20260923T213000Z"
+          "url": "http://www.jpost.com/opinion/article-908954",
+          "title": "Hamas , Hezbollah , and Iran proxies are hoping for Netanyahu defeat",
+          "domain": "jpost.com",
+          "seendate": "20260924T203000Z"
         },
         {
-          "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/iran-consulate-shares-prabhas-baahubali-battle-clip-after-masoud-pezeshkians-unga-speech-we-will-never-bow-kalakeya-scene-sparks-reactions-online/articleshow/134535433.cms",
-          "title": "Iran Consulate shares Prabha  Baahubali  battle clip after Masoud Pezeshkian UNGA speech ;  We will never bow ; Kalakeya scene sparks reactions online |",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260928T080000Z"
+          "url": "http://forex.cnfol.com/jingjiyaowen/20260929/32383446.shtml",
+          "title": "9月29日财经早餐 ： 通胀担忧强化紧缩押注 ， 金价触及逾七周低位 ， 油价高位运行 ， 静待卡塔尔斡旋美伊会谈 _ 汇市观察 _ 外汇 _ 中金在线",
+          "domain": "forex.cnfol.com",
+          "seendate": "20260929T021500Z"
         },
         {
-          "url": "https://sputnikglobe.com/20260925/war-was-imposed-on-iran-us-israeli-attacks-derailed-diplomacy--pezeshkian-1124785464.html",
-          "title": "War Was Imposed on Iran , US - Israeli Attacks Derailed Diplomacy Pezeshkian",
-          "domain": "sputnikglobe.com",
-          "seendate": "20260925T060000Z"
+          "url": "https://www.yenisafak.com/dunya/iran-disisleri-bakani-erakciden-almanyaya-sert-tepki-suc-ortakligina-son-verin-4858479",
+          "title": "İran Dışişleri Bakanı Erakçiden Almanyaya sert tepki :  Suç ortaklığına son verin  ",
+          "domain": "yenisafak.com",
+          "seendate": "20260923T204500Z"
         },
         {
-          "url": "https://hotnews.ro/presedintele-iranului-l-a-criticat-pe-trump-de-la-tribuna-onu-un-semn-al-unei-mentalitati-de-bullying-gestul-facut-de-delegatia-sua-2356818",
-          "title": "Președintele Iranului l - a criticat pe Trump de la tribuna ONU : „ Un semn al unei mentalități de bullying  / Gestul făcut de delegația SUA",
-          "domain": "hotnews.ro",
-          "seendate": "20260923T224500Z"
+          "url": "https://arabic.cnn.com/middle-east/article/2026/09/23/pezeshkian-trump-iran-gcc-nuclear-energy",
+          "title": "بزشكيان :  لن نركع .. ماذا قال عن ترامب وجيران إيران ؟ | CNN Arabic",
+          "domain": "arabic.cnn.com",
+          "seendate": "20260923T153000Z"
+        },
+        {
+          "url": "https://www.bloomberght.com/erakci-den-almanya-ya-israil-e-destek-tepkisi-3789243",
+          "title": "Erakçiden Almanyaya  İsraile destek  tepkisi",
+          "domain": "bloomberght.com",
+          "seendate": "20260923T221500Z"
+        },
+        {
+          "url": "https://finance.ifeng.com/c/8wdL4Y5krWN",
+          "title": "这一次 ， 会历史重演吗 ？ ",
+          "domain": "finance.ifeng.com",
+          "seendate": "20260922T160000Z"
+        },
+        {
+          "url": "https://www.ettoday.net/news/20260924/3243505.htm",
+          "title": "美媒踢爆 ！ 中國撐腰伊朗 「 密送1300批軍工零件 」 航班暴增近10倍 | ETtoday國際新聞",
+          "domain": "ettoday.net",
+          "seendate": "20260924T090000Z"
         },
         {
           "url": "https://www.naharnet.com:443/stories/en/322754-how-hezbollah-marked-second-anniversary-of-nasrallah-s-killing",
@@ -1518,18 +1530,6 @@
           "title": "How Hezbollah marked second anniversary of Nasrallah killing",
           "domain": "naharnet.com",
           "seendate": "20260928T123000Z"
-        },
-        {
-          "url": "https://alhurra.com/42399",
-          "title": "دبلوماسية الباندا",
-          "domain": "alhurra.com",
-          "seendate": "20260925T021500Z"
-        },
-        {
-          "url": "https://www.ksat.com/news/world/2026/09/22/middle-east-wars-loom-over-un-general-assembly-and-other-mideast-developments/",
-          "title": "Middle East wars loom over UN General Assembly , and other Mideast developments",
-          "domain": "ksat.com",
-          "seendate": "20260922T144500Z"
         }
       ]
     },
@@ -1546,1513 +1546,8 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [
-        "https://www.haberler.com/politika/mucteba-hamaney-dusmanin-hurmuz-bogazi-20279421-haberi/",
-        "https://haber.mynet.com/mucteba-hamaney-le-ilgili-carpici-detay-hastane-enkazindan-kurtarilmis-110107313775",
-        "http://www.srugim.co.il/101011913-%D7%9B%D7%A5-%D7%91%D7%98%D7%A7%D7%A1-%D7%A7%D7%91%D7%9C%D7%AA-%D7%94%D7%A6%D7%95%D7%9C%D7%9C%D7%AA-%D7%9C%D7%90-%D7%A0%D7%90%D7%A4%D7%A9%D7%A8-%D7%9C%D7%90%D7%A3-%D7%90%D7%97%D7%93"
-      ],
-      "articles": [
-        {
-          "url": "https://www.haberler.com/politika/mucteba-hamaney-dusmanin-hurmuz-bogazi-20279421-haberi/",
-          "title": "Mücteba Hamaney , düşmanın Hürmüz Boğazı muhafızlarından ağır darbe aldığını söyledi",
-          "domain": "haberler.com",
-          "seendate": "20260928T164500Z"
-        },
-        {
-          "url": "https://haber.mynet.com/mucteba-hamaney-le-ilgili-carpici-detay-hastane-enkazindan-kurtarilmis-110107313775",
-          "title": "Mücteba Hamaneyle ilgili çarpıcı detay ! Hastane enkazından kurtarılmış",
-          "domain": "haber.mynet.com",
-          "seendate": "20260927T070000Z"
-        },
-        {
-          "url": "http://www.srugim.co.il/101011913-%D7%9B%D7%A5-%D7%91%D7%98%D7%A7%D7%A1-%D7%A7%D7%91%D7%9C%D7%AA-%D7%94%D7%A6%D7%95%D7%9C%D7%9C%D7%AA-%D7%9C%D7%90-%D7%A0%D7%90%D7%A4%D7%A9%D7%A8-%D7%9C%D7%90%D7%A3-%D7%90%D7%97%D7%93",
-          "title": "כ  ץ מזהיר את איראן בטקס קבלת צוללת דרקון :  המרחק לא מעניק חסינות  ",
-          "domain": "srugim.co.il",
-          "seendate": "20260924T174500Z"
-        },
-        {
-          "url": "https://www.bankier.pl/wiadomosc/Prezydent-Iranu-na-forum-ONZ-Chcemy-dialogu-ale-nie-ulegniemy-presji-i-sile-9201630.html",
-          "title": "Prezydent Iranu na forum ONZ : Chcemy dialogu , ale nie ulegniemy presji i sile",
-          "domain": "bankier.pl",
-          "seendate": "20260923T180000Z"
-        },
-        {
-          "url": "https://www.mzamin.com/article/44918",
-          "title": "ধ্বংসস্তূপ থেকে যেভাবে উদ্ধার মোজতবা খামেনি",
-          "domain": "mzamin.com",
-          "seendate": "20260928T123000Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=24092026&id=48cc4dcc-fcee-4bdb-9173-c97e6e2ab4d7",
-          "title": "نتنياهو يزعم : حاربنا على 7 جبهات .. ووجهنا ضربات قاسية لخصومنا",
-          "domain": "shorouknews.com",
-          "seendate": "20260924T191500Z"
-        },
-        {
-          "url": "https://bdnews24.com/world/middle-east/coraq80ou8",
-          "title": "Mojataba Khamenei had to be  pulled from rubble  after surviving second US strike : report",
-          "domain": "bdnews24.com",
-          "seendate": "20260927T081500Z"
-        },
-        {
-          "url": "https://www.haber7.com/dunya/haber/3663429-dini-lider-hamaneyden-abd-israil-mesaji-cok-yakinda-gerceklesecek",
-          "title": "Dini lider Hamaneyden ABD - İsrail mesajı : Çok yakında gerçekleşecek ! ",
-          "domain": "haber7.com",
-          "seendate": "20260928T181500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/b1tx11w11qzl",
-          "title": "  We did not bend the knee : Iran president hits back at US at UN",
-          "domain": "ynetnews.com",
-          "seendate": "20260923T184500Z"
-        },
-        {
-          "url": "https://arabic.euronews.com/2026/09/28/khamenei-praises-hezbollah-and-warns-irans-enemies-soon-the-arabian-sea-will-be-free",
-          "title": "خامنئي يشيد بحزب الله ويتوعد  أعداء إيران : قريباً سيخلو بحر العرب منهم",
-          "domain": "arabic.euronews.com",
-          "seendate": "20260928T163000Z"
-        },
-        {
-          "url": "https://www.mersinhaber.com/haber-iran-dini-lideri-hamaney-dusmanlarin-umman-denizine-ilerleyemedigini-acikladi/791146",
-          "title": "İran Dini Lideri Hamaney , Düşmanların Umman Denizine İlerleyemediğini Açıkladı",
-          "domain": "mersinhaber.com",
-          "seendate": "20260928T174500Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-25/live-updates-909655",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260925T044500Z"
-        },
-        {
-          "url": "https://www.walla.co.il:443/news/military/383955068",
-          "title": "מפת האיומים : המזרח התיכון יציב - אך קרוב להסלמה רחבה",
-          "domain": "walla.co.il",
-          "seendate": "20260923T073000Z"
-        },
-        {
-          "url": "https://news.walla.co.il:443/news/military/383955068",
-          "title": "מפת האיומים : המזרח התיכון יציב - אך קרוב להסלמה רחבה",
-          "domain": "news.walla.co.il",
-          "seendate": "20260923T070000Z"
-        },
-        {
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-21/live-updates-909207",
-          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
-          "domain": "jpost.com",
-          "seendate": "20260921T221500Z"
-        },
-        {
-          "url": "https://www.haaretz.co.il/news/world/middle-east/2026-09-25/ty-article/000001a0-d5ee-d95f-afeb-d7fe9a420000",
-          "title": "נשיא איראן : איננו רוצים להמשיך להילחם , אבל סיום המלחמה תלוי בארה  ב",
-          "domain": "haaretz.co.il",
-          "seendate": "20260925T011500Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=23092026&id=d7a9596c-ddac-4722-801c-01c3a234f9fa",
-          "title": "رافعا صورة خامنئي .. بزشكيان أمام الأمم المتحدة : ترامب وصفنا بالإرهابيين لكننا وقعنا ضحية الإرهاب",
-          "domain": "shorouknews.com",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://newtalk.tw/news/view/2026-09-24/1061641",
-          "title": "在聯合國大會發表強硬演說點名川普 ！ 伊朗總統 ： 決不向美屈服投降 | 國際",
-          "domain": "newtalk.tw",
-          "seendate": "20260924T023000Z"
-        },
-        {
-          "url": "https://www.ensonhaber.com/mucteba-hamaneyin-hastane-enkazindan-cikartildigi-ortaya-cikti-h1568936",
-          "title": "Mücteba Hamaneyin hastane enkazından çıkartıldığı ortaya çıktı",
-          "domain": "ensonhaber.com",
-          "seendate": "20260927T064500Z"
-        },
-        {
-          "url": "https://www.wfmz.com/news/ap/ap-national/netanyahu-meets-emirati-leader-in-a-secret-weekend-trip-to-abu-dhabi-and-other-mideast-developments/article_bf318bb6-1677-5782-926e-76e52239f705.html",
-          "title": "Netanyahu meets Emirati leader in a secret weekend trip to Abu Dhabi , and other Mideast developments",
-          "domain": "wfmz.com",
-          "seendate": "20260928T131500Z"
-        },
-        {
-          "url": "https://www.inn.co.il/news/707034",
-          "title": "הצוללת השישית של ישראל הגיעה לחיפה ; הרצוג :  כוח אדיר שלא נהסס להפעיל  ",
-          "domain": "inn.co.il",
-          "seendate": "20260924T173000Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/09/pezeshkian-says-iran-open-us-talks-region-must-settle-own-disputes",
-          "title": "Pezeshkian says Iran open to US talks , region must settle own disputes",
-          "domain": "al-monitor.com",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.inn.co.il/news/706913",
-          "title": "בעצרת הכללית של האו  ם | נשיא איראן טען :  אנחנו קרבנות טרור  ",
-          "domain": "inn.co.il",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-general-assembly-2026-arab-and-muslim-leaders-denounce-militarism",
-          "title": "UN General Assembly 2026 : Arab and Muslim leaders denounce militarism engulfing region",
-          "domain": "middleeasteye.net",
-          "seendate": "20260923T210000Z"
-        },
-        {
-          "url": "https://www.edp24.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "edp24.co.uk",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/9/23/irans-president-slams-trumps-bullying-in-defiant-unga-speech",
-          "title": "Iran Pezeshkian slams  terrorist  US but extols diplomacy in UN speech | US - Israel war on Iran News",
-          "domain": "aljazeera.com",
-          "seendate": "20260923T211500Z"
-        },
-        {
-          "url": "https://news.mail.ru/politics/72488112/",
-          "title": "Пезешкиан сообщил , что верховный лидер Ирана в полной мере руководит страной",
-          "domain": "news.mail.ru",
-          "seendate": "20260924T221500Z"
-        },
-        {
-          "url": "https://www.lancashiretelegraph.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "lancashiretelegraph.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.mercurynews.com/2026/09/28/netanyahu-emirati-leader-meeting-mideast-news/",
-          "title": "Netanyahu meets Emirati leader in secret trip , other Mideast news",
-          "domain": "mercurynews.com",
-          "seendate": "20260928T131500Z"
-        },
-        {
-          "url": "https://www.albiladpress.com/news/2026/6555/arab-and-world/1021773.html",
-          "title": "جريدة البلاد | مستشار خامنئي يصعد ويهدد .. وباكستان تواصل مساعي التهدئة",
-          "domain": "albiladpress.com",
-          "seendate": "20260924T103000Z"
-        },
-        {
-          "url": "https://aninews.in/news/world/middle-east/as-trump-rejects-irans-peace-overture-mojtaba-khamenei-says-ready-to-bring-disgrace-to-enemies20260928180858/",
-          "title": "As Trump rejects Iran peace overture , Mojtaba Khamenei says ready to bring  disgrace  to enemies",
-          "domain": "aninews.in",
-          "seendate": "20260928T130000Z"
-        },
-        {
-          "url": "https://www.jiji.com/jc/article?k=2026092400153&g=int",
-          "title": " 「 われわれはテロ被害者 」 イラン大統領 、 国連総会で演説 ： 時事ドットコム",
-          "domain": "jiji.com",
-          "seendate": "20260923T221500Z"
-        },
-        {
-          "url": "https://www.alquds.co.uk/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%87%D8%AF%D9%91%D8%AF-%D8%A8%D8%AA%D9%88%D8%B3%D9%8A%D8%B9-%D8%A7%D9%84%D8%B5%D8%B1%D8%A7%D8%B9-%D8%AD%D8%AA%D9%89-%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7/",
-          "title": "إيران تهدّد بتوسيع الصراع « حتى المحيط الهندي » ",
-          "domain": "alquds.co.uk",
-          "seendate": "20260924T181500Z"
-        },
-        {
-          "url": "https://dailypost.ng/2026/09/23/iran-will-never-bend-pezeshkian-tells-trump/",
-          "title": "Iran will never bend - Pezeshkian tells Trump",
-          "domain": "dailypost.ng",
-          "seendate": "20260923T201500Z"
-        },
-        {
-          "url": "https://www.arkansasonline.com/news/2026/sep/27/trump-rejects-iranian-proposal-to-open-strait/",
-          "title": "Trump rejects Iranian proposal to open strait | The Arkansas Democrat - Gazette",
-          "domain": "arkansasonline.com",
-          "seendate": "20260927T123000Z"
-        },
-        {
-          "url": "https://www.finanzen.net/nachricht/aktien/netanjahu-das-iranische-volk-wird-frei-sein-15951866",
-          "title": "Netanjahu :  Das iranische Volk wird frei sein  ",
-          "domain": "finanzen.net",
-          "seendate": "20260924T200000Z"
-        },
-        {
-          "url": "https://www.thejournal.ie/iran-president-us-un-address-7171082-Sep2026/",
-          "title": "US delegate leaves the room as Iran president tells UN that country is  victim of terrorism  ",
-          "domain": "thejournal.ie",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://www.lokmat.com/international/donald-trump-calls-us-terrorists-country-but-we-are-victims-iranian-president-hits-out-at-us-at-unga-a-a571/",
-          "title": "  डोनाल्ड ट्रम्प आम्हाला दहशतवादी म्हणतात , पण आम्ही तर त्याचे बळी आहोत , इराणच्या राष्ट्राध्यक्षांनी सुनावले , UNGA मध्ये फोटो दाखवले",
-          "domain": "lokmat.com",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/09/iran-threatens-expand-war-indian-ocean-what-know",
-          "title": "Iran threatens to expand war to Indian Ocean : What to know",
-          "domain": "al-monitor.com",
-          "seendate": "20260924T160000Z"
-        },
-        {
-          "url": "https://www.khaberni.com/news/851463-%D9%85%D8%B3%D8%A4%D9%88%D9%84-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%84%D9%85%D8%AD-%D9%84%D8%AC%D9%88%D9%84%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86",
-          "title": "مسؤول إسرائيلي يلمح لجولة جديدة ضد ايران",
-          "domain": "khaberni.com",
-          "seendate": "20260924T143000Z"
-        },
-        {
-          "url": "https://www.theyeshivaworld.com/news/israel-news/2602218/un-walkout-u-s-delegation-leaves-as-iranian-president-responds-to-trump.html",
-          "title": "UN WALKOUT : U . S . Delegation Leaves as Iranian President Responds to Trump",
-          "domain": "theyeshivaworld.com",
-          "seendate": "20260923T200000Z"
-        },
-        {
-          "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D9%88%D9%81%D8%AF-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D9%8A%D9%86%D8%B3%D8%AD%D8%A8-%D9%85%D9%86-%D9%82%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85/",
-          "title": "الوفد الأمريكي ينسحب من قاعة الجمعية العامة للأمم المتحدة خلال كلمة بزشكيان",
-          "domain": "alquds.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.investmentwatchblog.com/pezeshkian-answers-trump-by-name-he-offers-talks-he-rejects-force-the-u-s-seats-go-empty/",
-          "title": "Pezeshkian answers Trump by name . He offers talks . He rejects force . The U . S . seats go empty",
-          "domain": "investmentwatchblog.com",
-          "seendate": "20260923T201500Z"
-        },
-        {
-          "url": "https://www.aktiencheck.de/news/Artikel-Netanjahu_iranische_Volk_wird_frei_sein-20121553",
-          "title": "Netanjahu :  Das iranische Volk wird frei sein  () ",
-          "domain": "aktiencheck.de",
-          "seendate": "20260924T200000Z"
-        },
-        {
-          "url": "https://www.aktiencheck.de/analysen/Artikel-Netanjahu_iranische_Volk_wird_frei_sein-20121553",
-          "title": "Netanjahu :  Das iranische Volk wird frei sein  () ",
-          "domain": "aktiencheck.de",
-          "seendate": "20260924T200000Z"
-        },
-        {
-          "url": "https://www.oxfordmail.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "oxfordmail.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.almasryalyoum.com/news/details/4366958",
-          "title": " « حتى المحيط الهندي أو ربما أبعد منه ».. إيران تهدد أمريكا وإسرائيل بتوسيع الحرب في هذه الحالة",
-          "domain": "almasryalyoum.com",
-          "seendate": "20260924T111500Z"
-        },
-        {
-          "url": "https://www.csmonitor.com/World/Middle-East/2026/0923/iran-war-trump-israel-pezeshkian-unga",
-          "title": "At UN , Iranian leader denounces US and Israel as aggressors",
-          "domain": "csmonitor.com",
-          "seendate": "20260923T221500Z"
-        },
-        {
-          "url": "https://hu.euronews.com/2026/09/23/peszeskjan-az-ensz-nek-iran-nem-hagyja-magat-de-kesz-targyalni",
-          "title": "Peszeskján az ENSZ - nek : Irán nem hagyja magát , de kész tárgyalni",
-          "domain": "hu.euronews.com",
-          "seendate": "20260923T223000Z"
-        },
-        {
-          "url": "https://krdo.com/news/national-world/cnn-world/2026/09/24/we-arent-trying-to-kill-trump-irans-president-insists-to-reporters-at-new-york-hotel/",
-          "title": "We arent trying to kill Trump , Iran president insists to reporters at New York hotel",
-          "domain": "krdo.com",
-          "seendate": "20260925T014500Z"
-        },
-        {
-          "url": "http://www.non14.net/192171",
-          "title": "الرئيس الإيراني يرفع صورة السيد خامنئي ويطرح  حلا وضمانا موثوقا  لإبرام الاتفاق النووي ( فيديو ) ",
-          "domain": "non14.net",
-          "seendate": "20260923T211500Z"
-        },
-        {
-          "url": "https://whdh.com/news/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/",
-          "title": "Trump rejects Iran proposal to reopen the Strait of Hormuz and other Mideast news - Boston News , Weather , Sports",
-          "domain": "whdh.com",
-          "seendate": "20260927T010000Z"
-        },
-        {
-          "url": "https://www.lokmat.com/international/mojtaba-khamenei-survived-the-american-attack-twice-claims-to-have-been-safely-pulled-out-from-under-the-rubble-of-the-hospital-a-a653/",
-          "title": "अमेरिकेच्या हल्ल्यात दोन वेळा बचावले मोजतबा खामेनेई ! रुग्णालयाच्या ढिगाऱ्याखालून सुखरूप बाहेर काढल्याचा दावा",
-          "domain": "lokmat.com",
-          "seendate": "20260927T110000Z"
-        },
-        {
-          "url": "https://www.cp24.com/news/world/2026/09/26/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz/",
-          "title": "Mideast news : Trump rejects Iran proposal to reopen strait",
-          "domain": "cp24.com",
-          "seendate": "20260927T040000Z"
-        },
-        {
-          "url": "https://www.pilotonline.com/2026/09/23/iran-president-un-address/",
-          "title": "Iran president in address at UN : We have been  victims of terrorism  ",
-          "domain": "pilotonline.com",
-          "seendate": "20260923T170000Z"
-        },
-        {
-          "url": "https://www.digi24.ro/stiri/externe/sua/presedintele-iranian-massoud-pezeshkian-mesaj-pentru-trump-este-de-datoria-americii-sa-decida-daca-vrea-sa-puna-capat-razboiului-3963867",
-          "title": "Președintele iranian Massoud Pezeshkian , mesaj pentru Trump : „ Este de datoria Americii să decidă dacă vrea să pună capăt  războiului",
-          "domain": "digi24.ro",
-          "seendate": "20260925T084500Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/we-will-never-bow-our-head-irans-president-strikes-defiant-tone-un",
-          "title": "  We will never bow our head : Iran president strikes defiant tone in UN speech",
-          "domain": "middleeasteye.net",
-          "seendate": "20260923T190000Z"
-        },
-        {
-          "url": "https://www.krgv.com/news/trump-rejects-iran-s-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/",
-          "title": "Trump rejects Iran proposal to reopen the Strait of Hormuz and other Mideast news",
-          "domain": "krgv.com",
-          "seendate": "20260927T051500Z"
-        },
-        {
-          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3061402/irano-prezidentas-donaldui-trumpui-iranas-niekada-nepasiduos",
-          "title": "Irano prezidentas Donaldui Trumpui : Iranas niekada nepasiduos",
-          "domain": "lrt.lt",
-          "seendate": "20260923T224500Z"
-        },
-        {
-          "url": "https://en.dailypakistan.com.pk/23-Sep-2026/pezeshkian-says-iran-will-not-surrender-to-us-military-pressure-backs-diplomacy",
-          "title": "Pezeshkian says Iran will not surrender to US military pressure , backs diplomacy",
-          "domain": "en.dailypakistan.com.pk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.canyon-news.com/?p=203991",
-          "title": "US - Israel Strikes On Iran Leave Ayatollah Khamenei Dead",
-          "domain": "canyon-news.com",
-          "seendate": "20260921T214500Z"
-        },
-        {
-          "url": "http://www.idahopress.com/ap_news/us/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/article_fe91838c-fcea-5d70-a7ff-03a2afa5fd16.html",
-          "title": "Trump rejects Iran proposal to reopen the Strait of Hormuz and other Mideast news",
-          "domain": "idahopress.com",
-          "seendate": "20260927T003000Z"
-        },
-        {
-          "url": "https://dunyanews.tv/en/World/974359-after-trump-threat-irans-president-tells-un-tehran-cannot-be-made-t",
-          "title": "After Trump threat , Iran president tells UN Tehran  cannot be made to surrender  ",
-          "domain": "dunyanews.tv",
-          "seendate": "20260924T013000Z"
-        },
-        {
-          "url": "https://www.alquds.co.uk/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%87%D8%AF%D8%AF-%D8%A8%D8%AA%D9%88%D8%B3%D9%8A%D8%B9-%D8%A7%D9%84%D9%86%D8%B2%D8%A7%D8%B9-%D8%AD%D8%AA%D9%89-%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7-%D8%A7%D9%84/",
-          "title": "إيران تهدد بتوسيع النزاع  حتى المحيط الهندي  إذا استهدفتها هجمات أمريكية جديدة",
-          "domain": "alquds.co.uk",
-          "seendate": "20260924T104500Z"
-        },
-        {
-          "url": "https://ktvz.com/news/national-world/cnn-world/2026/09/24/we-arent-trying-to-kill-trump-irans-president-insists-to-reporters-at-new-york-hotel/",
-          "title": "We arent trying to kill Trump , Iran president insists to reporters at New York hotel",
-          "domain": "ktvz.com",
-          "seendate": "20260925T011500Z"
-        },
-        {
-          "url": "https://www.twincities.com/2026/09/23/iran-president-un-address/",
-          "title": "Iran president in address at UN : We have been  victims of terrorism  ",
-          "domain": "twincities.com",
-          "seendate": "20260923T190000Z"
-        },
-        {
-          "url": "https://www.business-standard.com/world-news/after-trump-s-annihilation-threat-pezeshkian-says-iran-won-t-surrender-126092301557_1.html",
-          "title": "After Trump annihilation threat , Pezeshkian says Iran wont surrender",
-          "domain": "business-standard.com",
-          "seendate": "20260923T201500Z"
-        },
-        {
-          "url": "https://www.pressdemocrat.com/2026/09/23/iran-president-un-address/",
-          "title": "Iran president in address at UN : We have been  victims of terrorism  ",
-          "domain": "pressdemocrat.com",
-          "seendate": "20260923T193000Z"
-        },
-        {
-          "url": "https://www.latercera.com/mundo/noticia/iran-advierte-de-que-podria-ampliar-al-oceano-indico-el-alcance-de-la-guerra-en-caso-de-ataques-de-estados-unidos-e-israel/",
-          "title": "Irán advierte de que podría ampliar al océano Índico el alcance de la guerra en caso de ataques de Estados Unidos e Israel",
-          "domain": "latercera.com",
-          "seendate": "20260924T143000Z"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/never-been-the-position-to-assassinate-trump-iran-president-pezeshkian/articleshow/134475534.cms",
-          "title": "  Never been the position to assassinate Trump : Iran President Pezeshkian",
-          "domain": "timesofindia.indiatimes.com",
-          "seendate": "20260925T053000Z"
-        },
-        {
-          "url": "https://www.star.com.tr/dunya/pezeskiyan-mesaji-abd-basinina-verdi-anlasmak-istiyoruz-haber-2042428/",
-          "title": "Pezeþkiyan mesajý ABD basýnýna verdi : Anlaþmak istiyoruz",
-          "domain": "star.com.tr",
-          "seendate": "20260925T054500Z"
-        },
-        {
-          "url": "https://www.newindianexpress.com/world/2026/Sep/23/we-have-been-victims-of-terrorism-irans-president-pezeshkian-in-wartime-address-at-un",
-          "title": "We have been  victims of terrorism : Iran President Pezeshkian in wartime address at UN",
-          "domain": "newindianexpress.com",
-          "seendate": "20260923T181500Z"
-        },
-        {
-          "url": "https://www.evrensel.net/haber/6002299/mucteba-hamaneyin-yaralandigi-saldiriyla-ilgili-yeni-iddia-hastanenin-enkazindan-cikarilmis",
-          "title": "Mücteba Hamaneyin yaralandığı saldırıyla ilgili yeni iddia : Hastanenin enkazından çıkarılmış",
-          "domain": "evrensel.net",
-          "seendate": "20260927T110000Z"
-        },
-        {
-          "url": "https://www.dailynews.com/2026/09/23/iran-president-un-address/",
-          "title": "Iran president in address at UN : We have been  victims of terrorism  ",
-          "domain": "dailynews.com",
-          "seendate": "20260923T221500Z"
-        },
-        {
-          "url": "https://kesq.com/news/national-world/cnn-world/2026/09/24/we-arent-trying-to-kill-trump-irans-president-insists-to-reporters-at-new-york-hotel/",
-          "title": "We arent trying to kill Trump , Iran president insists to reporters at New York hotel",
-          "domain": "kesq.com",
-          "seendate": "20260925T011500Z"
-        },
-        {
-          "url": "https://www.euronews.com/2026/09/23/pezeshkian-tells-un-iran-will-not-be-bullied-but-will-negotiate",
-          "title": "Pezeshkian tells UN Iran will not be bullied but will negotiate",
-          "domain": "euronews.com",
-          "seendate": "20260923T194500Z"
-        },
-        {
-          "url": "https://sputnikglobe.com/20260925/war-was-imposed-on-iran-us-israeli-attacks-derailed-diplomacy--pezeshkian-1124785464.html",
-          "title": "War Was Imposed on Iran , US - Israeli Attacks Derailed Diplomacy Pezeshkian",
-          "domain": "sputnikglobe.com",
-          "seendate": "20260925T060000Z"
-        },
-        {
-          "url": "https://www.fox13now.com/us-news/iran-war/trump-rejects-iran-proposal-to-reopen-strait-of-hormuz-calls-it-trump-strait",
-          "title": "Trump rejects Iran proposal to reopen Strait of Hormuz , calls it  Trump Strait  ",
-          "domain": "fox13now.com",
-          "seendate": "20260927T023000Z"
-        },
-        {
-          "url": "https://www.vetogate.com/5738084",
-          "title": "بزشكيان : مستعدون للتخلي عن اليورانيوم المخصب بنسبة 60 % بشرط",
-          "domain": "vetogate.com",
-          "seendate": "20260925T020000Z"
-        },
-        {
-          "url": "https://freebeacon.com/democrats/abdul-el-sayed-quietly-headlines-fundraiser-alongside-hamas-loving-activist-who-urged-jews-to-be-sent-back-to-poland-speaker-who-backs-islamic-militants/",
-          "title": "Abdul El - Sayed Quietly Headlines Fundraiser Alongside Hamas - Loving Activist Who Urged Jews To Be Sent  Back to Poland , Speaker Who Backs Islamic Militants",
-          "domain": "freebeacon.com",
-          "seendate": "20260925T020000Z"
-        },
-        {
-          "url": "https://www.timeslive.co.za/news/world/2026-09-23-irans-president-tells-un-we-have-been-victims-of-terrorism/",
-          "title": "Iran president tells UN :  We have been victims of terrorism  ",
-          "domain": "timeslive.co.za",
-          "seendate": "20260923T180000Z"
-        },
-        {
-          "url": "https://www.notimerica.com/politica/noticia-iran-iran-advierte-podria-ampliar-oceano-indico-alcance-guerra-caso-ataques-eeuu-israel-20260924151524.html",
-          "title": "Irán .- Irán advierte de que podría ampliar al océano Índico el alcance de la guerra en caso de ataques de EEUU e Israel",
-          "domain": "notimerica.com",
-          "seendate": "20260924T211500Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/09/23/pezeshkian-says-iran-will-not-surrender-after-trumps-annihilation-threat",
-          "title": "Pezeshkian says Iran will not surrender after Trump annihi",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260923T210000Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/news/we-will-never-bow-our-head-irans-president-strikes-defiant-tone-un-speech",
-          "title": "  We will never bow our head : Iran president strikes defiant tone in UN speech",
-          "domain": "middleeasteye.net",
-          "seendate": "20260923T190000Z"
-        },
-        {
-          "url": "https://arabi21.com/story/1790404/%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AD%D8%AC%D9%8A%D8%AC-%D8%A7%D9%84%D8%B3%D9%86%D9%88%D9%8A-%D8%A5%D9%84%D9%89-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83",
-          "title": "موسم الحجيج السنوي إلى نيويورك",
-          "domain": "arabi21.com",
-          "seendate": "20260922T054500Z"
-        },
-        {
-          "url": "https://www.dostor.org/5713275",
-          "title": "صراع بلا نهاية .. ماذا فى الأفق .. حرب أمريكا وإسرائيل على إيران ؟! ",
-          "domain": "dostor.org",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.newindianexpress.com/world/2026/Sep/23/we-have-been-victims-of-terrorism-irans-president-in-wartime-address-at-un",
-          "title": "We have been  victims of terrorism : Iran president in wartime address at UN",
-          "domain": "newindianexpress.com",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.i24news.tv/en/news/middle-east/levant-turkey/artc-hezbollah-as-we-know-it-died-with-nasrallah-analysis",
-          "title": "Hezbollah As We Know It Died With Nasrallah - Analysis",
-          "domain": "i24news.tv",
-          "seendate": "20260927T201500Z"
-        },
-        {
-          "url": "https://www.moneycontrol.com/world/war-may-reach-indian-ocean-if-us-attacks-again-warns-iran-article-14037285.html",
-          "title": "War may reach Indian Ocean if US attacks again , warns Iran",
-          "domain": "moneycontrol.com",
-          "seendate": "20260924T090000Z"
-        },
-        {
-          "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69671739-netanjahu-das-iranische-volk-wird-frei-sein-016.htm",
-          "title": "Netanjahu :  Das iranische Volk wird frei sein  ",
-          "domain": "finanznachrichten.de",
-          "seendate": "20260924T200000Z"
-        },
-        {
-          "url": "https://www.aljazeera.net/news/2026/9/27/%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D8%A8%D8%B2%D8%B4%D9%83%D9%8A%D8%A7%D9%86-%D9%85%D9%86-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83-%D9%85%D8%A7%D8%B0%D8%A7-%D9%82%D8%A7%D9%84-%D8%B9%D9%86",
-          "title": "رسائل بزشكيان من نيويورك .. ماذا قال عن اليمن وسوريا ودول الخليج وهرمز ؟ ",
-          "domain": "aljazeera.net",
-          "seendate": "20260927T143000Z"
-        },
-        {
-          "url": "https://stirileprotv.ro/stiri/international/donald-trump-refuza-propunerea-de-pace-a-iranului-care-ar-fi-putut-duce-la-redeschiderea-stramtorii-ormuz-motivul-e-uimitor.html",
-          "title": "Donald Trump refuză propunerea de pace a Iranului , care ar fi putut duce la redeschiderea Strâmtorii Ormuz . Motivul e uimitor",
-          "domain": "stirileprotv.ro",
-          "seendate": "20260927T103000Z"
-        },
-        {
-          "url": "https://www.cnn.com/2026/09/21/middleeast/iran-president-un-general-assembly-new-york-intl",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "cnn.com",
-          "seendate": "20260921T194500Z"
-        },
-        {
-          "url": "https://www.globes.co.il/news/article.aspx?did=1001557616",
-          "title": "אסון בצפון הרצועה : 2 לוחמים נהרגו מפיצוץ רחפן צה  ל",
-          "domain": "globes.co.il",
-          "seendate": "20260925T061500Z"
-        },
-        {
-          "url": "https://metrohk.com.hk/%E5%9C%8B%E9%9A%9B/%E4%BC%8A%E6%9C%97%E7%B8%BD%E7%B5%B1%E8%81%AF%E5%9C%8B%E7%99%BC%E8%A8%80-%E4%B8%8D%E6%9C%83%E5%9C%A8%E6%88%B0%E7%88%AD%E4%B8%AD%E6%8A%95%E9%99%8D-6e8581",
-          "title": "伊朗總統聯國發言 ： 不會在戰爭中投降｜METROHK . com . hk",
-          "domain": "metrohk.com.hk",
-          "seendate": "20260923T181500Z"
-        },
-        {
-          "url": "https://www.eurasiareview.com/24092026-at-un-pezeshkian-turns-terrorism-accusation-back-on-irans-critics/",
-          "title": "At UN , Pezeshkian Turns Terrorism Accusation Back On Iran Critics",
-          "domain": "eurasiareview.com",
-          "seendate": "20260924T020000Z"
-        },
-        {
-          "url": "https://arynews.tv/pezeshkian-says-iran-wont-surrender-after-trumps-annihilation-threat",
-          "title": "Pezeshkian says Iran wont surrender , after Trump annihilation threat",
-          "domain": "arynews.tv",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://bokra.net/Article-1604120",
-          "title": "موقع بكرا - كاتس يحذر حماس وطهران وأردوغان : سنخلي مدينة غزة بالكامل إذا اختُطف إسرائيلي",
-          "domain": "bokra.net",
-          "seendate": "20260922T153000Z"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/international/world-news/irans-president-in-wartime-address-at-un-we-have-been-victims-of-terrorism/articleshow/134441013.cms",
-          "title": "Iran president UN speech : Iran big UN message to Trump : Pezeshkian says America does not understand a country it seeks to  bully  ",
-          "domain": "economictimes.indiatimes.com",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "http://www.washingtonexaminer.com/in_focus/4737716/time-for-trump-put-iran-down-for-good/",
-          "title": "It time for Trump to put Iran down for good",
-          "domain": "washingtonexaminer.com",
-          "seendate": "20260923T201500Z"
-        },
-        {
-          "url": "http://www.jpost.com/opinion/article-908623",
-          "title": "Iran must face legal accountability for its crimes",
-          "domain": "jpost.com",
-          "seendate": "20260924T203000Z"
-        },
-        {
-          "url": "https://www.middleeastmonitor.com/20260924-from-najaf-to-hormuz-the-forty-seven-year-road-that-brought-irans-revolution-to-the-gulfs-doorstep/",
-          "title": "From Najaf to Hormuz : The forty - seven - year road that brought Iran revolution to the Gulf doorstep – Middle East Monitor",
-          "domain": "middleeastmonitor.com",
-          "seendate": "20260924T123000Z"
-        },
-        {
-          "url": "https://www.deccanchronicle.com/world/we-have-been-victims-of-terrorism-iran-president-delivers-wartime-un-address-1989994",
-          "title": "  We Have Been Victims of Terrorism : Iran President Delivers Wartime UN Address",
-          "domain": "deccanchronicle.com",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.news4jax.com/news/world/2026/09/23/irans-president-to-speak-at-the-united-nations-in-rare-wartime-address/",
-          "title": "Iran president delivers wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "news4jax.com",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/h1ms17icgl",
-          "title": "Iran insists on diplomatic solution after Trump rejects peace plan",
-          "domain": "ynetnews.com",
-          "seendate": "20260927T081500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/r100a3g9mx",
-          "title": "Netanyahu : Leaders who condemn Israel privately thank us for striking Iran",
-          "domain": "ynetnews.com",
-          "seendate": "20260924T190000Z"
-        },
-        {
-          "url": "https://www.milliyet.com.tr/dunya/iranin-gizli-sahibi-devrim-muhafizlari-tahranin-demir-yumrugu-nasil-ayakta-kaliyor-7665904",
-          "title": "İran  ın  gizli sahibi : Devrim Muhafızları ! Tahran  ın  demir yumruğu  nasıl ayakta kalıyor ? ",
-          "domain": "milliyet.com.tr",
-          "seendate": "20260925T044500Z"
-        },
-        {
-          "url": "https://divyamarathi.bhaskar.com/international/news/trump-iran-hormuz-strait-blockade-war-peace-plan-statement-139163257.html",
-          "title": "Trump Statement on Iran Hormuz Strait Blockade & Peace Plan",
-          "domain": "divyamarathi.bhaskar.com",
-          "seendate": "20260927T040000Z"
-        },
-        {
-          "url": "https://www.middleeasteye.net/news/un-general-assembly-2026-arab-and-muslim-leaders-denounce-militarism-engulfing-region",
-          "title": "UN General Assembly 2026 : Arab and Muslim leaders denounce militarism engulfing region",
-          "domain": "middleeasteye.net",
-          "seendate": "20260923T210000Z"
-        },
-        {
-          "url": "https://www.channelnewsasia.com/world/iran-us-peace-talk-revival-trump-un-general-assembly-6402351",
-          "title": "Iran , US hint at revival of talks as Trump , Pezeshkian due to attend UN",
-          "domain": "channelnewsasia.com",
-          "seendate": "20260922T144500Z"
-        },
-        {
-          "url": "https://www.news-gazette.com/news/nation-world/irans-president-delivers-defiant-un-speech-and-other-mideast-developments/article_044825d1-08c9-5514-9626-261f32096034.html",
-          "title": "Iran president delivers defiant UN speech , and other Mideast developments",
-          "domain": "news-gazette.com",
-          "seendate": "20260924T053000Z"
-        },
-        {
-          "url": "https://www.pakistantoday.com.pk/2026/09/28/irans-khamenei-says-enemy-forces-would-soon-be-driven-out-of-arabian-sea",
-          "title": "Iran Khamenei says  enemy force would soon be driven out",
-          "domain": "pakistantoday.com.pk",
-          "seendate": "20260928T163000Z"
-        },
-        {
-          "url": "https://www.rte.ie/news/world/2026/0923/1592691-iran-us-talks/",
-          "title": "Fresh talks between US and Iran described as  productive  ",
-          "domain": "rte.ie",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.indiablooms.com/world/we-are-victims-not-terrorists-iranian-presidents-fiery-un-message-to-trump/details",
-          "title": "  We are victims , not terrorist : Iranian President fiery UN message to Trump | Indiablooms - First Portal on Digital News Management",
-          "domain": "indiablooms.com",
-          "seendate": "20260923T210000Z"
-        },
-        {
-          "url": "https://www.hkcna.hk/docDetail.jsp?id=101432440&channel=2810",
-          "title": "人物 | 台上嗆聲 、 桌下穿梭 ， 伊朗總統面臨  走鋼絲  難題 | 國際",
-          "domain": "hkcna.hk",
-          "seendate": "20260927T010000Z"
-        },
-        {
-          "url": "https://www.hkcna.hk/docDetail.jsp?id=101432440&channel=2803",
-          "title": "人物 | 台上嗆聲 、 桌下穿梭 ， 伊朗總統面臨  走鋼絲  難題 | 頭條",
-          "domain": "hkcna.hk",
-          "seendate": "20260927T010000Z"
-        },
-        {
-          "url": "https://mymotherlode.com/news/world/11175464/netanyahu-meets-emirati-leader-in-a-secret-weekend-trip-to-abu-dhabi-and-other-mideast-developments.html",
-          "title": "Netanyahu meets Emirati leader in a secret weekend trip to Abu Dhabi , and other Mideast developments",
-          "domain": "mymotherlode.com",
-          "seendate": "20260928T131500Z"
-        },
-        {
-          "url": "https://www.foxnews.com/politics/top-moments-from-iran-presidents-tense-visit-us-soil-war-rages",
-          "title": "Pezeshkian defends Iran at UN General Assembly against US attacks",
-          "domain": "foxnews.com",
-          "seendate": "20260923T181500Z"
-        },
-        {
-          "url": "https://wiadomosci.onet.pl/swiat/prezydent-iranu-w-nowym-jorku-precedensowy-ruch-wladz-usa/z56r13d",
-          "title": "Prezydent Iranu w Nowym Jorku . Precedensowy ruch władz united states ",
-          "domain": "wiadomosci.onet.pl",
-          "seendate": "20260923T064500Z"
-        },
-        {
-          "url": "https://www.burytimes.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "burytimes.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.ledburyreporter.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "ledburyreporter.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.messengernewspapers.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "messengernewspapers.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.heraldseries.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "heraldseries.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.timesandstar.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "timesandstar.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.thisisoxfordshire.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "thisisoxfordshire.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.thisiswiltshire.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "thisiswiltshire.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.thurrockgazette.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "thurrockgazette.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.dunmowbroadcast.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "dunmowbroadcast.co.uk",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://www.chardandilminsternews.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "chardandilminsternews.co.uk",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://www.cravenherald.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "cravenherald.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.royston-crow.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "royston-crow.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.milfordmercury.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "milfordmercury.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.westerntelegraph.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "westerntelegraph.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.warringtonguardian.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "warringtonguardian.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.wimbledonguardian.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "wimbledonguardian.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.clactonandfrintongazette.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "clactonandfrintongazette.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.times-series.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "times-series.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.southwalesargus.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "southwalesargus.co.uk",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.wharfedaleobserver.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "wharfedaleobserver.co.uk",
-          "seendate": "20260923T153000Z"
-        },
-        {
-          "url": "https://www.worcesternews.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "worcesternews.co.uk",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://www.peeblesshirenews.com/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "peeblesshirenews.com",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://www.stroudnewsandjournal.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "stroudnewsandjournal.co.uk",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://www.bracknellnews.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "bracknellnews.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.tivysideadvertiser.co.uk/news/national/26576116.irans-president-wartime-address-un-victims-terrorism/",
-          "title": "Iran president in wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "tivysideadvertiser.co.uk",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20260924151505/iran-advierte-podria-ampliar-oceano-indico-alcance-guerra-caso-ataques-eeuu-e-israel",
-          "title": "Irán advierte de que podría ampliar al océano Índico el alcance de la guerra en caso de ataques de EEUU e Israel",
-          "domain": "diariosigloxxi.com",
-          "seendate": "20260924T134500Z"
-        },
-        {
-          "url": "https://krdo.com/news/national-world/cnn-world/2026/09/21/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "krdo.com",
-          "seendate": "20260921T224500Z"
-        },
-        {
-          "url": "https://news.az/news/iran-threatens-to-expand-war-to-indian-ocean-if-us-israel-launch-new-attacks",
-          "title": "Iran threatens to expand war to Indian Ocean if US , Israel launch new attacks",
-          "domain": "news.az",
-          "seendate": "20260924T103000Z"
-        },
-        {
-          "url": "https://www.namibian.com.na/irans-president-tells-trump-it-will-never-bend-the-knee/",
-          "title": "Iran president tells Trump it will never  bend the knee  - News",
-          "domain": "namibian.com.na",
-          "seendate": "20260924T071500Z"
-        },
-        {
-          "url": "https://www.journalgazette.net/news/national/iranian-president-masoud-pezeshkian-delivers-wartime-address-at-united-nations-we-have-been-victims-of/article_40fa863d-3276-5be5-917b-869a022c1b41.html",
-          "title": "Iranian President Masoud Pezeshkian delivers wartime address at United Nations : We have been  victims of terrorism  ",
-          "domain": "journalgazette.net",
-          "seendate": "20260923T180000Z"
-        },
-        {
-          "url": "https://dominicanrepublicpost.com/irans-pezeshkian-slams-terrorist-us-but-extols-diplomacy-in-un-speech/",
-          "title": "Iran Pezeshkian slams  terrorist  US but extols diplomacy in UN speech - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-          "domain": "dominicanrepublicpost.com",
-          "seendate": "20260923T220000Z"
-        },
-        {
-          "url": "https://grenadachronicle.com/irans-pezeshkian-slams-terrorist-us-but-extols-diplomacy-in-un-speech/",
-          "title": "Iran Pezeshkian slams  terrorist  US but extols diplomacy in UN speech - Grenada Chronicle – Daily Grenada And Caribbean News",
-          "domain": "grenadachronicle.com",
-          "seendate": "20260923T221500Z"
-        },
-        {
-          "url": "http://www.iraqsun.com/news/279337836/as-trump-rejects-iran-peace-overture-mojtaba-khamenei-says-ready-to-bring-disgrace-to-enemies",
-          "title": "As Trump rejects Iran peace overture , Mojtaba Khamenei says ready to bring  disgrace  to enemies",
-          "domain": "iraqsun.com",
-          "seendate": "20260928T163000Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279337836/as-trump-rejects-iran-peace-overture-mojtaba-khamenei-says-ready-to-bring-disgrace-to-enemies",
-          "title": "As Trump rejects Iran peace overture , Mojtaba Khamenei says ready to bring  disgrace  to enemies",
-          "domain": "heraldglobe.com",
-          "seendate": "20260928T153000Z"
-        },
-        {
-          "url": "http://www.newzealandstar.com/news/279337836/as-trump-rejects-iran-peace-overture-mojtaba-khamenei-says-ready-to-bring-disgrace-to-enemies",
-          "title": "As Trump rejects Iran peace overture , Mojtaba Khamenei says ready to bring  disgrace  to enemies",
-          "domain": "newzealandstar.com",
-          "seendate": "20260928T164500Z"
-        },
-        {
-          "url": "https://www.wmur.com/article/iran-president-blasts-us-trump-at-un/73851971",
-          "title": "Iran president delivers wartime address at UN",
-          "domain": "wmur.com",
-          "seendate": "20260923T223000Z"
-        },
-        {
-          "url": "https://www.foxnews.com/politics/mamdani-roasted-staying-tight-lipped-war-criminal-pezeshkian-raging-netanyahu",
-          "title": "Mamdani slammed for silence on Pezeshkian after Netanyahu remarks",
-          "domain": "foxnews.com",
-          "seendate": "20260923T190000Z"
-        },
-        {
-          "url": "https://www.journal-advocate.com/2026/09/28/netanyahu-emirati-leader-meeting-mideast-news/",
-          "title": "Netanyahu meets Emirati leader in secret trip , other Mideast news",
-          "domain": "journal-advocate.com",
-          "seendate": "20260928T141500Z"
-        },
-        {
-          "url": "https://wiadomosci.onet.pl/politico/iran-nie-ukleknie-przed-trumpem-mocne-slowa-iranskiego-prezydenta/3ks0clg",
-          "title": "Iran  nie uklęknie  przed Trumpem . Mocne słowa irańskiego prezydenta",
-          "domain": "wiadomosci.onet.pl",
-          "seendate": "20260923T194500Z"
-        },
-        {
-          "url": "https://wiadomosci.onet.pl/swiat/iran-nie-ukleknie-przed-trumpem-mocne-slowa-iranskiego-prezydenta/l32pm3p",
-          "title": "Iran  nie uklęknie  przed Trumpem . Mocne słowa irańskiego prezydenta",
-          "domain": "wiadomosci.onet.pl",
-          "seendate": "20260923T180000Z"
-        },
-        {
-          "url": "https://www.notimerica.com/politica/noticia-argentina-procesados-ocho-cargos-iranies-hezbola-acusados-atentado-amia-buenos-aires-20260921212329.html",
-          "title": "Procesados ocho cargos iraníes y de Hezbolá acusados del atentado de la AMIA de Buenos Aires",
-          "domain": "notimerica.com",
-          "seendate": "20260921T230000Z"
-        },
-        {
-          "url": "https://www.shorouknews.com/news/view.aspx?cdate=22092026&id=9c396456-4566-4401-a8bb-ce2b13c2a045",
-          "title": "خام برنت يفاقم خسائره وينخفض إلى 98 دولارا للبرميل",
-          "domain": "shorouknews.com",
-          "seendate": "20260922T110000Z"
-        },
-        {
-          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3047154/klaida-gali-iziebti-pavojinga-kibirksti-kas-vyksta-tarp-turkijos-ir-izraelio",
-          "title": "Klaida gali įžiebti pavojingą kibirkštį : kas vyksta tarp Turkijos ir Izraelio ? ",
-          "domain": "lrt.lt",
-          "seendate": "20260923T080000Z"
-        },
-        {
-          "url": "https://tribune.com.pk/story/2631318/iran-seeks-deal-with-us-not-war-pezeshkian",
-          "title": "Iran seeks deal with US , not war : Pezeshkian",
-          "domain": "tribune.com.pk",
-          "seendate": "20260925T054500Z"
-        },
-        {
-          "url": "https://www.siasat.com/iran-president-defies-trump-at-unga-vows-not-to-bend-the-knee-3547251/",
-          "title": "Iran president defies Trump at UNGA , vows not to  bend the knee  ",
-          "domain": "siasat.com",
-          "seendate": "20260924T054500Z"
-        },
-        {
-          "url": "https://localnews8.com/news/national-world/cnn-world/2026/09/21/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive - LocalNews8 . com",
-          "domain": "localnews8.com",
-          "seendate": "20260921T221500Z"
-        },
-        {
-          "url": "https://dominicanrepublicpost.com/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks/",
-          "title": "  Annihilate  vs  crushing  attacks : Why Iran , US up rhetoric amid talks - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-          "domain": "dominicanrepublicpost.com",
-          "seendate": "20260923T123000Z"
-        },
-        {
-          "url": "https://grenadachronicle.com/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks/",
-          "title": "  Annihilate  vs  crushing  attacks : Why Iran , US up rhetoric amid talks - Grenada Chronicle – Daily Grenada And Caribbean News",
-          "domain": "grenadachronicle.com",
-          "seendate": "20260923T124500Z"
-        },
-        {
-          "url": "https://www.greeleytribune.com/2026/09/23/iran-president-un-address/",
-          "title": "Iran president in address at UN : We have been  victims of terrorism  ",
-          "domain": "greeleytribune.com",
-          "seendate": "20260923T164500Z"
-        },
-        {
-          "url": "https://www.journal-advocate.com/2026/09/23/iran-president-un-address/",
-          "title": "Iran president in address at UN : We have been  victims of terrorism  ",
-          "domain": "journal-advocate.com",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://theshillongtimes.com/2026/09/25/iran-will-fight-until-last-breath/",
-          "title": "Iran will fight  until last breath  | The Shillong Times",
-          "domain": "theshillongtimes.com",
-          "seendate": "20260925T061500Z"
-        },
-        {
-          "url": "https://ktvz.com/news/national-world/cnn-world/2026/09/21/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "ktvz.com",
-          "seendate": "20260921T223000Z"
-        },
-        {
-          "url": "https://arynews.tv/us-has-no-role-in-west-asia-tehran-to-shape-regional-security-claims-iranian-commander",
-          "title": "Iran will shape West Asia security future as US exits : Safavi",
-          "domain": "arynews.tv",
-          "seendate": "20260927T200000Z"
-        },
-        {
-          "url": "https://isp.netscape.com:443/news/world/story/0001/20260924/f92f4e2fcb039365c082f081b73d6915",
-          "title": "Iran president delivers defiant UN speech , and other Mideast developments",
-          "domain": "isp.netscape.com",
-          "seendate": "20260924T073000Z"
-        },
-        {
-          "url": "https://www.military.com/in-defiant-speech-pezeshkian-calls-out-trump-and-says-iran-will-fight-until-our-last-breath",
-          "title": "In Defiant Speech , Pezeshkian Calls Out Trump and Says Iran Will Fight  Until Our Last Breath  ",
-          "domain": "military.com",
-          "seendate": "20260923T194500Z"
-        },
-        {
-          "url": "https://www.nile.eg/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%89-%D9%8A%D9%86%D9%81%D8%B0-%D8%AA%D9%81%D8%AC%D9%8A%D8%B1%D8%A7%D9%8B-%D8%B6%D8%AE%D9%85%D8%A7%D9%8B-%D9%81",
-          "title": "قناة النيل للأخبار | الجيش الإسرائيلى ينفذ تفجيراً ضخماً فى المنصورى بجنوب لبنان",
-          "domain": "nile.eg",
-          "seendate": "20260928T173000Z"
-        },
-        {
-          "url": "https://www.idahostatejournal.com/news/national/irans-president-delivers-defiant-un-speech-and-other-mideast-developments/article_834a1958-d02f-59c7-b151-1373b2b6d9ec.html",
-          "title": "Iran president delivers defiant UN speech , and other Mideast developments",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260924T031500Z"
-        },
-        {
-          "url": "https://www.hispantv.com/noticias/defensa/660979/iran-abrir-ormuz-negociar-eeuu-cumplir-condiciones",
-          "title": "Irán : Ormuz no se abrirá hasta que EEUU cumpla nuestras condiciones",
-          "domain": "hispantv.com",
-          "seendate": "20260923T201500Z"
-        },
-        {
-          "url": "https://kibrisgazetesi.com/rusya-disisleri-bakani-lavrov-filistin-devletinin-bm-kararlari-dogrultusunda-kurulmasi-icin-zaman-geldi/",
-          "title": "Rusya Dışişleri Bakanı Lavrov : Filistin Devletinin BM kararları doğrultusunda kurulması için zaman geldi - Kıbrıs Gazetesi",
-          "domain": "kibrisgazetesi.com",
-          "seendate": "20260927T104500Z"
-        },
-        {
-          "url": "https://www.kob.com/ap-top-news/ap-top-news-international/in-defiant-speech-pezeshkian-calls-out-trump-and-says-iran-will-fight-until-our-last-breath/",
-          "title": "In defiant speech , Pezeshkian calls out Trump and says Iran will fight  until our last breath  ",
-          "domain": "kob.com",
-          "seendate": "20260923T194500Z"
-        },
-        {
-          "url": "https://middle-east-online.com/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%87%D8%AF%D8%AF-%D8%A8%D8%A7%D8%BA%D8%AA%D9%8A%D8%A7%D9%84-%D8%AC%D9%85%D9%8A%D8%B9-%D9%82%D8%A7%D8%AF%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
-          "title": "إسرائيل تهدد باغتيال جميع قادة إيران",
-          "domain": "middle-east-online.com",
-          "seendate": "20260923T074500Z"
-        },
-        {
-          "url": "https://wsvn.com/news/politics/in-defiant-speech-pezeshkian-calls-out-trump-and-says-iran-will-fight-until-our-last-breath/",
-          "title": "In defiant speech , Pezeshkian calls out Trump and says Iran will fight  until our last breath  - WSVN 7News | Miami News , Weather , Sports",
-          "domain": "wsvn.com",
-          "seendate": "20260923T223000Z"
-        },
-        {
-          "url": "https://www.illawarramercury.com.au/story/9356366/iran-wont-surrender-but-backs-diplomacy-president/",
-          "title": "Iran wont surrender but backs diplomacy : president",
-          "domain": "illawarramercury.com.au",
-          "seendate": "20260923T180000Z"
-        },
-        {
-          "url": "https://www.news8000.com/news/national-world/we-aren-t-trying-to-kill-trump-iran-s-president-insists-to-reporters-at-new/article_3a0ddbb0-3087-53d3-80ad-f4c17eaed092.html",
-          "title": "We arent trying to kill Trump , Iran president insists to reporters at New York hotel | National & World News",
-          "domain": "news8000.com",
-          "seendate": "20260924T231500Z"
-        },
-        {
-          "url": "https://www.7kanal.co.il/news/292805",
-          "title": "Биньямин Нетаньяху на трибуне ООН : полное выступление",
-          "domain": "7kanal.co.il",
-          "seendate": "20260924T231500Z"
-        },
-        {
-          "url": "https://lasvegassun.com/news/2026/sep/23/in-defiant-speech-pezeshkian-calls-out-trump-and-s/",
-          "title": "In defiant speech , Pezeshkian calls out Trump and says Iran will fight  until our last breath  - Las Vegas Sun News",
-          "domain": "lasvegassun.com",
-          "seendate": "20260923T211500Z"
-        },
-        {
-          "url": "https://www.aljazeera.net/news/2026/9/24/%D9%85%D9%86-%D9%87%D8%B1%D9%85%D8%B2-%D8%A5%D9%84%D9%89-%D8%AF%D9%8A%D9%8A%D8%BA%D9%88-%D8%BA%D8%A7%D8%B1%D8%B3%D9%8A%D8%A7-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%A7%D8%B3%D8%AA%D8%AD%D8%B6%D8%B1%D8%AA",
-          "title": "من هرمز إلى دييغو غارسيا .. لماذا استحضرت طهران أهدافا بالمحيط الهندي ؟ ",
-          "domain": "aljazeera.net",
-          "seendate": "20260924T194500Z"
-        },
-        {
-          "url": "https://www.wsls.com/news/world/2026/09/23/irans-president-to-speak-at-the-united-nations-in-rare-wartime-address/",
-          "title": "In defiant speech , Pezeshkian calls out Trump and says Iran will fight  until our last breath  ",
-          "domain": "wsls.com",
-          "seendate": "20260923T181500Z"
-        },
-        {
-          "url": "https://www.moonofalabama.org/2026/09/new-york-times-misreports-guterres-un-speech.html",
-          "title": "New York Times Misreports Gen . Sec . Guterre UN Speech – Moon of Alabama",
-          "domain": "moonofalabama.org",
-          "seendate": "20260922T193000Z"
-        },
-        {
-          "url": "https://www.journalgazette.net/news/world/iranian-president-delivers-wartime-address-at-un-we-have-been-victims-of-terrorism/article_40fa863d-3276-5be5-917b-869a022c1b41.html",
-          "title": "Iranian president delivers wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "journalgazette.net",
-          "seendate": "20260923T224500Z"
-        },
-        {
-          "url": "https://www.dailybreeze.com/2026/09/27/palestinian-death-toll-in-gaza-war-passes-74000-and-other-mideast-news/",
-          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
-          "domain": "dailybreeze.com",
-          "seendate": "20260927T211500Z"
-        },
-        {
-          "url": "https://www.miragenews.com/pezeshkian-deflects-terror-claims-back-at-iran-1749001/",
-          "title": "Pezeshkian Deflects Terror Claims Back at Iran Critics",
-          "domain": "miragenews.com",
-          "seendate": "20260923T181500Z"
-        },
-        {
-          "url": "http://www.reflector.com/news/national/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/article_ed2ab14e-3cad-5660-85bc-8a881964df28.html",
-          "title": "Trump rejects Iran proposal to reopen the Strait of Hormuz and other Mideast news",
-          "domain": "reflector.com",
-          "seendate": "20260927T003000Z"
-        },
-        {
-          "url": "https://www.texarkanagazette.com/news/2026/sep/26/mideast-trump-rejects-irans-proposal-to-reopen/",
-          "title": "MIDEAST | Trump rejects Iran proposal to reopen the Strait of Hormuz",
-          "domain": "texarkanagazette.com",
-          "seendate": "20260927T040000Z"
-        },
-        {
-          "url": "https://www.dailygazette.com/hv360/ap/national/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-mideast-news/article_47fdaeb6-4c7d-573b-9dcc-1c478ea396d9.html",
-          "title": "Trump rejects Iran proposal to reopen the Strait of Hormuz and other Mideast news",
-          "domain": "dailygazette.com",
-          "seendate": "20260927T001500Z"
-        },
-        {
-          "url": "https://news.israelinfo.co.il/148214",
-          "title": "Генеральная Ассамблея ООН : Израиль вновь в центре внимания , но в этом нет ничего хорошего",
-          "domain": "news.israelinfo.co.il",
-          "seendate": "20260924T231500Z"
-        },
-        {
-          "url": "https://www.hispantv.com/noticias/politica/660994/ffaa-iran-discurso-presidente-onu-bofetada-trump",
-          "title": "FFAA de Irán : discurso del presidente en ONU fue  bofetada  a Trump",
-          "domain": "hispantv.com",
-          "seendate": "20260924T000000Z"
-        },
-        {
-          "url": "http://www.dailyadvance.com/news/national/irans-president-delivers-defiant-un-speech-and-other-mideast-developments/article_20b3a707-5e7a-51a8-8e02-6622bdfb2c0c.html",
-          "title": "Iran president delivers defiant UN speech , and other Mideast developments",
-          "domain": "dailyadvance.com",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://www.bankier.pl/wiadomosc/Iran-zaostrzyl-warunki-dotyczace-zakonczenia-wojny-z-USA-9201062.html",
-          "title": "Iran zaostrzył warunki dotyczące zakończenia wojny z united states ",
-          "domain": "bankier.pl",
-          "seendate": "20260923T064500Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/iran-news/article-909319",
-          "title": "UN report : Iran committed crimes against humanity during protest crackdown",
-          "domain": "jpost.com",
-          "seendate": "20260922T160000Z"
-        },
-        {
-          "url": "https://www.omandaily.om/article/1211401",
-          "title": "إيران تتمسك بشروطها لفتح مضيق هرمز",
-          "domain": "omandaily.om",
-          "seendate": "20260927T174500Z"
-        },
-        {
-          "url": "https://www.dailynayadiganta.com/post/middle-east/1055851",
-          "title": "জাতিসঙ্ঘে পেজেশকিয়ান :  ইসরাইলে পারমাণবিক বোমা , আর ইরানে পরিদর্শক : Daily Naya Diganta ( দৈনিক নয়া দিগন্ত ) ",
-          "domain": "dailynayadiganta.com",
-          "seendate": "20260924T053000Z"
-        },
-        {
-          "url": "https://www.yakimaherald.com/news/nation_and_world/nation/irans-president-delivers-defiant-un-speech-and-other-mideast-developments/article_8820d30e-8554-5270-bb77-81cc6259a2ed.html",
-          "title": "Iran president delivers defiant UN speech , and other Mideast developments",
-          "domain": "yakimaherald.com",
-          "seendate": "20260923T161500Z"
-        },
-        {
-          "url": "https://puranoticia.pnt.cl/internacional/iran-advierte-que-podria-expandir-la-guerra-con-ee-uu-hasta-el-oceano",
-          "title": "Irán advierte que podría expandir la guerra con EE . UU . hasta el océano Índico ante nuevos ataques",
-          "domain": "puranoticia.pnt.cl",
-          "seendate": "20260924T190000Z"
-        },
-        {
-          "url": "https://www.al-monitor.com/originals/2026/09/president-tells-trump-iran-will-never-bend-knee-0",
-          "title": "President tells Trump that Iran will never  bend at the knee  ",
-          "domain": "al-monitor.com",
-          "seendate": "20260923T201500Z"
-        },
-        {
-          "url": "https://www.newsbusters.org/blogs/nb/jorge-bonilla/2026/09/24/abc-stenographed-iran-again-omitted-fiery-netanyahu-un-address",
-          "title": "ABC Stenographed for Iran Again , Omitted Fiery Netanyahu UN Address",
-          "domain": "newsbusters.org",
-          "seendate": "20260925T054500Z"
-        },
-        {
-          "url": "https://www.pasadenastarnews.com/2026/09/27/palestinian-death-toll-in-gaza-war-passes-74000-and-other-mideast-news/",
-          "title": "Palestinian death toll in Gaza war passes 74 , 000 , and other Mideast news",
-          "domain": "pasadenastarnews.com",
-          "seendate": "20260927T211500Z"
-        },
-        {
-          "url": "https://diariolaprovinciasj.com/el-pais/causa-amia-la-justicia-define-los-proximos-pasos-382393/",
-          "title": "Causa AMIA : la Justicia define los próximos pasos",
-          "domain": "diariolaprovinciasj.com",
-          "seendate": "20260927T174500Z"
-        },
-        {
-          "url": "https://www.bbc.co.uk/news/articles/crn45ed1kqqgo",
-          "title": "Iran court upholds flogging sentence for singer who performed without hijab",
-          "domain": "bbc.co.uk",
-          "seendate": "20260928T180000Z"
-        },
-        {
-          "url": "https://www.bursa.ro/massoud-pezeshkian-sua-sunt-cele-care-trebuie-sa-decida-daca-pun-capat-razboiului-cu-iranul-80283069",
-          "title": "Massoud Pezeshkian : SUA sunt cele care trebuie să decidă dacă pun capăt războiului cu Iranul",
-          "domain": "bursa.ro",
-          "seendate": "20260925T054500Z"
-        },
-        {
-          "url": "https://kar-online.com/119617/",
-          "title": "بیانیه بیست و دومین کنفرانس سالانه اتحاد سوسیالیستی کارگری درباره اوضاع جهان ، منطقه و ایران",
-          "domain": "kar-online.com",
-          "seendate": "20260923T200000Z"
-        },
-        {
-          "url": "https://www.ynet.co.il/news/article/hjdy6jg5ml",
-          "title": "אבו מאזן נאם מרחוק באו  ם :  תקופה מסוכנת לעם הפלסטיני , כמה זמן תשתקו ? ",
-          "domain": "ynet.co.il",
-          "seendate": "20260924T154500Z"
-        },
-        {
-          "url": "https://www.hurhaber.com/dunya-haberleri/pezeskiyan-mesaji-abd-basinina-verdi-anlasmak-istiyoruz-515636",
-          "title": "Pezeşkiyan mesajı ABD basınına verdi : Anlaşmak istiyoruz",
-          "domain": "hurhaber.com",
-          "seendate": "20260925T070000Z"
-        },
-        {
-          "url": "https://torontosun.com/news/world/trump-un-iran-deal-possible-us-midterm-elections-nuclear-weapon",
-          "title": "Trump tells UN Iran deal possible after US midterm elections",
-          "domain": "torontosun.com",
-          "seendate": "20260922T194500Z"
-        },
-        {
-          "url": "https://www.middle-east-online.com/en/pezeshkian-us-iran-will-never-surrender",
-          "title": "Pezeshkian to US : Iran will never surrender",
-          "domain": "middle-east-online.com",
-          "seendate": "20260923T193000Z"
-        },
-        {
-          "url": "https://slguardian.org/colombia-breaks-diplomatic-relations-with-iran-over-security-and-nuclear-concerns/",
-          "title": "Colombia Breaks Diplomatic Relations With Iran Over Security and Nuclear Concerns",
-          "domain": "slguardian.org",
-          "seendate": "20260925T051500Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279321907/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering  blowing up  Iran",
-          "domain": "heraldglobe.com",
-          "seendate": "20260921T191500Z"
-        },
-        {
-          "url": "https://www.presstv.co.uk/Detail/2026/09/24/776916/Iran-Army-Hatami-Pezeshkian-UN",
-          "title": "Army chief : President Pezeshkians UN speech manifested steadfastness of Iran",
-          "domain": "presstv.co.uk",
-          "seendate": "20260924T130000Z"
-        },
-        {
-          "url": "https://www.ntdtv.com/b5/2026/09/23/a104135586.html",
-          "title": " 【 新聞直擊 】 革命衛隊出大事 ！ 高級指揮官被斬 伊朗境內爆激戰 ！ | 以軍再斬哈馬斯高層 | 張又俠",
-          "domain": "ntdtv.com",
-          "seendate": "20260924T023000Z"
-        },
-        {
-          "url": "https://www.idahostatejournal.com/news/local/drive-them-into-hell-trump-ponders-destruction-of-iran-at-united-nations/article_42488977-ec04-40e9-add2-9f58cc98da38.html",
-          "title": "  Drive them into hell : Trump ponders destruction of Iran at United Nations | Local",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260923T223000Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/local/drive-them-into-hell-trump-ponders-destruction-of-iran-at-united-nations/article_42488977-ec04-40e9-add2-9f58cc98da38.html",
-          "title": "  Drive them into hell : Trump ponders destruction of Iran at United Nations | Local",
-          "domain": "idahostatejournal.com",
-          "seendate": "20260924T020000Z"
-        },
-        {
-          "url": "https://www.middle-east-online.com/en/iran-us-talk-remain-worlds-apart-ending-war",
-          "title": "Iran , US talk but remain worlds apart on ending war",
-          "domain": "middle-east-online.com",
-          "seendate": "20260924T100000Z"
-        },
-        {
-          "url": "https://www.omandaily.om/article/1211159",
-          "title": "بزشكيان أمام الأمم المتحدة : لن نستسلم في الحرب مع أمريكا ونؤمن بـ  الدبلوماسية  ",
-          "domain": "omandaily.om",
-          "seendate": "20260923T180000Z"
-        },
-        {
-          "url": "https://arabic.cnn.com/middle-east/article/2026/09/24/irans-president-laid-out-tehrans-demands-to-the-world-from-podium-new-york",
-          "title": "تحليل : بزشكيان يوجه رسائل إلى ترامب من نيويورك .. ماذا تريد إيران ؟ | CNN Arabic",
-          "domain": "arabic.cnn.com",
-          "seendate": "20260924T091500Z"
-        },
-        {
-          "url": "https://www.wsws.org/en/articles/2026/09/25/rxna-s25.html",
-          "title": "Netanyahu delivers genocidal tirade at the United Nations as Mamdani police arrest more than 100 protesters",
-          "domain": "wsws.org",
-          "seendate": "20260925T054500Z"
-        },
-        {
-          "url": "https://nypost.com/2026/09/27/opinion/a-new-history-of-the-middle-east-for-the-tiktok-addicts/",
-          "title": "A new history of the Middle East for the TikTok addicts",
-          "domain": "nypost.com",
-          "seendate": "20260927T170000Z"
-        },
-        {
-          "url": "https://www.aljazeera.net/news/2026/9/28/%D8%B3%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D9%8A-%D9%88%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9",
-          "title": "سجال الحرس الثوري والقيادة المركزية الأمريكية .. من يسيطر على هرمز ؟ ",
-          "domain": "aljazeera.net",
-          "seendate": "20260928T174500Z"
-        },
-        {
-          "url": "https://www.islamicinvitationturkey.com/pezeshkian-iran-no-longer-trusts-us-after-being-attacked-twice-during-talks/",
-          "title": "Pezeshkian : Iran  No Longer  Trusts US After Being Attacked Twice During Talks",
-          "domain": "islamicinvitationturkey.com",
-          "seendate": "20260927T140000Z"
-        },
-        {
-          "url": "https://patriotpost.us/opinion/1001386-what-el-sayed-wont-say-about-iran-tells-michigan-everything",
-          "title": "What El - Sayed Wont Say About Iran Tells Michigan Everything",
-          "domain": "patriotpost.us",
-          "seendate": "20260928T113000Z"
-        },
-        {
-          "url": "https://www.newsru.co.il/world/25sep2026/net_un_101.html",
-          "title": "  Мы поднялись и сражались как львы . Полный перевод речи Нетаниягу на 81 - й Генассамблее ООН",
-          "domain": "newsru.co.il",
-          "seendate": "20260925T064500Z"
-        },
-        {
-          "url": "https://www.wxow.com/news/international/iran-to-attend-un-assembly-in-new-york-even-as-peace-with-us-remains-elusive/article_a9a465ef-e8ac-5885-962c-650682f48d66.html",
-          "title": "Iran to attend UN assembly in New York even as peace with US remains elusive",
-          "domain": "wxow.com",
-          "seendate": "20260922T030000Z"
-        },
-        {
-          "url": "http://www.israelherald.com/news/279321892/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering blowing up Iran Fox News",
-          "domain": "israelherald.com",
-          "seendate": "20260921T193000Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279321892/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering blowing up Iran Fox News",
-          "domain": "heraldglobe.com",
-          "seendate": "20260921T191500Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279321892/trump-considering-blowing-up-iran-fox-news",
-          "title": "Trump considering blowing up Iran Fox News",
-          "domain": "middleeaststar.com",
-          "seendate": "20260921T200000Z"
-        },
-        {
-          "url": "http://www.heraldglobe.com/news/279326885/at-unga-iran-president-rejects-us-charges-says-we-are-victims-of-terrorism-shows-minab-school-children-photo",
-          "title": "At UNGA , Iran President rejects US charges , says",
-          "domain": "heraldglobe.com",
-          "seendate": "20260923T200000Z"
-        },
-        {
-          "url": "http://www.arabherald.com/news/279326885/at-unga-iran-president-rejects-us-charges-says-we-are-victims-of-terrorism-shows-minab-school-children-photo",
-          "title": "At UNGA , Iran President rejects US charges , says",
-          "domain": "arabherald.com",
-          "seendate": "20260923T220000Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279326885/at-unga-iran-president-rejects-us-charges-says-we-are-victims-of-terrorism-shows-minab-school-children-photo",
-          "title": "At UNGA , Iran President rejects US charges , says",
-          "domain": "middleeaststar.com",
-          "seendate": "20260923T211500Z"
-        },
-        {
-          "url": "http://www.newyorkstatesman.com/news/279326885/at-unga-iran-president-rejects-us-charges-says-we-are-victims-of-terrorism-shows-minab-school-children-photo",
-          "title": "At UNGA , Iran President rejects US charges , says",
-          "domain": "newyorkstatesman.com",
-          "seendate": "20260923T211500Z"
-        },
-        {
-          "url": "http://www.greekherald.com/news/279326885/at-unga-iran-president-rejects-us-charges-says-we-are-victims-of-terrorism-shows-minab-school-children-photo",
-          "title": "At UNGA , Iran President rejects US charges , says",
-          "domain": "greekherald.com",
-          "seendate": "20260923T224500Z"
-        },
-        {
-          "url": "http://www.israelherald.com/news/279326885/at-unga-iran-president-rejects-us-charges-says-we-are-victims-of-terrorism-shows-minab-school-children-photo",
-          "title": "At UNGA , Iran President rejects US charges , says",
-          "domain": "israelherald.com",
-          "seendate": "20260923T231500Z"
-        },
-        {
-          "url": "https://www.moonofalabama.org/2026/09/war-on-iran-economic-pressure-is-not-a-one-way-road.html/comment-page-3",
-          "title": "War On Iran : Economic Pressure Is Not A One - Way Road – Moon of Alabama",
-          "domain": "moonofalabama.org",
-          "seendate": "20260927T144500Z"
-        },
-        {
-          "url": "https://www.aol.co.uk/articles/first-thing-trump-welcomes-xi-122400000.html",
-          "title": "First Thing : Trump welcomes Xi to Washington amid tensions over trade , AI and Taiwan",
-          "domain": "aol.co.uk",
-          "seendate": "20260924T131500Z"
-        },
-        {
-          "url": "https://www.kezi.com/news/national/irans-president-delivers-defiant-un-speech-and-other-mideast-developments/article_b7bb3711-c8cd-5bd2-96a0-645d5610632f.html",
-          "title": "Iran president delivers defiant UN speech , and other Mideast developments",
-          "domain": "kezi.com",
-          "seendate": "20260923T230000Z"
-        },
-        {
-          "url": "https://www.nvdaily.com/associated_press_national/irans-president-delivers-defiant-un-speech-and-other-mideast-developments/article_ddd80a82-9576-554d-a0c0-4ac19c368a95.html",
-          "title": "Iran president delivers defiant UN speech , and other Mideast developments",
-          "domain": "nvdaily.com",
-          "seendate": "20260924T033000Z"
-        },
-        {
-          "url": "https://www.union-bulletin.com/news/national/irans-president-delivers-defiant-un-speech-and-other-mideast-developments/article_53deea77-41cf-58fc-b67a-0ea2108dcf51.html",
-          "title": "Iran president delivers defiant UN speech , and other Mideast developments",
-          "domain": "union-bulletin.com",
-          "seendate": "20260923T201500Z"
-        },
-        {
-          "url": "https://www.texarkanagazette.com/news/2026/sep/23/irans-president-delivers-wartime-address-at-un-we/",
-          "title": "Iran president delivers wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "texarkanagazette.com",
-          "seendate": "20260923T201500Z"
-        },
-        {
-          "url": "http://www.goskagit.com/news/world/irans-president-delivers-wartime-address-at-un-we-have-been-victims-of-terrorism/article_663abe11-0c05-5905-9849-4a1d908846c9.html",
-          "title": "Iran president delivers wartime address at UN : We have been  victims of terrorism  ",
-          "domain": "goskagit.com",
-          "seendate": "20260923T151500Z"
-        },
-        {
-          "url": "https://www.oyetimes.com/views/op-eds/414696-iran-exposed-real-global-terrorism-in-un-general-assembly",
-          "title": "Iran exposed real global terrorism in UN General Assembly",
-          "domain": "oyetimes.com",
-          "seendate": "20260928T164500Z"
-        },
-        {
-          "url": "https://www.globalissues.org/news/2026/09/26/44183",
-          "title": "Lavrov issues call for new Eurasian  security architecture  Global Issues",
-          "domain": "globalissues.org",
-          "seendate": "20260927T103000Z"
-        },
-        {
-          "url": "https://santamariatimes.com/ap/national/irans-president-delivers-defiant-un-speech-and-other-mideast-developments/article_8c4a0e12-969c-59cb-8cae-e7de5ddd6032.html",
-          "title": "Iran president delivers defiant UN speech , and other Mideast developments",
-          "domain": "santamariatimes.com",
-          "seendate": "20260924T041500Z"
-        },
-        {
-          "url": "https://www.taylorvilledailynews.com/irans-president-to-speak-at-the-united-nations-in-rare-wartime-address/",
-          "title": "Iran president to speak at the United Nations in rare wartime address – Taylorville Daily News",
-          "domain": "taylorvilledailynews.com",
-          "seendate": "20260923T161500Z"
-        }
-      ]
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "trump_china",
@@ -3066,7 +1561,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },

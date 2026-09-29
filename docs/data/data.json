@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T19:20:42.332932+00:00",
+  "updated_at": "2026-09-29T04:15:02.978285+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-09-10T15:56:04.428256+00:00",
-        "score": 62
-      },
-      {
         "ts": "2026-09-12T03:09:40.554510+00:00",
         "score": 62
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-09-28T19:20:42.327963+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-29T04:15:02.975062+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-07-09T02:49:29.301409+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-07-10T14:26:19.666850+00:00",
         "score": 50
@@ -356,6 +352,10 @@
       {
         "ts": "2026-09-28T19:20:42.327963+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-09-29T04:15:02.975062+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -390,21 +390,21 @@
     "list": [
       "163.com",
       "24hod.sk",
-      "7kanal.co.il",
       "aa.com.tr",
       "advance.hr",
-      "aktiencheck.de",
-      "al-monitor.com",
-      "albiladpress.com",
-      "alhurra.com",
       "Al Jazeera",
-      "Al Jazeera",
-      "almasryalyoum.com",
       "alquds.co.uk",
       "aninews.in",
-      "anlatilaninotesi.com.tr"
+      "anlatilaninotesi.com.tr",
+      "arabherald.com",
+      "arabic.cnn.com",
+      "arkansasonline.com",
+      "asiabulletin.com",
+      "austinglobe.com",
+      "baijiahao.baidu.com",
+      "BBC"
     ],
-    "total_count": 341,
+    "total_count": 208,
     "articles_72h": null
   }
 }
