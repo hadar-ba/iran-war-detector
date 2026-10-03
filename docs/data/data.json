@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-02T17:33:20.301947+00:00",
+  "updated_at": "2026-10-03T03:50:35.708438+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 50,
-    "delta_vs_avg": -4
+    "score": 62,
+    "status_he": "מתוח",
+    "avg_7day": 52,
+    "delta_vs_avg": 10
   },
   "archive_comparison": {
     "score": 62,
@@ -58,10 +58,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-09-13T15:42:17.983324+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-09-17T03:28:08.860475+00:00",
         "score": 62
       },
@@ -112,13 +108,13 @@
       {
         "ts": "2026-10-02T17:33:20.298902+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-03T03:50:35.705439+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-07-12T02:39:46.057112+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-07-13T14:36:39.548740+00:00",
         "score": 46
@@ -354,6 +350,10 @@
       {
         "ts": "2026-10-02T17:33:20.298902+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-03T03:50:35.705439+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
@@ -386,23 +386,23 @@
   },
   "sources": {
     "list": [
-      "163.com",
-      "24hod.sk",
       "2news.com",
-      "africanmanager.com",
-      "ahaber.com.tr",
+      "abc17news.com",
+      "afghanistannews.net",
+      "afghanistansun.com",
+      "afr.net",
+      "albiladpress.com",
       "alhourriah.org",
       "Al Jazeera",
-      "almasryalyoum.com",
-      "americanthinker.com",
-      "antaranews.com",
-      "arabnews.com",
-      "arkansasonline.com",
-      "baijiahao.baidu.com",
-      "bangkokbiznews.com",
-      "bankier.pl"
+      "Al Jazeera",
+      "almadapaper.net",
+      "almanar.com.lb",
+      "aninews.in",
+      "aol.com",
+      "arabherald.com",
+      "arabic.euronews.com"
     ],
-    "total_count": 197,
+    "total_count": 159,
     "articles_72h": null
   }
 }
