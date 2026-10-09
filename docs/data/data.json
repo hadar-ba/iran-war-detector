@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-08T04:32:33.620406+00:00",
+  "updated_at": "2026-10-09T04:36:58.750036+00:00",
   "short_term": {
-    "score": 46,
+    "score": 50,
     "status_he": "שקט",
     "avg_7day": 50,
-    "delta_vs_avg": -4
+    "delta_vs_avg": 0
   },
   "archive_comparison": {
     "score": 58,
@@ -58,10 +58,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-09-19T03:10:10.616878+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-09-20T03:25:46.588734+00:00",
         "score": 46
       },
@@ -112,13 +108,13 @@
       {
         "ts": "2026-10-08T04:32:33.617401+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-09T04:36:58.748685+00:00",
+        "score": 50
       }
     ],
     "month": [
-      {
-        "ts": "2026-07-19T13:19:31.332347+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-07-21T02:33:25.399761+00:00",
         "score": 62
@@ -354,6 +350,10 @@
       {
         "ts": "2026-10-08T04:32:33.617401+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-09T04:36:58.748685+00:00",
+        "score": 50
       }
     ],
     "comparison_bars": [
@@ -385,24 +385,8 @@
     ]
   },
   "sources": {
-    "list": [
-      "24heures.ch",
-      "24hod.sk",
-      "aa.com.tr",
-      "africanmanager.com",
-      "ahaber.com.tr",
-      "aksam.com.tr",
-      "al-monitor.com",
-      "alanbatnews.net",
-      "alhurra.com",
-      "Al Jazeera",
-      "almasryalyoum.com",
-      "americanthinker.com",
-      "aol.com",
-      "arabherald.com",
-      "arabnews.com"
-    ],
-    "total_count": 208,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
