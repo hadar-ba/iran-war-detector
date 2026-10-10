@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-10-10T04:22:19.224257+00:00",
-  "status": "green",
-  "headline_score_7day": 48,
-  "headline_score_21day": 62,
-  "score_jump": -2,
+  "timestamp_utc": "2026-10-10T17:03:19.400370+00:00",
+  "status": "yellow",
+  "headline_score_7day": 64,
+  "headline_score_21day": 60,
+  "score_jump": 16,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
-  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (48% similarity). The 21-day picture is consistent: 62% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (48% דמיון). התמונה ל-21 יום עקבית: 62% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (64%).",
+  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (64%).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (64% similarity). The 21-day picture is similar at 60% similarity to the period before Operation Lion's Roar (February 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (64% דמיון). התמונה ל-21 יום דומה עם 60% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -24,9 +24,92 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
-      "example_urls": [],
-      "articles": []
+      "error": "429 rate-limited",
+      "example_urls": [
+        "https://japantoday.com/category/world/a-us-brokered-ceasefire-was-supposed-to-end-the-war-in-gaza.-a-year-later-progress-has-stalled",
+        "https://www.newsday.com/news/nation/israel-palestinians-hamas-war-gaza-ceasefire-explainer-p59012",
+        "http://www.jpost.com/middle-east/2026-10-10/live-updates-911203"
+      ],
+      "articles": [
+        {
+          "url": "https://japantoday.com/category/world/a-us-brokered-ceasefire-was-supposed-to-end-the-war-in-gaza.-a-year-later-progress-has-stalled",
+          "title": "A U . S .- brokered ceasefire was supposed to end the war in Gaza . A year later , progress has stalled",
+          "domain": "japantoday.com",
+          "seendate": "20261010T064500Z"
+        },
+        {
+          "url": "https://www.newsday.com/news/nation/israel-palestinians-hamas-war-gaza-ceasefire-explainer-p59012",
+          "title": "A US - brokered ceasefire was supposed to end the war in Gaza . A year later , progress has stalled",
+          "domain": "newsday.com",
+          "seendate": "20261010T064500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/2026-10-10/live-updates-911203",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20261010T064500Z"
+        },
+        {
+          "url": "http://www.pakistantelegraph.com/news/279363161/i-should-have-won-8-nobel-peace-prizes-trump-slams-nobel-committee-for-awarding-navi-pillay",
+          "title": "  I should have won 8 Nobel Peace Prizes : Trump slams Nobel Committee for awarding Navi Pillay",
+          "domain": "pakistantelegraph.com",
+          "seendate": "20261010T064500Z"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/view-from-india-newsletter-from-iraq-to-gaza-a-long-trail-of-damage/article71547254.ece",
+          "title": "View From India Newsletter From Iraq to Gaza : A Long Trail of Damage",
+          "domain": "thehindu.com",
+          "seendate": "20261006T083000Z"
+        },
+        {
+          "url": "https://www.pan.am/629057",
+          "title": "Փեզեշքիան ․ ԱՄՆ - ին Իրանի հետ բանակցությունները պետք չեն",
+          "domain": "pan.am",
+          "seendate": "20261006T083000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/article-911021",
+          "title": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
+          "domain": "jpost.com",
+          "seendate": "20261010T064500Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/opinions-analysis/article/skomsrwszl",
+          "title": "Who is Ali al - Amoudi , the man now leading Hamas in Gaza ? ",
+          "domain": "ynetnews.com",
+          "seendate": "20261010T064500Z"
+        },
+        {
+          "url": "https://www.business-standard.com/world-news/us-prepares-military-for-possible-new-iran-strikes-trump-yet-to-decide-126100800105_1.html",
+          "title": "US prepares military for possible new Iran strikes , Trump yet to decide",
+          "domain": "business-standard.com",
+          "seendate": "20261008T053000Z"
+        },
+        {
+          "url": "https://www.merkur.de/politik/raf-fairford-iran-soll-anschlag-auf-us-bomber-geplant-haben-zr-94526667.html",
+          "title": "RAF Fairford : united states verlegten Bomber wegen drohenden Drohnenangriffs",
+          "domain": "merkur.de",
+          "seendate": "20261006T083000Z"
+        },
+        {
+          "url": "http://www.tz.de/politik/raf-fairford-iran-soll-anschlag-auf-us-bomber-geplant-haben-zr-94526667.html",
+          "title": "RAF Fairford : united states verlegten Bomber wegen drohenden Drohnenangriffs",
+          "domain": "tz.de",
+          "seendate": "20261006T083000Z"
+        },
+        {
+          "url": "https://www.hna.de/politik/raf-fairford-iran-soll-anschlag-auf-us-bomber-geplant-haben-zr-94526667.html",
+          "title": "RAF Fairford : united states verlegten Bomber wegen drohenden Drohnenangriffs",
+          "domain": "hna.de",
+          "seendate": "20261006T083000Z"
+        },
+        {
+          "url": "https://athina984.gr/2026/10/06/ansaroyllach-den-tha-zitisoyme-diodia-sto-mpamp-el-mantemp-den-tha-anechthoyme-israilini-paroysia-sto-keras-tis-afrikis/",
+          "title": "ΥΠΕΞ της Ανσαρουλλάχ στον Αθήνα 9 . 84 : Δεν θα ζητήσουμε διόδια στο Μπαμπ ελ Μαντέμπ – Δεν θα ανεχθούμε ισραηλινή παρουσία στο Κέρας της Αφρικής",
+          "domain": "athina984.gr",
+          "seendate": "20261006T083000Z"
+        }
+      ]
     },
     {
       "id": "supreme_leader",
@@ -79,17 +162,17 @@
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.6053,
-      "is_pre_round": false,
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.645,
+      "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 0.1748,
+        "raw_volume": 0.1758,
+        "source_diversity": 0.2372,
         "tone": 0.5
       },
       "weights_applied": {
@@ -103,59 +186,37 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.4869,
+      "composite_score": 0.6277,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.7071,
+        "raw_volume": 0.0555,
+        "source_diversity": 0.2534,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.5277,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.1712,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.485,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.1603,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.3366,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
-        "raw_volume": 1.0,
-        "source_diversity": 0.1923,
+        "raw_volume": 0.1573,
+        "source_diversity": 0.2587,
         "tone": 0.5
       },
       "weights_applied": {
@@ -169,7 +230,29 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.1641,
+      "composite_score": 0.1963,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 0.1175,
+        "source_diversity": 0.2327,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.1853,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -177,7 +260,7 @@
         "confluence": 0.0,
         "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.1572,
+        "source_diversity": 0.2846,
         "tone": 0.5
       },
       "weights_applied": {
@@ -191,17 +274,39 @@
   ],
   "comparison_table_21day": [
     {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.6048,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.879,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.7429,
+      "composite_score": 0.5894,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.7866,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -215,59 +320,15 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
+      "composite_score": 0.5046,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 1.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.6239,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.9936,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.4712,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
-        "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "raw_volume": 0.2776,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -281,15 +342,37 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.3004,
+      "composite_score": 0.1396,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.5875,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.0417,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9748,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -303,27 +386,27 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
-      "articles_en": 25,
-      "articles_he": 0,
+      "volume_total": 2.2909,
+      "volume_mean_daily": 0.7636,
+      "volume_peak": 0.9259,
+      "days_active": 3,
+      "articles_en": 0,
+      "articles_he": 42,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 25,
+      "unique_domains_total": 37,
       "tone_mean": null
     },
     "window_21d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
-      "articles_en": 250,
+      "volume_total": 11.4525,
+      "volume_mean_daily": 0.7635,
+      "volume_peak": 1.4266,
+      "days_active": 15,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 155,
+      "unique_domains_total": 0,
       "tone_mean": null
     }
   },
