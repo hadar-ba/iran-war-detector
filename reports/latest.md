@@ -1,27 +1,27 @@
 # Iran-Israel Conflict Pattern Detector
 
-**Run:** 2026-10-09 04:36 UTC  |  **21-day:** 20260918–20261009  |  **7-day:** 20261002–20261009
+**Run:** 2026-10-10 04:22 UTC  |  **21-day:** 20260919–20261010  |  **7-day:** 20261003–20261010
 
 ## Status: Normal
 
-21-day max pre: **58%** | 7-day max pre: **50%** | threshold: 70%
+21-day max pre: **62%** | 7-day max pre: **48%** | threshold: 70%
 
 ### 21-Day Window
 
 | Reference | Type | Score |
 |-----------|------|-------|
-| PRE_FEB26 | pre-round | 58.2% |
-| QUIET_JAN26 | quiet | 56.9% |
-| POST_FEB26 | post-ceasefire | 49.7% |
-| PRE_OCT24 | pre-round | 12.4% |
-| PRE_APR24 | pre-round | 4.2% |
+| QUIET_JAN26 | quiet | 74.3% |
+| POST_FEB26 | post-ceasefire | 62.5% |
+| PRE_FEB26 | pre-round | 62.4% |
+| PRE_APR24 | pre-round | 47.1% |
+| PRE_OCT24 | pre-round | 30.0% |
 
 ### 7-Day Window
 
 | Reference | Type | Score |
 |-----------|------|-------|
-| PRE_FEB26 | pre-round | 49.9% |
-| POST_FEB26 | post-ceasefire | 49.8% |
-| QUIET_JAN26 | quiet | 49.2% |
-| PRE_APR24 | pre-round | 20.8% |
-| PRE_OCT24 | pre-round | 7.6% |
+| QUIET_JAN26 | quiet | 60.5% |
+| POST_FEB26 | post-ceasefire | 48.7% |
+| PRE_FEB26 | pre-round | 48.5% |
+| PRE_APR24 | pre-round | 33.7% |
+| PRE_OCT24 | pre-round | 16.4% |
