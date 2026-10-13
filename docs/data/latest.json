@@ -1,9 +1,9 @@
 {
-  "timestamp_utc": "2026-10-11T17:25:15.568552+00:00",
+  "timestamp_utc": "2026-10-13T05:30:46.660586+00:00",
   "status": "green",
   "headline_score_7day": 46,
   "headline_score_21day": 46,
-  "score_jump": -18,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
@@ -41,8 +41,17 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "http://www.jpost.com/middle-east/2026-10-10/live-updates-911203"
+      ],
+      "articles": [
+        {
+          "url": "http://www.jpost.com/middle-east/2026-10-10/live-updates-911203",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20261010T064500Z"
+        }
+      ]
     },
     {
       "id": "trump_china",
@@ -72,7 +81,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     }
