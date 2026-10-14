@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-14T03:35:03.545556+00:00",
+  "updated_at": "2026-10-14T16:37:32.079188+00:00",
   "short_term": {
-    "score": 56,
+    "score": 52,
     "status_he": "מתוח",
     "avg_7day": 50,
-    "delta_vs_avg": 6
+    "delta_vs_avg": 2
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-09-28T19:20:42.327963+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-09-29T04:15:02.975062+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-10-14T03:35:03.544122+00:00",
         "score": 56
+      },
+      {
+        "ts": "2026-10-14T16:37:32.077704+00:00",
+        "score": 52
       }
     ],
     "month": [
-      {
-        "ts": "2026-07-28T14:07:35.839177+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-07-29T14:11:31.614381+00:00",
         "score": 46
@@ -356,6 +352,10 @@
       {
         "ts": "2026-10-14T03:35:03.544122+00:00",
         "score": 56
+      },
+      {
+        "ts": "2026-10-14T16:37:32.077704+00:00",
+        "score": 52
       }
     ],
     "comparison_bars": [
@@ -387,8 +387,15 @@
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
-    "articles_72h": 46
+    "list": [
+      "business-standard.com",
+      "japantoday.com",
+      "J.Post",
+      "newsday.com",
+      "pakistantelegraph.com",
+      "Ynet"
+    ],
+    "total_count": 6,
+    "articles_72h": null
   }
 }
