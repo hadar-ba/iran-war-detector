@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-13T18:58:23.503628+00:00",
+  "updated_at": "2026-10-14T03:35:03.545556+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 49,
-    "delta_vs_avg": -3
+    "score": 56,
+    "status_he": "מתוח",
+    "avg_7day": 50,
+    "delta_vs_avg": 6
   },
   "archive_comparison": {
-    "score": 50,
+    "score": 46,
     "status_he": "דמיון נמוך",
     "reference_events": [
       "אפריל 2024",
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-09-25T16:37:25.520305+00:00",
-        "score": 62
-      },
-      {
         "ts": "2026-09-28T19:20:42.327963+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-10-13T18:58:23.502187+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-14T03:35:03.544122+00:00",
+        "score": 56
       }
     ],
     "month": [
-      {
-        "ts": "2026-07-26T13:22:10.275439+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-07-28T14:07:35.839177+00:00",
         "score": 46
@@ -356,22 +352,26 @@
       {
         "ts": "2026-10-13T18:58:23.502187+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-14T03:35:03.544122+00:00",
+        "score": 56
       }
     ],
     "comparison_bars": [
       {
         "label": "אחרי פבר' 2026",
-        "score": 50,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 50,
+        "score": 46,
         "is_pre_conflict": true
       },
       {
         "label": "שקט ינו' 2026",
-        "score": 49,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
@@ -381,21 +381,14 @@
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 8,
+        "score": 4,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "business-standard.com",
-      "japantoday.com",
-      "J.Post",
-      "newsday.com",
-      "pakistantelegraph.com",
-      "Ynet"
-    ],
-    "total_count": 6,
-    "articles_72h": null
+    "list": [],
+    "total_count": 0,
+    "articles_72h": 46
   }
 }
