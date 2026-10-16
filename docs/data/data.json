@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-15T03:14:49.075628+00:00",
+  "updated_at": "2026-10-16T03:10:22.440853+00:00",
   "short_term": {
-    "score": 56,
-    "status_he": "מתוח",
+    "score": 46,
+    "status_he": "שקט",
     "avg_7day": 51,
-    "delta_vs_avg": 5
+    "delta_vs_avg": -5
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-09-29T17:44:26.569162+00:00",
-        "score": 62
-      },
-      {
         "ts": "2026-10-02T17:33:20.298902+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-10-15T03:14:49.074132+00:00",
         "score": 56
+      },
+      {
+        "ts": "2026-10-16T03:10:22.439222+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-07-30T02:13:29.950801+00:00",
-        "score": 50
-      },
       {
         "ts": "2026-07-30T13:59:56.771430+00:00",
         "score": 62
@@ -356,6 +352,10 @@
       {
         "ts": "2026-10-15T03:14:49.074132+00:00",
         "score": 56
+      },
+      {
+        "ts": "2026-10-16T03:10:22.439222+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
@@ -387,8 +387,24 @@
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
-    "articles_72h": 46
+    "list": [
+      "africaleader.com",
+      "almanar.com.lb",
+      "arabherald.com",
+      "article.wn.com",
+      "asiabulletin.com",
+      "azerbaijannews.net",
+      "beijingbulletin.com",
+      "birminghamstar.com",
+      "britainnews.net",
+      "caribbeanherald.com",
+      "cbsnews.com",
+      "coloradostar.com",
+      "epochtimes.com",
+      "europesun.com",
+      "finance.eastmoney.com"
+    ],
+    "total_count": 37,
+    "articles_72h": null
   }
 }
