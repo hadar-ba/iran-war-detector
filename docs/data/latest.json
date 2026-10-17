@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-10-16T03:10:22.439222+00:00",
+  "timestamp_utc": "2026-10-17T03:01:55.270099+00:00",
   "status": "green",
   "headline_score_7day": 46,
-  "headline_score_21day": 46,
-  "score_jump": -10,
+  "headline_score_21day": 61,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "News patterns are within the normal range — no elevated signals detected.",
   "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 61% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 61% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -24,7 +24,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -40,7 +40,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -57,247 +57,8 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [
-        "http://www.jpost.com/middle-east/article-911021",
-        "https://finance.eastmoney.com/a/202610163897371551.html",
-        "https://www.jpost.com/middle-east/iran-news/article-911807"
-      ],
-      "articles": [
-        {
-          "url": "http://www.jpost.com/middle-east/article-911021",
-          "title": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
-          "domain": "jpost.com",
-          "seendate": "20261010T064500Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202610163897371551.html",
-          "title": "多国联军 ， 发动空袭 ； 霍尔木兹海峡大消息 ， 油轮起火 ； 美拟用  炸弹之母  打伊朗 ； 三部门调查  尊界V800刹车踏板支架断裂问题  丨每经早参 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20261016T010000Z"
-        },
-        {
-          "url": "https://www.jpost.com/middle-east/iran-news/article-911807",
-          "title": "Harris says Biden should have acted sooner to stop IDF Gaza conduct",
-          "domain": "jpost.com",
-          "seendate": "20261015T133000Z"
-        },
-        {
-          "url": "https://www.tribune.gr/world/news/article/957670/oi-ipa-anazitoyn-enan-ypopsifio-gia-geniko-grammatea-ikano-na-metaschimatisei-ek-themelion-ton-oie.html",
-          "title": "Οι ΗΠΑ αναζητούν έναν υποψήφιο για Γενικό Γραμματέα ικανό να μετασχηματίσει εκ θεμελίων τον ΟΗΕ",
-          "domain": "tribune.gr",
-          "seendate": "20261015T201500Z"
-        },
-        {
-          "url": "https://www.nbd.com.cn/articles/2026-10-15/4606004.html",
-          "title": "以色列官员称美以就打击伊朗预案磋商 ； 沙特称胡塞袭击机场共致17死333伤 ； 中概股指数大涨2 %； 苹果智能10月底推测试版丨每经早参",
-          "domain": "nbd.com.cn",
-          "seendate": "20261015T221500Z"
-        },
-        {
-          "url": "https://www.epochtimes.com/b5/26/10/15/n14870706.htm",
-          "title": "國際能源署 ： 將加快釋出一億桶石油",
-          "domain": "epochtimes.com",
-          "seendate": "20261015T191500Z"
-        },
-        {
-          "url": "http://www.pakistantelegraph.com/news/279363161/i-should-have-won-8-nobel-peace-prizes-trump-slams-nobel-committee-for-awarding-navi-pillay",
-          "title": "  I should have won 8 Nobel Peace Prizes : Trump slams Nobel Committee for awarding Navi Pillay",
-          "domain": "pakistantelegraph.com",
-          "seendate": "20261010T064500Z"
-        },
-        {
-          "url": "https://foreignpolicy.com/2026/10/15/jose-manuel-albares-spain-foreign-policy-nato-trump-international-law/",
-          "title": "Spanish Foreign Minister Albares on Trump , Ukraine , NATO , and Gaza",
-          "domain": "foreignpolicy.com",
-          "seendate": "20261015T161500Z"
-        },
-        {
-          "url": "https://newsroomamerica.com/tag/human_rights",
-          "title": "Tag : human _ rights",
-          "domain": "newsroomamerica.com",
-          "seendate": "20261015T130000Z"
-        },
-        {
-          "url": "https://www.cbsnews.com/news/randy-george-missile-defense-shortage-iran-china/",
-          "title": "Ousted general warned of years - long missile defense shortage before Iran war",
-          "domain": "cbsnews.com",
-          "seendate": "20261015T211500Z"
-        },
-        {
-          "url": "https://article.wn.com/view/2026/10/15/A_SaudiIran_Deal_May_Keep_the_Bab_alMandab_Strait_Open/",
-          "title": "A Saudi - Iran Deal May Keep the Bab al - Mandab Strait Open",
-          "domain": "article.wn.com",
-          "seendate": "20261015T123000Z"
-        },
-        {
-          "url": "https://slguardian.org/saudi-arabias-houthi-nightmare/",
-          "title": "Saudi Arabia Houthi Nightmare – Sri Lanka Guardian",
-          "domain": "slguardian.org",
-          "seendate": "20261016T020000Z"
-        },
-        {
-          "url": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/the-world-repeating-the-mistakes-fallen-empires-4299696",
-          "title": "Lessons from Marcus Aurelius for Modern Leaders | Is the world repeating the mistakes of fallen empires ? ",
-          "domain": "thedailystar.net",
-          "seendate": "20261015T203000Z"
-        },
-        {
-          "url": "https://tribune.com.pk/story/2635072/irans-precision-strikes-picked-apart-gulf-infrastructure-blunting-us-war-plans",
-          "title": "Iran precision strikes picked apart Gulf infrastructure , blunting US war plans",
-          "domain": "tribune.com.pk",
-          "seendate": "20261015T211500Z"
-        },
-        {
-          "url": "https://www.almanar.com.lb/article/1264367/",
-          "title": "تحقيق استقصائي - ضربات إيرانية دقيقة تمزق بنى تحتية بالخليج لتقوض أهداف الحرب الأمريكية – قناة المنار",
-          "domain": "almanar.com.lb",
-          "seendate": "20261015T161500Z"
-        },
-        {
-          "url": "https://www.progressive-charlestown.com/search?updated-max=2026-10-13T09:00:00-04:00&max-results=15",
-          "title": "Progressive Charlestown",
-          "domain": "progressive-charlestown.com",
-          "seendate": "20261015T214500Z"
-        },
-        {
-          "url": "http://www.britainnews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "britainnews.net",
-          "seendate": "20261015T173000Z"
-        },
-        {
-          "url": "http://www.arabherald.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "arabherald.com",
-          "seendate": "20261015T173000Z"
-        },
-        {
-          "url": "http://www.ohiostandard.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "ohiostandard.com",
-          "seendate": "20261015T171500Z"
-        },
-        {
-          "url": "http://www.birminghamstar.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "birminghamstar.com",
-          "seendate": "20261015T161500Z"
-        },
-        {
-          "url": "http://www.zimbabwestar.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "zimbabwestar.com",
-          "seendate": "20261015T161500Z"
-        },
-        {
-          "url": "http://www.beijingbulletin.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "beijingbulletin.com",
-          "seendate": "20261015T203000Z"
-        },
-        {
-          "url": "http://www.sierraleonetimes.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "sierraleonetimes.com",
-          "seendate": "20261015T203000Z"
-        },
-        {
-          "url": "http://www.africaleader.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "africaleader.com",
-          "seendate": "20261015T183000Z"
-        },
-        {
-          "url": "http://www.taiwansun.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "taiwansun.com",
-          "seendate": "20261015T183000Z"
-        },
-        {
-          "url": "http://www.asiabulletin.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "asiabulletin.com",
-          "seendate": "20261015T183000Z"
-        },
-        {
-          "url": "http://www.mainemirror.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "mainemirror.com",
-          "seendate": "20261015T190000Z"
-        },
-        {
-          "url": "http://www.europesun.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "europesun.com",
-          "seendate": "20261015T190000Z"
-        },
-        {
-          "url": "http://www.middleeaststar.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "middleeaststar.com",
-          "seendate": "20261015T183000Z"
-        },
-        {
-          "url": "http://www.coloradostar.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "coloradostar.com",
-          "seendate": "20261015T190000Z"
-        },
-        {
-          "url": "http://www.azerbaijannews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "azerbaijannews.net",
-          "seendate": "20261015T190000Z"
-        },
-        {
-          "url": "http://www.greekherald.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "greekherald.com",
-          "seendate": "20261015T201500Z"
-        },
-        {
-          "url": "http://www.thailandnews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "thailandnews.net",
-          "seendate": "20261015T194500Z"
-        },
-        {
-          "url": "http://www.myanmarnews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "myanmarnews.net",
-          "seendate": "20261015T201500Z"
-        },
-        {
-          "url": "http://www.iranherald.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "iranherald.com",
-          "seendate": "20261015T201500Z"
-        },
-        {
-          "url": "http://www.shanghaisun.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "shanghaisun.com",
-          "seendate": "20261015T213000Z"
-        },
-        {
-          "url": "http://www.caribbeanherald.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-          "domain": "caribbeanherald.com",
-          "seendate": "20261016T020000Z"
-        },
-        {
-          "url": "http://www.zerohedge.com/markets/futures-slide-ai-unwind-goes-global-kospi-crashes-bear-market-treasuries-soar",
-          "title": "Futures Slide As AI Unwind Goes Global : Kospi Crashes Into Bear Market , Treasuries Soar",
-          "domain": "zerohedge.com",
-          "seendate": "20261015T124500Z"
-        },
-        {
-          "url": "https://newsroomamerica.com/?before=115130",
-          "title": "newsroomamerica . com",
-          "domain": "newsroomamerica.com",
-          "seendate": "20261015T161500Z"
-        }
-      ]
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "military_strike",
@@ -311,7 +72,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     }
@@ -430,9 +191,31 @@
   ],
   "comparison_table_21day": [
     {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.7429,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.7071,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
+      "composite_score": 0.6227,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -440,7 +223,7 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 0.9863,
         "tone": 0.5
       },
       "weights_applied": {
@@ -454,7 +237,7 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.4583,
+      "composite_score": 0.6122,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -462,29 +245,7 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 0.9231,
         "tone": 0.5
       },
       "weights_applied": {
@@ -498,15 +259,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.2083,
+      "composite_score": 0.4712,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -520,15 +281,15 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.2888,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 0.9057,
         "tone": 0.5
       },
       "weights_applied": {
@@ -558,15 +319,15 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 0,
+      "articles_en": 250,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 0,
+      "unique_domains_total": 144,
       "tone_mean": null
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }
