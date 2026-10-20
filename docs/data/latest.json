@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-10-20T03:26:14.303294+00:00",
-  "status": "yellow",
-  "headline_score_7day": 62,
-  "headline_score_21day": 56,
-  "score_jump": 0,
+  "timestamp_utc": "2026-10-20T16:27:11.489285+00:00",
+  "status": "green",
+  "headline_score_7day": 46,
+  "headline_score_21day": 50,
+  "score_jump": -16,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 21-day picture is similar at 56% similarity to the period before Operation Lion's Roar (February 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). התמונה ל-21 יום דומה עם 56% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026).",
+  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
+  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 50% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 50% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -41,8 +41,895 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.ynet.co.il/news/article/sk1xh50ize",
+        "https://www.vetogate.com/5753239",
+        "https://www.naturalnews.com/2026-10-15-trump-us-israel-overstepped-killing-iran-leadership.html"
+      ],
+      "articles": [
+        {
+          "url": "https://www.ynet.co.il/news/article/sk1xh50ize",
+          "title": "העלאת הכוננות בישראל , עמדת נתניהו - והחשש ממיסקלקולציה לפני הבחירות",
+          "domain": "ynet.co.il",
+          "seendate": "20261015T234500Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5753239",
+          "title": "مستشار خامنئي : إسرائيل عاجزة عن فعل أي شيء بلا دعم الولايات المتحدة",
+          "domain": "vetogate.com",
+          "seendate": "20261019T101500Z"
+        },
+        {
+          "url": "https://www.naturalnews.com/2026-10-15-trump-us-israel-overstepped-killing-iran-leadership.html",
+          "title": "U . S . and Israel  Might Have Gone Too Far  With Killing Iran Leadership , Trump Admits – NaturalNews . com",
+          "domain": "naturalnews.com",
+          "seendate": "20261015T213000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-10-16/live-updates-911900",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20261016T041500Z"
+        },
+        {
+          "url": "https://nypost.com/2026/10/19/world-news/iran-pols-finally-admit-they-want-nuclear-weapons-its-a-necessity-more-important-than-bread/",
+          "title": "Iran pols finally admit they want nuclear weapons :  It a necessity more important than bread  ",
+          "domain": "nypost.com",
+          "seendate": "20261019T224500Z"
+        },
+        {
+          "url": "https://www.ammonnews.net/article/1037979",
+          "title": "مستشار خامنئي : إسرائيل عاجزة عن فعل أي شيء بلا دعم أميركا | العالم",
+          "domain": "ammonnews.net",
+          "seendate": "20261019T164500Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-10-18/live-updates-911999",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20261018T030000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-10-19/live-updates-912115",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20261019T071500Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/politics/2026/10/17/%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D9%84%D9%87%D8%A7-%D8%A8%D8%AF%D8%A3-%D9%82%D8%A8%D9%84-%D8%B9%D9%82%D9%88%D8%AF-%D9%87%D9%83%D8%B0%D8%A7-%D8%B4%D9%86%D8%AA",
+          "title": "التحضير لها بدأ قبل عقود .. هكذا شنت أمريكا حربها على إيران",
+          "domain": "aljazeera.net",
+          "seendate": "20261016T223000Z"
+        },
+        {
+          "url": "https://www.newsday.com/news/nation/mideast-israel-palestinians-houthis-iran-october-19-2026-l41912",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "newsday.com",
+          "seendate": "20261019T153000Z"
+        },
+        {
+          "url": "https://www.news4jax.com/news/2026/10/19/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "news4jax.com",
+          "seendate": "20261019T134500Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/news/2026/10/16/%D8%B9%D8%A7%D8%AC%D9%84-%D9%85%D9%88%D9%82%D8%B9-%D9%88%D8%A7%D9%84%D9%84%D8%A7-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D8%A5%D8%B7%D9%84%D8%A7%D9%82",
+          "title": "إطلاق صاروخ اعتراضي شمال إسرائيل وأنباء عن استعدادات لقصف جنوبي لبنان",
+          "domain": "aljazeera.net",
+          "seendate": "20261016T084500Z"
+        },
+        {
+          "url": "https://www.cp24.com/news/world/2026/10/19/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/",
+          "title": "Middle East news : Saudi Arabia executes 2 over  indecent acts  ",
+          "domain": "cp24.com",
+          "seendate": "20261019T173000Z"
+        },
+        {
+          "url": "https://www.erienewsnow.com/news/national/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_4fe4aca4-8094-5df9-a191-cd51930b6ef4.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "erienewsnow.com",
+          "seendate": "20261019T130000Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_43c0f143-24e6-56bd-9a12-467a5bf09ba2.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "idahostatejournal.com",
+          "seendate": "20261019T130000Z"
+        },
+        {
+          "url": "https://www.wfmz.com/news/ap/ap-national/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_f239b276-5491-5bb3-9219-0934e04a95d9.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "wfmz.com",
+          "seendate": "20261019T154500Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/s1ryxf13fx",
+          "title": "Israel raises alert amid Iran war fears as Trump weighs strikes , Netanyahu wary befor",
+          "domain": "ynetnews.com",
+          "seendate": "20261016T040000Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/national/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_6a306f4f-5e38-5a6f-983e-3b1dc9120919.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "dailyadvance.com",
+          "seendate": "20261019T134500Z"
+        },
+        {
+          "url": "https://www.wnp.pl/rynki/iran-parlament-zatwierdzil-nowego-ministra-obrony,1110246.html",
+          "title": "Iran : Parlament zatwierdził nowego ministra obrony",
+          "domain": "wnp.pl",
+          "seendate": "20261018T120000Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/10/18/trump-announces-support-for-netanyahu-in-the-upcoming-israeli-elections",
+          "title": "عاجل . - قبل أيام من الانتخابات الإسرائيلية .. ترامب يعلن دعمه  الكامل  لنتنياهو :  لن يخذلكم أبدًا  ",
+          "domain": "arabic.euronews.com",
+          "seendate": "20261018T173000Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20261015-irans-revolutionary-guards-warn-us-would-regret-any-new-attack/",
+          "title": "Iran Revolutionary Guards warn US would  regret  any new attack – Middle East Monitor",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20261015T123000Z"
+        },
+        {
+          "url": "https://www.theyeshivaworld.com/news/israel-news/2610815/unusual-iranian-activity-netanyahu-briefs-trump-as-u-s-reviews-strike-plans-officials-see-no-immediate-threat.html",
+          "title": "UNUSUAL IRANIAN ACTIVITY : Netanyahu Briefs Trump as U . S . Reviews Strike Plans , Officials See No Immediate Threat",
+          "domain": "theyeshivaworld.com",
+          "seendate": "20261016T213000Z"
+        },
+        {
+          "url": "https://www.theepochtimes.com/world/trump-endorses-netanyahu-in-israeli-election-6105569",
+          "title": "Trump Endorses Netanyahu in Israeli Election",
+          "domain": "theepochtimes.com",
+          "seendate": "20261018T191500Z"
+        },
+        {
+          "url": "https://www.vedomosti.ru/politics/articles/2026/10/20/1238364-ministr-inostrannih-del-posetil-tegeran",
+          "title": "Министр иностранных дел России посетил Тегеран",
+          "domain": "vedomosti.ru",
+          "seendate": "20261019T214500Z"
+        },
+        {
+          "url": "https://www.theyeshivaworld.com/news/israel-news/2610652/iran-war-alert-unusual-military-activity-detected-as-netanyahu-briefs-trump-u-s-weighs-massive-new-strikes.html",
+          "title": "IRAN WAR ALERT : Unusual Military Activity Detected As Netanyahu Briefs Trump ; U . S . Weighs Massive New Strikes",
+          "domain": "theyeshivaworld.com",
+          "seendate": "20261016T071500Z"
+        },
+        {
+          "url": "https://www.dailynayadiganta.com/post/middle-east/1062512",
+          "title": "ইরানের প্রযুক্তিমনস্ক নতুন প্রতিরক্ষা মন্ত্রী : তার সম্পর্কে কতটুকু জানে দুনিয়া ?: Daily Naya Diganta ( দৈনিক নয়া দিগন্ত ) ",
+          "domain": "dailynayadiganta.com",
+          "seendate": "20261019T050000Z"
+        },
+        {
+          "url": "http://www.zerohedge.com/geopolitical/irgc-again-warns-trump-if-us-bombing-renewed-world-will-face-serious-energy-crisis",
+          "title": "IRGC Again Warns Trump : If US Bombing Renewed  World Will Face Serious Energy Crisis  ",
+          "domain": "zerohedge.com",
+          "seendate": "20261019T161500Z"
+        },
+        {
+          "url": "https://www.singtaousa.com/2026/10/15/news/world/pezeshkian-iran-is-facing-its-most-intense-blockade-since-1979/",
+          "title": "伊朗總統佩澤什基安指控美國 ， 稱國家面臨1979年以來最嚴峻封鎖",
+          "domain": "singtaousa.com",
+          "seendate": "20261015T190000Z"
+        },
+        {
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/10/20/iran-guards-say-their-mines-halted-two-tankers-crossing-strait-of-hormuz",
+          "title": "Iran Guards say mines halted 2 tankers crossing Strait of Hormuz",
+          "domain": "freemalaysiatoday.com",
+          "seendate": "20261020T113000Z"
+        },
+        {
+          "url": "https://thefrontierpost.com/irans-president-says-us-blockade-aims-to-spark-protests/",
+          "title": "Iran president says US blockade aims to spark protests – The Frontier Post",
+          "domain": "thefrontierpost.com",
+          "seendate": "20261015T183000Z"
+        },
+        {
+          "url": "https://dominicanrepublicpost.com/who-is-mehrdad-akhlaghi-irans-new-tech-focused-defence-minister/",
+          "title": "Who is Mehrdad Akhlaghi , Iran new tech - focused defence minister ? - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+          "domain": "dominicanrepublicpost.com",
+          "seendate": "20261018T160000Z"
+        },
+        {
+          "url": "https://www.woonsocketcall.com/news/national_and_world_news/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_62bddaf6-a1d2-5ed3-bf2c-93ed93585e37.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "woonsocketcall.com",
+          "seendate": "20261019T144500Z"
+        },
+        {
+          "url": "http://www.sitkasentinel.com/stories/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news,179768",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "sitkasentinel.com",
+          "seendate": "20261019T161500Z"
+        },
+        {
+          "url": "http://www.reflector.com/news/national/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_57fc9264-ceda-5939-aa9a-86a50eeed3ee.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "reflector.com",
+          "seendate": "20261019T131500Z"
+        },
+        {
+          "url": "https://kdhnews.com/news/nation/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_3920c1a7-8c77-55af-8fab-700ee866b3e5.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "kdhnews.com",
+          "seendate": "20261019T134500Z"
+        },
+        {
+          "url": "https://www.union-bulletin.com/news/national/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_04bc8db9-5f89-5d04-ac99-a3cc8dfb3b33.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "union-bulletin.com",
+          "seendate": "20261019T123000Z"
+        },
+        {
+          "url": "http://www.rockymounttelegram.com/news/national/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_ae6f38c6-0a38-525d-a161-0552e4979492.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "rockymounttelegram.com",
+          "seendate": "20261019T123000Z"
+        },
+        {
+          "url": "https://www.tagesschau.de/ausland/asien/iran-hormus-angebot-drohung-100.html",
+          "title": "Iran unterbreitet den united states ein Angebot - und droht zugleich",
+          "domain": "tagesschau.de",
+          "seendate": "20261018T183000Z"
+        },
+        {
+          "url": "https://www.2news.com/news/national/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_5ae8e46c-4915-5b93-87e5-189ee0c37e16.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "2news.com",
+          "seendate": "20261019T153000Z"
+        },
+        {
+          "url": "https://www.wgauradio.com/news/saudi-arabia/B3HGA62HWEZO3M2ZJP4HDSDWS4/",
+          "title": "Saudi Arabia executes 2 Bangladeshi nationals for  indecent acts  ",
+          "domain": "wgauradio.com",
+          "seendate": "20261019T173000Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/politics/2026/10/17/%D8%A3%D8%B0%D8%B1%D8%A8%D9%8A%D8%AC%D8%A7%D9%86-%D8%AF%D8%B1%D8%A9-%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81%D8%A7%D8%AA",
+          "title": "أذربيجان .. دُرة تاج التحالفات الإسرائيلية على حدود إيران",
+          "domain": "aljazeera.net",
+          "seendate": "20261017T051500Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/iran-s-new-defence-minister-has-worked-on-sejjil-and-zolfaghar-missiles-who-is-mehrdad-akhlaghi-ketabchi-article-14055739.html",
+          "title": "Iran new defence minister has worked on Sejjil and Zolfaghar missiles : Who is Mehrdad Akhlaghi Ketabchi ? ",
+          "domain": "moneycontrol.com",
+          "seendate": "20261019T174500Z"
+        },
+        {
+          "url": "https://www.annaharkw.com/annahar/Article.aspx?id=1056866",
+          "title": "جريدة النهار الكويتية | بيزشكيان : نواجه أشدّ حصار منذ عام 1979",
+          "domain": "annaharkw.com",
+          "seendate": "20261015T230000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/h1008k11ynze",
+          "title": "  I dont trust anybody : Trump on Netanyahu , Israel election and potential Iran str",
+          "domain": "ynetnews.com",
+          "seendate": "20261016T040000Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/news/2026/10/17/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%88%D8%B3%D8%B9-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D9%85%D9%86",
+          "title": "إيران توسع تدريب المدنيين وسط مخاوف من اتساع الحرب وعسكرة المجتمع",
+          "domain": "aljazeera.net",
+          "seendate": "20261017T100000Z"
+        },
+        {
+          "url": "https://www.bostonherald.com/2026/10/19/saudi-arabia-israel-iran-mideast-news/",
+          "title": "Saudi Arabia executes 2 Bangladeshi , and other Mideast news",
+          "domain": "bostonherald.com",
+          "seendate": "20261019T123000Z"
+        },
+        {
+          "url": "https://www.algemeiner.com/2026/10/15/iran-races-rebuild-underground-missile-arsenal-hezbollah-told-prepare-imminent-war/",
+          "title": "Iran Races to Rebuild Underground Missile Arsenal as Hezbollah Told to Prepare for  Imminent  War",
+          "domain": "algemeiner.com",
+          "seendate": "20261016T021500Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/us-ambassador-to-israel-condemns-settler-attack-on-us-journalist-and-other-mideast-news/article_6c126ced-25e4-545b-8597-98408822226d.html",
+          "title": "US ambassador to Israel condemns settler attack on US journalist , and other Mideast news",
+          "domain": "thegazette.com",
+          "seendate": "20261018T104500Z"
+        },
+        {
+          "url": "https://www.ksat.com/news/2026/10/19/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "ksat.com",
+          "seendate": "20261019T114500Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/airstrike-kills-at-least-9-in-rebel-held-yemen-and-other-mideast-news/article_6c126ced-25e4-545b-8597-98408822226d.html",
+          "title": "Airstrike kills at least 9 in rebel - held Yemen , and other Mideast news",
+          "domain": "thegazette.com",
+          "seendate": "20261018T151500Z"
+        },
+        {
+          "url": "https://fortune.com/2026/10/18/egypt-saudi-arabia-defense-authorization-troops-houthis-escalation/",
+          "title": "Egypt president vows to use  any measure  to defend Saudi Arabia and looks to deploy troops abroad",
+          "domain": "fortune.com",
+          "seendate": "20261018T160000Z"
+        },
+        {
+          "url": "https://wiadomosci.wp.pl/byc-moze-posunalem-sie-za-daleko-zaskakujace-slowa-trumpa-o-iranie-7340428722190816a",
+          "title": "  Być może posunąłem się za daleko . Zaskakujące słowa Trumpa o Iranie",
+          "domain": "wiadomosci.wp.pl",
+          "seendate": "20261015T211500Z"
+        },
+        {
+          "url": "https://www.jns.org/opinion/sarah-n-stern/war-is-coming",
+          "title": "War is coming ... ",
+          "domain": "jns.org",
+          "seendate": "20261020T091500Z"
+        },
+        {
+          "url": "http://www.idahopress.com/ap_news/us/airstrike-kills-at-least-9-in-rebel-held-yemen-and-other-mideast-news/article_d6d93bfd-9ec3-5d82-ab86-896a3cad24dd.html",
+          "title": "Airstrike kills at least 9 in rebel - held Yemen , and other Mideast news",
+          "domain": "idahopress.com",
+          "seendate": "20261018T151500Z"
+        },
+        {
+          "url": "https://www.ky3.com/2026/10/18/american-journalist-injured-settler-attack-israeli-occupied-west-bank/",
+          "title": "American journalist injured in settler attack in Israeli - occupied West Bank",
+          "domain": "ky3.com",
+          "seendate": "20261018T153000Z"
+        },
+        {
+          "url": "https://www.wfmz.com/news/ap/ap-national/us-ambassador-to-israel-condemns-settler-attack-on-us-journalist-and-other-mideast-news/article_e7c71d29-e307-5d58-bb9c-a2426256afb2.html",
+          "title": "US ambassador to Israel condemns settler attack on US journalist , and other Mideast news",
+          "domain": "wfmz.com",
+          "seendate": "20261018T113000Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279379074/iran-president-says-tehran-not-after-nukes-slams-propaganda-claiming-otherwise",
+          "title": "Iran president says Tehran not after nukes , slams propaganda claiming otherwise",
+          "domain": "iranherald.com",
+          "seendate": "20261016T163000Z"
+        },
+        {
+          "url": "https://www.foxcarolina.com/2026/10/18/american-journalist-injured-settler-attack-israeli-occupied-west-bank/",
+          "title": "American journalist injured in settler attack in Israeli - occupied West Bank",
+          "domain": "foxcarolina.com",
+          "seendate": "20261018T150000Z"
+        },
+        {
+          "url": "https://www.sandiegouniontribune.com/2026/10/19/saudi-arabia-israel-iran-mideast-news/",
+          "title": "Saudi Arabia executes 2 Bangladeshi , and other Mideast news",
+          "domain": "sandiegouniontribune.com",
+          "seendate": "20261019T130000Z"
+        },
+        {
+          "url": "https://www.idahostatejournal.com/news/national/us-ambassador-to-israel-condemns-settler-attack-on-us-journalist-and-other-mideast-news/article_ce9da208-5144-560a-9129-bf940b9d7cc3.html",
+          "title": "US ambassador to Israel condemns settler attack on US journalist , and other Mideast news",
+          "domain": "idahostatejournal.com",
+          "seendate": "20261018T124500Z"
+        },
+        {
+          "url": "https://www.zerohedge.com/geopolitical/houthis-expand-saudi-aramco-airport-targets-us-issues-urgent-warnings-12-mideast",
+          "title": "Houthis Target More Saudi Airports , Aramco Sites As US Issues Urgent Alert For 12 Mideast States",
+          "domain": "zerohedge.com",
+          "seendate": "20261019T224500Z"
+        },
+        {
+          "url": "https://zerkalo.az/iran-posle-hamenei-smozhet-li-sistema-vyderzhat-dvojnoe-davlenie-intervyu/",
+          "title": "Иран после Хаменеи . Сможет ли система выдержать двойное давление - ИНТЕРВЬЮ",
+          "domain": "zerkalo.az",
+          "seendate": "20261017T180000Z"
+        },
+        {
+          "url": "https://original.antiwar.com/trita-parsi/2026/10/19/can-trump-and-iran-ever-reach-a-deal-again/",
+          "title": "Can Trump and Iran Ever Reach a Deal Again ? ",
+          "domain": "original.antiwar.com",
+          "seendate": "20261020T040000Z"
+        },
+        {
+          "url": "https://www.thetimes-tribune.com/2026/10/19/saudi-arabia-israel-iran-mideast-news/",
+          "title": "Saudi Arabia executes 2 Bangladeshi , and other Mideast news",
+          "domain": "thetimes-tribune.com",
+          "seendate": "20261019T144500Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/airstrike-kills-at-least-9-in-rebel-held-yemen-and-other-mideast-news/article_ce9da208-5144-560a-9129-bf940b9d7cc3.html",
+          "title": "Airstrike kills at least 9 in rebel - held Yemen , and other Mideast news",
+          "domain": "idahostatejournal.com",
+          "seendate": "20261018T183000Z"
+        },
+        {
+          "url": "https://lancasteronline.com/news/world/airstrike-kills-at-least-9-in-rebel-held-yemen-and-other-mideast-news/article_4e0a89a4-272b-5378-9dec-8165f0adbfa7.html",
+          "title": "Airstrike kills at least 9 in rebel - held Yemen , and other Mideast news",
+          "domain": "lancasteronline.com",
+          "seendate": "20261018T171500Z"
+        },
+        {
+          "url": "https://www.omandaily.om/article/1212946",
+          "title": "وزير الدفاع الإيراني الجديد يحذر من  أم القنابل  ويتوعد برد جسيم  ",
+          "domain": "omandaily.om",
+          "seendate": "20261018T173000Z"
+        },
+        {
+          "url": "https://www.antena3.ro/externe/iranul-se-pregateste-pentru-un-nou-razboi-cu-sua-lumea-va-fi-uimita-avem-noi-tinte-care-nu-au-fost-inca-atacate-807678.html",
+          "title": "Iranul se pregătește pentru un nou război cu SUA : „ Lumea va fi uimită . Avem noi ținte care nu au fost încă atacate  ",
+          "domain": "antena3.ro",
+          "seendate": "20261019T073000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/16/division-in-lebanon-over-hezbollahs-confiscated-explosives",
+          "title": "Division in Lebanon over Hezbollah confiscated explosives | Israel attacks Lebanon News",
+          "domain": "aljazeera.com",
+          "seendate": "20261016T194500Z"
+        },
+        {
+          "url": "https://kvia.com/news/us-world/cnn-world/2026/10/18/the-world-will-be-amazed-irans-commanders-prepare-for-further-war/",
+          "title": "  The world will be amazed : Iran commanders prepare for further war",
+          "domain": "kvia.com",
+          "seendate": "20261019T064500Z"
+        },
+        {
+          "url": "https://english.aawsat.com/opinion/5330155-iran-cluster-problems",
+          "title": "Iran : A Cluster of Problems",
+          "domain": "english.aawsat.com",
+          "seendate": "20261016T043000Z"
+        },
+        {
+          "url": "http://www.pakistantelegraph.com/news/279376448/iran-security-challenges-compounded-by-rising-domestic-insurgency",
+          "title": "Iran Security Challenges Compounded By Rising Domestic Insurgency",
+          "domain": "pakistantelegraph.com",
+          "seendate": "20261015T161500Z"
+        },
+        {
+          "url": "http://www.middleeaststar.com/news/279376448/iran-security-challenges-compounded-by-rising-domestic-insurgency",
+          "title": "Iran Security Challenges Compounded By Rising Domestic Insurgency",
+          "domain": "middleeaststar.com",
+          "seendate": "20261015T171500Z"
+        },
+        {
+          "url": "http://www.arabherald.com/news/279376448/iran-security-challenges-compounded-by-rising-domestic-insurgency",
+          "title": "Iran Security Challenges Compounded By Rising Domestic Insurgency",
+          "domain": "arabherald.com",
+          "seendate": "20261015T173000Z"
+        },
+        {
+          "url": "http://www.beijingbulletin.com/news/279376448/iran-security-challenges-compounded-by-rising-domestic-insurgency",
+          "title": "Iran Security Challenges Compounded By Rising Domestic Insurgency",
+          "domain": "beijingbulletin.com",
+          "seendate": "20261015T154500Z"
+        },
+        {
+          "url": "http://www.heraldglobe.com/news/279376448/iran-security-challenges-compounded-by-rising-domestic-insurgency",
+          "title": "Iran Security Challenges Compounded By Rising Domestic Insurgency",
+          "domain": "heraldglobe.com",
+          "seendate": "20261015T141500Z"
+        },
+        {
+          "url": "http://www.azerbaijannews.net/news/279376448/iran-security-challenges-compounded-by-rising-domestic-insurgency",
+          "title": "Iran Security Challenges Compounded By Rising Domestic Insurgency",
+          "domain": "azerbaijannews.net",
+          "seendate": "20261015T140000Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/10/16/know-more-details-understand-less-how-does-volume-of-news-affect-ability-grasp-events-wars",
+          "title": "نعرف تفاصيل أكثر ونفهم أقل .. كيف تؤثر كثرة الأخبار في قدرتنا على استيعاب الأحداث والحروب ؟ ",
+          "domain": "arabic.euronews.com",
+          "seendate": "20261016T123000Z"
+        },
+        {
+          "url": "https://www.gatestoneinstitute.org/22924/iran-cluster-of-problems",
+          "title": "Iran : A Cluster of Problems",
+          "domain": "gatestoneinstitute.org",
+          "seendate": "20261018T103000Z"
+        },
+        {
+          "url": "https://www.advocate-news.com/2026/10/19/saudi-arabia-israel-iran-mideast-news/",
+          "title": "Saudi Arabia executes 2 Bangladeshi , and other Mideast news",
+          "domain": "advocate-news.com",
+          "seendate": "20261020T073000Z"
+        },
+        {
+          "url": "https://www.dailygazette.com/the_recorder/ap/national/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_fcb2d4d7-ce4f-5126-bfbf-402720c406b8.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "dailygazette.com",
+          "seendate": "20261019T130000Z"
+        },
+        {
+          "url": "http://www.bozemandailychronicle.com/wire/news/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-and-other-mideast-news/article_da036567-8588-5621-9491-5d60c43f3cc8.html",
+          "title": "Saudi Arabia executes 2 Bangladeshis over  indecent acts , and other Mideast news",
+          "domain": "bozemandailychronicle.com",
+          "seendate": "20261019T114500Z"
+        },
+        {
+          "url": "https://www.bbc.com/persian/articles/c63dj42xv22xo",
+          "title": " « بقای ایران » و « عهدنامه ترکمنچای »؛ موافقان و مخالفان « عقب‌نشینی تاکتیکی » چه می‌گویند ؟ ",
+          "domain": "bbc.com",
+          "seendate": "20261019T060000Z"
+        },
+        {
+          "url": "https://www.messenger-inquirer.com/ap/elections/airstrike-kills-at-least-9-in-rebel-held-yemen-and-other-mideast-news/article_caee90b9-d9f9-556d-8431-3b1c1d91ac66.html",
+          "title": "Airstrike kills at least 9 in rebel - held Yemen , and other Mideast news",
+          "domain": "messenger-inquirer.com",
+          "seendate": "20261018T160000Z"
+        },
+        {
+          "url": "https://www.wokv.com/news/world/us-ambassador-israel/OFVHAQEXPA6I5HNJ6HQPFKNL4M/",
+          "title": "Airstrike kills at least 9 in Yemen and other Middle East developments",
+          "domain": "wokv.com",
+          "seendate": "20261018T151500Z"
+        },
+        {
+          "url": "https://www.2news.com/news/world/airstrike-kills-at-least-9-in-rebel-held-yemen-and-other-mideast-news/article_4553957f-5805-573d-b4fc-8fc853002830.html",
+          "title": "Airstrike kills at least 9 in rebel - held Yemen , and other Mideast news",
+          "domain": "2news.com",
+          "seendate": "20261018T153000Z"
+        },
+        {
+          "url": "https://jo24.net/article/579894",
+          "title": "جو 24 : هآرتس :  أقرب إلى الزنزانة .. نتنياهو يفقد السيطرة وقد يلجأ إلى تصعيد أمني",
+          "domain": "jo24.net",
+          "seendate": "20261016T204500Z"
+        },
+        {
+          "url": "https://krmg.com/2026/10/18/us-ambassador-to-israel-condemns-settler-attack-on-us-journalist-and-other-mideast-news/",
+          "title": "US ambassador to Israel condemns settler attack on US journalist , and other Mideast news",
+          "domain": "krmg.com",
+          "seendate": "20261018T130000Z"
+        },
+        {
+          "url": "https://www.weny.com/wires/us-ambassador-to-israel-condemns-settler-attack-on-us-journalist-and-other-mideast-news/article_3e3dad91-2330-520c-8db9-df3497016231.html",
+          "title": "US ambassador to Israel condemns settler attack on US journalist , and other Mideast news",
+          "domain": "weny.com",
+          "seendate": "20261018T130000Z"
+        },
+        {
+          "url": "https://www.kfvs12.com/2026/10/18/american-journalist-injured-settler-attack-israeli-occupied-west-bank/",
+          "title": "American journalist injured in settler attack in Israeli - occupied West Bank",
+          "domain": "kfvs12.com",
+          "seendate": "20261018T164500Z"
+        },
+        {
+          "url": "http://www.postregister.com/news/national/us-ambassador-to-israel-condemns-settler-attack-on-us-journalist-and-other-mideast-news/article_09e1c1e3-5fd9-5020-a52f-82f894b34e22.html",
+          "title": "US ambassador to Israel condemns settler attack on US journalist , and other Mideast news",
+          "domain": "postregister.com",
+          "seendate": "20261018T143000Z"
+        },
+        {
+          "url": "https://www.knoe.com/2026/10/18/american-journalist-injured-settler-attack-israeli-occupied-west-bank/",
+          "title": "American journalist injured in settler attack in Israeli - occupied West Bank",
+          "domain": "knoe.com",
+          "seendate": "20261019T010000Z"
+        },
+        {
+          "url": "https://www.union-bulletin.com/news/national/us-ambassador-to-israel-condemns-settler-attack-on-us-journalist-and-other-mideast-news/article_ecb7c9ef-1996-56f8-9fd1-201dc4737010.html",
+          "title": "US ambassador to Israel condemns settler attack on US journalist , and other Mideast news",
+          "domain": "union-bulletin.com",
+          "seendate": "20261018T120000Z"
+        },
+        {
+          "url": "https://mustaqila.com/%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D9%8A%D8%B5%D8%A7%D8%AF%D9%82-%D8%B9%D9%84%D9%89-%D8%AA%D9%88%D9%84%D9%8A-%D9%85%D9%87%D8%B1%D8%AF/",
+          "title": "البرلمان الإيراني يصادق على تولي مهرداد أخلاقي حقيبة الدفاع الإيرانية",
+          "domain": "mustaqila.com",
+          "seendate": "20261018T204500Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/politics/2026/10/18/%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D9%8A-%D8%AE%D8%B1%D8%AC%D8%AA-%D8%B9%D9%86-%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AA%D8%B1%D9%85%D8%A8-%D9%87%D9%84",
+          "title": "حرب إيران التي خرجت عن حسابات ترمب .. هل تنهيها المفاوضات أم تعيدها إلى التصعيد ؟ ",
+          "domain": "aljazeera.net",
+          "seendate": "20261018T124500Z"
+        },
+        {
+          "url": "https://www.techtimes.com/articles/329208/20261019/iran-installs-missile-program-veteran-defense-chief-puts-2t-gulf-ai-network-crosshairs.htm",
+          "title": "Iran Installs Missile - Program Veteran as Defense Chief , Puts $2T Gulf AI Network in Crosshairs",
+          "domain": "techtimes.com",
+          "seendate": "20261020T003000Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279385476/how-iran-carries-out-violence-abroad-from-diplomats-and-assassins-to-criminal-networks",
+          "title": "How Iran carries out violence abroad - from diplomats and assassins to criminal networks",
+          "domain": "iranherald.com",
+          "seendate": "20261019T214500Z"
+        },
+        {
+          "url": "http://www.israelherald.com/news/279382861/iran-names-un-sanctioned-missile-chief-as-defense-minister",
+          "title": "Iran Names UN - Sanctioned Missile Chief As Defense Minister",
+          "domain": "israelherald.com",
+          "seendate": "20261018T160000Z"
+        },
+        {
+          "url": "http://www.iraqsun.com/news/279382861/iran-names-un-sanctioned-missile-chief-as-defense-minister",
+          "title": "Iran Names UN - Sanctioned Missile Chief As Defense Minister",
+          "domain": "iraqsun.com",
+          "seendate": "20261018T164500Z"
+        },
+        {
+          "url": "http://www.europesun.com/news/279382861/iran-names-un-sanctioned-missile-chief-as-defense-minister",
+          "title": "Iran Names UN - Sanctioned Missile Chief As Defense Minister",
+          "domain": "europesun.com",
+          "seendate": "20261018T184500Z"
+        },
+        {
+          "url": "http://www.irishsun.com/news/279382861/iran-names-un-sanctioned-missile-chief-as-defense-minister",
+          "title": "Iran Names UN - Sanctioned Missile Chief As Defense Minister",
+          "domain": "irishsun.com",
+          "seendate": "20261020T131500Z"
+        },
+        {
+          "url": "http://www.afghanistannews.net/news/279382861/iran-names-un-sanctioned-missile-chief-as-defense-minister",
+          "title": "Iran Names UN - Sanctioned Missile Chief As Defense Minister",
+          "domain": "afghanistannews.net",
+          "seendate": "20261020T131500Z"
+        },
+        {
+          "url": "https://dailythepatriot.com/indeed-god-does-not-alter-the-affairs-of-a-people-until-they-alter-their-own-affairs/",
+          "title": "Indeed , God does not alter the affairs of a people until they alter their own affairs . ",
+          "domain": "dailythepatriot.com",
+          "seendate": "20261016T211500Z"
+        },
+        {
+          "url": "https://www.komu.com/news/nationworld/the-world-will-be-amazed-iran-s-commanders-prepare-for-further-war/article_d2d43daa-2ae8-58b6-a22c-13eb9ec3155d.html",
+          "title": "  The world will be amazed : Iran prepares for further war | Nation & World News",
+          "domain": "komu.com",
+          "seendate": "20261019T161500Z"
+        },
+        {
+          "url": "https://www.tagesanzeiger.ch/nahost-ticker-iran-usa-israel-gaza-jemen-31-872658086267",
+          "title": "Siedler - Angriff : US - Fotografin empört über Netanyahus Reaktion",
+          "domain": "tagesanzeiger.ch",
+          "seendate": "20261019T084500Z"
+        },
+        {
+          "url": "https://www.bazonline.ch/nahost-ticker-iran-usa-israel-gaza-jemen-31-872658086267",
+          "title": "Siedler - Angriff : US - Fotografin empört über Netanyahus Reaktion",
+          "domain": "bazonline.ch",
+          "seendate": "20261019T084500Z"
+        },
+        {
+          "url": "https://www.bernerzeitung.ch/nahost-ticker-iran-usa-israel-gaza-jemen-31-872658086267",
+          "title": "Siedler - Angriff : US - Fotografin empört über Netanyahus Reaktion",
+          "domain": "bernerzeitung.ch",
+          "seendate": "20261019T083000Z"
+        },
+        {
+          "url": "https://blueprint.ng/trump-plots-fresh-strikes-on-iran/",
+          "title": "Trump plots fresh strikes on Iran - Blueprint Newspapers Limited",
+          "domain": "blueprint.ng",
+          "seendate": "20261015T131500Z"
+        },
+        {
+          "url": "https://grenadachronicle.com/hezbollah-funding-plan-indicates-a-new-challenge-to-lebanons-government/",
+          "title": "Hezbollah funding plan indicates a new challenge to Lebanon government - Grenada Chronicle – Daily Grenada And Caribbean News",
+          "domain": "grenadachronicle.com",
+          "seendate": "20261019T123000Z"
+        },
+        {
+          "url": "https://grenadachronicle.com/the-israeli-politicians-seeking-to-replace-netanyahu/",
+          "title": "The Israeli politicians seeking to replace Netanyahu - Grenada Chronicle – Daily Grenada And Caribbean News",
+          "domain": "grenadachronicle.com",
+          "seendate": "20261017T081500Z"
+        },
+        {
+          "url": "https://www.news8000.com/news/national-world/the-world-will-be-amazed-iran-s-commanders-prepare-for-further-war/article_afac4eeb-2e05-5fce-b9fb-45e1afb8700e.html",
+          "title": "  The world will be amazed : Iran commanders prepare for further war | National & World News",
+          "domain": "news8000.com",
+          "seendate": "20261019T111500Z"
+        },
+        {
+          "url": "https://cedarnews.net/bbc/1086631/%D9%85%D9%87%D8%B1%D8%AF%D8%A7%D8%AF-%D8%A3%D8%AE%D9%84%D8%A7%D9%82%D9%8A-%D9%88%D8%B2%D9%8A%D8%B1%D8%A7%D9%8B-%D9%84%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D9%81%D9%8A-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D8%8C/",
+          "title": "مهرداد أخلاقي وزيراً للدفاع في إيران ، فمن هو المسؤول الذي خرج من الظل ؟ ",
+          "domain": "cedarnews.net",
+          "seendate": "20261019T173000Z"
+        },
+        {
+          "url": "https://alhourriah.org/article/172776",
+          "title": "الحرية - الصحافة الإسرائيلية الملف اليومي صادر عن المكتب الصحفي للجبهة الديمقراطية لتحرير فلسطين الجمعة 16 / 10 / 2026 العدد 1738",
+          "domain": "alhourriah.org",
+          "seendate": "20261017T100000Z"
+        },
+        {
+          "url": "https://middle-east-online.com/%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D9%85%D8%A3%D8%B2%D9%82-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A-%D9%81%D9%8A-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+          "title": "واشنطن ومأزق اليوم التالي في إيران | معتز أبو سمرة",
+          "domain": "middle-east-online.com",
+          "seendate": "20261015T114500Z"
+        },
+        {
+          "url": "https://www.middle-east-online.com/%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D9%85%D8%A3%D8%B2%D9%82-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A-%D9%81%D9%8A-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+          "title": "واشنطن ومأزق اليوم التالي في إيران | معتز أبو سمرة",
+          "domain": "middle-east-online.com",
+          "seendate": "20261015T131500Z"
+        },
+        {
+          "url": "http://www.israelherald.com/news/279387105/iran-repeats-threat-to-target-undersea-fiberoptic-cables",
+          "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
+          "domain": "israelherald.com",
+          "seendate": "20261020T104500Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279387105/iran-repeats-threat-to-target-undersea-fiberoptic-cables",
+          "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
+          "domain": "iranherald.com",
+          "seendate": "20261020T103000Z"
+        },
+        {
+          "url": "http://www.irishsun.com/news/279387105/iran-repeats-threat-to-target-undersea-fiberoptic-cables",
+          "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
+          "domain": "irishsun.com",
+          "seendate": "20261020T131500Z"
+        },
+        {
+          "url": "http://www.afghanistannews.net/news/279387105/iran-repeats-threat-to-target-undersea-fiberoptic-cables",
+          "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
+          "domain": "afghanistannews.net",
+          "seendate": "20261020T131500Z"
+        },
+        {
+          "url": "http://www.centralasiatimes.com/news/279387105/iran-repeats-threat-to-target-undersea-fiberoptic-cables",
+          "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
+          "domain": "centralasiatimes.com",
+          "seendate": "20261020T151500Z"
+        },
+        {
+          "url": "http://www.russiaherald.com/news/279387105/iran-repeats-threat-to-target-undersea-fiberoptic-cables",
+          "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
+          "domain": "russiaherald.com",
+          "seendate": "20261020T141500Z"
+        },
+        {
+          "url": "http://www.middleeaststar.com/news/279387105/iran-repeats-threat-to-target-undersea-fiberoptic-cables",
+          "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
+          "domain": "middleeaststar.com",
+          "seendate": "20261020T150000Z"
+        },
+        {
+          "url": "https://cedarnews.net/alert/1080904/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9-39/",
+          "title": "بالصور : القوات اللبنانية في سيدني تحيي عشاءها السنوي بحضور غياث يزبك",
+          "domain": "cedarnews.net",
+          "seendate": "20261018T100000Z"
+        },
+        {
+          "url": "https://www.eurasiareview.com/20102026-the-geopolitics-of-the-persian-gulf-and-war-with-iran-analysis/",
+          "title": "The Geopolitics Of The Persian Gulf And War With Iran - Analysis",
+          "domain": "eurasiareview.com",
+          "seendate": "20261020T013000Z"
+        },
+        {
+          "url": "http://www.britainnews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "britainnews.net",
+          "seendate": "20261015T173000Z"
+        },
+        {
+          "url": "http://www.arabherald.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "arabherald.com",
+          "seendate": "20261015T173000Z"
+        },
+        {
+          "url": "http://www.ohiostandard.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "ohiostandard.com",
+          "seendate": "20261015T171500Z"
+        },
+        {
+          "url": "http://www.birminghamstar.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "birminghamstar.com",
+          "seendate": "20261015T161500Z"
+        },
+        {
+          "url": "http://www.zimbabwestar.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "zimbabwestar.com",
+          "seendate": "20261015T161500Z"
+        },
+        {
+          "url": "http://www.beijingbulletin.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "beijingbulletin.com",
+          "seendate": "20261015T203000Z"
+        },
+        {
+          "url": "http://www.sierraleonetimes.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "sierraleonetimes.com",
+          "seendate": "20261015T203000Z"
+        },
+        {
+          "url": "http://www.africaleader.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "africaleader.com",
+          "seendate": "20261015T183000Z"
+        },
+        {
+          "url": "http://www.taiwansun.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "taiwansun.com",
+          "seendate": "20261015T183000Z"
+        },
+        {
+          "url": "http://www.asiabulletin.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "asiabulletin.com",
+          "seendate": "20261015T183000Z"
+        },
+        {
+          "url": "http://www.mainemirror.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "mainemirror.com",
+          "seendate": "20261015T190000Z"
+        },
+        {
+          "url": "http://www.europesun.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "europesun.com",
+          "seendate": "20261015T190000Z"
+        },
+        {
+          "url": "http://www.middleeaststar.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "middleeaststar.com",
+          "seendate": "20261015T183000Z"
+        },
+        {
+          "url": "http://www.coloradostar.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "coloradostar.com",
+          "seendate": "20261015T190000Z"
+        },
+        {
+          "url": "http://www.azerbaijannews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "azerbaijannews.net",
+          "seendate": "20261015T190000Z"
+        },
+        {
+          "url": "http://www.greekherald.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "greekherald.com",
+          "seendate": "20261015T201500Z"
+        },
+        {
+          "url": "http://www.thailandnews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "thailandnews.net",
+          "seendate": "20261015T194500Z"
+        },
+        {
+          "url": "http://www.myanmarnews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "myanmarnews.net",
+          "seendate": "20261015T201500Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "iranherald.com",
+          "seendate": "20261015T201500Z"
+        },
+        {
+          "url": "http://www.caribbeanherald.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "caribbeanherald.com",
+          "seendate": "20261016T020000Z"
+        },
+        {
+          "url": "http://www.shanghaisun.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+          "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+          "domain": "shanghaisun.com",
+          "seendate": "20261015T213000Z"
+        },
+        {
+          "url": "https://www.presstv.co.uk/Detail/2026/10/18/778601/mehrdad-akhlaghi-defense-engineer-missile-specialist-new-defense-minister-iran",
+          "title": "Mehrdad Akhlaghi Ketabchi : Veteran defense engineer and missile industry specialist is Iran new defense minister",
+          "domain": "presstv.co.uk",
+          "seendate": "20261018T133000Z"
+        },
+        {
+          "url": "https://www.thetimes.com/world/middle-east/article/women-iran-death-row-twins-rahimi-3cjvzxpvf",
+          "title": "  Dont forget their name : the women on Iran death row",
+          "domain": "thetimes.com",
+          "seendate": "20261020T091500Z"
+        }
+      ]
     },
     {
       "id": "trump_china",
@@ -72,23 +959,45 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
       "example_urls": [],
       "articles": []
     }
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.625,
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4583,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
         "tone": 0.5
       },
@@ -103,14 +1012,14 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.625,
+      "composite_score": 0.4583,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
         "tone": 0.5
       },
@@ -123,29 +1032,7 @@
       }
     },
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.625,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 1.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_OCT24",
+      "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
       "composite_score": 0.2083,
       "is_pre_round": true,
@@ -167,7 +1054,7 @@
       }
     },
     {
-      "reference_id": "PRE_APR24",
+      "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
       "composite_score": 0.0417,
       "is_pre_round": true,
@@ -191,18 +1078,40 @@
   ],
   "comparison_table_21day": [
     {
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4988,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.9859
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.565,
+      "composite_score": 0.4983,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.6401,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9794
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -215,16 +1124,16 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.5538,
+      "composite_score": 0.4926,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.5727,
+        "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9107
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -235,16 +1144,16 @@
       }
     },
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.492,
-      "is_pre_round": false,
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.2083,
+      "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
-        "confluence": 1.0,
+        "confluence": 0.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.2022,
+        "raw_volume": 1.0,
         "source_diversity": 0.0,
         "tone": 0.5
       },
@@ -259,29 +1168,7 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.113,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.4278,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.0768,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -290,7 +1177,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9213
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -303,10 +1190,10 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 62.9805,
-      "volume_mean_daily": 0.5886,
-      "volume_peak": 1.6781,
-      "days_active": 107,
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
       "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
@@ -315,19 +1202,19 @@
       "tone_mean": null
     },
     "window_21d": {
-      "volume_total": 8.3393,
-      "volume_mean_daily": 0.6949,
-      "volume_peak": 1.0079,
-      "days_active": 12,
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
       "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
       "unique_domains_total": 0,
-      "tone_mean": null
+      "tone_mean": -2.949
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 4 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }
