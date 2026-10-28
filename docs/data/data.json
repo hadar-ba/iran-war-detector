@@ -1,16 +1,18 @@
 {
-  "updated_at": "2026-10-27T17:34:14.376299+00:00",
+  "updated_at": "2026-10-28T04:01:32.311369+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
-    "avg_7day": 53,
-    "delta_vs_avg": -7
+    "avg_7day": 52,
+    "delta_vs_avg": -6
   },
   "archive_comparison": {
-    "score": 60,
-    "status_he": "דמיון גבולי",
+    "score": 46,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -57,10 +59,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-10-13T18:58:23.502187+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-10-14T03:35:03.544122+00:00",
         "score": 56
@@ -112,13 +110,13 @@
       {
         "ts": "2026-10-27T17:34:14.373328+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-28T04:01:32.309870+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-08-11T13:06:09.454202+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-08-13T01:52:01.037312+00:00",
         "score": 62
@@ -354,55 +352,43 @@
       {
         "ts": "2026-10-27T17:34:14.373328+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-28T04:01:32.309870+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
+        "label": "טרום פבר' 2026",
+        "score": 46,
+        "is_pre_conflict": true
+      },
+      {
         "label": "שקט ינו' 2026",
-        "score": 73,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
         "label": "אחרי פבר' 2026",
-        "score": 61,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
-        "label": "טרום פבר' 2026",
-        "score": 60,
-        "is_pre_conflict": true
-      },
-      {
         "label": "טרום אפר' 2024",
-        "score": 47,
+        "score": 21,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 28,
+        "score": 4,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "163.com",
-      "5.ua",
-      "7kanal.co.il",
-      "a1.ro",
-      "aa.com.tr",
-      "abc.net.au",
-      "adevarul.ro",
-      "agoravox.fr",
-      "al-monitor.com",
-      "algemeiner.com",
-      "Al Jazeera",
-      "alquds.co.uk",
-      "ammonnews.net",
-      "anlatilaninotesi.com.tr",
-      "aol.co.uk"
-    ],
-    "total_count": 176,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
