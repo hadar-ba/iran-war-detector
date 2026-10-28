@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-28T04:01:32.311369+00:00",
+  "updated_at": "2026-10-28T18:00:29.710622+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 52,
-    "delta_vs_avg": -6
+    "score": 62,
+    "status_he": "מתוח",
+    "avg_7day": 53,
+    "delta_vs_avg": 9
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-10-14T03:35:03.544122+00:00",
-        "score": 56
-      },
-      {
         "ts": "2026-10-14T16:37:32.077704+00:00",
         "score": 52
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-10-28T04:01:32.309870+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-28T18:00:29.706902+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-08-13T01:52:01.037312+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-08-13T13:11:11.166583+00:00",
         "score": 62
@@ -356,14 +352,13 @@
       {
         "ts": "2026-10-28T04:01:32.309870+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-28T18:00:29.706902+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
-      {
-        "label": "טרום פבר' 2026",
-        "score": 46,
-        "is_pre_conflict": true
-      },
       {
         "label": "שקט ינו' 2026",
         "score": 46,
@@ -373,6 +368,11 @@
         "label": "אחרי פבר' 2026",
         "score": 46,
         "is_pre_conflict": false
+      },
+      {
+        "label": "טרום פבר' 2026",
+        "score": 46,
+        "is_pre_conflict": true
       },
       {
         "label": "טרום אפר' 2024",
@@ -387,8 +387,24 @@
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
-    "articles_72h": null
+    "list": [
+      "1019bigwaax.iheart.com",
+      "1190kex.iheart.com",
+      "1360kktx.iheart.com",
+      "163.com",
+      "1in.am",
+      "24sata.hr",
+      "24tv.ua",
+      "2news.com",
+      "570wkbn.iheart.com",
+      "590kqnt.iheart.com",
+      "600kcol.iheart.com",
+      "600wmtradio.iheart.com",
+      "650keni.iheart.com",
+      "700wlw.iheart.com",
+      "790waeb.iheart.com"
+    ],
+    "total_count": 267,
+    "articles_72h": 250
   }
 }

@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-10-28T04:01:32.309870+00:00",
-  "status": "green",
-  "headline_score_7day": 46,
+  "timestamp_utc": "2026-10-28T18:00:29.706902+00:00",
+  "status": "yellow",
+  "headline_score_7day": 62,
   "headline_score_21day": 46,
-  "score_jump": 0,
+  "score_jump": 16,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
-  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to the period before Operation Lion's Roar (February 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (62%).",
+  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (62%).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (62% similarity). The 7-day reading is 17 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to a relatively quiet period (January 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (62% דמיון). הקריאה ל-7 ימים גבוהה ב-17 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון לתקופה יחסית שקטה (ינואר 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -57,8 +57,715 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.vetogate.com/5755519",
+        "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F/1234359-0/",
+        "https://www.foxnews.com/politics/iran-trying-create-rot-within-information-warfare-analyst-warns"
+      ],
+      "articles": [
+        {
+          "url": "https://www.vetogate.com/5755519",
+          "title": "نتنياهو يصعد للحرب وترامب يتجنبها ، خبير ناتو يكشف خطة ضرب إسرائيل وأمريكا لإيران",
+          "domain": "vetogate.com",
+          "seendate": "20261022T144500Z"
+        },
+        {
+          "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F/1234359-0/",
+          "title": "דיווח דרמטי : ישראל וארה  ב מתכננות תקיפה משותפת באיראן - בתאריך הזה",
+          "domain": "kipa.co.il",
+          "seendate": "20261022T063000Z"
+        },
+        {
+          "url": "https://www.foxnews.com/politics/iran-trying-create-rot-within-information-warfare-analyst-warns",
+          "title": "Iran wages information warfare on social media against US , advisor says",
+          "domain": "foxnews.com",
+          "seendate": "20261021T184500Z"
+        },
+        {
+          "url": "https://www.chunichi.co.jp:443/article/1328908",
+          "title": "イラン再攻撃へ計画を策定 米国とイスラエル 、 中間選挙後 ： 中日新聞Web",
+          "domain": "chunichi.co.jp",
+          "seendate": "20261022T140000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610243907054573.html",
+          "title": "美股集体收跌 ， 中国资产走低 ！ 国际油价涨近4 %， 黄金跌破4000美元 ！ 特朗普 ： 可能对伊发动小规模  史诗怒火  行动 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261024T051500Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/opinions/2026/10/24/%D9%83%D9%8A%D9%81-%D9%86%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9",
+          "title": "كيف نوقف الحرب الإسرائيلية الأمريكية على إيران ؟ | سياسة",
+          "domain": "aljazeera.net",
+          "seendate": "20261024T180000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L9RR2VOR051492T3.html",
+          "title": "数十架以战斗机飞越叙利亚伊拉克领空 ， 接近伊朗边境 以军情局前官员 ： 极度疯狂危险",
+          "domain": "163.com",
+          "seendate": "20261022T091500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906478/something-is-coming-within-72-hours-the-us-sent-final-message-evacuating-all-bases-israel-kill-iran-s-leadership%20title=",
+          "title": "Something is coming within 72 hours , the US sent final message , evacuating all bases Israel : Kill Iran leadership",
+          "domain": "bankingnews.gr",
+          "seendate": "20261022T070000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906478/something-is-coming-within-72-hours-the-us-sent-final-message-evacuating-all-bases-israel-kill-iran-s-leadership",
+          "title": "Something is coming within 72 hours , the US sent final message , evacuating all bases Israel : Kill Iran leadership",
+          "domain": "bankingnews.gr",
+          "seendate": "20261022T070000Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3784448",
+          "title": "为何原油供应增加 ， 油价缺降不下来 ？ - 华尔街见闻",
+          "domain": "wallstreetcn.com",
+          "seendate": "20261026T050000Z"
+        },
+        {
+          "url": "https://hotair.com/ed-morrissey/2026/10/22/wsj-irgc-officially-hits-zero-n3820208",
+          "title": "Crisis Point : IRGC Officially Hits Zero As Hormuz Shipments Peak",
+          "domain": "hotair.com",
+          "seendate": "20261022T211500Z"
+        },
+        {
+          "url": "https://www.globes.co.il/news/article.aspx?did=1001560410",
+          "title": "טראמפ : ארה  ב אינה מנהלת משא - ומתן עם איראן",
+          "domain": "globes.co.il",
+          "seendate": "20261022T063000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879882320144397434",
+          "title": "视频丨以色列大选冲刺 一场撕裂国家的  期末大考  ",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261024T024500Z"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/22/iran-threatens-seven-gulf-countries-us-israel-renew-attacks",
+          "title": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks",
+          "domain": "theguardian.com",
+          "seendate": "20261022T160000Z"
+        },
+        {
+          "url": "https://www.aol.co.uk/articles/iran-threatens-oil-ai-facilities-150300000.html",
+          "title": "Iran threatens oil and AI facilities across seven Gulf countries if US and Israel renew attacks",
+          "domain": "aol.co.uk",
+          "seendate": "20261022T153000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LA1G7L0H0514R9P4.html",
+          "title": "八国外长  史无前例  齐聚土耳其 ， 反对对伊朗采取军事行动|法国|以色列",
+          "domain": "163.com",
+          "seendate": "20261024T144500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LA3UD1OE055694BW.html",
+          "title": "没什么求和 泽连斯基只能背锅",
+          "domain": "163.com",
+          "seendate": "20261025T110000Z"
+        },
+        {
+          "url": "https://www.dsnews.ua/ukr/blog/tramp-putin-si-chomu-sibiga-maye-vijihati-z-kiyeva-24102026-470372",
+          "title": "Трамп , Путін , Сі . Чому Сибіга має виїхати з Києва DSnews . ua",
+          "domain": "dsnews.ua",
+          "seendate": "20261024T071500Z"
+        },
+        {
+          "url": "https://tsn.ua/svit/putin-mriiav-pro-tse-rokamy-iak-tramp-moze-dopomohty-zminyty-svitovyy-poriadok-3199019.html",
+          "title": "Трамп , Путін і Сі Цзіньпін можуть поділити світ на трьох : чим небезпечний новий саміт Світ",
+          "domain": "tsn.ua",
+          "seendate": "20261025T093000Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202610241838147461",
+          "title": "전쟁 · 관세 청구서 받아든 유권자 ... 트럼프 외교 심판대 올라 [ 11 · 3 중간선거 … 미국의 선택은 ]( 3 ) ",
+          "domain": "fnnews.com",
+          "seendate": "20261027T051500Z"
+        },
+        {
+          "url": "https://inosmi.ru/20261024/ukraina-280801863.html",
+          "title": "Войны , восстания и новая  Ялта  ( Hürriyet , Турция ) ",
+          "domain": "inosmi.ru",
+          "seendate": "20261024T123000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879880682472598844",
+          "title": "视频丨局势僵持 伊朗要求邻国停止对美支持 美国称考虑另一次军事打击",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261023T230000Z"
+        },
+        {
+          "url": "https://www.cqnews.net/web/content_1563454541928796160.html",
+          "title": "局势僵持 伊朗要求邻国停止对美支持 美国称考虑另一次军事打击",
+          "domain": "cqnews.net",
+          "seendate": "20261024T000000Z"
+        },
+        {
+          "url": "https://english.elpais.com/science-tech/2026-10-23/melissa-parke-ican-executive-director-the-risk-of-nuclear-war-has-never-been-higher-than-it-is-today.html",
+          "title": "Melissa Parke , ICAN executive director :  The risk of nuclear war has never been higher than it is today  | Science",
+          "domain": "english.elpais.com",
+          "seendate": "20261024T023000Z"
+        },
+        {
+          "url": "https://www.in.gr/2026/10/24/world/o-tramp-gyrizei-to-geopolitiko-roloi-ton-ipa-sti-dekaetia-tou-1940/",
+          "title": "Ο Τραμπ γυρίζει το γεωπολιτικό ρολόι των ΗΠΑ στη δεκαετία του 1940",
+          "domain": "in.gr",
+          "seendate": "20261024T154500Z"
+        },
+        {
+          "url": "https://www.foxbusiness.com/politics/larry-kudlow-end-near-iran",
+          "title": "LARRY KUDLOW : The end is near for Iran",
+          "domain": "foxbusiness.com",
+          "seendate": "20261022T224500Z"
+        },
+        {
+          "url": "https://www.kikar.co.il/kikarfm/jeff-ballabon-trump-advisor-israel",
+          "title": "ג  ף בלבון , יועץ טראמפ : כך שינינו את גורל ירושלים",
+          "domain": "kikar.co.il",
+          "seendate": "20261021T203000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879931583353166140",
+          "title": "八国外长  史无前例  齐聚土耳其 ， 反对对伊朗采取军事行动",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261024T151500Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/ap-news-in-brief-at-6-04-a-m-edt/article_2288b0b0-f3a4-5dd4-939e-f4e035d840b3.html",
+          "title": "AP News in Brief at 6 : 04 a . m . EDT",
+          "domain": "idahostatejournal.com",
+          "seendate": "20261024T131500Z"
+        },
+        {
+          "url": "https://ria.ru/20261022/usa-2126082294.html",
+          "title": "Новая стратегия США :  Мы хотим остаться , но не контролировать  ",
+          "domain": "ria.ru",
+          "seendate": "20261022T063000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LA3C2TN40514R9P4.html",
+          "title": "收到  伊朗策划袭击  情报后 ： 美国对中东13国更新旅行警告 ， 多国使馆限制运行|沙特|也门",
+          "domain": "163.com",
+          "seendate": "20261025T110000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610253907158110.html",
+          "title": "美以伊局势 ： 特朗普放话美国若愿意能拿下整个伊朗 ； 伊朗警告若伊遭攻击 ， 将不再有任何红线 ； 美国削减驻中东使馆人员 ； 也门遭猛烈空袭 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261025T053000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879940543587914018",
+          "title": "英国 、 法国 、 德国 、 意大利等八国 ， 集体警告",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261024T161500Z"
+        },
+        {
+          "url": "https://www.gzstv.com/a/2df19595b19d428a8aff01326214cf7d",
+          "title": "特朗普扬言或再袭伊朗 内塔尼亚胡面临选举  生死战  中东局势一文速览",
+          "domain": "gzstv.com",
+          "seendate": "20261027T051500Z"
+        },
+        {
+          "url": "https://finance.ifeng.com/c/8xTbESnIxVd",
+          "title": "美股半导体板块反弹 ； 油价拉升 、 金价走低",
+          "domain": "finance.ifeng.com",
+          "seendate": "20261024T023000Z"
+        },
+        {
+          "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/.premium/000001a1-79d8-dfb9-a5a9-fbfd1c700000",
+          "title": "פרשנות | נתניהו לא החמיץ הזדמנות להחמיץ הזדמנות , וצירף את ישראל לליגת המצורעות - בחירות 2026",
+          "domain": "haaretz.co.il",
+          "seendate": "20261027T051500Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5757178",
+          "title": "خيوط متشابكة : تفاهم شامل أم تخادم وظيفي ؟ ",
+          "domain": "vetogate.com",
+          "seendate": "20261025T094500Z"
+        },
+        {
+          "url": "https://www.reporter.gr/diethnh/diethneis-eidhseis/689092-poytin-anoixto-to-endexomeno-epanenarksis-ton-trimeron-synomilion-gia-to-oukraniko",
+          "title": "Πούτιν : Ανοιχτό το ενδεχόμενο επανέναρξης των τριμερών συνομιλιών για το Ουκρανικό",
+          "domain": "reporter.gr",
+          "seendate": "20261021T213000Z"
+        },
+        {
+          "url": "https://www.24sata.hr/news/trumpova-vanjska-politika-kosta-birace-ugrozavajuci-republikance-pred-izbore-1163410",
+          "title": "Trumpova vanjska politika košta birače ugrožavajući republikance pred izbore",
+          "domain": "24sata.hr",
+          "seendate": "20261024T083000Z"
+        },
+        {
+          "url": "https://dunyanews.tv/en/World/978986-putin-agrees-to-resume-usmediated-peace-talks-with-ukraine-next-month",
+          "title": "Putin agrees to resume US - mediated peace talks with Ukraine next month",
+          "domain": "dunyanews.tv",
+          "seendate": "20261022T034500Z"
+        },
+        {
+          "url": "https://bdnews24.com/world/europe/mxlv299i5p",
+          "title": "Putin agrees to resume 3 - way peace talks with Ukraine and US",
+          "domain": "bdnews24.com",
+          "seendate": "20261022T033000Z"
+        },
+        {
+          "url": "https://www.koreaherald.com/article/10911381",
+          "title": "Putin agrees to resume 3 - way peace talks with Ukraine and US",
+          "domain": "koreaherald.com",
+          "seendate": "20261022T051500Z"
+        },
+        {
+          "url": "https://www.staradvertiser.com/2026/10/21/breaking-news/putin-agrees-to-resume-3-way-peace-talks-with-ukraine-and-u-s/",
+          "title": "Putin agrees to resume 3 - way peace talks with Ukraine and U . S . ",
+          "domain": "staradvertiser.com",
+          "seendate": "20261021T194500Z"
+        },
+        {
+          "url": "https://www.washingtoninstitute.org/policy-analysis/technology-war-and-limits-innovation-power-middle-east",
+          "title": "Technology , War , and the Limits of Innovation Power in the Middle East",
+          "domain": "washingtoninstitute.org",
+          "seendate": "20261022T003000Z"
+        },
+        {
+          "url": "https://metrohk.com.hk/%E5%9C%8B%E9%9A%9B/%E7%BE%8E%E6%94%BF%E5%BA%9C%E5%B1%A2%E8%A6%81%E6%B1%82%E9%A6%AC%E6%96%AF%E5%85%8B%E6%93%8D%E6%8E%A7%E6%98%9F%E9%8F%88%E6%9C%8D%E5%8B%99-7335f3",
+          "title": "美政府屢要求馬斯克操控星鏈服務｜METROHK . com . hk",
+          "domain": "metrohk.com.hk",
+          "seendate": "20261024T064500Z"
+        },
+        {
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/22/in-us-china-rivalry-middle-powers-urged-to-be-indispensable-chokepoints",
+          "title": "In US - China rivalry , middle powers urged to be  indispensable  chokepoints",
+          "domain": "thestar.com.my",
+          "seendate": "20261022T064500Z"
+        },
+        {
+          "url": "http://forex.cnfol.com/jingjiyaowen/20261022/32404648.shtml",
+          "title": "10月22日财经早餐 ： 金价静候美联储会议 ， 权衡俄乌谈判与库存下降影响 ， 美油100关口反复拉锯 _ 汇市观察 _ 外汇 _ 中金在线",
+          "domain": "forex.cnfol.com",
+          "seendate": "20261022T030000Z"
+        },
+        {
+          "url": "https://news.qq.com/rain/a/20261024A0C6PG00",
+          "title": "继中俄后 ， 美国也要收紧氦气出口 ， 欧洲慌了 _ 腾讯新闻",
+          "domain": "news.qq.com",
+          "seendate": "20261024T150000Z"
+        },
+        {
+          "url": "http://www.zerohedge.com/markets/french-assets-focus-key-weekend-geopol-attention-trumps-commentary-re-iran-newsquawk-eu",
+          "title": "French assets in focus into a key weekend , geopol attention on Trump commentary re . Iran - Newsquawk EU Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20261023T100000Z"
+        },
+        {
+          "url": "https://thenewamerican.com/features/report-renewed-strikes-on-iran-after-midterms/",
+          "title": "Report : Renewed Strikes on Iran After Midterms",
+          "domain": "thenewamerican.com",
+          "seendate": "20261023T001500Z"
+        },
+        {
+          "url": "https://www.morningstar.com/news/dow-jones/2026102271/emea-morning-briefing-worries-over-middle-east-tensions-resurface",
+          "title": "EMEA Morning Briefing : Worries Over Middle East Tensions Resurface",
+          "domain": "morningstar.com",
+          "seendate": "20261022T044500Z"
+        },
+        {
+          "url": "https://www.algemeiner.com/2026/10/21/putin-agrees-resume-3-way-peace-talks-ukraine-us/",
+          "title": "Putin Agrees to Resume 3 - Way Peace Talks With Ukraine and US",
+          "domain": "algemeiner.com",
+          "seendate": "20261021T200000Z"
+        },
+        {
+          "url": "https://www.lifo.gr/now/world/koryfaios-symboylos-toy-poytin-i-sygkroysi-stin-oykrania-plisiazei-sto-telos-tis",
+          "title": "Κορυφαίος σύμβουλος του Πούτιν : « Η σύγκρουση στην Ουκρανία πλησιάζει στο τέλος της » ",
+          "domain": "lifo.gr",
+          "seendate": "20261021T190000Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20261025-could-hormuz-become-americas-suez/",
+          "title": "Could Hormuz become America Suez ? – Middle East Monitor",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20261025T124500Z"
+        },
+        {
+          "url": "http://news.cnfol.com/zhengquanyaowen/20261024/32407122.shtml",
+          "title": "全球市场 ： 美股三大指数收跌 道指跌超1 % 国际油价涨近4 %_ 证券要闻 _ 财经 _ 中金在线",
+          "domain": "news.cnfol.com",
+          "seendate": "20261024T083000Z"
+        },
+        {
+          "url": "https://www.eurointegration.com.ua/news/2026/10/22/7248382/",
+          "title": "США готують нову війну , мітинги за аборти в Польщі , Франція обмежить протести : новини дня",
+          "domain": "eurointegration.com.ua",
+          "seendate": "20261023T011500Z"
+        },
+        {
+          "url": "https://www.gatestoneinstitute.org/22939/putin-peace-talks",
+          "title": "Putin Peace Talks : Half a Country Now , the Rest Later , The Art of Running Out the Clock",
+          "domain": "gatestoneinstitute.org",
+          "seendate": "20261025T094500Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/21/what-happened-during-witkoff-and-kushners-latest-meeting-with-putin",
+          "title": "What happened during Witkoff and Kushner latest meeting with Putin | Vladimir Putin News",
+          "domain": "aljazeera.com",
+          "seendate": "20261022T040000Z"
+        },
+        {
+          "url": "https://www.opednews.com/populum/page.php?f=Trump-Wanted-Bagram-to-Con-Allies_China-New-Silk-Roads_Economic_Infrastructure-261023-126.html",
+          "title": "Article : Trump Wanted Bagram to Contain China Did His Iran War Hand Beijing the Persian Gulf ? ",
+          "domain": "opednews.com",
+          "seendate": "20261023T083000Z"
+        },
+        {
+          "url": "https://www.americanthinker.com/articles/2026/10/another-october-surprise/",
+          "title": "Another October Surprise ? ",
+          "domain": "americanthinker.com",
+          "seendate": "20261024T101500Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=22102026&id=0b7d99a0-15bf-406b-a34b-dfba82d70a85",
+          "title": "خبير سياسي أمريكي : هكذا يستطيع ترامب تكثيف الضغوط على إيران",
+          "domain": "shorouknews.com",
+          "seendate": "20261022T070000Z"
+        },
+        {
+          "url": "https://blog.wenxuecity.com/myblog/81044/202610/16773.html",
+          "title": " 《 总体熵战 》 朝鲜与普京 东北亚与北方的  伪装反美  棋局 （ 修改稿 ） - 博客",
+          "domain": "blog.wenxuecity.com",
+          "seendate": "20261024T064500Z"
+        },
+        {
+          "url": "https://niacouncil.org/iran-draws-nuclear-red-lines-as-russian-and-pakistani-diplomacy-confronts-renewed-threats-of-war/",
+          "title": "Iran Draws Nuclear Red Lines as Russian and Pakistani Diplomacy Confronts Renewed Threats of War – NIAC",
+          "domain": "niacouncil.org",
+          "seendate": "20261022T040000Z"
+        },
+        {
+          "url": "http://www.zerohedge.com/markets/crude-benchmarks-firmer-amidst-ongoing-tensions-middle-east-eur-digests-poor-pmi-metrics",
+          "title": "Crude benchmarks firmer amidst ongoing tensions in the Middle East ; EUR digests poor PMI metrics - Newsquawk US Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20261023T143000Z"
+        },
+        {
+          "url": "https://mg.co.za/thought-leader/2026-10-22-oil-crisis-global-short/",
+          "title": "Oil crisis global short | Mail & Guardian",
+          "domain": "mg.co.za",
+          "seendate": "20261022T231500Z"
+        },
+        {
+          "url": "https://www.efsyn.gr/stiles/1495812/i-diavolovdomada-kai-i-nea-vomva-toy-time/",
+          "title": "Η διαβολοβδομάδα και η νέα « βόμβα » του Time",
+          "domain": "efsyn.gr",
+          "seendate": "20261025T180000Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/10/21/will-russias-diesel-shipment-to-the-us-lower-prices-before-midterms",
+          "title": "Will Russia diesel shipment to the US lower prices before midterms ? | Business and Economy News",
+          "domain": "aljazeera.com",
+          "seendate": "20261021T230000Z"
+        },
+        {
+          "url": "https://www.theepochtimes.com/opinion/russian-sanctions-continue-to-help-iran-and-the-houthis-6108037",
+          "title": "Russian Sanctions Continue to Help Iran and the Houthis",
+          "domain": "theepochtimes.com",
+          "seendate": "20261024T121500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610243906835344.html",
+          "title": "全球市场 ： 美股三大指数收跌 道指跌超1 % 国际油价涨近4 % _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261023T233000Z"
+        },
+        {
+          "url": "https://www.fairobserver.com/united-states/donald-trumps-diesel-deal-shows-how-western-leaders-are-losing-control/",
+          "title": "Donald Trump Diesel Deal Shows How Western Leaders Are Losing Control",
+          "domain": "fairobserver.com",
+          "seendate": "20261022T153000Z"
+        },
+        {
+          "url": "https://wiky.com/2026/10/24/analysis-trump-foreign-policy-hits-voters-in-the-pocketbook-imperiling-republicans-in-midterms/",
+          "title": "Analysis - Trump foreign policy hits voters in the pocketbook , imperiling Republicans in midterms",
+          "domain": "wiky.com",
+          "seendate": "20261024T064500Z"
+        },
+        {
+          "url": "https://wtvbam.com/2026/10/24/analysis-trump-foreign-policy-hits-voters-in-the-pocketbook-imperiling-republicans-in-midterms/",
+          "title": "Analysis - Trump foreign policy hits voters in the pocketbook , imperiling Republicans in midterms",
+          "domain": "wtvbam.com",
+          "seendate": "20261024T053000Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279390186/qatar-says-us-iran-talks-continue-as-tehran-prepares-for-fourth-war",
+          "title": "Qatar says US - Iran talks continue as Tehran prepares for  fourth war  ",
+          "domain": "iranherald.com",
+          "seendate": "20261021T211500Z"
+        },
+        {
+          "url": "http://www.zerohedge.com/markets/us-stocks-gained-nasdaq-outperforming-meta-and-tsla-firmer-post-earnings-newsquawk-daily",
+          "title": "US stocks gained with the Nasdaq outperforming ; META and TSLA firmer post - earnings - Newsquawk Daily Asia - Pac Market Open",
+          "domain": "zerohedge.com",
+          "seendate": "20261021T231500Z"
+        },
+        {
+          "url": "http://www.hngnews.com/nation_world/ap-news-in-brief-at-6-04-a-m-edt/article_308ba634-be48-5901-8c6f-96aba5e25c1c.html",
+          "title": "AP News in Brief at 6 : 04 a . m . EDT",
+          "domain": "hngnews.com",
+          "seendate": "20261024T113000Z"
+        },
+        {
+          "url": "https://24tv.ua/tramp-mozhe-sprobuvati-shiliti-ukrayinu-do-umov-rosiyi-shho-zavazhaye_n3165121",
+          "title": "Трамп може спробувати схилити Україну до умов Росії - що заважає планам Вашингтона",
+          "domain": "24tv.ua",
+          "seendate": "20261022T063000Z"
+        },
+        {
+          "url": "https://www.in.gr/2026/10/22/world/o-poutin-symfonise-na-epanekkinisoun-oi-trimereis-synomilies-me-oukrania-kai-ipa-ti-elpizei-o-zelenski/",
+          "title": "Ο Πούτιν συμφώνησε να επανεκκινήσουν οι τριμερείς συνομιλίες με Ουκρανία και ΗΠΑ - Τι ελπίζει ο Ζελένσκι",
+          "domain": "in.gr",
+          "seendate": "20261022T053000Z"
+        },
+        {
+          "url": "https://www.hkcna.hk/hk/content/s6ad970f7e4b0e4e6f3d6381d.html",
+          "title": "屠海鳴 ： 三方峰會局未定 同框可期載史冊",
+          "domain": "hkcna.hk",
+          "seendate": "20261022T070000Z"
+        },
+        {
+          "url": "https://yalibnan.com/2026/10/23/iran-war-updatestrump-accuses-iran-of-lying-about-strikes-on-ships-to-drive-up-oil-prices-before-midterm/",
+          "title": "Iran War Updates : Trump accuses Iran of lying about strikes on ships to drive up oil prices before midterm – Ya Libnan",
+          "domain": "yalibnan.com",
+          "seendate": "20261023T050000Z"
+        },
+        {
+          "url": "http://www.hngnews.com/nation_world/ap-news-summary-at-6-52-a-m-edt/article_4377b7f8-afbb-5ad9-8bfd-2fb82c3d6e21.html",
+          "title": "AP News Summary at 6 : 52 a . m . EDT",
+          "domain": "hngnews.com",
+          "seendate": "20261024T113000Z"
+        },
+        {
+          "url": "https://www.kmuw.org/2026-10-21/control-of-the-senate-goes-through-kansas-marshall-and-hamilton-clash-at-last-debate",
+          "title": "  Control of the Senate goes through Kansa : Marshall and Hamilton clash at last debate",
+          "domain": "kmuw.org",
+          "seendate": "20261022T034500Z"
+        },
+        {
+          "url": "https://kansaspublicradio.org/2026-10-21/control-of-the-senate-goes-through-kansas-marshall-and-hamilton-clash-at-last-debate",
+          "title": "  Control of the Senate goes through Kansa : Marshall and Hamilton clash at last debate",
+          "domain": "kansaspublicradio.org",
+          "seendate": "20261022T060000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610223904492980.html",
+          "title": "东方财富期货早餐 10月23日 周五 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261023T001500Z"
+        },
+        {
+          "url": "https://www.qchron.com/editions/north/suozzi-lipetri-square-off-again-in-district-3/article_9ca70db8-4e6e-5393-8217-5d304525701d.html",
+          "title": "Suozzi , LiPetri square off again in District 3",
+          "domain": "qchron.com",
+          "seendate": "20261022T190000Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/yemen-bab-al-mandab-and-saudi-arabia-tehrans-strategic-calculus",
+          "title": "Yemen , Bab al - Mandab and Saudi Arabia : Tehran strategic calculus in the balance",
+          "domain": "middleeasteye.net",
+          "seendate": "20261023T120000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L9RAR25N0519IGF7.html",
+          "title": "赵建 ： 战争为何迟迟结束不了 ？ ",
+          "domain": "163.com",
+          "seendate": "20261022T024500Z"
+        },
+        {
+          "url": "https://fortune.com/2026/10/22/elon-musk-spacex-tesla-merger-math-doesnt-add-up/",
+          "title": "Elon Musk SpaceX - Tesla merger math doesnt add up",
+          "domain": "fortune.com",
+          "seendate": "20261022T111500Z"
+        },
+        {
+          "url": "https://www.money.pl/biznes/bedzie-wielki-zwrot-inwestor-prognozuje-bolesna-zapasc-sektora-ai-7343015974778976a.html",
+          "title": "Nadchodzi wielki krach ? Inwestor prognozuje bolesną zapaść sektora AI",
+          "domain": "money.pl",
+          "seendate": "20261023T071500Z"
+        },
+        {
+          "url": "https://www.nile.eg/%D8%A7%D9%84%D8%BA%D8%AF-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86-%D8%AC%D9%88%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D9%84%D9%86",
+          "title": "قناة النيل للأخبار |  الغد  الأردنية :  الأردن جوهرة الشرق : لن تخدش بشاعة الجريمة مناعة مجتمعه  ",
+          "domain": "nile.eg",
+          "seendate": "20261024T103000Z"
+        },
+        {
+          "url": "http://www.cfi.net.cn/p20261024000010.html",
+          "title": "美国将氦列为关键材料 ， 半导体制造是重要考量 ， 全球供应中断风险上升 - CFi . CN 中财网",
+          "domain": "cfi.net.cn",
+          "seendate": "20261024T003000Z"
+        },
+        {
+          "url": "https://countercurrents.org/2026/10/trump-and-netanyahus-dangerous-war-against-iran-how-their-decisions-could-push-the-world-towards-an-economic-disaster/",
+          "title": "Trump and Netanyahu Dangerous War against Iran : How Their Decisions Could Push the World towards an Economic Disaster",
+          "domain": "countercurrents.org",
+          "seendate": "20261023T071500Z"
+        },
+        {
+          "url": "https://krdo.com/news/national-world/cnn-national/2026/10/21/2026-in-review-fast-facts/",
+          "title": "2026 In Review Fast Facts",
+          "domain": "krdo.com",
+          "seendate": "20261022T020000Z"
+        },
+        {
+          "url": "https://www.westhawaiitoday.com/2026/10/22/nation-world-news/putin-agrees-to-resume-3-way-peace-talks-with-ukraine-and-us/",
+          "title": "Putin agrees to resume 3 - way peace talks with Ukraine and US",
+          "domain": "westhawaiitoday.com",
+          "seendate": "20261022T111500Z"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/Hossa-AI-bez-precedensu-Nadchodzi-bolesne-rozliczenie-inwestorow-9217102.html",
+          "title": "Hossa AI bez precedensu . Nadchodzi bolesne rozliczenie inwestorów ? ",
+          "domain": "bankier.pl",
+          "seendate": "20261023T084500Z"
+        },
+        {
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69912960-nasdaq-pulls-back-sharply-as-ai-concerns-resurface-020.htm",
+          "title": "Nasdaq Pulls Back Sharply As AI Concerns Resurface",
+          "domain": "finanznachrichten.de",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://www.scoop.co.nz/stories/HL2610/S00054/on-the-quiet-death-of-our-independent-foreign-policy.htm",
+          "title": "On The Quiet Death Of Our Independent Foreign Policy",
+          "domain": "scoop.co.nz",
+          "seendate": "20261022T024500Z"
+        },
+        {
+          "url": "http://mp.cnfol.com/32038/article/1792584409-142769744",
+          "title": "孔明直播 ：《 10月22热点信息+个股公告 》_ 中金在线财经号",
+          "domain": "mp.cnfol.com",
+          "seendate": "20261022T024500Z"
+        },
+        {
+          "url": "https://kesq.com/news/national-world/cnn-national/2026/10/21/2026-in-review-fast-facts/",
+          "title": "2026 In Review Fast Facts",
+          "domain": "kesq.com",
+          "seendate": "20261021T194500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610213902956364.html",
+          "title": "东方财富期货早餐 10月22日 周四 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261022T010000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/435002",
+          "title": "Religion of Chaos",
+          "domain": "israelnationalnews.com",
+          "seendate": "20261022T093000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610233904907631.html",
+          "title": "新华财经早报 ： 10月23日 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261023T010000Z"
+        },
+        {
+          "url": "https://www.nbr.co.nz/morning-brew/wall-street-slumps-as-metas-ai-spending-unnerves-investors/",
+          "title": "Wall Street slumps as Meta AI spending unnerves investors",
+          "domain": "nbr.co.nz",
+          "seendate": "20261022T231500Z"
+        },
+        {
+          "url": "https://www.thehindu.com/newsletter/the-evening-wrap/the-hindu-evening-wrap-october-22-2026/article71612776.ece",
+          "title": "The Hindu Evening wrap on October 22 , 2026",
+          "domain": "thehindu.com",
+          "seendate": "20261022T171500Z"
+        },
+        {
+          "url": "https://www.theepochtimes.com/article/-shut-out-of-us-market-chinese-automakers-flock-to-europe-6107918",
+          "title": "🎧 Shut Out of US Market , Chinese Automakers Flock to Europe",
+          "domain": "theepochtimes.com",
+          "seendate": "20261023T100000Z"
+        },
+        {
+          "url": "https://finance.jrj.com.cn/2026/10/23060058827464.shtml",
+          "title": "隔夜美股 | 科技股遭遇  黑色星期四  纳指暴跌2 . 6 % 比特币一度跌破8 . 1万美元关口 - 财经 - 金融界",
+          "domain": "finance.jrj.com.cn",
+          "seendate": "20261022T233000Z"
+        },
+        {
+          "url": "https://peakoil.com/production/dont-mistake-mideast-oil-rebound-for-normality-bousso",
+          "title": "Dont mistake Mideast oil rebound for normality : Bousso  | Peak Oil News and Message Boards",
+          "domain": "peakoil.com",
+          "seendate": "20261022T134500Z"
+        },
+        {
+          "url": "https://afr.net:443/podcasts/the-middle-east-report-with-john-riley/2026/october/usa-elections-and-the-islamic-invasion/",
+          "title": "USA Elections and the Islamic Invasion",
+          "domain": "afr.net",
+          "seendate": "20261023T031500Z"
+        },
+        {
+          "url": "https://www.dailykos.com/stories/2026/10/21/800115693/community/overnight-news-digest/",
+          "title": "Overnight News Digest : October 21 , 2026",
+          "domain": "dailykos.com",
+          "seendate": "20261022T044500Z"
+        },
+        {
+          "url": "https://afr.net/podcasts/sandy-rios-247/2026/october/trumps-new-world-re-order-with-rod-martin/",
+          "title": "Trump New World Re - Order with Rod Martin",
+          "domain": "afr.net",
+          "seendate": "20261023T031500Z"
+        },
+        {
+          "url": "https://www.northcountrypublicradio.org/news/npr/g-s720-85222/how-ny-gov-kathy-hochul-bruce-blakeman-would-tackle-rising-electric-heat-bills",
+          "title": "How NY Gov . Kathy Hochul , Bruce Blakeman would tackle rising electric , heat bills",
+          "domain": "northcountrypublicradio.org",
+          "seendate": "20261022T213000Z"
+        },
+        {
+          "url": "https://niacouncil.org/clashes-with-kurdish-and-baluch-armed-groups-how-iran-is-keeping-its-economy-running-amid-blockade-and-diplomacy-under-threat-of-war/",
+          "title": "Clashes with Kurdish and Baluch Armed Groups , How Iran is Keeping its Economy Running Amid Blockade and Diplomacy Under Threat of War – NIAC",
+          "domain": "niacouncil.org",
+          "seendate": "20261022T040000Z"
+        },
+        {
+          "url": "https://universitytimes.ie/2026/10/the-un-general-assembly-progress-or-pantomime/",
+          "title": "The UN General Assembly : Progress or Pantomime ? – The University Times",
+          "domain": "universitytimes.ie",
+          "seendate": "20261025T191500Z"
+        },
+        {
+          "url": "https://tvoemisto.tv/uk/stories/12418-ne-park-vam-potriben-a-pidval-portnykov-pro-zhyttya-u-viyni-yaka-ne-zakinchuyetsya-i-konflikt-z-polshcheyu",
+          "title": " « Не парк вам потрібен , а підвал !». Портников про життя у війні , яка не закінчується , і конфлікт з Польщею",
+          "domain": "tvoemisto.tv",
+          "seendate": "20261021T181500Z"
+        },
+        {
+          "url": "https://www.kathimerini.gr/columns/564542047/to-colpo-grosso-ton-25-ekat-o-kryfos-tziros-ton-200-ekat-o-koskotas-kai-mia-pitsa-to-big-bang-ton-20-ekat-to-kalathi-ton-timon-o-protathlitismos-tis-elladas-kai-i-ekplixi-ton-ioanninon/",
+          "title": "Το colpo grosso των 25 εκατ ., ο κρυφός τζίρος των 200 εκατ ., ο Κοσκωτάς και μια πίτσα , το big bang των 20 εκατ ., το « καλάθι » των τιμών , ο πρωταθλητισμός της Ελλάδας και η έκπληξη των Ιωαννίνων",
+          "domain": "kathimerini.gr",
+          "seendate": "20261023T063000Z"
+        },
+        {
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-stocks-slide-as-chip-rout-spreads/",
+          "title": "investingLive Asia - Pacific market news : Asian stocks slide as chip rout spreads",
+          "domain": "investinglive.com",
+          "seendate": "20261023T050000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610223904072435.html",
+          "title": "海外研选日报1022 | 高盛称英伟达GTC强化AI部署持续推进的判断 大摩预期柴油供应紧张料延续 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261022T081500Z"
+        },
+        {
+          "url": "https://www.rttnews.com/3702448/u-s-stocks-may-see-further-downside-following-yesterday-s-sell-off.aspx",
+          "title": "U . S . Stocks May See Further Downside Following Yesterday Sell - Off",
+          "domain": "rttnews.com",
+          "seendate": "20261023T143000Z"
+        }
+      ]
     },
     {
       "id": "military_strike",
@@ -73,45 +780,1528 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.winnipegfreepress.com/business/2026/10/24/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news",
+        "http://www.bozemandailychronicle.com/wire/business/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_33ee86d6-6af9-5a9b-bbbd-f16c93d4e0cc.html",
+        "https://www.dailygazette.com/hv360/ap/business/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_3d383694-1f98-5eb4-a394-ea4ff631fc67.html"
+      ],
+      "articles": [
+        {
+          "url": "https://www.winnipegfreepress.com/business/2026/10/24/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news – Winnipeg Free Press",
+          "domain": "winnipegfreepress.com",
+          "seendate": "20261024T081500Z"
+        },
+        {
+          "url": "http://www.bozemandailychronicle.com/wire/business/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_33ee86d6-6af9-5a9b-bbbd-f16c93d4e0cc.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "bozemandailychronicle.com",
+          "seendate": "20261024T090000Z"
+        },
+        {
+          "url": "https://www.dailygazette.com/hv360/ap/business/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_3d383694-1f98-5eb4-a394-ea4ff631fc67.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "dailygazette.com",
+          "seendate": "20261024T083000Z"
+        },
+        {
+          "url": "http://www.goskagit.com/news/ap_business/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_ba3182fc-309f-50cd-813f-a6c58db3b89a.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "goskagit.com",
+          "seendate": "20261024T083000Z"
+        },
+        {
+          "url": "https://www.clickorlando.com/news/world/2026/10/24/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "clickorlando.com",
+          "seendate": "20261024T083000Z"
+        },
+        {
+          "url": "http://www.idahostatejournal.com/news/national/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_95529f6a-be91-5c9b-b2ce-320f70138476.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "idahostatejournal.com",
+          "seendate": "20261024T084500Z"
+        },
+        {
+          "url": "https://www.wral.com/news/ap/707ad-israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "wral.com",
+          "seendate": "20261024T101500Z"
+        },
+        {
+          "url": "https://www.livemint.com/news/world/us-israel-plan-short-but-intensive-strikes-on-iran-after-mid-term-elections-will-trump-approve-11792637245066.html",
+          "title": "US , Israel plan  short but intensive  strikes on Iran after mid - term elections ; will Trump approve ? ",
+          "domain": "livemint.com",
+          "seendate": "20261022T033000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906478/something-is-coming-within-72-hours-the-us-sent-final-message-evacuating-all-bases-israel-kill-iran-s-leadership%20title=",
+          "title": "Something is coming within 72 hours , the US sent final message , evacuating all bases Israel : Kill Iran leadership",
+          "domain": "bankingnews.gr",
+          "seendate": "20261022T070000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906478/something-is-coming-within-72-hours-the-us-sent-final-message-evacuating-all-bases-israel-kill-iran-s-leadership",
+          "title": "Something is coming within 72 hours , the US sent final message , evacuating all bases Israel : Kill Iran leadership",
+          "domain": "bankingnews.gr",
+          "seendate": "20261022T070000Z"
+        },
+        {
+          "url": "https://investinglive.com/commodities/us-and-israel-plan-specific-renewed-iran-strikes-after-us-midterms-new-york-times-reports/",
+          "title": "US and Israel plan specific renewed Iran strikes after US midterms , New York Times reports",
+          "domain": "investinglive.com",
+          "seendate": "20261022T040000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/907047/psychological-terror-trump-i-will-attack-obama-intervenes-iran-new-proposal-is-a-lie-fiery-hell-in-the-persian-gulf-and-israel",
+          "title": "Psychological terror , Trump : I will attack , Obama intervenes - Iran : New proposal is a lie , fiery hell in the Persian Gulf and Israel",
+          "domain": "bankingnews.gr",
+          "seendate": "20261025T104500Z"
+        },
+        {
+          "url": "https://www.2news.com/news/national/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_006dfb03-a070-5ab1-a7d4-5bb4ea17288d.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "2news.com",
+          "seendate": "20261024T093000Z"
+        },
+        {
+          "url": "https://www.nvdaily.com/associated_press_national/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_41d6b684-ddcc-5bcd-86b8-cc5ab7b89639.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "nvdaily.com",
+          "seendate": "20261024T084500Z"
+        },
+        {
+          "url": "https://www.newspim.com/news/view/20261022001010",
+          "title": "  미 - 이스라엘 , 美선거 이후 이란 재공습 계획 구체화  ",
+          "domain": "newspim.com",
+          "seendate": "20261022T063000Z"
+        },
+        {
+          "url": "https://www.union-bulletin.com/news/national/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_faeb48c0-56ab-53b0-8805-55cce88ed610.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "union-bulletin.com",
+          "seendate": "20261024T090000Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5756573",
+          "title": "عادل العمدة يحذر : الحرب مع إيران قد تفتح الباب أمام مواجهة إقليمية طويلة",
+          "domain": "vetogate.com",
+          "seendate": "20261024T120000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906957/suspicious-f-35-incident-in-iran-as-trump-signals-a-new-epic-fury-operation-soon",
+          "title": "Suspicious F - 35 incident in Iran as Trump signals a new Epic Fury operation soon",
+          "domain": "bankingnews.gr",
+          "seendate": "20261024T113000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879709797822504177",
+          "title": "美国中期选举后美以或再袭伊朗 ， 目标包括能源基础设施 、 核设施 ； 以军数十架战机逼近伊边境 ， 美官员 ： 或试图诱使伊朗开火",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261022T014500Z"
+        },
+        {
+          "url": "https://www.pilotonline.com/2026/10/22/saudi-airport-strike-mideast-news/",
+          "title": "Death toll from strike on Saudi airport rises to 2 , other Mideast news",
+          "domain": "pilotonline.com",
+          "seendate": "20261022T160000Z"
+        },
+        {
+          "url": "http://www.jpost.com/middle-east/article-912470",
+          "title": "Hezbollah rebuilding military capabilities in Beirut , Lebanon",
+          "domain": "jpost.com",
+          "seendate": "20261021T221500Z"
+        },
+        {
+          "url": "https://www.thetimes-tribune.com/2026/10/22/saudi-airport-strike-mideast-news/",
+          "title": "Death toll from strike on Saudi airport rises to 2 , other Mideast news",
+          "domain": "thetimes-tribune.com",
+          "seendate": "20261022T143000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610223904333788.html",
+          "title": "美媒 ： 美以军方已制定美中期选举后打击伊朗的计划 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261022T121500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879709462631728397",
+          "title": "美媒爆料 ： 美以军方已为美国中期选举后再次打击伊朗制定具体计划",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261022T014500Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/hjx200hi2zx",
+          "title": "IDF kills two terrorists who funneled millions from Iran and Turkey to Hamas",
+          "domain": "ynetnews.com",
+          "seendate": "20261025T110000Z"
+        },
+        {
+          "url": "https://www.washingtoninstitute.org/policy-analysis/technology-war-and-limits-innovation-power-middle-east",
+          "title": "Technology , War , and the Limits of Innovation Power in the Middle East",
+          "domain": "washingtoninstitute.org",
+          "seendate": "20261022T003000Z"
+        },
+        {
+          "url": "https://www.businesstimes.com.sg/international/us-israel-plan-renewed-iran-strikes-after-midterm-elections-step-military-exercises-sources",
+          "title": "US , Israel plan renewed Iran strikes after midterms , sources say",
+          "domain": "businesstimes.com.sg",
+          "seendate": "20261022T020000Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5755449",
+          "title": "خبير استراتيجي يكشف سيناريوهات المواجهة بين أمريكا وإيران وتداعياتها على المنطقة ومصر",
+          "domain": "vetogate.com",
+          "seendate": "20261022T171500Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/iran-news/2026-10-21/live-updates-912356",
+          "title": "Live Updates : Latest from Israel , Iran , and the Middle East",
+          "domain": "jpost.com",
+          "seendate": "20261022T003000Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5755519",
+          "title": "نتنياهو يصعد للحرب وترامب يتجنبها ، خبير ناتو يكشف خطة ضرب إسرائيل وأمريكا لإيران",
+          "domain": "vetogate.com",
+          "seendate": "20261022T144500Z"
+        },
+        {
+          "url": "https://www.lykavitos.gr/news/planet/ipa-kai-israil-etoimazoun-nea-pligmata-sto-iran-meta-tis-endiameses-ekloges",
+          "title": "ΗΠΑ και Ισραήλ ετοιμάζουν νέα πλήγματα στο Ιράν μετά τις ενδιάμεσες εκλογές",
+          "domain": "lykavitos.gr",
+          "seendate": "20261022T091500Z"
+        },
+        {
+          "url": "https://cbn.com/news/israel/us-israel-strategize-against-iran-weapons-advances-pm-closes-west-bank-after-pre",
+          "title": "US , Israel Strategize against Iran Weapons Advances ; PM Closes West Bank after Pre - Election Terrorism",
+          "domain": "cbn.com",
+          "seendate": "20261023T110000Z"
+        },
+        {
+          "url": "https://www.hani.co.kr/arti/international/international_general/1283950.html",
+          "title": "트럼프  장대한 분노  작전 한번 더 … 이란  해저케이블 자를 것  ",
+          "domain": "hani.co.kr",
+          "seendate": "20261024T064500Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/10/24/escalation-israel-massive-raid-hebron-houthis-yemen-forces-war-rages-trum-iran-threats",
+          "title": "مباشر - تصعيد على أكثر من جبهة : إسرائيل توسّع عملياتها في الضفة .. وترامب يلوّح بـ  الغضب الملحمي  مجددًا",
+          "domain": "arabic.euronews.com",
+          "seendate": "20261024T071500Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/pakistan-ratifies-mecca-pact-saudi-arabia-faces-attacks-and-israel-holds-military-drills",
+          "title": "Pakistan ratifies Mecca pact as Saudi Arabia faces attacks and Israel holds military drills",
+          "domain": "middleeasteye.net",
+          "seendate": "20261024T113000Z"
+        },
+        {
+          "url": "https://military.china.com/news/13004177/20261023/49813515.html",
+          "title": "伊朗军方称未来将推出无人机 展示新型号威力倍增 _ 军事频道 _ 中华网",
+          "domain": "military.china.com",
+          "seendate": "20261023T060000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879721226128580902",
+          "title": "伊朗伊斯兰革命卫队发言人 ： 我们准备推出有史以来威力最大炸弹  炸弹之父  ",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261022T111500Z"
+        },
+        {
+          "url": "https://world.qianlong.com/2026/1023/8742263.shtml",
+          "title": "北美观察丨美以筹划新一轮对伊打击 谈判与战事谁先到来",
+          "domain": "world.qianlong.com",
+          "seendate": "20261023T044500Z"
+        },
+        {
+          "url": "https://www.hngn.com/articles/273564/20261021/us-israel-draft-post-midterm-iran-strike-plans-trump-has-not-signed-off.htm",
+          "title": "U . S . and Israel Draft Post - Midterm Iran Strike Plans ; Trump Has Not Signed Off",
+          "domain": "hngn.com",
+          "seendate": "20261022T040000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/rjbpkpdhml",
+          "title": "IDF denies Trump halted Iran strike , warns of dangerous miscalculation :  Attack was n",
+          "domain": "ynetnews.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://guba.eastmoney.com/o/news,cjpl,1785533882.html",
+          "title": "突然美国增兵 ！ 航母出动 ！ 消息称美以已制定新一轮对伊朗打击计划 _ 财经评论 ( cjpl ) 股吧 _ 东方财富网股吧",
+          "domain": "guba.eastmoney.com",
+          "seendate": "20261022T063000Z"
+        },
+        {
+          "url": "http://inews24.com/view/2018579",
+          "title": "트럼프  이란에 또  에픽 퓨리  할 수도  ⋯재공격 가능성 거론",
+          "domain": "inews24.com",
+          "seendate": "20261024T083000Z"
+        },
+        {
+          "url": "https://www.theyeshivaworld.com/news/israel-news/2613611/regional-alert-u-s-quietly-reduces-base-personnel-as-iran-threatens-american-targets.html",
+          "title": "REGIONAL ALERT : U . S . Quietly Reduces Base Personnel As Iran Threatens American Targets",
+          "domain": "theyeshivaworld.com",
+          "seendate": "20261022T224500Z"
+        },
+        {
+          "url": "https://www.businesstimes.com.sg/international/trump-says-us-may-do-another-military-operation-against-iran",
+          "title": "Trump says US may do another military operation against Iran",
+          "domain": "businesstimes.com.sg",
+          "seendate": "20261024T050000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LA3ITD2O053469LG.html",
+          "title": "外媒 ： 伊朗司法总监与最高领袖穆杰塔巴罕见会面 ， 谈及有效反腐及相关障碍 ， 讨论美以罪行造成的物质和精神损害赔偿问题",
+          "domain": "163.com",
+          "seendate": "20261025T110000Z"
+        },
+        {
+          "url": "https://www.mediafax.ro/externe/netanyahu-neaga-ca-trump-ar-fi-blocat-recent-un-atac-israelian-asupra-iranului-ce-dezvaluie-presa-britanica-23830071",
+          "title": "Netanyahu neagă că Trump ar fi blocat recent un atac israelian asupra Iranului . Ce dezvăluie presa britanică",
+          "domain": "mediafax.ro",
+          "seendate": "20261022T153000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879796694854701048",
+          "title": "高边疆之谋 · 80｜以色列组建太空部队 ， 为何敏感时间  剑指太空  ",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261023T021500Z"
+        },
+        {
+          "url": "https://www.ilgiornale.it/news/guerra/decine-di-caccia-israeliani-verso-liran-il-sospetto-usa-di-una-manovra-per-riaprire-la-guerra/",
+          "title": "Decine di caccia israeliani verso lIran : il sospetto united states di una manovra per riaprire la guerra – il Giornale",
+          "domain": "ilgiornale.it",
+          "seendate": "20261021T203000Z"
+        },
+        {
+          "url": "https://mymotherlode.com/news/world/11248019/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "mymotherlode.com",
+          "seendate": "20261024T131500Z"
+        },
+        {
+          "url": "http://www.hngnews.com/nation_world/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_626b0793-bbc2-54f6-9d4c-3bc5227a1720.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "hngnews.com",
+          "seendate": "20261024T113000Z"
+        },
+        {
+          "url": "https://kdhnews.com/news/nation/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_4b72642a-76eb-55ab-aa2c-85afbbe6ae22.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "kdhnews.com",
+          "seendate": "20261024T123000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8xVapC72F3N",
+          "title": "美方警告 ： 伊朗或袭击美国官员 ， 威胁涉及美本土和欧洲",
+          "domain": "news.ifeng.com",
+          "seendate": "20261025T053000Z"
+        },
+        {
+          "url": "https://www.businesstoday.in/world/story/west-asia-tensions-is-us-iran-heading-for-their-biggest-clash-what-we-know-563443-2026-10-24",
+          "title": "West Asia tensions : Is US Iran heading for their biggest clash ? What we know",
+          "domain": "businesstoday.in",
+          "seendate": "20261024T100000Z"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=04621526645615544&mediaCodeNo=257",
+          "title": "  美 · 이스라엘 , 중간선거 이후 이란 재공습 계획 수립  ",
+          "domain": "edaily.co.kr",
+          "seendate": "20261022T064500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879828083825407060",
+          "title": "以色列高调宣称  推翻伊朗政权 ， 美以被曝拟中期选举后打击伊朗 ， 伊朗 ： 已准备好应对全面战争",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261023T110000Z"
+        },
+        {
+          "url": "https://www.advance.hr/telegrafska-zica/bliski-istok/2026/10/22/sad-tiho-povlaci-dio-vojnika-iz-baza-na-bliskom-istoku-dok-trump-razmatra-nove-napade-na-iran",
+          "title": "SAD tiho povlači dio vojnika iz baza na Bliskom istoku dok Trump razmatra nove napade na Iran",
+          "domain": "advance.hr",
+          "seendate": "20261022T060000Z"
+        },
+        {
+          "url": "https://www.irishtimes.com/world/us/2026/10/22/us-and-israel-draw-up-plans-for-renewed-strikes-on-iran-after-elections/",
+          "title": "US and Israel draw up plans for renewed strikes on Iran after elections",
+          "domain": "irishtimes.com",
+          "seendate": "20261022T103000Z"
+        },
+        {
+          "url": "https://www.onalert.gr/kosmos/saoudiki-aravia-anaxaitisi-pyraylou-kai-drone-pano-apo-to-riant/828436/",
+          "title": "Σαουδική Αραβία : Αναχαίτιση πυραύλου και drone πάνω από το Ριάντ",
+          "domain": "onalert.gr",
+          "seendate": "20261024T090000Z"
+        },
+        {
+          "url": "https://www.balkanweb.com/new-york-times-shba-ja-dhe-izraeli-hartojne-plane-per-sulme-te-reja-ndaj-iranit-pas-zgjedhjeve-amerikane/",
+          "title": "New York Times : SHBA - ja dhe Izraeli hartojnë plane për sulme të reja ndaj Iranit pas zgjedhjeve amerikane",
+          "domain": "balkanweb.com",
+          "seendate": "20261022T081500Z"
+        },
+        {
+          "url": "https://www.seoul.co.kr/news/international/2026/10/22/20261022500104",
+          "title": "  미 - 이스라엘 , 선거 후 이란 재공격 계획 수립 … 사우디 체류 美 공무원 대피령",
+          "domain": "seoul.co.kr",
+          "seendate": "20261022T044500Z"
+        },
+        {
+          "url": "https://seoul.co.kr:443/news/international/2026/10/22/20261022500104",
+          "title": "  미 - 이스라엘 , 선거 후 이란 재공격 계획 수립 … 사우디 체류 美 공무원 대피령",
+          "domain": "seoul.co.kr",
+          "seendate": "20261022T044500Z"
+        },
+        {
+          "url": "https://telegrafi.com/rritet-frika-per-rifillimin-e-luftes-me-iranin-shba-rrit-pranine-ushtarake-ne-gjirin-persik/",
+          "title": "Rritet frika për rifillimin e luftës me Iranin , SHBA rrit praninë ushtarake në Gjirin Persik",
+          "domain": "telegrafi.com",
+          "seendate": "20261022T141500Z"
+        },
+        {
+          "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-22/ty-article/u-s-and-israel-have-drawn-up-plans-for-iran-strikes-after-midterms-nyt-reports/000001a1-6122-da49-abe9-6ffa052f0000",
+          "title": "U . S . and Israel Have Drawn up Plans for New Iran Strikes After Midterms , NYT Report Says",
+          "domain": "haaretz.com",
+          "seendate": "20261022T030000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/434974",
+          "title": "Report : IAF conducts show of force near Iranian border",
+          "domain": "israelnationalnews.com",
+          "seendate": "20261021T201500Z"
+        },
+        {
+          "url": "https://www.alquds.co.uk/%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%85%D9%86-%D9%85%D8%AC%D8%A7%D8%B9%D8%A9-%D8%BA%D8%B2%D8%A9-%D8%A5%D9%84%D9%89-%D8%AA%D9%87%D8%AF%D9%8A/",
+          "title": "انتخابات نتنياهو من تجويع غزة إلى تهديدات سوريا وإيران ! ",
+          "domain": "alquds.co.uk",
+          "seendate": "20261022T224500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879791910276728491",
+          "title": "视频丨美以筹谋中期选举后袭伊 伊朗 ： 美将承担苦涩后果",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261022T233000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879795025374624595",
+          "title": "美以筹谋中期选举后袭伊 伊朗 ： 美将承担苦涩后果",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261023T023000Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/iran-news/article-912822",
+          "title": "Donald Trump says  isnt much going on  at Iranian nuclear sites , Pickaxe Mountain",
+          "domain": "jpost.com",
+          "seendate": "20261025T180000Z"
+        },
+        {
+          "url": "https://www.reporterherald.com/2026/10/22/saudi-airport-strike-mideast-news/",
+          "title": "Death toll from strike on Saudi airport rises to 2 , other Mideast news",
+          "domain": "reporterherald.com",
+          "seendate": "20261022T141500Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10913552",
+          "title": "트럼프  이란 재공격  위협에 이란  레드라인 없다 … 중동 다시 전쟁 공포",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20261024T090000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202610223903970029.html",
+          "title": "国际油价大涨2 %， 黄金白银跳水 ， 美国驻沙特使团 ： 针对沙特的敌对行动或迅速升级 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261022T063000Z"
+        },
+        {
+          "url": "https://www.1in.am/3772020.html",
+          "title": "Իրանի վրա նոր հարձակումը կհանգեցնի պատերազմի տարածման ․ Ֆիդան",
+          "domain": "1in.am",
+          "seendate": "20261024T083000Z"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/us-israel-plans-possible-iran-strikes-after-midterms-1827372",
+          "title": "Trump Rules Out Iran Strikes Before Midterms as Pentagon Prepares Plans for New Attacks",
+          "domain": "ibtimes.co.uk",
+          "seendate": "20261023T064500Z"
+        },
+        {
+          "url": "http://www.jpost.com/israel-news/article-912701",
+          "title": "US warns of Houthi threat in updated Israel travel advisory",
+          "domain": "jpost.com",
+          "seendate": "20261024T154500Z"
+        },
+        {
+          "url": "https://www.jpost.com/israel-news/article-912701",
+          "title": "US warns of Houthi threat in updated Israel travel advisory",
+          "domain": "jpost.com",
+          "seendate": "20261024T150000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906601/rezaei-iran-meta-to-petrelaio-tha-xtypisoume-ta-data-centers-ton-ipa-kai-ta-ypothalassia-kalodia",
+          "title": "Rezaei ( Ιράν ): Μετά το πετρέλαιο , θα χτυπήσουμε τα data centers των ΗΠΑ και τα υποθαλάσσια καλώδια",
+          "domain": "bankingnews.gr",
+          "seendate": "20261022T160000Z"
+        },
+        {
+          "url": "https://www.smh.com.au/world/middle-east/us-and-israel-are-planning-to-hit-iran-again-once-elections-are-over-20261023-p617zv.html",
+          "title": "US - Israel military planning : New strike plans against Iran being developed for post - US election window",
+          "domain": "smh.com.au",
+          "seendate": "20261022T234500Z"
+        },
+        {
+          "url": "https://www.theage.com.au/world/middle-east/us-and-israel-are-planning-to-hit-iran-again-once-elections-are-over-20261023-p617zv.html",
+          "title": "US - Israel military planning : New strike plans against Iran being developed for post - US election window",
+          "domain": "theage.com.au",
+          "seendate": "20261022T231500Z"
+        },
+        {
+          "url": "https://www.breitbart.com/politics/2026/10/21/report-u-s-israel-draft-plans-renewed-iran-strikes-after-midterms/",
+          "title": "Report : U . S ., Israel Draft Plans for Renewed Iran Strikes After Midterms",
+          "domain": "breitbart.com",
+          "seendate": "20261022T061500Z"
+        },
+        {
+          "url": "http://www.thegazette.com/news/national/iran-says-7-oil-tankers-attacked-in-the-strait-of-hormuz-as-fears-grow-of/article_07c02078-eb08-55d7-b0f1-e28234dca5e6.html",
+          "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
+          "domain": "thegazette.com",
+          "seendate": "20261022T191500Z"
+        },
+        {
+          "url": "https://www.brisbanetimes.com.au/world/middle-east/us-and-israel-are-planning-to-hit-iran-again-once-elections-are-over-20261023-p617zv.html",
+          "title": "US - Israel military planning : New strike plans against Iran being developed for post - US election window",
+          "domain": "brisbanetimes.com.au",
+          "seendate": "20261022T231500Z"
+        },
+        {
+          "url": "https://www.inewsgr.com/227/iran-katerripse-drone-ton-ipa-pano-apo-tin-bantar-abas--fovoi-gia-epanenarxi-sygkrouseon-sti-mesi-anatoli.htm",
+          "title": "Ιράν : Κατέρριψε drone των ΗΠΑ πάνω από την Μπαντάρ Αμπάς – Φόβοι για επανέναρξη συγκρούσεων στη Μέση Ανατολή",
+          "domain": "inewsgr.com",
+          "seendate": "20261025T093000Z"
+        },
+        {
+          "url": "https://www.naftemporiki.gr/kosmos/2179406/giati-chtypoyn-ta-tympana-toy-tritoy-polemoy-ston-kolpo/",
+          "title": "Γιατί χτυπούν τα τύμπανα του « Τρίτου πολέμου » στον Κόλπο",
+          "domain": "naftemporiki.gr",
+          "seendate": "20261024T053000Z"
+        },
+        {
+          "url": "https://www.moneycontrol.com/world/us-israel-chalk-out-plan-to-resume-attacks-on-iran-post-midterm-elections-report-article-14057145.html",
+          "title": "US , Israel chalk out plan to resume attacks on Iran post midterm elections : Report",
+          "domain": "moneycontrol.com",
+          "seendate": "20261022T031500Z"
+        },
+        {
+          "url": "https://www.elwatannews.com/news/details/8384022",
+          "title": " « معلومات استخباراتية ».. هل تعود الحرب الشاملة بين أمريكا وإيران ؟ ",
+          "domain": "elwatannews.com",
+          "seendate": "20261025T111500Z"
+        },
+        {
+          "url": "https://www.wsbradio.com/news/world/iran-says-7-oil/4XT3675AEM725CIFQCCZRG5HLA/",
+          "title": "Strait of Hormuz sees spike in oil tanker incidents amid rising tensions",
+          "domain": "wsbradio.com",
+          "seendate": "20261022T113000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L9RR2VOR051492T3.html",
+          "title": "数十架以战斗机飞越叙利亚伊拉克领空 ， 接近伊朗边境 以军情局前官员 ： 极度疯狂危险",
+          "domain": "163.com",
+          "seendate": "20261022T091500Z"
+        },
+        {
+          "url": "https://www.wfmz.com/business/iran-says-7-tankers-on-fire-or-damaged-overnight-in-the-strait-of-hormuz-and-other-mideast-news/article_254bdece-88f4-5786-b69b-b5bd8c6acc80.html",
+          "title": "Iran says 7 tankers were damaged in the Strait of Hormuz , and other Mideast news",
+          "domain": "wfmz.com",
+          "seendate": "20261022T093000Z"
+        },
+        {
+          "url": "https://www.yakimaherald.com/news/nation_and_world/nation/israel-imposes-closures-across-a-west-bank-city-after-attacks-and-other-mideast-news/article_91c9fa46-9009-543a-9163-024e380c1130.html",
+          "title": "Israel imposes closures across a West Bank city after attacks , and other Mideast news",
+          "domain": "yakimaherald.com",
+          "seendate": "20261024T153000Z"
+        },
+        {
+          "url": "https://www.thetimes-tribune.com/2026/10/22/iran-oil-tankers-attacked-strait-of-hormuz/",
+          "title": "Iran says 7 oil tankers attacked in Strait of Hormuz as war fears grow",
+          "domain": "thetimes-tribune.com",
+          "seendate": "20261022T143000Z"
+        },
+        {
+          "url": "https://www.hngn.com/articles/273565/20261021/dammam-airport-hit-one-dead-us-orders-embassy-families-out-saudi-arabia.htm",
+          "title": "Dammam Airport Hit , One Dead ; U . S . Orders Embassy Families Out of Saudi Arabia",
+          "domain": "hngn.com",
+          "seendate": "20261022T040000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LA1G7L0H0514R9P4.html",
+          "title": "八国外长  史无前例  齐聚土耳其 ， 反对对伊朗采取军事行动|法国|以色列",
+          "domain": "163.com",
+          "seendate": "20261024T144500Z"
+        },
+        {
+          "url": "https://jamaica-gleaner.com/article/world-news/20261023/war-fears-grow-tankers-hit-strait-hormuz",
+          "title": "War fears grow as tankers hit in Strait of Hormuz",
+          "domain": "jamaica-gleaner.com",
+          "seendate": "20261023T060000Z"
+        },
+        {
+          "url": "https://www.i24news.tv/en/news/middle-east/artc-iran-threatens-gulf-civilian-targets-if-us-israel-renew-air-campaign-live-blog",
+          "title": "Iran Threatens Gulf Civilian Targets If US , Israel Renew Air Campaign | LIVE BLOG",
+          "domain": "i24news.tv",
+          "seendate": "20261025T081500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/us-weighs-fresh-strikes-on-iran-tehran-warns-of-father-of-all-bombs-reports/articleshow/135105338.cms",
+          "title": "US weighs fresh strikes on Iran ; Tehran warns of  father of all bomb : Reports",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20261022T031500Z"
+        },
+        {
+          "url": "https://newtalk.tw/news/view/2026-10-22/1067081",
+          "title": "伊朗任命 「 飛彈之父 」 掌國防部 嗆川普美軍若轟炸恐付出慘痛代價 | 國際",
+          "domain": "newtalk.tw",
+          "seendate": "20261022T103000Z"
+        },
+        {
+          "url": "https://finance.ifeng.com/c/8xQoPES1S3c",
+          "title": "一个利空 ， 引发全球  黑色星期四 _ 凤凰网",
+          "domain": "finance.ifeng.com",
+          "seendate": "20261022T081500Z"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/paper/1775605",
+          "title": "美以擬選後重啟轟炸 迫伊談判 - 國際 - 自由時報電子報",
+          "domain": "news.ltn.com.tw",
+          "seendate": "20261022T221500Z"
+        },
+        {
+          "url": "https://econotimes.com/US-pulls-diplomats-from-Saudi-Arabia-after-deadly-attacks-1760369",
+          "title": "US pulls diplomats from Saudi Arabia after deadly attacks",
+          "domain": "econotimes.com",
+          "seendate": "20261022T211500Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/middle-east/us-weighs-fresh-strikes-on-iran-tehran-warns-of-father-of-all-bombs-reports20261022081138/",
+          "title": "US weighs fresh strikes on Iran ; Tehran warns of  father of all bombs : Reports",
+          "domain": "aninews.in",
+          "seendate": "20261022T050000Z"
+        },
+        {
+          "url": "https://www.wsws.org/en/articles/2026/10/22/oqym-o22.html",
+          "title": "UK deploys RAF jets to support Saudi Arabia war on Yemen - World Socialist Web Site",
+          "domain": "wsws.org",
+          "seendate": "20261023T010000Z"
+        },
+        {
+          "url": "https://www.ettoday.net/news/20261022/3258844.htm",
+          "title": "今晨國際頭條 ／ 美特使見普丁擬重啟和談 美撤離波灣部分外交官",
+          "domain": "ettoday.net",
+          "seendate": "20261022T010000Z"
+        },
+        {
+          "url": "https://english.elpais.com/international/2026-10-22/us-and-israel-develop-plans-to-attack-iran-after-the-midterms.html",
+          "title": "US and Israel develop plans to attack Iran after the midterms",
+          "domain": "english.elpais.com",
+          "seendate": "20261022T171500Z"
+        },
+        {
+          "url": "https://www.clevelandjewishnews.com/news/world_news/iran-says-7-oil-tankers-were-attacked-in-the-strait-of-hormuz-as-fears-grow/article_da94f0c4-9dd2-518d-86a7-84daf67f3a4f.html",
+          "title": "Iran says 7 oil tankers were attacked in the Strait of Hormuz as fears grow of a return to war",
+          "domain": "clevelandjewishnews.com",
+          "seendate": "20261022T153000Z"
+        },
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2026102611070001196",
+          "title": "  전쟁  을 도구로 ... 선거 다가오자  이란  언급 빈도 높이는 트럼프 - 국제ㅣ한국일보",
+          "domain": "hankookilbo.com",
+          "seendate": "20261026T071500Z"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/Prowokacja-czy-demonstracja-sily-Izraelskie-mysliwce-zawrocily-tuz-przed-granica-Iranu-9216452.html",
+          "title": "Prowokacja czy demonstracja siły ? Izraelskie myśliwce zawróciły tuż przed granicą Iranu",
+          "domain": "bankier.pl",
+          "seendate": "20261022T054500Z"
+        },
+        {
+          "url": "https://www.turkiyegazetesi.com.tr/dunya/iran-olasi-saldirinin-sonucunu-simdiden-ilan-etti-onlar-herkesten-iyi-biliyor-1824940",
+          "title": "İran , olası saldırının sonucunu şimdiden ilan etti !  Onlar herkesten iyi biliyor  ",
+          "domain": "turkiyegazetesi.com.tr",
+          "seendate": "20261024T153000Z"
+        },
+        {
+          "url": "https://usstock.jrj.com.cn/2026/10/22155558821576.shtml",
+          "title": "满屏绿色 ！ 全球股市遭遇  黑色星期四 ， 日韩股市重挫 ， A股创业板跌穿2600点 ， 欧洲主股指开盘普跌 ， 美股三大股指期货持续走低 - 美股 - 金融界",
+          "domain": "usstock.jrj.com.cn",
+          "seendate": "20261022T081500Z"
+        },
+        {
+          "url": "https://lasvegassun.com/news/2026/oct/22/iran-says-7-tankers-damaged-in-strait-of-hormuz-an/",
+          "title": "Iran says 7 tankers damaged in Strait of Hormuz , and other Mideast news - Las Vegas Sun News",
+          "domain": "lasvegassun.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/article-912720",
+          "title": "Iraq reportedly believes Israel struck Iranian weapons bound for militias",
+          "domain": "jpost.com",
+          "seendate": "20261024T220000Z"
+        },
+        {
+          "url": "https://www.middle-east-online.com/en/us-envoy-raises-prospect-iran-strikes-weekend-trump-expresses-surprise",
+          "title": "US envoy raises prospect of Iran strikes this weekend as Trump expresses surprise",
+          "domain": "middle-east-online.com",
+          "seendate": "20261024T003000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879931583353166140",
+          "title": "八国外长  史无前例  齐聚土耳其 ， 反对对伊朗采取军事行动",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261024T151500Z"
+        },
+        {
+          "url": "http://gold.cnfol.com/caijingyaowen/20261022/32404887.shtml",
+          "title": "突传重磅 ！ 美媒 ： 数十架以色列战机曾直逼伊朗边境 美方曝惊人内幕 _ 财经要闻 _ 黄金网 _ 中金在线",
+          "domain": "gold.cnfol.com",
+          "seendate": "20261022T033000Z"
+        },
+        {
+          "url": "https://www.bostonglobe.com/2026/10/24/world/israel-imposes-closures-across-a-west-bank-city-after-attacks-mideast-updates/",
+          "title": "Israel imposes closures across a West Bank city after attacks : Mideast updates",
+          "domain": "bostonglobe.com",
+          "seendate": "20261025T091500Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3784151",
+          "title": "军事威慑升级 ！ 数十架以军战机曾逼近伊朗边境 ， 伊南部传爆炸声 ， 美国扩大制裁 、 拟撤离部分中东使馆人员",
+          "domain": "wallstreetcn.com",
+          "seendate": "20261021T211500Z"
+        },
+        {
+          "url": "https://news.china.com/socialgd/10000169/20261024/49814568.html",
+          "title": "特朗普称可能对伊发动军事打击 中东紧张局势急剧升温 _ 新闻频道 _ 中华网",
+          "domain": "news.china.com",
+          "seendate": "20261024T000000Z"
+        },
+        {
+          "url": "https://www.vava8.com/index.php?app=index&act=view&id=173718",
+          "title": "特朗普  预告 ： 很快会发生  某些事情 … - Vava8 发吧",
+          "domain": "vava8.com",
+          "seendate": "20261023T040000Z"
+        },
+        {
+          "url": "https://udn.com/news/story/124061/9830039",
+          "title": "期中選後再轟伊朗 ？ 美以已演練空襲 川普尚未拍板 | 中東戰火連綿 | 全球",
+          "domain": "udn.com",
+          "seendate": "20261022T010000Z"
+        },
+        {
+          "url": "https://www.meteoweb.eu/2026/10/trump-si-prepara-a-una-nuova-escalation-militare-contro-liran-dopo-le-elezioni-di-midterm-impatti-enormi-sui-mercati-dellenergia/1001995048/",
+          "title": "Trump si prepara a una nuova escalation militare contro lIran dopo le elezioni di Midterm : impatti enormi sui mercati dellenergia",
+          "domain": "meteoweb.eu",
+          "seendate": "20261025T111500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906726/trump-dialogue-is-over-target-is-mount-kuh-e-kolang-iran-ultimatum-causes-chaos-in-5-middle-eastern-states",
+          "title": "Trump : Dialogue is over , target is Mount Kuh - e Kolang - Iran ultimatum causes chaos in 5 Middle Eastern states",
+          "domain": "bankingnews.gr",
+          "seendate": "20261023T083000Z"
+        },
+        {
+          "url": "https://www.rp.pl/konflikty-zbrojne/art45376631-nieoficjalnie-izrael-probowal-sprowokowac-iran-kilkadziesiat-samolotow-przy-granicy",
+          "title": "Kilkadziesiąt samolotów Izraela zbliżyło się do granicy Iranu . To mogła być prowokacja",
+          "domain": "rp.pl",
+          "seendate": "20261022T051500Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/L9RH7E550514R9OJ.html",
+          "title": "伊朗伊斯兰革命卫队发言人 ： 我们准备推出有史以来威力最大炸弹  炸弹之父  ",
+          "domain": "163.com",
+          "seendate": "20261022T044500Z"
+        },
+        {
+          "url": "https://www.chinatimes.com/realtimenews/20261024002908-260408",
+          "title": "美伊戰爭最新消息 》 川普想發動小型 「 史詩怒火 」 伊朗 ： 不准美艦入波灣 - 政治圈",
+          "domain": "chinatimes.com",
+          "seendate": "20261024T121500Z"
+        },
+        {
+          "url": "https://www.alquds.co.uk/%D8%AA%D9%82%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%8A%D9%86-%D9%88%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A5%D9%8A%D8%B1/",
+          "title": "تقوية الحوثيين و  حزب الله ... استعداد إيراني لاحتمال نشوب حرب واسعة النطاق",
+          "domain": "alquds.co.uk",
+          "seendate": "20261022T230000Z"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/us/2026/10/22/will-the-iran-war-resume-before-the-us-and-israeli-elections/",
+          "title": "Will the Iran war resume before the US and Israeli elections ? ",
+          "domain": "thenationalnews.com",
+          "seendate": "20261022T231500Z"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/22/iran-threatens-seven-gulf-countries-us-israel-renew-attacks",
+          "title": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks",
+          "domain": "theguardian.com",
+          "seendate": "20261022T160000Z"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/iran-news/article-912677",
+          "title": "US intelligence warns of advanced Iranian assassination plots",
+          "domain": "jpost.com",
+          "seendate": "20261024T030000Z"
+        },
+        {
+          "url": "https://www.aol.co.uk/articles/iran-threatens-oil-ai-facilities-150300000.html",
+          "title": "Iran threatens oil and AI facilities across seven Gulf countries if US and Israel renew attacks",
+          "domain": "aol.co.uk",
+          "seendate": "20261022T153000Z"
+        },
+        {
+          "url": "https://www.aktuality.sk/clanok/dv1yVPm/iran-varuje-usa-americke-vojnove-lode-do-perzskeho-zalivu-nepustime/",
+          "title": "Irán varuje united states : Americké vojnové lode do Perzského zálivu nepustíme",
+          "domain": "aktuality.sk",
+          "seendate": "20261024T090000Z"
+        },
+        {
+          "url": "https://hnonline.sk/svet/96309619-trump-si-odnesie-sen-o-vstupeni-armady-usa-do-perzskeho-zalivu-do-hrobu-vyhlasil-iran",
+          "title": "Trump si odnesie sen o vstúpení armády united states do Perzského zálivu do hrobu , vyhlásil Irán",
+          "domain": "hnonline.sk",
+          "seendate": "20261024T090000Z"
+        },
+        {
+          "url": "https://sputniknews.cn/20261022/1073739675.html",
+          "title": "美媒披露中期选举后美以对伊朗发动打击的潜在计划",
+          "domain": "sputniknews.cn",
+          "seendate": "20261022T034500Z"
+        },
+        {
+          "url": "https://www.dostor.org/5749207",
+          "title": "هل توجه إسرائيل ضربة لإيران بموافقة أمريكية ؟.. باحث يجيب",
+          "domain": "dostor.org",
+          "seendate": "20261023T100000Z"
+        },
+        {
+          "url": "https://www.dostor.org/5748008",
+          "title": "نيويورك تايمز : أمريكا وإسرائيل تخططان لاستئناف الحرب على إيران",
+          "domain": "dostor.org",
+          "seendate": "20261022T011500Z"
+        },
+        {
+          "url": "https://www.okaz.com.sa/politics/na/2271857",
+          "title": "مناورات إسرائيلية تحاكي هجوماً على إيران .. ومخاوف من تجدد الحرب",
+          "domain": "okaz.com.sa",
+          "seendate": "20261022T011500Z"
+        },
+        {
+          "url": "https://www.tayyar.org/News/Lebanon/745846/_guid=745846",
+          "title": "tayyar . org - طهران تتوقع تجدد الحرب .. ماذا قالت للثنائي وهل يتدخل  الحزب ؟ ",
+          "domain": "tayyar.org",
+          "seendate": "20261022T061500Z"
+        },
+        {
+          "url": "https://nypost.com/2026/10/24/us-news/trump-advisors-see-opportunity-even-if-bibi-netanyahu-loses/",
+          "title": "Trump advisors see opportunity even if Bibi Netanyahu loses",
+          "domain": "nypost.com",
+          "seendate": "20261024T171500Z"
+        },
+        {
+          "url": "https://finance.now.com/news/post.php?id=990855",
+          "title": "歐股收市跌1 . 05 % 銀行股受壓",
+          "domain": "finance.now.com",
+          "seendate": "20261022T201500Z"
+        },
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5618293",
+          "title": "沙漠小鎮鐵票生鏽 ？ 前納坦雅胡支持者倒戈 改幫其對手拉票 - 國際",
+          "domain": "news.ltn.com.tw",
+          "seendate": "20261025T094500Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906579/tromeri-ekseliksi-to-mystiko-oplo-tou-iran-tinazei-ston-aera-to-efialtiko-sxedio-ton-72-oron-ipa-israil-to-mystiko-tou-orous-pickaxe%20title=",
+          "title": "Τρομερή εξέλιξη : Το κρυφό όπλο του Ιράν τινάζει στον αέρα το εφιαλτικό σχέδιο 72 ωρών ΗΠΑ , Ισραήλ",
+          "domain": "bankingnews.gr",
+          "seendate": "20261022T143000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906579/tromeri-ekseliksi-to-mystiko-oplo-tou-iran-tinazei-ston-aera-to-efialtiko-sxedio-ton-72-oron-ipa-israil-to-mystiko-tou-orous-pickaxe",
+          "title": "Τρομερή εξέλιξη : Το κρυφό όπλο του Ιράν τινάζει στον αέρα το εφιαλτικό σχέδιο 72 ωρών ΗΠΑ , Ισραήλ",
+          "domain": "bankingnews.gr",
+          "seendate": "20261022T143000Z"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/international/1334451/netaniakhoy-to-iran-tha-epidiwksei-anasighkrotisi-pirinikou-proghrammatos",
+          "title": "Νετανιάχου : Το Ιράν θα επιδιώξει ανασυγκρότηση πυρηνικού προγράμματος",
+          "domain": "sigmalive.com",
+          "seendate": "20261022T080000Z"
+        },
+        {
+          "url": "https://www.mathrubhumi.com/news/world/us-iran-military-tensions-moab-foab-seduhz39",
+          "title": "Us and Iran military tensions escalate with MOAB , FOAB",
+          "domain": "mathrubhumi.com",
+          "seendate": "20261024T140000Z"
+        },
+        {
+          "url": "https://pelop.gr/netaniachou-entoli-gia-anatropi-tou-kathestotos-sto-iran-an-mas-epitethoun-tha-kaoun-proeidopoiei-o-katz/",
+          "title": "Νετανιάχου : Εντολή για ανατροπή του καθεστώτος στο Ιράν – « Αν μας επιτεθούν , θα καούν », προειδοποιεί ο Κατζ",
+          "domain": "pelop.gr",
+          "seendate": "20261021T180000Z"
+        },
+        {
+          "url": "https://niacouncil.org/iran-draws-nuclear-red-lines-as-russian-and-pakistani-diplomacy-confronts-renewed-threats-of-war/",
+          "title": "Iran Draws Nuclear Red Lines as Russian and Pakistani Diplomacy Confronts Renewed Threats of War – NIAC",
+          "domain": "niacouncil.org",
+          "seendate": "20261022T040000Z"
+        },
+        {
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwcxkx5775123.shtml",
+          "title": "特朗普再度威胁对伊朗采取军事行动 ： 已经狠狠打击了他们 ， 可能还会进一步升级",
+          "domain": "finance.sina.com.cn",
+          "seendate": "20261023T010000Z"
+        },
+        {
+          "url": "https://www.nbcnews.com/world/iran/iran-says-7-oil-tankers-attacked-strait-hormuz-fears-grow-return-war-rcna605108",
+          "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
+          "domain": "nbcnews.com",
+          "seendate": "20261022T220000Z"
+        },
+        {
+          "url": "https://navbharattimes.indiatimes.com/world/middle-east/iran-activated-mosaic-defense-to-fight-long-war-as-us-planning-to-start-fresh-attack/articleshow/135163523.cms",
+          "title": "Iran Mosaic Defence , अमेरिका कभी भी कर सकता है हमला , ईरान ने एक्टिवेट किया  मोजेक डिफेंस , खाड़ी में नहीं रुकेगी जंग - iran activated mosaic defense to fight long war as us planning to start fresh attack - Middle - east News",
+          "domain": "navbharattimes.indiatimes.com",
+          "seendate": "20261024T064500Z"
+        },
+        {
+          "url": "https://wiadomosci.wp.pl/nowa-faza-wojny-media-usa-i-izrael-przygotowuja-precyzyjne-plany-7342673278302304a",
+          "title": "Nowa faza wojny ? Media : united states i Izrael przygotowują precyzyjne plany",
+          "domain": "wiadomosci.wp.pl",
+          "seendate": "20261022T063000Z"
+        },
+        {
+          "url": "https://www.ettoday.net/news/20261022/3258885.htm",
+          "title": "以色列數十架戰機逼近伊朗 ！ 飛行邊境1200公里 美憂挑釁重燃戰火",
+          "domain": "ettoday.net",
+          "seendate": "20261022T020000Z"
+        },
+        {
+          "url": "https://www.aljazeera.net/news/2026/10/22/%D8%B9%D8%A7%D8%AC%D9%84-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%B6%D8%B1%D8%A8-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A%D8%A9",
+          "title": "نتنياهو : ضرب المنشآت النووية الإيرانية لا يكفي ما دام النظام قائما",
+          "domain": "aljazeera.net",
+          "seendate": "20261022T101500Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1879934192899577487",
+          "title": "国际观察丨两场选举临近 ， 美以伊各怀什么心思",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261024T141500Z"
+        },
+        {
+          "url": "https://www.news.cn/world/20261024/a80d1ca126fc492c9a29760ae0f3c97d/c.html",
+          "title": "国际观察丨两场选举临近 ， 美以伊各怀什么心思 - 新华网",
+          "domain": "news.cn",
+          "seendate": "20261024T141500Z"
+        },
+        {
+          "url": "https://www.haberler.com/guncel/israil-ve-abd-nin-iran-a-saldiri-hazirligi-iddiasi-20355624-haberi/",
+          "title": "İsrail ve ABDnin İrana saldırı hazırlığı iddiası seçim öncesi tansiyonu artırdı",
+          "domain": "haberler.com",
+          "seendate": "20261022T113000Z"
+        },
+        {
+          "url": "https://japantoday.com/category/world/iran-says-7-oil-tankers-are-on-fire-or-damaged-in-a-key-strait-as-fears-grow-of-a-return-to-war",
+          "title": "Iran says 7 oil tankers attacked in Strait of Hormuz",
+          "domain": "japantoday.com",
+          "seendate": "20261022T224500Z"
+        },
+        {
+          "url": "https://www.cbc.ca/news/world/united-states-iran-conflict-next-round-9.7392215",
+          "title": "Why a new round in the U . S .- Iran conflict could be the most devastating yet",
+          "domain": "cbc.ca",
+          "seendate": "20261024T083000Z"
+        },
+        {
+          "url": "https://www.omanobserver.om/article/1198502/world/region/iranians-face-anxious-wait-as-threat-of-attack-looms",
+          "title": "Iranians face anxious Wait as threat of attack looms",
+          "domain": "omanobserver.om",
+          "seendate": "20261025T093000Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/not-negotiating-trump-says-something-will-happen-fairly-soon-with-iran-as-us-mulls-fresh-strikes-101792644050289.html",
+          "title": "  Not negotiating : Trump says  something will happen fairly soon  with Iran , as US mulls fresh strikes",
+          "domain": "hindustantimes.com",
+          "seendate": "20261022T063000Z"
+        },
+        {
+          "url": "https://www.dostor.org/5748987",
+          "title": "نتنياهو يتوعد إيران حال التشويش على انتخابات إسرائيل",
+          "domain": "dostor.org",
+          "seendate": "20261023T021500Z"
+        },
+        {
+          "url": "https://world.qianlong.com/2026/1025/8742842.shtml",
+          "title": "两场选举临近 ， 美以伊各怀什么心思",
+          "domain": "world.qianlong.com",
+          "seendate": "20261024T180000Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/us/not-negotiating-trump-says-something-will-happen-fairly-soon-with-iran-as-us-mulls-fresh-strikes20261022095515/",
+          "title": "  Not negotiating : Trump says  something will happen fairly soon  with Iran , as US mulls fresh strikes",
+          "domain": "aninews.in",
+          "seendate": "20261022T050000Z"
+        },
+        {
+          "url": "https://www.lykavitos.gr/news/planet/senaria-neon-vomvardismon-ton-ipa-sto-iran-meta-tis-endiameses-ekloges",
+          "title": "Σενάρια νέων βομβαρδισμών των ΗΠΑ στο Ιράν μετά τις ενδιάμεσες εκλογές",
+          "domain": "lykavitos.gr",
+          "seendate": "20261024T054500Z"
+        },
+        {
+          "url": "http://www.srugim.co.il/101014128-%D7%90%D7%A8%D7%94%D7%91-%D7%9E%D7%A4%D7%A0%D7%94-%D7%93%D7%99%D7%A4%D7%9C%D7%95%D7%9E%D7%98%D7%99%D7%9D-%D7%9E%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA-%D7%91%D7%9E%D7%A4%D7%A8%D7%A5-%D7%94%D7%A4%D7%A8%D7%A1%D7%99",
+          "title": "פינוי דיפלומטים אמריקאים ממזרח התיכון - מה עומד מאחורי ההחלטה ? ",
+          "domain": "srugim.co.il",
+          "seendate": "20261021T211500Z"
+        },
+        {
+          "url": "https://news.gooya.com/2026/10/post-114247.php",
+          "title": "افشاگری آکسیوس درباره عملیات فریب اسرائیل علیه جمهوری اسلامی",
+          "domain": "news.gooya.com",
+          "seendate": "20261021T220000Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5755291",
+          "title": "نتنياهو : التقارير بأن ترامب منعني مؤخرا من شن هجوم على إيران منحازة وغير صحيحة",
+          "domain": "vetogate.com",
+          "seendate": "20261022T101500Z"
+        },
+        {
+          "url": "https://www.vetogate.com/5755768",
+          "title": "بقوة غير مألوفة ، نتنياهو يتوعد إيران حال التشويش على انتخابات إسرائيل",
+          "domain": "vetogate.com",
+          "seendate": "20261022T230000Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/435043",
+          "title": "Iranian lawmaker calls for nuclear response if US launches new attack",
+          "domain": "israelnationalnews.com",
+          "seendate": "20261023T044500Z"
+        },
+        {
+          "url": "https://www.israelnationalnews.com/news/434980",
+          "title": "Report : US and Israel prepare new Iran strikes after midterm elections",
+          "domain": "israelnationalnews.com",
+          "seendate": "20261022T011500Z"
+        },
+        {
+          "url": "https://wallstreetcn.com/articles/3784262",
+          "title": "胡塞武装导弹据称命中沙特阿美决策中枢 、 公司总部紧急疏散 ， 布油盘中涨超4 % ",
+          "domain": "wallstreetcn.com",
+          "seendate": "20261023T010000Z"
+        },
+        {
+          "url": "https://wvoc.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wvoc.iheart.com",
+          "seendate": "20261022T233000Z"
+        },
+        {
+          "url": "https://kfyi.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "kfyi.iheart.com",
+          "seendate": "20261022T233000Z"
+        },
+        {
+          "url": "https://wbex.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wbex.iheart.com",
+          "seendate": "20261022T233000Z"
+        },
+        {
+          "url": "https://powertalk967.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "powertalk967.iheart.com",
+          "seendate": "20261022T234500Z"
+        },
+        {
+          "url": "https://twincitiesnewstalk.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | Twin Cities News Talk",
+          "domain": "twincitiesnewstalk.iheart.com",
+          "seendate": "20261022T234500Z"
+        },
+        {
+          "url": "https://600wmtradio.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "600wmtradio.iheart.com",
+          "seendate": "20261022T234500Z"
+        },
+        {
+          "url": "https://1360kktx.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "1360kktx.iheart.com",
+          "seendate": "20261023T000000Z"
+        },
+        {
+          "url": "https://wflafm.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wflafm.iheart.com",
+          "seendate": "20261023T000000Z"
+        },
+        {
+          "url": "https://wiod.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wiod.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://wjno.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wjno.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://whnz.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "whnz.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://kfbk.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "kfbk.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://kfanplus.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "kfanplus.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://wsyr.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wsyr.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://newsradio1470.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "newsradio1470.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://newsradio967.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "newsradio967.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://woodradio.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | Newsradio WOOD 1300 and 106 . 9 FM",
+          "domain": "woodradio.iheart.com",
+          "seendate": "20261022T213000Z"
+        },
+        {
+          "url": "https://ktrh.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "ktrh.iheart.com",
+          "seendate": "20261022T213000Z"
+        },
+        {
+          "url": "https://wflaorlando.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | Newsradio WFLA Orlando",
+          "domain": "wflaorlando.iheart.com",
+          "seendate": "20261022T231500Z"
+        },
+        {
+          "url": "https://1019bigwaax.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | News Radio 101 . 9 Big WAAX",
+          "domain": "1019bigwaax.iheart.com",
+          "seendate": "20261022T231500Z"
+        },
+        {
+          "url": "https://wmrn.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wmrn.iheart.com",
+          "seendate": "20261022T230000Z"
+        },
+        {
+          "url": "https://650keni.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "650keni.iheart.com",
+          "seendate": "20261022T230000Z"
+        },
+        {
+          "url": "https://570wkbn.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "570wkbn.iheart.com",
+          "seendate": "20261022T224500Z"
+        },
+        {
+          "url": "https://whyn.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "whyn.iheart.com",
+          "seendate": "20261022T224500Z"
+        },
+        {
+          "url": "https://talk1200boston.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "talk1200boston.iheart.com",
+          "seendate": "20261022T224500Z"
+        },
+        {
+          "url": "https://wmmbam.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wmmbam.iheart.com",
+          "seendate": "20261022T231500Z"
+        },
+        {
+          "url": "https://newsradiori.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | News Radio 920 AM & 104 . 7 FM",
+          "domain": "newsradiori.iheart.com",
+          "seendate": "20261022T230000Z"
+        },
+        {
+          "url": "https://jetradio1400.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "jetradio1400.iheart.com",
+          "seendate": "20261022T231500Z"
+        },
+        {
+          "url": "https://945wpti.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "945wpti.iheart.com",
+          "seendate": "20261022T224500Z"
+        },
+        {
+          "url": "https://newsradio1410.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | News Radio 1410 AM & 100 . 9 FM",
+          "domain": "newsradio1410.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://wccfradio.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wccfradio.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://hallelujah955.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "hallelujah955.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://talkradio1059.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "talkradio1059.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://woc1420.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "woc1420.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://wmanfm.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wmanfm.iheart.com",
+          "seendate": "20261022T220000Z"
+        },
+        {
+          "url": "https://600kcol.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "600kcol.iheart.com",
+          "seendate": "20261022T220000Z"
+        },
+        {
+          "url": "https://newsradio1170.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "newsradio1170.iheart.com",
+          "seendate": "20261022T220000Z"
+        },
+        {
+          "url": "https://wiba.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wiba.iheart.com",
+          "seendate": "20261022T220000Z"
+        },
+        {
+          "url": "https://590kqnt.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "590kqnt.iheart.com",
+          "seendate": "20261022T220000Z"
+        },
+        {
+          "url": "https://1190kex.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "1190kex.iheart.com",
+          "seendate": "20261022T220000Z"
+        },
+        {
+          "url": "https://kste.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "kste.iheart.com",
+          "seendate": "20261022T220000Z"
+        },
+        {
+          "url": "https://wspd.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | NewsRadio 1370 AM & 92 . 9 FM WSPD",
+          "domain": "wspd.iheart.com",
+          "seendate": "20261022T214500Z"
+        },
+        {
+          "url": "https://ktok.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "ktok.iheart.com",
+          "seendate": "20261022T223000Z"
+        },
+        {
+          "url": "https://newsradio540.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "newsradio540.iheart.com",
+          "seendate": "20261022T223000Z"
+        },
+        {
+          "url": "https://kfyr.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | KFYR 550 AM / 99 . 7 FM",
+          "domain": "kfyr.iheart.com",
+          "seendate": "20261022T223000Z"
+        },
+        {
+          "url": "https://woai.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | News Radio 1200 WOAI",
+          "domain": "woai.iheart.com",
+          "seendate": "20261022T214500Z"
+        },
+        {
+          "url": "https://700wlw.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "700wlw.iheart.com",
+          "seendate": "20261022T220000Z"
+        },
+        {
+          "url": "https://koacolorado.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | KOA 850 AM & 94 . 1 FM",
+          "domain": "koacolorado.iheart.com",
+          "seendate": "20261022T211500Z"
+        },
+        {
+          "url": "https://wrak.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | News Radio 1400 WRAK",
+          "domain": "wrak.iheart.com",
+          "seendate": "20261022T213000Z"
+        },
+        {
+          "url": "https://790waeb.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "790waeb.iheart.com",
+          "seendate": "20261022T213000Z"
+        },
+        {
+          "url": "https://newstalk1090.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | News Talk 1090 WKBZ - AM",
+          "domain": "newstalk1090.iheart.com",
+          "seendate": "20261022T213000Z"
+        },
+        {
+          "url": "https://wrko.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wrko.iheart.com",
+          "seendate": "20261022T200000Z"
+        },
+        {
+          "url": "https://wercfm.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | News Radio 105 . 5 WERC",
+          "domain": "wercfm.iheart.com",
+          "seendate": "20261022T201500Z"
+        },
+        {
+          "url": "https://wtkg.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wtkg.iheart.com",
+          "seendate": "20261022T193000Z"
+        },
+        {
+          "url": "https://newsradio1290wtks.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "newsradio1290wtks.iheart.com",
+          "seendate": "20261022T193000Z"
+        },
+        {
+          "url": "https://wonw1280.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "wonw1280.iheart.com",
+          "seendate": "20261022T200000Z"
+        },
+        {
+          "url": "https://newsradio710.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "newsradio710.iheart.com",
+          "seendate": "20261022T210000Z"
+        },
+        {
+          "url": "https://powertalk1360.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes",
+          "domain": "powertalk1360.iheart.com",
+          "seendate": "20261022T191500Z"
+        },
+        {
+          "url": "https://newstalk1400online.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
+          "title": "US , Israel Reportedly Plan To Resume Iran Strikes | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX",
+          "domain": "newstalk1400online.iheart.com",
+          "seendate": "20261022T191500Z"
+        },
+        {
+          "url": "https://news.fznews.com.cn/gngj/20261023/9dq8m128S1.shtml",
+          "title": "以总理披露去年初曾向美方通报袭击伊朗计划 _ 天下 _ 新闻频道 _ 福州新闻网",
+          "domain": "news.fznews.com.cn",
+          "seendate": "20261023T021500Z"
+        },
+        {
+          "url": "https://outsidethebeltway.com/u-s-and-israel-planning-to-ramp-up-iran-war-again/",
+          "title": "U . S . and Israel Planning to Ramp Up Iran War Again",
+          "domain": "outsidethebeltway.com",
+          "seendate": "20261022T150000Z"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/gaza-strikes-to-iran-war-the-battles-shaping-israel-s-election-101792768948091.html",
+          "title": "Gaza strikes to Iran war : The battles shaping Israel election",
+          "domain": "hindustantimes.com",
+          "seendate": "20261024T131500Z"
+        },
+        {
+          "url": "https://www.efsyn.gr/kosmos/1493909/new-york-times-ipa-kai-israil-shediazoyn-nees-epitheseis-sto-iran-meta-tis-ekloges-ola-sto-trapezi-gia-ton-tramp/",
+          "title": "New York Times : ΗΠΑ και Ισραήλ σχεδιάζουν νέες επιθέσεις στο Ιράν μετά τις εκλογές",
+          "domain": "efsyn.gr",
+          "seendate": "20261022T081500Z"
+        },
+        {
+          "url": "https://www.yenisafak.com/dunya/abd-ve-israilden-savas-hazirligi-4866835",
+          "title": "ABD ve İsrailden savaş hazırlığı | Ortadoğu Haberleri",
+          "domain": "yenisafak.com",
+          "seendate": "20261024T023000Z"
+        },
+        {
+          "url": "https://news.webindia123.com/news/Articles/World/20261022/4513618.html",
+          "title": "  Not negotiating : Trump says  something will happen fairly soon  with Iran , as US mulls fresh strikes",
+          "domain": "news.webindia123.com",
+          "seendate": "20261022T070000Z"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/yemen-bab-al-mandab-and-saudi-arabia-tehrans-strategic-calculus",
+          "title": "Yemen , Bab al - Mandab and Saudi Arabia : Tehran strategic calculus in the balance",
+          "domain": "middleeasteye.net",
+          "seendate": "20261023T120000Z"
+        },
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/906812/ragdaies-ekselikseis-rosika-aeroskafi-me-stratiotiko-fortio-prosgeiothikan-sto-iran-pote-tha-xtypisoun-oi-ipa-israil-to-kynigi-arxizei",
+          "title": "Ραγδαίες εξελίξεις : Ρωσικά αεροσκάφη με υπερσύγχρονα όπλα στο Ιράν - Πότε θα χτυπήσουν οι ΗΠΑ , Ισραήλ : Αρχίζει το ... « κυνήγι » ",
+          "domain": "bankingnews.gr",
+          "seendate": "20261023T143000Z"
+        },
+        {
+          "url": "https://www.ynetnews.com/opinions-analysis/article/hyk1nlohgl",
+          "title": "Trump , of all people , is protecting Israel democracy from Netanyahu Iran gamble",
+          "domain": "ynetnews.com",
+          "seendate": "20261023T063000Z"
+        },
+        {
+          "url": "https://baijiahao.baidu.com/s?id=1880006105643430596",
+          "title": "两场影响伊朗局势的选举快开始了",
+          "domain": "baijiahao.baidu.com",
+          "seendate": "20261025T103000Z"
+        },
+        {
+          "url": "https://www.samaa.tv/2087359023-pakistan-saudi-arabia-t-rkiye-egypt-urge-diplomacy-to-end-us-iran-war",
+          "title": "Pakistan , Saudi Arabia , Türkiye , Egypt urge diplomacy to end US - Iran war",
+          "domain": "samaa.tv",
+          "seendate": "20261024T064500Z"
+        },
+        {
+          "url": "https://www.gzstv.com/a/2df19595b19d428a8aff01326214cf7d",
+          "title": "特朗普扬言或再袭伊朗 内塔尼亚胡面临选举  生死战  中东局势一文速览",
+          "domain": "gzstv.com",
+          "seendate": "20261027T051500Z"
+        },
+        {
+          "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/10/24/iran-beaucoup-de-gens-ont-du-mal-a-se-nourrir-alerte-le-president-F4V2QSNSQ5DHJA5QD5VOWKMW4A/",
+          "title": "Iran :  Beaucoup de gens ont du mal à se nourrir , alerte le président",
+          "domain": "lalibre.be",
+          "seendate": "20261024T191500Z"
+        },
+        {
+          "url": "https://bokra.net/Article-1606413",
+          "title": "موقع بكرا - الولايات المتحدة تستعد لاحتمال استئناف الحرب على إيران .. إجلاء موظفين من سفارات وقواعد عسكرية",
+          "domain": "bokra.net",
+          "seendate": "20261025T080000Z"
+        },
+        {
+          "url": "https://www.aol.com/articles/israel-imposes-closures-across-west-074809000.html",
+          "title": "Israelis hold final rally against Netanyahu before election , and other Mideast news",
+          "domain": "aol.com",
+          "seendate": "20261024T210000Z"
+        },
+        {
+          "url": "https://www.chicagotribune.com/2026/10/24/israelis-hold-rally-against-netanyahu-before-election/",
+          "title": "Israelis hold final rally against Netanyahu before election , and other Mideast news",
+          "domain": "chicagotribune.com",
+          "seendate": "20261024T210000Z"
+        },
+        {
+          "url": "https://www.dostor.org/5748163",
+          "title": "بين الحسابات الانتخابية والضغط العسكري .. هل تقترب جولة جديدة من المواجهة مع إيران ؟ ",
+          "domain": "dostor.org",
+          "seendate": "20261022T150000Z"
+        },
+        {
+          "url": "http://www.jpost.com/israel-news/article-912452",
+          "title": "Netanyahu campaign promise to overthrow Iran regime",
+          "domain": "jpost.com",
+          "seendate": "20261021T190000Z"
+        },
+        {
+          "url": "https://www.jpost.com/israel-news/article-912452",
+          "title": "Netanyahu campaign promise to overthrow Iran regime",
+          "domain": "jpost.com",
+          "seendate": "20261021T190000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LA3C2TN40514R9P4.html",
+          "title": "收到  伊朗策划袭击  情报后 ： 美国对中东13国更新旅行警告 ， 多国使馆限制运行|沙特|也门",
+          "domain": "163.com",
+          "seendate": "20261025T110000Z"
+        },
+        {
+          "url": "http://gold.cnfol.com/guojiyuanyousc/20261022/32404969.shtml",
+          "title": "美国  撤离令  震动海湾 ， 逾24艘美军舰艇集结中东 ， 油价又要暴涨了 ？_ 国际原油市场 _ 黄金网 _ 中金在线",
+          "domain": "gold.cnfol.com",
+          "seendate": "20261022T034500Z"
+        },
+        {
+          "url": "https://biz.chosun.com/international/international_general/2026/10/23/F4DXEKGY65DJTPNXXONWZGS7HI/",
+          "title": "美 특사 중재에도 러시아 · 우크라이나 난타전 … 미사일 · 드론 공방에 민간인 사상자 속출",
+          "domain": "biz.chosun.com",
+          "seendate": "20261023T000000Z"
+        },
+        {
+          "url": "http://www.jpost.com/israel-election-2026/article-912451",
+          "title": "Benjamin Netanyahu : Iran , proxies may interfere in Israeli elections , threatens force",
+          "domain": "jpost.com",
+          "seendate": "20261021T190000Z"
+        }
+      ]
     }
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.4583,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.4583,
+      "composite_score": 0.7429,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.7071,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -125,7 +2315,7 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
+      "composite_score": 0.625,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -133,7 +2323,29 @@
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.625,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -147,15 +2359,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.2083,
+      "composite_score": 0.4712,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 1.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -169,15 +2381,15 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.3046,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.0,
+        "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.0,
+        "source_diversity": 1.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -190,28 +2402,6 @@
     }
   ],
   "comparison_table_21day": [
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.4583,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
@@ -239,6 +2429,28 @@
       "reference_type": "post-ceasefire",
       "composite_score": 0.4583,
       "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.4583,
+      "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
@@ -307,11 +2519,11 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 0,
+      "articles_en": 250,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 0,
+      "unique_domains_total": 169,
       "tone_mean": null
     },
     "window_21d": {
@@ -328,6 +2540,6 @@
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 5 in 21d). Scores are provisional."
   ]
 }
