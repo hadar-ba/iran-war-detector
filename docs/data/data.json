@@ -1,18 +1,17 @@
 {
-  "updated_at": "2026-10-30T04:25:23.460073+00:00",
+  "updated_at": "2026-10-30T17:49:29.483694+00:00",
   "short_term": {
-    "score": 50,
+    "score": 46,
     "status_he": "שקט",
-    "avg_7day": 53,
+    "avg_7day": 49,
     "delta_vs_avg": -3
   },
   "archive_comparison": {
-    "score": 46,
-    "status_he": "דמיון נמוך",
+    "score": 69,
+    "status_he": "דמיון גבולי",
     "reference_events": [
-      "אפריל 2024",
-      "אוקטובר 2024",
-      "יוני 2025"
+      "פברואר 2026",
+      "אפריל 2024"
     ]
   },
   "signals": [
@@ -59,10 +58,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-10-15T03:14:49.074132+00:00",
-        "score": 56
-      },
       {
         "ts": "2026-10-16T03:10:22.439222+00:00",
         "score": 46
@@ -114,13 +109,13 @@
       {
         "ts": "2026-10-30T04:25:23.456788+00:00",
         "score": 50
+      },
+      {
+        "ts": "2026-10-30T17:49:29.482556+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-08-14T13:07:41.202497+00:00",
-        "score": 67
-      },
       {
         "ts": "2026-08-16T01:14:40.838293+00:00",
         "score": 62
@@ -356,32 +351,36 @@
       {
         "ts": "2026-10-30T04:25:23.456788+00:00",
         "score": 50
+      },
+      {
+        "ts": "2026-10-30T17:49:29.482556+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
-        "score": 46,
+        "score": 78,
         "is_pre_conflict": false
       },
       {
         "label": "אחרי פבר' 2026",
-        "score": 46,
+        "score": 70,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 46,
+        "score": 69,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 21,
+        "score": 51,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 4,
+        "score": 32,
         "is_pre_conflict": true
       }
     ]
@@ -389,22 +388,22 @@
   "sources": {
     "list": [
       "163.com",
-      "1in.am",
       "24sata.hr",
-      "2news.com",
-      "7kanal.co.il",
-      "abc.net.au",
-      "abcnews.com",
-      "adevarul.ro",
-      "adnkronos.com",
-      "africanmanager.com",
-      "agoravox.fr",
-      "aktuality.sk",
-      "al-monitor.com",
-      "albeu.com",
-      "alhourriah.org"
+      "Al Jazeera",
+      "americanthinker.com",
+      "baijiahao.baidu.com",
+      "blog.wenxuecity.com",
+      "cfi.net.cn",
+      "cqnews.net",
+      "dsnews.ua",
+      "efsyn.gr",
+      "english.elpais.com",
+      "finance.eastmoney.com",
+      "finance.ifeng.com",
+      "fnnews.com",
+      "gatestoneinstitute.org"
     ],
-    "total_count": 206,
+    "total_count": 33,
     "articles_72h": null
   }
 }
