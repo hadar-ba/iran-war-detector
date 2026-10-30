@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-28T18:00:29.710622+00:00",
+  "updated_at": "2026-10-30T04:25:23.460073+00:00",
   "short_term": {
-    "score": 62,
-    "status_he": "מתוח",
+    "score": 50,
+    "status_he": "שקט",
     "avg_7day": 53,
-    "delta_vs_avg": 9
+    "delta_vs_avg": -3
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-10-14T16:37:32.077704+00:00",
-        "score": 52
-      },
-      {
         "ts": "2026-10-15T03:14:49.074132+00:00",
         "score": 56
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-10-28T18:00:29.706902+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-10-30T04:25:23.456788+00:00",
+        "score": 50
       }
     ],
     "month": [
-      {
-        "ts": "2026-08-13T13:11:11.166583+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-08-14T13:07:41.202497+00:00",
         "score": 67
@@ -356,6 +352,10 @@
       {
         "ts": "2026-10-28T18:00:29.706902+00:00",
         "score": 62
+      },
+      {
+        "ts": "2026-10-30T04:25:23.456788+00:00",
+        "score": 50
       }
     ],
     "comparison_bars": [
@@ -388,23 +388,23 @@
   },
   "sources": {
     "list": [
-      "1019bigwaax.iheart.com",
-      "1190kex.iheart.com",
-      "1360kktx.iheart.com",
       "163.com",
       "1in.am",
       "24sata.hr",
-      "24tv.ua",
       "2news.com",
-      "570wkbn.iheart.com",
-      "590kqnt.iheart.com",
-      "600kcol.iheart.com",
-      "600wmtradio.iheart.com",
-      "650keni.iheart.com",
-      "700wlw.iheart.com",
-      "790waeb.iheart.com"
+      "7kanal.co.il",
+      "abc.net.au",
+      "abcnews.com",
+      "adevarul.ro",
+      "adnkronos.com",
+      "africanmanager.com",
+      "agoravox.fr",
+      "aktuality.sk",
+      "al-monitor.com",
+      "albeu.com",
+      "alhourriah.org"
     ],
-    "total_count": 267,
-    "articles_72h": 250
+    "total_count": 206,
+    "articles_72h": null
   }
 }
