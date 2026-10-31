@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T17:49:29.483694+00:00",
+  "updated_at": "2026-10-31T04:05:36.043538+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
@@ -7,11 +7,12 @@
     "delta_vs_avg": -3
   },
   "archive_comparison": {
-    "score": 69,
-    "status_he": "דמיון גבולי",
+    "score": 46,
+    "status_he": "דמיון נמוך",
     "reference_events": [
-      "פברואר 2026",
-      "אפריל 2024"
+      "אפריל 2024",
+      "אוקטובר 2024",
+      "יוני 2025"
     ]
   },
   "signals": [
@@ -58,10 +59,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-10-16T03:10:22.439222+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-10-17T03:01:55.270099+00:00",
         "score": 46
@@ -113,13 +110,13 @@
       {
         "ts": "2026-10-30T17:49:29.482556+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-31T04:05:36.042097+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-08-16T01:14:40.838293+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-08-17T01:12:18.845390+00:00",
         "score": 62
@@ -355,55 +352,43 @@
       {
         "ts": "2026-10-30T17:49:29.482556+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-10-31T04:05:36.042097+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
-        "score": 78,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
         "label": "אחרי פבר' 2026",
-        "score": 70,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 69,
+        "score": 46,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 51,
+        "score": 21,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 32,
+        "score": 4,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "163.com",
-      "24sata.hr",
-      "Al Jazeera",
-      "americanthinker.com",
-      "baijiahao.baidu.com",
-      "blog.wenxuecity.com",
-      "cfi.net.cn",
-      "cqnews.net",
-      "dsnews.ua",
-      "efsyn.gr",
-      "english.elpais.com",
-      "finance.eastmoney.com",
-      "finance.ifeng.com",
-      "fnnews.com",
-      "gatestoneinstitute.org"
-    ],
-    "total_count": 33,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }

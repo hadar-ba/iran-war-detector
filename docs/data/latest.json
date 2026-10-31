@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-10-30T17:49:29.482556+00:00",
+  "timestamp_utc": "2026-10-31T04:05:36.042097+00:00",
   "status": "green",
   "headline_score_7day": 46,
-  "headline_score_21day": 69,
-  "score_jump": -4,
+  "headline_score_21day": 46,
+  "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "News patterns are within the normal range — no elevated signals detected.",
   "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 69% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 69% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -40,7 +40,7 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     },
@@ -57,259 +57,8 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [
-        "https://finance.eastmoney.com/a/202610243907054573.html",
-        "https://www.aljazeera.net/opinions/2026/10/24/%D9%83%D9%8A%D9%81-%D9%86%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9",
-        "https://wallstreetcn.com/articles/3784448"
-      ],
-      "articles": [
-        {
-          "url": "https://finance.eastmoney.com/a/202610243907054573.html",
-          "title": "美股集体收跌 ， 中国资产走低 ！ 国际油价涨近4 %， 黄金跌破4000美元 ！ 特朗普 ： 可能对伊发动小规模  史诗怒火  行动 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20261024T051500Z"
-        },
-        {
-          "url": "https://www.aljazeera.net/opinions/2026/10/24/%D9%83%D9%8A%D9%81-%D9%86%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9",
-          "title": "كيف نوقف الحرب الإسرائيلية الأمريكية على إيران ؟ | سياسة",
-          "domain": "aljazeera.net",
-          "seendate": "20261024T180000Z"
-        },
-        {
-          "url": "https://wallstreetcn.com/articles/3784448",
-          "title": "为何原油供应增加 ， 油价缺降不下来 ？ - 华尔街见闻",
-          "domain": "wallstreetcn.com",
-          "seendate": "20261026T050000Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1879882320144397434",
-          "title": "视频丨以色列大选冲刺 一场撕裂国家的  期末大考  ",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20261024T024500Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/LA1G7L0H0514R9P4.html",
-          "title": "八国外长  史无前例  齐聚土耳其 ， 反对对伊朗采取军事行动|法国|以色列",
-          "domain": "163.com",
-          "seendate": "20261024T144500Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/LA3UD1OE055694BW.html",
-          "title": "没什么求和 泽连斯基只能背锅",
-          "domain": "163.com",
-          "seendate": "20261025T110000Z"
-        },
-        {
-          "url": "https://www.dsnews.ua/ukr/blog/tramp-putin-si-chomu-sibiga-maye-vijihati-z-kiyeva-24102026-470372",
-          "title": "Трамп , Путін , Сі . Чому Сибіга має виїхати з Києва DSnews . ua",
-          "domain": "dsnews.ua",
-          "seendate": "20261024T071500Z"
-        },
-        {
-          "url": "https://tsn.ua/svit/putin-mriiav-pro-tse-rokamy-iak-tramp-moze-dopomohty-zminyty-svitovyy-poriadok-3199019.html",
-          "title": "Трамп , Путін і Сі Цзіньпін можуть поділити світ на трьох : чим небезпечний новий саміт Світ",
-          "domain": "tsn.ua",
-          "seendate": "20261025T093000Z"
-        },
-        {
-          "url": "https://www.fnnews.com/news/202610241838147461",
-          "title": "전쟁 · 관세 청구서 받아든 유권자 ... 트럼프 외교 심판대 올라 [ 11 · 3 중간선거 … 미국의 선택은 ]( 3 ) ",
-          "domain": "fnnews.com",
-          "seendate": "20261027T051500Z"
-        },
-        {
-          "url": "https://inosmi.ru/20261024/ukraina-280801863.html",
-          "title": "Войны , восстания и новая  Ялта  ( Hürriyet , Турция ) ",
-          "domain": "inosmi.ru",
-          "seendate": "20261024T123000Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1879880682472598844",
-          "title": "视频丨局势僵持 伊朗要求邻国停止对美支持 美国称考虑另一次军事打击",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20261023T230000Z"
-        },
-        {
-          "url": "https://www.cqnews.net/web/content_1563454541928796160.html",
-          "title": "局势僵持 伊朗要求邻国停止对美支持 美国称考虑另一次军事打击",
-          "domain": "cqnews.net",
-          "seendate": "20261024T000000Z"
-        },
-        {
-          "url": "https://english.elpais.com/science-tech/2026-10-23/melissa-parke-ican-executive-director-the-risk-of-nuclear-war-has-never-been-higher-than-it-is-today.html",
-          "title": "Melissa Parke , ICAN executive director :  The risk of nuclear war has never been higher than it is today  | Science",
-          "domain": "english.elpais.com",
-          "seendate": "20261024T023000Z"
-        },
-        {
-          "url": "https://www.in.gr/2026/10/24/world/o-tramp-gyrizei-to-geopolitiko-roloi-ton-ipa-sti-dekaetia-tou-1940/",
-          "title": "Ο Τραμπ γυρίζει το γεωπολιτικό ρολόι των ΗΠΑ στη δεκαετία του 1940",
-          "domain": "in.gr",
-          "seendate": "20261024T154500Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1879931583353166140",
-          "title": "八国外长  史无前例  齐聚土耳其 ， 反对对伊朗采取军事行动",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20261024T151500Z"
-        },
-        {
-          "url": "http://www.idahostatejournal.com/news/national/ap-news-in-brief-at-6-04-a-m-edt/article_2288b0b0-f3a4-5dd4-939e-f4e035d840b3.html",
-          "title": "AP News in Brief at 6 : 04 a . m . EDT",
-          "domain": "idahostatejournal.com",
-          "seendate": "20261024T131500Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/LA3C2TN40514R9P4.html",
-          "title": "收到  伊朗策划袭击  情报后 ： 美国对中东13国更新旅行警告 ， 多国使馆限制运行|沙特|也门",
-          "domain": "163.com",
-          "seendate": "20261025T110000Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202610253907158110.html",
-          "title": "美以伊局势 ： 特朗普放话美国若愿意能拿下整个伊朗 ； 伊朗警告若伊遭攻击 ， 将不再有任何红线 ； 美国削减驻中东使馆人员 ； 也门遭猛烈空袭 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20261025T053000Z"
-        },
-        {
-          "url": "https://baijiahao.baidu.com/s?id=1879940543587914018",
-          "title": "英国 、 法国 、 德国 、 意大利等八国 ， 集体警告",
-          "domain": "baijiahao.baidu.com",
-          "seendate": "20261024T161500Z"
-        },
-        {
-          "url": "https://www.gzstv.com/a/2df19595b19d428a8aff01326214cf7d",
-          "title": "特朗普扬言或再袭伊朗 内塔尼亚胡面临选举  生死战  中东局势一文速览",
-          "domain": "gzstv.com",
-          "seendate": "20261027T051500Z"
-        },
-        {
-          "url": "https://finance.ifeng.com/c/8xTbESnIxVd",
-          "title": "美股半导体板块反弹 ； 油价拉升 、 金价走低",
-          "domain": "finance.ifeng.com",
-          "seendate": "20261024T023000Z"
-        },
-        {
-          "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/.premium/000001a1-79d8-dfb9-a5a9-fbfd1c700000",
-          "title": "פרשנות | נתניהו לא החמיץ הזדמנות להחמיץ הזדמנות , וצירף את ישראל לליגת המצורעות - בחירות 2026",
-          "domain": "haaretz.co.il",
-          "seendate": "20261027T051500Z"
-        },
-        {
-          "url": "https://www.vetogate.com/5757178",
-          "title": "خيوط متشابكة : تفاهم شامل أم تخادم وظيفي ؟ ",
-          "domain": "vetogate.com",
-          "seendate": "20261025T094500Z"
-        },
-        {
-          "url": "https://www.24sata.hr/news/trumpova-vanjska-politika-kosta-birace-ugrozavajuci-republikance-pred-izbore-1163410",
-          "title": "Trumpova vanjska politika košta birače ugrožavajući republikance pred izbore",
-          "domain": "24sata.hr",
-          "seendate": "20261024T083000Z"
-        },
-        {
-          "url": "https://metrohk.com.hk/%E5%9C%8B%E9%9A%9B/%E7%BE%8E%E6%94%BF%E5%BA%9C%E5%B1%A2%E8%A6%81%E6%B1%82%E9%A6%AC%E6%96%AF%E5%85%8B%E6%93%8D%E6%8E%A7%E6%98%9F%E9%8F%88%E6%9C%8D%E5%8B%99-7335f3",
-          "title": "美政府屢要求馬斯克操控星鏈服務｜METROHK . com . hk",
-          "domain": "metrohk.com.hk",
-          "seendate": "20261024T064500Z"
-        },
-        {
-          "url": "https://news.qq.com/rain/a/20261024A0C6PG00",
-          "title": "继中俄后 ， 美国也要收紧氦气出口 ， 欧洲慌了 _ 腾讯新闻",
-          "domain": "news.qq.com",
-          "seendate": "20261024T150000Z"
-        },
-        {
-          "url": "https://www.middleeastmonitor.com/20261025-could-hormuz-become-americas-suez/",
-          "title": "Could Hormuz become America Suez ? – Middle East Monitor",
-          "domain": "middleeastmonitor.com",
-          "seendate": "20261025T124500Z"
-        },
-        {
-          "url": "http://news.cnfol.com/zhengquanyaowen/20261024/32407122.shtml",
-          "title": "全球市场 ： 美股三大指数收跌 道指跌超1 % 国际油价涨近4 %_ 证券要闻 _ 财经 _ 中金在线",
-          "domain": "news.cnfol.com",
-          "seendate": "20261024T083000Z"
-        },
-        {
-          "url": "https://www.gatestoneinstitute.org/22939/putin-peace-talks",
-          "title": "Putin Peace Talks : Half a Country Now , the Rest Later , The Art of Running Out the Clock",
-          "domain": "gatestoneinstitute.org",
-          "seendate": "20261025T094500Z"
-        },
-        {
-          "url": "https://www.americanthinker.com/articles/2026/10/another-october-surprise/",
-          "title": "Another October Surprise ? ",
-          "domain": "americanthinker.com",
-          "seendate": "20261024T101500Z"
-        },
-        {
-          "url": "https://blog.wenxuecity.com/myblog/81044/202610/16773.html",
-          "title": " 《 总体熵战 》 朝鲜与普京 东北亚与北方的  伪装反美  棋局 （ 修改稿 ） - 博客",
-          "domain": "blog.wenxuecity.com",
-          "seendate": "20261024T064500Z"
-        },
-        {
-          "url": "https://www.efsyn.gr/stiles/1495812/i-diavolovdomada-kai-i-nea-vomva-toy-time/",
-          "title": "Η διαβολοβδομάδα και η νέα « βόμβα » του Time",
-          "domain": "efsyn.gr",
-          "seendate": "20261025T180000Z"
-        },
-        {
-          "url": "https://www.theepochtimes.com/opinion/russian-sanctions-continue-to-help-iran-and-the-houthis-6108037",
-          "title": "Russian Sanctions Continue to Help Iran and the Houthis",
-          "domain": "theepochtimes.com",
-          "seendate": "20261024T121500Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202610243906835344.html",
-          "title": "全球市场 ： 美股三大指数收跌 道指跌超1 % 国际油价涨近4 % _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20261023T233000Z"
-        },
-        {
-          "url": "https://wiky.com/2026/10/24/analysis-trump-foreign-policy-hits-voters-in-the-pocketbook-imperiling-republicans-in-midterms/",
-          "title": "Analysis - Trump foreign policy hits voters in the pocketbook , imperiling Republicans in midterms",
-          "domain": "wiky.com",
-          "seendate": "20261024T064500Z"
-        },
-        {
-          "url": "https://wtvbam.com/2026/10/24/analysis-trump-foreign-policy-hits-voters-in-the-pocketbook-imperiling-republicans-in-midterms/",
-          "title": "Analysis - Trump foreign policy hits voters in the pocketbook , imperiling Republicans in midterms",
-          "domain": "wtvbam.com",
-          "seendate": "20261024T053000Z"
-        },
-        {
-          "url": "http://www.hngnews.com/nation_world/ap-news-in-brief-at-6-04-a-m-edt/article_308ba634-be48-5901-8c6f-96aba5e25c1c.html",
-          "title": "AP News in Brief at 6 : 04 a . m . EDT",
-          "domain": "hngnews.com",
-          "seendate": "20261024T113000Z"
-        },
-        {
-          "url": "http://www.hngnews.com/nation_world/ap-news-summary-at-6-52-a-m-edt/article_4377b7f8-afbb-5ad9-8bfd-2fb82c3d6e21.html",
-          "title": "AP News Summary at 6 : 52 a . m . EDT",
-          "domain": "hngnews.com",
-          "seendate": "20261024T113000Z"
-        },
-        {
-          "url": "https://www.nile.eg/%D8%A7%D9%84%D8%BA%D8%AF-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86-%D8%AC%D9%88%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D9%84%D9%86",
-          "title": "قناة النيل للأخبار |  الغد  الأردنية :  الأردن جوهرة الشرق : لن تخدش بشاعة الجريمة مناعة مجتمعه  ",
-          "domain": "nile.eg",
-          "seendate": "20261024T103000Z"
-        },
-        {
-          "url": "http://www.cfi.net.cn/p20261024000010.html",
-          "title": "美国将氦列为关键材料 ， 半导体制造是重要考量 ， 全球供应中断风险上升 - CFi . CN 中财网",
-          "domain": "cfi.net.cn",
-          "seendate": "20261024T003000Z"
-        },
-        {
-          "url": "https://universitytimes.ie/2026/10/the-un-general-assembly-progress-or-pantomime/",
-          "title": "The UN General Assembly : Progress or Pantomime ? – The University Times",
-          "domain": "universitytimes.ie",
-          "seendate": "20261025T191500Z"
-        }
-      ]
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "military_strike",
@@ -444,15 +193,15 @@
     {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.7823,
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 1.0,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9441,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -466,15 +215,15 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.6958,
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.5,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9247,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -488,15 +237,15 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.6859,
+      "composite_score": 0.4583,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.5,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.8654,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -510,15 +259,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.5111,
+      "composite_score": 0.2083,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.8165,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -532,15 +281,15 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.3193,
+      "composite_score": 0.0417,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.8165,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.8491,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -570,15 +319,15 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 250,
+      "articles_en": 0,
       "articles_he": 0,
-      "articles_fa": 250,
+      "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 135,
+      "unique_domains_total": 0,
       "tone_mean": null
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 3 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 5 in 21d). Scores are provisional."
   ]
 }
