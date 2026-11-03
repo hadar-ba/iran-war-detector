@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-11-02T21:32:42.208627+00:00",
-  "status": "yellow",
-  "headline_score_7day": 66,
+  "timestamp_utc": "2026-11-03T05:23:32.031237+00:00",
+  "status": "green",
+  "headline_score_7day": 47,
   "headline_score_21day": 46,
-  "score_jump": 16,
+  "score_jump": -19,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (66%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (66%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (66% similarity). The 7-day reading is 20 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to a relatively quiet period (January 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (66% דמיון). הקריאה ל-7 ימים גבוהה ב-20 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון לתקופה יחסית שקטה (ינואר 2026).",
+  "summary_en": "News patterns are within the normal range — no elevated signals detected.",
+  "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (47% similarity). The 21-day picture is consistent: 46% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (47% דמיון). התמונה ל-21 יום עקבית: 46% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -40,18 +40,9 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
-      "example_urls": [
-        "https://www.asahi.com/articles/ASVBR5R6BVBRUHBI003M.html"
-      ],
-      "articles": [
-        {
-          "url": "https://www.asahi.com/articles/ASVBR5R6BVBRUHBI003M.html",
-          "title": "かすむ米兵21人の死 、 不満はガソリン高騰へ 「 戦争しない 」 はずが [ アメリカ中間選挙 ][ 米 ・ イスラエルのイラン攻撃 イラン情勢 ][ トランプ再来 ]： 朝日新聞",
-          "domain": "asahi.com",
-          "seendate": "20261027T051500Z"
-        }
-      ]
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "trump_china",
@@ -81,47 +72,25 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "error": "429 rate-limited",
       "example_urls": [],
       "articles": []
     }
   ],
   "comparison_table_7day": [
     {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.6557,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0934,
-        "source_diversity": 0.141,
-        "tone": 0.9847
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.6495,
+      "composite_score": 0.5925,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0836,
-        "source_diversity": 0.1538,
-        "tone": 0.9054
+        "raw_volume": 0.0,
+        "source_diversity": 0.0979,
+        "tone": 0.5
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -134,16 +103,16 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.6463,
+      "composite_score": 0.4743,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0295,
-        "source_diversity": 0.1507,
-        "tone": 0.9806
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0959,
+        "tone": 0.5
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -154,18 +123,18 @@
       }
     },
     {
-      "reference_id": "PRE_OCT24",
+      "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.206,
+      "composite_score": 0.4733,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
-        "raw_volume": 0.0624,
-        "source_diversity": 0.1384,
-        "tone": 0.916
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0897,
+        "tone": 0.5
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -178,7 +147,29 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.1661,
+      "composite_score": 0.3225,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.5774,
+        "raw_volume": 1.0,
+        "source_diversity": 0.1077,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_OCT24",
+      "reference_type": "pre-round",
+      "composite_score": 0.1526,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -186,7 +177,7 @@
         "confluence": 0.0,
         "cross_lang_correlation": 0.5774,
         "raw_volume": 0.0,
-        "source_diversity": 0.1692,
+        "source_diversity": 0.0881,
         "tone": 0.5
       },
       "weights_applied": {
@@ -312,16 +303,16 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 1.2173,
-      "volume_mean_daily": 1.2173,
-      "volume_peak": 1.2173,
-      "days_active": 1,
-      "articles_en": 0,
+      "volume_total": 0,
+      "volume_mean_daily": 0.0,
+      "volume_peak": 0.0,
+      "days_active": 0,
+      "articles_en": 16,
       "articles_he": 0,
-      "articles_fa": 27,
+      "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 22,
-      "tone_mean": -2.8426
+      "unique_domains_total": 14,
+      "tone_mean": null
     },
     "window_21d": {
       "volume_total": 0,
@@ -337,6 +328,6 @@
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (2 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 5 in 21d). Scores are provisional."
   ]
 }
