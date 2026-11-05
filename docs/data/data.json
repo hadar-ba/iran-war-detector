@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T05:08:15.032783+00:00",
+  "updated_at": "2026-11-05T19:36:29.138215+00:00",
   "short_term": {
     "score": 46,
     "status_he": "שקט",
@@ -7,10 +7,11 @@
     "delta_vs_avg": -5
   },
   "archive_comparison": {
-    "score": 60,
+    "score": 69,
     "status_he": "דמיון גבולי",
     "reference_events": [
-      "פברואר 2026"
+      "פברואר 2026",
+      "אפריל 2024"
     ]
   },
   "signals": [
@@ -57,10 +58,6 @@
   ],
   "trend": {
     "week": [
-      {
-        "ts": "2026-10-25T03:14:50.152440+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-10-27T03:44:42.993622+00:00",
         "score": 50
@@ -112,13 +109,13 @@
       {
         "ts": "2026-11-05T05:08:15.031311+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-11-05T19:36:29.136652+00:00",
+        "score": 46
       }
     ],
     "month": [
-      {
-        "ts": "2026-08-22T12:40:16.989465+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-08-24T01:13:49.470330+00:00",
         "score": 62
@@ -354,39 +351,59 @@
       {
         "ts": "2026-11-05T05:08:15.031311+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-11-05T19:36:29.136652+00:00",
+        "score": 46
       }
     ],
     "comparison_bars": [
       {
         "label": "שקט ינו' 2026",
-        "score": 73,
+        "score": 70,
         "is_pre_conflict": false
       },
       {
         "label": "אחרי פבר' 2026",
-        "score": 61,
+        "score": 70,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 60,
+        "score": 69,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אפר' 2024",
-        "score": 47,
+        "score": 51,
         "is_pre_conflict": true
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 28,
+        "score": 32,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
+    "list": [
+      "1190kex.iheart.com",
+      "163.com",
+      "aa.com.tr",
+      "africaleader.com",
+      "aol.co.uk",
+      "asiaone.com",
+      "aspenpublicradio.org",
+      "bozemandailychronicle.com",
+      "finance.eastmoney.com",
+      "ghorbanews.com",
+      "hindustantimes.com",
+      "jamn1075.iheart.com",
+      "kathimerini.com.cy",
+      "khqa.com",
+      "ksmu.org"
+    ],
+    "total_count": 31,
     "articles_72h": null
   }
 }
