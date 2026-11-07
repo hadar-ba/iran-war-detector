@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-11-05T19:36:29.136652+00:00",
+  "timestamp_utc": "2026-11-07T17:31:22.430070+00:00",
   "status": "green",
   "headline_score_7day": 46,
-  "headline_score_21day": 69,
+  "headline_score_21day": 46,
   "score_jump": 0,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
   "summary_en": "News patterns are within the normal range — no elevated signals detected.",
   "summary_he": "דפוסי החדשות נמצאים בטווח הנורמלי — לא זוהו סיגנלים מוגברים.",
-  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 69% similarity to a relatively quiet period (January 2026). All monitored signals are at or near baseline.",
-  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 69% דמיון לתקופה יחסית שקטה (ינואר 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
+  "context_en": "In the last 7 days, news volume and tone resemble the period before Operation Lion's Roar (February 2026) (46% similarity). The 21-day picture is consistent: 46% similarity to the post-Lion's Roar period (April–May 2026). All monitored signals are at or near baseline.",
+  "context_he": "ב-7 הימים האחרונים, נפח החדשות והטון דומים להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (46% דמיון). התמונה ל-21 יום עקבית: 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026). כל הסיגנלים המנוטרים נמצאים ברמת הבסיס.",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -25,223 +25,8 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [
-        "https://wallstreetcn.com/articles/3785033",
-        "https://www.teraz.sk/zahranicie/rusko-potvrdilo-rokovania-s-usa-a-ukraji/1004795-clanok.html",
-        "https://wallstreetcn.com/articles/3785079"
-      ],
-      "articles": [
-        {
-          "url": "https://wallstreetcn.com/articles/3785033",
-          "title": "美伊展现  谈判意愿 ， 全球能源价格重挫 ， 黄金强势反弹 、 创两个月来最大单日涨幅",
-          "domain": "wallstreetcn.com",
-          "seendate": "20261103T021500Z"
-        },
-        {
-          "url": "https://www.teraz.sk/zahranicie/rusko-potvrdilo-rokovania-s-usa-a-ukraji/1004795-clanok.html",
-          "title": "Rusko potvrdilo rokovania s united states a Ukrajinou",
-          "domain": "teraz.sk",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://wallstreetcn.com/articles/3785079",
-          "title": "伊朗军方提出五项和平原则 ： 解除制裁 、 战争赔偿 ， 还要霍尔木兹海峡主权 ...... ",
-          "domain": "wallstreetcn.com",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.aa.com.tr/tr/dunya/israilin-ateskese-ragmen-gazzeye-duzenledigi-saldirilarda-son-24-saatte-6-kisi-hayatini-kaybetti/4109797",
-          "title": "İsrailin ateşkese rağmen Gazzeye düzenlediği saldırılarda son 24 saatte 6 kişi hayatını kaybetti",
-          "domain": "aa.com.tr",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.aa.com.tr/tr/dunya/1953-darbesinden-1979daki-elcilik-baskinina-ve-bolgesel-savasa-uzanan-iran-abd-gerilimi/4109581",
-          "title": "1953 darbesinden 1979  daki elçilik baskınına ve bölgesel savaşa uzanan İran - ABD gerilimi",
-          "domain": "aa.com.tr",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://udn.com/news/story/6809/9853347",
-          "title": "川普選前受訪表明不急著再轟伊朗 ！ 美媒揭3套方案待定奪 | 國際焦點 | 全球",
-          "domain": "udn.com",
-          "seendate": "20261103T021500Z"
-        },
-        {
-          "url": "https://www.wfmz.com/news/ap/ap-national/us-strikes-iranian-targets-in-the-strait-of-hormuz-official-says-leaving-unclear-what-comes-next/article_b7d150b1-b5ee-570b-b828-fab0fd23b46a.html",
-          "title": "US strikes Iranian targets in the Strait of Hormuz , official says , leaving unclear what comes next",
-          "domain": "wfmz.com",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.khqa.com/news/nation-world/us-strikes-iranian-targets-in-the-strait-of-hormuz-official-says-leaving-unclear-what-comes/article_896e1be2-c1cc-5a9f-9e92-606261f5d6d0.html",
-          "title": "US strikes Iranian targets in the Strait of Hormuz , official says , leaving unclear what comes next",
-          "domain": "khqa.com",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.stcatharinesstandard.ca/news/world/middle-east/us-strikes-iranian-targets-in-the-strait-of-hormuz-official-says-leaving-unclear-what-comes-next/article_299bc1f8-1927-52e5-b95b-1271e3a4fbca.html",
-          "title": "US strikes Iranian targets in the Strait of Hormuz , official says , leaving unclear what comes next",
-          "domain": "stcatharinesstandard.ca",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.sigmalive.com/news/international/1336013/rosia-epivevaiose-trimeris-eirineftikes-sinomilies-me-oykrania-kai-hpa",
-          "title": "Ρωσία : Επιβεβαίωσε τριμερείς ειρηνευτικές συνομιλίες με Ουκρανία και ΗΠΑ",
-          "domain": "sigmalive.com",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/israel-election-results-2026-arab-parties-yousef-jabareen-netanyahu-coalition-gadi-eisenkot-knesset-latest-updates-101793694162083.html",
-          "title": "  Accept political reality : Top Arab - Israeli leader urges opposition to seize  historic opportunity  to oust Netanyahu",
-          "domain": "hindustantimes.com",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/israel-opposition-leader-eisenkot-rules-out-netanyahu-alliance-says-will-reject-trumps-intervention-report-101793697999436.html",
-          "title": "Israel Opposition leader Eisenkot rules out Netanyahu alliance , says will reject Trump intervention : Report",
-          "domain": "hindustantimes.com",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-mediate-020038000.html",
-          "title": "Ukraine war briefing : US to mediate talks with Kyiv and Moscow in Abu Dhabi next week , says Witkoff",
-          "domain": "aol.co.uk",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://newpost.gr/eidiseis/epivevaionei-to-kremlino-tis-synomilies-me-tin-oykrania-kai-tis-ipa/",
-          "title": "Επιβεβαιώνει το Κρεμλίνο τις συνομιλίες με την Ουκρανία και τις ΗΠΑ",
-          "domain": "newpost.gr",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://kathimerini.com.cy/gr/politiki/diplomatia/ipa-to-apotelesma-ton-eklogwn-den-tha-allaxei-sxeseis-me-kypro-i-ellada",
-          "title": "ΗΠΑ : Το αποτέλεσμα των εκλογών δεν θα αλλάξει σχέσεις με Κύπρο ή Ελλάδα",
-          "domain": "kathimerini.com.cy",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.asiaone.com/world/americans-vote-trump-says-us-will-stop-us4b-aid-israel",
-          "title": "As Americans vote , Trump says US will stop US$4b in aid to Israel",
-          "domain": "asiaone.com",
-          "seendate": "20261104T013000Z"
-        },
-        {
-          "url": "https://www.manilatimes.net/2026/11/04/world/americas-emea/iranian-island-in-hormuz-strait-attacked-media/2460664",
-          "title": "Iranian island in Hormuz strait attacked media",
-          "domain": "manilatimes.net",
-          "seendate": "20261104T013000Z"
-        },
-        {
-          "url": "https://lanouvelletribune.info/2026/11/iran-face-au-risque-dune-frappe-nucleaire-un-guide-de-survie-rendu-public/",
-          "title": "Iran : face au risque dune frappe nucléaire , un guide de survie rendu public",
-          "domain": "lanouvelletribune.info",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://zn.ua/ukr/usa/ssha-nazvali-datu-perehovoriv-z-ukrajinoju-ta-rosijeju-v-abu-dabi.html",
-          "title": "Переговори України , США та Росії - названо дату",
-          "domain": "zn.ua",
-          "seendate": "20261103T021500Z"
-        },
-        {
-          "url": "https://www.wthitv.com:443/2026/11/03/us-strikes-strait-hormuz-create-more-questions-about-whats-ahead/",
-          "title": "US Launches Airstrikes on Iran in Strait of Hormuz Ahead of Midterms",
-          "domain": "wthitv.com",
-          "seendate": "20261104T013000Z"
-        },
-        {
-          "url": "http://www.bozemandailychronicle.com/wire/news/us-strikes-iranian-targets-in-the-strait-of-hormuz-official-says-leaving-unclear-what-comes/article_2a589236-cc8b-5ff3-b827-2e79217f4103.html",
-          "title": "US strikes Iranian targets in the Strait of Hormuz , official says , leaving unclear what comes next",
-          "domain": "bozemandailychronicle.com",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.lalibre.be/dernieres-depeches/2026/11/04/le-guide-supreme-iranien-menace-trump-dune-guerre-plus-etendue-en-cas-de-frappes-JQ6PNXQS25EGLNJEG5KPCZYUXE/",
-          "title": "Téhéran se prévaut davoir défait Trump , qui admet que la guerre a pesé dans la dêbacle de son camp",
-          "domain": "lalibre.be",
-          "seendate": "20261105T071500Z"
-        },
-        {
-          "url": "https://www.aa.com.tr/tr/gundem/mhp-genel-baskani-bahceli-avrupanin-ektigi-fitne-tohumlari-kendilerine-donmeye-baslamistir/4109754",
-          "title": "MHP Genel Başkanı Bahçeli : Avrupanın ektiği fitne tohumları kendilerine dönmeye başlamıştır",
-          "domain": "aa.com.tr",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.163.com/dy/article/LASM3AF00519C6T9.html",
-          "title": "美股盘后速递 ： 三大股指期货分化 ， 纳指期货涨0 . 13 %； 存储芯片股普涨 ， SK海力士涨超1 %， AMD发布强劲财报涨超6 % ",
-          "domain": "163.com",
-          "seendate": "20261104T013000Z"
-        },
-        {
-          "url": "https://jamn1075.iheart.com/content/2026-11-03-gas-prices-decline-but-still-for-election-day/",
-          "title": "Gas Prices Decline , But Still For Election Day",
-          "domain": "jamn1075.iheart.com",
-          "seendate": "20261104T013000Z"
-        },
-        {
-          "url": "https://1190kex.iheart.com/content/2026-11-03-gas-prices-decline-but-still-for-election-day/",
-          "title": "Gas Prices Decline , But Still For Election Day | News Radio 1190 KEX",
-          "domain": "1190kex.iheart.com",
-          "seendate": "20261104T013000Z"
-        },
-        {
-          "url": "https://finance.eastmoney.com/a/202611043920936078.html",
-          "title": "有色 / 贵金属 | 铜 ： 关注美国中期选举结果 宏观冲击下铜价仍有下探风险 _ 东方财富网",
-          "domain": "finance.eastmoney.com",
-          "seendate": "20261104T013000Z"
-        },
-        {
-          "url": "http://www.africaleader.com/news/279409213/trump-to-strip-south-africa-and-rwanda-of-us-trade-benefits",
-          "title": "Trump to strip South Africa and Rwanda of US trade benefits",
-          "domain": "africaleader.com",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://ghorbanews.com/%D8%A7%D9%84%D8%AE%D9%84%D8%A7%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AD%D8%B2%D8%A8-%D9%8A%D8%A7%D8%B4%D8%A7%D8%B1/",
-          "title": "طبخة لم تكتمل .. 4 مفاجآت صدمت آيزنكوت وحوّلت الخلافات الداخلية في حزب ياشار إلى هدية لنتنياهو • غربة نيوز",
-          "domain": "ghorbanews.com",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "title": "A new cold war : hackers target fridges across the globe",
-          "domain": "ksut.org",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "title": "A new cold war : hackers target fridges across the globe",
-          "domain": "wcsufm.org",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "title": "A new cold war : hackers target fridges across the globe",
-          "domain": "northernpublicradio.org",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.aspenpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "title": "A new cold war : hackers target fridges across the globe",
-          "domain": "aspenpublicradio.org",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.ksmu.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "title": "A new cold war : hackers target fridges across the globe",
-          "domain": "ksmu.org",
-          "seendate": "20261103T111500Z"
-        },
-        {
-          "url": "https://www.kunc.org/npr-news/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "title": "A new cold war : hackers target fridges across the globe",
-          "domain": "kunc.org",
-          "seendate": "20261103T111500Z"
-        }
-      ]
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "supreme_leader",
@@ -256,8 +41,211 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "example_urls": [
+        "https://www.mtv.com.lb/news/1755647",
+        "https://www.ynet.co.il/news/article/hyhzpaitmg",
+        "https://www.middleeastmonitor.com/20261106-israels-un-envoy-says-iran-war-was-us-decision-rejects-blaming-israel-for-economic-fallout/"
+      ],
+      "articles": [
+        {
+          "url": "https://www.mtv.com.lb/news/1755647",
+          "title": "لبنان لخامنئي : أين الإنجازات التي حققها محور المقاومة ؟ ",
+          "domain": "mtv.com.lb",
+          "seendate": "20261106T053000Z"
+        },
+        {
+          "url": "https://www.ynet.co.il/news/article/hyhzpaitmg",
+          "title": "אזהרה אמריקנית לשגרירות בירושלים :  איראן מנסה לפגוע בבכירי ממשל  ",
+          "domain": "ynet.co.il",
+          "seendate": "20261107T000000Z"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20261106-israels-un-envoy-says-iran-war-was-us-decision-rejects-blaming-israel-for-economic-fallout/",
+          "title": "Israel UN envoy says Iran war was US decision , rejects blaming Israel for economic fallout – Middle East Monitor",
+          "domain": "middleeastmonitor.com",
+          "seendate": "20261106T113000Z"
+        },
+        {
+          "url": "https://news.webindia123.com/news/Articles/World/20261106/4516463.html",
+          "title": "  No negotiations till US fulfils seven conditions : Iran security chief says Russia condemned US - Israel strikes",
+          "domain": "news.webindia123.com",
+          "seendate": "20261106T053000Z"
+        },
+        {
+          "url": "https://aninews.in/news/world/europe/no-negotiations-till-us-fulfils-seven-conditions-iran-security-chief-says-russia-condemned-us-israel-strikes20261106083647/",
+          "title": "  No negotiations till US fulfils seven conditions : Iran security chief says Russia condemned US - Israel strikes",
+          "domain": "aninews.in",
+          "seendate": "20261106T053000Z"
+        },
+        {
+          "url": "https://www.tayyar.org/News/World/747597/_guid=747597",
+          "title": "tayyar . org - اتصالات إقليمية لكبح عودة الحرب",
+          "domain": "tayyar.org",
+          "seendate": "20261106T040000Z"
+        },
+        {
+          "url": "https://arabic.euronews.com/2026/11/06/the-region-waits-in-anticipation-tehran-sends-a-nuclear-proposal-to-washington-while-tru",
+          "title": "مباشر - المنطقة تترقّب .. طهران ترسل مقترحًا نوويًا إلى واشنطن وترامب يلمّح إلى خطوات وشيكة بشأن إيران",
+          "domain": "arabic.euronews.com",
+          "seendate": "20261106T083000Z"
+        },
+        {
+          "url": "https://www.aa.com.tr/tr/dunya/1953-darbesinden-1979daki-elcilik-baskinina-ve-bolgesel-savasa-uzanan-iran-abd-gerilimi/4109581",
+          "title": "1953 darbesinden 1979  daki elçilik baskınına ve bölgesel savaşa uzanan İran - ABD gerilimi",
+          "domain": "aa.com.tr",
+          "seendate": "20261103T111500Z"
+        },
+        {
+          "url": "https://www.euronews.com/2026/11/06/hormuz-standoff-not-sustainable-senior-iranian-lawmaker-tells-euronews",
+          "title": "Hormuz standoff  not sustainable , senior Iranian lawmaker tells Euronews",
+          "domain": "euronews.com",
+          "seendate": "20261106T120000Z"
+        },
+        {
+          "url": "https://www.hna.de/politik/wie-sich-iran-auf-radioaktiven-fallout-nach-einem-us-angriff-vorbereitet-zr-94576882.html",
+          "title": "Atomangriff auf Iran : So bereitet sich Teheran aufs Schlimmste vor",
+          "domain": "hna.de",
+          "seendate": "20261106T083000Z"
+        },
+        {
+          "url": "https://openthemagazine.com/columns/the-bibi-factor-is-netanyahus-political-longevity-good-for-india",
+          "title": "The Bibi Factor : How Netanyahu Political Longevity Impacts India - Israel Relations",
+          "domain": "openthemagazine.com",
+          "seendate": "20261107T063000Z"
+        },
+        {
+          "url": "https://dominicanrepublicpost.com/irans-security-chief-meets-putin-delivers-message-from-khamenei/",
+          "title": "Iran security chief meets Putin , delivers message from Khamenei - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+          "domain": "dominicanrepublicpost.com",
+          "seendate": "20261106T063000Z"
+        },
+        {
+          "url": "http://www.russiaherald.com/news/279415358/no-negotiations-till-us-fulfils-seven-conditions-iran-security-chief-says-russia-condemned-us-israel-strikes",
+          "title": "  No negotiations till US fulfils seven conditions : Iran security chief says Russia condemned US - Israel strikes",
+          "domain": "russiaherald.com",
+          "seendate": "20261106T053000Z"
+        },
+        {
+          "url": "http://www.kenyastar.com/news/279415358/no-negotiations-till-us-fulfils-seven-conditions-iran-security-chief-says-russia-condemned-us-israel-strikes",
+          "title": "  No negotiations till US fulfils seven conditions : Iran security chief says Russia condemned US - Israel strikes",
+          "domain": "kenyastar.com",
+          "seendate": "20261106T053000Z"
+        },
+        {
+          "url": "http://www.austinglobe.com/news/279415358/no-negotiations-till-us-fulfils-seven-conditions-iran-security-chief-says-russia-condemned-us-israel-strikes",
+          "title": "  No negotiations till US fulfils seven conditions : Iran security chief says Russia condemned US - Israel strikes",
+          "domain": "austinglobe.com",
+          "seendate": "20261106T043000Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279415358/no-negotiations-till-us-fulfils-seven-conditions-iran-security-chief-says-russia-condemned-us-israel-strikes",
+          "title": "  No negotiations till US fulfils seven conditions : Iran security chief says Russia condemned US - Israel strikes",
+          "domain": "iranherald.com",
+          "seendate": "20261106T063000Z"
+        },
+        {
+          "url": "http://www.heraldglobe.com/news/279415358/no-negotiations-till-us-fulfils-seven-conditions-iran-security-chief-says-russia-condemned-us-israel-strikes",
+          "title": "  No negotiations till US fulfils seven conditions : Iran security chief says Russia condemned US - Israel strikes",
+          "domain": "heraldglobe.com",
+          "seendate": "20261106T063000Z"
+        },
+        {
+          "url": "https://www.egyptindependent.com/irans-hardliners-see-a-weakened-trump-and-want-more-to-end-the-war/",
+          "title": "Iran hardliners see a weakened Trump – and want more to end the war",
+          "domain": "egyptindependent.com",
+          "seendate": "20261107T100000Z"
+        },
+        {
+          "url": "http://www.az-online.de/politik/wie-sich-iran-auf-radioaktiven-fallout-nach-einem-us-angriff-vorbereitet-zr-94576882.html",
+          "title": "Atomangriff auf Iran : So bereitet sich Teheran aufs Schlimmste vor",
+          "domain": "az-online.de",
+          "seendate": "20261106T083000Z"
+        },
+        {
+          "url": "https://www.bbc.com/arabic/articles/cr9dzzq2ln57o",
+          "title": "ترامب : واشنطن ستقرر خلال أسبوعين بين اتخاذ خطوات إضافية تجاه إيران أو المصادقة على الاتفاق",
+          "domain": "bbc.com",
+          "seendate": "20261106T080000Z"
+        },
+        {
+          "url": "https://nypost.com/2026/11/05/us-news/top-us-commander-launches-podcast-joking-about-retirement-as-trump-weighs-next-iran-move/",
+          "title": "Top US commander launches podcast joking about retirement --- as Trump weighs next Iran move",
+          "domain": "nypost.com",
+          "seendate": "20261105T233000Z"
+        },
+        {
+          "url": "http://www.middleeaststar.com/news/279418245/us-offers-20-million-reward-for-information-on-iran-nuclear-program",
+          "title": "US Offers $20 Million Reward For Information On Iran Nuclear Program",
+          "domain": "middleeaststar.com",
+          "seendate": "20261107T100000Z"
+        },
+        {
+          "url": "http://www.malaysiasun.com/news/279418245/us-offers-20-million-reward-for-information-on-iran-nuclear-program",
+          "title": "US Offers $20 Million Reward For Information On Iran Nuclear Program",
+          "domain": "malaysiasun.com",
+          "seendate": "20261107T100000Z"
+        },
+        {
+          "url": "http://www.iranherald.com/news/279418245/us-offers-20-million-reward-for-information-on-iran-nuclear-program",
+          "title": "US Offers $20 Million Reward For Information On Iran Nuclear Program",
+          "domain": "iranherald.com",
+          "seendate": "20261107T113000Z"
+        },
+        {
+          "url": "https://www.tamatoledonews.com/opinion/editorials/2026/11/06/does-a-1946-interview-in-germany-explain-our-wars-on-venezuela-and-iran-today/",
+          "title": "Does a 1946 interview in Germany explain our wars on Venezuela and Iran today ? | News , Sports , Jobs",
+          "domain": "tamatoledonews.com",
+          "seendate": "20261106T110000Z"
+        },
+        {
+          "url": "http://www.kreiszeitung.de/politik/wie-sich-iran-auf-radioaktiven-fallout-nach-einem-us-angriff-vorbereitet-zr-94576882.html",
+          "title": "Atomangriff auf Iran : So bereitet sich Teheran aufs Schlimmste vor",
+          "domain": "kreiszeitung.de",
+          "seendate": "20261106T083000Z"
+        },
+        {
+          "url": "https://www.kreiszeitung.de/politik/wie-sich-iran-auf-radioaktiven-fallout-nach-einem-us-angriff-vorbereitet-zr-94576882.html",
+          "title": "Atomangriff auf Iran : So bereitet sich Teheran aufs Schlimmste vor",
+          "domain": "kreiszeitung.de",
+          "seendate": "20261106T083000Z"
+        },
+        {
+          "url": "https://inosmi.ru/20261105/ssha-281006654.html",
+          "title": "Ядерный удар США по Ирану : мотивы и сдерживающие факторы ( Al Mayadeen , Ливан ) ",
+          "domain": "inosmi.ru",
+          "seendate": "20261105T220000Z"
+        },
+        {
+          "url": "https://www.raya.ps/articles/1228329.html",
+          "title": "كيف تحولت  حرب إسقاط طهران  إلى مقصلة سياسية في واشنطن وتل أبيب ؟ ",
+          "domain": "raya.ps",
+          "seendate": "20261106T113000Z"
+        },
+        {
+          "url": "https://golosarmenii.am/voyna-trampa-s-iranom-mozhet-perekinut/",
+          "title": "ВОЙНА ТРАМПА С ИРАНОМ МОЖЕТ ПЕРЕКИНУТЬСЯ НА ЕВРОПУ",
+          "domain": "golosarmenii.am",
+          "seendate": "20261106T080000Z"
+        },
+        {
+          "url": "https://www.nile.eg/%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%B1-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9-%D8%B3%D9%82%D9%88%D8%B7-%D8%B3%D9%8A%D8%A7%D8%B3%D8%A7%D8%AA-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%81%D9%8A",
+          "title": "قناة النيل للأخبار | النهار اللبنانية : سقوط سياسات ترامب في الانتخابات الأميركية",
+          "domain": "nile.eg",
+          "seendate": "20261106T093000Z"
+        },
+        {
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=07112026&id=4ad69af4-65ee-4673-abf4-f46c33b83062",
+          "title": "من قصف المدن إلى استهداف كابلات الاتصال ومراكز البيانات .. كيف تغير شكل الحروب في مائة عام ؟ ",
+          "domain": "shorouknews.com",
+          "seendate": "20261107T093000Z"
+        },
+        {
+          "url": "https://index.hu/kulfold/2026/11/03/egyesult-allamok-felidos-valasztas-donald-trump-szenatus-kepviselohaz-republikanus-demokrata/bucsuzunk/",
+          "title": "Index - Külföld - Búcsúzunk - Elsöprő többséget szereztek a demokrata képviselők és szenátorok",
+          "domain": "index.hu",
+          "seendate": "20261106T073000Z"
+        }
+      ]
     },
     {
       "id": "trump_china",
@@ -271,9 +259,284 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "429 rate-limited",
-      "example_urls": [],
-      "articles": []
+      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
+      "example_urls": [
+        "https://www.ynet.co.il/news/article/yokra14949028",
+        "https://www.protagon.gr/themata/i-diethnis-skakiera-meta-tis-endiameses-ekloges-44343469319",
+        "https://economictimes.indiatimes.com/news/international/world-news/us-midterms-upended-congress-but-trump-still-commands-foreign-policy/articleshow/135589895.cms"
+      ],
+      "articles": [
+        {
+          "url": "https://www.ynet.co.il/news/article/yokra14949028",
+          "title": "הסלמה מול איראן ? ממתינים לקולות החיילים",
+          "domain": "ynet.co.il",
+          "seendate": "20261106T013000Z"
+        },
+        {
+          "url": "https://www.protagon.gr/themata/i-diethnis-skakiera-meta-tis-endiameses-ekloges-44343469319",
+          "title": "Η διεθνής σκακιέρα μετά τις ενδιάμεσες εκλογές",
+          "domain": "protagon.gr",
+          "seendate": "20261106T063000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/us-midterms-upended-congress-but-trump-still-commands-foreign-policy/articleshow/135589895.cms",
+          "title": "US midterms upended Congress but Trump still commands foreign policy",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20261106T030000Z"
+        },
+        {
+          "url": "https://bworldonline.com/world/2026/11/06/791973/midterms-upended-congress-but-trump-still-commands-foreign-policy/",
+          "title": "Midterms upended Congress but Trump still commands foreign policy",
+          "domain": "bworldonline.com",
+          "seendate": "20261106T050000Z"
+        },
+        {
+          "url": "https://www.euronews.com/2026/11/06/hormuz-standoff-not-sustainable-senior-iranian-lawmaker-tells-euronews",
+          "title": "Hormuz standoff  not sustainable , senior Iranian lawmaker tells Euronews",
+          "domain": "euronews.com",
+          "seendate": "20261106T120000Z"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/10927750",
+          "title": "  공격도 종전도 쉽지 않다 … 중간선거 참패한 트럼프 , 이란전 진퇴양난 [ 1일1트 ] ",
+          "domain": "biz.heraldcorp.com",
+          "seendate": "20261105T220000Z"
+        },
+        {
+          "url": "http://www.cfi.net.cn/p20261106000204.html",
+          "title": "特朗普刚输掉国会 ， 内塔尼亚胡也悬了 ， 哥俩都要栽 ？- CFi . CN 中财网",
+          "domain": "cfi.net.cn",
+          "seendate": "20261106T020000Z"
+        },
+        {
+          "url": "https://world.qianlong.com/2026/1106/8747686.shtml",
+          "title": "中期选举失利 美国共和党内争相  甩锅 - 千龙网 · 中国首都网",
+          "domain": "world.qianlong.com",
+          "seendate": "20261106T043000Z"
+        },
+        {
+          "url": "https://kathimerini.com.cy/gr/politiki/diplomatia/ipa-to-apotelesma-ton-eklogwn-den-tha-allaxei-sxeseis-me-kypro-i-ellada",
+          "title": "ΗΠΑ : Το αποτέλεσμα των εκλογών δεν θα αλλάξει σχέσεις με Κύπρο ή Ελλάδα",
+          "domain": "kathimerini.com.cy",
+          "seendate": "20261103T111500Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/after-the-us-midterm-rout-of-trumpism-the-world-struggles-to-trust-america-again/articleshow/135639269.cms",
+          "title": "After the US midterm rout of Trumpism , the world struggles to trust America again",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20261107T160000Z"
+        },
+        {
+          "url": "https://dailycaller.com/2026/11/05/pentagon-intel-iran-space-superiority-raises-questions/",
+          "title": "Pentagon Own Intel Undercuts Claims Of Space Superiority Over Iran",
+          "domain": "dailycaller.com",
+          "seendate": "20261106T020000Z"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/after-the-us-midterm-rout-of-trumpism-the-world-struggles-to-trust-america-again/articleshow/135627272.cms",
+          "title": "After the US midterm rout of Trumpism , the world struggles to trust America again",
+          "domain": "economictimes.indiatimes.com",
+          "seendate": "20261107T063000Z"
+        },
+        {
+          "url": "https://news.gooya.com/2026/11/post-114774.php",
+          "title": "بادهای گرم در زمستان سیاست : گردش به چپ ؟ مهرداد درویش‌پور",
+          "domain": "news.gooya.com",
+          "seendate": "20261107T070000Z"
+        },
+        {
+          "url": "https://inosmi.ru/20261105/ssha-281006654.html",
+          "title": "Ядерный удар США по Ирану : мотивы и сдерживающие факторы ( Al Mayadeen , Ливан ) ",
+          "domain": "inosmi.ru",
+          "seendate": "20261105T220000Z"
+        },
+        {
+          "url": "https://www.wsbradio.com/news/politics/after-us-midterm/F52FTUMJVE3W7AR5H27JQEQAWA/",
+          "title": "After rout of Trumpism , world struggles to trust America again",
+          "domain": "wsbradio.com",
+          "seendate": "20261107T060000Z"
+        },
+        {
+          "url": "https://www.durangoherald.com/articles/associated-press/after-the-us-midterm-rout-of-trumpism-the-world-struggles-to-trust-america-again/",
+          "title": "After the US midterm rout of Trumpism , the world struggles to trust America again",
+          "domain": "durangoherald.com",
+          "seendate": "20261107T113000Z"
+        },
+        {
+          "url": "https://dominicanrepublicpost.com/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific/",
+          "title": "War , tariffs and China : What the US midterms mean for the Asia - Pacific - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+          "domain": "dominicanrepublicpost.com",
+          "seendate": "20261103T021500Z"
+        },
+        {
+          "url": "http://www.dailyadvance.com/news/world/after-the-us-midterm-rout-of-trumpism-the-world-struggles-to-trust-america-again/article_335dfa6f-4d8e-5e77-8c57-492ccfd2be24.html",
+          "title": "After the US midterm rout of Trumpism , the world struggles to trust America again",
+          "domain": "dailyadvance.com",
+          "seendate": "20261107T063000Z"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/toi-blogs/beyond-borders/in-foreign-policy-why-donald-trump-is-not-a-lame-duck-president/articleshow/135629858.cms",
+          "title": "In foreign policy , why Donald Trump is not a  lame duck  president",
+          "domain": "timesofindia.indiatimes.com",
+          "seendate": "20261107T080000Z"
+        },
+        {
+          "url": "https://www.ariananews.af/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-tells-reuters/",
+          "title": "Iran sent nuclear proposal to the US via Qatar , senior Iranian official tells Reuters | Ariana News",
+          "domain": "ariananews.af",
+          "seendate": "20261106T110000Z"
+        },
+        {
+          "url": "https://sudanile.com/%D8%A7%D9%84%D9%81%D8%A7%D8%B4%D8%B1-%D9%88-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%85%D8%A7%D8%B0%D8%A7-%D9%86%D8%B3%D8%AA%D9%81%D9%8A%D8%AF-%D9%85%D9%86-%D8%B3%D9%82%D9%88%D8%B7-%D8%A7%D9%84/",
+          "title": "الفاشر و واشنطن .. ماذا نستفيد من سقوط الجمهوريين ؟ ",
+          "domain": "sudanile.com",
+          "seendate": "20261106T010000Z"
+        },
+        {
+          "url": "https://www.163.com/dy/article/LB1N4261052182V3.html",
+          "title": "美国中期选举 ， 10个严重后果",
+          "domain": "163.com",
+          "seendate": "20261106T003000Z"
+        },
+        {
+          "url": "https://news.ifeng.com/c/8xpAgpCQlkq",
+          "title": "美国中期选举 ， 10个严重后果",
+          "domain": "news.ifeng.com",
+          "seendate": "20261106T020000Z"
+        },
+        {
+          "url": "https://alhurra.com/53049",
+          "title": "تدفق السلاح إلى الخليج .. هل يحدث شيء في واشنطن ؟ ",
+          "domain": "alhurra.com",
+          "seendate": "20261107T113000Z"
+        },
+        {
+          "url": "https://www.marklevinshow.com/2026/11/06/november-6th-2026/",
+          "title": "November 6th , 2026",
+          "domain": "marklevinshow.com",
+          "seendate": "20261107T050000Z"
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2026-11-06/4640203.html",
+          "title": "重磅 ！ 美股全线大跌 ， 纳指跌超5 %， 英伟达市值一夜蒸发3万亿元 ； 伊朗开火 ； 多国联军 ， 发动空袭 ； 特朗普 ： 俄乌冲突接近解决丨每经早参",
+          "domain": "nbd.com.cn",
+          "seendate": "20261105T233000Z"
+        },
+        {
+          "url": "https://www.index.hr/vijesti/clanak/trump-je-gotov-sto-ce-biti-s-amerikom-i-svijetom-nakon-njega-ovo-su-scenariji/2854200.aspx?index_ref=homepage_comment_box_d&commentId=12428796",
+          "title": "Trump je gotova priča . Ovo su tri scenarija koja čekaju Ameriku i svijet",
+          "domain": "index.hr",
+          "seendate": "20261107T010000Z"
+        },
+        {
+          "url": "https://www.index.hr/vijesti/clanak/trump-je-gotov-sto-ce-biti-s-amerikom-i-svijetom-nakon-njega-ovo-su-scenariji/2854200.aspx?index_ref=homepage_comment_box_d&commentId=12428797",
+          "title": "Trump je gotova priča . Ovo su tri scenarija koja čekaju Ameriku i svijet",
+          "domain": "index.hr",
+          "seendate": "20261107T010000Z"
+        },
+        {
+          "url": "https://www.index.hr/vijesti/clanak/trump-je-gotov-sto-ce-biti-s-amerikom-i-svijetom-nakon-njega-ovo-su-scenariji/2854200.aspx?index_ref=homepage_comment_box_d&commentId=12428840",
+          "title": "Trump je gotova priča . Ovo su tri scenarija koja čekaju Ameriku i svijet",
+          "domain": "index.hr",
+          "seendate": "20261107T020000Z"
+        },
+        {
+          "url": "https://www.index.hr/vijesti/clanak/trump-je-gotov-sto-ce-biti-s-amerikom-i-svijetom-nakon-njega-ovo-su-scenariji/2854200.aspx?index_ref=homepage_comment_box_d&commentId=12429029",
+          "title": "Trump je gotova priča . Ovo su tri scenarija koja čekaju Ameriku i svijet",
+          "domain": "index.hr",
+          "seendate": "20261107T070000Z"
+        },
+        {
+          "url": "https://www.index.hr/vijesti/clanak/trump-je-gotov-sto-ce-biti-s-amerikom-i-svijetom-nakon-njega-ovo-su-scenariji/2854200.aspx?index_ref=homepage_comment_box_d&commentId=12429090",
+          "title": "Trump je gotova priča . Ovo su tri scenarija koja čekaju Ameriku i svijet",
+          "domain": "index.hr",
+          "seendate": "20261107T070000Z"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/investing/article-global-markets-were-already-fragile-big-ai-bets-could-break-them/",
+          "title": "Global markets were already fragile . Big AI bets could break them",
+          "domain": "theglobeandmail.com",
+          "seendate": "20261103T111500Z"
+        },
+        {
+          "url": "http://forex.cnfol.com/jingjiyaowen/20261106/32417199.shtml",
+          "title": "美国正在出现  两种经济 ？ 穆迪警告 ： 稍有冲击 ， 衰退风险就会急升 _ 汇市观察 _ 外汇 _ 中金在线",
+          "domain": "forex.cnfol.com",
+          "seendate": "20261106T033000Z"
+        },
+        {
+          "url": "https://www.union-bulletin.com/news/world/after-the-us-midterm-rout-of-trumpism-the-world-struggles-to-trust-america-again/article_749b1679-ff68-5121-b71f-15fcb555d80e.html",
+          "title": "After the US midterm rout of Trumpism , the world struggles to trust America again",
+          "domain": "union-bulletin.com",
+          "seendate": "20261107T060000Z"
+        },
+        {
+          "url": "https://www.2news.com/news/national/after-the-us-midterm-rout-of-trumpism-the-world-struggles-to-trust-america-again/article_c56907e3-4ee8-5e2a-a33c-a9a8b0822200.html",
+          "title": "After the US midterm rout of Trumpism , the world struggles to trust America again",
+          "domain": "2news.com",
+          "seendate": "20261107T100000Z"
+        },
+        {
+          "url": "http://www.africaleader.com/news/279409213/trump-to-strip-south-africa-and-rwanda-of-us-trade-benefits",
+          "title": "Trump to strip South Africa and Rwanda of US trade benefits",
+          "domain": "africaleader.com",
+          "seendate": "20261103T111500Z"
+        },
+        {
+          "url": "https://www.dailymaverick.co.za/article/2026-11-07-blue-landslide-in-us-gives-sa-hope-but-trump-still-has-sharp-teeth/",
+          "title": "Blue landslide in US gives SA hope but Trump still has sharp teeth",
+          "domain": "dailymaverick.co.za",
+          "seendate": "20261107T063000Z"
+        },
+        {
+          "url": "https://www.politicsweb.co.za/news/the-anc-lost-south-africa-agoa",
+          "title": "The ANC lost South Africa AGOA",
+          "domain": "politicsweb.co.za",
+          "seendate": "20261106T013000Z"
+        },
+        {
+          "url": "https://www.thevermilion.com/the-slap-at-trump-makes-brussels-and-meloni-breathe-a-sigh-of-relief/article_22517/",
+          "title": "The slap at Trump makes Brussels and Meloni breathe a sigh of relief",
+          "domain": "thevermilion.com",
+          "seendate": "20261107T113000Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202611063924937564.html",
+          "title": "晚报丨今晚21 : 30美国公布10月非农数据 ； 美股AI硬件股盘前集体反弹 ； 有大行开始  剥离  AI基建贷 ； 科技股  血洗  后 ， Anthropic IPO面临危机 ， 英伟达盯上电信老机房 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261106T110000Z"
+        },
+        {
+          "url": "https://www.wellandtribune.ca/news/world/europe/after-the-us-midterm-rout-of-trumpism-the-world-struggles-to-trust-america-again/article_6df2f0f3-8549-5ef6-b0af-d380fa35ff5c.html",
+          "title": "After the US midterm rout of Trumpism , the world struggles to trust America again",
+          "domain": "wellandtribune.ca",
+          "seendate": "20261107T070000Z"
+        },
+        {
+          "url": "http://www.texasguardian.com/news/279408958/if-our-people-vote-we-win-in-a-landslide-trump-urges-republicans-to-turn-out-ahead-of-us-midterms",
+          "title": "  If our people vote , we win in a landslide : Trump urges Republicans to turn out ahead of US midterms",
+          "domain": "texasguardian.com",
+          "seendate": "20261103T111500Z"
+        },
+        {
+          "url": "https://finance.eastmoney.com/a/202611043920936078.html",
+          "title": "有色 / 贵金属 | 铜 ： 关注美国中期选举结果 宏观冲击下铜价仍有下探风险 _ 东方财富网",
+          "domain": "finance.eastmoney.com",
+          "seendate": "20261104T013000Z"
+        },
+        {
+          "url": "https://warontherocks.com/can-washington-and-china-build-confidence-around-ai-and-stability/",
+          "title": "Can Washington and China Build Confidence Around AI and Stability ? ",
+          "domain": "warontherocks.com",
+          "seendate": "20261106T123000Z"
+        },
+        {
+          "url": "https://afr.net:443/podcasts/the-hamilton-corner-with-abraham-hamilton-iii/2026/october/guest-host-bishop-ew-jackson-chimes-in-on-the-midterm-election/",
+          "title": "Guest Host , Bishop E . W . Jackson , chimes in on the Midterm Election",
+          "domain": "afr.net",
+          "seendate": "20261106T040000Z"
+        }
+      ]
     },
     {
       "id": "military_strike",
@@ -406,17 +669,17 @@
   ],
   "comparison_table_21day": [
     {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.699,
+      "reference_id": "POST_FEB26",
+      "reference_type": "post-ceasefire",
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.5,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9441,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -428,17 +691,17 @@
       }
     },
     {
-      "reference_id": "POST_FEB26",
-      "reference_type": "post-ceasefire",
-      "composite_score": 0.6958,
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.4583,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.5,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.9247,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -452,15 +715,15 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.6859,
+      "composite_score": 0.4583,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.5,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.8654,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -474,15 +737,15 @@
     {
       "reference_id": "PRE_APR24",
       "reference_type": "pre-round",
-      "composite_score": 0.5111,
+      "composite_score": 0.2083,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.8165,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 1.0,
-        "source_diversity": 1.0,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -496,15 +759,15 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.3193,
+      "composite_score": 0.0417,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.8165,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.8491,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -534,15 +797,15 @@
       "volume_mean_daily": 0.0,
       "volume_peak": 0.0,
       "days_active": 0,
-      "articles_en": 250,
-      "articles_he": 250,
+      "articles_en": 0,
+      "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 135,
+      "unique_domains_total": 0,
       "tone_mean": null
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (5 errors in 7d, 3 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (5 errors in 7d, 5 in 21d). Scores are provisional."
   ]
 }
