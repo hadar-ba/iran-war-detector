@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp_utc": "2026-08-28T21:51:19.028092+00:00",
-      "headline_score_7day": 46,
-      "headline_score_21day": 46,
-      "status": "green"
-    },
-    {
       "timestamp_utc": "2026-09-04T02:57:43.940224+00:00",
       "headline_score_7day": 62,
       "headline_score_21day": 46,
@@ -356,6 +350,12 @@
     },
     {
       "timestamp_utc": "2026-11-08T17:42:51.209389+00:00",
+      "headline_score_7day": 62,
+      "headline_score_21day": 46,
+      "status": "yellow"
+    },
+    {
+      "timestamp_utc": "2026-11-09T04:42:02.447498+00:00",
       "headline_score_7day": 62,
       "headline_score_21day": 46,
       "status": "yellow"

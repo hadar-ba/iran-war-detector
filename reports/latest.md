@@ -1,6 +1,6 @@
 # Iran-Israel Conflict Pattern Detector
 
-**Run:** 2026-11-08 17:42 UTC  |  **21-day:** 20261018–20261108  |  **7-day:** 20261101–20261108
+**Run:** 2026-11-09 04:42 UTC  |  **21-day:** 20261019–20261109  |  **7-day:** 20261102–20261109
 
 ## Short-Window Spike (+17%)
 
@@ -22,6 +22,6 @@
 |-----------|------|-------|
 | QUIET_JAN26 | quiet | 62.5% |
 | PRE_FEB26 | pre-round | 62.5% |
-| POST_FEB26 | post-ceasefire | 59.3% |
+| POST_FEB26 | post-ceasefire | 62.3% |
 | PRE_OCT24 | pre-round | 20.8% |
 | PRE_APR24 | pre-round | 4.2% |
