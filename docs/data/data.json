@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-10T06:00:19.228358+00:00",
+  "updated_at": "2026-11-10T19:25:08.470817+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
-    "avg_7day": 51,
-    "delta_vs_avg": -5
+    "score": 62,
+    "status_he": "מתוח",
+    "avg_7day": 52,
+    "delta_vs_avg": 10
   },
   "archive_comparison": {
-    "score": 50,
+    "score": 46,
     "status_he": "דמיון נמוך",
     "reference_events": [
       "אפריל 2024",
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-10-30T04:25:23.456788+00:00",
-        "score": 50
-      },
-      {
         "ts": "2026-10-30T17:49:29.482556+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-11-10T06:00:19.226870+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-11-10T19:25:08.466401+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-09-04T15:51:31.395104+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-09-07T02:55:34.694401+00:00",
         "score": 62
@@ -356,23 +352,27 @@
       {
         "ts": "2026-11-10T06:00:19.226870+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-11-10T19:25:08.466401+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
       {
-        "label": "טרום פבר' 2026",
-        "score": 50,
-        "is_pre_conflict": true
-      },
-      {
         "label": "אחרי פבר' 2026",
-        "score": 50,
+        "score": 46,
         "is_pre_conflict": false
       },
       {
         "label": "שקט ינו' 2026",
-        "score": 49,
+        "score": 46,
         "is_pre_conflict": false
+      },
+      {
+        "label": "טרום פבר' 2026",
+        "score": 46,
+        "is_pre_conflict": true
       },
       {
         "label": "טרום אפר' 2024",
@@ -381,14 +381,30 @@
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 8,
+        "score": 4,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [],
-    "total_count": 0,
+    "list": [
+      "15min.lt",
+      "163.com",
+      "20minutes.fr",
+      "24-ore.com",
+      "4029tv.com",
+      "902.gr",
+      "aa.com.tr",
+      "abc6onyourside.com",
+      "adnkronos.com",
+      "advocateanddemocrat.com",
+      "affaritaliani.it",
+      "ahaber.com.tr",
+      "aif.ru",
+      "akhbaregy.com",
+      "aksam.com.tr"
+    ],
+    "total_count": 286,
     "articles_72h": null
   }
 }
