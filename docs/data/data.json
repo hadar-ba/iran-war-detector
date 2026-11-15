@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-15T04:51:03.037516+00:00",
+  "updated_at": "2026-11-15T18:35:46.694786+00:00",
   "short_term": {
-    "score": 46,
-    "status_he": "שקט",
+    "score": 62,
+    "status_he": "מתוח",
     "avg_7day": 56,
-    "delta_vs_avg": -10
+    "delta_vs_avg": 6
   },
   "archive_comparison": {
     "score": 46,
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-11-03T05:23:32.031237+00:00",
-        "score": 47
-      },
-      {
         "ts": "2026-11-04T04:53:16.542959+00:00",
         "score": 46
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-11-15T04:51:03.035768+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-11-15T18:35:46.693428+00:00",
+        "score": 62
       }
     ],
     "month": [
-      {
-        "ts": "2026-09-12T03:09:40.554510+00:00",
-        "score": 62
-      },
       {
         "ts": "2026-09-13T03:10:22.955608+00:00",
         "score": 46
@@ -356,6 +352,10 @@
       {
         "ts": "2026-11-15T04:51:03.035768+00:00",
         "score": 46
+      },
+      {
+        "ts": "2026-11-15T18:35:46.693428+00:00",
+        "score": 62
       }
     ],
     "comparison_bars": [
@@ -387,24 +387,8 @@
     ]
   },
   "sources": {
-    "list": [
-      "1190talkradio.iheart.com",
-      "163.com",
-      "argentinastar.com",
-      "asianews.network",
-      "athina984.gr",
-      "australiannews.net",
-      "bangladeshsun.com",
-      "birminghamstar.com",
-      "blisty.cz",
-      "br.az",
-      "business-standard.com",
-      "chinanationalnews.com",
-      "clevelandjewishnews.com",
-      "dailyexcelsior.com",
-      "dialogos.com.cy"
-    ],
-    "total_count": 75,
+    "list": [],
+    "total_count": 0,
     "articles_72h": null
   }
 }
