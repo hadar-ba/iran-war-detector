@@ -1,16 +1,16 @@
 {
-  "timestamp_utc": "2026-11-19T20:04:19.959529+00:00",
+  "timestamp_utc": "2026-11-21T05:40:10.148869+00:00",
   "status": "yellow",
-  "headline_score_7day": 58,
-  "headline_score_21day": 46,
-  "score_jump": -4,
+  "headline_score_7day": 59,
+  "headline_score_21day": 50,
+  "score_jump": 1,
   "closest_pre_period_7day": "PRE_FEB26",
   "closest_pre_period_label_en": "the period before Operation Lion's Roar (February 2026)",
   "closest_pre_period_label_he": "התקופה שלפני מבצע 'שאגת הארי' (פברואר 2026)",
-  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (58%).",
-  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (58%).",
-  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (58% similarity). The 7-day reading is 12 points above the 21-day baseline, suggesting a recent and rapid development. The 21-day picture is calmer at 46% similarity to the post-Lion's Roar period (April–May 2026).",
-  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (58% דמיון). הקריאה ל-7 ימים גבוהה ב-12 נקודות מהבסיס ל-21 יום, מה שמצביע על התפתחות מהירה ועדכנית. התמונה ל-21 יום רגועה יותר עם 46% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026).",
+  "summary_en": "Short-term patterns show borderline similarity to pre-conflict periods (59%).",
+  "summary_he": "דפוסי הטווח הקצר מראים דמיון גבולי לתקופות טרום עימות (59%).",
+  "context_en": "In the last 7 days, news patterns are starting to resemble the period before Operation Lion's Roar (February 2026) (59% similarity). The 21-day picture is similar at 50% similarity to the post-Lion's Roar period (April–May 2026).",
+  "context_he": "ב-7 הימים האחרונים, דפוסי החדשות מתחילים להידמות להתקופה שלפני מבצע 'שאגת הארי' (פברואר 2026) (59% דמיון). התמונה ל-21 יום דומה עם 50% דמיון להתקופה שלאחר 'שאגת הארי' (אפריל–מאי 2026).",
   "signals": [
     {
       "id": "diplomatic_breakdown",
@@ -40,38 +40,9 @@
       "count_baseline_avg": null,
       "ratio_wow": null,
       "ratio_mom": null,
-      "error": "non-JSON body: 'Content-type: text/html; charset=utf-8\\nServer: GDELT API Server 2.0\\nAccess-Control-Allow-Origin: *\\nTiming-Allow-Origin: '",
-      "example_urls": [
-        "https://www.ammonnews.net/article/1045362",
-        "https://www.dw.com/en/fact-check-iranian-content-farms-reach-millions/a-79934190",
-        "https://krmg.com/2026/11/12/israel-hits-gaza-hospital-and-france-turns-away-a-settler-leader-and-other-mideast-news/"
-      ],
-      "articles": [
-        {
-          "url": "https://www.ammonnews.net/article/1045362",
-          "title": "الشرق الأوسط بين حرب مؤجلة وسلام مستبعد | كتاب عمون",
-          "domain": "ammonnews.net",
-          "seendate": "20261116T081500Z"
-        },
-        {
-          "url": "https://www.dw.com/en/fact-check-iranian-content-farms-reach-millions/a-79934190",
-          "title": "Fact check :  Iranian  content farms reach millions",
-          "domain": "dw.com",
-          "seendate": "20261114T210000Z"
-        },
-        {
-          "url": "https://krmg.com/2026/11/12/israel-hits-gaza-hospital-and-france-turns-away-a-settler-leader-and-other-mideast-news/",
-          "title": "Israel hits Gaza hospital and France turns away a settler leader , and other Mideast news",
-          "domain": "krmg.com",
-          "seendate": "20261113T004500Z"
-        },
-        {
-          "url": "https://www.raya.ps/articles/1228771.html",
-          "title": "ماذا بعد الانتخابات الاميركية والاسرائيلية . .. إقليمياً ولبنانياً ؟ ",
-          "domain": "raya.ps",
-          "seendate": "20261113T180000Z"
-        }
-      ]
+      "error": "429 rate-limited",
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "trump_china",
@@ -86,109 +57,8 @@
       "ratio_wow": null,
       "ratio_mom": null,
       "error": "429 rate-limited",
-      "example_urls": [
-        "https://www.lifo.gr/now/world/tramp-gia-iran-tha-doyme-ti-tha-ginei-meta-tin-protohronia",
-        "https://www.skai.gr/news/world/tramp-tha-doume-ti-tha-ginei-me-to-iran-meta-tin-protoxronia",
-        "https://pakobserver.net/us-midterm-elections-their-geopolitical-significance/"
-      ],
-      "articles": [
-        {
-          "url": "https://www.lifo.gr/now/world/tramp-gia-iran-tha-doyme-ti-tha-ginei-meta-tin-protohronia",
-          "title": "Τραμπ για Ιράν : Θα δούμε τι θα γίνει μετά την Πρωτοχρονιά",
-          "domain": "lifo.gr",
-          "seendate": "20261119T171500Z"
-        },
-        {
-          "url": "https://www.skai.gr/news/world/tramp-tha-doume-ti-tha-ginei-me-to-iran-meta-tin-protoxronia",
-          "title": "Τραμπ : « Θα δούμε τι θα γίνει με το Ιράν μετά την Πρωτοχρονιά » ",
-          "domain": "skai.gr",
-          "seendate": "20261119T171500Z"
-        },
-        {
-          "url": "https://pakobserver.net/us-midterm-elections-their-geopolitical-significance/",
-          "title": "US midterm elections & their geopolitical significance",
-          "domain": "pakobserver.net",
-          "seendate": "20261113T004500Z"
-        },
-        {
-          "url": "https://www.wdbj7.com/2026/11/19/nuclear-arms-ending-wars-iran-ukraine-top-agenda-trump-xi-putin-meeting/",
-          "title": "Trump , Xi and Putin hold historic trilateral meeting",
-          "domain": "wdbj7.com",
-          "seendate": "20261119T171500Z"
-        },
-        {
-          "url": "https://www.cnc3.co.tt/trump-xi-and-putin-hold-rare-3-way-talks-on-nuclear-risks-but-deliver-no-breakthroughs/",
-          "title": "Trump , Xi and Putin hold rare 3 - way talks on nuclear risks but deliver no breakthroughs",
-          "domain": "cnc3.co.tt",
-          "seendate": "20261119T193000Z"
-        },
-        {
-          "url": "https://www.sigmalive.com/news/international/1337638/sfodri-epithesi-roumpio-sto-diethnes-poiniko-dikastirio-inai-ilithioi",
-          "title": "Σφοδρή επίθεση Ρούμπιο στο Διεθνές Ποινικό Δικαστήριο – « Είναι ηλίθιοι » ",
-          "domain": "sigmalive.com",
-          "seendate": "20261114T210000Z"
-        },
-        {
-          "url": "https://www.skaikritis.gr/kina-epivevaiothike-i-proti-trimeris-synodos-si-trab-kai-poutin-stis-19-noemvriou/",
-          "title": "Κίνα : Επιβεβαιώθηκε η πρώτη τριμερής σύνοδος Σι , Τραμπ και Πούτιν στις 19 Νοεμβρίου",
-          "domain": "skaikritis.gr",
-          "seendate": "20261116T081500Z"
-        },
-        {
-          "url": "https://www.elystandard.co.uk/news/national/26745380.no-major-breakthroughs-trump-xi-putin-sit-historic-meeting/",
-          "title": "No major breakthroughs as Trump , Xi and Putin sit down for historic meeting",
-          "domain": "elystandard.co.uk",
-          "seendate": "20261119T171500Z"
-        },
-        {
-          "url": "https://www.cbc.ca/news/world/xi-putin-trump-9.7428276",
-          "title": "3 world leaders walked into a room and took aim at international law and institutions",
-          "domain": "cbc.ca",
-          "seendate": "20261119T193000Z"
-        },
-        {
-          "url": "https://www.knoe.com/2026/11/19/nuclear-arms-ending-wars-iran-ukraine-top-agenda-trump-xi-putin-meeting/",
-          "title": "Trump , Xi and Putin hold historic trilateral meeting",
-          "domain": "knoe.com",
-          "seendate": "20261119T171500Z"
-        },
-        {
-          "url": "https://www.ynetnews.com/article/syqkfq80gx",
-          "title": "Money , spies and Al Jazeera : How Qatar intelligence services wield power",
-          "domain": "ynetnews.com",
-          "seendate": "20261115T074500Z"
-        },
-        {
-          "url": "https://www.wisn.com/article/iran-rhetoric-elections-trump-mideast-limbo/74431136",
-          "title": "With shifting Iran rhetoric , Trump leaves Mideast in limbo",
-          "domain": "wisn.com",
-          "seendate": "20261114T210000Z"
-        },
-        {
-          "url": "http://www.haitisun.com/news/279429293/u-s-stocks-lose-steam-on-nvidia-ceo-exit-rising-bond-yields",
-          "title": "U . S . stocks lose steam on Nvidia CEO exit , rising bond yields",
-          "domain": "haitisun.com",
-          "seendate": "20261113T004500Z"
-        },
-        {
-          "url": "http://www.bangladeshsun.com/news/279429293/u-s-stocks-lose-steam-on-nvidia-ceo-exit-rising-bond-yields",
-          "title": "U . S . stocks lose steam on Nvidia CEO exit , rising bond yields",
-          "domain": "bangladeshsun.com",
-          "seendate": "20261113T004500Z"
-        },
-        {
-          "url": "http://www.australiannews.net/news/279429293/nasdaq-extends-losses-on-nvidia-ceo-s-resignation-mideast-hostilities",
-          "title": "Nasdaq extends losses on Nvidia CEO resignation , Mideast hostilities",
-          "domain": "australiannews.net",
-          "seendate": "20261113T004500Z"
-        },
-        {
-          "url": "http://www.myanmarnews.net/news/279429293/nasdaq-extends-losses-on-nvidia-ceo-s-resignation-mideast-hostilities",
-          "title": "Nasdaq extends losses on Nvidia CEO resignation , Mideast hostilities",
-          "domain": "myanmarnews.net",
-          "seendate": "20261113T004500Z"
-        }
-      ]
+      "example_urls": [],
+      "articles": []
     },
     {
       "id": "military_strike",
@@ -209,17 +79,39 @@
   ],
   "comparison_table_7day": [
     {
+      "reference_id": "PRE_FEB26",
+      "reference_type": "pre-round",
+      "composite_score": 0.5853,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.7616,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
       "reference_id": "QUIET_JAN26",
       "reference_type": "quiet",
-      "composite_score": 0.7091,
+      "composite_score": 0.5719,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
-        "cross_lang_correlation": 0.7071,
-        "raw_volume": 0.0,
-        "source_diversity": 0.7972,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.6815,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -233,59 +125,15 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.5885,
+      "composite_score": 0.4984,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 1.0,
         "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.7808,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_FEB26",
-      "reference_type": "pre-round",
-      "composite_score": 0.5801,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.7308,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "PRE_APR24",
-      "reference_type": "pre-round",
-      "composite_score": 0.4507,
-      "is_pre_round": true,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
-        "raw_volume": 1.0,
-        "source_diversity": 0.8769,
+        "raw_volume": 0.2406,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -299,15 +147,37 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.2574,
+      "composite_score": 0.1265,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
         "silent_signals": null,
         "confluence": 0.0,
-        "cross_lang_correlation": 0.5774,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.509,
+        "source_diversity": 0.0,
+        "tone": 0.5
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "PRE_APR24",
+      "reference_type": "pre-round",
+      "composite_score": 0.0417,
+      "is_pre_round": true,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 0.0,
+        "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
-        "source_diversity": 0.717,
+        "source_diversity": 0.0,
         "tone": 0.5
       },
       "weights_applied": {
@@ -323,7 +193,7 @@
     {
       "reference_id": "POST_FEB26",
       "reference_type": "post-ceasefire",
-      "composite_score": 0.4583,
+      "composite_score": 0.4992,
       "is_pre_round": false,
       "warn": false,
       "sub_scores": {
@@ -332,29 +202,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
-      },
-      "weights_applied": {
-        "confluence": 0.4167,
-        "cross_lang_correlation": 0.1667,
-        "raw_volume": 0.1667,
-        "source_diversity": 0.1667,
-        "tone": 0.0833
-      }
-    },
-    {
-      "reference_id": "QUIET_JAN26",
-      "reference_type": "quiet",
-      "composite_score": 0.4583,
-      "is_pre_round": false,
-      "warn": false,
-      "sub_scores": {
-        "silent_signals": null,
-        "confluence": 1.0,
-        "cross_lang_correlation": 0.0,
-        "raw_volume": 0.0,
-        "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9902
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -367,7 +215,7 @@
     {
       "reference_id": "PRE_FEB26",
       "reference_type": "pre-round",
-      "composite_score": 0.4583,
+      "composite_score": 0.4979,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -376,7 +224,29 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9751
+      },
+      "weights_applied": {
+        "confluence": 0.4167,
+        "cross_lang_correlation": 0.1667,
+        "raw_volume": 0.1667,
+        "source_diversity": 0.1667,
+        "tone": 0.0833
+      }
+    },
+    {
+      "reference_id": "QUIET_JAN26",
+      "reference_type": "quiet",
+      "composite_score": 0.4929,
+      "is_pre_round": false,
+      "warn": false,
+      "sub_scores": {
+        "silent_signals": null,
+        "confluence": 1.0,
+        "cross_lang_correlation": 0.0,
+        "raw_volume": 0.0,
+        "source_diversity": 0.0,
+        "tone": 0.915
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -411,7 +281,7 @@
     {
       "reference_id": "PRE_OCT24",
       "reference_type": "pre-round",
-      "composite_score": 0.0417,
+      "composite_score": 0.0771,
       "is_pre_round": true,
       "warn": false,
       "sub_scores": {
@@ -420,7 +290,7 @@
         "cross_lang_correlation": 0.0,
         "raw_volume": 0.0,
         "source_diversity": 0.0,
-        "tone": 0.5
+        "tone": 0.9255
       },
       "weights_applied": {
         "confluence": 0.4167,
@@ -433,15 +303,15 @@
   ],
   "current_metrics": {
     "window_7d": {
-      "volume_total": 0,
-      "volume_mean_daily": 0.0,
-      "volume_peak": 0.0,
-      "days_active": 0,
-      "articles_en": 135,
+      "volume_total": 9.923,
+      "volume_mean_daily": 0.5513,
+      "volume_peak": 1.2644,
+      "days_active": 18,
+      "articles_en": 0,
       "articles_he": 0,
       "articles_fa": 0,
       "confluence_score": 0.0,
-      "unique_domains_total": 114,
+      "unique_domains_total": 0,
       "tone_mean": null
     },
     "window_21d": {
@@ -454,10 +324,10 @@
       "articles_fa": 0,
       "confluence_score": 0.0,
       "unique_domains_total": 0,
-      "tone_mean": null
+      "tone_mean": -3.0344
     }
   },
   "data_quality_notes": [
-    "Some features missing due to API rate limits (4 errors in 7d, 5 in 21d). Scores are provisional."
+    "Some features missing due to API rate limits (4 errors in 7d, 4 in 21d). Scores are provisional."
   ]
 }

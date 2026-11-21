@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-19T20:04:19.961073+00:00",
+  "updated_at": "2026-11-21T05:40:10.150179+00:00",
   "short_term": {
-    "score": 58,
+    "score": 59,
     "status_he": "מתוח",
-    "avg_7day": 55,
+    "avg_7day": 56,
     "delta_vs_avg": 3
   },
   "archive_comparison": {
-    "score": 46,
+    "score": 50,
     "status_he": "דמיון נמוך",
     "reference_events": [
       "אפריל 2024",
@@ -60,10 +60,6 @@
   "trend": {
     "week": [
       {
-        "ts": "2026-11-07T17:31:22.430070+00:00",
-        "score": 46
-      },
-      {
         "ts": "2026-11-08T17:42:51.209389+00:00",
         "score": 62
       },
@@ -114,13 +110,13 @@
       {
         "ts": "2026-11-19T20:04:19.959529+00:00",
         "score": 58
+      },
+      {
+        "ts": "2026-11-21T05:40:10.148869+00:00",
+        "score": 59
       }
     ],
     "month": [
-      {
-        "ts": "2026-09-17T16:19:50.708355+00:00",
-        "score": 46
-      },
       {
         "ts": "2026-09-19T03:10:10.616878+00:00",
         "score": 46
@@ -356,23 +352,27 @@
       {
         "ts": "2026-11-19T20:04:19.959529+00:00",
         "score": 58
+      },
+      {
+        "ts": "2026-11-21T05:40:10.148869+00:00",
+        "score": 59
       }
     ],
     "comparison_bars": [
       {
         "label": "אחרי פבר' 2026",
-        "score": 46,
-        "is_pre_conflict": false
-      },
-      {
-        "label": "שקט ינו' 2026",
-        "score": 46,
+        "score": 50,
         "is_pre_conflict": false
       },
       {
         "label": "טרום פבר' 2026",
-        "score": 46,
+        "score": 50,
         "is_pre_conflict": true
+      },
+      {
+        "label": "שקט ינו' 2026",
+        "score": 49,
+        "is_pre_conflict": false
       },
       {
         "label": "טרום אפר' 2024",
@@ -381,30 +381,14 @@
       },
       {
         "label": "טרום אוק' 2024",
-        "score": 4,
+        "score": 8,
         "is_pre_conflict": true
       }
     ]
   },
   "sources": {
-    "list": [
-      "ammonnews.net",
-      "australiannews.net",
-      "bangladeshsun.com",
-      "cbc.ca",
-      "cnc3.co.tt",
-      "dw.com",
-      "elystandard.co.uk",
-      "haitisun.com",
-      "knoe.com",
-      "krmg.com",
-      "lifo.gr",
-      "myanmarnews.net",
-      "pakobserver.net",
-      "raya.ps",
-      "sigmalive.com"
-    ],
-    "total_count": 20,
-    "articles_72h": 135
+    "list": [],
+    "total_count": 0,
+    "articles_72h": null
   }
 }
